@@ -1,0 +1,11 @@
+{
+  "key": "medicinraadet_2020_metodevejledning",
+  "citation": "Medicinrådet (2020): Medicinrådets metodevejledning for vurdering af nye lægemidler, version approved by Danske Regioner's board 28 Oct 2020 (copy on regioner.dk; likely superseded)",
+  "doi": null,
+  "url": "https://www.regioner.dk/media/14302/medicinraadets-metodevejledning-for-vurdering-af-nye-laegemidler-pdf.pdf",
+  "media_type": "application/pdf",
+  "sha256": "21d9949fdb3be7c3048328e0bbc196471cdf6fd3e933129e961e06ea16d076d2",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:24:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

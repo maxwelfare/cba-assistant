@@ -1,0 +1,11 @@
+{
+ "key": "rethlefsen_2021_prisma_s",
+ "citation": "Rethlefsen ML, Kirtley S, Waffenschmidt S, et al. (2021). PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews. Systematic Reviews 10:39.",
+ "doi": "10.1186/s13643-020-01542-z",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7839230/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "e5c1036e41ce4be10864f830be8d9e38b277ab0b656c623675bedb813432ca8e",
+ "licence": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+ "fetched": "2026-11-07T20:08:00Z",
+ "text_method": ".venv/bin/python -I <script> original.xml text.txt (ElementTree itertext-style walk, tags removed)"
+}

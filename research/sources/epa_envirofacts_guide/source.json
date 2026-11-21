@@ -1,0 +1,11 @@
+{
+ "key": "epa_envirofacts_guide",
+ "citation": "U.S. EPA. Envirofacts Data Service API (page last updated June 2, 2026; fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://www.epa.gov/enviro/envirofacts-data-service-api",
+ "media_type": "text/html",
+ "sha256": "ca3d6d25a6eb4667d790a3947686fcd36705f0dce6b7d9f44cbb90dd9b247ad4",
+ "licence": "U.S. government work; licence not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

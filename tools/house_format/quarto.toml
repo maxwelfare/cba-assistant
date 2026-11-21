@@ -1,0 +1,13 @@
+# The Quarto release the house format is built for, and the SHA-256 of each platform's tarball, read 2026-11-14 from
+# the release's quarto-1.11.9-checksums.txt. tools/quarto_setup.py installs this version and refuses any tarball whose
+# digest differs. It sits beside the format because Typst's behaviour changes between minor versions, so the two are
+# upgraded together; Typst ships inside Quarto's release, so these rows cover it too. A row exists for every platform
+# whose release is a tarball. `tested` lists the platforms the install has run on; on any other, the install warns
+# that the platform is untested with this version. Windows has no row: its release is a zip of unmeasured layout.
+version = "1.11.9"
+tested = ["linux-amd64"]
+
+[sha256]
+linux-amd64 = "9d037baa3b38ffac7217edca1d2e53760b0fab4d5749220740a32056e03a1530"
+linux-arm64 = "8a96da89026c8cba0fc2607f62d99836eae8c5b65465b5d476af16f54c10d191"
+macos = "9fc24881f637612d80edbf16d62f01001fc7945a9a0c6ac247199002901e0a6d"

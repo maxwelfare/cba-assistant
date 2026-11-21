@@ -1,0 +1,13 @@
+{
+ "key": "svv_2021_v712_konsekvensanalyser",
+ "citation": "Statens vegvesen, Vegdirektoratet, Håndbok V712 Konsekvensanalyser, 2018, oppdatert 2021",
+ "doi": null,
+ "url": "https://www.vegvesen.no/globalassets/fag/handboker/hb-v712-konsekvensanalyser-2021.pdf",
+ "media_type": "application/pdf",
+ "sha256": "e6582bcbfa52e13b422961adcdc3a5843fce917314c10b25d130110041bc9171",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34:24Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "text_chars": 701156,
+ "language": "nb (Norwegian bokmål)"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "epa_2014_guidelines_economic_analyses",
+  "citation": "US EPA National Center for Environmental Economics (17 Dec 2010, updated May 2014). Guidelines for Preparing Economic Analyses.",
+  "doi": null,
+  "url": "https://www.epa.gov/sites/default/files/2017-08/documents/ee-0568-50.pdf",
+  "media_type": "application/pdf",
+  "sha256": "82f05835a316fb523caf08e7b3f2bff5627b10367712f0d1cb956fa2819100ec",
+  "licence": "US government work; licence not stated on the document",
+  "fetched_utc": "2026-11-09T16:36:14+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

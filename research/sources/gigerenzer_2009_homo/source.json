@@ -1,0 +1,11 @@
+{
+ "key": "gigerenzer_2009_homo",
+ "citation": "Gigerenzer G, Brighton H (2009). Homo heuristicus: Why biased minds make better inferences. Topics in Cognitive Science 1(1):107-143.",
+ "doi": "10.1111/j.1756-8765.2008.01006.x",
+ "url": "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf",
+ "media_type": "application/pdf",
+ "sha256": "9cca04fe7874f565a5febd65f024ef1625b1b97416708fa9ed194928de557d49",
+ "licence": "not stated (the published journal pages, copyright Cognitive Science Society, as hosted on a UC Irvine course page; Wiley's own copy answered 403)",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "strata_2024_pv_3_zingsnis",
+ "citation": "Strateginės analizės centras (STRATA) (2024). Poveikio vertinimas: 3 žingsnis, Laukiami rezultatai. Official file strata.gov.lt/wp-content/uploads/2024/04/3-zingsnis.pdf.",
+ "doi": null,
+ "url": "http://web.archive.org/web/20240917id_/https://strata.gov.lt/wp-content/uploads/2024/04/3-zingsnis.pdf",
+ "media_type": "application/pdf",
+ "sha256": "0f946e5a646d6154af6adca474c7b512bf31eb181baa09735a8ead6138003aeb",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:54:28Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "note": "Lithuanian text, diacritics checked readable. Copy taken from the Internet Archive (Wayback id_ raw capture) because the official host is behind Cloudflare."
+}

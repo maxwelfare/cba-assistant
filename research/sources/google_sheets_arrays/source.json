@@ -1,0 +1,12 @@
+{
+ "key": "google_sheets_arrays",
+ "citation": "Google. Docs Editors Help (google_sheets_arrays), https://support.google.com/docs/answer/3093275?hl=en, retrieved 2026-11-16.",
+ "doi": null,
+ "url": "https://support.google.com/docs/answer/3093275?hl=en",
+ "media_type": "text/html",
+ "sha256": "6e3c80616ce95c1a772605530725ed83c5b3674cc038010e5d6b5567a38a9607",
+ "licence": "none stated (Google help page; Creative Commons Attribution 4.0 applies to Google Help content only where its page says)",
+ "fetched": "2026-11-16T18:46:42Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8: the page declares no charset",
+ "how": "python tools/host_cooldown.py fetch https://support.google.com/docs/answer/3093275?hl=en"
+}

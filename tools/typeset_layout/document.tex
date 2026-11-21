@@ -1,0 +1,62 @@
+% The layout of a case's longer documents (the policy paper, the technical appendix or note): US letter,
+% one column of 11 pt Pagella 6 in wide, about 89 characters, inside the 90 a single column may run to
+% (notes/pdf_layout_review.md 1.1), on side margins of 1.25 in, the width that line leaves (IFS's text
+% is 5.9 in wide, 81 to 88 characters; RFF's long paper runs 82 to 86: research/report_layout.md 3.2);
+% a bottom margin a quarter inch larger than the top; numbered pages. At 11 pt the first-level math
+% indices are 8 pt, the checklist's floor. tools/typeset.py runs it with the document as \jobname.md.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,textwidth=6in,hmarginratio=1:1,top=0.75in,bottom=1in]{geometry}
+\usepackage{typeset-common}
+\newcommand{\typesettitle}[1]{%
+  {\centering\typesetlato\bfseries\LARGE\typesetheadicon#1\par}\vspace{\baselineskip}}
+% The policy paper's cover, a page of its own: tools/typeset.py writes its title, the dateline under it and a
+% credit block straight after that to \jobname-head.md, for the policy paper only. A typesetblue band runs
+% across the top of the page; below it the title's icon, if its heading names one, drawn large in typesetblue,
+% then the title in Lato Black and the dateline in Lato; the credit sits at the page's foot. No page number. A page
+% notice, if any, is set in white on the band (typeset-boxes.sty).
+\makeatletter
+\newcommand{\typesetcover}{%
+  \thispagestyle{empty}%
+  \gdef\typesetnoticecolour{white}% the page notice, if any, for this page only (typeset-boxes.sty)
+  \AddToHookNext{shipout/background}{\put(0pt,-0.5in){\color{typesetblue}\rule{\paperwidth}{0.5in}}}%
+  \begingroup
+  \renewcommand{\typesettitle}[1]{%
+    \vspace*{1.1in}%
+    \ifx\typeset@headicon\@empty\else
+      {\color{typesetblue}\fontsize{64}{64}\selectfont\typesettablericon{\typeset@headicon}\par}\vspace{20pt}\fi
+    {\raggedright\color{typesetink}\typesetlatoblack\fontsize{30}{36}\selectfont##1\par}\vspace{16pt}}%
+  \renewenvironment{typeset@box@credit}{\par\vfill\footnotesize\color{typesetinksecond}}{\par}%
+  \typesetlato\fontsize{13}{18}\selectfont\color{typesetinksecond}%
+  \markdownInput{\jobname-head.md}\par
+  \endgroup
+  \clearpage}
+% The contents list, set once, before the first "##" heading: after the title and dateline, or after the cover. Its
+% entries are the "##" and "###" headings (typeset-common.sty), in LaTeX's own contents file and lines (article's
+% \l@section and \l@subsection, the "###" ones set in 1.5 em), each line a link to its heading (typeset-links.sty).
+% The file is read at the start of the document, outside the markdown package's reading of the text, inside which
+% it stopped on "missing \item", and kept in a box until then. tools/typeset.py runs LaTeX again until the contents
+% file stops changing.
+\newbox\typeset@contents
+% It is set in \small with the gap before each section halved, so that a long list (sixty entries) does not run a line or two
+% onto a third page.
+\patchcmd{\l@section}{\addvspace{1.0em \@plus\p@}}{\addvspace{0.5em \@plus\p@}}{}{\PackageError{document}{article's \l@section has changed}{}}
+\AddToHook{begindocument/end}{\setbox\typeset@contents\vbox{\small\@starttoc{toc}}}
+% The first section's icon, already read from its heading, is put aside while the list's heading is set.
+\renewcommand{\typesetbeforesection}{%
+  \global\let\typesetbeforesection\relax
+  \let\typeset@sectionicon\typeset@headicon\def\typeset@headicon{}%
+  \typesetheading{\large}{\contentsname}\unvbox\typeset@contents
+  \let\typeset@headicon\typeset@sectionicon}
+\makeatother
+% The paper with the summary in front (tools/typeset.py, paper_with_summary): only when the build folder holds
+% typeset-front.pdf, the summary built with an empty notice, its page is set first, under a bookmark "Summary",
+% and the page notice is drawn over it as over every other page. Such a build draws no cover. The PDF's Title is
+% fixed when the first page ships, so the paper's title line, typeset-front-title.md, is read first into a box
+% that is thrown away, for its \typesetpdftitle (typeset-links.sty).
+\IfFileExists{typeset-front.pdf}{\usepackage{pdfpages}}{}
+\begin{document}
+\IfFileExists{typeset-front.pdf}{\setbox0\vbox{\markdownInput{typeset-front-title.md}}\includepdf[pages=1,pagecommand={\thispagestyle{empty}%
+  \pdfbookmark[1]{Summary}{typeset-front}}]{typeset-front.pdf}}{}
+\IfFileExists{\jobname-head.md}{\typesetcover}{}
+\markdownInput{\jobname.md}
+\end{document}

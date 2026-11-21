@@ -1,0 +1,12 @@
+{
+ "key": "thomas_2019_bag_charge",
+ "citation": "Thomas GO, Sautkina E, Poortinga W, Wolstenholme E, Whitmarsh L (2019). The English plastic bag charge changed behavior and increased support for other charges to reduce plastic waste. Frontiers in Psychology 10:266.",
+ "doi": "10.3389/fpsyg.2019.00266",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6399129/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "f5e3c237ba765689738a2f1c94a52781b363d07ac427f09b36ef343c7bb1d2cd",
+ "licence": "CC BY",
+ "fetched": "2026-11-14T13:12:35Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6399129/fullTextXML"
+}

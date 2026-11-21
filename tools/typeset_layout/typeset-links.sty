@@ -1,0 +1,47 @@
+% Links in every case document, English or CJK (notes/pdf_layout_review.md 5.6.4, 5.6.5, 5.6.7): a citation goes to
+% its entry in the reference list, and a DOI or web address goes out. typeset-common.sty and typeset-cjk.sty load it
+% last, after the markdown package (with its bracketedSpans option) and typeset-boxes.sty, since hyperref patches
+% packages loaded before it. A link is marked by its colour alone, typesetlink, a dark blue with 6.4 to 1 contrast on
+% white that stays dark when printed in grey, with no box round it.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{typeset-links}
+\definecolor{typesetlink}{HTML}{1F5FAD}
+\RequirePackage[colorlinks=true,allcolors=typesetlink,pdfborder={0 0 0},linktoc=all]{hyperref}
+% The PDF names its language, \typesetlanguage (tools/typeset.py defines it for a CJK layout; English is en-US),
+% and its title, the document's first "#" heading, which the layouts' title renderer passes to \typesetpdftitle
+% before the first page is shipped out.
+% A web address may break after a hyphen too (url's own list has none), since a long slug ("ministers-announce-a-new-program-...")
+% otherwise holds a line far past the margin.
+\g@addto@macro\UrlBreaks{\do\-}
+\providecommand{\typesetlanguage}{en-US}
+\hypersetup{pdflang=\typesetlanguage}
+\newcommand{\typesetpdftitle}[1]{\hypersetup{pdftitle={#1}}\global\let\typesetpdftitle\@gobble}
+% In the Title and the bookmarks, which hold text only, a heading's code span is its characters, and the markdown
+% package's % and # are the characters, where its \char`\% would read "`%"; a contents entry's
+% \typeset@unexpanded (typeset-common.sty) is its text.
+\pdfstringdefDisableCommands{\def\markdownRendererPercentSign{\%}\def\markdownRendererHash{\#}%
+  \def\markdownRendererCodeSpan#1{#1}\let\typeset@unexpanded\@firstofone}
+% The fill writes a citation as `[[2]](#reference-2)` and the entry it goes to as `[Its citation.]{#reference-2}`
+% (cost_benefit_engine/documents.py). The identifier of a bracketed span is a hyperref target; a heading's,
+% `## 3 Effects {#sec-effects}`, is kept until the heading is set and is a target on its line
+% (\typeset@headtarget, typeset-common.sty); an identifier anywhere else (a box's) stays without one.
+\newif\iftypeset@span
+\def\typeset@headid{}
+\markdownSetup{rendererPrototypes={
+  bracketedSpanAttributeContextBegin = {\begingroup\typeset@spantrue},
+  attributeIdentifier = {\iftypeset@span\hypertarget{#1}{}\else\iftypeset@header\gdef\typeset@headid{#1}\fi\fi},
+  bracketedSpanAttributeContextEnd = {\endgroup},
+}}
+% A link `[label](address)` is its label, linked to the target `#name` inside the file or to the address outside it,
+% where the markdown package would print the address in a footnote. An autolink `<https://...>`, which typeset.py
+% makes of a bare address, stays the package's \url, a link once hyperref is loaded.
+\ExplSyntaxOn
+\cs_set:Npn \markdownLaTeXRendererDirectOrIndirectLink #1#2#3#4
+  {
+    \str_set:Nn \l_tmpa_str { #3 }
+    \str_if_eq:eeTF { \str_head:N \l_tmpa_str } { \c_hash_str }
+      { \exp_args:Ne \hyperlink { \str_tail:N \l_tmpa_str } { #1 } }
+      { \exp_args:NV \href \l_tmpa_str { #1 } }
+  }
+\ExplSyntaxOff
+\endinput

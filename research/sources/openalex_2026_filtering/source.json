@@ -1,0 +1,13 @@
+{
+  "key": "openalex_2026_filtering",
+  "citation": "OpenAlex (2026). Help Center: Querying, Filter (developers.openalex.org/guides/filtering).",
+  "doi": null,
+  "url": "https://developers.openalex.org/guides/filtering",
+  "media_type": "text/html",
+  "sha256": "55597caf8b959de30eb8ad441a9dd8365606e5739d80b5f0e714a50293b19b4f",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:44:48Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, paragraph ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 10660,
+  "note": "Fetched page includes navigation text; text.txt keeps it."
+}

@@ -1,0 +1,12 @@
+{
+ "key": "cbs_2012_start_stop_acceptance",
+ "citation": "CBS Miami (2012?). Stop-start technology: 97% of Americans ready to accept it [report of a Johnson Controls consumer survey; Johnson Controls made start-stop batteries].",
+ "doi": null,
+ "url": "https://www.cbsnews.com/miami/news/stop-start-technology-97-of-americans-ready-to-accept-it",
+ "media_type": "text/html",
+ "sha256": "03c6624fc03b5b106c314b34d6701d7dbe1ced68b20a44eca52328c1fc060b6b",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:19:00Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.cbsnews.com/miami/news/stop-start-technology-97-of-americans-ready-to-accept-it"
+}

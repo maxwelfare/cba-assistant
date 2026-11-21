@@ -1,0 +1,11 @@
+{
+ "key": "green_2007_structured",
+ "citation": "Green KC, Armstrong JS (2007). Structured analogies for forecasting. International Journal of Forecasting 23(3):365-376.",
+ "doi": "10.1016/j.ijforecast.2007.05.005",
+ "url": "https://econwpa.ub.uni-muenchen.de/econ-wp/get/papers/0502/0502001.pdf",
+ "media_type": "application/pdf",
+ "sha256": "a3b1ae3908acb9c69d081b026be14362834aa8b02eda873ee2430a0d1fe72f0c",
+ "licence": "working paper, version 106 of 10 September 2004 (EconWPA 0502001); licence not stated",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext -layout original.pdf text.txt"
+}

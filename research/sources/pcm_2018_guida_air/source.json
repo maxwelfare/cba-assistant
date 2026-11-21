@@ -1,0 +1,11 @@
+{
+ "key": "pcm_2018_guida_air",
+ "citation": "Presidenza del Consiglio dei ministri (2018). Direttiva del Presidente del Consiglio dei ministri 16 febbraio 2018: Approvazione della Guida all'analisi e alla verifica dell'impatto della regolamentazione, in attuazione del DPCM 15 settembre 2017, n. 169. Gazzetta Ufficiale Serie generale n. 83, 10-4-2018.",
+ "doi": "",
+ "url": "https://www.governo.it/sites/governo.it/files/documenti/documenti/Presidenza/DAGL/Attivita/QualitaRegolazione/Guida_AIR.pdf",
+ "media_type": "application/pdf",
+ "sha256": "a71f3f8d9fc22591cde832c1cecba9263f49d1370fd8aea72226fbdfe36d1c3e",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:31:37Z",
+ "text_method": "pdftotext original.pdf text.txt (the PDF's own text layer glues words together in justified paragraphs; not a fault of extraction)"
+}

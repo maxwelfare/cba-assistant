@@ -1,0 +1,11 @@
+{
+  "key": "astra_2026_nistra_handbuch",
+  "citation": "ASTRA (2026). Handbuch NISTRA 2022.2, Nachhaltigkeitsindikatoren für Strasseninfrastrukturprojekte, 11 May 2026.",
+  "doi": null,
+  "url": "https://www.astra.admin.ch/dam/de/sd-web/UaOJU3t2snev/NISTRA-Handbuch-2022_2_d.pdf",
+  "media_type": "application/pdf",
+  "sha256": "6b10fa495d24b6f4c346276fac2863a492219ce5c746b3073cb92b6cd395265a",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:22Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

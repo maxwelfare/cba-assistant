@@ -1,0 +1,1392 @@
+United States
+Environmental Protection
+Agency
+
+&EPA
+
+National Center for
+Environmental Economics
+Offce of Policy
+Washington DC 20460
+
+EPA-236-B-15-001
+December 9, 2020
+
+Handbook on Valuing
+Changes in Time Use
+Induced by Regulatory
+Requirements and
+Other EPA Actions
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Acknowledgements
+This Handbook was developed by U.S. EPA’s National Center for Environmental Economics
+(NCEE) in the Offce of Policy (OP) with primary participants: Ann Ferris, Robin R Jenkins and
+William Wheeler. This document benefted from both internal (EPA) and external peer review.
+Comments on prior drafts were provided by Chris Dockins and Matt Massey, both in EPA’s NCEE,
+and by members of EPA’s Economics Forum. An external peer review panel provided invaluable
+suggestions in developing this Handbook. Dietrich Earnhart (University of Kansas), Adriana
+Kugler (Georgetown University) and James Staudt (Andover Technology) served as members of
+the peer review panel. For a summary of the external peer review, please contact Robin Jenkins
+at jenkins.robin@epa.gov. Chapter 8 of the forthcoming revised EPA’s Guidelines for Preparing
+Economic Analysis contains guidance for valuing time use changes based on details provided in
+this document.
+
+ii
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Table of Contents
+Acknowledgements..................................................................................................................................................ii
+Acronyms and Abbreviations ................................................................................................................................. v
+Introduction................................................................................................................................................................ 1
+1. The Need to Value Time Use Changes ............................................................................................................ 1
+2. Conceptual Foundations ................................................................................................................................... 3
+2.1 Nomenclature ............................................................................................................................... 4
+2.2 Work Time..................................................................................................................................... 5
+2.3 Non-work Time............................................................................................................................. 6
+2.4 Valuing Time for ICRs ................................................................................................................... 8
+
+3. Practical Approach ............................................................................................................................................ 9
+3.1 Operating Assumptions................................................................................................................ 9
+3.2 Estimating the Value of Work Time: The Full Employer Costs of Labor Time ............................. 9
+3.3 Estimating the Value of Non-work Time .................................................................................... 10
+3.4 Data and Calculations ................................................................................................................ 11
+3.5 Summary .................................................................................................................................... 13
+
+4. Considerations and Limitations...................................................................................................................... 15
+4.1 The Potential for Double-Counting ............................................................................................ 15
+4.2 Transfer Payments as Proxy for Social Costs ........................................................................... 16
+4.3 Quasi-fxed Cost Models............................................................................................................ 16
+4.4 Opportunity Cost of Non-work Time.......................................................................................... 17
+
+Appendix A............................................................................................................................................................... 18
+Appendix B............................................................................................................................................................... 30
+Appendix C ............................................................................................................................................................... 31
+References................................................................................................................................................................ 32
+iii
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+List of Figures
+Figure 2.1 - Labor Market .................................................................................................................. 3
+Figure 2.2 - Firms’ Demand for Labor................................................................................................ 5
+Figure 2.3 - Labor-Leisure Trade-Off.................................................................................................. 6
+
+List of Tables
+Table 3.1 - Estimating Time Costs for EPA Regulatory Impact Analyses and ICRs ........................ 14
+
+List of Text Boxes
+Text Box 4.1 - Examples of Potential Double-Counting .................................................................. 15
+
+iv
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Acronyms and Abbreviations
+BLS .........Bureau of Labor Statistics
+CPS.........Current Population Survey
+CWSS......Community Water System Survey
+DOL.........Department of Labor
+DOT.........Department of Transportation
+ECEC.......Employer Costs for Employee Compensation
+EIA...........economic impact analysis
+EPA .........Environmental Protection Agency
+GAO.........Government Accountability Offce
+HHS.........Department of Health and Human Services
+ICR ..........information collection request
+NCEE.......National Center for Environmental Economics
+NCS.........National Compensation Survey
+OEI ..........Offce of Environmental Information
+OES.........Occupational Employment Statistics
+OMB........Offce of Management and Budget
+OP ...........Offce of Policy
+RACER ....Remedial Action Cost Engineering Requirements
+RIA ..........regulatory impact analysis
+
+v
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Introduction
+This document describes how to value changes in time use due to compliance and information
+provision activities induced by Environmental Protection Agency (EPA) regulatory requirements.
+Such values inform social cost estimates in beneft-cost analysis, and burden estimates that
+support information collection requests (ICRs).
+This document begins with an explanation of the need for valuing time use changes at EPA, then
+presents conceptual foundations, and offers practical estimation approaches and data sources for
+valuing work time and non-work time. The discussion draws from two U.S Department of Health
+and Human Services (HHS) documents (2016, 2017) and relies on other sources as well. A brief
+examination of recent EPA practice with examples of time use values calculated for past EPA
+analyses is included.
+The approach described in this document differs from how environmental economists value time
+invested in recreational activities,1 but is similar though not identical to the methods recommended
+in EPA’s Guidelines for Preparing Economic Analysis (2014) to estimate the value of time lost
+due to illness in cost-of-illness estimates.2 These alternative scenarios that require estimating
+time values are typically encountered during benefts analysis. Chapter 7 of EPA’s Guidelines for
+Preparing Economic Analyses (2014) contains more information.
+
+1. The Need to Value Time Use Changes
+To advance the agency’s mission to protect human health and the environment, EPA regulations
+induce changes in the use of productive resources including people’s time. Often, these changes
+occur at the workplace, where labor is required to undertake pollution control activities such as
+record-keeping and reporting requirements. Sometimes, the use of time outside of the workplace
+may be affected; for example, product bans might cause consumers to switch to substitute
+products that require larger investments of time. Other examples of time use that might change
+due to compliance activities include:
+• Training
+• Familiarization with new regulation
+• Pollution monitoring
+• Inspections
+• Installation, operation and maintenance of pollution control equipment
+
+1 By convention, time invested in recreational activities is valued at one-third of an hourly wage rate. For examples, see Amoako-Tuffour
+and Martinez-Espineira (2012), Fezzi, et al. (2014) and Heagney, et al. (2019).
+2 See Chapter 7 in U.S. EPA (2014). The Guidelines for Preparing Economic Analysis recommend using the “worker’s wages and employment
+beneft values” to estimate the value of lost work time and using “after-tax wages” to estimate the value of lost time spent on nonmarket work and leisure activities. A different approach, called the replacement cost approach, is sometimes used in the cost of illness
+literature to estimate the value of reductions in time spent in household production. The replacement cost approach values time at the
+cost of purchasing matched activities through the marketplace, e.g., house cleaning services (Lakdawalla, et al. 2018).
+1
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+These changes in time use are often an important component of the social costs of a regulation
+(OMB 2003). They are also important to cost savings. For example, the Hazardous Waste
+Electronic Manifest (e-Manifest) rule that introduced the option to fle hazardous waste manifests
+electronically rather than only by paper, was estimated to save signifcant amounts of recordkeeping time. Changes in time use are also important to agency analyses of the fnancial burdens
+posed by ICRs which typically include the private costs of work or non-work time.
+The U.S. Government Accountability Offce (GAO) fnds variability in federal agency practices for
+estimating the time costs of ICRs (GAO 2018).3 GAO concludes that many ICRs submitted by
+agencies to the Offce of Management and Budget (OMB), and subsequently approved, did not
+estimate the value of burden hours as required by OMB. In cases in which values were estimated,
+fringe benefts were inconsistently included in the calculations. GAO also fnds a lack of clear
+guidance from OMB regarding approaches for estimating time costs, for ICRs and otherwise.
+OMB briefy considers the topic in Regulatory Impact Analysis: Frequently Asked Questions
+(2011), stating that agencies should monetize time costs and cost-savings in regulatory impact
+analyses (RIAs); the conceptually correct measure is the opportunity cost of time; and the average
+wage of affected workers can serve as a proxy.
+More recently, HHS has published two peer-reviewed documents (2016, 2017) — guidelines
+and a detailed report — that address the value of time for HHS regulatory impact analyses. The
+documents include a conceptual framework, a review of related literature on the value of time
+in the recreation demand and transportation economics literatures and a description of best
+practices at HHS. The U.S. Department of Transportation (DOT) provides guidance (DOT 2016),
+updated regularly, specifcally on the valuation of travel time.
+Within EPA, recent practice for valuing time-use changes for cost analyses and ICRs has some
+variability. Appendix A provides examples of program-specifc instruction documents and past
+analyses and summarizes each document’s approach to estimating the value of work-time,
+including the total adjustment to the wage rate to capture additional costs of employment to
+the employer.4 There is one example offered of the value of non-work time. The variation in the
+estimates of work time is often appropriate, as the estimates depend on the industries and
+occupations of affected workers. However, there is also variation as to whether and how analysts
+included not only employee fringe benefts but also other indirect, or overhead, costs.
+The framework and best practices described here draw heavily from HHS (2016, 2017), taking
+into consideration recent EPA estimated values and valuation approaches, and with additional
+sources, some that are especially relevant to the context of EPA regulations. The recommended
+best practices rely on estimates of wages, fringe benefts, additional employer costs of
+employment and taxes on earned income paid by workers. The best practices appear in Chapter
+8 of the forthcoming revised EPA’s Guidelines for Preparing Economic Analysis.
+
+3 GAO examines practices by four agencies that impose the greatest ICR burden hours: Internal Revenue Service and the U.S. Departments
+of Health and Human Services, Agriculture, and Transportation.
+4 These analyses were readily accessible and do not refect a representative sample.
+2
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+2. Conceptual Foundations
+The social cost of resources that are used to comply with regulation is equal to their opportunity
+cost. The opportunity cost of time depends on the availability of options and the perspective
+of the person facing the choice (Feldstein 1978). In long-run equilibrium, the economy is at
+full employment (everyone who wants a job is employed at prevailing market wages) and the
+distribution of time between work and non-work is at a steady state. As will be explained, a variety
+of market distortions affect the value of work time and non-work time. The employer’s perspective
+should be used to value work time because they decide how to allocate labor at the workplace.
+Based on the frst-order conditions of the employer’s optimal selection of the quantity of labor,
+the marginal cost of using one more unit of labor equals the marginal revenue generated by
+employing that additional unit of labor to generate additional product.
+Employers usually value an additional hour of work differently than workers would. An important
+reason for this difference is that employers pay labor taxes that are not part of workers’ hourly
+earnings (wages) such as unemployment insurance and their portion of Social Security. In
+addition, workers generally must pay labor taxes according to their earnings (e.g., their own
+share of Social Security as well as federal and state income taxes). Figure 2.1 illustrates a market
+supply-demand model in which labor taxes drive a wedge between the wage that frms pay and
+the lower wage that workers receive.
+
+Wage
+
+Labor supply
+Rate ÿrms pay
+Wage without taxes
+
+TAX WEDGE
+
+Wage workers take home
+Labor demand
+
+Quantity of Labor
+Figure 2.1 - Labor Market
+Adapted from Manns (2015), Figure 8.
+Figure 2.1 highlights the tax wedge between employee and employer opportunity costs. This simple illustration considers only two
+costs of labor: wages and taxes. It shows that in a setting with zero taxes the opportunity costs faced by employers and employees
+are the same and equal to the “Wage without taxes.” In practice, both employers and employees pay taxes. Employers must pay taxes
+for each worker and will hire workers until the last one hired is valued by an amount equal to the wage plus the employer tax rate.
+Thus, the employer’s opportunity cost of a worker’s time is higher than the wage rate without taxes and instead equals the “Rate frms
+pay.” Employees must pay their own taxes and thus do not take home the full amount of the wages earned. Therefore, the employee’s
+opportunity cost of their own time is lower than the wage rate without taxes and instead equals the “Wage workers take home.”
+
+3
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+The opportunity cost of work time differs from the opportunity cost of non-work time for additional
+reasons, including that employers often face costs beyond wages and taxes, such as overhead
+costs, to support the labor they employ. Pre-existing market distortions, such as infexible work
+schedules, can further differentiate the opportunity cost of work time compared to non-work time.
+The value of non-work time is measured from the perspective of households or individuals, some
+of whom work for pay, and others who do not. For households or individuals, the opportunity cost
+of time depends on the opportunity cost of foregone alternative activities. These activities include
+a wide range of possibilities from household production to leisure to work.
+
+2.1 Nomenclature
+To explain how the opportunity cost of time differs between employers and employees, this
+document distinguishes between categories of expenses associated with labor. These categories
+include wages, taxes, benefts and more. The following defnitions provide a nomenclature for the
+remainder of the document.
+Wages: The monetary compensation paid to employees for their time at work either as an hourly
+wage or salary.
+Fringe Benefts: Categories of employer expenses on labor that provide in-kind or
+monetary benefts to workers beyond wages and salaries. BLS divides these categories into
+two broad groups:
+Voluntary Benefts: Categories of employer-paid benefts including paid leave,
+supplemental pay (e.g., for overtime), insurance and retirement and savings plans.
+Legally Required Benefts: Categories of employer-paid benefts that employers
+are legally required to pay for, including Social Security, Medicare, unemployment
+insurance and workers’ compensation. Many sources refer to these expenses as
+employers’ payroll taxes.
+Overhead: Employer costs associated with labor, but not paid directly to workers, such as the
+value of personnel services, training activities and employee offce space. Some sources refer to
+these expenses as indirect costs.
+Taxes on Earned Income: Tax payments made by workers to federal, state or local government
+on their earned income, sometimes subject to earnings limits. They include income taxes, and
+employees’ portions of Social Security and Medicare.
+
+4
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+2.2 Work Time
+
+Marginal Revenue
+Product
+
+Work time is time spent in activities for which monetary payment is received. The opportunity
+cost of work time is determined by the value of the marginal product that would have been
+produced if not for the regulatory activity. To maximize profts, employers hire labor until their
+cost at the margin equals the value of what is produced, or the marginal revenue product.
+Figure 2.2 illustrates the frm’s choice refecting the typical assumption of diminishing marginal
+product of labor.
+
+50
+40
+30
+20
+10
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Number of Workers
+Figure 2.2 - Firms’ Demand for Labor
+Adapted from Ehrenberg and Smith (2012), Figure 3.2, p 68.
+Figure 2.2 shows the frm’s demand curve for labor assuming diminishing marginal returns to labor. The quantity of employees
+demanded by frms depends on the marginal revenue product associated with each additional worker hired.
+
+This suggests that a proxy for the opportunity cost of work time is the cost to employers of
+workers’ time. This consists of the entire cost of employing the worker — including wages
+and fringe benefts, as well as overhead costs needed to enable the worker to be productive,
+such as the value of personnel services, training activities and employee offce space. Under
+ideal conditions of perfect competition and the absence of marketplace distortions, the cost to
+employers would equal the social opportunity cost of work time.
+Note, however, that the cost to employers of workers’ time is an imperfect proxy for the
+opportunity cost of work time. Due to market distortions such as monopoly in the product market
+or monopsony in the labor market, marginal revenue product or the value of foregone production
+to the employer will sometimes differ from the value of foregone production to the consumer. The
+latter is the social opportunity cost that is the goal for measurement.
+Social costs differ from private costs because they represent values placed by society, rather than
+by a single frm. The fnal users of a product who express a willingness to pay for it determine
+the perspective of society. For example, for a monopolist, the marginal revenue product
+associated with a unit of input is lower than its social opportunity cost, since additional production
+reduces price. Thus, the monopolist constrains output below the level that would occur under
+5
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+perfect competition. Note that these market distortions drive a wedge between the marginal
+revenue product and the value of output to consumers, or the social opportunity cost (this is
+distinct from the wedge driven by taxes between employer and employee opportunity costs
+previously described).
+
+2.3 Non-work Time
+In some cases, a regulation may change how individuals use time outside of paid work time.
+This time is called non-work time, or often within the economics literature, it is called leisure.
+This is time that may be spent carrying out nonmarket tasks, recreating, sleeping or engaging
+in a host of other activities. The opportunity cost of non-work time may vary by the activities
+foregone; the desirability or distastefulness of the activity that occupies time; whether workers
+have a continuous choice over the number of hours of paid work; socioeconomic characteristics
+of affected individuals; and other factors. Thus, there is great variability in the opportunity cost of
+non-work time. The economics literature recognizes this, and it likely contributes to the lack of
+consensus on a valuation approach.
+The neoclassical theory of labor supply begins with a simplifying assumption that an individual is
+endowed with time and can then choose to spend some of that time working to earn income with
+which to buy consumer goods. The amount of non-work time or leisure that they choose could
+have alternatively been spent working and earning income, so the individual is in a sense “buying”
+leisure and the earnings rate is leisure’s opportunity cost. Figure 2.3 illustrates the individual’s
+optimal choice as the point of tangency between the budget line and indifference curve between
+earnings and leisure time.
+U2
+
+Income
+
+U1
+
+80 60 40 20
+0
+
+0 Hours of Paid Work per Week
+
+20 40 60 80 Hours of Leisure per Week
+
+Figure 2.3 - Labor-Leisure Trade-Off
+Adapted from Ehrenberg and Smith (2012), Figures 6.4 and 6.5, p. 179.
+Figure 2.3 illustrates the trade-off faced by individuals between time spent working versus non-work time (also known as leisure),
+known as the labor-leisure trade-off. In the fgure, the optimal choices for Individuals 1 and 2 are the points of tangency between the
+individuals’ indifference curves and the budget line that is constrained by a time endowment. Individual 1 maximizes utility by choosing
+to work 40 hours per week while Individual 2 prefers to work less than 40 hours. In practice, many jobs are offered with a fxed number
+of hours that often will not allow employees full fexibility in choosing an optimal number of hours to work. In the fgure, both workers
+accept the 40-hour work week despite their different preferences regarding optimal leisure time.
+
+6
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+The labor-leisure trade-off is a standard economic assumption suggesting that individuals
+who can freely choose their hours of work will work until the point at which the earnings from
+an additional hour of work no longer offset the value of an hour of leisure time. In Figure 2.3,
+Individual 1, represented by U1, both prefers and chooses to work 40 hours per week. However,
+in many cases the standard 40-hour work week causes suboptimal outcomes. Individual 2,
+represented by U2, is constrained by the standard 40-hour work week. Individual 2 chooses to
+work 40 hours even though he or she prefers to work less than 40 hours.5
+Employee earnings include wages minus taxes on earned income, plus voluntary fringe benefts.
+Legally required benefts6 are excluded since they are not freely chosen; that is, they are further
+removed from the effciencies created by free markets than voluntary fringe beneft categories.
+This suggests one straightforward and accessible measure of the opportunity cost of leisure or
+non-work time is the value of foregone earnings. This includes the opportunity cost of time for
+individuals not employed in the labor force since, conceptually, they make a similar choice to value
+non-work time more highly than potential earnings.
+Studies on the value of time to individuals and households consist of many variations; for reviews,
+see Gonzalez (1997), Phaneuf and Till (2016) and Jara-Diaz and Rosales-Salas (2017). In general,
+the standard framework omits the utility or disutility experienced from work so that the value of
+non-work time is equal to marginal earnings. The value of non-work time may exceed the marginal
+earnings if the worker experiences additional utility from working, for example, a worker who
+experiences satisfaction on top of receiving wages. Alternatively, the value of non-work time may
+be less than marginal earnings after accounting for costs of commuting, child care or other costs
+associated with employment or if the worker experiences disutility from working, for example, a
+worker who experiences dread while at work. These subtleties highlight the diffculties in valuing
+non-work time and the importance of individual preferences. If regulatory or information collection
+requirements are perceived as particularly distasteful, this may affect time costs.
+Despite these considerations, the labor-leisure trade-off is a solid foundation for the value of
+non-work time. The labor-leisure trade-off is an underpinning to EPA’s Guidelines for Preparing
+Economic Analyses (2014), which describes EPA’s approach for valuing time spent on non-market
+work and leisure activities based on the concept of opportunity cost (EPA 2014). HHS guidance
+(2016, 2017) also offers a conceptual framework that rests on the labor-leisure trade-off.
+EPA (2005) and HHS (2016, 2017) suggest estimating the opportunity cost of non-work time as
+wages minus taxes on earned income, without including the value of voluntary fringe benefts or
+the costs associated with employment such as commuting or child care. The assumption is that
+individuals focus on their potential take-home pay. HHS (2017) admits that this assumption is
+5 Note that most labor market participants would be to the left or right of the tangency in the labor supply graph in Figure 2.3, and only a
+portion would be precisely at the point of tangency. Because most labor market participants work more than only a few hours a week,
+they are not close to the corner point (at zero hours of work) of the labor-leisure budget constraint, where labor market participation is a
+“yes” or “no” decision.
+6 Legally required benefts are defned above and include categories of benefts that employers are legally required to pay for, including
+the employer’s share of Social Security, Medicare, unemployment insurance and workers’ compensation.
+
+7
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+“particularly uncertain” in the case of people who are not workforce participants. This Handbook
+suggests in Section 3, below, that EPA analysts should include the voluntary portion of employerpaid fringe beneft values in addition to after-tax wages to estimate the opportunity cost of nonwork time. The reason is that fringe benefts are clearly valuable. Thus, an individual would include
+them when assessing the labor-leisure choice.
+Wages minus taxes on earned income, plus voluntary benefts, only approximate the value of nonwork time. Most people do not have fully fexible working hours; for example, many jobs require
+a standard 40-hour week. In Figure 2.3, to maximize utility Individual 2 would prefer to work less
+than 40 hours but is constrained by the standard work week. For Individual 2, the value of the
+marginal hour of leisure exceeds the wage rate. Empirical papers have examined the effect of
+infexibility in work hours and have found both that the opportunity cost of leisure time may be less
+than or greater than the earnings rate, depending on whether individuals wished to work more
+or fewer hours.
+More broadly, there is a signifcant amount of empirical research that has applied stated and
+revealed preference methods to estimate the value of time in recreation and transportation
+activities. Findings vary substantially. For example, Lloyd-Smith (2019) analyzes a stated
+preference survey and fnds that the value of leisure time differs substantially across individuals
+and not according to their wage rate. Small (2012) conducts a selective review of the value of
+travel time and reports that past research has found the willingness to pay for time savings to
+be related to a wide variety of factors, including: time-of-day choices, length of time savings,
+income or wage rate and unpleasantness of circumstances such as traffc congestion. The paper
+concludes that the “behavioral regularities” behind human trade-offs between time and money are
+“subtle and complex” and more work is needed to better understand them.7
+
+2.4 Valuing Time for ICRs
+In general, this Handbook recommends the same estimation approach for valuing time for an
+ICR as for a beneft-cost analysis. On its face, the value of time useful for estimating social costs
+within a beneft-cost analysis might differ from the value useful for ICR burden estimates. Their
+conceptual underpinnings differ. The objective for beneft-cost analysis is to estimate costs to
+society while the objective for an ICR is to estimate the extent of paperwork burden on private
+individuals. However, as explained above, the best proxies for estimating the social values of work
+time and non-work time are private costs.
+
+7 See Small (2012), pp. 11-12. See also DOT (2016) or HHS (2017) for a review of the literature addressing the value of
+travel time savings.
+8
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+3. Practical Approach
+This section outlines a practical approach for valuing work time and non-work time for regulatory
+and ICR analyses. The conclusions reached appear in Chapter 8 of EPA’s forthcoming revised
+Guidelines for Preparing Economic Analysis.
+
+3.1 Operating Assumptions
+EPA largely follows the practical approach in HHS (2016, 2017) with some minor divergences. The
+approach includes four operating assumptions:
+1) Regulatory activities at work displace other paid work (at the regulated workplace or
+elsewhere); regulatory activities during non-work time displace other unpaid activities.
+2) Average or median estimates appropriately measure the value of a marginal unit of time over
+the range expected to be affected by a regulation.
+3) The value of activities conducted during paid work time can be approximated by the cost of
+labor to the employer. Employer costs include wages, fringe benefts and associated labor
+overhead costs.
+4) The opportunity cost of non-work time can be approximated by wages minus taxes on earned
+income, plus the portion of fringe benefts that is voluntary.8
+
+3.2 Estimating the Value of Work Time: The Full Employer
+Costs of Labor Time
+The value of work time consists of three categories of employer labor costs: wages, fringe
+benefts and overhead costs. The values of these components vary by frm, industry, region,
+occupation and additional factors. For best practices, estimates of employer costs should be as
+specifc as possible to the workers asked to complete the required tasks (OMB 2011). Data are
+often available to account for both occupation and industry.
+Typically, there is a disparity between employers’ average and marginal costs of labor. Figure 2.2
+illustrates the typical assumption of declining marginal productivity of labor and shows that the
+frm’s valuation of the marginal unit of labor is declining. However, accessible labor cost estimates
+almost always represent average, not marginal, values. Thus, in practice, averages are used to
+represent marginal values.
+To estimate the full employer costs of labor time, begin with an industry- and/or occupationspecifc wage. The wage rate should be adjusted upward to account for fringe benefts and
+overhead costs as shown by Equation (1).
+(1) Employer costs of labor = Wages + Fringe benefts + Overhead costs
+Estimates of fringe benefts and overhead costs should also be industry- and/or occupationspecifc whenever possible.
+8 This assumption differs from HHS (2016, 2017) by including voluntary fringe benefts.
+9
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+The categories of costs to be included in fringe benefts (HHS 2017; BLS 2019) are:
+• Paid leave (vacation, holiday, sick, personal)
+• Supplemental pay (overtime and premium, shift differentials, nonproduction bonuses)
+• Insurance (life, health, short- and long-term disability)
+• Retirement and savings (defned beneft, defned contribution)
+• Legally required benefts (Social Security and Medicare, federal and state unemployment
+
+insurance and workers’ compensation) (BLS 2019a, HHS 2017)
+The categories of costs to be included in overhead costs (referred to as “indirect” costs by HHS)
+should be directly connected to hiring, evaluating, providing workspace, training and otherwise
+supporting employees. HHS (2017) describes these categories as refecting the resources
+necessary for the administrative oversight of employees and generally include:
+• time spent on administrative personnel issues (e.g., human resources activities such as hiring,
+
+performance reviews, personnel transfers, affrmative action programs)
+• time spent writing administrative guidance documents
+• offce expenses (e.g., space rental, utilities, equipment costs)
+• outreach and general training (e.g., employee development) (HHS 2017)
+
+3.3 Estimating the Value of Non-work Time
+The individual’s perspective should be adopted to estimate the value of non-work time. The laborleisure trade-off suggests that the opportunity cost to individuals of non-work time is the value of
+potential work time. There is readily available data on the value of voluntary fringe benefts;9 thus, to
+estimate the value of non-work time, analysts should use an individual’s potential earnings, defned
+as wages minus taxes on earned income, plus voluntary fringe benefts, as shown by Equation (2).
+(2) Individual’s value of time = (Wages – Taxes on earned income) + Voluntary fringe benefts
+Analysts should use estimates that are most appropriate for the affected population which
+may include industry- or occupation-specifc values. Often, however, analysts may not have
+information regarding an industry or occupation affliation for the affected population. For example,
+affected individuals may be in a variety of different occupations and industries or not working at
+all. This includes the possibility that individuals are either unemployed or not participating in the
+labor force. In these cases, analysts should use averages refecting the region where the affected
+population is located or, if the regulation affects households nationwide, national averages. The
+portion of fringe benefts that are voluntary may include paid leave, supplemental pay, insurance
+and retirement and savings benefts.
+
+9 See BLS Employer Costs of Employee Compensation (ECEC) at https://www.bls.gov/news.release/ecec.toc.htm
+10
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Analysts who have information regarding the desirability or distastefulness of time costs faced by
+households from regulatory or information collection requirements should qualitatively describe
+why such preferences may increase or decrease the opportunity cost of time. For example, if
+requirements involve onerous tasks, analysts might highlight that this would increase time costs;
+or if they involve pleasant tasks, analysts might describe that this would decrease time costs.
+
+3.4 Data and Calculations
+BLS and the U.S. Census Bureau publish data on industry- and occupation-specifc wage rates,
+as well as regional or population-wide wage rates, for civilian workers including those in the
+private sector and state and local government.10 To estimate fringe benefts, industry specifc
+data is recommended, and a useful source is BLS Employer Costs for Employee Compensation
+(ECEC). For example, for manufacturing, the BLS ECEC June 2020 report indicates an average
+ratio of fringe benefts to wages of 0.51.11 The BLS ECEC also contains data on fringe benefts
+and wages for state and local government workers.12 The national average ratio of fringe benefts
+to wages is reported by the BLS ECEC and could be used when a nationwide estimate is needed.
+The national average ratio in June 2020 was 0.46.13 The U.S. Offce of Personnel Management’s
+General Schedule for government employees can be used for federal government wage rates.14
+HHS (2017) points to a study by the Congressional Budget Offce (Falk 2012) as a useful source
+for estimating beneft values for federal government workers and describes a second source,
+OMB Circular A-76 (2003a), as less desirable.
+Estimating overhead costs is more challenging, as BLS Occupational Employment Statistics (OES)
+and ECEC data do not cover overhead. At EPA, several analyses have used industry-specifc
+sources such as trade association documents or engineering cost models to obtain estimates of
+the categories of costs that fall under “overhead.” These costs can usually be converted to a ratio,
+as shown by Equation (3):
+(3) Overhead cost ratio = Overhead Costs / (Wages + Fringe Benefts)
+Then a combined adjustment to wages, that includes both fringe benefts as well as overhead
+costs, can be calculated. Analysts should frst take care to note whether the overhead ratio is to
+be applied to an unloaded wage rate (i.e., without fringe benefts) or to a wage rate already loaded
+with fringe benefts, as in Equation (3). Either approach is legitimate, but analysts should be aware
+which base is appropriate for the ratio at hand. For example, the U.S. Department of Labor (DOL)
+10 For links to datasets, see Table 3.1.
+11 A ratio of fringe benefts to total compensation or a ratio of fringe benefts to wages can be calculated from data in Table 1 (national) or
+Tables 2 through 4 (by occupation and industry group) of BLS Employer Costs of Employee Compensation (ECEC), available quarterly
+at https://www.bls.gov/news.release/ecec.toc.htm. Note that total compensation = wages and salaries + total benefts, and that using
+the nomenclature set out in Section 2.1, fringe benefts is equivalent to the BLS term, total benefts; and wages is equivalent to the BLS
+term, Wages and salaries. Using Table 4 for manufacturing, fringe benefts were 33.6% of total compensation, and 50.5% of wages.
+12 See Table 1 of BLS ECEC June 2020 report: for state and local government workers, fringe benefts were 38.1% of total compensation,
+and 61.5% of wages.
+13 For June 2020, Table 1 shows that for civilian workers, on average for the nation, fringe benefts were 31.5% of total compensation, and
+46.0% of wages.
+14 Available at https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2018/general-schedule/
+11
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(DOL 2016) provides a range of estimates of overhead costs for 16 different occupations. HHS
+(2017) converts these costs to ratios assuming a base of wages and fringe benefts.15 These rates
+are then only applicable in other analyses that include wages and fringe benefts in the base.
+Next, analysts should incorporate the overhead cost ratio into their calculation of the combined
+adjustment to employer cost as follows:
+• If the overhead cost ratio includes fringe benefts as in Equation (3), then the combined
+
+adjustment to wages to obtain a fully-loaded wage = (1 + fringe beneft ratio)(1 + overhead cost
+ratio). For example, in June 2020 for a national average beneft ratio of 0.46 and assuming an
+overhead ratio inclusive of benefts of 0.2, the combined adjustment to wages to obtain the
+employer cost of labor = (1.46)(1.2) = 1.75.
+• If the overhead cost ratio excludes fringe benefts (includes only wages), then the combined
+
+adjustment to wages to obtain the employer cost of labor = 1 + fringe beneft ratio + overhead
+cost ratio. For example, in June 2020 for a national average beneft ratio of 0.46 and assuming
+an overhead cost ratio not inclusive of benefts of 0.3, the combined adjustment to wages to
+obtain the employer cost of labor = 1+ 0.46 + 0.3 = 1.76.
+For non-work time, to assess the portion of fringe benefts that are voluntary, data in the BLS
+ECEC can be adjusted as it separately reports sub-categories of benefts. This allows analysts to
+separately identify and remove the value of legally required benefts.
+Adjusting for infation with an appropriate index will be necessary if the data for wages, benefts
+or overhead costs is only available for a year that does not correspond to the year of dollar
+values used elsewhere in the RIA or ICR. When calculating time costs for work time, since the
+perspective is that of the employer, the analyst should use the BLS Employment Cost Index to
+adjust the year dollar value.16 To adjust values for non-work time, which is from the perspective of
+the individual or household, the analyst should use the BLS Consumer Price Index.
+
+15 See Section 4.2.3 Indirect Cost Data (HHS 2017).
+16 “The Employment Cost Index (ECI) … is a quarterly measure of the change in the cost of labor, free from the infuence of employment
+shifts among occupations and industries. The compensation series includes changes in wages and salaries and employer costs for
+employee benefts. The wage and salary series and the beneft costs series provide the change for the two components of compensation.
+The ECI is designated as a principal economic indicator. It is the only measure of labor costs that treats wages and salaries and total
+compensation consistently, and provides regular sub-series by occupation, industry, and region.” BLS (2019b). If analysts expect affected
+workers to be located in specifc areas of the country, the ECI by area might be useful. These data are available at https://www.bls.gov/
+news.release/eci.t13.htm
+12
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+If data are not available to estimate industry- or occupation-specifc overhead values for the value
+of work time,17 this Handbook suggests that EPA analysts should use a default overhead cost
+ratio of 20%, or an overhead multiplier of 1.2, applied to a wage rate that is already loaded with
+fringe benefts as shown in Equation (3). The 1.2 value is refective of multiplier values used in prior
+EPA RIAs and ICRs that are based on industry- and occupation-specifc overhead rates affected
+by EPA regulations. These values appear in Appendix A, which provides a summary of programspecifc instruction documents regarding estimating work time values, and of past analyses that
+have estimated such values. It offers one example of the value of non-work time. These analyses
+were readily accessible and do not refect a representative sample. Five of the analyses separately
+report adjustments for overhead costs; one of those fve analyses reports different values for
+government entities versus private frms.18 The mean multiplier value used by these fve analyses
+for overhead costs was 1.23, the median was 1.17 and the range was 1.11 to 1.34.19 Thus, a
+value of 1.2 is recommended for use as an EPA default overhead cost multiplier to estimate the
+value of work time, but only in those cases when industry- or occupation-specifc overhead values
+are not available.
+
+3.5 Summary
+Table 3.1 summarizes the practical approach outlined in this Handbook for estimating the
+value of work and non-work time used to comply with EPA regulations, or for EPA ICRs. A
+similar table appears in EPA’s forthcoming revised Guidelines for Preparing Economic Analysis.
+The characteristics of the regulation or ICR, and the available data, may suggest a different
+approach from the one outlined here. In such cases, analysts should explain the reasons for the
+alternative approach.
+
+17 In addition to the data sources provided in prior paragraphs of this section, analysts may wish to examine Appendix A for data sources on
+overhead costs as well as on wage rates and fringe benefts.
+18 EPA remains interested in additional data on relevant overhead rates.
+19 This range could be adopted by analysts who are lacking data to estimate industry- or occupation-specifc overhead values to conduct a
+sensitivity analysis, in addition to or instead of applying the single default value of 1.2.
+13
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Table 3.1 - Estimating Time Costs for EPA Regulatory Impact Analyses and ICRs
+Type of Time
+Affected
+Work time:
+
+Tasks completed
+while working
+for pay
+
+Non-work time:
+
+Tasks completed
+outside of paid
+work time
+
+Displaced
+Activity
+
+Estimation
+Approach
+
+Other market
+work in the same
+industry and
+occupation as
+workers asked
+to complete the
+required tasks
+
+Employer costs of
+labor = Wages +
+Fringe benefts +
+Overhead costs
+
+Other nonmarket
+activities such
+as leisure and
+nonmarket work
+
+Individual valuation
+of time = (Wages –
+Taxes on earned
+income) + Voluntary
+benefts
+
+Data
+Sources
+• BLS OES20 or BLS ECEC data21 on wages and fringe
+
+benefts
+
+• For overhead costs, can use industry specifc data as
+
+available
+
+• If overhead rates are not available, assume overhead
+
+costs equal 20% of wages plus fringe benefts (i.e., for a
+fully-loaded wage rate, multiply beneft-loaded wages by
+a factor of “1.2”)
+
+• BLS OES or BLS ECEC data on wages and voluntary
+
+benefts
+
+• Adjust wage estimates using CPS data on median
+
+household income before and after taxes to estimate the
+average income tax rate22
+
+Note:
+
+For defnitions of Wages, Fringe benefts, Overhead, Taxes on earned income and Voluntary benefts, please see Section 2.1.
+Acronyms:
+• CPS – Current Population Survey (U.S. Census Bureau); available at http://www.census.gov/cps/data/cpstablecreator.html
+• ECEC – Employer Costs for Employee Compensation (U.S. Bureau of Labor Statistics); available at
+
+https://www.bls.gov/news.release/ecec.toc.htm
+
+• NCS – National Compensation Survey (U.S. Bureau of Labor Statistics); available at http://www.bls.gov/ncs/
+• OES – Occupational Employment Statistics (U.S. Bureau of Labor Statistics); available at http://www.bls.gov/oes/home.htm
+Source: Adapted from Exhibits 2 and 4 HHS (2017): See Appendix C for a description of notable differences.
+
+20 BLS Occupational Employment Statistics (OES): https://www.bls.gov/oes/tables.htm
+21 BLS ECEC: BLS’s National Compensation Survey has quarterly data on average costs per hour worked: Employer Costs for Employee
+Compensation (ECEC), accessible at https://www.bls.gov/web/ecec/ececrse.pdf or https://www.bls.gov/news.release/ecec.toc.htm
+22 HHS (2016) gives step-by-step instructions for estimating the median household tax rate with 2014 CPS data on income before and after
+taxes. See Appendix B for details.
+
+14
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+4. Considerations and Limitations
+Several issues are important to consider when valuing time-use changes due to regulatory
+compliance activities and/or ICRs.
+
+4.1 The Potential for Double-Counting
+In general, the terminology associated with employer costs of labor lacks clarity in the literature
+on valuing time use. For example, terms such as “indirect,” “overhead” and “loaded” are used
+inconsistently across sources to represent a variety of cost categories. Depending on which
+cost categories they represent, there may be duplication or partial overlap with cost categories
+included separately and directly (i.e., not attached to labor hours) within an analysis of regulatory
+costs. Or there may be duplication of cost categories between overhead and those included
+as fringe benefts. Analysts should be careful to avoid double-counting, whenever possible.
+Text Box 4.1 offers two examples to illustrate the variation in the use of terminology as well as the
+potential for double-counting.
+
+Text Box 4.1 - Examples of Potential Double-Counting
+Example 1: Labor overhead cost categories potentially overlapping with
+directly measured costs
+The Regulatory Impact Analysis for EPA’s Final Regulations for the Management of Hazardous Waste
+Pharmaceuticals (EPA 2018) carefully considers how overhead cost categories might overlap with directly
+measured costs. BLS NCS data is used to estimate hourly wages for the various professional and clerical
+positions required to undertake (or be released from) compliance activities. BLS ECEC data is then used
+to account for fringe benefts by adjusting the hourly wage rates by an average ratio for the affected
+industry groups. Since industry specifc data on overhead costs was not available, a fnal adjustment
+is made for overhead costs based on an engineering model for estimating remedial action costs. The
+engineering model includes a set of cost categories within overhead that is not entirely clear, causing a
+concern that they might overlap with direct cost categories that are not attached to labor. The RIA carefully
+considers the components of cost categories that the engineering model includes and compares them to
+the overhead cost categories that the RIA directly estimates. The comparison illustrates that they do not
+coincide or overlap.23
+
+23 See pp. 53-54 and footnote 49 of the “Regulatory Impact Analysis for EPA’s Final Regulations for the Management of Hazardous Waste
+Pharmaceuticals” (EPA 2018).
+15
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Example 2: Labor overhead cost categories potentially overlapping with fringe benefts
+To illustrate potential overlap between overhead cost categories and fringe benefts consider EPA’s Air
+Pollution Cost Manual (EPA 2017). It describes overhead for pollution abatement activities as falling into
+two broad categories: payroll overhead and plant overhead. It defnes payroll overhead as direct labor
+expenses including Social Security contributions, group insurance and other fringe benefts.24 In this case,
+if fringe benefts were frst added to the wage rate, it would be incorrect to also add “payroll overhead,” to
+estimate the value of work time.
+EPA’s 2016 Regional Haze ICR renewal, an entry in Appendix A, successfully avoids double-counting by
+separately including benefts and overhead without overlap. It includes benefts (26% of the wage rate)
+and overhead (29% of the wage rate) for a total of 55% of the wage rate. This is consistent with EPA’s
+Air Pollution Cost Manual (2017), also in Appendix A, in that labor costs range between 1.5 and 1.7
+times the wage.
+
+4.2 Transfer Payments as Proxy for Social Costs
+In beneft-cost analysis, payments, such as Social Security taxes and unemployment insurance,
+are normally excluded from social costs because they are transfer payments. Monetary transfers
+between groups do not refect the use of real resources (OMB 2003, EPA 2014). However, they
+are part of the employer’s expense for a unit of workforce time which serves as a proxy for the
+opportunity cost of work time. This is because the frm chooses its labor demand at the point
+where its marginal cost of labor equals the social (consumer) value of production generated
+by an additional hour of labor. Therefore, when estimating the value of work time in regulatory
+compliance activities, analysts should include the costs of these payments to determine the value
+of time as viewed from the employer’s perspective. This does not change the conclusion reached
+elsewhere that transfer payments should be excluded from social costs.
+
+4.3 Quasi-fxed Cost Models
+This Handbook relies on relatively simple models of behavior to generate its conclusions. Quasifxed cost models are one way to consider costs that do not vary by hours worked. In these
+models, analysts can distinguish between employer costs that vary by hours worked such as
+wages and employer-paid taxes and some components of fringe benefts (e.g., overtime pay), and
+those that do not. The latter are costs that vary not by hours worked but instead by the number
+of workers. These quasi-fxed costs could include overhead costs such as offce space or some
+components of fringe benefts such as employer-provided health insurance (Ehrenberg and Smith
+2012). When analyzing regulatory requirements under the assumption of quasi-fxed costs, an
+analyst must explicitly model the employer’s choice between an additional hour worked by the
+current labor force or by an additional hire.
+
+24 See p. 34 (EPA 2017).
+16
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+According to quasi-fxed cost models, the value of the marginal product will depend on the choice
+between the number of workers and the number of hours. If there is only a change in hours
+worked, the hourly wage + fringe benefts + overhead approach, or Equation (1), may not serve
+as a good proxy for the opportunity cost of time-use. For example, many ICRs assume that few
+hours are needed to complete the information request, so frms are less likely to hire new workers
+than in cases that require high amounts of time to comply with regulatory requirements or respond
+to an ICR. In principle, quasi-fxed costs, such as overhead, would need to be removed from the
+proxy value, but NCEE has not yet identifed how to implement this approach with existing data.
+
+4.4 Opportunity Cost of Non-work Time
+The opportunity cost of non-work time is highly uncertain as this is time spent outside the formal
+labor market with no observable market price. Application of the labor-leisure trade-off rests on
+the assumption that the individual can freely choose their work hours at the going wage rate.
+Most workers in the U.S., however, cannot. If an individual is working more than they would prefer
+to, their opportunity cost of time will be greater than their wage rate, and vice versa.
+The labor-leisure trade-off suggests that even individuals who are unemployed or not participating
+in the labor market value their time at the rate of foregone earnings. Information about which
+industry or occupational wages are relevant to such individuals can be sparse. The advice in the
+current document is to apply a national average wage, resolving the issue with a very broad stroke
+and likely representing the opportunity cost of such individuals with signifcant error.
+Recent empirical research has found that the value of non-work time varies substantially
+across individuals and is not well represented by a multiple (or ratio) of their implied wage rate
+(Lloyd-Smith, et al. 2019). Analysts should remain aware of the uncertainties associated with
+representing the opportunity cost of non-work time as foregone earnings.
+
+17
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Appendix A
+Approaches to Time Cost Estimation in Past EPA Documents
+This appendix presents information drawn from a convenience sample of 11 EPA documents
+that estimated, or outlined an approach to estimating, the value of time costs. The EPA offce
+that generated each document, the document title, its approach to valuing work time and nonwork time (if applicable), and its total wage adjustment factor are identifed below. Some of the
+documents are directed at valuing work time at private frms, others at government agencies.
+
+18
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(1)
+EPA Offce:
+Offce of Environmental Information (OEI) Collection Strategies Division
+
+Document Title
+“ICR Handbook: EPA’s Guide to Writing Information Collection Requests
+under the Paperwork Reduction Act of 1995” (U.S. EPA 2009).25
+Approach for estimating the value of work time
+For private frms, and for state and local government: Wages + Benefts + Overhead 26
+Wages: Use BLS data, with a gradation that refects occupation. Uses industryspecifc when possible.
+Fringe Benefts: Uses BLS ECEC.
+Overhead: Consult the original ICR, or corresponding economic analysis, or conduct
+consultations specifc to regulated industry.
+
+For EPA burden costs: Wages x 1.6
+Wages: Use OPM General Schedule rates.27
+Fringe Benefts: Apply the standard government benefts multiplication factor of 0.6 x Wage.
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+The adjustment factor will vary by ICR.
+No default value offered.
+
+25 U.S. EPA (2009). “ICR Handbook: EPA’s Guide to Writing Information Collection Requests Under the Paperwork Reduction Act of 1995.”
+Revised 10/2009. Offce of Environmental Information. https://www.regulations.gov/contentStreamer?documentId=EPA-HQ-OPPT2016-0426-0090&contentType=pdf. In Docket for “TSCA Inventory Notifcation (Active/Inactive) Requirements”; Docket ID: EPA-HQOPPT-2016-0426. Agency: Environmental Protection Agency (EPA); https://www.regulations.gov/docket?D=EPA-HQ-OPPT-2016-0426.
+Final rule 8/11/2017.
+26 U.S. EPA (2009). See Section 6(b)(i) Estimating Labor Costs.
+27 U.S. EPA (2009). See p. A-31.
+19
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(2)
+EPA Offce:
+Offce of Emergency Management
+
+Document Title
+“Regulatory Impact Analysis: Accidental Release Prevention Requirements:
+Risk Management Programs Under the Clean Air Act.” Section 112(r)(7)
+(U.S. EPA 2016).28
+Approach for estimating the value of work time
+For private frms, and for state and local government: Wage rate x 1.5
+Wages: Uses BLS OES.
+Fringe Benefts: The multiplier of 0.5 is based on an average for the sectors affected, as
+estimated by BLS ECEC.
+Overhead: None Added.
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.5
+
+28 U.S. EPA (2016). “Regulatory Impact Analysis: Accidental Release Prevention Requirements: Risk Management Programs Under the Clean
+Air Act.” Section 112(r)(7). December 16, 2016. https://www.regulations.gov/document?D=EPA-HQ-OEM-2015-0725-0734
+20
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(3)
+EPA Offce:
+Offce of Resource Conservation and Recovery
+
+Document Title
+“Regulatory Impact Analysis for EPA’s Final Regulations for the Management
+of Hazardous Waste Pharmaceuticals.” (U.S. EPA 2018).29
+Approach for estimating the value of work time
+For private frms: {Wage rate x (1.4)} x (1.336)
+Wages: Uses BLS NCS.
+Fringe Benefts: Uses BLS ECEC average fringe benefts multiplier for health
+service professionals.
+Overhead: Remedial Action Cost Engineering Requirements (RACER) cost
+estimating software.30
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.9
+
+29 U.S. EPA (2018). “Regulatory Impact Analysis for EPA’s Final Regulations for the Management of Hazardous Waste Pharmaceuticals.”
+October 2018. https://www.regulations.gov/document?D=EPA-HQ-RCRA-2007-0932-0412
+30 RACER overhead includes fxed overhead, insurance and proft.
+21
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(4)
+EPA Offce:
+Offce of Pollution Prevention and Toxics
+
+Document Title
+“Wage Rates for Economic Analyses of the Toxics Release Inventory
+Program.” (Rice 2002).31
+Approach for estimating the value of work time
+For private frms: Wage rate x (1+ 0.40 + 0.17)
+Wage: Uses BLS ECEC data, by labor category (managerial, technical, clerical).
+Fringe Benefts: Uses BLS ECEC, by labor category (managerial, technical, clerical).
+Overhead: Uses information provided by the chemical industry and chemical industry trade
+associations; specifcally:
+Heiden Associates (1989). “Final Report: A Study of Industry Compliance Costs Under
+the Final Comprehensive Assessment Information Rule.” Prepared for the Chemical
+Manufacturers Association. December 14, 1989.
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.57
+
+31 Rice, C. (2002). “Wage Rates for Economic Analyses of the Toxics Release Inventory Program.” Analytical Support Branch, Environmental
+Analysis Division, Offce of Environmental Information, U.S. Environmental Protection Agency. https://www.regulations.gov/
+document?D=EPA-HQ-OPPT-2016-0231-0122
+22
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(5)
+EPA Offce:
+Offce of Pesticides Programs
+
+Document Title
+“Economic Analysis of Final Amendments to 40 CFR Part 171: Certifcation
+of Pesticide Applicators.” (U.S. EPA 2016c).32
+Approach for estimating the value of work time
+For private frms: Wage rate x (1 + 0.46)
+Wage: For adults, uses BLS OES (national industry-specifc occupational wage estimates).
+For 16- and 17-year-olds, uses 0.75 x {Wage rate x (1 + 0.46)} for commercial pesticide
+applicators; or 0.60 x {Wage rate x (1 + 0.46)} for private pesticide applicators.
+For under age 16, uses 0.50 x {Wage rate x (1 + 0.46)} for private pesticide applicators.
+Fringe Benefts: Uses BLS ECEC.
+Overhead: None Added
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.46
+
+32 U.S. EPA (2016c). “Economic Analysis of Final Amendments to 40 CFR Part 171: Certifcation of Pesticide Applicators.” https://www.
+regulations.gov/document?D=EPA-HQ-OPP-2011-0183-0807 (accessed on December 7, 2019).
+
+23
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(6)
+EPA Offce:
+Offce of Pollution Prevention and Toxics
+
+Document Title
+“Final Rule - Economic Analysis of Regulation of Methylene Chloride, Paint
+and Coating Remover” under TSCA Section 6(a) (U.S. EPA 2019).33
+Approach for estimating the value of work time
+For private frms: Wage rate x (1 + 0.54 + 0.17)
+Wage: Uses BLS OES.
+Fringe Benefts: Uses BLS ECEC.
+Overhead: An overhead rate of 17% is used based on assumptions in two EPA documents:
+Wage Rates for Economic Analysis of the Toxics Release Inventory Program (Rice 2002)
+and the Revised Economic Analysis for the Amended Inventory Update Rule: Final
+Report (EPA 2002).
+
+Approach for estimating the value of non-work time
+For consumers: Wage rate x (1 - 0.302)
+Wage: Uses BLS CPS to calculate median U.S. hourly wage.
+Tax rate: Uses the Tax Foundation’s national tax rate of 30.2%.
+
+Total wage adjustment
+1.71 for value of work time
+0.698 for value of non-work time
+
+33 U.S. EPA (2019). “Final Rule - Economic Analysis of Regulation of Methylene Chloride, Paint and Coating Remover.” TSCA Section 6(a)
+(EPA Docket EPA-HQ-OPPT-2016-0231; RIN 2070-AK07). https://www.regulations.gov/document?D=EPA-HQ-OPPT-2016-0231-0990
+24
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(7)
+EPA Offce:
+Offce of Air and Radiation
+
+Document Title
+“Information Collection Request Supporting Statement for EPA ICR
+Number 1813.09, Renewal of the ICR for the Regional Haze Regulations.”
+(U.S. EPA 2016a).34
+Approach for estimating the value of work time
+For state agencies: Wage rate x (1 + 0.26 + 0.29)
+Wage: Uses 2015 OPM federal government pay schedule wage rates.
+Fringe Benefts: Cites 2006 draft ICR which uses “Benefts (at 16%)” and “Sick leave/
+Vacation (at 10%),” consistent with methods for previous New Source Review ICRs.35
+Overhead: Cites 2006 draft ICR which gives a dollar value of “General Overhead” that is 29%
+of unloaded wages, consistent with methods for previous New Source Review ICRs.
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.55
+
+34 U.S. EPA (2016a). “Information Collection Request Supporting Statement for EPA ICR Number 1813.09, Renewal of the ICR for the
+Regional Haze Regulations.” https://www.regulations.gov/document?D=EPA-HQ-OAR-2003-0162-0017
+35 U.S. EPA (2006). “Information Collection Request for Changes to Prevention of Signifcant Deterioration and Nonattainment New
+Source Review: Emissions Test for Electric Generating Units.” August 2006: p. 20. https://www.regulations.gov/document?D=EPA-HQOAR-2005-0163-0355
+However, U.S. EPA (2006) provides a source for benefts and overhead values that is U.S. EPA (2002a). “EPA Air Pollution Control Cost
+Manual,” 6th ed. https://www3.epa.gov/ttn/ecas/docs/c_allchs.pdf
+25
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(8)
+EPA Offce:
+Offce of Air and Radiation
+
+Document Title
+“Regulatory Impact Analysis for the Proposed Emission Guidelines for
+Greenhouse Gas Emissions from Existing Electric Utility Generating Units;
+Revisions to Emission Guideline Implementing Regulations; Revisions to
+New Source Review Program.” (U.S. EPA 2018a).36
+Approach for estimating the value of work time
+For federal, state and local government: Wage rate x (1 + 0.26 + 0.32)
+Wage: Uses OPM federal government staff salaries. (Cites “Renewal of the ICR for the
+Regional Haze Rule.” [U.S. EPA 2002b]).37
+Fringe Benefts: “Benefts at 16% of the direct salary cost,” “Sick and annual leave at
+10% of direct salary cost” from “Renewal of the ICR for the Regional Haze Rule.” (U.S.
+EPA 2002b, p 21).
+Overhead: “General overhead at 32% of direct salary cost” from “Renewal of the ICR for the
+Regional Haze Rule.” (U.S. EPA 2002b, 21).
+
+For private frms: Benefts loaded wage rate x (1 + 0.32)
+Wage: BLS ECEC
+Fringe Benefts: Uses BLS ECEC
+Overhead: Uses the “operating permits methodology” which results in 32% of total
+compensation (U.S. EPA 2002b, 23).
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.58 for value of government time.
+36 U.S. EPA (2018a). “Regulatory Impact Analysis for the Proposed Emission Guidelines for Greenhouse Gas Emissions from Existing Electric
+Utility Generating Units; Revisions to Emission Guideline Implementing Regulations; Revisions to New Source Review Program.” p. 3-12.
+https://www.epa.gov/sites/production/fles/2018-08/documents/utilities_ria_proposed_ace_2018-08.pdf
+37 U.S. EPA (2002b). “Information Collection Request Supporting Statement for EPA ICR Number 1813.04, Renewal of the ICR for the
+Regional Haze Rule.” November 2002. https://www.regulations.gov/document?D=EPA-HQ-OAR-2003-0162-0001
+26
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(9)
+EPA Offce:
+Offce of Air and Radiation
+
+Document Title
+EPA Air Pollution Control Cost manual, Chapter 2 “Cost Estimation:
+Concepts and Methodology” (U.S. EPA 2017)38
+Approach for estimating the value of work time
+For private frms: Wage rate x (1 + 0.5 through 0.7)
+Wage: Uses BLS “Monthly Labor Review” and other publications.
+Fringe Benefts: “Payroll overhead includes expenses directly associated with … labor, such
+as: workmen’s compensation, Social Security and pension fund contributions, vacations,
+group insurance, and other fringe benefts.” US EPA 2017 p. 35.
+Overhead: “…plant (or ‘factory’) overhead accounts for expenses … including: plant
+protection, control laboratories, employee amenities, plant lighting, parking areas, and
+landscaping.” Estimate from Peters, M.S. and Timmerhaus, K.D., Plant Design and Economics
+for Chemical Engineers (Fifth Edition), McGraw-Hill, New York, 2002.
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.5 to 1.7
+OAR Cost Manual uses the average: 1.6.
+
+38 U.S. EPA (2017). “EPA Air Pollution Control Cost Manual.” https://www.epa.gov/economic-and-cost-analysis-air-pollution-regulations/
+cost-reports-and-guidance-air-pollution; Chapter 2, “Cost Estimation: Concepts and Methodology.” https://www.epa.gov/sites/
+production/fles/2017-12/documents/epaccmcostestimationmethodchapter_7thedition_2017.pdf
+27
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(10)
+EPA Offce:
+Offce of Ground Water and Drinking Water
+
+Document Title
+“Offce of Groundwater and Drinking Water Labor Costs for National Drinking
+Water Rules.” Science Applications International Corporation. (2011).39
+Approach for estimating the value of work time
+For private and public water systems, Wage rate x (1 + 0.4)
+Wage: Uses the Community Water System Survey (CWSS)40
+Fringe Benefts: BLS and CWSS
+Overhead: Not separately reported.41
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1.4
+
+39 Science Applications International Corporation (2011). “Labor Costs for National Drinking Water Rules.” https://www.regulations.gov/
+document?D=EPA-HQ-OW-2017-0300-0758
+40 Wages vary by occupation and system size.
+41 Overhead is included elsewhere and omitted from labor costs to avoid double-counting.
+28
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+(11)
+EPA Offce:
+Offce of Water
+
+Document Title
+“Technical and Economic Development Document for the Final
+Effuent Limitations Guidelines and Standards for the Dental Category.”
+(U.S. EPA 2016b).42
+Approach ONE for estimating the value of work time
+For dental assistants: (Wage rate x 1)
+Wages: Uses BLS OES.43
+Fringe Benefts: Not included
+Overhead: Not included
+
+Approach TWO for estimating the value of work time
+For maintenance costs: Service call labor rates
+Wages: Uses vendor cost estimates for hourly service call cost estimates.44
+Fringe Benefts: Not specifed
+Overhead: Not specifed
+
+Approach for estimating the value of non-work time
+N/A
+
+Total wage adjustment
+1 or Not specifed
+
+42 U.S. EPA (2016b). “Final Supporting Data for the Costing Analysis.” Memorandum to the Public Record for the Dental Category Final
+Rule. Offce of Water. Washington, DC. December. DCN DA00471.
+43 BLS Occupational Employment and Wage data for Dental Assistants.
+44 See p. A-2 in U.S. EPA (2016b).
+29
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Appendix B
+HHS (2016) gives step-by-step instructions for estimating the median household tax rate with
+2014 CPS data on income before and after taxes:
+To estimate the tax rate, including both federal and state taxes, analysts should use
+data on household income before and after taxes collected in the CPS, a joint effort by
+the U.S. Census Bureau (Census) and BLS. The CPS collects data from a nationally
+representative sample of 60,000 households on a monthly basis. The Census maintains a
+tool called the “CPS Table Creator,” which allows analysts to create customized data tables
+(HHS 2016, p.31).
+To estimate mean or median household income before taxes, under “Data Options” select
+the relevant calendar year and get a count of “Persons-All.” Next, “Defne Your Table” by
+selecting “Household Income – Alternative” as a row variable. Under the “Statistics” section,
+in the subsection called “Additional numeric variable statistics” choose “Household IncomeAlternative” and “Mean” or “Median.” In the “Income Defnition” section, select “Customize
+your own income defnition” and then select “1. Earnings (wages, salaries, and selfemployment income)” and “19. Federal Earned Income Credit.” For household income after
+taxes, follow the same steps and add the following additional selections in the customized
+income defnition: “20. Federal Income Taxes after refundable credits except EIC,” “21. State
+income taxes after all refundable credits,” and “22. Payroll taxes (FICA and other mandatory
+deductions).” For 2014 (select 2015 as the most recent year of data), median pre-tax
+household income ($53,000) minus post-tax income ($44,599) and divided by median pretax
+income results in a median tax rate of 16 percent. (To access the CPS Table Creator, see
+http://www.census.gov/cps/data/cpstablecreator.html). (HHS 2016, p. 31n73).
+
+30
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Appendix C
+There are many differences between Table 3.1 and Exhibits 2 and 4 in HHS (2017), however two
+differences are notable:
+Whereas HHS recommended a multiplier of “2” for obtaining a fully loaded wage rate in
+the absence of industry- or occupation-specifc data on fringe benefts and overhead, EPA
+recommends that analysts obtain an estimate for industry specifc fringe benefts from BLS ECEC.
+When a nationwide estimate is needed, the national average ratio of fringe benefts to wages
+reported by BLS’s ECEC (currently 0.46) can be used. When industry- or occupation-specifc
+overhead values are unavailable, EPA recommends a multiplier of “1.2” to be applied to wage
+rates already loaded with fringe benefts (as shown in Equation [3]) for EPA regulatory analyses
+and ICR burden estimates.
+Whereas HHS recommended estimating the value of non-work time as “post tax wages,” EPA
+recommends adding in voluntary benefts.
+
+31
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+References
+Amoako-Tuffour, J. and R. Martinez-Espineira. 2012. “Leisure and the Net Opportunity Cost of Travel Time in
+Recreation Demand Analysis: An Application to Gros Morne National Park.” Journal of Applied Economics 15: 25-49.
+Ehrenberg, R.and R. Smith. 2012. Modern Labor Economics: Theory and Public Policy 11. Boston, MA. Prentice Hall.
+http://fac.ksu.edu.sa/sites/default/fles/Modern_labor_economics__theory_and_public_policy_0.pdf
+Falk, J. 2012. “Comparing Benefts and Total Compensation in the Federal Government and the Private
+Sector.” Congressional Budget Offce Working Paper Series. https://www.cbo.gov/sites/default/fles/112thcongress-2011-2012/workingpaper/2012-04fedbeneftswp0.pdf
+Feldstein, M. 1978. “The Private and Social Costs of Unemployment.” The American Economic Review.
+68(2): 155-158.
+Fezzi, C., I. Bateman, and S. Ferrini. 2014. “Using revealed preferences to estimate the Value of Travel Time to
+recreation sites.” Journal of Environmental Economics and Management 67(1): 58-70.
+https://doi.org/10.1016/j.jeem.2013.10.003.
+González, R.M. 1997. “The Value of Time: A Theoretical Review.” Transport Reviews 17,3: 245-266. DOI:
+10.1080/01441649708716984
+Heagney, E.C., M. Rose, A. Ardeshiri, and M. Kovac. 2019. “The Economic Value of Tourism and Recreation Across a
+Large Protected Area Network.” Land Use Policy 88.
+Heiden Associates. 1989. “Final Report: A Study of Industry Compliance Costs Under the Final Comprehensive
+Assessment Information Rule.” Prepared for the Chemical Manufacturers Association. December 14, 1989.
+Jara-Díaz, S. and J. Rosales-Salas. 2017. “Beyond Transport Time: A Review of Time Use Modeling.” Transportation
+Research Part A: Policy and Practice 97: 209-230. https://doi.org/10.1016/j.tra.2017.01.022.
+Lakdawalla, D.N., J.A. Doshi, L.P. Garrison Jr., C.E. Phelps, A. Basu, and P.M. Danzon. 2018. “Defning Elements
+of Value in Health Care – A Health Economics Approach: An ISPOR Special Task Force Report.” Value in
+Health 21: 131-139.
+Lloyd-Smith, P., J.K. Abbott, W. Adamowicz, and D. Willard. 2019. “Decoupling the Value of Leisure Time
+from Labor Market Returns in Travel Cost Models.” Journal of the Association of Environmental and Resource
+Economists 6(2): 215–42.
+Manns, L. 2015. “Buyers and Sellers Share the Burden of Taxes In the New Equilibrium Buyers Pay.” Course
+Hero. www.coursehero.com/fle/p2ctbp8/Buyers-and-sellers-share-the-burden-of-taxes-In-the-newequilibrium-buyers-pay/
+
+32
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+Meisenheimer II, J.R. 2005. “Real Compensation, 1979 to 2003: Analysis from Several Data Sources.” Monthly Labor
+Review. U.S. Bureau of Labor Statistics. https://www.bls.gov/opub/mlr/2005/05/art1full.pdf
+Peters, M.S., K.D. Timmerhaus, and R.E. West. 2002. “Plant Design and Economics for Chemical Engineers.”
+5. McGraw-Hill.
+Phaneuf, D.J. and T. Requate. 2016. “A Course in Environmental Economics: Theory, Policy, and Practice.” Cambridge
+University Press.
+Rice, C. 2002. “Wage Rates for Economic Analysis of The Toxic’s Release Inventory Program.” Offce of Environmental
+Information: U.S. Environmental Protection Agency (Ed.).
+https://www.regulations.gov/document?D=EPA-HQ-OPPT-2016-0231-0122
+Science Applications International Corporation. 2011. “Labor Costs for National Drinking Water Rules.” Contractor
+Report to the U.S. Environmental Protection Agency, Offce of Groundwater and Drinking Water.
+https://www.regulations.gov/document?D=EPA-HQ-OW-2017-0300-0758
+Small, K.A. 2012. “Valuation of Travel Time.” Economics of Transportation 1: 2-14.
+U.S. Bureau of Labor Statistics. 2019. “National Compensation Measures: Handbook of Methods”.
+https://www.bls.gov/opub/hom/ncs/pdf/ncs.pdf
+U.S. Bureau of Labor Statistics. 2019a. “BLS Information.”: Glossary. https://www.bls.gov/bls/glossary.htm
+U.S. Bureau of Labor Statistics. 2019b. “How to Use the Employment Cost Index for Escalation.”
+https://www.bls.gov/ncs/ect/escalator.htm
+U.S. Department of Health and Human Services. 2016. Guidelines for Regulatory Impact Analysis. Offce of the
+Assistant Secretary for Planning and Evaluation.
+https://aspe.hhs.gov/system/fles/pdf/242926/HHS_RIAGuidance.pdf
+U.S. Department of Health and Human Services. 2017. “Valuing Time in U.S. Department of Health and Human
+Services Regulatory Impact Analyses: Conceptual Framework and Best Practices.” Final Report.
+https://aspe.hhs.gov/system/fles/pdf/257746/VOT.pdf
+U.S. Department of Labor. 2016. “Labor Cost Inputs Used in the Employee Benefts Security Administration, Offce of
+Policy and Research’s Regulatory Impacts Analyses and Paperwork Reduction Act Burden Calculations”
+https://www.dol.gov/sites/default/fles/ebsa/laws-and-regulations/rules-and-regulations/technical-appendices/
+labor-cost-inputs-used-in-ebsa-opr-ria-and-pra-burden-calculations-august-2016.pdf
+U.S. Department of Transportation. 2016. Revised Departmental Guidance on Valuation of Travel Time in Economic
+Analysis. Memorandum to Secretarial Offcers, Modal Administrators. https://www.transportation.gov/sites/dot.gov/
+fles/docs/2016%20Revised%20Value%20of%20Travel%20Time%20Guidance.pdf
+
+33
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+U.S. Environmental Protection Agency. 2002. Revised Economic Analysis for the Amended Inventory Update
+Rule: Final Report. Offce of Pollution Prevention and Toxics, Economic and Policy Analysis Branch. (EPA-HQOPPT-2002-0054-0260).
+U.S. Environmental Protection Agency. 2002a. EPA Air Pollution Control Cost Manual 6. EPA/452/B-02-001.
+https://www3.epa.gov/ttn/ecas/docs/c_allchs.pdf
+U.S. Environmental Protection Agency. 2002b. Information Collection Request Supporting Statement for EPA ICR
+Number 1813.04, Renewal of the ICR for the Regional Haze Rule.
+https://www.regulations.gov/document?D=EPA-HQ-OAR-2003-0162-0001
+U.S. Environmental Protection Agency. 2005. Valuing Time Losses Due to Illness: Under the 1996 Amendments to the
+Safe Drinking Water Act. Offce of Water. EPA 815-R-05-003. https://nepis.epa.gov/Exe/ZyNET.exe/P100VCA8.TXT?Z
+yActionD=ZyDocument&Client=EPA&Index=2000+Thru+2005&Docs=&Query=&Time=&EndTime=&SearchMeth
+od=1&TocRestrict=n&Toc=&TocEntry=&QField=&QFieldYear=&QFieldMonth=&QFieldDay=&IntQFieldOp=0&ExtQ
+FieldOp=0&XmlQuery=&File=D%3A%5Czyfles%5CIndex%20Data%5C00thru05%5CTxt%5C00000038%5CP100
+VCA8.txt&User=ANONYMOUS&Password=anonymous&SortMethod=h%7C-&MaximumDocuments=1&FuzzyDegr
+ee=0&ImageQuality=r75g8/r75g8/x150y150g16/i425&Display=hpfr&DefSeekPage=x&SearchBack=ZyActionL&B
+ack=ZyActionS&BackDesc=Results%20page&MaximumPages=1&ZyEntry=1&SeekPage=x&ZyPURL#
+U.S. Environmental Protection Agency. 2006. Information Collection Request for Changes to Prevention of Signifcant
+Deterioration and Nonattainment New Source Review: Emissions Test for Electric Generating Units. August.
+U.S. Environmental Protection Agency. 2009. ICR Handbook: EPA’s Guide to Writing Information Collection Requests
+Under the Paperwork Reduction Act of 1995. Revised Oct. 2009. Offce of Environmental Information, Collection
+Strategies Division.
+U.S. Environmental Protection Agency. 2014. Guidelines for Preparing Economic Analyses. Updated May 2014.
+National Center for Environmental Economics, Offce of Policy. Dec. 17, 2010.
+U.S. Environmental Protection Agency. 2016. Regulatory Impact Analysis, Accidental Release Prevention Requirements:
+Risk Management Programs Under the Clean Air Act, Section 112(r)(7).
+https://www.regulations.gov/document?D=EPA-HQ-OEM-2015-0725-0734
+U.S. Environmental Protection Agency. 2016a. Information Collection Request Supporting Statement for EPA ICR
+Number 1813.09, Renewal of the ICR for the Regional Haze Regulations.
+https://www.regulations.gov/document?D=EPA-HQ-OAR-2003-0162-0017
+U.S. Environmental Protection Agency. 2016b. Final Supporting Data for the Costing Analysis. Memorandum to the
+Public Record for the Dental Category Final Rule. Offce of Water. Washington, DC. DCN DA00471.
+U.S. Environmental Protection Agency. 2016c. Economic Analysis of Final Amendments to 40 CFR Part 171:
+Certifcation of Pesticide Applicators. https://www.regulations.gov/document?D=EPA-HQ-OPP-2011-0183-0807
+
+34
+
+Handbook on Valuing Changes in Time Use Induced by Regulatory Requirements and Other EPA Actions
+
+U.S. Environmental Protection Agency. 2017. EPA Air Pollution Control Cost Manual, Chapter 2 “Cost
+Estimation: Costs and Methodology.” https://www.epa.gov/sites/production/fles/2017-12/documents/
+epaccmcostestimationmethodchapter_7thedition_2017.pdf
+U.S. Environmental Protection Agency. 2018. Regulatory Impact Analysis for EPA’s Final Regulations for the
+Management of Hazardous Waste Pharmaceuticals.
+https://www.regulations.gov/document?D=EPA-HQ-RCRA-2007-0932-0412
+U.S. Environmental Protection Agency. 2018a. Regulatory Impact Analysis for the Proposed Emission Guidelines
+for Greenhouse Gas Emissions from Existing Electric Utility Generating Units; Revisions to Emission Guideline
+Implementing Regulations; Revisions to New Source Review Program.
+https://www.epa.gov/sites/production/fles/2018-08/documents/utilities_ria_proposed_ace_2018-08.pdf
+U.S. Environmental Protection Agency. 2019. Final Rule - Economic Analysis of Regulation of Methylene Chloride, Paint
+and Coating Remover. TSCA Section 6(a) (EPA Docket EPA-HQ-OPPT-2016-0231; RIN 2070-AK07).
+https://www.regulations.gov/document?D=EPA-HQ-OPPT-2016-0231-0990
+U.S. Environmental Protection Agency, forthcoming. Guidelines for Preparing Economic Analysis. National Center for
+Environmental Economics, Offce of Policy.
+U.S. Government Accountability Offce. 2018. “Paperwork Reduction Act: Agencies Could Better Leverage Review
+Processes and Public Outreach to Improve Burden Estimates.” https://www.gao.gov/assets/700/693057.pdf
+U.S. Offce of Management and Budget. 2003. Circular A-4, Regulatory Analysis. September 17.
+https://www.whitehouse.gov/sites/whitehouse.gov/fles/omb/circulars/A4/a-4.pdf Accessed October 15, 2018.
+U.S. Offce of Management and Budget. 2003a. Circular A-76 (Revised), Performance of Commercial Activities. May
+29. https://www.whitehouse.gov/sites/whitehouse.gov/fles/omb/circulars/A76/a76_incl_tech_correction.pdf
+U.S. Offce of Management and Budget. 2011. Regulatory Impact Analysis: Frequently Asked Questions (FAQs).
+https://obamawhitehouse.archives.gov/sites/default/fles/omb/assets/OMB/circulars/a004/a-4_FAQ.pdf
+Wolff, H. 2014. “Value of time: Speeding behavior and gasoline prices.” Journal of Environmental Economics and
+Management. 67(1): 71-88. https://doi.org/10.1016/j.jeem.2013.11.002
+
+35
+
+

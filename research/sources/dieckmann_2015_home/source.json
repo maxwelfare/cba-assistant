@@ -1,0 +1,12 @@
+{
+ "key": "dieckmann_2015_home",
+ "citation": "Dieckmann NF, Peters E, Gregory R (2015). At home on the range? Lay interpretations of numerical uncertainty ranges. Risk Analysis 35(7):1281-1295.",
+ "doi": "10.1111/risa.12358",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25808952%20AND%20SRC:MED&resultType=core&format=json",
+ "media_type": "text/plain",
+ "sha256": "2e63672d66de38cd875db17e41c98158dd52d7438e379a369ecc41439481efbc",
+ "licence": "not stated",
+ "fetched": "2026-11-12T16:11:52Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25808952%20AND%20SRC:MED&resultType=core&format=json"
+}

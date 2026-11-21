@@ -1,0 +1,12 @@
+{
+  "key": "apa_2026_publishing_policies",
+  "citation": "APA. Publishing policies for APA journals (Internet Archive snapshot of 31 May 2026; live page is behind an Incapsula wall).",
+  "doi": null,
+  "url": "https://web.archive.org/web/20260531223739id_/https://www.apa.org/pubs/journals/resources/publishing-policies",
+  "media_type": "text/html",
+  "sha256": "1748dd125a29ef080d53f8eb55fda3ec05a70eb6f55835897c802cc1a7728e1d",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:02:41Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 17896
+}

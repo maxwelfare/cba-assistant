@@ -1,0 +1,12 @@
+{
+ "key": "aea_dcas",
+ "citation": "American Economic Association. Data and Code Availability Policy (Internet Archive capture of 2026-11-10).",
+ "doi": null,
+ "url": "https://web.archive.org/web/20261110054057id_/https://www.aeaweb.org/journals/data/data-code-policy",
+ "media_type": "text/html",
+ "sha256": "9eb9ae200b4f74e13049f3bec6cac59c4f3b72363634a2bfab1cb83ec0a787b0",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:56:11Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://web.archive.org/web/20261110054057id_/https://www.aeaweb.org/journals/data/data-code-policy"
+}

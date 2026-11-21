@@ -1,0 +1,11 @@
+{
+  "key": "mahajan_2014_art_of_insight",
+  "citation": "Mahajan S (2014). The Art of Insight in Science and Engineering: Mastering Complexity. MIT Press.",
+  "url": "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/mitres_6-011_f14_textbook.pdf",
+  "media_type": "application/pdf",
+  "sha256": "952f18fc8a962134b90c991e2d9dc417fad1794dd2bdbe16d8237d9e007163b8",
+  "licence": "CC BY-NC-SA (as OCW states for the book)",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 763838
+}

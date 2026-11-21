@@ -1,0 +1,12 @@
+{
+ "key": "loewenstein_ubel_2008_hedonic_adaptation",
+ "citation": "Loewenstein G, Ubel PA (2008). Hedonic adaptation and the role of decision and experience utility in public policy. Journal of Public Economics 92(8-9):1795-1810.",
+ "doi": "10.1016/j.jpubeco.2007.12.011",
+ "url": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/hedonicAdaptDecUtility.pdf",
+ "media_type": "application/pdf",
+ "sha256": "6998a03f16fc3283cd3981705c47e7eec4c76e626bcb23a085b86d602309cfa3",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:16:51Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.cmu.edu/dietrich/sds/docs/loewenstein/hedonicAdaptDecUtility.pdf"
+}

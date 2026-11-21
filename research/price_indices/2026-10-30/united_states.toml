@@ -1,0 +1,60 @@
+# United States, GDP implicit price deflator, annual, read from BEA's NIPA flat file on 2026-10-30.
+jurisdiction = "United States"
+
+[gdp_deflator]
+series = "GDP implicit price deflator, annual, calendar year"
+series_id = "A191RD"
+table = "NIPA Table 1.1.9, Implicit Price Deflators for Gross Domestic Product, line 1 (Gross domestic product)"
+metric = "Chained Dollar IPDs"
+base_year = 2017
+base_value = "2017 = 100 (the file prints 100.000 for 2017)"
+unit = "index, 2017 = 100"
+publisher = "U.S. Bureau of Economic Analysis"
+url = "https://apps.bea.gov/national/Release/TXT/NipaDataA.txt"
+series_register_url = "https://apps.bea.gov/national/Release/TXT/SeriesRegister.txt"
+date_read = "2026-10-30T16:48Z"
+publisher_release = "file last modified Thu, 29 Oct 2026 12:30:03 GMT (HTTP Last-Modified header); latest year in file 2025"
+quote = 'A191RD,"Gross domestic product","Chained Dollar IPDs","Level",0,T10109:1,NONE'
+quote_url = "https://apps.bea.gov/national/Release/TXT/SeriesRegister.txt"
+quote_note = "line of BEA's series register naming series A191RD, Table 1.1.9 line 1; the data file itself holds only code, period, value"
+cross_check = "FRED A191RD3A086NBEA not read: fredgraph.csv returned no response (curl status 000)"
+raw_file = "raw/NipaDataA_A191RD.txt"
+raw_file_note = "the lines of series A191RD from BEA's NipaDataA.txt (12 MB, not kept), with the matching line of SeriesRegister.txt in raw/SeriesRegister_A191RD.txt"
+
+[gdp_deflator.values]
+1990 = 59.305
+1991 = 61.310
+1992 = 62.707
+1993 = 64.194
+1994 = 65.564
+1995 = 66.939
+1996 = 68.164
+1997 = 69.340
+1998 = 70.119
+1999 = 71.111
+2000 = 72.722
+2001 = 74.360
+2002 = 75.515
+2003 = 77.006
+2004 = 79.077
+2005 = 81.556
+2006 = 84.071
+2007 = 86.349
+2008 = 88.013
+2009 = 88.556
+2010 = 89.632
+2011 = 91.481
+2012 = 93.185
+2013 = 94.771
+2014 = 96.421
+2015 = 97.316
+2016 = 98.241
+2017 = 100.000
+2018 = 102.291
+2019 = 103.979
+2020 = 105.377
+2021 = 110.159
+2022 = 118.026
+2023 = 122.451
+2024 = 125.587
+2025 = 128.893

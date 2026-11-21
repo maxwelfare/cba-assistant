@@ -1,0 +1,11 @@
+{
+ "key": "green_2015_simple",
+ "citation": "Green KC, Armstrong JS (2015). Simple versus complex forecasting: The evidence. Journal of Business Research 68(8):1678-1685.",
+ "doi": "10.1016/j.jbusres.2015.03.026",
+ "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/08/Green-Armstrong-Simple_Forecasting-v224.pdf",
+ "media_type": "application/pdf",
+ "sha256": "2ec571bfb64a66d83bf91861a3e7cdd815e35915842ae6e3df86c8c6c3e700ad",
+ "licence": "working paper version 224 (January 2015, Wharton faculty site), not the published article; licence not stated",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

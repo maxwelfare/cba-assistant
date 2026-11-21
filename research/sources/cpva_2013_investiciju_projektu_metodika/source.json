@@ -1,0 +1,12 @@
+{
+ "key": "cpva_2013_investiciju_projektu_metodika",
+ "citation": "Centrinė projektų valdymo agentūra (2013). Investicijų projektų, kuriems siekiama gauti finansavimą iš Europos Sąjungos struktūrinės paramos ir valstybės biudžeto lėšų, rengimo metodika, 2013-10-21, v1.0.7.",
+ "doi": null,
+ "url": "https://cpva.lt/wp-content/uploads/2024/04/d1_ip-metodika-v-2013-10-21.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f3f3c73501ae47a47d6d170081816fe2d154512e52b9fff0fef84cdddc25adbe",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:30:05Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "note": "Lithuanian text; diacritics checked readable."
+}

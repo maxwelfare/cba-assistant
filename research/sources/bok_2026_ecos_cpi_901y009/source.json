@@ -1,0 +1,12 @@
+{
+ "key": "bok_2026_ecos_cpi_901y009",
+ "citation": "Bank of Korea (2026). ECOS Open API, StatisticSearch, table 4.2.1 consumer price index (901Y009), first 10 rows of the public sample response.",
+ "doi": null,
+ "url": "https://ecos.bok.or.kr/api/StatisticSearch/sample/json/kr/1/10/901Y009/A/1990/2025/0",
+ "media_type": "text/plain",
+ "sha256": "9f96749acca856bd46cdb9ff631ae78f6a5739f8644aa661318b6ea04cc8bfa1",
+ "licence": "none stated",
+ "fetched": "2026-11-17T12:01:43Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://ecos.bok.or.kr/api/StatisticSearch/sample/json/kr/1/10/901Y009/A/1990/2025/0"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "tlv_2026_allmanna_riktlinjer",
+ "citation": "Tandvårds- och läkemedelsförmånsverket (decided 2026-06-11, applies from 2026-10-01). Allmänna riktlinjer för subvention och prissättning av läkemedel, version 1.",
+ "doi": null,
+ "url": "https://www.tlv.se/download/18.55394c5819eafce0e8d39505/1781604557800/allmanna_riktlinjer_for_subvention_och_prissattning_av_lakemedel.pdf",
+ "media_type": "application/pdf",
+ "sha256": "939be046e6c2be8348e472683df000e7d9d4d0e22dc81d977947b92d2af6b42a",
+ "licence": "not stated",
+ "fetched": "2026-11-09T17:00:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "plain_writing_act_2010",
+ "citation": "Plain Writing Act of 2010, Public Law 111-274 (13 October 2010).",
+ "doi": null,
+ "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ274/html/PLAW-111publ274.htm",
+ "media_type": "text/html",
+ "sha256": "ec1f5172f3e5be56718c13a9352c99b7f064a4b7974165b36ac3401e9d1051ff",
+ "licence": "US government work, public domain",
+ "fetched": "2026-11-12T05:53:09Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8: the page declares no charset",
+ "how": "python tools/host_cooldown.py fetch https://www.govinfo.gov/content/pkg/PLAW-111publ274/html/PLAW-111publ274.htm"
+}

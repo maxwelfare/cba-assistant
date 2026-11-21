@@ -1,0 +1,12 @@
+{
+ "key": "nuijten_2016_prevalence",
+ "citation": "Nuijten MB et al (2016). The prevalence of statistical reporting errors in psychology (1985-2013). Behavior Research Methods.",
+ "doi": "10.3758/s13428-015-0664-2",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5101263/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "9fa8d1d301708873b507715627cbb0cbe4fdcd0565376fe8f2cac515f25fa6fb",
+ "licence": "CC BY 4.0",
+ "fetched": "2026-11-17T11:51:40Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5101263/fullTextXML"
+}

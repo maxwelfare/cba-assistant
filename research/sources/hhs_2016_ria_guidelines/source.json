@@ -1,0 +1,11 @@
+{
+  "key": "hhs_2016_ria_guidelines",
+  "citation": "HHS Office of the Assistant Secretary for Planning and Evaluation (2016). Guidelines for Regulatory Impact Analysis.",
+  "doi": null,
+  "url": "https://aspe.hhs.gov/sites/default/files/migrated_legacy_files//171981/HHS_RIAGuidance.pdf",
+  "media_type": "application/pdf",
+  "sha256": "664119bb98fa45ff2c25ae9ee083f4076a9056b6ff11e68e1447b3d9fa1f1d6b",
+  "licence": "US government work; licence not stated on the document",
+  "fetched_utc": "2026-11-09T16:36:14+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "hila_2026_terveystaloudellinen_selvitys",
+ "citation": "Lääkkeiden hintalautakunta (2026). Hakemusohje: terveystaloudellinen selvitys, 1.7.2026. Terveystaloudellisen selvityksen laatiminen lääkevalmisteen korvattavuus- ja tukkuhintahakemukseen.",
+ "doi": null,
+ "url": "https://www.hila.fi/content/uploads/2026/07/Hakemusohje_TTS_010726.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f1c0f5cdc20c1f98a9b05dbc8165f79237ad6f3b353d3c2079ab32e7cae30bd9",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:28:01Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

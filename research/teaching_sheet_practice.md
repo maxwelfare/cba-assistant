@@ -1,0 +1,75 @@
+# A teaching sheet: what the literature establishes for its designer and its reader
+
+Research note of 2026-11-16, for the track whose product is a teaching sheet instead of a report (`notes/briefs/teaching_sheet.md`). It answers the owner's words of 2026-11-15: "Really focus on how to make a human readable example, making and using special pedagogy subagents prompted with best practices." Each item says what a designer or a reader of the sheet acts on, and ends with what the track does with it.
+
+Method. The project's libraries were searched first; the FAST Standard, Mahajan and Green were already stored. The rest were fetched, stored with their text in `research/sources/<key>/` and entered in `research/refs.toml`; the prompting sources are in the shared library (`library/refs.toml`). Every quotation below was matched to its stored text by the project's checker (`cost_benefit_engine.quotes.quote_in`). A work marked "abstract only" was read in its abstract. Five works have index entries and no stored text and are cited for nothing: `fyfe_2014_concreteness`, `bisra_2018_self_explanation`, `phillips_1984_requisite`, `pidd_1999_just_modeling`, `atkinson_2000_learning_examples`. Mayer's Table 6 gives an effect size for each principle, but the stored text scrambles the table, so none is given here.
+
+## 1 The lesson
+
+1.1 One worked example leads, for a reader new to the subject. "Replace conventional tasks with worked examples that provide learners with a solution they must carefully study." (`sweller_2019_cognitive`, Table 1). Its limits: "Worked examples are less effective for high-expertise learners and the design of good worked examples is difficult" (the same, on the worked example effect), and in the first study the gain transferred narrowly (`sweller_1985_worked`, abstract only). The track: the first effects tab is a complete, real calculation that the reader follows one draw across.
+
+1.2 These effects hold for material whose parts interact: "cognitive load theory is only relevant for complex learning." (`sweller_2019_cognitive`, Table 1). A chain of factors that is scaled, discounted and summed is such material for a novice, which is why the effects below apply to the sheet.
+
+1.3 Pitch to the reader who is named. Guidance that helps a novice hinders an expert: "with increasing expertise, the above effects first decrease in size, then disappear, and can eventually reverse" (`sweller_2019_cognitive`, on the expertise reversal effect; `kalyuga_2003_expertise`, abstract only). Of each multimedia principle, "Each principle is subject to boundary conditions including for whom the principle applies" (`mayer_2024_multimedia`). The track: the user names the reader and what they know, and the guide explains only what that reader lacks.
+
+1.4 Put together what cannot be understood apart, and drop what repeats. Split attention "can be prevented by physically integrating the diagram and the solution statements"; where two sources say the same, "only presenting the diagram was superior to presenting both" (`sweller_2019_cognitive`, on the split-attention and redundancy effects). The track: each number's name, unit, source and quoted passage stand in its own column's header; no prose restates what a cell shows.
+
+1.5 Four of Mayer's principles fit a sheet. Coherence: "People learn better when extraneous material is excluded rather than included". Signaling: "People learn better when cues are added that highlight the organization of the essential material". Segmenting: "People learn better when a multimedia lesson is presented in user-paced segments rather than as a continuous unit". Pretraining: "People learn better from a multimedia lesson when they know the names and characteristics of the main concepts" (`mayer_2024_multimedia`, Table 6). They were tested on multimedia lessons; their use in a sheet is an inference. The track: nothing the lesson does not use; a flow map and a colour key; one effect a tab; a short list of terms on the guide tab.
+
+1.6 Ask the reader to explain the steps. "Replace separate worked examples or completion tasks with enriched ones containing prompts, asking learners to self-explain the given information." (`sweller_2019_cognitive`, Table 1). The meta-analysis of this effect, Bisra et al. 2018, was not read. The track: two or three questions on the guide tab, each saying where its answer is.
+
+1.7 Vary the cases as real cases vary. "Replace a series of tasks with similar surface features with a series of tasks that differ from one another on all dimensions on which tasks differ in the real world." (`sweller_2019_cognitive`, Table 1). The track: the scenarios differ along the dimensions on which real versions of the policy differ, such as scale, timing and who is covered.
+
+1.8 Fading is shown for longer programmes. "Past a certain point, studying worked examples may be counterproductive and they should be faded out and replaced by problems." (`sweller_2019_cognitive`, on the guidance-fading effect); its form is the completion task, which gives learners "a partial solution they must complete" (Table 1). That one sheet gains from fading is an inference no source tests. The track leaves no part blank, since the sheet's results are the user's.
+
+1.9 A disagreement: concrete or abstract first. "Undergraduate students may benefit more from learning mathematics through a single abstract, symbolic representation than from learning multiple concrete examples." (`kaminski_2008_abstract`, abstract only). Concreteness fading, which starts concrete, is the other side (Fyfe et al. 2014, not read). How the track resolves it: its subject is one real policy, so every tab is concrete, and the guide states once the general form each effect tab follows (people reached, times change for each, times value of that change, times a present-value factor), so the abstract pattern sits beside its concrete cases.
+
+## 2 The sheet as a text to be read
+
+2.1 A calculation's ingredients sit next to it. FAST 2.02-01: "All ingredients must be presented as links immediately above the calculation", for the reason FAST 1.01-05 gives, "comprehension by co-locating ingredients" (`fast_2019_standard`). Raffensperger: "Have short arcs of precedence. Old information should be followed immediately by the related new information", since "If a cell is close to its dependents, the reader will more easily see the relationship between them." (`raffensperger_2001_guidelines`). This is split attention (1.4) in a sheet. The template governs: its columns are quantities and its rows are draws, so "above" in FAST is "just to the left" here.
+
+2.2 The reading order is the calculation order. FAST 2.01-04: "Calculation logic should generally flow from top to bottom and left to right"; FAST 1.02-01: "Arrange sheets so that calculation order flows left to right", though "grouping Input and Results sheets at the front of a model can assist" readability (`fast_2019_standard`). The template governs: its guide tab comes first and the tabs that follow run in calculation order, effects, then scenarios, then the summary.
+
+2.3 A disagreement: inputs on a sheet of their own, or beside their use. FAST and the ICAEW code separate inputs from calculations (`notes/sheet_twin_protocol.md` 2.3.1). Raffensperger objects: "The input-calculation-output structure implies the calculation is a black box that the reader should ignore rather than read.", and "the reader will be thinking in terms of the business problem" (`raffensperger_2001_guidelines`). A published critique of a sheet built the other way: "The GiveWell model carries quite a significant risk of confusing outputs for inputs" (`froolow_2022_givewell`); "GiveWell's spreadsheets are powerful but hard to explore casually." (`ghenis_2026_givewell`). How the track resolves it: the template governs, and it puts each input in its own column on the tab of the effect it serves, marked as an input by its blue type and its distribution in row 4. So the sheet is ordered by the problem, as Raffensperger asks, and the reader can still tell an input from an output, which is what FAST's separation is for.
+
+2.4 Units and labels in full. FAST 2.01-01: "A separate units column causes the question of units to be begged, never a bad thing."; Raffensperger: "Abbreviations inhibit comprehension" (`fast_2019_standard`; `raffensperger_2001_guidelines`). The template governs: it has no units column, so the unit goes in the column's name in row 2.
+
+2.5 Notes are visible. FAST 2.04-02: "do not use cell comments for such information." (`fast_2019_standard`). The track: notes stand in the header rows, never in cell comments.
+
+2.6 The guide gives the flow and a key. FAST 2.05-04: "the flow must always be described"; FAST 2.05-05: "Provide keys to colour coding, abbreviation" (`fast_2019_standard`). The track: the template's Readme tab is the guide.
+
+2.7 A format describes. "A format is descriptive if it displays information and if the reader already knows the format." (`raffensperger_2001_guidelines`). The track: blue type for inputs, the template's convention, explained in the key.
+
+2.8 The first cell of a consistent column tells its story. FAST 2.01-03: only the "constants column and the first series column tell the story." (`fast_2019_standard`). In the template each column is one formula in row 13 (`notes/sheet_twin_protocol.md` 2.3.2), so row 13's formula is the column's whole story, and its name in row 2 says it in words.
+
+## 3 Size and what is left out
+
+3.1 As simple as it can be. The FAST signatories hold that "financial models must be as simple as possible, but no simpler." and that "Spurious precision is distracting, verging on dangerous, particularly when it is unbalanced." (`fast_2019_standard`). Simple models also forecast as well: "Complexity increases forecast error by 27 percent on average" (`green_2015_simple`).
+
+3.2 Leaving out is a choice of what information to lose. Mahajan quotes William James, "the art of being wise is the art of knowing what to overlook", and separates the part of a book in which "complexity is discarded without losing information" from the part in which "complexity is discarded while losing information." (`mahajan_2014_art_of_insight`, preface). Leaving out an effect loses information. The track: the designer leaves out the effects a rough size shows to be smallest, so the loss is least.
+
+3.3 Say what is left out. FAST 2.06-02: "Provide a list of model qualifications and weaknesses", since "Unless clearly documented and presented to the model customer, implicit assumptions may be construed as nothing more than ‘serious model error’." (`fast_2019_standard`). The track: a few lines on the summary tab name what the totals leave out, as the project's rule that a headline names anything left out of it asks (`CLAUDE.md`, Scope, exclusions and honesty, rule 1).
+
+3.4 The requisite model, the smallest that settles the question (Phillips 1984), was not read, and nothing here rests on it.
+
+## 4 Prompting the two pedagogy seats
+
+4.1 Say who the reader is and why it matters. "Providing context or motivation behind your instructions, such as explaining to Claude why such behavior is important, can give Claude more information about your goals" (`anthropic_2026_prompting_best_practices`). The track: each seat's task carries the reader's profile and the lesson's aim.
+
+4.2 The pedagogy goes in the prompt. Appropriate teaching behaviour varies, "and it is best left to the developer or teacher to specify." (`learnlm_2024_gemini`, section 1). The track: the designer's definition carries sections 1 to 3 of this note.
+
+4.3 A persona adds little. "persona prompts generally did not improve accuracy relative to a no-persona baseline" (`basil_2025_personas`; the models tested were not Claude). The track: neither definition relies on a character for what it knows; the novice's profile is a list of what the reader knows.
+
+4.4 A simulated novice is too competent. Models "cannot genuinely “unknow” solution schemas or expert heuristics once internalized, so even when prompted to act like a novice, their latent reasoning trajectories remain shaped by expert priors" (`yuan_2026_student_simulation`). Its remedy is an explicit statement of the learner's state: "the representations, knowledge elements, strategies, and resources available to the learner at time t; (ii) the sources of systematic error, such as misconceptions or incomplete procedures" (the same). The track: the profile lists what the reader knows, what they confuse and what they do not know; the novice reader sees no file of the case and loads none of the project's method.
+
+4.5 Predict the student as a teacher would. Asked to answer as the student, "the LLM is more likely to answer based on its prior knowledge."; "when we prompt the model to act as a teacher to predict the student’s answer, the model’s performance is better aligned with the student’s profile." (`lu_2024_generative`, section 3.4.2). Their profile lists what the student has mastered, is confused about and has shown no knowledge of, and "using example questions to indicate the student has mastered or has confusion about a rule is more effective than simply stating it" (section 3.4.1). Simulated and real answers agreed with "Pearson’s correlation (r=0.72)", on multiple-choice items only. The track: the novice reader predicts as a teacher, from a profile whose items each carry an example question.
+
+4.6 The user writes the profile, briefly. "introducing more LLM-generated content into a persona's attributes exacerbates skew" (`li_2025_persona`). The track: the profile is the user's words, passed on as written and never elaborated by a seat.
+
+4.7 Ask for places, not impressions. Of feedback from reader personas that writers defined: "While the feedback was often verbose and unspecific, it was seen as helpful and inspired revisions of text and personas." (`benharrak_2024_personas`; the model was GPT-3.5). The track: each finding of the novice reader is one place in the sheet, with what the reader would think there and what they lacked.
+
+4.8 One simulated reader is not a measure. Evaluations with simulated users showed "agent success rates varying up to 9 percentage points across different user LLMs" (`seshadri_2026_lost_in_simulation`). No source found tests whether simulated readers get lost where real novices do on a sheet. The track: one round of the novice reader, and the user is told that a few real readers of the profile are the test.
+
+## 5 Not reached
+
+Teaching sheets in health economics (the exercises of Briggs, Claxton and Sculpher 2006; J-PAL's cost-effectiveness workbooks), studies of what spreadsheet users need in order to follow a sheet (Hermans et al. 2011), meta-analytic effect sizes for worked examples and self-explanation, the spreadsheet standards of the SSRB, and how to show uncertainty to novices. Each is a place to look when the track is next revised.

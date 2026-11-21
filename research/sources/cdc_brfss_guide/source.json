@@ -1,0 +1,11 @@
+{
+  "key": "cdc_brfss_guide",
+  "citation": "CDC. BRFSS Data User Guide, August 15, 2013 (PDF).",
+  "doi": "",
+  "url": "https://www.cdc.gov/brfss/data_documentation/pdf/UserguideJune2013.pdf",
+  "media_type": "application/pdf",
+  "sha256": "6684288e850c1e00c0f7c53aed3085b2363df7ca6c1f4105d3f02c5037a289da",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:28:09Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

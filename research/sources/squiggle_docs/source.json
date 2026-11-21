@@ -1,0 +1,11 @@
+{
+  "key": "squiggle_docs",
+  "citation": "Quantified Uncertainty Research Institute. Squiggle documentation, API: Dist (fetched 2026-11-10). Introduction page (docs/Overview) fetched and read too but not stored separately.",
+  "url": "https://www.squiggle-language.com/docs/Api/Dist",
+  "media_type": "text/html",
+  "sha256": "907a7ef5ed10decc0d14285a85ebe91605a23a76997ef3901d8e74fb39c8857c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "short script: tags stripped, entities unescaped",
+  "text_chars": 13188
+}

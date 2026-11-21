@@ -1,0 +1,12 @@
+{
+  "key": "apa_2026_policy_generative_ai",
+  "citation": "APA Journals. Policy on generative AI: additional guidance (Internet Archive snapshot of 22 Feb 2026).",
+  "doi": null,
+  "url": "https://web.archive.org/web/20260222201707id_/https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai",
+  "media_type": "text/html",
+  "sha256": "3bee845b1186894b58179dc762957a94af8a1b17ab059a35223e08fc8afad04a",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:03:04Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 6877
+}

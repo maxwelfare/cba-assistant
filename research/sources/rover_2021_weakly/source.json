@@ -1,0 +1,11 @@
+{
+ "key": "rover_2021_weakly",
+ "citation": "Röver C, Bender R, Dias S, Schmid CH, et al. (2021). On weakly informative prior distributions for the heterogeneity parameter in Bayesian random-effects meta-analysis. Research Synthesis Methods 12(4):448-474.",
+ "doi": "10.1002/jrsm.1475",
+ "url": "https://eprints.whiterose.ac.uk/id/eprint/170174/7/jrsm.1475.pdf",
+ "media_type": "application/pdf",
+ "sha256": "74a7e15d271839dc5f822ea7a3229228c4ebd0c483bb6e847df35a10f187b736",
+ "licence": "CC BY (per OpenAlex; not checked in the PDF)",
+ "fetched": "2026-11-08T01:09:22Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

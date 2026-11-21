@@ -1,0 +1,12 @@
+{
+  "key": "sbb_2023_duzenleyici_etki_analizi_rehberi",
+  "citation": "Düzenleyici Etki Analizi Rehberi, Sürüm 1.1 (Şubat 2023), T.C. Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı",
+  "doi": null,
+  "url": "https://www.sbb.gov.tr/wp-content/uploads/2023/03/Duzenleyici-Etki-Analizi-Rehberi.pdf",
+  "media_type": "application/pdf",
+  "sha256": "c2a27f96661bab6f142ac6b4a0647db92ee073a708458af6c3c31cfffffdf662",
+  "licence": "not stated (ria guide: 'Kaynak gösterilmek kaydıyla kullanılabilir.'; copyright SBB)",
+  "fetched_utc": "2026-11-09T16:37:07+00:00",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)",
+  "text_language": "Turkish, readable with diacritics"
+}

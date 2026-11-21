@@ -1,0 +1,12 @@
+{
+ "key": "briggs_2012_model",
+ "citation": "Briggs AH, Weinstein MC, Fenwick EAL, Karnon J, Sculpher MJ, Paltiel AD (2012). Model parameter estimation and uncertainty: a report of the ISPOR-SMDM Modeling Good Research Practices Task Force-6. Value in Health 15(6):835-842.",
+ "doi": "10.1016/j.jval.2012.04.014",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22999133%20AND%20SRC:MED&resultType=core&format=json",
+ "media_type": "text/plain",
+ "sha256": "f788675944c1e0b3b3498a8c5dd74d39e0936eab637c6219e5fe3245e68350a2",
+ "licence": "not stated",
+ "fetched": "2026-11-12T15:58:33Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22999133%20AND%20SRC:MED&resultType=core&format=json"
+}

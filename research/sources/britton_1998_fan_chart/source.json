@@ -1,0 +1,12 @@
+{
+ "key": "britton_1998_fan_chart",
+ "citation": "Britton E, Fisher P, Whitley J (1998). The Inflation Report projections: understanding the fan chart. Bank of England Quarterly Bulletin 38(1):30-37.",
+ "doi": null,
+ "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1998/the-inflation-report-projections-understanding-the-fan-chart.pdf",
+ "media_type": "application/pdf",
+ "sha256": "8302611a514b8ea566f7771eb2a0ec86a6a50d6964fa39b2716aea3a422a7ae5",
+ "licence": "Bank of England; published free online; terms of the Bank's website (not an open licence)",
+ "fetched": "2026-11-12T17:28:13Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1998/the-inflation-report-projections-understanding-the-fan-chart.pdf"
+}

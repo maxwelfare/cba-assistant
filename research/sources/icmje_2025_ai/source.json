@@ -1,0 +1,12 @@
+{
+  "key": "icmje_2025_ai",
+  "citation": "ICMJE (2025). Recommendations: Artificial Intelligence (AI)-Assisted Technology.",
+  "doi": null,
+  "url": "https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html",
+  "media_type": "text/html",
+  "sha256": "217ef849e5940aa44b5e477f6379193e4136285f9e82fd8a4efc902db0689ca3",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:00:29Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 1707
+}

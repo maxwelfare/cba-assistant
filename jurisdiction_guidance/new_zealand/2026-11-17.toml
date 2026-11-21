@@ -1,0 +1,50 @@
+# New Zealand, values in force on 2026-11-17, read on 2026-11-17 in the stored text of the Treasury's Discount Rates page
+# (research/sources/treasury_2026_discount_rates_wayback/text.txt, the Internet Archive copy of 30 October 2026, since the
+# Treasury host refuses automated fetches; the rates are those of Treasury Circular 2024/15). First edition. Each
+# `source` names the research/refs.toml key whose stored text holds the quote.
+# [value_of_statistical_life] added on 2026-11-21 (a value collected later for this edition, with the date it was read),
+# from NZ Transport Agency's Monetised benefits and costs manual, volume 1, version 1.7.5 of 29 May 2026, in force on
+# 2026-11-17 (research/sources/nzta_2026_mbcm_vol1/text.txt, the Internet Archive copy of 12 September 2026, since the
+# NZTA host answers automated fetches with an HTML page).
+# Not collected: a [price_index]. No New Zealand guidance stored names a general price index; the manual brings its values
+# forward by NZTA's own update factors. A case pinning this edition that needs NZD money in another price year refuses
+# until an index is collected with its source.
+jurisdiction = "New Zealand"
+edition = "2026-11-17"
+
+[discount_rate]
+rates = [[[1, 30, 0.02], [31, 100, 0.015], [101, "onwards", 0.01]], 0.08]
+unit = "real, pre-tax rate per year, by year of the appraisal: [first year, last year or \"onwards\", rate]"
+note = "Non-commercial proposals: the social rate of time preference (SRTP) schedule first, and beside it the flat 8% the Treasury calls a mandatory sensitivity test. The loader allows a sensitivity list only beside a single central rate, so the 8% is the second entry of `rates`. The Treasury intends to review the rates every three years, next in 2027."
+document = "New Zealand Treasury. Discount Rates (public sector discount rates for cost benefit analysis; Treasury Circular 2024/15), Internet Archive copy of 30 October 2026"
+url = "http://web.archive.org/web/20261030085123/https://www.treasury.govt.nz/information-and-services/public-sector-leadership/guidance/reporting-financial/discount-rates"
+quote = "Non-commercial proposals (SRTP) | 2% | 1.5% | 1% | 8%"
+quote_header = "Public Sector Discount Rates (Real) | Year1-30 | Year31-100 | Year101+ | Sensitivity test(mandatory)"
+quote_expectation = "The Treasury expects that agencies use the following real, pre-tax discount rates."
+licence = "not stated on the stored page (its footer links a 'Copyright and licensing' page, not stored)"
+source = "treasury_2026_discount_rates_wayback"
+
+[commercial_discount_rate]
+rates = [0.08, 0.02]
+unit = "real, pre-tax rate per year, for commercial proposals: the social opportunity cost of capital (SOC) first, the mandatory 2% sensitivity test beside it"
+document = "New Zealand Treasury. Discount Rates (public sector discount rates for cost benefit analysis; Treasury Circular 2024/15), Internet Archive copy of 30 October 2026"
+url = "http://web.archive.org/web/20261030085123/https://www.treasury.govt.nz/information-and-services/public-sector-leadership/guidance/reporting-financial/discount-rates"
+quote = "Commercial proposals (SOC) | 8% | 8% | 8% | 2%"
+quote_header = "Public Sector Discount Rates (Real) | Year1-30 | Year31-100 | Year101+ | Sensitivity test(mandatory)"
+licence = "not stated on the stored page (its footer links a 'Copyright and licensing' page, not stored)"
+source = "treasury_2026_discount_rates_wayback"
+
+[value_of_statistical_life]
+value = 12500000
+unit = "per statistical life"
+currency = "NZD"
+price_year = 2021
+note = "The manual states its values per injury as at July 2021, entered as calendar year 2021. It takes them from Denne et al. (2023), NZTA Research Report 698, and is the source of the crash and air-pollution values used in New Zealand transport appraisal; for later years it brings injury costs forward by NZTA's published update factors, which are not collected here. The Treasury's Guide to Social Cost Benefit Analysis (2015) gives the superseded $3.85 million as at June 2013 (treasury_2015_guide_scba)."
+document = "NZ Transport Agency Waka Kotahi (May 2026). Monetised benefits and costs manual, volume 1: procedures, version 1.7.5, pages 72 and 75"
+url = "http://web.archive.org/web/20260912041117/https://www.nzta.govt.nz/assets/resources/monetised-benefits-and-costs-manual/Monetised-benefits-and-costs-manual-volume-1-procedures.pdf"
+date_read = "2026-11-21"
+quote = "from the 2021 value of statistical life (VoSL) of $12,500,000 (NZ$)."
+quote_per_fatality = "The values per injury (as at July 2021) are: ... $12.5 million per fatality"
+quote_update = "For project analyses in future years, damage costs for all pollutants should be updated based on the update factor published for injury costs."
+licence = "copyright NZTA; may be reproduced for personal or in-house use without formal permission, with acknowledgement (page 2)"
+source = "nzta_2026_mbcm_vol1"

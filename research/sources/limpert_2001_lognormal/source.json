@@ -1,0 +1,12 @@
+{
+ "key": "limpert_2001_lognormal",
+ "citation": "Limpert E, Stahel WA, Abbt M (2001). Log-normal distributions across the sciences: keys and clues. BioScience 51(5):341-352.",
+ "doi": "10.1641/0006-3568(2001)051[0341:LNDATS]2.0.CO;2",
+ "url": "https://stat.ethz.ch/~stahel/lognormal/bioscience.pdf",
+ "media_type": "application/pdf",
+ "sha256": "c0530ed67530bbe64e324e6cc4c81d06596c7d925c5664cd340ff94f1e66d89f",
+ "licence": "publisher's copyright; copy on the second author's ETH Zurich page",
+ "fetched": "2026-11-12T17:40:00Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://stat.ethz.ch/~stahel/lognormal/bioscience.pdf"
+}

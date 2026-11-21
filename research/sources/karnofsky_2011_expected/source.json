@@ -1,0 +1,11 @@
+{
+ "key": "karnofsky_2011_expected",
+ "citation": "Karnofsky H (2011). Why we can't take expected value estimates literally (even when they're unbiased). GiveWell blog, 18 August 2011 (updated 25 July 2016).",
+ "doi": null,
+ "url": "https://blog.givewell.org/2011/08/18/why-we-cant-take-expected-value-estimates-literally-even-when-theyre-unbiased/",
+ "media_type": "text/html",
+ "sha256": "8d01e826292fac905c0baeb1df6f9db39f19053defb1a5586db26fab9af2a25f",
+ "licence": "not stated",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "html2txt.py (stdlib html.parser: the text of the <article> element, one paragraph per block tag, scripts and navigation dropped), run with python -I"
+}

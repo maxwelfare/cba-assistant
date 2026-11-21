@@ -1,0 +1,11 @@
+{
+  "key": "fdic_api_guide",
+  "citation": "Federal Deposit Insurance Corporation. BankFind Suite: API Documentation, banks.data.fdic.gov/docs/, page as fetched 2026-11-09.",
+  "doi": "",
+  "url": "https://banks.data.fdic.gov/docs/",
+  "media_type": "text/html",
+  "sha256": "6094a3a9a88abf00c49b363d08248a12af69b8c9df8585665bfdfd4b7908a39d",
+  "licence": "U.S. government work; no licence stated on the page",
+  "fetched_utc": "2026-11-09T17:36:07Z",
+  "text_method": ".venv/bin/python -I (regex script: removed script/style/nav/header/footer, paragraph breaks at block-end tags, tags stripped, entities unescaped)"
+}

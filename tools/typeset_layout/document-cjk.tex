@@ -1,0 +1,12 @@
+% The layout of a case's longer documents in Korean, Japanese or Chinese: A4, one column of 11 pt
+% Noto Serif CJK, numbered pages. The text is 438 pt wide, 40 characters of 10.95 pt, JLREQ's limit
+% for horizontal setting, on side margins of 1.1 in (the English layout: 1.25 in on letter).
+% tools/typeset.py runs it with the document as \jobname.md.
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,textwidth=438pt,hmarginratio=1:1,top=0.75in,bottom=1in]{geometry}
+\usepackage{typeset-cjk}
+\newcommand{\typesettitle}[1]{%
+  {\centering\sffamily\bfseries\LARGE#1\par}\vspace{\baselineskip}}
+\begin{document}
+\markdownInput{\jobname.md}
+\end{document}

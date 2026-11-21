@@ -1,0 +1,11 @@
+{
+ "key": "wimsatt_1981_robustness",
+ "citation": "Wimsatt WC (1981). Robustness, reliability, and overdetermination. In Brewer M, Collins B (eds), Scientific Inquiry and the Social Sciences, San Francisco: Jossey-Bass, 123-162; reprinted as chapter 2 of Soler L, Trizio E, Nickles T, Wimsatt WC (eds) (2012), Characterizing the Robustness of Science, Boston Studies in the Philosophy of Science 292, Springer, 61-88 (the page numbers below are the Springer volume's).",
+ "doi": "10.1007/978-94-007-2759-5_2",
+ "url": "https://iris.unive.it/bitstream/10278/5003373/1/Characterizing%20the%20robustness%20of%20science.pdf",
+ "media_type": "application/pdf",
+ "sha256": "aa5d921cccceb5aa861cb1f7706a384ea03a314121373a7ac38df5ba5b872e0f",
+ "licence": "all rights reserved, not open: the chapter is (c) Springer, sold by Springer ('Buy Chapter', link.springer.com/chapter/10.1007/978-94-007-2759-5_2; OpenAlex: closed). The host, ARCA/IRIS Ca' Foscari (iris.unive.it/handle/10278/5003373), lists the whole volume as 'Accesso gratuito (solo visione)' (free, view only), labels it a post-print although it is the publisher's PDF, and states 'I documenti in ARCA sono protetti da copyright e tutti i diritti sono riservati'. No licence permits redistribution. Checked 2026-11-10.",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "pdftotext -f 71 -l 98 original.pdf text.txt (the chapter only: PDF pages 71 to 98 are printed pages 61 to 88; the original is the whole book)"
+}

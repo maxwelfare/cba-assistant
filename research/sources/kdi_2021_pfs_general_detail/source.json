@@ -1,0 +1,11 @@
+{
+ "key": "kdi_2021_pfs_general_detail",
+ "citation": "한국개발연구원 공공투자관리센터 (KDI PIMAC) (2021-05). 예비타당성조사 수행을 위한 세부지침 일반부문 연구 (Detailed guideline for preliminary feasibility studies, general sector; includes a study on adjusting the social discount rate). 2021년도 예비타당성조사 연구보고서.",
+ "doi": null,
+ "url": "https://pimac.kdi.re.kr/common/studydown.jsp?filename=Yw2O8k3aKw8FGgWkeGLMMA%3D%3D&member_pub=2 (listing https://pimac.kdi.re.kr/guide/rguide_list.jsp; pub_no 17181)",
+ "media_type": "application/pdf",
+ "sha256": "67d3c4562fc9eaee4a88d1bf7c9b30f76480a00b3cb0efec77faa4f3375baca9",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:20:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

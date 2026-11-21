@@ -1,0 +1,12 @@
+{
+ "key": "brucal_roberts_2019_standards_hurt",
+ "citation": "Brucal A, Roberts MJ (2019). Do energy efficiency standards hurt consumers? Evidence from household appliance sales. Journal of Environmental Economics and Management 96:88-107.",
+ "doi": "10.1016/j.jeem.2019.04.005",
+ "url": "http://eprints.lse.ac.uk/100772/3/1_s2.0_S0095069617307647_main.pdf",
+ "media_type": "application/pdf",
+ "sha256": "c16b47cbfbfae579b287074d2ebe4e8757148a05812486503a2c38e9f22dd707",
+ "licence": "CC BY (open access)",
+ "fetched": "2026-11-14T13:17:29Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch http://eprints.lse.ac.uk/100772/3/1_s2.0_S0095069617307647_main.pdf"
+}

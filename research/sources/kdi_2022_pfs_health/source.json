@@ -1,0 +1,11 @@
+{
+ "key": "kdi_2022_pfs_health",
+ "citation": "한국개발연구원 공공투자관리센터 (KDI PIMAC) (2022-12). 예비타당성조사 수행을 위한 세부지침 의료부문 연구 (Detailed guideline for preliminary feasibility studies, health care sector; includes a statistical-life-value section).",
+ "doi": null,
+ "url": "https://pimac.kdi.re.kr/common/studydown.jsp?filename=xpuZ4h8UroYggZsSlvqqcQ%3D%3D&member_pub=2 (listing https://pimac.kdi.re.kr/guide/rguide_list.jsp; pub_no 17951)",
+ "media_type": "application/pdf",
+ "sha256": "501d5d278451176ef21cf3f8be7a3b6c3c4fdb378f637c1ee7034a16533b5fe9",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:20:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

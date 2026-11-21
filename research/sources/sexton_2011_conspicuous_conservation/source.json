@@ -1,0 +1,12 @@
+{
+ "key": "sexton_2011_conspicuous_conservation",
+ "citation": "Sexton SE, Sexton AL (2014). Conspicuous conservation: the Prius halo and willingness to pay for environmental bona fides. Journal of Environmental Economics and Management 67(3):303-317 (working-paper copy hosted on a third-party site).",
+ "doi": null,
+ "url": "https://www.benjaminjameswaddell.com/wp-content/uploads/2014/09/sexton-conspicuous-consumption.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f7eeaeb3efdc5500b033825b2bebad8fdbf751ff23fd535e71f56fc9cab316e3",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:17:05Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.benjaminjameswaddell.com/wp-content/uploads/2014/09/sexton-conspicuous-consumption.pdf"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "lahib_2026_temporal_leakage",
+  "citation": "El Lahib A, Xia Y-J, Li Z, Wang Y, Pi X (2026). Temporal Leakage in Search-Engine Date-Filtered Web Retrieval: A Retrospective Forecasting Case Study. arXiv:2602.00758v2 (20 Apr 2026).",
+  "doi": "10.48550/arXiv.2602.00758",
+  "url": "https://arxiv.org/pdf/2602.00758",
+  "media_type": "application/pdf",
+  "sha256": "2d01ebb1c038920c060fcf10dcdc33ea0457ccefae7ed4f7411106ee41b97219",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:39:24Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 33888
+}

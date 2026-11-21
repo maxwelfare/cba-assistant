@@ -1,0 +1,12 @@
+{
+ "key": "lutter_1999_health",
+ "citation": "Lutter, Morrall and Viscusi (1999). Economic Inquiry 37(4):599-608 (the title is not given).",
+ "doi": "10.1111/j.1465-7295.1999.tb01450.x",
+ "url": "https://api.openalex.org/works/doi:10.1111/j.1465-7295.1999.tb01450.x",
+ "media_type": "text/plain",
+ "sha256": "44028ed4e4143cd7807234ec1120e3cc92a47793761a4d87e48e6fc3bb917d3f",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:45Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/lutter_1999_health.txt (fetched is the file's modification time)"
+}

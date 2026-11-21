@@ -1,0 +1,12 @@
+{
+ "key": "froolow_2022_givewell",
+ "citation": "Froolow (2022). A critical review of GiveWell's 2022 cost-effectiveness model. EA Forum, posted 2022-08-25.",
+ "doi": null,
+ "url": "https://forum.effectivealtruism.org/posts/6dtwkwBrHBGtc3xes/a-critical-review-of-givewell-s-2022-cost-effectiveness",
+ "media_type": "text/html",
+ "sha256": "476f3b6ee0326cd4ecced0a9be5d7679b4040623c5eb8673787109de17bd75c2",
+ "licence": "not stated (EA Forum post; text from the forum's GraphQL API, htmlBody wrapped with title)",
+ "fetched": "2026-11-16T03:37:52Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "copied from tmp/scratchpad/dl/froolow.html (fetched is the file's modification time)"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "gsa_plainlanguage_paraphrase_testing",
+ "citation": "GSA plainlanguage.gov archived guideline page: Paraphrase testing (Federal Plain Language Guidelines, 2011).",
+ "doi": null,
+ "url": "https://raw.githubusercontent.com/GSA/plainlanguage.gov/main/_pages/guidelines/test/paraphrase-testing.md",
+ "media_type": "text/markdown",
+ "sha256": "16175542d6ec3a6dcec2ad4e46ceed83f5621f7a77f14e04655ef6da809eafa1",
+ "licence": "US government work",
+ "fetched": "2026-11-17T11:55:59Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://raw.githubusercontent.com/GSA/plainlanguage.gov/main/_pages/guidelines/test/paraphrase-testing.md"
+}

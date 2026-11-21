@@ -1,0 +1,13 @@
+{
+  "key": "mfp_2012_note_explicative_fiche_impact",
+  "citation": "Ministère de la Fonction publique et de la Réforme administrative (2012). Note explicative de la fiche d'évaluation d'impact: Mesures législatives et réglementaires. Version 12.07.2012.",
+  "doi": null,
+  "url": "https://web.archive.org/web/20170106084214/http://www.fonction-publique.public.lu/fr/modernisation-etat/simplification-administrative/mieux-legiferer/fiche-evaluation-impact-note-explicative.pdf",
+  "original_issuer_url": "http://www.fonction-publique.public.lu/fr/modernisation-etat/simplification-administrative/mieux-legiferer/fiche-evaluation-impact-note-explicative.pdf (now 404)",
+  "licence": "not stated",
+  "note": "Copy from Internet Archive snapshot of 2017-01-06; issuer URL returns 404 now.",
+  "sha256": "8b1514ea26fbef713b57b8104c24d2ff479852dbd54fb07f56edacd075310963",
+  "fetched_utc": "2026-11-09T16:30:51Z",
+  "media_type": "application/pdf",
+  "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

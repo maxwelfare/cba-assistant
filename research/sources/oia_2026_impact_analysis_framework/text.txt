@@ -1,0 +1,625 @@
+Australian Government
+Impact Analysis Framework
+July 2026
+
+Copyright notice
+With the exception of the Commonwealth Coat
+of Arms, this work is licensed under a Creative
+Commons Attribution 4.0 International licence
+(CC BY 4.0) (https://creativecommons.org/
+licenses/by/4.0/).
+
+Third party copyright
+Wherever a third party holds copyright in this
+material, the copyright remains with that party.
+Their permission may be required to use the
+material. Please contact them directly.
+Attribution
+This publication should be attributed as follows:
+© Commonwealth of Australia, Department of the
+Prime Minister and Cabinet, Australian Government
+Impact Analysis Framework.
+Use of the Coat of Arms
+The terms under which the Coat of Arms can
+be used are detailed on the following website:
+pmc.gov.au/cca
+Other uses
+Enquiries regarding this document are welcome.
+Please contact the OIA.
+
+Office of Impact Analysis
+
+2
+
+Contents
+Foreword
+
+4
+
+About the framework
+
+5
+
+Overview
+
+7
+
+Step 1: Preliminary analysis
+
+9
+
+Step 2: Impact analysis
+
+12
+
+Step 3: Assess the IA
+
+17
+
+Step 4: Policy decision
+
+17
+
+Step 5: Publication
+
+17
+
+Special cases
+
+18
+
+Australian Government Impact Analysis Framework
+
+3
+
+Foreword
+The government has improved the Impact
+Analysis Framework. This will ensure our
+decisions are informed by the best available
+analysis and evidence.
+The new framework will deliver improved
+scrutiny of proposals. This will result in faster
+regulatory advice provided to government
+as part of the Cabinet process.
+The Hon Patrick Gorman MP
+Assistant Minister to the
+Prime Minister
+June 2026
+
+This demonstrates our commitment to uplifting
+the capability of the Australian Public Service
+to provide analysis on what matters, when it
+matters. This will mean less work completed
+by consultants. An agency‑led approach,
+supported by expertise in the Office of Impact
+Analysis, will help ensure analysis that is timely,
+accountable and influential.
+We have focused impact analysis on informing
+significant changes to rules and requirements
+facing consumers, workers, and businesses.
+Key changes to regulation need to weigh up
+any compliance and delay costs with the wider
+value and benefits to the community.
+Impact analysis must demonstrate to
+businesses, organisations and the community
+that policies will deliver an overall benefit
+to Australia. Our commitment to publishing
+impact analysis remains unchanged.
+The framework will assist the government
+as it works to deliver for Australians.
+
+Office of Impact Analysis
+
+4
+
+About the framework
+The Australian Government Impact Analysis Framework (the framework) is designed
+to support decision‑makers to understand the wider impacts, including the intended
+and potentially unintended effects of a policy proposal and make evidence‑based
+decisions considering trade‑offs.
+The framework outlines the best practice approaches and requirements for conducting
+impact analysis (IA) and developing IA products to inform decision‑making.
+
+Objectives of the framework
+The government is committed to evidence‑based policy development and
+decision‑making. Analysis of policy options and their likely effects is critical to support
+government deliberative processes.
+Australia has a strong tradition of using impact analysis to assess policy impacts.
+Since first introduced in 1986, the government has updated impact analysis
+frameworks to better support the use of evidence-based analysis in the policy process.
+Under this revised framework, regulatory policy proposals and proposals with material
+competition impacts must be subject to an appropriate level of analysis. The depth
+of analysis should be proportionate to the expected impacts of the policy proposal.
+Agencies are responsible for the development of an IA and identifying the costs and
+benefits of policy changes — including the regulatory burden, economic, social and
+competition impacts — and to consider how stakeholders are likely to be impacted.
+Agencies also need to consider viable non-regulatory policy approaches and their
+likely impacts.
+The framework supports the Cabinet and other government decision‑making
+by providing evidence-based assessment of the likely impacts of regulatory
+and competition related proposals, as outlined in the Cabinet Handbook and
+Budget Process Operational Rules (BPORs) requirements.
+The government is committed to providing stakeholders and the community with
+timely analysis on the expected impacts of significant decisions that change how
+markets operate and impose new or updated rules. IAs are published following the
+announcement of the policy.
+
+Australian Government Impact Analysis Framework
+
+5
+
+Practical guidance
+For agencies responsible for drafting IAs, this document should be read together
+with the Practical Guide for Agencies, located on the Office of Impact Analysis
+(OIA) website.
+The practical guide provides more detailed guidance on how to navigate the IA process
+and how to develop robust analysis and evidence on the intended and potentially
+unintended effects of a policy proposal.
+The OIA website also includes supplementary resources which provide further
+information.
+The framework also operates alongside the government’s broader regulatory policy
+architecture, including the Regulatory Policy, Practice and Performance framework
+led by the Department of Finance.
+
+The Office of Impact Analysis
+Located in the Department of the Prime Minister and Cabinet, the OIA administers
+the framework and assists agencies to use the framework to support policy decisions.
+The OIA provides expert guidance to agencies on technical issues related to the
+framework’s use and conducts training to assist policy officers in preparing IAs.
+The OIA also administers the Regulatory Impact Analysis Guide for Ministers’ Meetings
+and National Standard Setting Bodies for decision‑making between the Australian
+Government and state and territory and local governments in specific policy areas.
+The OIA can be contacted at helpdesk-OIA@pmc.gov.au.
+
+Office of Impact Analysis
+
+6
+
+Overview
+The framework outlines best practice approaches to evaluate the likely effects
+of a policy change. However, not all policy proposals and decisions have significant
+impacts that require an IA. Agencies should undertake a level of analysis proportionate
+to the proposal’s potential impacts.
+This includes considering the nature of the policy problem and determining if it is in
+scope of the framework, identifying the policy objective and potential policy solutions,
+assessing the likely impacts and stakeholder views, and how to monitor and evaluate
+the policy once implemented. This is formalised in the 7 IA questions.
+The process ensures that all significant regulatory and competition-related policy
+decisions are supported by an appropriate level of analysis, enabling decision‑makers
+to make policy decisions based on robust analysis.
+
+Australian Government Impact Analysis Framework
+
+7
+
+Impact analysis steps
+The IA approach can be summarised in 5 steps.
+
+Early policy
+development
+
+Early in a policy process consider the policy problem and objective,
+and alternative policy options.
+
+Step 1:
+Preliminary
+analysis
+
+Assess whether the policy proposal is in scope. That is, any regulatory
+policy proposals and proposals with material competition impacts.
+If in scope, assess the proposal against the IA thresholds to determine
+if the proposal is expected to have moderate or major impacts.
+
+Step 2:
+Impact
+analysis
+
+Evaluate the policy proposal using the 7 IA questions, including
+estimating the regulatory burden. Prepare a Dashboard IA
+(or a Detailed IA if required by the Prime Minister or Cabinet).
+
+Step 3:
+Assess
+the IA
+
+Agencies assess whether the IA provides sufficient and robust
+analysis to inform a key decision. Agencies also certify that the IA
+is sufficient to inform a key decision.
+
+Step 4:
+Policy
+decision
+
+The Dashboard (or Detailed) IA is provided to decision-makers
+to support the key decision.
+
+Step 5:
+Publication
+and reporting
+
+After announcement of the policy, the Dashboard (or Detailed) IA
+is reviewed then published on the OIA website together with the
+Statement of Sufficiency.
+
+Office of Impact Analysis
+
+8
+
+Step 1: Preliminary analysis
+1.1. When is an IA required?
+An IA ensures that robust evidence and analysis on the likely impacts is available
+to decision‑makers to inform a decision.
+Impact analysis is only required for:
+• regulatory policy proposals, or
+• proposals with material competition impacts.
+
+1.2. What policy proposals are in scope?
+Regulatory policy proposals: any proposal to establish or reform government rules
+that set requirements. This includes quasi-regulations, such as industry-government
+agreements (co-regulation), which influence the behaviour of people, businesses,
+or community organisations.
+Proposals with material competition impacts: any proposal expected to have
+a material (positive or negative) impact on competition in a market. This includes
+material impacts on:
+• barriers to set-up (or exit) for businesses, organisations or workers
+• the ability or incentives for businesses to compete
+• changes to the choices, information, goods or services available to consumers.
+Policy proposals to change arrangements for certain government-funded goods
+and services (such as, health and education services), taxes and subsidies that may
+have material competition impacts depending on the nature of the proposal.
+For in-scope proposals, Cabinet and other government decision-making process
+including delegated decisions by ministers, secretaries and heads of agencies are
+covered by the framework.
+
+Australian Government Impact Analysis Framework
+
+9
+
+1.3. In-scope proposals must also meet the IA thresholds
+The IA thresholds provide guidance on where in-scope proposals are likely to have
+a significant impact on the Australian economy, people, businesses, organisations or
+the community. Agencies must self-assess if a proposal meets one or more of the
+IA thresholds. Agencies can seek guidance from the OIA when undertaking these
+assessments.
+In-scope proposals that are expected to meet or exceed one or more of the following
+IA thresholds require an IA to inform a policy decision.
+IA threshold 1 (regulatory burden): proposals likely to change regulatory burden
+by $20 million or more in total (over 10 years).
+Regulatory burden captures the change in compliance and delay costs imposed by a
+policy change on people, businesses, and community organisations. The practical guide
+can support estimating regulatory burden, both for assessing threshold 1 and as part
+of the IA.
+IA threshold 2 (material impacts): proposals likely to have indicative impacts of
+$200 million or more annually on the economic and social outcomes for people,
+businesses, or community organisations.
+The Practical Guide for Agencies covers how to assess the indicative impacts, including
+economic, competition and social impacts. This covers guidance for assessing
+threshold 2, as well as approaches to assessing these impacts in the IA.
+IA threshold 3 (distributional impacts): proposals likely to disproportionately
+and significantly impact a cohort, including small businesses, where no other
+impact assessment applies.
+Where proposals have disproportionate and significant distributional impacts, these
+should first be considered within other established Australian Government impact
+assessment frameworks or similar processes (for example, assessments related to
+First Nations impacts, gender impacts, or regional impacts), which operate alongside
+the IA framework to inform decision-making.
+
+Office of Impact Analysis
+
+10
+
+Figure 1. Scope and thresholds
+
+Australian Government Impact Analysis Framework
+
+11
+
+Step 2: Impact analysis
+In-scope policy proposals that meet or exceed one or more of the IA thresholds
+(step 1) require an IA to inform a key decision.
+An IA refers to the product provided to support the policy decision, which is either
+a Dashboard or, where required, a Detailed IA.
+Templates for both the Dashboard IA and the Detailed IA are on the OIA website.
+
+2.1. Dashboard IA
+The Dashboard IA should provide easily accessible analysis of the key likely impacts
+of a policy proposal. The Dashboard IA should be prepared using the template available
+on the OIA website and should be around 3 pages.
+The Dashboard IA should provide a concise analysis against the 7 IA questions.
+This includes, but is not limited to the:
+• policy problem and policy objective, including where appropriate, qualitative
+or quantitative evidence on the policy problem
+• policy options being considered, including the status quo and at least one
+non regulatory alternative policy option (unless it can be demonstrated that
+a non-regulatory option is not viable)
+• analysis of the costs and benefits, including the change in the regulatory burden,
+of the policy option(s) under consideration
+• implementation and evaluation approach.
+The Dashboard IA should also provide a high-level analysis of the policy option(s)
+against the government’s key strategic priorities.
+The Dashboard IA is the primary product used to inform decision‑makers at
+key decision points. The Dashboard IA must be published following the policy’s
+announcement. The Dashboard IA must include material with a suitable depth
+of analysis and evidence, including drawing on consultation with stakeholders.
+The analysis and evidence should be proportionate to the scale of the proposal
+and likely impacts.
+
+Office of Impact Analysis
+
+12
+
+2.2. Detailed IA
+The Prime Minister or the Cabinet may ‘call in’ or require a Detailed IA for in-scope
+policy proposals with moderate or major impacts. The OIA can provide guidance
+to agencies on the development of a Detailed IA.
+A Detailed IA must be published following policy announcement and provides in-depth
+analysis across all 7 IA questions. This includes in-depth analysis and consultation to
+support policy development. A Detailed IA may be appropriate where policy proposals
+are expected to have major impacts across the economy, where a range of viable
+policy options needs to be considered in detail, or where there is a risk of significant
+unintended consequences.
+A Detailed IA is also required for proposals that meet the IA thresholds and involve
+introducing a mandatory standard that deviates from existing international standards.
+See Special cases below.
+Figure 2. What type of IA is required?
+An IA is required
+Has the Prime Minister or the Cabinet called-in a Detailed IA?
+Or is the proposal considering introducing a mandatory standard that deviates
+from existing international standards?
+No
+
+Yes
+
+Dashboard IA
+
+Detailed IA
+
+The IA should provide high-level
+analysis, including:
+• addressing the 7 IA questions
+• high-level summary analysis of
+impacts based on cost-benefit
+analysis and other analysis
+techniques to, where possible,
+quantify impacts
+• evidence from engagement
+with key affected stakeholders
+• key strategic priorities
+discussion.
+
+The IA should provide detailed analysis,
+including:
+• addressing the 7 IA questions
+• detailed analysis of impacts based
+on cost benefit analysis and other
+analysis technique to, where possible,
+quantify impacts
+• evidence from engagement with
+key affected stakeholders
+• distributional impacts
+• implementation and evaluation approach.
+
+Australian Government Impact Analysis Framework
+
+The executive summary should use the
+Dashboard IA template.
+
+13
+
+2.3. The 7 IA questions
+The 7 IA questions provide a framework for evaluating the likely impacts — intended
+and unintended — and for considering alternative ways to address a policy problem.
+The 7 IA questions need to be considered in all IAs and are a useful framework for
+any policy process.
+
+Question 1 - policy problem
+What is the policy problem and what data are available?
+• Clearly identify and define the policy problem.
+• Provide evidence to demonstrate why it is a problem, the magnitude
+of the problem and the impacts of not doing anything.
+• Describe the people, businesses or community organisations affected
+by the problem.
+• Explain which, if any, current government policies have sought to address
+the problem, and if and why those policies are not sufficiently addressing
+the policy problem.
+• Identify available information and data and consider how to close any gaps
+that need to be addressed as part of the IA process.
+
+Question 2 - policy objective
+What are the policy objectives, why is government intervention needed
+to achieve them, and how will success be measured?
+• Establish the policy rationale for government to intervene, including
+demonstrating that the government could intervene successfully.
+• Clearly identify the policy objectives and intended outcomes.
+• Identify any barriers to achieving the policy objective.
+• Outline what factors will make this policy change a success and include
+measurable targets.
+
+Question 3 – policy options
+What policy options are being considered?
+• Identify genuine and viable alternative policy options, including the status
+quo and at least one non-regulatory alternative policy option (unless it can
+be demonstrated that a non-regulatory option is not viable).
+• Demonstrate these policy options can achieve the policy objectives.
+• Identify the context for the options considered (for example, the policy proposal
+may be an election commitment).
+
+Office of Impact Analysis
+
+14
+
+Question 4 – net benefit
+What is the likely net benefit of the option?
+• Provide an estimate of the net benefit of each policy option. Where a monetised
+net benefit cannot be estimated, provide an explanation why this has not
+been possible (including identifying data and information gaps) and provide
+qualitative analysis of impacts. This analysis should also draw on evidence
+from stakeholder engagement and existing evaluations.
+• Identify who is likely to be affected by each policy option. Where significant,
+assess the economic, competition, social, environmental or other impacts as
+well as how those impacts are likely to be distributed.
+• Assess the regulatory burden impacts for people, businesses, organisations or
+the community using the Regulatory Burden Measurement Framework.
+• Provide analysis of impacts based on cost-benefit analysis and other analysis
+to quantify impacts where possible. Describe the method, assumptions and
+sensitivity testing used to conduct the analysis.
+• Provide information on any applicable international standards and whether
+the policy proposal differs from or adopts those standards.
+
+Question 5 – consultation
+What consultation was undertaken and how was feedback incorporated into
+the policy design?
+• Explain the purpose and objectives of consultation and outline the process
+of consultation.
+• Summarise the key feedback from stakeholders, including the areas of
+agreement as well as areas of difference.
+• Describe where the policy option(s) has been modified to account for
+stakeholder feedback, and where and why stakeholder feedback has not
+been adopted.
+• Consider alternative consultation approaches where the policy proposal is
+market sensitive, public consultation may compromise the policy, or where
+key affected stakeholders may require a different consultation approach.
+
+Australian Government Impact Analysis Framework
+
+15
+
+Question 6 – implementation
+What is the best policy option and how will it be implemented?
+• Indicate the most appropriate policy option to achieve the identified policy
+objective (question 2) and the reason. Summarise the supporting analysis
+and clearly outline any caveats or qualifications, and assumptions.
+• Explain how this policy option will be implemented. Assess implementation
+challenges and risks: their likelihood, consequences and management.
+Outline any transitional arrangements and an implementation approach.
+• Build on IA question 1, develop a plan to close any relevant data gaps during
+implementation to support successful monitoring and evaluation of the policy.
+
+Question 7 – evaluation
+How will the policy be monitored and evaluated?
+• Describe the monitoring activities you will undertake to ensure successful
+implementation. Specify if a formal evaluation will be conducted and,
+if not, provide a rationale for not doing so.
+• If a formal evaluation will be conducted:
+՟ state when a monitoring and evaluation plan, consistent with
+Commonwealth Evaluation Policy, will be finalised
+՟ provide a tentative date for completion of the evaluation
+՟ state the type of evaluation that is proposed: process evaluation, outcome/
+impact evaluation and/or economic evaluation
+՟ prepare draft key evaluation questions that relate to the policy objective
+and success metrics set out in IA question 2
+՟ consider undertaking an initial data needs assessment (that is, what data
+is needed, what data is already available, and what extra data might need
+to be collected)
+՟ consider including a draft theory of change.
+Refer to guidance by the Australian Centre for Evaluation.
+
+Office of Impact Analysis
+
+16
+
+Step 3: Assess the IA
+At Step 3, agencies assess the quality of their IA and confirm that the analysis is
+sufficient to inform a decision by government.
+The Self-Assessment Tool assists agencies to consider whether the IA provides
+robust and proportionate analysis across the 7 IA questions. The final IA needs to have
+addressed all 7 IA questions.
+For any key decision, the agency must also produce a statement of sufficiency,
+signed by a senior public servant confirming that the IA addresses the 7 IA questions,
+including providing a robust analysis and estimate of the regulatory burden.
+
+Step 4: Policy decision
+After the agency completes and assesses the IA (steps 2 and 3), the IA is provided
+to the decision‑maker to inform the key decision.
+Key decisions are not limited to Cabinet decisions. They may also arise through other
+processes, including where a minister (or delegate) makes a decision that gives effect
+to, or implements, an in-scope proposal.
+Key decisions may include decisions to proceed with a preferred policy option,
+narrow the range of policy options under consideration, or authorise significant policy
+or regulatory action.
+
+Step 5: Publication and Reporting
+The publication of the IA provides the community with an understanding
+of the evidence base used to inform a policy decision.
+After the announcement of the policy, the IA provided to the decision‑maker
+(reviewed to exclude confidential information) is published on the OIA website,
+together with the statement of sufficiency. Agencies should provide these to the OIA
+as soon as possible after announcement.
+The IA must also be included in any explanatory memorandum or statement giving
+effect to the policy proposal.
+
+Australian Government Impact Analysis Framework
+
+17
+
+Special cases
+Prime Minister’s exemptions
+The Prime Minister can exempt the need to complete an IA in limited circumstances,
+including:
+• when there are truly urgent and unforeseen events requiring a decision before
+an IA can be undertaken
+• where there is a matter of budget or other sensitivity and the development
+of an IA could compromise confidentiality and cause unintended market effects
+or lead to speculative behaviour which would not be in the national interest.
+When a decision subject to a Prime Minister exemption is publicly announced,
+the OIA website will note that the proposal was subject to a Prime Minister’s
+exemption and the reason. The Prime Minister’s exemption needs to also be noted
+in any relevant explanatory material and statements.
+
+Reviews and impact analysis equivalent
+Where a review or other existing analysis substantially addresses the IA questions,
+agencies can draw on this analysis to inform an IA. This may include policy
+whitepapers, royal commission reports or Productivity Commission reports.
+Agencies should summarise the relevant analysis and findings in the Dashboard IA
+to inform decision‑makers.
+Where a Detailed IA has been required, agencies may certify a review, or other
+similar analysis has undertaken an equivalent process to that required by the IA
+framework and has substantially addressed the 7 IA questions. In these cases,
+agencies need to summarise the analysis and findings in a Dashboard IA. Where
+a review or similar analysis does not fully address the 7 IA questions, agencies
+should undertake proportionate supplementary analysis to address any gaps in
+the Dashboard IA, including providing a regulatory burden estimate. The review
+(or other similar analysis) needs to be published together with the Dashboard IA.
+This approach avoids duplication between comprehensive review processes
+and IAs while ensuring the decision‑makers are informed of likely impacts.
+
+Australian Government Impact Analysis Framework
+
+18
+
+Election commitments
+IAs covering matters which were the subject of an election commitment will not be
+required to consider an alternative policy option. Only the specific election commitment
+relative to the status quo needs to be considered as part of the IA.
+
+Sunsetting legislative instruments
+When remaking a sunsetting legislative instrument, agencies need to assess
+the instrument against the IA scope and thresholds (step 1) and, if required,
+prepare and publish a Dashboard IA. Consistent with the sunsetting provisions in
+the Legislation Act 2003, the status quo for legislative instruments should assume
+the instrument would sunset.
+
+Deviating from international standards
+As outlined in the Best Practice Handbook on Standards and Conformance Policy,
+if mandatory standards are appropriate to meet a policy objective, then policymakers
+should use international standards, where one exists, unless demonstrably unsuitable
+for the Australian context. Policymakers should only deviate from existing standards,
+including international standards, if the benefit to the community outweighs the cost
+of deviating from existing standards.
+For proposals to introduce a mandatory standard that deviates from an existing
+international standard that meets the IA thresholds, a Detailed IA is required.
+
+Regulatory Impact Analysis Guide for Ministers’ Meetings
+and National Standard Setting Bodies
+The IA framework applies only to Australian Government decisions, with joint
+decision‑making processes with states and territories having separate requirements.
+Specifically, regulation impact statement arrangements apply under the Regulatory
+Impact Analysis Guide for Ministers’ Meetings and National Standard Setting Bodies
+to all ministers’ meetings and to those standard-setting bodies set up by the Australian
+Government and the states and territories.
+
+Office of Impact Analysis
+
+19
+
+

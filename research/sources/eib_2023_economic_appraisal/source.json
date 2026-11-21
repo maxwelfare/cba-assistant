@@ -1,0 +1,11 @@
+{
+  "key": "eib_2023_economic_appraisal",
+  "citation": "The Economic Appraisal of Investment Projects at the EIB, 2nd Edition, March 2023, European Investment Bank",
+  "doi": null,
+  "url": "https://www.eib.org/files/publications/20220169_economic_appraisal_of_investment_projects_en.pdf",
+  "media_type": "application/pdf",
+  "sha256": "c3dff43945a47dc4426c5d30f19e030eaac1a33f600c72897eb9b24d80d0c112",
+  "licence": "(c) European Investment Bank 2023, all rights reserved",
+  "fetched_utc": "2026-11-09T16:37:11Z",
+  "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

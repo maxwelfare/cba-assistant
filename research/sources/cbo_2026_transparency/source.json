@@ -1,0 +1,12 @@
+{
+ "key": "cbo_2026_transparency",
+ "citation": "Congressional Budget Office (April 2026). Transparency at CBO: Plans for 2026 and a Review of 2025. Publication 61968. Copy archived by the Internet Archive on 21 May 2026 (cbo.gov refuses automated fetches, HTTP 403).",
+ "doi": null,
+ "url": "http://web.archive.org/web/20260521134036id_/https://www.cbo.gov/system/files/2026-04/61968-Transparency.pdf",
+ "media_type": "application/pdf",
+ "sha256": "85874dd5c7580d89eb5faece929552e7899be080ffe60b41d11848307ca9469e",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:22:07Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch http://web.archive.org/web/20260521134036id_/https://www.cbo.gov/system/files/2026-04/61968-Transparency.pdf"
+}

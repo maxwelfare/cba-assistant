@@ -1,0 +1,11 @@
+{
+ "key": "acores_2024_orientacao_evf",
+ "citation": "Região Autónoma dos Açores, Direção Regional do Planeamento e Fundos Estruturais (2024). Orientação n.º 04/2024: Elaboração do Estudo de Viabilidade Financeira, operações com investimento elegível acima de 1 450 M€ (Açores 2030).",
+ "doi": null,
+ "url": "https://acores.portugal2030.pt/wp-content/uploads/sites/18/2024/09/ORIENTACAO-4_2024-Elaboracao-EVF_signed.pdf",
+ "media_type": "application/pdf",
+ "sha256": "02de25350883cbf39bea9a133a1aa54cd33301ef20788778066f3850acf013ac",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:49:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

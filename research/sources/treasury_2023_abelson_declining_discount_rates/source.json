@@ -1,0 +1,11 @@
+{
+  "key": "treasury_2023_abelson_declining_discount_rates",
+  "citation": "Abelson P, Dalton T (June 2023). Declining Discount Rates in Cost Benefit Analysis. Report prepared for the New Zealand Treasury, Applied Economics P/L.",
+  "doi": null,
+  "url": "https://www.treasury.govt.nz/sites/default/files/2024-09/cr-declining-discount-rates-cba.pdf",
+  "media_type": "application/pdf",
+  "sha256": "cfcbacd99e8b01587e7085388c39a903874f22129f35848c42d9f6c62b711321",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:32:13+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

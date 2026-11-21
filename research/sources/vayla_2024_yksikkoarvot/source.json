@@ -1,0 +1,11 @@
+{
+ "key": "vayla_2024_yksikkoarvot",
+ "citation": "Metsäranta H, Toivio T, Halminen A, Viljanen K (2024). Tie- ja rautatieliikenteen hankearvioinnin yksikköarvojen määrittäminen vuodelle 2022. Väyläviraston julkaisuja 81/2024. ISBN 978-952-405-232-0.",
+ "doi": null,
+ "url": "https://www.doria.fi/bitstream/handle/10024/190638/vj_2024-81_978-952-405-232-0.pdf",
+ "media_type": "application/pdf",
+ "sha256": "4bd5eb0d4a8dfcc10d8bbfe61e68183562d3ad1a61677ddaae2a454f87a67625",
+ "licence": "CC BY 4.0 (as listed on the Doria record; not restated in the PDF text)",
+ "fetched": "2026-11-09T16:28:01Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

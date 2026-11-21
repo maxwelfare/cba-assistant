@@ -1,0 +1,30 @@
+% The layout of a case's one-page executive summary in Korean, Japanese or Chinese: summary.tex's on A4,
+% in Noto Sans CJK, two columns each about 25 characters wide; the body type is chosen as in summary.tex.
+% tools/typeset.py runs it with the document as \jobname.md and its title and dateline as \jobname-head.md.
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[a4paper,margin=0.5in,columnsep=0.25in]{geometry}
+\usepackage{typeset-cjk}
+\makeatletter
+\renewcommand{\familydefault}{\sfdefault}
+\providecommand{\typesetsize}{10}
+\renewcommand{\normalsize}{\@setfontsize\normalsize{\typesetsize}{\fpeval{1.25*\typesetsize}}}
+\renewcommand{\small}{\@setfontsize\small{\fpeval{0.9*\typesetsize}}{\fpeval{1.12*\typesetsize}}}
+\renewcommand{\footnotesize}{\@setfontsize\footnotesize{\fpeval{0.85*\typesetsize}}{\fpeval{1.05*\typesetsize}}}
+\renewcommand{\large}{\@setfontsize\large{\fpeval{1.15*\typesetsize}}{\fpeval{1.4*\typesetsize}}}
+\makeatother
+\normalsize
+% Space between paragraphs and around a figure that cannot stretch: flushend evens the columns by
+% stretching glue, and stretched a figure's 12 pt above and below to 26 pt each.
+\setlength{\parskip}{0.45\baselineskip}
+\setlength{\intextsep}{0.5\baselineskip}
+\setlength{\textfloatsep}{0.7\baselineskip}
+\setlength{\floatsep}{0.5\baselineskip}
+\pagestyle{empty}
+\newcommand{\typesettitle}[1]{%
+  {\normalcolor\raggedright\bfseries\fontsize{19}{25}\selectfont#1\par}\vspace{2pt}}
+\begin{document}
+% The dateline's size is set outside \markdownInput, which reads the head in a group that closes before the
+% dateline's paragraph ends: set inside, the dateline's 8 pt type took the body's leading.
+\twocolumn[{\fontsize{8}{12}\selectfont\color{typesetinksecond}\markdownInput{\jobname-head.md}\par\vspace{4pt}{\color{typesetrule}\rule{\linewidth}{0.6pt}}\par\vspace{6pt}}]
+\markdownInput{\jobname.md}
+\end{document}

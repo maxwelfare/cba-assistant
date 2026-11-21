@@ -1,0 +1,13 @@
+{
+  "key": "huntington_klein_2021_hidden",
+  "citation": "Huntington-Klein N et al. (2020). The Influence of Hidden Researcher Decisions in Applied Microeconomics. IZA Discussion Paper 13233 (May 2020): the working-paper version of Economic Inquiry 59(3):944-960 (2021).",
+  "doi": "10.1111/ecin.12992",
+  "url": "https://docs.iza.org/dp13233.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5bb9be4d02b37442671cf970f1a903bf297ee4e7fb47f42e84d1b6e9ad4f6a64",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:44:43Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 70633,
+  "note": "Working-paper (IZA DP 13233) version, not the published Economic Inquiry text; the published abstract (OpenAlex) carries the 3-4 times claim, and the working paper abstract carries it too."
+}

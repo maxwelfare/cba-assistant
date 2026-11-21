@@ -1,0 +1,12 @@
+{
+ "key": "russell_2009_completing",
+ "citation": "Russell LB (2009). Completing costs: patients' time. Medical Care 47(7 Suppl 1):S89-S93.",
+ "doi": "10.1097/MLR.0b013e31819bc077",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1097/MLR.0b013e31819bc077",
+ "media_type": "text/plain",
+ "sha256": "866b31ba9ce52cc98ae90a36eda2b3791bf4449a3ced03ac6f102fd86ee97e55",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:13Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/russell_2009_completing.txt (fetched is the file's modification time)"
+}

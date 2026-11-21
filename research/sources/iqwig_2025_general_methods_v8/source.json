@@ -1,0 +1,11 @@
+{
+ "key": "iqwig_2025_general_methods_v8",
+ "citation": "Institute for Quality and Efficiency in Health Care (IQWiG) (December 2025). General Methods, Version 8.0 (service translation of the German original).",
+ "doi": null,
+ "url": "https://www.iqwig.de/methoden/general-methods_version-8-0.pdf",
+ "media_type": "application/pdf",
+ "sha256": "b66c613ac33e03d271cf2558fef97fcb9b3271382407786a8a50a8684cb93e72",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

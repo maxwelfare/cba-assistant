@@ -1,0 +1,12 @@
+{
+ "key": "lrv_2012_poveikio_vertinimo_metodika",
+ "citation": "Lietuvos Respublikos Vyriausybė (2003, consolidated edition in force 2013-01-01 to 2014-06-13). Numatomo teisinio reguliavimo poveikio vertinimo metodika, patvirtinta 2003-02-26 nutarimu Nr. 276 (Žin. 2003, Nr. 23-975).",
+ "doi": null,
+ "url": "http://web.archive.org/web/20260219010805id_/https://e-seimas.lrs.lt/rs/actualedition/TAIS.205970/rXFmeFVFBQ/format/MSO2010_DOCX/",
+ "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+ "sha256": "31ab4b24e46c2e94a1e883add0f6369e06126ef6312bb2187bd454b6ba607d59",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:54:28Z",
+ "text_method": "pdftotext n/a; word/document.xml paragraphs joined by newline, tags stripped (python -I)",
+ "note": "Lithuanian text, diacritics checked readable. Copy taken from the Internet Archive (Wayback id_ raw capture) because the official host is behind Cloudflare."
+}

@@ -1,0 +1,12 @@
+{
+ "key": "walker_2013_list",
+ "citation": "Walker N, Tam Y, Friberg IK (2013). Overview of the Lives Saved Tool (LiST). BMC Public Health 13(Suppl 3):S1.",
+ "doi": "10.1186/1471-2458-13-S3-S1",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3847271/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "5a626c9b30a7d11a45c696cd51520889f5f80da2df41ffcaf9449c3cf7174386",
+ "licence": "CC BY 2.0 (OpenAlex: cc-by; BMC Public Health open access)",
+ "fetched": "2026-11-13T12:39:59Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3847271/fullTextXML"
+}

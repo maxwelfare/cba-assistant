@@ -1,0 +1,12 @@
+{
+ "key": "pandoc_manual",
+ "citation": "MacFarlane J. Pandoc User's Guide (manual of the current release), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://pandoc.org/MANUAL.html",
+ "media_type": "text/html",
+ "sha256": "6cc53482fcb3d4b96df5ef7b8631dbdccf5ec701da36b8771c349ba16e779b07",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:52Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://pandoc.org/MANUAL.html"
+}

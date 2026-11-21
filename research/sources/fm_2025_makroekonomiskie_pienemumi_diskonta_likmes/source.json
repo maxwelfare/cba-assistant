@@ -1,0 +1,11 @@
+{
+  "key": "fm_2025_makroekonomiskie_pienemumi_diskonta_likmes",
+  "citation": "Finanšu ministrija (09.04.2025). Makroekonomisko pienemumu un prognozu skaitliskas vertibas (incl. discount rates). Riga.",
+  "doi": null,
+  "url": "https://www.fm.gov.lv/lv/media/21248/download",
+  "media_type": "application/pdf",
+  "sha256": "1fe03be7ae9ef87319f41136b78cf5626e996508b07bc7a416b1bc99b1f09083",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:31:16+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

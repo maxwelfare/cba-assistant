@@ -1,0 +1,12 @@
+{
+ "key": "govinfo_api",
+ "citation": "US Government Publishing Office. GovInfo API, README of github.com/usgpo/api.",
+ "doi": null,
+ "url": "https://raw.githubusercontent.com/usgpo/api/main/README.md",
+ "media_type": "text/markdown",
+ "sha256": "1d63bdc24ad1c19ce8742ece5a0a64cbf056d6f08ba24d4fe601d0c8e73b1fb2",
+ "licence": "US government work",
+ "fetched": "2026-11-17T11:55:54Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://raw.githubusercontent.com/usgpo/api/main/README.md"
+}

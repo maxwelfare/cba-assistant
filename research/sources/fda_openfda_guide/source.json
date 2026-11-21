@@ -1,0 +1,11 @@
+{
+  "key": "fda_openfda_guide",
+  "citation": "U.S. FDA. openFDA API: Authentication (web page).",
+  "doi": "",
+  "url": "https://open.fda.gov/apis/authentication/",
+  "media_type": "text/html",
+  "sha256": "ecf761a790313637189576d6f3870ccbad6a618e9f91cf494f6d3ea7e49122a4",
+  "licence": "CC0 1.0 for openFDA content (open.fda.gov/terms)",
+  "fetched_utc": "2026-11-09T17:28:09Z",
+  "text_method": "python -I /tmp/.../totext.py (strip script/style, tags to text, paragraph breaks), then cut before the word Authentication to drop the stylesheet"
+}

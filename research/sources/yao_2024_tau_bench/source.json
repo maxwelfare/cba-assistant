@@ -1,0 +1,11 @@
+{
+ "key": "yao_2024_tau_bench",
+ "citation": "Yao S, Shinn N, Razavi P, Narasimhan K (2024). tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains. arXiv:2406.12045v1 (17 Jun 2024).",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/2406.12045",
+ "media_type": "application/pdf",
+ "sha256": "0ce66a1763d698c61bb311c3c874bf593d1e9a5bfff11bb35f6f72b981f6da56",
+ "licence": "not stated in the extracted text (arXiv PDF)",
+ "fetched_utc": "2026-11-09T15:51:41+00:00",
+ "text_method": "pdftotext original.pdf text.txt"
+}

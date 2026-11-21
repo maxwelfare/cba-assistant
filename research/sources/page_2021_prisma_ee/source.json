@@ -1,0 +1,11 @@
+{
+ "key": "page_2021_prisma_ee",
+ "citation": "Page MJ, Moher D, Bossuyt PM, et al. (2021). PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ 372:n160.",
+ "doi": "10.1136/bmj.n160",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8005925/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "c056a0fdb0cbb76eead718d7ee16981bc21e1db7e535d5261b83f31e7b66eb37",
+ "licence": "CC BY 4.0 (stated as 'Creative Commons Attribution (CC BY 4.0) license')",
+ "fetched": "2026-11-07T20:08:00Z",
+ "text_method": ".venv/bin/python -I <script> original.xml text.txt (ElementTree itertext-style walk, tags removed)"
+}

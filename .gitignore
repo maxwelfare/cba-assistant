@@ -1,0 +1,67 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+archive/
+
+# The total tool's draws files (tools/estimate_total.py --draws) are rebuilt exactly from the table at its seed, so they are not committed; the JSON beside them is (roadmap item 2.55, 2026-11-12).
+**/results/estimate_total_draws/
+
+# The pinned Quarto, installed per working tree by tools/quarto_setup.py from the release tarball checked against tools/house_format/quarto.toml; 420 MB, rebuilt by that command, so never committed (layout migration step 1, 2026-11-13).
+vendor/
+
+# Each typeset draft's PDF under its numbered name (tools/typeset.py, tools/document_names.py); the PDF committed beside its source is the same bytes, so a committed number's PDF is found in history by its log's commit (roadmap item 2.66, 2026-11-13).
+**/documents/drafts/
+
+# A reader pilot's text parts are rebuilt exactly from the committed stored texts by its make_pilot.py, so they are not committed (efficacy_angle_well_designed/pilot/pilot.md 3.5); ignored so the owner's editor does not list them as changes (2026-11-08).
+cases/*/reviews/*/pilot/texts/*/*.txt
+
+# A new-client test run's sealed session transcripts hold the owner's address and are never committed unscrubbed (notes/new_client_test.md 7.6, 8.7); ignored so the owner's editor does not list them as changes (2026-11-09, after he saw "32 files uncommitted").
+trials/new_client_test/*/transcripts/
+
+# A user's API keys live in the env block of their local Claude Code settings, never in the repository (.claude/skills/scope-case/SKILL.md 3.9); Claude Code ignores it on its own only where it wrote the file itself (2026-11-10).
+.claude/settings.local.json
+
+# A publisher's subscription copy, read under the owner's library access and not for redistribution; the case may be shared, so its PDF and full text stay on this machine only (the coordinator's instruction of 2026-11-12).
+cases/*/sources/sharma_2023_threat_net/original.pdf
+cases/*/sources/sharma_2023_threat_net/text.txt
+cases/*/sources/sharma_2023_threat_net_supplement/original.zip
+cases/*/sources/sharma_2023_threat_net_supplement/text.txt
+research/sources/bastos_2010_validating_gp_thesis/original.pdf
+research/sources/bastos_2010_validating_gp_thesis/text.txt
+
+# The pinned Quarto, installed per working tree by tools/quarto_setup.py from the release tarball checked against tools/house_format/quarto.toml; 420 MB, rebuilt by that command, so never committed (layout migration step 1, 2026-11-13).
+vendor/
+
+# Each typeset draft's PDF under its numbered name (tools/typeset.py, tools/document_names.py); the PDF committed beside its source is the same bytes, so a committed number's PDF is found in history by its log's commit (roadmap item 2.66, 2026-11-13).
+**/documents/drafts/
+
+# Test clients' case folders (stored sources, 40 to 120 MB a run, 0.9 GB in all), kept on this machine: the conversations and counts are committed, and the case folders are ignored so the owner's editor does not list them. The drivers copied into a run folder are scratch scripts.
+trials/new_client_test/*_half_*/case/
+trials/new_client_test/*/nct_driver*.py
+trials/new_client_test/*/case/results/model/draws_*.npz
+
+# Empty read-only placeholders the Claude Code sandbox puts at the root over paths it protects; they hold nothing of the project's and must never be committed. A real file at one of these paths needs its line removed first.
+/.bash_profile
+/.bashrc
+/.gitconfig
+/.gitmodules
+/.idea
+/.mcp.json
+/.profile
+/.ripgreprc
+/.vscode
+/.zprofile
+/.zshrc
+/.claude/commands
+/.claude/hooks
+/.claude/launch.json
+/.claude/loop.md
+/.claude/output-styles
+/.claude/routines
+/.claude/workflows
+
+# Owen's Monte Carlo book chapter 8 is the author's online draft, each page saying 'do not distribute or post electronically without author's permission'; its PDF and full text stay on this machine only (research/refs.toml entry `owen_2013_monte_carlo_ch8`, 2026-11-17).
+research/sources/owen_2013_monte_carlo_ch8/original.pdf
+research/sources/owen_2013_monte_carlo_ch8/text.txt

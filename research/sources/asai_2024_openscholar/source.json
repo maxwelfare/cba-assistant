@@ -1,0 +1,12 @@
+{
+ "key": "asai_2024_openscholar",
+ "citation": "Asai A et al (2024). OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs. arXiv:2411.14199.",
+ "doi": "10.48550/arXiv.2411.14199",
+ "url": "https://arxiv.org/pdf/2411.14199",
+ "media_type": "application/pdf",
+ "sha256": "26a976b9ec342c2b52f940dca68cc017a9bbbf5bef7b436e97233ab72f1a0989",
+ "licence": "CC BY",
+ "fetched": "2026-11-17T11:53:01Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/2411.14199"
+}

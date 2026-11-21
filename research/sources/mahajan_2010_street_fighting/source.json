@@ -1,0 +1,11 @@
+{
+  "key": "mahajan_2010_street_fighting",
+  "citation": "Mahajan S (2010). Street-Fighting Mathematics: The Art of Educated Guessing and Opportunistic Problem Solving. MIT Press. (OCW file is titled draft text but carries the 2010 MIT Press title page and Creative Commons notice.)",
+  "url": "https://ocw.mit.edu/courses/18-098-street-fighting-mathematics-january-iap-2008/d937ad2ca4b7839a5b3bd92e30ee483e_MIT18_098IAP08_draft_text.pdf",
+  "media_type": "application/pdf",
+  "sha256": "e3af646a4a9dfe56d48d6b909c31e912f54fc1eace91299217841989822d4370",
+  "licence": "Creative Commons (the file's own notice)",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 241025
+}

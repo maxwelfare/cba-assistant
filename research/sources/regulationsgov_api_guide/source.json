@@ -1,0 +1,11 @@
+{
+ "key": "regulationsgov_api_guide",
+ "citation": "Regulations.gov API v4 documentation (GSA Open Technology) (accessed 2026-11-09).",
+ "doi": "",
+ "url": "https://open.gsa.gov/api/regulationsgov/",
+ "media_type": "text/html",
+ "sha256": "868bcbe98b356a4203123539fc038a83b4ad967ac7cdb8c8d519a790b721fef7",
+ "licence": "not stated on the page",
+ "fetched": "2026-11-09T18:00:00Z",
+ "text_method": ".venv/bin/python -I tools/store_rs.py (scripts/styles dropped, tags removed, block ends to newlines)"
+}

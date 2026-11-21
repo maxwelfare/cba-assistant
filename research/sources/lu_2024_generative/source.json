@@ -1,0 +1,12 @@
+{
+ "key": "lu_2024_generative",
+ "citation": "Lu X, Wang X (2024). Generative students: using LLM-simulated student profiles to support question item evaluation. arXiv:2405.11591.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/2405.11591",
+ "media_type": "application/pdf",
+ "sha256": "793139b5dc2cc9cb5851aaa58023561f40495195ceaf83620ce1439101b40fc5",
+ "licence": "CC BY-NC-ND 4.0 (arXiv abstract page)",
+ "fetched": "2026-11-16T03:37:02Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/dl/lu.pdf (fetched is the file's modification time)"
+}

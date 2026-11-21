@@ -1,0 +1,13 @@
+{
+ "key": "dfo_2026_veileder_samfunnsokonomiske_analyser",
+ "citation": "DFØ (Direktoratet for forvaltning og økonomistyring), Veileder i samfunnsøkonomiske analyser, web guide printed 27.03.2026, 192 pp.",
+ "doi": null,
+ "url": "https://www.dfo.no/sites/default/files/2026-04/utskrift-dokument-dfo.pdf",
+ "media_type": "application/pdf",
+ "sha256": "dd22dac6d90052d09c2b388e1a545791f9d124f7ae9b226cbc23906749a0f80b",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34:24Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "text_chars": 583755,
+ "language": "nb (Norwegian bokmål)"
+}

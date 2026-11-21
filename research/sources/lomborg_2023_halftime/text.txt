@@ -1,0 +1,812 @@
+Journal of Benefit-Cost Analysis (2023), 14: S1, 1–15
+doi:10.1017/bca.2023.32
+
+ARTICLE
+
+Save 4.2 Million Lives and Generate $1.1 Trillion in
+Economic Benefits for Only $41 Billion: Introduction
+to the Special Issue on the Most Efficient Policies for
+the Sustainable Development Goals
+Bjorn Lomborg
+Copenhagen Consensus Center, USA and The Hoover Institution at Stanford University, USA
+Email: ea@lomborg.com
+Keywords: best policies; development; sustainable development; goals
+JEL classifications: I30 General (Welfare, Well-Being, and Poverty); D61 Allocative Efficiency  Cost–Benefit
+Analysis; O20 General (Development Planning and Policy); H50 General (National Government Expenditures and
+Related Policies)
+
+Abstract
+The Sustainable Development Goals (SDGs) are ambitious but in deep trouble. Benefit–cost analysis
+can help. This Special Issue highlights 12 of the most efficient interventions to speed up progress on the
+SDGs with Benefit–Cost Ratios (BCRs) above 15. The approaches cover tuberculosis, education,
+maternal and newborn health, agricultural R&D, malaria, e-procurement, nutrition, land tenure
+security, chronic diseases, trade, child immunization, and skilled migration. Spanning 2023–2030,
+these policy approaches are estimated to cost an annual average of $41 billion (of which $6 billion is
+non-financial). They will realistically deliver $2.1 trillion in annual benefits, consisting of $1.1 trillion
+in economic benefits and 4.2 million lives saved. The pooled benefit–cost ratio of all 12 investments is
+52. By prioritizing these high-impact “best buy” interventions, decision-makers can enhance resource
+allocation and contribute most efficiently to the SDGs.
+
+1. Introduction
+Benefit–cost analysis can play a crucial role in the pursuit of the Sustainable Development
+Goals (SDGs, 2015) by channeling additional funds toward development investments that
+generate the most welfare. This Special Issue is the academic conclusion of the “Halftime for
+the Sustainable Development Goals” project by the Copenhagen Consensus1 think tank
+1
+
+The Copenhagen Consensus Center has been championing and working with benefit–cost analysis for two
+decades. It has undertaken subnational and national benefit–cost analysis projects in Bangladesh, Denmark, Ghana,
+Haiti, India, and Malawi (Lomborg, 2017; Lomborg & Rahman, 2017; Lomborg et al., 2020, 2021; Lomborg &
+Bakshi, 2020; Mapila et al., 2022); regional projects in Latin America and Africa (Lomborg, 2009b; Copenhagen
+© The Author(s), 2023. Published by Cambridge University Press on behalf of the Society for Benefit-Cost Analysis. This is an
+Open Access article, distributed under the terms of the Creative Commons Attribution licence (http://creativecommons.org/licenses/
+by/4.0), which permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited.
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+2
+
+Bjorn Lomborg
+
+(or Halftime Project, Copenhagen Consensus, 2023). It uses benefit–cost analysis to
+highlight 12 “best buy” investments that would annually save 4.2 million lives and in total
+generate $2.1 trillion in benefits.2
+Benefit–cost analysis has long been recognized as a valuable tool that can guide decisionmakers toward more informed and effective choices, given ever-present resource constraints
+(Lomborg, 2004, 2009a, 2018; Boardman et al., 2018). When done well, benefit–cost
+analysis gives due consideration to all costs and benefits of a policy – not only those that
+are highly visible. It also ensures that benefits and costs can be explicitly and transparently
+compared against each other, with consistent weighting between present and future. This
+analytical framework can help guide policies toward decisions that optimize resource use,
+improve outcomes, and promote overall social welfare.
+
+2. The SDGs: At halftime but nowhere near halfway
+The SDGs, adopted by the United Nations in late 2015, were designed through an inclusive
+process with the goal of providing a comprehensive framework for addressing global
+challenges such as poverty, inequality, communicable disease, environmental conditions,
+and economic development. The SDGs have 169 targets spread out across 17 goals or
+themes, with 231 indicators.
+Running from 2016 to 2030, mid-2023 is the halftime mark for the SDGs. Yet, there is
+considerable evidence that the world is nowhere near halfway to achieving the SDG
+promises. In a frank report, the UN Secretary-General describes the lack of SDG progress
+as a “collective failure” (UN, 2023). The report summarizes,
+At the mid-way point on our way to 2030, the SDGs are in deep trouble. A preliminary
+assessment of the roughly 140 targets with data show only about 12% are on track;
+close to half, though showing progress, are moderately or severely off track and some
+30% have either seen no movement or regressed below the 2015 baseline (UN, 2023).
+The report also states that “it will take 286 years to close gender gaps in legal protection and
+remove discriminatory laws,” and that even by 2030, “some 660 million people will remain
+without electricity and close to 2 billion will continue to rely on polluting fuels and
+technologies for cooking.” On education, it finds that even “by 2030, some 84 million
+children will be out of school and 300 million children or young people who attend school
+will leave unable to read and write” (UN, 2023).
+A team around Jeffrey Sachs, advisor to the UN Secretary-General on the SDGs, has
+created an overall index for the SDGs from the year 2000 until 2022 (Sachs et al., 2023). It is
+constructed to be easily interpretable, with 100% meaning SDG completion.
+The Global SDG Index score and scores by goal can be interpreted as the percentage of
+achievement. The difference between 100 and countries’ scores is therefore the distance in
+Consensus, 2021), and global projects that examined all major international and development challenges
+(Lomborg, 2004, 2009a, 2013, 2018), or specific responses to climate change and HIV/AIDS (Lomborg, 2010,
+2012). The recommendations have helped shape policy decisions, for example being cited as part of the reasoning
+for a $4.15bn increase to the nutrition sector in 2013 (N4G, 2013a, b), the reason for the Bangladeshi Finance
+Minister to commit to e-procurement in 2016, and the direct cause for the Haitian President to endorse and enact
+wheat flour fortification in 2017 (Lomborg, 2023, p. xi).
+2
+The book Best Things First delivers a more accessible overview of this research (Lomborg, 2023).
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+Journal of Benefit-Cost Analysis
+
+3
+
+percentage that needs to be completed to achieve the SDGs and goals. Sweden’s overall
+Index score (85) suggests that the country is on average 85% of the way to the best possible
+outcome across the 17 SDGs (Lafortune et al., 2018, p. 8).
+The overall trend is shown on the left in Figure 1 and highlights an improvement in SDG
+outcomes across the entire period from 2000 to 2022, with a marked slow-down from 2020,
+likely because of the Covid pandemic which precipitated shutdowns and increased economic
+hardship.
+It is not surprising that the general Global SDG Index is improving over time, as its
+constituent parts measure desirable outcomes, of which the world can afford more as
+incomes increase. The rate of increase of the SDG Index was much lower in the 2000s
+and increased in the 2010s, as is evident at the right in Figure 1.
+However, it is noticeable that the speed did not pick up with the adoption of the SDGs.
+While the five-year period from 2015 to 2019 saw the fastest increase, the periods 2010–
+2014 and 2011–2015 were nearly as fast, and the three other five-year periods during the
+SDGs have been slower. This indicates that the adoption of the SDGs did not accelerate
+progress on key indicators. So far, the SDGs have had no observable, additional effect on
+development.
+Moreover, progress remains far too slow to achieve the SDG promises. If we extrapolate
+the best-achieved progress from 2015 to 2019, and ignore the Covid slow-down, the world
+will achieve just above 71% completion on the SDG Index by 2030, as shown in Figure 2.
+This is a 7.5 percentage point increase over 15 years, as opposed to the 36 percentage points
+promised.
+Another way to show the lack of achievement is to extrapolate progress up to 100%
+completion. At the current best speed, this would happen just before 2080, half a century late.
+This is not a prediction, since it is very likely that as countries get closer to 100% they will
+shift their spending and attention elsewhere. This is apparent for high-income countries that
+have seen an increase of just 1.75 percentage points since 2015. The measure nevertheless is
+a simple way to describe the difference between what the world promised would be achieved
+in 2030 and the time it will take, even optimistically, to happen.
+Figure 2 summarizes how the SDGs neither have accelerated progress nor are likely to
+deliver anywhere near the promised outcome by 2030. While the world in 2023 is at halftime
+for the SDGs, it is nowhere near halfway. This Special Issue provides a roadmap showing
+how the world can do better, most efficiently.
+
+3. Process for the 12 articles in this Special Issue
+When they were introduced, the SDGs aimed to reflect the diversity and complexity of
+global challenges, and to balance the three dimensions of sustainable development: social,
+economic, and environmental. Benefit–cost analysis can incorporate all these dimensions
+and help weigh which policies can deliver most benefits for the resources used.
+The aim of the Halftime Project is to identify, estimate, and communicate interventions
+with large benefits relative to costs, defined as those with a benefit–cost ratio (BCR) greater
+than 15. The benefit–cost ratio is here chosen as the key indicator, since it is useful for
+comparison of additional investment across a wide range of policies while being particularly
+helpful in low- and middle-income countries where resources are significantly constrained
+(Robinson et al., 2019a, pp. 79–80). To avoid picking trivial or very small projects, we
+explicitly look for investments that generate, large-scale impacts.
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+4
+Bjorn Lomborg
+
+0.6%
+
+67%
+0.5%
+
+66%
+
+Annual growth rate
+
+65%
+
+SDG index
+
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+68%
+
+64%
+63%
+62%
+61%
+60%
+
+0.4%
+0.3%
+0.2%
+0.1%
+
+59%
+58%
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+0.0%
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+Figure 1. Left shows Global SDG Index, fulfillment of all SDGs, 2000–2022. Right shows annual growth rate for five-year mid-point (so 2002
+shows the least-squares growth rate of 2000–2005, 2020 shows growth rate of 2018–2022) (Sachs et al., 2023).
+
+2080
+
+Global, % fulillment of SDGs
+
+95%
+90%
+85%
+80%
+
+Letdown
+75%
+
+Trend based on
+2015-2019
+
+70%
+65%
+60%
+55%
+2000
+
+Data
+2000-2022
+2010
+
+2020
+
+2030
+
+2040
+
+2050
+
+2060
+
+2070
+
+2080
+
+Figure 2. Global fulfillment of all SDGs, based on 2000–2022 data, and the trend after 2022, based on 2015–2019 trend. The shaded area
+shows the unfulfilled promise for 2030.
+
+Journal of Benefit-Cost Analysis
+
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+2030
+
+100%
+
+5
+
+6
+
+Bjorn Lomborg
+
+The approach builds on an assessment undertaken in 2014–2015 as the SDG targets were
+being formulated (Lomborg, 2018). In this earlier analysis, 16 different topic areas were
+identified that contained targets or interventions with BCRs above or equal to 15. When
+looking back at the interventions from the 2014–2015 project, we worked with academic
+advisors for each relevant area to identify if it was likely that the BCR would remain at or
+above 15 in 2023.
+In setting out on the Halftime Project, we considered a wide range of additional evidence
+published since our 2015 project. This included additional benefit–cost analysis and
+evidence uncovered during Copenhagen Consensus benefit–cost analysis projects in
+Bangladesh, Haiti, Rajasthan, and Andhra Pradesh in India, Ghana, and Malawi. We also
+looked at evidence on the benefits and costs of research and development spending across a
+wide range of policy areas (Dupont et al., 2017), at the findings of a joint project with the
+African Academy of Sciences on “best buys” for Africa (Copenhagen Consensus, 2021), and
+at a study on benefits and costs of approaches to improving maternal and newborn health
+(Weissmann & Friberg, 2020). From this work, as well as from our wide network of
+collaborators, our academic advisory panel, and literature reviews, we elicited new promising areas for “best buy” interventions.
+We found that some of the original, 2014–2015 “best buy” interventions had BCRs that
+likely no longer exceed 15 in 2023. An example is expanding cell phone connectivity. In
+2015, this was estimated to bring $17 worth of benefits in higher economic growth for each
+dollar spent. Today, most countries have much better connectivity and coverage than they
+did eight years ago, so additional investments would generate lower incremental benefits,
+and overall the approach would very likely have a BCR less than 15.
+In total, the Halftime Project has identified 12 of the most efficient interventions that
+would speed progress on the SDGs. It is likely that these 12 approaches, by their selection,
+constitute the most efficient policies available (or nearly so).
+The 12 policies cover a wide range of topic areas: tuberculosis, education, maternal and
+newborn health, agricultural research and development, malaria, e-procurement, nutrition,
+land tenure security, chronic diseases, trade, child immunization, and skilled migration.
+For each of these areas, the “best investment” case was researched by specialist economists in the field, using consistent approaches and comparable parameters as outlined below,
+with guidance and feedback from the Copenhagen Consensus advisory board, staff, and
+academic peers. All 12 papers have undergone a series of reviews. First, we assembled
+economic experts around the 12 topic areas to ensure that the most efficient policies were
+being assessed. One or more of these experts would author the chapter, and iterations of
+benefit–cost analyses were vetted and refined in close collaboration with the Copenhagen
+Consensus economists. The first draft was circulated to the other experts for comments and
+corrections. After a process of revisions, the final draft was sent for external review by two or
+more experts; all remarks and suggestions were considered and either incorporated or
+commented on in the final paper. The process of getting all 12 papers to their current format
+in this journal took approximately two years.
+
+4. Common parameters for all articles
+To ensure comparability across articles, all the 12 benefit–cost analyses published here use
+common parameters and time series.
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+Journal of Benefit-Cost Analysis
+
+7
+
+All articles focus on low- and lower middle-income countries, using the World Bank
+categorization of countries for the Financial Year 2022, based on 2020 data of per-person
+gross national income (GNI) (World Bank, 2023). This categorization can also be roughly
+described as “the poorer half” of the world, as low-income countries are home to around 700
+million people, and lower middle-income countries are home to 3.4 billion, adding to a total
+of 4.1 billion, or slightly over half the global population.
+The project uses the projections from the United Nations’ Shared Socioeconomic
+Pathways which map out population and gross domestic product (GDP) for the rest of the
+century for regions and countries under different scenarios (Riahi et al., 2017). Across all
+12 papers, authors used the central, so-called middle-of-the-road scenario (SSP2), which
+also fits the long-term economic predictions of the Organisation for Economic Co-operation
+and Development (OECD) and expert-elicited long-term trajectories (Christensen et al.,
+2018; OECD, 2018; Lomborg, 2020).
+The income per worker is estimated from GDP per person. Today, low-income country
+workers have an income of almost 1.5xGDP/person, with rich countries close to 1xGDP/
+person. Using the SSP2 GDP per capita over the rest of the century, we have estimated the
+income per worker for each low- and lower middle-income country for each year using the
+methodology described in the Supplementary material of the Education article included in
+this Special Issue (Angrist et al., 2023). These estimates are used to calculate the benefits
+from education (percent increase in income per year from different schooling outcomes) and
+the costs of waiting times, as described in the individual papers.
+Each article compares a baseline with one or more interventions. The baseline is a
+business-as-usual scenario set by the standard in the relevant area as assessed by the authors.
+The articles attempt to analyze all low- and lower middle-income countries, but this
+approach is sometimes restricted by models. For example, the article on Maternal and
+Newborn Health uses the Lives Saved Tool (LiST) model which has 55 low- and lower
+middle-income countries that account for around 90% of the relevant global health burden.
+In other cases, the approach is modified as relevant: the Malaria article, for example,
+investigates the 29 highest-burden countries in Africa responsible for 96% of global malaria
+deaths.
+For the discount rate, one recent review assembles a list of governments’ social discount
+rates (Groom et al., 2022, Table 1). The discount rate for high-income countries ranges from
+1 to 8% with an average of 4.2%. The entries for all other, non-high-income countries and
+development banks range from 6 to 12%, with an average of 8.9%. Similarly, the World
+Bank’s internal guidelines and the Guidelines for the Conduct of Benefit–Cost Analysis in
+Global Health and Development (Robinson et al., 2019a) suggest that a discount rate should
+be double a country’s projected GDP growth per person. The growth estimates for the
+coming decades of the middle-of-the-road SSP2 scenario for the poorer half of the world
+suggest a discount rate of 7.8%. Taking this together with the 8.9% average for non-rich
+countries, we chose an 8% discount rate for this project. If a lower discount rate was set, all
+the BCRs in the articles below would be higher, as all have costs that take place before or
+concurrently with benefits.
+Similarly, all of the articles in this Special Issue have adopted a standardized approach to
+valuing small changes in the risk of death, commonly referred to as the value per statistical
+life (VSL). The value of these risk changes has been extensively studied in high-income
+countries, but there is a much smaller number of studies in low- and lower middle income
+countries (Robinson et al., 2019b). We use the Reference Case Guidelines for Benefit–Cost
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+8
+
+Bjorn Lomborg
+
+Analysis in Global Health and Development, which link PPP GNI per person to the likely
+value of a statistical life (Robinson et al., 2019a). The specific calculations are described in
+the Malaria article included in this Special Issue (Shretta & Ngwafor, 2023). In 2020, over all
+low- and lower middle income countries, VSL is 54 times the GNI per person, leading to a
+VSL of $98,700 in 2020US$. The GDP growth in this group of countries outpaces
+population growth, so VSL grows rapidly over time to $150,000 in 2025 and $212,000 in
+2030, all in 2020US$.
+Across all analyses, we convert this estimate to an estimate of the value per statistical life
+year (VSLY) by dividing with half the life expectancy at birth (half of 68.2 years in 2020,
+from the World Bank), leading to a VSLY value of $2,893 in 2020US$. The life expectancy
+for all low- and lower middle-income countries is updated for all future years using the UN
+Population Division’s 2019 Population Prospect’s medium variant (UNPD, 2019). In 2030,
+that leads to a life expectancy for low- and lower middle-income countries of 69.9 years,
+meaning the VSLY is $6,062 in 2030 in US2020$ ($212,000/(69.9/2)).
+Setting one value for a statistical life year across all nations in low- and lower middleincome countries ensures a consistent and simpler approach, and is likely more acceptable
+than alternatives to most people, but this approach does disregard the reality that policy
+makers in poorer countries will likely not value these changes in risk as highly as our
+analyses do, while policy makers in richer countries will value them higher than our
+analyses.
+
+5. Summary findings of all 12 articles
+The 12 articles included in this Special Issue highlight “best buy” areas where investment of
+relatively modest resources can deliver spectacular social benefits, with a BCR of at least 15.
+Figure 3 shows the costs of each of the 12 areas for each year across 2023 to 2030, which
+is the remaining SDG time period. All costs are in 2023 US$ and include real cost increases
+as modeled in the individual papers. Note that two of the articles, on Education and on
+Maternal and Newborn Health, each only make a one-year benefit–cost analysis, and the
+costs here have been updated and extended for 2023 to 2030 incorporating slightly
+increasing numbers of primary students and births over the period, and assuming constant
+real costs for goods but increasing costs for labor according to the wage time series.
+In total, annual costs for implementing the 12 policies described in the articles rise from
+$30 billion in 2023 to almost $50 billion by the end of the decade, with an average cost of $41
+billion per year (as indicated in Table 1). The 2030 cut-off denotes the end of the SDG era.
+These policies would likely remain phenomenally efficient in the years and decades after that
+point. Indeed, for some of them, the researchers estimated the costs and benefits far beyond
+2030, as indicated in the individual articles.
+Some of these costs are non-financial, such as time costs for mothers to get their children
+vaccinated, or for tuberculosis patients to go to support meetings. These non-financial costs
+sum to about $6 billion annually, and they do not need to be financed by higher taxes or
+additional philanthropists’ checks. Of the total cost of $41 billion per year, about $35 billion
+a year would be required to pay for these policies.
+The benefits of these 12 “best buy” policies substantially exceed their costs. In terms of
+lives saved, Table 1 shows the annual average of lives saved (for the six interventions where
+this has been estimated) totals 4.2 million lives each year. The BCRs in Table 1 come from
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+50
+45
+40
+
+Billion US$
+
+35
+30
+25
+20
+15
+10
+5
+
+Trade
+Nutrition
+Child immunization
+
+0
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+2029
+
+2030
+
+Figure 3. The costs for each of the policies proposed in the 12 articles, for the years 2023–2030, in 2023US$.
+
+Journal of Benefit-Cost Analysis
+
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+55
+
+9
+
+10
+
+Bjorn Lomborg
+
+Table 1. Annual costs in 2023US$ and lives saved, average over the period 2023–2030.
+
+Tuberculosis
+Maternal & Newborn
+Malaria
+Nutrition
+Chronic diseases
+Child immunization
+Education
+Agricultural R&D
+e-Procurement
+Land tenure security
+Trade
+Skilled migration
+Total
+Weighted average
+
+Annual cost
+
+Annual lives saved
+
+BCR
+
+$6.2 billion
+$4.9 billion
+$1.1 billion
+$1.4 billion
+$4.4 billion
+$1.7 billion
+$9.8 billion
+$5.5 billion
+$76 million
+$1.8 billion
+$1.7 billion
+$2.8 billion
+$41 billion
+
+0.6 million
+1.4 million
+0.2 million
+~18,000
+1.5 million
+0.5 million
+
+46
+87
+48
+18
+23
+101
+65
+33
+125
+21
+95
+20
+
+4.2 million
+52
+
+Note: BCR from the individual articles. Policy areas are listed in no particular order. Lives saved are not estimated in blank cells.
+Lives saved for child immunization are estimated for the birth year.
+
+the individual articles. A reasonable question is, what is the overall BCR for all the
+interventions proposed? If weighted by the average costs over 2023–30, the average BCR
+is 52. If $41 billion is spent at an average BCR of 52, this means an average benefit over
+2023–30 of $2.1 trillion.
+Benefit–cost analyses make it easier for campaigners and policymakers to advocate for
+and introduce policies and investments that maximize welfare for each dollar spent. They
+give tailwind to efficient policies and headwind to inefficient ones. It is my hope that this
+Halftime Project can help make it easier to focus additional SDG funding on these 12 highly
+efficient, proven, and powerful interventions.
+
+6. The 12 articles in this Special Issue
+“One Million Lives Saved Per Year: A Cost-Benefit Analysis of the Global Plan to End TB,
+2023–2030 and Beyond” by Pretorious et al. (2023) presents a benefit–cost analysis of
+increased spending on responding to tuberculosis using impacts and costs drawn from the
+Global Plan to End Tuberculosis, 2023–2030. The authors show that TB investment would
+avert substantial mortality, estimated at 27.3 million averted deaths over the 27-year period
+between 2023 and 2050, or 1 million averted deaths per year on average. Alternative
+specifications using different baselines, interventions, cost profiles, and discount rates still
+yield robustly high BCRs.
+In “Achieving Maternal and Neonatal Mortality Development Goals Effectively: A CostBenefit Analysis,” Madise et al. (2023) identify relatively small investments that can save
+millions of lives. The authors use the LiST model developed by the Institute for International
+Programs at Johns Hopkins Bloomberg School of Public Health to calculate the impact of
+scaling up maternal and neonatal health interventions. Focusing on 55 low- and lower
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+Journal of Benefit-Cost Analysis
+
+11
+
+middle income countries which account for around 90% of the burden of maternal and
+neonatal mortality globally, the research evaluates packages of interventions to compound
+the benefits for each recipient and lower the time and costs of treatment: increased coverage
+of Basic Emergency Obstetric and Newborn Care (BEmONC) from 68% to 90%, with
+increased Family Planning services. Together, these approaches can save more than 160,000
+mothers and 1.2 million children each year.
+The paper “Improving Learning in Low- and Lower-middle-income Countries” by Angrist
+et al. (2023) examines two policies to use education resources more effectively. The first
+approach is called “teaching at the right level.” This intervention takes students out of agebased classes for 1 hour a day to learn at their specific learning level, either physically or with a
+tablet. Material is tailored so children are not lost or bored. Just 1 hour a day for a year can
+make the full school year deliver learning that would have taken 2–3 years otherwise. The
+second strategy is “structured pedagogy.” As used successfully in Kenya, teachers are
+provided with lesson plans and supported with workshops and text messages. The extra cost
+for one student for 1 year is less than $8, and it has been shown to deliver learning that is
+equivalent to almost 1 extra year of schooling. Teaching at the right level (with and without
+technology) and structured pedagogy deliver phenomenal benefits for each dollar spent.
+The paper “Benefit–Cost Analysis of Increased Funding for Agricultural Research and
+Development in the Global South” by Rosegrant et al. (2023) proposes an increase in global
+agricultural R&D. The investment focused on CGIAR research centers, national agricultural
+research systems, and private companies along with improved research efficiency. The
+authors use the IMPACT model which estimates physical results (like higher yields),
+producer economic impacts (like higher farm incomes), consumer impacts (like lower food
+prices and rates of hunger), and global outcomes (like higher GDP). The average increased
+spending annually is about $5.2 billion, with annual benefits of $184 billion. Over the entire
+35-year period, the average BCR is 33.
+“Benefits and Costs of Scaling up Coverage and Use of Insecticide Treated Nets: An
+Investment Case for the Scale up of Insecticide Treated Nets and the Use of all Nets, Halfway
+into the SDG Targets” by Shretta and Ngwafor (2023) highlights the enormous power of
+long-lasting insecticide-treated nets (LLINs). The use of LLINs while sleeping is one of the
+best ways to prevent malaria, as the nets form a physical and chemical barrier against
+mosquitoes. The study estimates the costs and benefits of scaling up the number of LLINs by
+10 percentage points in the 29 highest-burden countries in Africa from 2023 to 2030. By the
+end of the decade, this effort will have halved deaths from malaria. Each dollar spent will
+deliver $48 of social benefits.
+“The Investment Case for E-government Procurement: A Cost–Benefit Analysis” by
+Bosio et al. (2023) studies the costs and benefits of 11 e-procurement initiatives in lowincome countries like Bangladesh and Rwanda, middle-income countries such as Ukraine
+and Tunisia, and high-income countries like Italy and South Korea. They show that the cost
+is likely very low. Over the first 12 years, costs average $16.7 million, irrespective of a
+country’s size – a trivial sum compared to most government budgets. A well-designed
+e-procurement system allows for proactive monitoring and the identification of corruption.
+Most importantly, it cuts the overall cost of government spending. The average reduction in
+procurement prices is 6.75%, leading to savings by 2030 worth more than $100 million per
+year for an average low-income country. In lower middle-income countries, the average
+savings are more than $1 billion per year.
+
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+12
+
+Bjorn Lomborg
+
+“Investing in Nutrition—A Global Best Investment Case” by Larsen et al. (2023) outlines
+five policies that have real potential to improve children’s dietary intake in their first 1,000 days
+and thereby prevent serious long-term harm. The first two policies focus on micronutrients for
+pregnant women, with a BCR of 24. The third and fourth policies focus on two ways of
+promoting complementary feeding in the 40 low- and lower middle-income countries with the
+highest rates of stunting. The third intervention delivers only information to the top 40%, who
+can afford food but need more guidance (BCR of 16), while the fourth intervention focuses on
+the lower 60%, who need both information and more food, which means higher costs, leading
+to a lower BCR of 7.5. Finally, the fifth intervention examines the costs and benefits of “Smallquantity lipid-based nutrient supplements,” which delivers a BCR of 14.
+There is considerable evidence that the SDG target of improving property rights provision
+and recognition would lead to significant economic benefits. However, a review by the
+authors of “The Investment Case for Land Tenure Security in Sub-Saharan Africa: A Cost–
+Benefit Analysis” (Byamugisha & Dubosse, 2023) found that no single mechanism alone
+has been successful in improving land tenure security. Instead, a whole process is necessary,
+and the paper identifies the costs and benefits of introducing this process across sub-Saharan
+Africa. The authors highlight the need for surveying and registering land, digitizing land
+registries, and operation costs, along with the need to strengthen institutions and resolving
+land disputes. They estimate the costs and benefits for rural and urban areas separately,
+finding that the benefits in sub-Saharan African rural areas are less well documented,
+whereas the benefits for urban areas are well documented. The BCR is 18 for rural areas,
+and the BCR is 30 for urban areas.
+“Best Investments in Chronic, Noncommunicable Disease Prevention and Control in
+Low- and Lower-middle-income Countries” by Watkins et al. (2023) emphasizes the
+substantial benefits that can be achieved in tackling noncommunicable diseases. First, it
+explores the BCR of the standard focus on primary cardiovascular prevention (mostly pills to
+lower blood pressure) and a slew of smaller interventions. Second, the paper looks at tax and
+regulation policies on tobacco, alcohol, and salt; these have implementation costs but
+additionally cause deadweight losses for people who will change their behavior. The paper
+estimates the total costs and benefits of all of these approaches and finds these are often very
+efficient. In total, the cost of introducing all these approaches across low- and lower middleincome countries requires an annual additional $4.4 billion and this will save about 1.5
+million lives, delivering a BCR of 23.
+In their study, “Benefit–Cost Analysis of Increased Trade: An Order-of-Magnitude
+Estimate of the Benefit–Cost Ratio,” Feyrer et al. (2023) employ an innovative methodology
+to examine not just the benefits of more trade but also the significant costs that some groups
+will bear. This paper specifically estimates the costs to import-exposed industries, and in this
+way can make a meaningful contribution to understanding the real pain from trade, as
+experienced for instance in the United States Rust Belt. The paper looks at not only the global
+level of costs and benefits but also at different World Bank income groupings, using
+empirically estimated relationships between import exposure and worker outcomes reported
+in the trade cost literature. Using a structural gravity model, the researchers estimate the costs
+and benefits of a 5% increase in global trade (which could be achieved through tariff
+reductions, more trade agreements or lower transportation costs). The world sees a significant BCR of 11 from increased trade, but almost all costs hit high-income countries.
+Therefore, the BCR for the high-income countries is “only” 7, which explains the high
+degree of trade skepticism across this bloc. However, for the poorer half of the world, the
+benefits are vastly higher than the costs, with a BCR of 95. Sensitivity analyses suggest that
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+Journal of Benefit-Cost Analysis
+
+13
+
+the benefit–cost ratios provided are conservative estimates, possibly representing the lower
+end of the plausible range.
+To estimate the costs and benefits to achieve the SDG targets for childhood immunization
+“SDG Halftime Project: Benefit–Cost Analysis using Methods from the Decade of Vaccine
+Economics (DOVE) Model” by Patenaude et al. (2023) calculates the incremental economic
+benefit–cost ratio for immunization programs in 80 low- and middle-income countries targeted
+by the Global Vaccine Action Plan (GVAP) from 2023 to 2030. The authors look at 9 vaccines
+employed against 10 antigens, delivered through both routine immunization programs and
+supplemental immunization activities. The vaccines covered in the analysis include the pentavalent vaccine, human papillomavirus (HPV) vaccine, Japanese encephalitis (JE) vaccine,
+measles (MCV) vaccine, measles-rubella (MR) vaccine, meningococcal conjugate A (Men
+A) vaccine, pneumocccal conjugate (PCV) vaccine, rotavirus vaccine, and yellow fever
+(YF) vaccine. It is estimated that additional immunization will be much more costly than it is
+presently, yet the extra cost of $1.7 billion annually is outweighed by benefits more than 100:1.
+“A Benefit–Cost Analysis of Increased International Migration of Skilled Labor in Africa
+and the World” by Maskus (2023) builds models of the key impacts of greater international
+flows of skilled workers of key categories (physicians, engineers or STEM workers, and
+other persons with advanced education), both across Africa and 25 global regions. The
+reference scenario is a 10% increase in the skilled migration that has already taken place.
+This is likely less politically problematic, since countries that already have had a large skilled
+migration are more likely to accept 10% of this large number, whereas countries with few
+skilled migrants will take 10% of this much smaller number. The costs include relocation and
+inefficiencies in both the sending and the receiving country, whereas the main benefit is the
+increase in productivity of the skilled migrant. In total, 10% more highly skilled migration
+can deliver a global BCR of 20, and within Africa of 4–7.
+Acknowledgments. Thanks to Lisa Robinson and Brad Wong for reviewing this paper. Any remaining errors are
+my responsibility. Halftime Project Academic Advisors: Bibek Debroy, Dean Jamison, George Psacharopoulosis,
+John Hoddinott, Kodjo Esseim Mensah-Abrampa, Lant Pritchett, Lawrence H. Summers, Lisa A. Robinson,
+Nashiru Abdulai, Nyovani Madise, Ramanan Laxminarayan, Rathin Roy, Thomas Chataghalala Munthali, Vernon
+Smith and Vishal Gujadhur. Copenhagen Consensus Staff: Roland Mathiasson, Nancy Dubosse, Ralph Nordjo,
+Saleema Razvi, Brad Wong, David Lessmann, Krisztina Mészáros. All experts and economists participating in
+Copenhagen Consensus Center’s different projects are listed on https://copenhagenconsensus.com/experts.
+Funding statement. Funding for this project was provided by the Bill and Melinda Gates Foundation (grant
+number INV-031077).
+Competing interest. The author declares none.
+
+References
+Angrist, Noam, Elisabetta Aurino, Harry Anthony Patrinos, George Psacharopoulos, Emiliana Vegas, Ralph
+Nordjo, and Brad Wong. 2023. “Improving Learning in Low- and Lower-Middle-Income Countries.” Journal
+of Benefit-Cost Analysis, 13(S1):1–18. https://doi:10.1017/bca.2023.13.
+Boardman, Anthony E., David H. Greenberg, Aidan R. Vining, and David L. Weimer. 2018. Cost-Benefit Analysis:
+Concepts and Practice (5th Edn). Cambridge, UK/New York, NY: Cambridge University Press.
+Bosio, Erica, Gavin Hayman, and Nancy Dubosse. 2023. “The Investment Case for E-Government Procurement:
+A Cost-Benefit Analysis.” Journal of Benefit-Cost Analysis, 13(S1):1–27. http://doi.org/10.1017/bca.2023.10.
+Byamugisha, Frank F. K., and Nancy Dubosse. 2023. “The Investment Case for Land Tenure Security in SubSaharan Africa: A Cost-Benefit Analysis.” Journal of Benefit-Cost Analysis, 13(S1):1–29. http://doi.org/
+10.1017/bca.2023.14.
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+14
+
+Bjorn Lomborg
+
+Christensen, P., K. Gillingham, and W. Nordhaus. 2018. “Uncertainty in Forecasts of Long-Run Economic
+Growth.” Proceedings of the National Academy of Sciences, 115(21): 5409. https://doi.org/10.1073/
+pnas.1713628115.
+Copenhagen Consensus. 2021. Identifying Best Buys for Africa. Available at https://copenhagenconsensus.com/
+sites/default/files/identifying_best_buys_-_copenhagen_consensus_center_2021.pdf. (accessed June 28, 2023)
+Copenhagen Consensus. 2023. Halftime Project. Available at https://copenhagenconsensus.com/halftime.
+Dupont, Jonathan, Bjorn Lomborg, Paola Grenier, and Brad Wong. 2017. Global Britain, Global Solutions: How
+British R&D can Transform International Development. Policy Exchange. Available at https://policyexchange.
+org.uk/wp-content/uploads/2017/11/Global-Britain.pdf.
+Feyrer, James, Vladimir Tyazhelnikov, Benjamin Alemán Castilla, and Brad Wong. 2023. “Benefit-Cost Analysis
+of Increased Trade: An Order-of-Magnitude Estimate of the Benefit-Cost Ratio.” Journal of Benefit-Cost
+Analysis, 13(S1):1–28. http://doi.org/10.1017/bca.2023.12.
+Groom, Ben, Moritz A. Drupp, Mark C. Freeman, and Frikk Nesje. 2022. “The Future, Now: A Review of Social
+Discounting.” Annual Review of Resource Economics, 14(1): 467–491. https://doi.org/10.1146/annurevresource-111920-020721.
+Lafortune, Guillaume, Grayson Fuller, Jorge Moreno, Guido Schmidt-Traub, and Christian Kroll. 2018. SDG Index
+and Dashboards: Detailed Methodological Paper. Available at https://raw.githubusercontent.com/sdsna/
+2018GlobalIndex/master/2018GlobalIndexMethodology.pdf.
+Larsen, Bjorn, John Hoddinott, and Saleema Razvi. 2023. “Investing in Nutrition – A Global Best Investment
+Case.” Journal of Benefit-Cost Analysis, 13(S1):1–20. http://doi.org/10.1017/bca.2023.22.
+Lomborg, Bjorn. 2004. Global Crises, Global Solutions. Cambridge/New York: Cambridge University Press.
+http://www.loc.gov/catdir/enhancements/fy0632/2005277050-d.html.
+Lomborg, Bjorn, Ed. 2009a. Global Crises, Global Solutions (2nd Edn). Cambridge/New York: Cambridge
+University Press.
+Lomborg, Bjorn. 2009b. Latin American Development Priorities. Cambridge, UK/New York: Cambridge University Press. http://assets.cambridge.org/97805217/66906/cover/9780521766906.jpg.
+Lomborg, Bjorn. 2010. Smart Solutions to Climate Change: Comparing Costs and Benefits. Cambridge,
+UK/New York: Cambridge University Press. http://www.loc.gov/catdir/enhancements/fy1113/2011281861-b.html.
+Lomborg, Bjorn. 2012. Rethinking HIV Priorities. Cambridge: Cambridge University Press.
+Lomborg, Bjorn, Ed. 2013. How Much Have Global Problems Cost the World? A Scorecard from 1900 to 2050.
+Cambridge: Cambridge University Press.
+Lomborg, Bjorn. 2017. Bangladesh Priorities: Ranking the Smartest Solutions by Their Benefits and Costs (1st
+Edn). Dhaka: Adorn Publications.
+Lomborg, Bjorn, Ed. 2018. Prioritizing Development: A Cost Benefit Analysis of the United Nations’ Sustainable
+Development Goals. New York: Cambridge University Press.
+Lomborg, Bjorn. 2020. “Welfare in the 21st Century: Increasing Development, Reducing Inequality, the Impact of
+Climate Change, and the Cost of Climate Policies.” Technological Forecasting and Social Change, 156:
+119981. https://doi.org/10.1016/j.techfore.2020.119981.
+Lomborg, Bjorn. 2023. Best Things First. Copenhagen Consensus Center. Available at https://www.amazon.com/
+dp/1940003482.
+Lomborg, Bjorn, Samuel Kobina Annim, and Ralph Essem Nordjo. 2021. Ghana Priorities: Analysing Costs and
+Benefits. Copenhagen Consensus Center.
+Lomborg, Bjorn, and Manorama Bakshi. 2020. Rajasthan Priorities: Analysing Costs and Benefits. Copenhagen
+Consensus Center.
+Lomborg, Bjorn, and Mahfuzar Rahman. 2017. Bangladesh Priorities: Helping Vision 2021 a Reality (Vols. 1 & 2)
+(1st Edn). Dhaka, Bangladesh: A H Development Publishing House.
+Lomborg, Bjorn, Saleema Razvi, and B. M. Naidu. 2020. Andhra Pradesh Priorities: Analysing Costs and Benefits.
+Copenhagen Consensus Center.
+Madise, Nyovani, Arindam Nandi, Brad Wong, and Saleema Razvi. 2023. “Achieving Maternal and Neonatal
+Mortality Development Goals Effectively: A Cost-Benefit Analysis.” Journal of Benefit-Cost Analysis, 13(S1):
+1–29. http://doi.org/10.1017/bca.2023.24.
+Mapila, Salim A., Andrew Jamali, Thomas C. Munthali, Ralph E. Nordjo, and Nyovani Madise. 2022. Malawi
+Priorities: A Benefit-Cost Analysis for Policy Prioritisation. National Planning Commission. Available at
+https://npc.mw/wp-content/uploads/2022/12/Malawi-Priorities-book-FINAL-EDIT.pdf.
+Maskus, Keith E. 2023. “A Benefit-Cost Analysis of Increased International Migration of Skilled Labor in Africa
+and the World.” Journal of Benefit-Cost Analysis, 13(S1):1–36. http://doi.org/10.1017/bca.2023.15.
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+Journal of Benefit-Cost Analysis
+
+15
+
+N4G. 2013a. Background Document: Global Nutrition for Growth Compact. Available at https://
+nutritionforgrowth.org/wp-content/uploads/2020/03/Endorserscompact_update7_10_2013.pdf.
+N4G. 2013b. Nutrition for Growth Commitments: Executive Summary. Available at https://assets.publishing.
+service.gov.uk/government/uploads/system/uploads/attachment_data/file/207271/nutrition-for-growthcommitments.pdf.
+OECD. 2018. Long-Term Baseline Projections, No. 103. https://doi.org/10.1787/68465614-en.
+Patenaude, Bryan, Salin Sriudomporn, and Joshua Mak. 2023. “SDG Halftime Project: Benefit-Cost Analysis using
+Methods from the Decade of Vaccine Economics (DOVE) Model.” Journal of Benefit-Cost Analysis, 13(S1):1–
+45. http://doi.org/10.1017/bca.2023.11.
+Pretorious, Carel, Nim Arinaminpathy, Sandip Mandal, Suvanand Sahu, Madhukar Pai, Roland Mathiasson, and
+Brad Wong. 2023. “One Million Lives Saved Per Year: A Cost-Benefit Analysis of the Global Plan to End TB,
+2023–2030 and Beyond.” Journal of Benefit-Cost Analysis, 13(S1):1–18. http://doi.org/10.1017/bca.2023.13.
+Riahi, Keywan, Detlef P. van Vuuren, Elmar Kriegler, Jae Edmonds, Brian C. O’Neill, Shinichiro Fujimori, Nico
+Bauer, et al. 2017. “The Shared Socioeconomic Pathways and Their Energy, Land Use, and Greenhouse Gas
+Emissions Implications: An Overview.” Global Environmental Change, 42: 153–168. https://doi.org/10.1016/
+j.gloenvcha.2016.05.009.
+Robinson, Lisa A., James K. Hammitt, Michele Cecchini, Kalipso Chalkidou, Karl Claxton, Maureen L. Cropper,
+Patrick Eozenou, et al. 2019a. “Reference Case Guidelines for Benefit-Cost Analysis in Global Health and
+Development.” SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4015886.
+Robinson, Lisa A., James K. Hammitt, and Lucy O’Keeffe. 2019b. “Valuing Mortality Risk Reductions in Global
+Benefit-Cost Analysis.” Journal of Benefit-Cost Analysis, 10(S1): 15–50.
+Rosegrant, Mark W., Brad Wong, Timothy B. Sulser, Nancy Dubosse, and Travis J. Lybbert. 2023. “Benefit-Cost
+Analysis of Increased Funding for Agricultural Research and Development in the Global South.” Journal of
+Benefit-Cost Analysis, 13(S1):1–25. http://doi.org/10.1017/bca.2023.27.
+Sachs, Jeffrey, Guillame Lafortune, Grayson Fuller, and Eamon Drumm. 2023. Implementing the SDG Stimulus:
+Sustainable Development Report 2023 (1st Edn). Dublin: Dublin University Press. https://doi.org/10.1017/
+9781009210058.
+SDGs. 2015. The 2030 Agenda for Sustainable Development (the SDGs). Available at https://sdgs.un.org/goals.
+Shretta, Rima, and Randolph Ngwafor. 2023. “Benefits and Costs of Scaling up Coverage and Use of Insecticide
+Treated Nets. An Investment Case for the Scale up of Insecticide Treated Nets and the use of all nets, halfway into
+the SDG targets.” Journal of Benefit-Cost Analysis, 13(S1).
+UN. 2023. Progress towards the Sustainable Development Goals: Towards a Rescue Plan for People and Planet.
+Report of the Secretary-General (Special Edition). Available at https://hlpf.un.org/sites/default/files/2023-04/
+SDG%20Progress%20Report%20Special%20Edition.pdf.
+UNPD. 2019. World Population Prospects 2019. Available at https://www.un.org/development/desa/pd/news/
+world-population-prospects-2019-0.
+Watkins, David, Sali Ahmed, and Sarah Pickersgill. 2023. “Best Investments in Chronic, Noncommunicable Disease
+Prevention and Control in Low- and Lower–Middle-Income Countries.” Journal of Benefit-Cost Analysis, 13(S1):
+1–17. http://doi.org/10.1017/bca.2023.25.
+Weissmann, Eva, and Ingrid K. Friberg. 2020. “Cost-Effectiveness of Maternal and Newborn Health
+Interventions.” Copenhagen Consensus. Available at https://copenhagenconsensus.com/publication/cost-effec
+tiveness-maternal-and-newborn-health-interventions.
+World Bank. 2023. World Bank Country and Lending Groups: Historical Classification. Available at https://
+datacatalogfiles.worldbank.org/ddh-published/0037712/DR0090754/OGHIST.xlsx.
+
+Cite this article: Lomborg, B. 2023. “Save 4.2 Million Lives and Generate $1.1 Trillion in Economic Benefits for
+Only $41 Billion: Introduction to the Special Issue on the Most Efficient Policies for the Sustainable Development
+Goals.” Journal of Benefit-Cost Analysis 14: 1–15, doi:10.1017/bca.2023.32
+https://doi.org/10.1017/bca.2023.32 Published online by Cambridge University Press
+
+

@@ -1,0 +1,12 @@
+{
+ "key": "hm_treasury_2021_wellbeing_guidance",
+ "citation": "HM Treasury (2021). Wellbeing guidance for appraisal: supplementary Green Book guidance. July 2021.",
+ "doi": null,
+ "url": "https://assets.publishing.service.gov.uk/media/60fa9169d3bf7f0448719daf/Wellbeing_guidance_for_appraisal_-_supplementary_Green_Book_guidance.pdf",
+ "media_type": "application/pdf",
+ "sha256": "48f02163dc0f73a7225248ebaa344cbf1dcfc5ac69fb4f267afc7e7849ce8dd6",
+ "licence": "Open Government Licence v3.0",
+ "fetched": "2026-11-14T13:07:56Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://assets.publishing.service.gov.uk/media/60fa9169d3bf7f0448719daf/Wellbeing_guidance_for_appraisal_-_supplementary_Green_Book_guidance.pdf"
+}

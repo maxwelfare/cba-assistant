@@ -1,0 +1,11 @@
+{
+ "key": "fhwa_nhts_guide",
+ "citation": "FHWA, Ipsos, MacroSys and ORNL (2024, February). 2022 NextGen NHTS User's Guide, V2 (public use). Oak Ridge National Laboratory for the Federal Highway Administration.",
+ "doi": "",
+ "url": "https://nhts.ornl.gov/assets/2022/doc/2022%20NextGen%20NHTS%20User's%20Guide%20V2_PubUse.pdf",
+ "media_type": "application/pdf",
+ "sha256": "9c402069cd0d89a28ce653f6836e197848543c8e8192a44d57f0d2b5119d6b25",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T17:35:01Z",
+ "text_method": "pdftotext original.pdf text.txt (plain)"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "mfipr_2023_wytyczne_projekty_inwestycyjne",
+  "citation": "Wytyczne dotyczące zagadnień związanych z przygotowaniem projektów inwestycyjnych, w tym hybrydowych na lata 2021-2027 (MFiPR/2021-2027/15(1)), Minister Funduszy i Polityki Regionalnej, 10 March 2023; Monitor Polski 2023 poz. 292",
+  "doi": null,
+  "url": "https://funduszeeuropejskie.gov.pl/wp-content/uploads/2025/09/Wytyczne_PI_i_PH_21_27_5032023.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5ce06172efb77600cfafac659b1a0a9ed2b1237e1eff33f2788c73c4b1375eaa",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:48Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

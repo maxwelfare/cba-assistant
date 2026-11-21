@@ -1,0 +1,12 @@
+{
+ "key": "omb_2017_m_17_21",
+ "citation": "Office of Management and Budget (2017). Memorandum M-17-21, Guidance Implementing Executive Order 13771, Titled 'Reducing Regulation and Controlling Regulatory Costs', 5 April 2017.",
+ "doi": null,
+ "url": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/M-17-21-OMB.pdf",
+ "media_type": "application/pdf",
+ "sha256": "756f5fe9f591412bf05fad89538b163521bf9b09a346ad1d0970914225f338ea",
+ "licence": "US federal government work; no licence stated",
+ "fetched": "2026-11-14T09:51:20Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from a file fetched in an earlier session (fetched is the file's modification time)"
+}

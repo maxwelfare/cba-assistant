@@ -1,0 +1,11 @@
+{
+ "key": "valtiokonttori_2026_investointien_suunnittelu",
+ "citation": "Valtiokonttori (2026). Investointien suunnittelu ja seuranta -ohje, VK/46027/2025, annettu 18.3.2026 (web version on valtiokonttori.fi).",
+ "doi": null,
+ "url": "https://www.valtiokonttori.fi/maaraykset-ja-ohjeet/investointien-suunnittelu-ja-seuranta-ohje-3/",
+ "media_type": "text/html",
+ "sha256": "3d7f2e8506ea237e447aa1a4368c017b33f94bd4bf69b1c58f6b78e0f751aa18",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:28:01Z",
+ "text_method": "python -I conv.py original.html text.txt (content of <main>, tags removed, paragraph breaks kept)"
+}

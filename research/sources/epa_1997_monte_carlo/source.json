@@ -1,0 +1,12 @@
+{
+ "key": "epa_1997_monte_carlo",
+ "citation": "US Environmental Protection Agency, Risk Assessment Forum (1997). Guiding Principles for Monte Carlo Analysis. EPA/630/R-97/001, March 1997.",
+ "doi": null,
+ "url": "https://archive.epa.gov/osa/raf/web/pdf/montecar.pdf",
+ "media_type": "application/pdf",
+ "sha256": "ef5c0fc48e7a59195ad666497a8a053a856d44d3619cdff86d6f68aab5fe4922",
+ "licence": "US federal government work, public domain",
+ "fetched": "2026-11-12T17:39:57Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://archive.epa.gov/osa/raf/web/pdf/montecar.pdf"
+}

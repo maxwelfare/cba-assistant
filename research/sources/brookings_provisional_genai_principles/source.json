@@ -1,0 +1,12 @@
+{
+  "key": "brookings_provisional_genai_principles",
+  "citation": "Brookings Institution. Provisional Principles for the Use of Generative AI.",
+  "doi": null,
+  "url": "https://www.brookings.edu/provisional-principles-for-the-use-of-generative-ai/",
+  "media_type": "text/html",
+  "sha256": "169035878bb8396216a8d6e2c4b199f5692f11c14602dedcaea25af3f771abc2",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:08:57Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 6137
+}

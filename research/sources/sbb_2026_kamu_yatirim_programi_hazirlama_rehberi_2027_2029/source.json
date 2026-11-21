@@ -1,0 +1,12 @@
+{
+  "key": "sbb_2026_kamu_yatirim_programi_hazirlama_rehberi_2027_2029",
+  "citation": "2027-2029 Dönemi Kamu Yatırım Programı Hazırlama Rehberi, T.C. Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı",
+  "doi": null,
+  "url": "https://www.sbb.gov.tr/wp-content/uploads/2026/09/2027-2029-Donemi-Kamu-Yatirim-Programi-Hazirlama-Rehberi.pdf",
+  "media_type": "application/pdf",
+  "sha256": "017049f667dc78311c5a9c87dd5e1d9d4771f9f3cc8a8008635c241eaa72f390",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:07+00:00",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)",
+  "text_language": "Turkish, readable with diacritics"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "apa_2026_title_page",
+  "citation": "APA Style. Title page setup (Internet Archive snapshot of 27 Feb 2026).",
+  "doi": null,
+  "url": "https://web.archive.org/web/20260227161005id_/https://apastyle.apa.org/style-grammar-guidelines/paper-format/title-page",
+  "media_type": "text/html",
+  "sha256": "95b71ae6a337e5c79f289d5858cedacde165a92c71d8b46d74c6790553fb1b1a",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:03:07Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 6469
+}

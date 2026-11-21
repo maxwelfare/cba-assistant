@@ -1,0 +1,12 @@
+{
+ "key": "adler_2014_value",
+ "citation": "Adler MD, Hammitt JK, Treich N (2014). The social value of mortality risk reduction: VSL versus the social welfare function approach. Journal of Health Economics 35:82-93 (TSE working paper 12-292 stored).",
+ "doi": "10.1016/j.jhealeco.2014.02.001",
+ "url": "http://www.tse-fr.eu/sites/default/files/medias/doc/by/hammitt/wp_tse_292.pdf",
+ "media_type": "application/pdf",
+ "sha256": "0221ce4a02d776029ef9b73c4fc56b2f23a58da3067d36ca1ffd4fdf3a9fd73c",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:59:06Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch http://www.tse-fr.eu/sites/default/files/medias/doc/by/hammitt/wp_tse_292.pdf"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "trm_2015_manual_samfundsoekonomisk",
+  "citation": "Transportministeriet (2015): Manual for samfundsøkonomisk analyse på transportområdet, marts 2015. ISBN 978-87-93292-05-5",
+  "doi": null,
+  "url": "https://www.trm.dk/media/ycybjfyq/manual-for-samfundsoekonomisk-analyse-paa-transportomraadet-netversionpdf.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5bcdbc3c2c8e664771f9348ba9434d171fece498d05e6384dff85e701a08a5e1",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:24:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

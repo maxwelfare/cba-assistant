@@ -1,0 +1,99 @@
+# United Kingdom, values in force on 2026-10-30: the 2026-10-29 edition with its discount schedule's last row open-ended, as the
+# Green Book says ("2.25% for year 76 onwards"); the earlier edition ended it at year 125. Read in each document's own text on 2026-10-29 or 2026-10-30.
+# Edited in place on 2026-10-30, before any case pinned it: money
+# declared by currency and price_year (the value of a QALY and of preventing a fatality, their units without the
+# currency), and a [price_index], the GDP deflator by calendar year (ONS MNF2) from HM Treasury's October 2026 release.
+jurisdiction = "United Kingdom"
+edition = "2026-10-30"
+
+[discount_rate]
+schedule = [[1, 30, 0.03], [31, 75, 0.025], [76, "onwards", 0.0225]]
+unit = "real rate per year, by year of the appraisal after the year discounted to: [first year, last year or \"onwards\", rate]"
+document = "HM Treasury, The Green Book (2026), updated 28 October 2026"
+url = "https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026"
+quote = "It is set at 3.00% in real terms for years 1 to 30 of an appraisal. It is 2.50% for years 31 to 75, and then 2.25% for year 76 onwards."
+licence = "Open Government Licence v3.0"
+
+[health_effects]
+uprating = 0.02
+unit = "real growth per year applied to the value of future health effects, in place of a health discount rate"
+document = "HM Treasury, Green Book Discount Rate Review 2026: HM Treasury response, October 2026, Box 1.A"
+url = "https://assets.publishing.service.gov.uk/media/6ae0b3a97cf9b2248904678e/Green_Book_Discount_Rate_Review_2026_-_HM_Treasury_response.pdf"
+quote = "The Green Book no longer recommends the use of the health discount rate of 1.50%. Instead, the value of future real health effects should be uprated by 2% per annum over time."
+licence = "Open Government Licence v3.0"
+
+[value_of_a_qaly]
+value = 70000
+unit = "per QALY"
+currency = "GBP"
+price_year = 2020
+note = "The guidance states 2020-21 prices, a financial year (April to March), entered as 2020, the calendar year holding nine of its twelve months."
+document = "HM Treasury, The Green Book (2026)"
+url = "https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026"
+quote = "The current monetary willingness-to-pay (WTP) value for a QALY is £70,000 in 2020-21 prices."
+licence = "Open Government Licence v3.0"
+
+[value_of_preventing_a_fatality]
+value = 2652796
+unit = "per fatal casualty, in 2023 values"
+currency = "GBP"
+price_year = 2023
+document = "Department for Transport, TAG data book v2.03 (May 2026), Table A4.1.1, row Fatal, total"
+url = "https://assets.publishing.service.gov.uk/media/6a576e102f6185941a9a6569/tag-data-book-v2-03.xlsm"
+quote = "Table A 4.1.1: Average value of prevention per casualty by severity and element of cost; £ (2023 prices and 2023 values); row Fatal, total 2652796.19"
+licence = "not read on its publication page"
+
+[price_index]
+currency = "GBP"
+series = "GDP deflator at market prices, annual"
+series_note = "calendar years, ONS series MNF2, 2025 = 100; the financial-year series (ONS L8GG) stays in the research file"
+unit = "index, 2025 = 100"
+publisher = "HM Treasury (data: ONS series L8GG financial year, MNF2 calendar year)"
+document = "GDP deflators at market prices, and money GDP, October 2026 (Budget)"
+url = "https://assets.publishing.service.gov.uk/media/6ae32ab0a5c2f99e3a7b82e3/GDP_Deflators_Budget_October_2026_update.xlsx"
+date_read = "2026-10-30T16:48Z"
+quote = "GDP deflators for financial years 1955-56 to 2025-26 have been taken directly from ONS series L8GG. GDP deflators for calendar years 1955 to 2025 have been taken from ONS series MNF2."
+quote_url = "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-october-2026-budget"
+licence = "Open Government Licence v3.0"
+licence_note = "the release page's footer (research/price_indices/2026-10-30/raw/uk_page.html): \"All content is available under the Open Government Licence v3.0, except where otherwise stated\""
+guidance_document = "HM Treasury, The Green Book (2026), para 6.47"
+guidance_url = "https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026"
+guidance_quote = "Practitioners should forecast nominal prices and then convert these to real prices. … The effect of general price inflation is then removed using the GDP deflator."
+
+[price_index.calendar_year]
+"1990" = 41.5478
+"1991" = 44.3319
+"1992" = 45.7775
+"1993" = 47.1483
+"1994" = 48.0194
+"1995" = 49.2748
+"1996" = 51.317
+"1997" = 51.3092
+"1998" = 52.0042
+"1999" = 52.7384
+"2000" = 53.2608
+"2001" = 54.1657
+"2002" = 55.2887
+"2003" = 56.6242
+"2004" = 58.1642
+"2005" = 59.8523
+"2006" = 61.6871
+"2007" = 62.9085
+"2008" = 65.005
+"2009" = 66.3178
+"2010" = 67.1637
+"2011" = 68.7396
+"2012" = 69.7531
+"2013" = 71.1961
+"2014" = 72.2397
+"2015" = 72.6589
+"2016" = 73.9044
+"2017" = 74.99
+"2018" = 76.4375
+"2019" = 78.3418
+"2020" = 82.2004
+"2021" = 82.7095
+"2022" = 87.4661
+"2023" = 92.9927
+"2024" = 96.5672
+"2025" = 100.0

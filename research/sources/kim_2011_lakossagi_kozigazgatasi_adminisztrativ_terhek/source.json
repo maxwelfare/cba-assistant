@@ -1,0 +1,11 @@
+{
+  "key": "kim_2011_lakossagi_kozigazgatasi_adminisztrativ_terhek",
+  "citation": "Lakossági és közigazgatási szereplők adminisztratív terhei: útmutató (KIM)",
+  "doi": null,
+  "url": "https://hatasvizsgalat.kormany.hu/download/3/ef/70000/kozigatcs.pdf",
+  "media_type": "application/pdf",
+  "sha256": "4dff4c694790405fb1b9f61e9ce1b87f6cafab081fed81c1bc01a437874a864c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:50Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

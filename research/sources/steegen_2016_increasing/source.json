@@ -1,0 +1,12 @@
+{
+ "key": "steegen_2016_increasing",
+ "citation": "Steegen S, Tuerlinckx F, Gelman A, Vanpaemel W (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science 11(5):702-712.",
+ "doi": "10.1177/1745691616658637",
+ "url": "http://www.stat.columbia.edu/~gelman/research/published/multiverse_published.pdf",
+ "media_type": "application/pdf",
+ "sha256": "9dc3f933b1bd2671b0f92e2e4207b8ac16d755c81f118ab9839f24f73b94856f",
+ "licence": "author copy posted on the third author's site",
+ "fetched": "2026-11-12T15:50:54Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch http://www.stat.columbia.edu/~gelman/research/published/multiverse_published.pdf"
+}

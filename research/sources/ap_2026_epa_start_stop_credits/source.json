@@ -1,0 +1,12 @@
+{
+ "key": "ap_2026_epa_start_stop_credits",
+ "citation": "Associated Press (12 February 2026). EPA ends credits for automatic start-stop vehicle ignition, a feature Zeldin says 'everyone hates'. (News4Jax syndication.)",
+ "doi": null,
+ "url": "https://www.news4jax.com/business/2026/02/12/epa-ends-credits-for-automatic-start-stop-vehicle-ignition-a-feature-zeldin-says-everyone-hates/",
+ "media_type": "text/html",
+ "sha256": "d0fe468e12120121fe0132bed64a9fbf1968a160731441483bb0ddc4b4436d85",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:55Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.news4jax.com/business/2026/02/12/epa-ends-credits-for-automatic-start-stop-vehicle-ignition-a-feature-zeldin-says-everyone-hates/"
+}

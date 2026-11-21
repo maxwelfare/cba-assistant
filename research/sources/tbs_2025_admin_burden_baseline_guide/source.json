@@ -1,0 +1,11 @@
+{
+  "key": "tbs_2025_admin_burden_baseline_guide",
+  "citation": "Treasury Board of Canada Secretariat (January 2025). Guide to the Administrative Burden Baseline.",
+  "doi": null,
+  "url": "https://wiki.gccollab.ca/images/9/93/Guide_to_the_Administrative_Burden_Baseline.docx",
+  "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "b2b146a335c89682a3ab5f068a6d23076c9d52786b001b8d83928d65f0365073",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "docx2txt.py: paragraphs of word/document.xml joined by blank lines"
+}

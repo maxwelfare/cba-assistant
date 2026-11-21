@@ -1,0 +1,11 @@
+{
+ "key": "sampson_2006_alternative",
+ "citation": "Sampson M, Zhang L, Morrison A, et al. (2006). An alternative to the hand searching gold standard: validating methodological search filters using relative recall. BMC Medical Research Methodology 6:33.",
+ "doi": "10.1186/1471-2288-6-33",
+ "url": "https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/1471-2288-6-33",
+ "media_type": "application/pdf",
+ "sha256": "283ec3f8b6bf5c341ade32a88357c7cd2e932b745fde5bf20284dae2b8fadbb9",
+ "licence": "CC BY (per OpenAlex; not checked in the PDF)",
+ "fetched": "2026-11-08T01:09:22Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

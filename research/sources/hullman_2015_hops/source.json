@@ -1,0 +1,12 @@
+{
+ "key": "hullman_2015_hops",
+ "citation": "Hullman J, Resnick P, Adar E (2015). Hypothetical outcome plots outperform error bars and violin plots. PLoS ONE.",
+ "doi": "10.1371/journal.pone.0142444",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4646698/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "213e85dca490abfed337cda4fb6ba298c6cc1aa76d9f432755be18e096b823d7",
+ "licence": "CC BY 4.0",
+ "fetched": "2026-11-17T11:52:04Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4646698/fullTextXML"
+}

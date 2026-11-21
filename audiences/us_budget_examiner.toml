@@ -1,0 +1,135 @@
+# Audience profile: a career budget analyst, as at the Office of Management and Budget or the Congressional
+# Budget Office. Nonpartisan. Format: notes/audience_layer.md section 3. Evidence: research/audience_layer.md.
+# Every `source` is a key of research/refs.toml, and every `quote` is checked by machine against that key's
+# stored text. `basis`: "source", "study", "sample", "convention" or "judgement" (no evidence).
+
+schema = 1
+key = "us_budget_examiner"
+label = "a career budget examiner or analyst (Office of Management and Budget, Congressional Budget Office)"
+disclosure_label = "budget analysts"
+# The edition sentence, added word for word at the foot of each document beside the credit line, and nowhere under
+# its title (notes/audience_layer.md 5.3): a draft in the form of the first profile's, whose wording awaits the owner
+# (the referee's review, 7.4).
+edition_line = "This edition is written for budget analysts."
+as_of = 2026-11-12
+review_by = 2027-11-12
+status = "not used by any case yet; not read by anyone who has held such a post; revised on 2026-11-12 to the referee's review (a referee's review not in this copy)"
+assumes = """Career staff keep their offices' standing rules whichever party governs, so this profile dates \
+slowly. CBO's own pages refused the fetch; its two statements are archive captures of 2016 and 2021. \
+Circular A-4 is the 2003 text, which the project's guidance file for the United States records as \
+reinstated in 2025 (jurisdiction_guidance/united_states/)."""
+
+[reader]
+who = "A career analyst who reads agencies' proposals for a living, trained in economics or public policy, with no stake in the proposal and a duty to find what is wrong with it."
+decides = "What a proposal costs the budget and when, whether its evidence holds, and what to ask before it goes further. Makes no recommendation on the policy itself."
+reads = "The cost and who pays it; the baseline; the assumptions; the tables. Distrusts adjectives."
+basis = "judgement"
+
+[[priority]]
+name = "no advocacy"
+connect = "state findings; leave the choice to the reader"
+source = "cbo_2021_10_things"
+date = 2021-01-21
+quote = "CBO's analysis is objective, impartial, and nonpartisan. CBO makes no policy recommendations."
+basis = "source"
+note = "The date is the archive capture's."
+
+[[priority]]
+name = "the evidence against as well as for"
+connect = "each finding with what cuts against it; the effects left out of the total"
+source = "omb_a11_2025_s51"
+date = 2025-08-01
+quote = "A thorough discussion of the evidence, both positive and negative, for major proposed policies."
+basis = "source"
+note = "The section's file is dated August 2025 in its address; its page foot reads 2026."
+
+[[priority]]
+name = "a central estimate with its uncertainty"
+connect = "the expected value, the range, and where the estimate sits in the range"
+source = "cbo_2021_10_things"
+date = 2021-01-21
+quote = "The agency's estimates are inherently uncertain, but its goal is to produce estimates that are in the middle of the distribution of potential outcomes."
+basis = "source"
+
+[[priority]]
+name = "an analysis a third party can redo"
+connect = "the baseline, the discount rates, the price year, the horizon, and where every input can be checked"
+source = "omb_2003_circulara4"
+date = 2003-09-17
+quote = "It should be possible for a qualified third party reading the report to see clearly how you arrived at your estimates and conclusions."
+basis = "source"
+
+[[priority]]
+name = "real resource costs apart from transfers"
+connect = "which costs use up resources and which only move money between payers"
+source = "omb_2003_circulara4"
+date = 2003-09-17
+quote = "Transfer payments are monetary payments from one group to another that do not affect total resources available to society."
+basis = "source"
+
+[[priority]]
+name = "balance in content and tone"
+connect = "the order and weight given to costs and benefits"
+source = "gao_2024_yellow_book"
+date = 2024-02-01
+quote = "Objective means that the presentation of the report is balanced in content and tone."
+basis = "source"
+note = "The date is the revision's year; the month is not checked."
+
+[[term]]
+prefer = "spending, cost, outlays (where the plain edition gives budget outlays)"
+instead_of = "investment"
+rule = "'Investment' stays where the plain edition means capital that lasts."
+basis = "judgement"
+
+[[term]]
+prefer = "we estimate, the estimate is"
+instead_of = "we find, this shows, this proves"
+rule = "Only where the plain edition's own verb is no stronger than 'estimate'."
+basis = "judgement"
+
+[[term]]
+prefer = "no adjective"
+instead_of = "vital, critical, historic, robust, significant (unless statistical)"
+basis = "convention"
+evidence = "gao_2024_yellow_book 9.17, balance in tone; the nonpartisan reports in the sample title their sections by what was found and what is recommended (research/audience_layer.md 5.5)."
+
+[voice]
+basis = "judgement"
+tone = "Flat and exact. The estimate, its range, its assumptions. No appeal to values: this reader's values are the rules of the craft."
+lead = [
+  "the answer: each option's expected net benefit with the range",
+  "the cost: how much, who pays it, and in which years",
+  "the baseline it is measured against and the main assumptions",
+  "the evidence against, and what is left out of the total",
+  "what would change the answer",
+]
+emphasis_boxes = ["the baseline and the main assumptions", "what is left out of the total", "what would change the answer"]
+sources_named_first = "Official statistics and the auditors where the plain edition cites them, then peer-reviewed studies. No source is added or dropped."
+sources_named_first_basis = "judgement"
+never = [
+  "a recommendation stronger than the plain edition's",
+  "any party's vocabulary: this edition uses neither 'Department of War' nor a distributional word the plain edition lacks",
+  "any seal, flag or agency mark",
+]
+
+# Design tokens: one override. The nonpartisan analysts in the sample print in white, black and a single
+# muted blue, with no picture of people (research/audience_layer.md 5.5).
+
+[design.color.accent]
+value = "#1F4E79"
+type = "color"
+basis = "sample"
+evidence = "A muted blue is the one colour of the Government Accountability Office's highlights page (measured #4B7497), the Congressional Research Service's headings and the Bipartisan Policy Center's cover (#25436C). Darker here for contrast with white."
+
+[design.imagery]
+cover = "The band and the title only."
+photograph = "None."
+basis = "sample"
+evidence = "No cover of the Government Accountability Office, the Congressional Research Service or the Committee for a Responsible Federal Budget in the sample carries an icon or a picture, so no [design.icons] table: the cover has no icon."
+
+[design.charts]
+"axes.prop_cycle" = "cycler('color', ['1F4E79', '898989', 'ABABAB', '595959', 'CFCFCF'])"
+"patch.facecolor" = "1F4E79"
+basis = "sample and judgement"
+evidence = "One accent and greys, as the analysts in the sample print (research/audience_layer.md 5.5): the accent above, then the greys of the house cycle. A table where a table is as clear is the author's choice, not a chart setting."

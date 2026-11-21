@@ -1,0 +1,12 @@
+{
+ "key": "koehler_2009_assessment",
+ "citation": "Koehler E, Brown E, Haneuse SJ-PA (2009). On the assessment of Monte Carlo error in simulation-based statistical analyses. The American Statistician 63(2):155-162.",
+ "doi": "10.1198/tast.2009.0030",
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3337209",
+ "media_type": "application/xml",
+ "sha256": "9c5ae00151da950b899b89507d4cf53e97d104a8c750edadf3ee01a24d7e01c4",
+ "licence": "none stated (PMC author manuscript)",
+ "fetched": "2026-11-17T11:52:46Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3337209"
+}

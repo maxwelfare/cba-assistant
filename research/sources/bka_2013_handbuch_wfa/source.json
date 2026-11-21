@@ -1,0 +1,11 @@
+{
+ "key": "bka_2013_handbuch_wfa",
+ "citation": "Bundeskanzleramt (Version 1.3, Juli 2013; with 2015 note on tiered WFA). Handbuch Wirkungsorientierte Folgenabschätzung, Arbeitsunterlage Wirkungsorientierung. Wien.",
+ "doi": null,
+ "url": "https://oeffentlicherdienst.gv.at/wp-content/uploads/2023/01/Handbuch-Wirkungsorientierte-Folgenabschaetzung.pdf",
+ "media_type": "application/pdf",
+ "sha256": "fd7b2652f33ae97af0e8b1e2ae5bc0173f40242b8255dd8af6a7328459c71330",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:22:13Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

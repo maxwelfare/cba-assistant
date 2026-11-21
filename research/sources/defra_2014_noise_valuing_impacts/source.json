@@ -1,0 +1,12 @@
+{
+ "key": "defra_2014_noise_valuing_impacts",
+ "citation": "Defra (2014). Environmental noise: valuing impacts on sleep disturbance, annoyance, hypertension, productivity and quiet. Interdepartmental Group on Costs and Benefits Noise Subject Group (IGCB(N)), November 2014. PB14227.",
+ "doi": null,
+ "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/380852/environmental-noise-valuing-imapcts-PB14227.pdf",
+ "media_type": "application/pdf",
+ "sha256": "4f6b6a1ae6bc341b53477c1064980016bacdce4d3dfdf39a7eb5b83aecae6b49",
+ "licence": "Open Government Licence v3.0",
+ "fetched": "2026-11-14T13:07:59Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/380852/environmental-noise-valuing-imapcts-PB14227.pdf"
+}

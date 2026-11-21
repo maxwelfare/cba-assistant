@@ -1,0 +1,11 @@
+{
+ "key": "dft_2026_tag_a1_1_cba",
+ "citation": "Department for Transport (2026). TAG Unit A1.1 Cost-Benefit Analysis, May 2026 (GOV.UK file name says may-2025).",
+ "doi": null,
+ "url": "https://assets.publishing.service.gov.uk/media/6a0da3794ea6d8f759662dc9/tag-unit-a1-1-cost-benefit-analysis-may-2025.pdf",
+ "media_type": "application/pdf",
+ "sha256": "aa5b7ffacc1093457ec52be0d49e812fab0fc67d837cf9462cedbb03cdcbe523",
+ "licence": "not stated in the PDF",
+ "fetched_utc": "2026-11-09T16:37Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

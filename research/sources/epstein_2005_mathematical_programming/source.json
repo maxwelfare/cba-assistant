@@ -1,0 +1,12 @@
+{
+ "key": "epstein_2005_mathematical_programming",
+ "citation": "Epstein D, Chalabi Z, Claxton K, Sculpher M (20 April 2005). Mathematical programming for the optimal allocation of health care resources. University of York Centre for Health Economics (working paper; published in Journal of Health Economics 2007).",
+ "doi": null,
+ "url": "https://www.york.ac.uk/che/pdf/mathprog.pdf",
+ "media_type": "application/pdf",
+ "sha256": "a6cb18641c710671bd9692feec71708e8d0ef9802642df8e1e580cbd8ef523a9",
+ "licence": "not stated (University of York Centre for Health Economics copy)",
+ "fetched": "2026-11-13T12:44:24Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/hold/epstein.pdf (fetched is the file's modification time)"
+}

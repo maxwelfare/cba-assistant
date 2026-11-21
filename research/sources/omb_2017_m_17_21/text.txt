@@ -1,0 +1,804 @@
+EXECUTIVE OFFICE OF THE PRESIDENT
+OFFICE OF MANAGEMENT AND BUDGET
+WASHINGTON, D.C. 20503
+
+April 5, 2017
+M-17-21
+MEMORANDUM FOR: REGULATORY POLICY OFFICERS AT EXECUTIVE
+DEPARTMENTS AND AGENCIES AND MANAGING
+AND EXECUTIVE DIRECTORS OF CERTAIN AGENCIES
+AND COMMISSIONS
+FROM:
+
+Dominic J. Mancini, Acting Administrator
+Office of Information and Regulatory Affairs
+
+SUBJECT:
+
+Guidance Implementing Executive Order 13771, Titled “Reducing
+Regulation and Controlling Regulatory Costs”
+
+I.
+
+Introduction
+
+This guidance, in the form of Questions and Answers (Q&As), addresses the requirements of
+Executive Order (EO) 13771, titled “Reducing Regulation and Controlling Regulatory Costs.” It
+applies to Fiscal Years (FY) 2017 and beyond. This guidance supplements the Office of
+Management and Budget (OMB) interim guidance issued on February 2, 2017, titled “Interim
+Guidance Implementing Section 2 of the EO of January 30, 2017, Titled ‘Reducing Regulation
+and Controlling Regulatory Costs.’” While OMB’s Office of Information and Regulatory Affairs
+(OIRA) believes this guidance largely treats the subjects covered in the February 2, 2017 interim
+guidance in a consistent manner, where these two memoranda are in conflict, this guidance
+supersedes the previous guidance. It reflects OIRA’s consideration of the comments received in
+response to the February 2, 2017, interim guidance. Comments sent by members of the public are
+available on Regulations.gov in docket ID OMB-2017-0002.
+II.
+
+General Requirements
+The guidance explains, for purposes of implementing Section 2, the following requirements:
+•
+•
+
+•
+
+“Unless prohibited by law, whenever an executive department or agency . . . publicly
+proposes for notice and comment or otherwise promulgates a new regulation, it shall
+identify at least two existing regulations to be repealed.” Sec. 2(a).
+“For fiscal year 2017 . . . the heads of all agencies are directed that the total incremental
+cost of all new regulations, including repealed regulations, to be finalized this year shall be
+no greater than zero, unless otherwise required by law or consistent with advice provided in
+writing by the Director of the Office of Management and Budget . . . .” Sec. 2(b).
+“In furtherance of the requirement of subsection (a) of this section, any new incremental
+costs associated with new regulations shall, to the extent permitted by law, be offset by the
+elimination of existing costs associated with at least two prior regulations.” Sec. 2(c).
+
+In general, executive departments or agencies (“agencies”) may comply with those requirements
+by issuing two EO 13771 deregulatory actions (described below) for each EO 13771 regulatory
+action (described below). The incremental costs associated with EO 13771 regulatory actions
+must be fully offset by the savings of EO 13771 deregulatory actions.
+In addition, agencies planning to issue one or more EO 13771 regulatory actions on or before
+September 30, 2017, should for each such EO 13771 regulatory action:
+•
+•
+
+Identify two existing regulatory actions the agency plans to eliminate or propose for
+elimination on or before September 30, 2017 in a reasonable period of time before the
+agency issues the EO 13771 regulatory action; and
+Fully offset the total incremental cost of such EO 13771 regulatory action as of September
+30, 2017.
+
+Guidance on the requirements of Section 3(a) is forthcoming.
+Beginning with FY 2018, Section 3(d) requires the Director of OMB to identify to agencies a
+total amount of incremental costs (or “regulatory cap” as stated in Section 2) for all EO 13771
+deregulatory and EO 13771 regulatory actions finalized during the fiscal year. The total
+incremental cost imposed by each agency should not exceed the agency's allowance for that
+fiscal year, unless required by law or approved by the Director. The total incremental cost
+allowance may be an increase or reduction in total regulatory cost, and will be informed by
+agencies’ draft submissions for the Regulatory Plan.
+Please consult with OIRA if you have any particular questions regarding the applicability or
+interpretation of EO 13771 not addressed in these Q&As.
+Agencies should continue to comply with all applicable laws and requirements. In addition,
+EO 12866 remains the primary governing EO regarding regulatory planning and review.
+Accordingly, among other requirements, except where prohibited by law, agencies must continue
+to assess and consider both the benefits and costs of regulatory actions, including deregulatory
+actions, when making regulatory decisions, and issue regulations only upon a reasoned
+determination that benefits justify costs.
+III.
+
+Definitions
+This section provides definitions for terms used in this guidance. The definitions should not
+necessarily be applied to other sections of EO 13771 that this guidance does not cover, and do
+not replace definitions used in other EOs or statutes.
+
+2
+
+Q1.
+
+What is an “agency”?
+
+A: An “agency,” unless otherwise indicated, means any authority of the United States that is an
+“agency” under 44 U.S.C. 3502(1), other than those considered to be independent regulatory
+agencies, as defined in 44 U.S.C. 3502(5). A cabinet department is considered a single
+agency for purposes of EO 13771 compliance.
+Q2.
+
+What is an “EO 13771 regulatory action”?
+
+A: An “EO 13771 regulatory action” is:
+(i) A significant regulatory action as defined in Section 3(f) of EO 12866 that has been
+finalized and that imposes total costs greater than zero; or
+(ii) A significant guidance document (e.g., significant interpretive guidance) reviewed by
+OIRA under the procedures of EO 12866 that has been finalized and that imposes
+total costs greater than zero.
+For example, EO 13771 regulatory actions include negotiated rulemakings that are
+significant as defined in Section 3(f) of EO 12866, that have been finalized, and that impose
+total costs greater than zero.
+Q3.
+
+What is a “significant guidance document”?
+
+A: As defined in OMB’s Final Bulletin for Agency Good Guidance Practices, a “significant
+guidance document” is a guidance document disseminated to regulated entities or the general
+public that may reasonably be anticipated to:
+(i) Lead to an annual effect on the economy of $100 million or more or adversely affect
+in a material way the economy, a sector of the economy, productivity, competition,
+jobs, the environment, public health or safety, or State, local, or tribal governments or
+communities;
+(ii) Create a serious inconsistency or otherwise interfere with an action taken or planned
+by another agency;
+(iii)Materially alter the budgetary impact of entitlements, grants, user fees, or loan
+programs or the rights and obligations of recipients thereof; or
+(iv) Raise novel legal or policy issues arising out of legal mandates, the President’s
+priorities, or the principles set forth in EO 12866, as further amended.
+A significant guidance document does not include legal advisory opinions for internal
+Executive Branch use and not for release (such as Department of Justice Office of Legal
+Counsel opinions); briefs and other positions taken by agencies in investigations,
+pre-litigation, litigation, or other enforcement proceedings; speeches; editorials; media
+interviews; press materials; Congressional correspondence; guidance documents that pertain
+to a military or foreign affairs function of the United States (other than guidance on
+procurement or the import or export of non-defense articles and services); grant solicitations;
+3
+
+warning letters; case or investigatory letters responding to complaints involving fact-specific
+determinations; purely internal agency policies guidance documents that pertain to the use,
+operation or control of a government facility; internal guidance documents directed solely to
+other Federal agencies; and any other category of significant guidance documents exempted
+by an agency in consultation and concurrence with the OIRA Administrator. In the list above,
+“internal” policies and guidance documents do not include those that materially affect an
+agency’s interactions with non-Federal entities, even if nominally directed only to agency
+personnel. For example, an internal directive to field staff on how to implement a regulatory
+requirement could be a significant guidance document if it satisfied any of (i) through (iv)
+above.
+If they satisfy the definition above, modifications to existing guidance and interpretative
+documents would be considered significant guidance documents.
+Q4.
+
+What is an “EO 13771 deregulatory action”?
+
+A: An “EO 13771 deregulatory action” is an action that has been finalized and has total costs
+less than zero. An EO 13771 deregulatory action qualifies as both: (1) one of the actions used
+to satisfy the provision to repeal or revise at least two existing regulations for each regulation
+issued, and (2) a cost savings for purposes of the total incremental cost allowance. EO 13771
+deregulatory actions are not limited to those defined as significant under EO 12866 or
+OMB’s Final Bulletin on Good Guidance Practices.
+An EO 13771 deregulatory action may be issued in the form of an action in a wide range of
+categories of actions, including, but not limited to:
+•
+•
+•
+•
+
+Informal, formal, and negotiated rulemaking;
+Guidance and interpretative documents;
+Some actions related to international regulatory cooperation; and
+Information collection requests that repeal or streamline recordkeeping, reporting, or
+disclosure requirements.
+
+Significant proposed rules issued before noon on January 20, 2017, that are formally
+withdrawn by notice in the Federal Register and removed from the Unified Agenda of
+Regulatory and Deregulatory Actions may qualify as repeal actions, but do not qualify for
+cost savings.
+Please consult with OIRA regarding other actions your agency believes should qualify as an
+EO 13771 deregulatory action.
+Q5.
+
+What does “offset” mean?
+
+A: The term “offset” means at least two EO 13771 deregulatory actions have been taken per
+EO 13771 regulatory action and that the incremental cost of the EO 13771 regulatory action
+has been appropriately counterbalanced by incremental cost savings from EO 13771
+deregulatory actions, consistent with the agency’s total incremental cost allowance.
+4
+
+Q6.
+
+What is a “statutorily or judicially required” rulemaking?
+
+A: A statutorily required rulemaking is one for which Congress has provided by statute an
+explicit requirement and explicit timeframe for rulemaking. For example, a statute that states,
+an agency “shall issue nutrition labeling requirements within 10 years” of the statute’s
+enactment date would be considered a statutorily required rule.
+A judicially required rulemaking is one for which there is a judicially established binding
+deadline for rulemaking, including deadlines established by settlement agreement or consent
+decree.
+Agencies should consult with OIRA to determine whether a rule falls within the definition of
+a statutorily or judicially required rulemaking.
+Q7.
+
+What is a rule issued with respect to a “national security function” of the United
+States?
+
+A: For the purposes of EO 13771, a regulation issued with respect to a national security function
+is a regulation that satisfies the two following requirements:
+(1) The benefit-cost analysis demonstrates that the regulation is anticipated to improve
+national security as its primary direct benefit; and
+(2) (A) For regulations the agency considers legislative rules: OIRA and the agency agree
+the regulation qualifies for a “good cause” exception under 5 U.S.C. 553(b)(3)(B); or
+(B) For other regulations (including significant guidance) the agency and OIRA agree
+that applying the requirements of EO 13771 to the regulation would be impracticable
+or contrary to public interest.
+Q8.
+
+What is “total incremental cost”?
+
+A: The term “total incremental cost” means the sum of all costs from EO 13771 regulatory
+actions minus the cost savings from EO 13771 deregulatory actions.
+IV.
+
+Scope Questions
+Q9.
+
+Which new regulations as defined in EO 13771 must be offset?
+
+A: Agencies are required to offset EO 13771 regulatory actions issued after noon on
+January 20, 2017. This includes those EO 13771 regulatory actions that are rules finalizing a
+Notice of Proposed Rulemaking (or in certain instances an interim final rule; see Question 11
+for a further discussion) issued before noon on January 20, 2017.
+Agencies should use the existing significance determination process outlined in EO 12866
+for determining whether an action is an EO 13771 regulatory action. Agencies should not
+assume that actions that appear, or have appeared, in the Unified Agenda of Regulatory and
+5
+
+Deregulatory Actions as nonsignificant have been determined by OIRA to be nonsignificant.
+Agencies should obtain an affirmative significance determination from OIRA before
+publishing regulatory actions.
+Q10.
+
+How are interim and direct final rules treated?
+
+A: In general, significant interim and direct final rules must be offset. However, a significant
+interim final rule or direct final rule may qualify for an exemption with respect to the timing
+for identifying and issuing the EO 13771 deregulatory actions.
+Q11.
+
+How are significant rules that finalize interim final rules (IFR) treated?
+
+A: If the final rule neither increases nor decreases the cost of the IFR, then the action does not
+need to be offset nor does it qualify as an EO 13771 deregulatory action. If the final rule
+includes changes that increase the cost of the IFR, then the final rule must be offset
+(however, if the final rule imposes only de minimis costs relative to the IFR, the final rule
+may qualify for an exemption). If the final rule reduces the cost of the IFR, then the rule and
+the cost savings relative to the IFR may qualify as an EO 13771 deregulatory action.
+Q12.
+
+Must agencies identify EO 13771 deregulatory actions for significant advance notices
+of proposed rulemaking (ANPRM)?
+
+A: No. With respect to rulemaking, the requirements of EO 13771 do not apply to pre-notice of
+proposed rulemaking activities such as ANPRMs.
+Q13.
+
+How are regulatory actions that implement Federal spending programs or establish
+fees and penalties treated?
+
+A: In general, Federal spending regulatory actions that cause only income transfers between
+taxpayers and program beneficiaries (e.g., regulations associated with Pell grants and
+Medicare spending) are considered “transfer rules” and are not covered by EO 13771.
+Additionally, an action that establishes a new fee or changes the existing fee for a service,
+without imposing any new costs, does not need to be offset; nor does an action that
+establishes new penalties or fines or changes those already in existence.
+However, in some cases, such regulatory actions may impose requirements apart from
+transfers, or transfers may distort markets causing inefficiencies. In those cases, the actions
+would need to be offset to the extent they impose more than de minimis costs. Examples of
+ancillary requirements that may require offsets include new reporting or recordkeeping
+requirements or new conditions, other than user fees, for receiving a grant, a loan, or a
+permit. Analogously, if an action reduces the stringency of requirements or conditions for
+transfer recipients or permit holders, the action may qualify as an EO 13771 deregulatory
+action. Also, an action that causes transfers that, for example, induce moral hazard or other
+inefficient behavior may need to be offset and an action that reduces such transfers may
+qualify as an EO 13771 deregulatory action.
+
+6
+
+Please consult with OIRA on these actions, especially with regards to potential distortionary
+costs due to transfers. See OMB Circular A-4 for a discussion of the distinction between
+transfers and costs generally.
+Q14.
+
+How are activities treated that are associated with regulatory cooperation or
+international standards?
+
+A: Regulatory activities associated with regulatory cooperation with foreign governments that
+reduce costs to entities or individuals within the United States, including at the border, or
+otherwise lower the cost of regulations on the United States economy, may qualify as
+EO 13771 deregulatory actions. Activities associated with standard-setting that reduce costs
+to entities or individuals within the United States may also qualify as EO 13771 deregulatory
+actions. However, agency actions to harmonize with the standards of an international body or
+foreign government that increase costs on United States entities or individuals may need to
+be offset. OIRA recognizes such harmonization could also lead to operating efficiencies for
+businesses that agencies may be able to capture in their analysis of the benefits and costs of
+EO 13771 actions.
+Agencies should consult OIRA on how to treat specific regulatory activities related to
+regulatory cooperation or international standard-setting.
+Q15.
+
+Do regulatory actions overturned by subsequently enacted laws qualify for savings?
+
+A: Generally, yes. OIRA considers Acts of Congress that overturn final regulatory actions, such
+as disapprovals of rules under the Congressional Review Act, to operate in a similar manner
+as agency EO 13771 deregulatory actions.
+Q16.
+
+Do regulatory actions that are vacated or remanded by a court qualify as EO 13771
+deregulatory actions?
+
+A: If a regulatory action issued before noon on January 20, 2017, is vacated by a judicial order
+for which all appeals have been resolved, OIRA will consider on a case-by-case basis
+whether the regulatory action being vacated qualifies as an EO 13771 deregulatory action.
+If an EO 13771 regulatory action was issued on or after noon on January 20, 2017, any
+judicial order for which all appeals have been resolved vacating the regulatory action, and
+any related subsequent agency action (such as a withdrawal of a vacated regulation from the
+Code of Federal Regulations in order to comply with the order), will not qualify as an
+EO 13771 deregulatory action. Any EO 13771 deregulatory actions used to offset a vacated
+EO 13771 regulatory action, however, would be available to offset other EO 13771
+regulatory actions (after accounting for any sunk costs incurred in complying with the
+vacated action).
+If a court permits a regulatory action to remain in effect after a judicial remand for further
+agency proceedings, such as through remand without vacatur, the remanded action remains in
+effect. Therefore, there is no action at the time of remand that could qualify as an EO 13771
+7
+
+deregulatory action. In the same way that an agency complies with EO 12866 when issuing a
+subsequent agency action to revise a remanded regulatory action, an agency will similarly
+need to comply with EO 13771. A subsequent agency action may qualify as an EO 13771
+deregulatory action if the subsequent agency action is deregulatory in nature, or may need to
+be offset if the action is a significant regulatory action that is final and that imposes costs
+(i.e., an EO 13771 regulatory action).
+Agencies should notify OIRA of any judicial decisions that affect regulatory actions subject
+to EO 13771.
+Q17.
+
+What happens if an EO 13771 deregulatory action is remanded or vacated by a court?
+
+A: As in the answer to the previous question, OIRA recognizes the inherent case-by-case nature
+of the issues raised by the potential remand or vacatur of an EO 13771 deregulatory action.
+For example, such decisions may happen years after a rule is finalized, and may affect
+compliance with both the cost allowances and the repeal provisions established pursuant to
+EO 13771. The agency should contact OIRA to determine how a remand or vacatur of an
+EO 13771 deregulatory action affects the agency’s obligations under EO 13771.
+Q18.
+
+Does EO 13771 apply to significant regulatory actions in which the law prohibits the
+consideration of costs in determining a statutorily required standard?
+
+A: Because EO 13771 applies only to the extent permitted by law, agencies are still required to
+comply with their statutory obligations. Accordingly, if a statute prohibits consideration of
+cost in taking a particular regulatory action, EO 13771 does not change the agency’s
+obligations under that statute. However, agencies will generally be required to offset the
+costs of such regulatory actions through other deregulatory actions taken pursuant to statutes
+that do not prohibit consideration of costs. Because each agency’s obligations will differ
+depending on the particular statutory language at issue, these issues must be addressed on a
+case-by-case basis.
+Please consult with OIRA regarding questions about particular statutory language and its
+relationship to EO 13771.
+Q19.
+
+How do the requirements of EO 13771 apply to significant regulatory actions issued by
+one agency that do not have the force and effect of law until adopted, with or without
+change, by another agency?
+
+A: Because the agency authorities that establish such sequential or otherwise overlapping
+regulatory responsibilities differ by program, these actions will need to be handled on a
+case-by-case basis. However, agencies in these circumstances should always work together
+to avoid double-counting costs and cost savings; they should also work together as closely as
+possible when developing regulatory approaches for such programs. In cases where one
+agency’s action does not qualify as an EO 13771 regulatory action because it is not a
+significant regulatory action under EO 12866, associated actions by other agencies may still
+be covered by EO 13771.
+8
+
+Q20.
+
+Does EO 13771 apply to regulatory actions of independent regulatory agencies?
+
+A: No. EO 13771 applies only to those agencies that meet the definition of “agency” in this
+guidance. Nevertheless, independent regulatory agencies are encouraged to identify existing
+regulations that, if repealed or revised, would achieve cost savings that would fully offset the
+costs of significant regulatory actions while continuing to meet the agency’s statutory
+obligations.
+V.
+
+Accounting Questions
+Q21.
+
+How should costs and cost savings be measured?
+
+A: Except where noted in other portions of this guidance, costs should be estimated using the
+methods and concepts appearing in OMB Circular A-4. There are several types of impacts
+that, under OMB Circular A-4, could be reasonably categorized as either benefits or costs,
+with the only difference being the sign (positive or negative) on the estimates. In most cases
+where there is ambiguity in the categorization of impacts, agencies should conform to the
+accounting conventions they have followed in past analyses. For example, if medical cost
+savings due to safety regulations have historically been categorized as benefits rather than
+reduced costs, they should continue to be categorized as benefits for EO 13771 regulatory
+actions. Identifying cost savings, such as fuel savings associated with energy efficiency
+investments, as benefits is a common accounting convention followed in OIRA’s reports to
+Congress on the benefits and costs of Federal regulations.
+Cost savings estimates for EO 13771 deregulatory actions should follow the same
+conventions, but in reverse. Only those impacts that have been traditionally estimated as
+costs when taking a regulatory action should be counted as cost savings when taking an
+EO 13771 deregulatory action. For example, the medical cost savings described above as
+historically being counted as benefits when regulating should not then be counted as
+“negative cost savings” when deregulating.
+An agency that has used different accounting conventions across different past analyses
+should consult with OIRA regarding the categorization of ambiguous impacts. In general,
+when faced with ambiguity, OIRA will attempt to achieve greater consistency in the
+categorization of similar types of costs and benefits across different agencies.
+OIRA notes that rules that cause an increase in the resources used by Federal agencies to
+accomplish their programmatic goals may need to be offset, and rules that reduce the real
+resources used by Federal agencies to accomplish their goals may qualify as EO 13771
+deregulatory actions. These types of impacts have long been considered regulatory costs
+under OMB Circular A-4, and are a component of the costs OIRA includes in its reports to
+Congress on the benefits and costs of Federal regulations.
+For EO 13771 deregulatory actions that revise or repeal recently issued rules, agencies
+generally should not estimate cost savings that exceed the costs previously projected for the
+9
+
+relevant requirements, unless credible new evidence show that costs were previously
+underestimated. On the other hand, a less recent regulatory impact analysis (RIA) may need
+revision to reflect, among other things, the fact that only costs occurring after the effective
+date of the regulatory repeal should be the basis for the cost savings estimate (i.e., agencies
+should not count sunk costs). Where an agency believes it can significantly improve upon a
+prior cost estimate, especially a recent one, through methodological enhancements, the
+agency should first discuss those methodologies with OIRA.
+Q22.
+
+How should cost savings be determined for regulatory actions that expand
+consumption and/or production options?
+
+A: For regulatory actions that expand consumption and/or production options—sometimes
+referred to as “enabling” regulatory actions or regulations—cost savings should include the
+full opportunity costs of the previously forgone activities. Opportunity cost in this context
+would equal the sum of consumer and producer surplus, minus any fixed costs. See
+OMB Circular A-4 for a more detailed discussion of these concepts.
+Generally, “one-time” regulatory actions (i.e., those actions that are not periodic in nature)
+that expand consumption and/or production options would qualify as EO 13771 deregulatory
+actions.
+There may be situations where this approach for determining the cost offsets generated by an
+enabling regulatory action is inappropriate. For instance, this approach may not be
+appropriate in certain circumstances where, if an agency were to fail to issue a regulatory
+action, a significant existing and ongoing economic activity would be prohibited. See
+Question 26. Cost offsets for such regulatory actions will be determined on a case-by-case
+basis.
+Please consult with OIRA on all such non-routine regulations.
+Q23.
+
+How does Executive Order 13771 apply to routine hunting and fishing regulatory
+actions?
+
+A. Routine hunting and fishing regulatory actions that establish annual harvest limits are not
+required to be offset, and are not eligible to be used as cost savings. This includes migratory
+bird hunting frameworks under the Migratory Bird Treaty Act and fishery management plans
+and amendments under the Magnuson-Stevens Fishery Conservation and Management Act.
+This exemption does not apply to regulatory actions that affect hunting and fishing activity
+that are not routine regulatory actions.
+Q24.
+
+What base year should agencies use?
+
+A: Agencies should adjust all estimates to 2016 dollars using the GDP deflator, as released on
+March 30, 2017, until further guidance is provided by OIRA.
+
+10
+
+Q25.
+
+How should agencies calculate cost and cost savings for the purpose of EO 13771
+accounting?
+
+A: Agencies should calculate the present value (as of 2016) of costs for EO 13771 regulatory
+actions and cost savings for EO 13771 deregulatory actions over the full duration of the
+expected effects of the actions using both 7 percent and 3 percent end-of-period discount
+rates.
+Q26.
+
+In determining costs and cost savings under EO 13771, how should regulatory
+baselines be determined?
+
+A: For the most part, agencies should follow the guidance about regulatory baselines provided in
+OMB Circular A-4. However, there can be uncertainty, which is recognized in OMB Circular
+A-4, regarding how best to capture the directive to assess impacts against the state of the
+world in the absence of the regulation. Provided below are two cases in which this
+uncertainty, or other challenges arising in the context of OMB Circular A-4, have often been
+addressed by performing analyses with multiple baselines. In each of these cases, OIRA has
+also provided guidance about how to determine costs or cost savings for the purposes of
+EO 13771:
+(1) When a regulatory action finalizes an interim final rule (IFR), agencies are typically
+encouraged to present two sets of estimates: the overall regulatory impacts and the
+incremental impacts relative to the IFR. For purposes of determining costs or
+available cost savings under EO 13771, agencies finalizing an IFR should include
+only the incremental impacts of the final rule, relative to the IFR.
+(2) There are multiple Federal programs and policies—such as discharge general
+permitting under the Clean Water Act or Medicare quality performance tracking—
+that are updated or renewed at regular intervals via rulemaking. Because these
+updates reliably occur, an assessment of the incremental changes between the
+previous and updated programs is often much more informative than a comparison of
+the updated programs against hypothetical discontinuance. Although
+multiple-baseline analysis is likely to continue to be encouraged in such cases for
+analysis conducted under EO 12866, for purposes of EO 13771, costs or cost savings
+should be determined by the incremental changes between previous and updated
+programs. For example, if an agency is statutorily or judicially required to issue a
+regulation every five years to permit or prohibit an activity, and the agency previously
+issued a regulation to address the requirement, the appropriate baseline to use for
+estimating the costs or cost savings of the new regulation under EO 13771 is likely
+the existing regulation (or interim operating conditions if there is temporarily no
+regulation in effect).
+Please consult with OIRA if you have questions regarding the appropriate baseline upon
+which to calculate costs or cost savings.
+
+11
+
+Q27.
+
+How should agencies treat unquantified costs and cost savings?
+
+A: As stated in OMB Circular A-4, agencies should use their best efforts to monetize the effects
+of both regulatory actions and deregulatory actions and, in some cases, significant guidance
+documents. Depending on the likely magnitude of the effects, such efforts may include
+conducting or sponsoring studies to develop monetized estimates. In proposed/draft
+regulatory actions expected to lead to EO 13771 regulatory actions or EO 13771 deregulatory
+actions agencies should, at a minimum, clearly identify any non-monetized costs or cost
+savings, explain the key reason(s) why monetization is not possible, discuss any information
+the agency has that is relevant to estimating such costs, and request information from the
+public to monetize such costs at the final stage.
+The weight assigned to unquantified effects will depend on their significance and degree of
+certainty, and will be handled on a case-by-case basis. See OMB Circular A-4 for more
+information on unquantified costs.
+Q28.
+
+How should agencies treat EO 13771 regulatory actions and EO 13771 deregulatory
+actions published by multiple agencies?
+
+A: These will be handled on a case-by-case basis. Agencies should consult OIRA as early as
+possible to determine the appropriate treatment of the action.
+Q29.
+
+Can agencies “bank” cost savings and deregulatory actions?
+
+A: Yes. Agencies may bank both EO 13771 deregulatory actions and the associated cost savings
+for use in the same or a subsequent fiscal year towards EO 13771’s requirement to identify at
+least two existing regulations to be repealed (unless prohibited by law) and, separately, to
+comply with the total incremental cost allowance. Surplus EO 13771 deregulatory actions
+and cost savings do not expire at the end of a fiscal year and can be used in subsequent fiscal
+years.
+For example, if an agency issues four EO 13771 deregulatory actions, the agency may apply
+them to up to two subsequent EO 13771 regulatory actions, including those occurring in a
+future fiscal year. Regardless, at the end of each fiscal year, an agency must be able to
+identify, and should have finalized, twice as many EO 13771 deregulatory actions as
+EO 13771 regulatory actions.
+Similarly, if an agency issues two EO 13771 deregulatory actions with total cost savings of
+$200 million to offset the cost of an EO 13771 regulatory action with a cost of $150 million,
+the agency may bank the surplus cost savings of $50 million to offset the cost of another
+EO 13771 regulatory action, regardless of when the latter action is issued. See Questions 24
+and 25 for accounting conventions that allow for appropriate comparison of costs and cost
+savings experienced at different time periods.
+
+12
+
+Q30.
+
+Can EO 13771 deregulatory actions (and associated cost savings) be transferred within
+an agency?
+
+A: Yes. The requirements of EO 13771 apply agency-wide. An EO 13771 deregulatory action
+issued by a component in one agency can be used to offset an EO 13771 regulatory action
+issued by a different component in that same agency.
+Q31.
+
+Can EO 13771 deregulatory actions (and associated cost savings) be transferred
+between agencies?
+
+A: An agency that is not able to identify sufficient EO 13771 deregulatory actions for an
+EO 13771 regulatory action it intends to issue may submit a written request to the Director of
+OMB to assess whether the transfer of EO 13771 deregulatory action credits (after
+consultation with the supplying agency) would be appropriate before submitting the
+EO 13771 regulatory action to OMB for review under EO 12866. However, if the transfer is
+not appropriate, the agency must identify adequate offsets absent an exemption.
+VI.
+
+Process Questions
+Q32.
+
+How does EO 13771 affect the consideration of regulatory benefits or other
+requirements under EO 12866?
+
+A: EO 13771 does not change the requirements of EO 12866, which remains the primary
+governing EO regarding regulatory review and planning. In particular, EO 13771 has no
+effect on the consideration of benefits in informing any regulatory decisions. For all
+EO 13771 regulatory actions and EO 13771 deregulatory actions, except where prohibited by
+law, agencies must continue to assess and consider both benefits and costs and comply with
+all existing requirements and guidance, including but not limited to those in EO 12866 and
+OMB Circular A-4.
+Q33.
+
+Which EO 13771 regulatory actions might qualify for a full or partial exemption from
+EO 13771 requirements?
+
+A: The following categories of EO 13771 regulatory actions may qualify for a full or partial
+exemption from EO 13771’s requirements: 1) expressly exempt actions; 2) emergency
+actions; 3) statutorily or judicially required actions; and 4) de minimis actions. These
+categories are not exhaustive. For any EO 13771 regulatory action an agency believes
+qualifies for an exemption under any of the circumstances provided below, agencies should
+submit exemption requests to OIRA prior to submitting the action to OMB for review under
+EO 12866 or prior to publication of the EO 13771 regulatory action if it was not subject to
+EO 12866 review.
+•
+
+Expressly exempt – EO 13771 expressly exempts regulations issued with respect to a
+military, national security (see Question 7 above), or foreign affairs function, and
+regulations related to agency organization, management, or personnel. These actions
+qualify for a full exemption. See 5 USC 553.
+13
+
+•
+
+•
+
+•
+
+Q34.
+
+Emergencies – EO 13771 regulatory actions addressing emergencies such as critical
+health, safety, financial, non-exempt national security matters, or for some other
+compelling reason, may qualify for an exemption. In most cases, exemptions for such
+rules will be granted with respect to the timing of required offsets, allowing the
+agency to address the emergency before identifying and issuing EO 13771
+deregulatory actions. Agencies will generally still be required to offset such actions.
+If necessary, the costs of such actions, and the requirement to identify for repeal at
+least two existing regulations, will be moved to the subsequent fiscal year for
+purposes of determining EO 13771 compliance.
+Statutorily or judicially required – EO 13771 does not prevent agencies from issuing
+regulatory actions in order to comply with an imminent statutory or judicial deadline,
+even if they are not able to satisfy EO 13771’s requirements by the time of issuance.
+However, agencies will be required to offset any such EO 13771 regulatory actions as
+soon as practicable thereafter. In addition, this flexibility may not apply to
+discretionary provisions attached to EO 13771 regulatory actions required to comply
+with statutory or judicial deadlines.
+De minimis – EO 13771 regulatory actions with de minimis costs may qualify for an
+exemption. For example, if OIRA designates a proposed rule as significant under
+EO 12866 because it raises novel legal or policy issues, and the agency estimates the
+action would have present value costs of $50,000 spread over a large number of
+persons and/or entities, OIRA may exempt the action from some or all of the
+requirements of EO 13771.
+
+Is a significant final regulatory action exempt from the requirements of EO 13771 if
+the action was designated not significant at a prior stage?
+
+A: Generally, no. Any regulatory action that is identified as significant at the final rule stage that
+imposes total costs greater than zero would need to be offset to comply with EO 13771,
+regardless of the determination in an earlier phase. Therefore, the agency should consult
+OIRA as soon as possible if it believes an action that was not determined to be significant at
+the draft or proposed rule stage may now be determined to be significant, perhaps due to
+substantive issues identified through public comment or further agency analysis.
+Q35.
+
+How should agencies prioritize existing requirements to repeal or revise?
+
+A: Agencies should follow the requirements in EO 13777 for prioritizing existing requirements
+to repeal or revise. EO 13777 establishes Regulatory Reform Task Forces in agencies, and
+directs those task forces to evaluate existing regulations and make recommendations to the
+agency head regarding their repeal, replacement, or modification, consistent with applicable
+law. EO 13777 directs each Regulatory Reform Task Force to identify regulations that:
+•
+•
+•
+•
+
+Eliminate jobs, or inhibit job creation;
+Are outdated, unnecessary, or ineffective;
+Impose costs that exceed benefits;
+Create a serious inconsistency or otherwise interfere with regulatory reform initiatives
+and policies;
+14
+
+•
+
+•
+
+Are inconsistent with the requirements of section 515 of the Treasury and General
+Government Appropriations Act, 2001 (44 U.S.C. 3516 note), or the guidance issued
+pursuant to that provision, in particular those regulations that rely in whole or in part
+on data, information, or methods that are not publicly available or that are
+insufficiently transparent to meet the standard for reproducibility; or
+Derive from or implement EOs or other Presidential directives that have been
+subsequently rescinded or substantially modified.
+
+EO 13777 further directs each Regulatory Reform Task Force to seek input and other
+assistance, as permitted by law, from entities significantly affected by Federal regulations,
+including State, local, and tribal governments, small businesses, consumers,
+non-governmental organizations, and trade associations. Input from such public engagement
+may be used to prioritize recommendations to repeal or revise.
+Finally, where the costs of an EO 13771 regulatory action will be incurred entirely or to a
+large degree by a certain sector or geographic area, the agency should prioritize EO 13771
+deregulatory actions that affect the same sector or geographic area, to the extent feasible and
+permitted by law.
+Q36.
+
+Can regulatory and deregulatory actions be bundled in the same action?
+
+A: Yes, under certain circumstances. Many actions submitted to OIRA for review under
+EO 12866 consist of logically connected changes to multiple but related sections of the Code
+of Federal Regulations. For example, a rule exempting some categories of regulated entities
+from compliance with a previously issued regulation may also require eligible entities to
+submit additional documentation to demonstrate eligibility for the exemption. In these cases,
+it may be legitimate and appropriate to pursue such changes through a single “bundled”
+action, and this guidance is not meant to materially change agency decision making in this
+area. Where an agency combines such provisions, the cost impact (the difference between
+costs imposed and cost savings, per Question 21) of such rules will generally determine
+whether such actions are EO 13771 regulatory actions that need to be offset, or EO 13771
+deregulatory actions. Agencies, however, should avoid artificially bundling provisions that
+are not logically connected in a single regulatory action. OIRA may determine that the
+regulatory and deregulatory portions of the rule should be considered separately for purposes
+of EO 13771 compliance.
+Agencies should consult with OIRA when considering bundling regulatory and deregulatory
+actions.
+Q37.
+
+When and how should agencies identify EO 13771 deregulatory actions?
+
+A: The agency’s Unified Agenda of Regulatory and Deregulatory Actions should reflect
+compliance with the requirements of EO 13771, and should include, to the extent practicable,
+EO 13771 deregulatory actions that, when combined with EO 13771 deregulatory actions
+that are not regulations (such as Paperwork Reduction Act information collection reforms),
+are sufficient to offset those actions appearing in the Agenda that are or are expected to result
+15
+
+in EO 13771 regulatory actions. At a minimum, the agency should identify all EO 13771
+deregulatory actions, along with cost savings estimates, by the time it submits to OMB for
+review under EO 12866 the corresponding EO 13771 regulatory action. In the rare event that
+an agency is unable to identify sufficient EO 13771 deregulatory actions, OIRA will address
+such a situation on a case-by-case basis.
+While each Federal Register notice should identify whether the regulation is an EO 13771
+regulatory action, there is no need to discuss specific offsetting EO 13771 deregulatory
+actions within the same Federal Register entry. Additionally, offsetting the costs of
+regulatory actions to comply with the requirements of EO 13771 should not serve as the basis
+or rationale, in whole or in part, for issuing an EO 13771 deregulatory action.
+Q38.
+
+When must identified EO 13771 deregulatory actions be finalized?
+
+A: To the extent practicable, agencies should issue EO 13771 deregulatory actions before or
+concurrently with the EO 13771 regulatory actions they are intended to offset. By the end of
+each fiscal year, including any carryover from previous fiscal years, agencies should have:
+(1) issued at least twice the number of EO 13771 deregulatory actions as EO 13771
+regulatory actions; and (2) appropriately offset the cost of all final EO 13771 regulatory
+actions issued. The offset should be consistent with their respective total incremental cost
+allowance for future fiscal years, and agencies are expected to maintain compliance, to the
+extent practicable, throughout the year. These requirements exclude those EO 13771
+regulatory actions issued during the year for which either law prohibits compliance with
+EO 13771 or the agency received an exemption from OIRA. When an agency receives a
+partial exemption from OIRA (e.g., with respect to the timing of EO 13771 deregulatory
+actions), the requirements should be addressed as soon as practicable. Agencies should plan
+in advance and leave sufficient time, if necessary, for OIRA to complete its review under
+EO 12866 or the Paperwork Reduction Act, and for agencies to publish in the Federal
+Register any EO 13771 deregulatory actions needed to comply with EO 13771 before the end
+of each fiscal year.
+Q39.
+
+What happens if an agency is not in full compliance with the requirements of EO
+13771 at the end of a fiscal year?
+
+A: If, by the end of a fiscal year, an agency does not finalize at least twice as many EO 13771
+deregulatory actions as EO 13771 regulatory actions issued during the fiscal year, or has not
+met its total incremental cost allowance for that fiscal year, the agency must, within 30 days
+of the end of the fiscal year, submit for the OMB Director’s approval, a plan for coming into
+full compliance with EO 13771 that addresses each of the following:
+(1) The reasons for, and magnitude of, non-compliance;
+(2) How and when the agency will come into full compliance; and
+(3) Any other relevant information requested by the Director.
+This excludes EO 13771 regulatory actions that are exempt or where compliance with
+EO 13771 is prohibited by law.
+16
+
+OMB may recommend that an agency take additional steps to achieve compliance, such as
+publishing a notice in the Federal Register requesting ideas from the public on EO 13771
+deregulatory actions to pursue. OMB may also request that agencies post plans approved by
+the Director.
+This guidance is not intended to, and does not, create any right or benefit, substantive or
+procedural, enforceable at law or in equity by any party against the United States, its
+departments, agencies, or entities, its officers, employees, or agents, or any other person.
+
+17
+
+

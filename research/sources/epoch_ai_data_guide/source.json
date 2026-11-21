@@ -1,0 +1,11 @@
+{
+ "key": "epoch_ai_data_guide",
+ "citation": "Epoch AI. Data on AI: datasets, downloads and licence page (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://epoch.ai/data",
+ "media_type": "text/html",
+ "sha256": "e8f031328d7cd7ebc7c4cee3180b4f3c386f56e9f63c50dfba8d9776ff8bdbfe",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

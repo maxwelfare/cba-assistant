@@ -1,0 +1,12 @@
+{
+ "key": "bojke_2009_characterizing",
+ "citation": "Bojke L, Claxton K, Sculpher M, Palmer S (2009). Characterizing structural uncertainty in decision analytic models: a review and application of methods. Value in Health 12(5):739-749.",
+ "doi": "10.1111/j.1524-4733.2008.00502.x",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19508655%20AND%20SRC:MED&resultType=core&format=json",
+ "media_type": "text/plain",
+ "sha256": "b1b258d75f9db6a22f53cfdb28071d18e546bd8c6cd0bc6dc9115f8aef7c3d40",
+ "licence": "not stated",
+ "fetched": "2026-11-12T16:11:55Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19508655%20AND%20SRC:MED&resultType=core&format=json"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "epa_2020_valuing_time_use",
+ "citation": "US EPA (2020). Handbook on valuing changes in time use induced by regulatory requirements and other EPA actions. EPA-236-B-20-001 (copy in AgEcon Search).",
+ "doi": null,
+ "url": "https://ageconsearch.umn.edu/record/348898/files/epa_handbook_on_valuing_changes_in_time_use.pdf",
+ "media_type": "application/pdf",
+ "sha256": "5ca32954d44598f418d1721b4a33ab97a755998f15fce129341038aaee78fa5e",
+ "licence": "US government work",
+ "fetched": "2026-11-14T13:15:13Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://ageconsearch.umn.edu/record/348898/files/epa_handbook_on_valuing_changes_in_time_use.pdf"
+}

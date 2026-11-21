@@ -1,0 +1,11 @@
+{
+ "key": "molit_2026_transport_appraisal",
+ "citation": "국토교통부 (Ministry of Land, Infrastructure and Transport) (2026-04-21). 교통시설 투자평가지침, 제8차 개정 [국토교통부고시 제2026-204호] (Appraisal Guidelines for Transport Facilities Investment, Eighth Edition).",
+ "doi": null,
+ "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164151329&gubun= (attachment of https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000278146)",
+ "media_type": "application/hwp",
+ "sha256": "ce269ff8ef639b84b03b0d1843a8d59d900cb1cb442d9a2bafb01e851903760b",
+ "licence": "not stated (statutory administrative rule published on the National Law Information Center)",
+ "fetched": "2026-11-09T16:20:00Z",
+ "text_method": "shared tools/hwp2txt.py (shared/tools/hwp2txt.py, standard-library HWP 5.0 reader keeping line breaks and special spaces), run from the shared venv with python -I original.hwp text.txt"
+}

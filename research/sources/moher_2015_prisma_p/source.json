@@ -1,0 +1,11 @@
+{
+ "key": "moher_2015_prisma_p",
+ "citation": "Moher D, Shamseer L, Clarke M, et al. (2015). Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. Systematic Reviews 4:1.",
+ "doi": "10.1186/2046-4053-4-1",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4320440/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "c251b01d9809d36e0b7f4ffc46c717a1a9df6e263b98166f80f4885beeeb4b14",
+ "licence": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+ "fetched": "2026-11-07T20:08:00Z",
+ "text_method": ".venv/bin/python -I <script> original.xml text.txt (ElementTree itertext-style walk, tags removed)"
+}

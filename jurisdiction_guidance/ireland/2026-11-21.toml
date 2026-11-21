@@ -1,0 +1,104 @@
+# Ireland, values in force on 2026-11-21, read on 2026-11-21 in the stored texts of the Department of Public Expenditure,
+# NDP Delivery and Reform's Infrastructure Guidelines: Central Technical References and Economic Appraisal Parameters
+# (July 2019, section 6 updated March 2024; research/sources/dper_2024_central_technical_references/text.txt) and of
+# Transport Infrastructure Ireland's Project Appraisal Guidelines Unit 6.11, National Parameters Values Sheet
+# (PE-PAG-02030, September 2026; research/sources/tii_2026_pag_unit_6_11_national_parameters/text.txt). First edition.
+# Each `source` names the research/refs.toml key whose stored text holds the quote. The gov.ie pages refuse automated
+# fetches, so no later issue of the Central Technical References than the stored one was looked for there.
+# Not collected: a value of a statistical life. No stored Irish document states one; the transport value below is per
+# fatal road collision, not per life, so a case that asks this edition for a value of a statistical life refuses.
+# The [price_index] is the CSO consumer price index, all items, annual (PxStat CPA01), the index TII's sheet names for
+# inflation calculations, copied by script from research/sources/cso_2026_cpi_annual_cpa01/text.txt. It is the first
+# euro index in this folder: a case that pins this edition and another whose index is also in EUR refuses the second.
+jurisdiction = "Ireland"
+edition = "2026-11-21"
+
+[discount_rate]
+schedule = [[1, 30, 0.04], [31, 60, 0.035], [61, 100, 0.03], [101, 175, 0.025], [176, 275, 0.02], [276, "onwards", 0.015]]
+unit = "real rate per year, by year of the appraisal after the year discounted to: [first year, last year or \"onwards\", rate]"
+note = "The social discount rate is 4% in constant prices; for the few projects with a justified horizon beyond the usual 30 years the guidance applies declining (hyperbolic) discount factors, published as Table 4 (an Excel file, not stored), whose stated exponential equivalent is this schedule. The guidance's 'years 0-30' is entered from year 1, since year 0 is not discounted. Commercial semi-state bodies use their cost of capital, and PPP projects the NDFA's rates (section 3.4), not entered."
+document = "Department of Public Expenditure, NDP Delivery and Reform. Infrastructure Guidelines: Central Technical References and Economic Appraisal Parameters (July 2019, section 6 updated March 2024), sections 3.1 and 3.3"
+url = "https://assets.gov.ie/286766/55ac9b40-80db-4399-8294-66ced21add92.pdf"
+quote = "years 0-30 discounted at 4%, years 31-60 discounted at 3.5%, years 61-100 discounted at 3%, years 101-175 discounted at 2.5%, years 176-275 discounted at 2%, and at 1.5% thereafter."
+quote_central = "The Social Discount Rate for application in economic appraisal of current and capital expenditure proposals carried out in accordance with the requirements of the Infrastructure Guidelines is now set at 4%."
+quote_long_horizon = "Note: for projects with long time horizons a declining discount rate applies"
+licence = "not stated in the stored text (Government of Ireland publication)"
+source = "dper_2024_central_technical_references"
+
+[shadow_price_of_public_funds]
+value = 1.3
+unit = "multiplier on publicly funded costs: one plus the deadweight loss per unit of tax collected"
+document = "Department of Public Expenditure, NDP Delivery and Reform. Infrastructure Guidelines: Central Technical References and Economic Appraisal Parameters (July 2019, section 6 updated March 2024), section 5.1"
+url = "https://assets.gov.ie/286766/55ac9b40-80db-4399-8294-66ced21add92.pdf"
+quote = "The estimated deadweight loss associated with taxation is €0.30 per €1 collected, meaning the estimated value of the Shadow Price of Public Funds in Ireland is set at 1.3, or 130%."
+licence = "not stated in the stored text (Government of Ireland publication)"
+source = "dper_2024_central_technical_references"
+
+[value_of_preventing_a_fatal_road_collision]
+value = 2778132
+unit = "per fatal road collision"
+currency = "EUR"
+price_year = 2016
+note = "Table 6.11.19, row Fatal, total: casualty-related costs (lost output 180,475, human costs 2,548,445, medical and ambulance 8,022) and collision-related costs (Gardai 25,212, damage to property 15,551, insurance and administration 428), in 2016 prices and 2016 values at market prices. It is a value per collision, not per life; TII grows it over time by the factors of its Table 6.11.21, not collected. The sheet's own source for it is the Department of Transport's TAF Module 8 (June 2023), not stored."
+document = "Transport Infrastructure Ireland. Project Appraisal Guidelines Unit 6.11, National Parameters Values Sheet, PE-PAG-02030, September 2026, Table 6.11.19"
+url = "https://cdn.tii.ie/publications/PE-PAG-02030-08.pdf"
+quote = "Fatal 180,475 2,548,445 8,022 25,212 15,551 428 2,778,132"
+quote_heading = "Average Value of Prevention of Road Collisions by Severity and Element of Cost € (2016 Prices & 2016 Values Market Prices)"
+licence = "not stated in the stored text (Transport Infrastructure Ireland publication)"
+source = "tii_2026_pag_unit_6_11_national_parameters"
+
+[price_index]
+currency = "EUR"
+series = "Consumer Price Index, all items, Ireland, annual"
+series_id = "CPA01C06"
+series_note = "CSO PxStat table CPA01 (Consumer Prices Annual Series), statistic CPA01C06, base December 2023 = 100; calendar years, as published"
+unit = "index, December 2023 = 100"
+publisher = "Central Statistics Office, Ireland"
+document = "PxStat table CPA01, Consumer Price Index (Consumer Prices Annual Series), updated 2026-01-15"
+url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/CPA01/CSV/1.0/en"
+date_read = "2026-11-21"
+quote = "Consumer Price Index (Base Dec 2023=100)"
+licence = "not stated in the stored file (copyright Central Statistics Office, Ireland, by the table's metadata)"
+source = "cso_2026_cpi_annual_cpa01"
+guidance_document = "Transport Infrastructure Ireland. Project Appraisal Guidelines Unit 6.11, National Parameters Values Sheet, PE-PAG-02030, September 2026, Table 6.11.8"
+guidance_url = "https://cdn.tii.ie/publications/PE-PAG-02030-08.pdf"
+guidance_quote = "Table 6.11.8 Consumer Price Index (CPI) Inflation Calculations Use Central Statistics Office (CSO) Inflation Calculator"
+guidance_source = "tii_2026_pag_unit_6_11_national_parameters"
+
+[price_index.calendar_year]
+"1990" = 48.3
+"1991" = 49.8
+"1992" = 51.4
+"1993" = 52.1
+"1994" = 53.3
+"1995" = 54.7
+"1996" = 55.6
+"1997" = 56.4
+"1998" = 57.8
+"1999" = 58.7
+"2000" = 62
+"2001" = 65
+"2002" = 68
+"2003" = 70.4
+"2004" = 71.9
+"2005" = 73.7
+"2006" = 76.6
+"2007" = 80.3
+"2008" = 83.6
+"2009" = 79.9
+"2010" = 79.1
+"2011" = 81.1
+"2012" = 82.5
+"2013" = 82.9
+"2014" = 83.1
+"2015" = 82.8
+"2016" = 82.8
+"2017" = 83.1
+"2018" = 83.5
+"2019" = 84.3
+"2020" = 84
+"2021" = 86
+"2022" = 92.7
+"2023" = 98.6
+"2024" = 100.7
+"2025" = 102.9

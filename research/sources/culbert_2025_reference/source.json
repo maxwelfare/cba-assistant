@@ -1,0 +1,12 @@
+{
+ "key": "culbert_2025_reference",
+ "citation": "Culbert JH et al (2025). Reference coverage analysis of OpenAlex compared to Web of Science and Scopus. Scientometrics; arXiv:2401.16359.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/2401.16359",
+ "media_type": "application/pdf",
+ "sha256": "f99099e8ca11b6a1c2b81b529cac779cce4cb6eb1c0a481cf27d779da7a94647",
+ "licence": "arXiv",
+ "fetched": "2026-11-17T11:53:59Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/2401.16359"
+}

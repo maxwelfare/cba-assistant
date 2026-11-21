@@ -1,0 +1,12 @@
+{
+ "key": "idrc_2026_policy_brief",
+ "citation": "International Development Research Centre. How to write a policy brief (web page, fetched 2026-11-12).",
+ "doi": null,
+ "url": "https://idrc-crdi.ca/en/funding/resources-idrc-grantees/how-write-policy-brief",
+ "media_type": "text/html",
+ "sha256": "be2354287c9037b0d469e089c2909d445f9a038b55b53e0def1f6ea6e3d25683",
+ "licence": "not stated",
+ "fetched": "2026-11-12T13:12:34Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "copied from tmp/d/g_93ba44 (fetched is the file's modification time)"
+}

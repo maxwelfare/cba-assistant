@@ -1,0 +1,21 @@
+# Australia (Commonwealth), the value of statistical life as the Office of Impact Analysis stated it on 2024-10-12,
+# read on 2026-10-30 in the Internet Archive's copy of that day (the page's own text). Only these two values were
+# collected for this edition.
+jurisdiction = "Australia (Commonwealth)"
+edition = "2024-10-12"
+
+[value_of_statistical_life]
+value = 5400000
+unit = "AUD 2023 per statistical life"
+document = "Office of Impact Analysis, Value of statistical life (web page), as archived 2024-10-12"
+url = "http://web.archive.org/web/20241012001020/https://oia.pmc.gov.au/resources/guidance-assessing-impacts/value-statistical-life"
+quote = "Using ABS Wage Price Index data to express these estimates in 2023 dollars gives a VSL of $5.4 million, and a VLY of $235,000 based on a private time preference discount rate of 3 per cent."
+licence = "not stated on the page"
+
+[value_of_statistical_life_year]
+value = 235000
+unit = "AUD 2023 per life-year"
+document = "Office of Impact Analysis, Value of statistical life (web page), as archived 2024-10-12"
+url = "http://web.archive.org/web/20241012001020/https://oia.pmc.gov.au/resources/guidance-assessing-impacts/value-statistical-life"
+quote = "Using ABS Wage Price Index data to express these estimates in 2023 dollars gives a VSL of $5.4 million, and a VLY of $235,000 based on a private time preference discount rate of 3 per cent."
+licence = "not stated on the page"

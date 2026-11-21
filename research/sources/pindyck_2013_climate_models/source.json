@@ -1,0 +1,11 @@
+{
+  "key": "pindyck_2013_climate_models",
+  "citation": "Pindyck RS (2013). Climate change policy: what do the models tell us? Journal of Economic Literature 51(3):860-872. This is NBER Working Paper 19244 (July 2013), the pre-publication version.",
+  "url": "https://www.nber.org/papers/w19244.pdf",
+  "media_type": "application/pdf",
+  "sha256": "89860698fa3f4bbdcd853c4f8ef7af458ee24404c1935771dae9bd8bab797a3f",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 48634
+}

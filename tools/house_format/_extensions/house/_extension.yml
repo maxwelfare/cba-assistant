@@ -1,0 +1,372 @@
+title: House
+author: automated-cost-benefit-analysis
+version: 1.0.0
+quarto-required: ">=1.11.9"
+contributes:
+  formats:
+    typst:
+      papersize: us-letter
+      keep-typ: true
+      filters:
+        - autowidth.lua
+        - numbers.lua
+        - path: notice.lua
+          at: post-render
+        - links.lua
+        - contents.lua
+        - path: columns.lua
+          at: pre-ast
+        - path: boxes.lua
+          at: pre-ast
+        - path: verse.lua
+          at: pre-ast
+      include-in-header:
+        - text: |
+            #show heading.where(level: 1): set text(size: 1.7em)
+            #show heading.where(level: 1): set heading(bookmarked: false) // the title is no bookmark, as on the LaTeX route
+            #show heading: set par(justify: false) // headings ragged right, as typeset-common.sty sets them
+            #show link: set text(fill: rgb("#1F5FAD")) // links: the colour of typesetlink, typeset-links.sty
+            // A display equation wider than the text block, less room for its number on each side, is broken into
+            // one line per part at its top-level spaces of a quad or more, and set in smaller type, down to 80%,
+            // until its widest line fits; its number stays at full size. One that does not fit even so stops the
+            // build, naming its label (the module docstring of tools/typeset.py, Quarto).
+            #let house-lines(body) = {
+              let kids = if body.func() == [].func() { body.children } else { (body,) }
+              let inner = kids.filter(k => k.func() == math.equation)
+              if inner.len() == 1 and kids.all(k => k.func() == math.equation or k == [ ]) {
+                return house-lines(inner.first().body) }
+              let lines = ((),)
+              for k in kids {
+                if k.func() == h and type(k.amount) == length and k.amount.em >= 1 { lines.push(()) }
+                else { lines.last().push(k) }
+              }
+              lines.filter(l => l.len() > 0).map(l => l.join())
+            }
+            #show math.equation.where(block: true): it => layout(region => {
+              let wide(body) = measure(math.equation(block: false, math.display(body))).width
+              let number = if it.numbering == none { none } else { counter(math.equation).display(it.numbering) }
+              let side = if number == none { 0pt } else { measure(number).width + 1em.to-absolute() }
+              let room = region.width - 2 * side
+              if wide(it.body) <= room { return it }
+              let lines = house-lines(it.body)
+              let scale = calc.min(1, room / calc.max(..lines.map(wide)))
+              if scale < 0.8 {
+                let name = if it.has("label") { str(it.label) } else { "an unlabelled display equation" }
+                panic("equation " + name + " is wider than the text block even broken at its quad spaces and set at 80% size; break it by hand")
+              }
+              block(width: 100%, grid(columns: (side, 1fr, side), align: (left, center + horizon, right + horizon),
+                [], { set text(size: scale * 1em)
+                      stack(spacing: 0.8em, ..lines.map(l => math.equation(block: false, math.display(l)))) },
+                number))
+            })
+            #show table: set align(start)
+            #show table.cell: set par(justify: false)
+            // Tables (layout migration step 5): the width rule of LaTeX's tabulary (Carlisle), with a least width for each
+            // column set by its longest word, as tabulary's \tymin sets one for all columns. Tables are set in the LaTeX route's
+            // \footnotesize, a share of the body's size held in house-table-size: 9/11 (9 pt on the documents' 11 pt, LaTeX's
+            // 11 pt class), or the share a document's `table-size` metadata gives (autowidth.lua; 0.85 for the executive summary,
+            // summary.tex). A table whose columns fit the line at their natural widths, each widest entry on one line,
+            // keeps Typst's auto columns; in one that does not, the line is shared among the columns in proportion to the total
+            // width of their entries, none narrower than its longest word or wider than its natural width, so no word is
+            // broken and the table keeps to the line. Where the longest words do not fit at that size with 5 pt side insets
+            // (Typst's own), the table is set as the LaTeX route sets its widest tables, in \scriptsize (8/9 of \footnotesize, as
+            // 8 pt is of 9 pt in LaTeX's 11 pt class) with 4 pt side insets; one whose words do not fit even so is set at its
+            // words' widths and runs past the line, for the layout reviewer to see. A word is what a line may not break inside:
+            // the text between spaces, cut after a hyphen, slash or dash that follows a letter or digit; a code span is cut only
+            // at its spaces. A table given column widths of its own is left as it is. The scan
+            // places each cell as Typst does, in the first free column of its row, past the columns a cell above still covers
+            // with its rowspan.
+            #let house-table-size = state("house-table-size", 9 / 11)
+            #let house-parts(c) = {
+              if c == none { return () }
+              if type(c) == str {
+                let out = ()
+                for m in c.matches(regex("\s+|\S*?[\p{L}\p{N}][\-/\u{2013}\u{2014}]+|\S+")) {
+                  out += if m.text.trim() == "" { (none,) }
+                    else if m.text.ends-with(regex("[\-/\u{2013}\u{2014}]")) { (m.text, none) } else { (m.text,) }
+                }
+                return out
+              }
+              let f = c.func()
+              if f == text { return house-parts(c.text) }
+              if c == [ ] or f == linebreak or f == parbreak { return (none,) }
+              if f == raw { return c.text.split(" ").map(s => (raw(s), none)).flatten() }
+              if f == [].func() { return c.children.map(house-parts).flatten() }
+              if f == strong or f == emph { return house-parts(c.body).map(p => if p == none { none } else { f(p) }) }
+              if f != math.equation and c.has("body") { return house-parts(c.body) }
+              if c.has("child") { return house-parts(c.child) }
+              (c,)
+            }
+            #let house-longest(c, size) = {
+              let widest = 0pt
+              let word = ()
+              for p in house-parts(c) + (none,) {
+                if p != none { word.push(p) } else if word.len() > 0 {
+                  widest = calc.max(widest, measure(text(size: size, word.join())).width)
+                  word = ()
+                }
+              }
+              widest
+            }
+            #show table: it => {
+              if it.columns.any(c => c != auto) { return it }
+              layout(region => {
+                let n = it.columns.len()
+                let cells = it.children.map(c => if c.func() in (table.header, table.footer) { c.children } else { (c,) })
+                  .flatten().filter(c => c.func() == table.cell)
+                let room = region.width
+                let first = house-table-size.get() * text.size
+                for (size, pad) in ((first, 5pt), (first * 8 / 9, 4pt)) {
+                  let natural = (2 * pad,) * n
+                  let least = (2 * pad,) * n
+                  let total = (0pt,) * n
+                  let busy = (0,) * n // in each column, the rows below the current one a cell above still covers
+                  let col = 0
+                  for c in cells {
+                    while busy.at(col) > 0 {
+                      busy.at(col) -= 1
+                      col = calc.rem(col + 1, n)
+                    }
+                    let span = if c.has("colspan") { c.colspan } else { 1 }
+                    let rows = if c.has("rowspan") { c.rowspan } else { 1 }
+                    for i in range(col, calc.min(col + span, n)) { busy.at(i) = rows - 1 }
+                    if span == 1 {
+                      let wide = measure(text(size: size, c.body)).width
+                      natural.at(col) = calc.max(natural.at(col), wide + 2 * pad)
+                      least.at(col) = calc.max(least.at(col), house-longest(c.body, size) + 2 * pad)
+                      total.at(col) += wide
+                    }
+                    col = calc.rem(col + span, n)
+                  }
+                  if natural.sum() <= room { return { set text(size: size); it } }
+                  if least.sum() <= room or pad == 4pt {
+                    // The widths for a share `s` of a column's total per unit, each held between its least and natural widths;
+                    // their sum grows with `s`, which is found by bisection so that it fills the line.
+                    let widths(s) = range(n).map(i => calc.min(natural.at(i), calc.max(least.at(i), s * total.at(i))))
+                    let (low, high) = (0, calc.max(..range(n).filter(i => total.at(i) > 0pt).map(i => natural.at(i) / total.at(i))))
+                    for _ in range(40) {
+                      let middle = (low + high) / 2
+                      if widths(middle).sum() > room { high = middle } else { low = middle }
+                    }
+                    let width = widths(low)
+                    let fields = it.fields()
+                    let children = fields.remove("children")
+                    let _ = fields.remove("columns")
+                    let _ = fields.remove("inset", default: none)
+                    return { set text(size: size); table(..fields, columns: width, inset: (x: pad, y: 5pt), ..children) }
+                  }
+                }
+              })
+            }
+            // A code span in running text may break after a slash, a full stop or an underscore, as on the LaTeX route
+            // (typeset-common.sty), so a long file name does not run into the margin; the break is a space of 0.01 pt, since a
+            // zero-width space would be a character in the text a reader copies and Typst drops a space of 0 pt.
+            #show raw.where(block: false): it => { show regex("[/._]"): c => c + h(0.01pt); it }
+            #show figure.where(kind: "quarto-float-fig"): set figure(placement: auto, numbering: none)
+            // A labelled table's number is in its caption, written by tools/typeset.py (crossrefs()).
+            #show figure.where(kind: "quarto-float-tbl"): set figure(placement: auto, numbering: none)
+            // The summary's two columns end level, as summary.tex's flushend ends them (the plan's risk 3). The body below
+            // the head (columns.lua wraps it in house-balance when the `balance` metadata is given) is set in columns as
+            // short as hold it: the least height at which it fits two columns of its width is found by bisection, a body
+            // that does not fit filling the height it is measured in, and a float of empty space across both columns at
+            // the page's foot shortens them to that height and `slack` lines more. tools/typeset.py renders with more slack
+            // where the page then overruns. The column's foot is found by a mark placed at its bottom, so the page's
+            // margins need not be known here.
+            #let house-balance(slack, body) = {
+              place(bottom)[#metadata(none)<house-column-foot>]
+              layout(region => context {
+                let room = locate(<house-column-foot>).position().y - here().position().y
+                let height(it) = measure(block(width: region.width, it)).height
+                let fits(column) = measure(columns(2, gutter: 1em, body), width: 2 * region.width + 1em,
+                  height: column).height < column
+                let (low, high) = (0pt, height(body) + 1pt)
+                for _ in range(20) {
+                  let middle = (low + high) / 2
+                  if fits(middle) { high = middle } else { low = middle }
+                }
+                let column = high + slack * (height[x \ x] - height[x])
+                if column < room { place(bottom, scope: "parent", float: true, clearance: 0pt, block(height: room - column)) }
+                body
+              })
+            }
+            // An audience edition's colours (step 7): tools/typeset.py writes the profile's colours as the palette of the
+            // document's _brand.yml, by the role names of typeset-boxes.sty, and Quarto gives them as `brand-color`. Each
+            // box takes its rule and icon colour and its title band's ground from its roles, as the LaTeX route's boxes do
+            // (key-findings: accent on panel; callout: accent_caveat on caveat_ground; worked-example: neutral on panel),
+            // and its text is the profile's ink; a role the profile leaves out keeps Quarto's colour for that callout kind.
+            // boxes.lua binds `callout` to this function, with its box's kind and the brand's colours, around each box.
+            #let house-roles = ("key-findings": ("accent", "panel"), callout: ("accent_caveat", "caveat_ground"),
+              "worked-example": ("neutral", "panel"))
+            #let house-callout(kind, colours, ..args) = {
+              let (rule, ground) = house-roles.at(kind)
+              let named = args.named()
+              if rule in colours { named.icon_color = colours.at(rule) }
+              if ground in colours { named.background_color = colours.at(ground) }
+              set text(fill: colours.ink) if "ink" in colours
+              callout(..args.pos(), ..named)
+            }
+            // The policy paper's cover, a page of its own, as document.tex's \typesetcover sets it (layout migration step 9):
+            // a band of the accent colour 0.5 in deep across the top of the page, the page notice in white on it with its
+            // baseline 0.3 in from the top (typeset-boxes.sty); 1.1 in down the text block the title's icon, a character of
+            // the stored Tabler font, at 64 pt in the accent colour and 20 pt above the title; the title at 30 pt in the
+            // black weight in the ink, 16 pt above the dateline at 13 pt in ink_second, all in `family` (Lato, or an
+            // audience profile's heading font, as theme_tex() replaces Lato there); `foot`, the credit, at the page's foot.
+            // No page number. `colours` is the brand's palette, `icon` the glyph or none, `notice` the page notice
+            // (notice.lua's house-notice) or none. The lines stand where TeX puts them: each line's baseline is its
+            // \baselineskip below the end of what is above it (64 pt for the icon, 36 pt for the title's lines, 18 pt for
+            // the dateline's), after \topskip (11 pt) and the \parskip of 9 pt (half the 18 pt \baselineskip) before each
+            // paragraph; each line is therefore set with no height above or below its baseline, its leading the
+            // \baselineskip, and the space before it written out.
+            #let house-cover(colours, family, icon, notice, body, foot) = page(numbering: none, header: none,
+              background: {
+                place(top, rect(width: 100%, height: 0.5in, fill: colours.at("accent", default: rgb("#2A78D6"))))
+                if notice != none {
+                  place(top + center, dy: 0.3in, text(font: "TeX Gyre Heros", size: 8pt, fill: white, top-edge: "baseline", bottom-edge: "baseline", notice))
+                }
+              }, {
+                set text(font: family, size: 13pt, fill: colours.at("ink_second", default: rgb("#52514E")))
+                set par(justify: false)
+                {
+                  set text(top-edge: "baseline", bottom-edge: "baseline")
+                  set par(leading: 18pt, spacing: 9pt + 18pt)
+                  show heading.where(level: 1): set text(font: family, size: 30pt, weight: "black",
+                    fill: colours.at("ink", default: rgb("#0B0B0B")))
+                  show heading.where(level: 1): set par(leading: 36pt)
+                  show heading.where(level: 1): set block(above: 0pt, below: 16pt + 9pt + 18pt)
+                  v(1.1in + 11pt + 9pt)
+                  if icon != none {
+                    v(64pt)
+                    block(above: 0pt, below: 0pt, text(font: "tabler-icons", size: 64pt,
+                      fill: colours.at("accent", default: rgb("#2A78D6")), icon))
+                    v(20pt + 9pt)
+                  }
+                  v(36pt)
+                  body
+                }
+                v(1fr)
+                foot
+              })
+            // A heading's `{icon=NAME}` (tools/typeset.py writes the call, with the Tabler glyph): the icon in the heading's
+            // size and colour, 0.4 em before its words, as typeset-common.sty's \typesetheadicon sets it; labelled so that the
+            // contents list leaves it out (contents.lua), as the LaTeX route's entries hold the heading's words alone; drawn
+            // in a context, so that the bookmark's text, which Typst takes from the heading's words, holds no icon either.
+            #let house-icon(glyph) = [#box(context text(font: "tabler-icons", glyph) + h(0.4em))<house-icon>]
+            // The verse layout, as verse.tex sets it (layout migration step 9). verse.lua passes the body of a verse
+            // document to house-verse whole, as an array of items in order: ("head", a heading), ("wide", a table or an
+            // image) and ("run", the stanzas of a run of verse between them, each an array of lines). The verse is set in
+            // two columns 0.3 in apart, each line a paragraph of its own that hangs 1.5 em when it wraps, the lines of a
+            // stanza a line apart and stanzas a paragraph's space apart. As multicols fills every page's two columns and
+            // balances only the last page of each run, house-verse lays the body out page by page itself, measuring
+            // each piece: a heading or a wide item goes on the page if it fits, a heading only where seven lines' room is
+            // left (verse.tex's needspace) and with the wide item after it; a run fills two columns of the room left on
+            // each page, the lines that fit found by bisection on the line count, until its remaining lines fit the
+            // page's room; those are set in columns as short as hold them (the least height, again by bisection), and
+            // the next item follows below. Each page ends with a column break, so the pages fall where the measures put
+            // them. The layout depends only on where the body starts, which is read from the previous layout, and not on
+            // where its lines fell before, so every run's split follows from those above it in one layout. A wide item
+            // taller than a page (a long table) is set as it comes, breaking across pages, and the items after it are
+            // laid out by a new call, which reads where it ends. The foot of the text block, from which the room left is
+            // read, is marked once, at the bottom of the first page, since a mark placed inside the layout would stand at
+            // the foot of the layout's own block. Columns that overflow measure as tall as the height
+            // given, give or take a rounding error of the order of 1e-12 pt, so lines fit only where they measure at
+            // least 0.01 pt shorter (a margin of this route's, far above the rounding and far below anything seen on
+            // the page); a page's columns are 0.02 pt shorter than its room for the same reason.
+            #let house-trim(c) = {
+              if c.func() != [].func() { return c }
+              let kids = c.children
+              while kids.len() > 0 and (kids.first() == [ ] or kids.first().func() == parbreak) { kids = kids.slice(1) }
+              while kids.len() > 0 and (kids.last() == [ ] or kids.last().func() == parbreak) { kids = kids.slice(0, -1) }
+              kids.join()
+            }
+            // A line of a list in verse (verse.lua's list_lines()): indented 1.5 em a level, its marker, on the item's first
+            // line, set in the 1.5 em before it (an indent and marker width of this route's).
+            #let house-list-line(depth, marker, body) = pad(left: (depth + 1) * 1.5em, {
+              if marker != none { h(-1.5em); box(width: 1.5em, marker) }
+              body
+            })
+            #let house-verse(items, nested: false) = {
+              if not nested { place(bottom)[#metadata(none)<house-verse-foot>] }
+              layout(region => context {
+                let foot = query(<house-verse-foot>)
+                let full = region.height
+                let cap = if foot.len() == 0 { full } else { foot.first().location().position().y - here().position().y }
+                let leading = par.leading
+                let verse(part) = {
+                  set par(hanging-indent: 1.5em)
+                  let groups = ()
+                  for (s, line) in part {
+                    if groups.len() > 0 and groups.at(-1).at(0) == s { groups.at(-1).at(1).push(line) } else { groups.push((s, (line,))) }
+                  }
+                  for (_, stanza) in groups { block({ set par(spacing: leading); stanza.join(parbreak()) }) }
+                }
+                let wide(part) = columns(2, gutter: 0.3in, verse(part))
+                let height(parts) = measure(block(width: region.width, parts.join())).height
+                let fits(part, column) = measure(wide(part), width: region.width, height: column).height < column - 0.01pt
+                let least(part) = {
+                  let (low, high) = (0pt, measure(block(width: (region.width - 0.3in) / 2, verse(part))).height + 1pt)
+                  for _ in range(20) {
+                    let middle = (low + high) / 2
+                    if fits(part, middle) { high = middle } else { low = middle }
+                  }
+                  high
+                }
+                // The most lines from the start of `part` that fit two columns `column` high.
+                let fill(part, column) = {
+                  let (low, high) = (0, part.len())
+                  while low < high {
+                    let middle = calc.quo(low + high + 1, 2)
+                    if fits(part.slice(0, middle), column) { low = middle } else { high = middle - 1 }
+                  }
+                  low
+                }
+                let step = height((verse(((0, [x]), (0, [x]))),)) - height((verse(((0, [x]),)),))
+                // `page`: the pieces set so far on the current page; `top`: whether nothing is above them on it.
+                let (out, page, top, rest) = ((), (), cap >= full - 0.01pt, none)
+                for (i, (kind, item)) in items.enumerate() {
+                  if kind == "run" {
+                    let lines = ()
+                    for (s, stanza) in item.enumerate() {
+                      for line in stanza { lines.push((s, house-trim(line))) }
+                    }
+                    while true {
+                      let column = cap - height(page + (block(height: 0pt),)) - 0.02pt
+                      if fits(lines, column) {
+                        let piece = block(height: least(lines), breakable: false, wide(lines))
+                        out.push(piece)
+                        page.push(piece)
+                        break
+                      }
+                      let end = fill(lines, column)
+                      if end == 0 and not (top and page.len() == 0) {
+                        out.push(colbreak(weak: page.len() > 0))
+                        (page, cap, top) = ((), full, true)
+                        continue
+                      }
+                      end = calc.max(end, 1)  // a line taller than a page is set on its own page
+                      out.push(block(height: column, breakable: false, wide(lines.slice(0, end))))
+                      out.push(colbreak(weak: true))
+                      (page, cap, top) = ((), full, true)
+                      lines = lines.slice(end)
+                    }
+                  } else if height((item,)) > full {
+                    out.push(item)
+                    rest = items.slice(i + 1)
+                    break
+                  } else {
+                    let need = (item,)
+                    if kind == "head" and i + 1 < items.len() and items.at(i + 1).at(0) != "run" {
+                      if height((items.at(i + 1).at(1),)) <= full { need.push(items.at(i + 1).at(1)) }
+                    }
+                    let short = kind == "head" and cap - height(page) < 7 * step
+                    if not (top and page.len() == 0) and (short or height(page + need) > cap - 0.01pt) {
+                      out.push(colbreak(weak: page.len() > 0))
+                      (page, cap, top) = ((), full, true)
+                    }
+                    out.push(item)
+                    page.push(item)
+                  }
+                }
+                out.join()
+                if rest != none and rest.len() > 0 { house-verse(rest, nested: true) }
+              })
+            }

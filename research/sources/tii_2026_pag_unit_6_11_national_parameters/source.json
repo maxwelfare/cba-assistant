@@ -1,0 +1,11 @@
+{
+  "key": "tii_2026_pag_unit_6_11_national_parameters",
+  "citation": "Transport Infrastructure Ireland (2026). Project Appraisal Guidelines Unit 6.11 - National Parameters Values Sheet, PE-PAG-02030, September 2026.",
+  "doi": null,
+  "url": "https://cdn.tii.ie/publications/PE-PAG-02030-08.pdf",
+  "media_type": "application/pdf",
+  "sha256": "6eeef2dd3cd99425fdbd5cf968639a204098382c4984ccd96f8fa9d1b2d29aa0",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:28:55+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "elsevier_genai_journals",
+  "citation": "Elsevier. Generative AI policies for journals.",
+  "doi": null,
+  "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+  "media_type": "text/html",
+  "sha256": "ee6e915c709706b61b6549a2768e3242407f0bacff77d2ca000d5f08bfe07551",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:01:31Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 35645
+}

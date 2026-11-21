@@ -1,0 +1,11 @@
+{
+  "key": "ez_2026_handboek_meting_regeldrukkosten",
+  "citation": "Streefkerk E (2026). Handboek Meting Regeldrukkosten, version 3.0. Ministerie van Economische Zaken (hosted by Adviescollege toetsing regeldruk).",
+  "doi": "none",
+  "url": "https://www.adviescollegeregeldruk.nl/site/binaries/site-content/collections/documents/2023/11/29/handboek-meting-regeldrukkosten/handboek-meting-regeldrukkosten-2026.pdf",
+  "media_type": "application/pdf",
+  "sha256": "8638380ad7655e28e192b87fba951daf6b6a6e856ef6b165fa8da05f5d31f099",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:33:31Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

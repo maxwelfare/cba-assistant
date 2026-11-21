@@ -1,0 +1,11 @@
+{
+ "key": "mlit_2026_rail_manual",
+ "citation": "国土交通省鉄道局 (2026-10). 鉄道プロジェクトの評価手法マニュアル（2026年改訂版）.",
+ "doi": "none",
+ "url": "https://www.mlit.go.jp/common/000224631.pdf",
+ "media_type": "application/pdf",
+ "sha256": "24d41e2c51d113f440b905fea8f7ecba22a27069026edcd172788524490dd45d",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:06Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

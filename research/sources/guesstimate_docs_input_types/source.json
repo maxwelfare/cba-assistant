@@ -1,0 +1,12 @@
+{
+ "key": "guesstimate_docs_input_types",
+ "citation": "Guesstimate documentation: Input types (guesstimate-docs.vercel.app), fetched 2026-11-12.",
+ "doi": null,
+ "url": "https://guesstimate-docs.vercel.app/docs/basic_modeling/input_types",
+ "media_type": "text/html",
+ "sha256": "0df05080a8ddf6d69f00cc308935509bec629f7915b7d84e775979dabfb07374",
+ "licence": "not stated",
+ "fetched": "2026-11-12T17:29:07Z",
+ "text_method": "the <article> element of original.html, script, style and svg dropped, tags stripped and entities unescaped by a regex in Python (the store's built-in extract kept only the navigation, the page body being in the article element)",
+ "how": "python tools/host_cooldown.py fetch https://guesstimate-docs.vercel.app/docs/basic_modeling/input_types"
+}

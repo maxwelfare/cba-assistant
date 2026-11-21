@@ -1,0 +1,11 @@
+{
+ "key": "urban_2023_fact_sheet_nof",
+ "citation": "Urban Institute (October 2023). Fact Sheet: National Occupational Frameworks and the Registered Apprenticeship Library (2 pp.).",
+ "doi": null,
+ "url": "https://www.urban.org/sites/default/files/2023-10/Fact%20Sheet-National%20Occupational%20Frameworks%20and%20the%20Registered%20Apprenticeship%20Library.pdf",
+ "media_type": "application/pdf",
+ "sha256": "dc35b64b914884538589fd9b1e4f2bfd563a43bba84e360ba1924c6981532795",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-10T12:53:08.488136+00:00",
+ "text_method": "pdftotext (plain)"
+}

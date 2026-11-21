@@ -1,0 +1,11 @@
+{
+  "key": "un_comtrade_guide",
+  "citation": "United Nations Statistics Division. UN Comtrade API documentation, comtradeplus.un.org/ApiDocs, page as fetched 2026-11-09.",
+  "doi": "",
+  "url": "https://comtradeplus.un.org/ApiDocs",
+  "media_type": "text/html",
+  "sha256": "66c2e6ddaacb843100b834fcf4be778d66b8e880356af3fe291716d7036b1d75",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:07Z",
+  "text_method": ".venv/bin/python -I (regex script: removed script/style/nav/header/footer, paragraph breaks at block-end tags, tags stripped, entities unescaped)"
+}

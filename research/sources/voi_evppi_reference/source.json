@@ -1,0 +1,12 @@
+{
+ "key": "voi_evppi_reference",
+ "citation": "Jackson C, Heath A, Strong M et al. voi: Expected Value of Information (R package), reference page for evppi, version 1.0.3, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://chjackson.github.io/voi/reference/evppi.html",
+ "media_type": "text/html",
+ "sha256": "7613b712f1eb47e6aa4cbbdd6cfd6fe09bf2aec4cf61690e17fc2d62e82866c0",
+ "licence": "GPL-3 (package)",
+ "fetched": "2026-11-13T11:41:56Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://chjackson.github.io/voi/reference/evppi.html"
+}

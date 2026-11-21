@@ -1,0 +1,11 @@
+{
+  "key": "forsaetisraduneytid_2007_handbok_lagafrumvorp",
+  "citation": "Forsaetisraduneytid, Doms- og kirkjumalaraduneytid, Skrifstofa Althingis. Handbok um undirbuning og fragang lagafrumvarpa. November 2007.",
+  "doi": null,
+  "url": "https://www.stjornarradid.is/media/forsaetisraduneyti-media/media/skyrslur/handbok_lagafrumvorp.pdf",
+  "media_type": "application/pdf",
+  "sha256": "c8f09d446ef3ead4271e9d7671a345c21b8ac8890594daa8cea8628068f8ce5f",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:44Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

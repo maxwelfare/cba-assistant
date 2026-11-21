@@ -1,0 +1,11 @@
+{
+ "key": "usaspending_api_guide",
+ "citation": "USAspending API endpoint reference (U.S. Department of the Treasury) (accessed 2026-11-09).",
+ "doi": "",
+ "url": "https://api.usaspending.gov/docs/endpoints",
+ "media_type": "text/html",
+ "sha256": "afd56dfed11ad19dbde864c0360250611b5c19f8b6a3012d61cbee186cf05d20",
+ "licence": "not stated on the page",
+ "fetched": "2026-11-09T18:00:00Z",
+ "text_method": ".venv/bin/python -I tools/store_rs.py (scripts/styles dropped, tags removed, block ends to newlines)"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "google_sheets_table_references",
+ "citation": "Google. Docs Editors Help (google_sheets_table_references), https://support.google.com/docs/answer/15637642?hl=en, retrieved 2026-11-16.",
+ "doi": null,
+ "url": "https://support.google.com/docs/answer/15637642?hl=en",
+ "media_type": "text/html",
+ "sha256": "5a0ec1147d4b38b1d174024167c60a16e27377d03034f50723e9c8ceba0ae7c9",
+ "licence": "none stated",
+ "fetched": "2026-11-16T18:47:04Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8: the page declares no charset",
+ "how": "python tools/host_cooldown.py fetch https://support.google.com/docs/answer/15637642?hl=en"
+}

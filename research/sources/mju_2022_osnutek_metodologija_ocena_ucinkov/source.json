@@ -1,0 +1,12 @@
+{
+ "key": "mju_2022_osnutek_metodologija_ocena_ucinkov",
+ "citation": "Osnutek Metodologije za oceno ucinkov na razlicna druzbena podrocja, gradivo za javno obravnavo, junij 2022 (Medresorska delovna skupina, projekt ePredpisi, MJU). DRAFT for public consultation, not a final edition.",
+ "doi": null,
+ "url": "https://www.gov.si/assets/ministrstva/MNZJU/MJU/Kakovost-in-inovativnost-v-javni-upravi/Metodologija-ocena-ucinkov/Osnutek-Metodologije-za-oceno-ucinkov-na-razlicna-druzbena-podrocja_osnutek-za-javno-obravnavo.docx",
+ "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+ "sha256": "f723fa4ad06163314ea92b6c97e70aac6e1d00f2fda14c831a5f70426242ecfe",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34Z",
+ "text_method": "paragraph text of word/document.xml joined by blank lines (python -I, ElementTree)",
+ "language": "sl"
+}

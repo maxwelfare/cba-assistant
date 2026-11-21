@@ -1,0 +1,12 @@
+{
+ "key": "benharrak_2024_personas",
+ "citation": "Benharrak K, Zindulka T, Lehmann F, et al. (2024). Writer-defined AI personas for on-demand feedback generation. CHI 2024. arXiv:2309.10433.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/2309.10433",
+ "media_type": "application/pdf",
+ "sha256": "b2674ede1e959827e8cd479133e9131ac31f389241bcf10d35480f1a57bf9ec0",
+ "licence": "arXiv non-exclusive licence to distribute (arxiv.org/licenses/nonexclusive-distrib/1.0)",
+ "fetched": "2026-11-16T03:37:06Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/dl/benharrak.pdf (fetched is the file's modification time)"
+}

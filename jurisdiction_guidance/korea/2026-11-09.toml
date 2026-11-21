@@ -1,0 +1,219 @@
+# Korea, values in force on 2026-11-09, read on 2026-11-09 in each stored document's own text (research/sources/<key>/text.txt;
+# the document named in each entry). First edition. Each quote is the passage in the stored text, spaces as stored.
+# Not collected, because no stored official document states it as one figure: a standalone official value of a statistical life
+# or life-year; the road and rail accident cost per death (stated for "2021-2023 average prices", no single price year);
+# a general appraisal period for other sectors (informatisation and other fiscal projects are set project by project).
+# The [price_index] is the consumer price index (Bank of Korea ECOS, table 901Y009, annual, all items), the index the
+# guidance names for correcting benefits and unit values. For costs the guidance names the construction-investment GDP
+# deflator, which is not stored here, so a cost stream corrected with this index departs from the guidance's principle.
+# Every value was checked against the original document's table or article by a second seat on 2026-11-09.
+jurisdiction = "Korea"
+edition = "2026-11-09"
+
+[discount_rate]
+rates = [0.045]
+unit = "real rate per year"
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "예비타당성조사에서 사회적 할인율은 4.5%를 적용한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[discount_rate_long_rail_water]
+schedule = [[1, 30, 0.045], [31, "onwards", 0.035]]
+unit = "real rate per year, by year of operation: [first year, last year or \"onwards\", rate]"
+note = "For a railway or water-resources project whose analysis period is 30 years or more (art. 50 paragraph 1); the 30 years are years of operation, counted from the opening, not from the start of the appraisal, and the guideline states no step-down for other sectors."
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "다만 분석기간이 30년 이상인 철도와 수자원 사업은 운영 30년 동안은 4.5%를 적용하고 이후는 3.5%의 할인율을 적용한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[financial_discount_rate]
+value = 0.045
+unit = "real rate per year, for the financial (cash-flow) analysis, not the economic one"
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "예비타당성조사에서는 4.5%를 실질 재무적 할인율로 사용한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[appraisal_period_road_airport_port_health_other_large_construction]
+value = 30
+unit = "years of operation after the opening, added to the construction period"
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "1. 도로ㆍ공항ㆍ항만ㆍ의료시설 부문 및 기타 대규모 건설사업은 사업기간과 운영개시 후 30년을 합한 기간을 적용한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[appraisal_period_railway]
+value = 40
+unit = "years of operation after the opening, added to the construction period"
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "2. 철도사업은 사업기간과 운영개시 후 40년을 합한 기간을 적용한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[appraisal_period_water_resources]
+value = 50
+unit = "years of operation after the opening, added to the construction period; some projects such as regional waterworks are set by the facility's service life"
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "3. 수자원사업은 사업기간과 운영개시 후 50년을 합한 기간을 적용하되, 광역상수도 사업 등 일부 사업은 해당 시설물의 내용연수 등을 고려하여 적용한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[price_base_date_rule]
+unit = "rule: the base date for discounting is the end of the year before the analysis began"
+note = "No numeric value: a rule. Figures whose base year differs from the analysis base year are corrected to it."
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "할인되는 분석의 기준일은 해당 사업의 분석이 착수된 전년도 말로 하며 기타 사항은 다음 각 호를 따른다. 1. 부득이 자료 구득의 한계 등으로 인해 수요ㆍ편익ㆍ비용 추정을 위해 적용한 수치의 기준연도가 경제성 분석을 위한 기준연도와 상이할 경우 이를 보정하여 경제성 분석을 수행한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[price_correction_index_rule]
+unit = "rule: costs corrected by the construction-investment GDP deflator, benefits by the consumer price index"
+document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)."
+url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+quote = "비용 보정 지수는 건설투자 GDP Deflator(국내총생산에 대한 지출 Deflator 중 건설투자 항목), 편익 보정 지수는 소비자물가지수를 적용하는 것을 원칙으로 하되, 항목별 특성에 따라 별도의 보정 지수를 사용할 경우에는 그 근거를 명확히 서술하여야 한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[transport_unit_value_update_rule]
+unit = "rule: unit values are updated to the date of application by the consumer price index published by the Bank of Korea"
+document = "국토교통부 (Ministry of Land, Infrastructure and Transport) (2026-04-21). 교통시설 투자평가지침, 제8차 개정 [국토교통부고시 제2026-204호] (Appraisal Guidelines for Transport Facilities Investment, Eighth Edition)."
+url = "https://www.law.go.kr/LSW/flDownload.do?flSeq=164151329&gubun="
+quote = "(원단위의 갱신) 본 지침의 적용시점 변화에 따른 원단위의 시간의 보정이 필요하며, 시간 보정 시 한국은행에 발표하는 소비자 물가지수를 적용하여야 한다."
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[regulatory_analysis_discount_rate]
+value = 0.045
+unit = "real rate per year, for regulatory impact analysis"
+document = "국무조정실 (Office for Government Policy Coordination) (2024-09). 규제영향분석서 작성지침 (Guidelines for Writing the Regulatory Impact Analysis Statement), 2024. 9."
+url = "https://www.better.go.kr/BFileDownServlet.bdo?gubun=&fileId=17267278790127RRS8RZZ0L6QVTCUGZISI7PEP0&rltType="
+quote = "현재 할인율은 예비타당성 조사에서 사용되는 사회적 할인율인 4.5%를 적용"
+licence = "not stated"
+
+[regulatory_analysis_default_period]
+value = 10
+unit = "years, when the regulation has no sunset or review date, or has a review date but will probably continue (footnote, printed p. 47)"
+document = "국무조정실 (Office for Government Policy Coordination) (2024-09). 규제영향분석서 작성지침 (Guidelines for Writing the Regulatory Impact Analysis Statement), 2024. 9."
+url = "https://www.better.go.kr/BFileDownServlet.bdo?gubun=&fileId=17267278790127RRS8RZZ0L6QVTCUGZISI7PEP0&rltType="
+quote = "존속기한 혹은 재검토기한이 설정되지 않은 경우 기본값은 10년으로 설정"
+licence = "not stated"
+
+[value_of_time_work_trip_car_driver]
+value = 32490
+unit = "per person-hour"
+currency = "KRW"
+price_year = 2023
+note = "Marginal wage plus overhead, 2023, from table 4-2, 'Calculation of work-trip value of time (2023 basis)'. The key names the wage it is built from: tables 4-5 onward apply this value to every car occupant on a work trip, and to the other work-trip occupants of a bus."
+document = "국토교통부 (Ministry of Land, Infrastructure and Transport) (2026-04-21). 교통시설 투자평가지침, 제8차 개정 [국토교통부고시 제2026-204호] (Appraisal Guidelines for Transport Facilities Investment, Eighth Edition)."
+url = "https://www.law.go.kr/LSW/flDownload.do?flSeq=164151329&gubun="
+quote = "구분 승용차 운전자 버스 운전자 화물차 운전자 1인당 월평균급여 (원/월) 3,965,994 3,758,656 3,844,708 근로시간 (시간/월) 152.0 154.5 시간당 임금 (원/인․시간) 26,092 24,328 24,885 오버헤드비율 (%) 24.52% 26.61% 27.22% 2023년 시간가치 (원/인․시간) 32,490 30,802 31,659"
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[value_of_time_work_trip_bus_driver]
+value = 30802
+unit = "per person-hour"
+currency = "KRW"
+price_year = 2023
+note = "Table 4-2, bus driver column. Tables 4-5 onward apply it to the bus driver only."
+document = "국토교통부 (Ministry of Land, Infrastructure and Transport) (2026-04-21). 교통시설 투자평가지침, 제8차 개정 [국토교통부고시 제2026-204호] (Appraisal Guidelines for Transport Facilities Investment, Eighth Edition)."
+url = "https://www.law.go.kr/LSW/flDownload.do?flSeq=164151329&gubun="
+quote = "구분 승용차 운전자 버스 운전자 화물차 운전자 1인당 월평균급여 (원/월) 3,965,994 3,758,656 3,844,708 근로시간 (시간/월) 152.0 154.5 시간당 임금 (원/인․시간) 26,092 24,328 24,885 오버헤드비율 (%) 24.52% 26.61% 27.22% 2023년 시간가치 (원/인․시간) 32,490 30,802 31,659"
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[value_of_time_work_trip_truck_driver]
+value = 31659
+unit = "per person-hour"
+currency = "KRW"
+price_year = 2023
+note = "Table 4-2, truck driver column."
+document = "국토교통부 (Ministry of Land, Infrastructure and Transport) (2026-04-21). 교통시설 투자평가지침, 제8차 개정 [국토교통부고시 제2026-204호] (Appraisal Guidelines for Transport Facilities Investment, Eighth Edition)."
+url = "https://www.law.go.kr/LSW/flDownload.do?flSeq=164151329&gubun="
+quote = "구분 승용차 운전자 버스 운전자 화물차 운전자 1인당 월평균급여 (원/월) 3,965,994 3,758,656 3,844,708 근로시간 (시간/월) 152.0 154.5 시간당 임금 (원/인․시간) 26,092 24,328 24,885 오버헤드비율 (%) 24.52% 26.61% 27.22% 2023년 시간가치 (원/인․시간) 32,490 30,802 31,659"
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[value_of_time_non_work_trip_car]
+value = 15205
+unit = "per person-hour"
+currency = "KRW"
+price_year = 2023
+note = "Table 4-4. Non-work trip, per passenger car occupant, driver included, 2023 basis."
+document = "국토교통부 (Ministry of Land, Infrastructure and Transport) (2026-04-21). 교통시설 투자평가지침, 제8차 개정 [국토교통부고시 제2026-204호] (Appraisal Guidelines for Transport Facilities Investment, Eighth Edition)."
+url = "https://www.law.go.kr/LSW/flDownload.do?flSeq=164151329&gubun="
+quote = "구분 승용차 버스 비업무통행 시간가치 (원/인․시간) 15,205 8,967"
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[value_of_time_non_work_trip_bus]
+value = 8967
+unit = "per person-hour"
+currency = "KRW"
+price_year = 2023
+note = "Table 4-4. Non-work trip, per bus occupant, driver included, 2023 basis. The table's ratio of 27.6% is against the car work value of 32,490, so this value is not to be recomputed from the bus work value."
+document = "국토교통부 (Ministry of Land, Infrastructure and Transport) (2026-04-21). 교통시설 투자평가지침, 제8차 개정 [국토교통부고시 제2026-204호] (Appraisal Guidelines for Transport Facilities Investment, Eighth Edition)."
+url = "https://www.law.go.kr/LSW/flDownload.do?flSeq=164151329&gubun="
+quote = "구분 승용차 버스 비업무통행 시간가치 (원/인․시간) 15,205 8,967"
+licence = "not stated (statutory administrative rule published on the National Law Information Center)"
+
+[age_specific_statistical_life_value_peak]
+value = 691700000
+unit = "per statistical life, at age 29, the maximum over ages; an earnings-loss (human capital) estimate of death, not a willingness to pay"
+currency = "KRW"
+price_year = 2019
+note = "Table VI-15. The same table's page states a population-weighted mean of 443.76 million won on the same basis and price year (printed p. 200), probably the more usable figure for an average person; not collected as an entry."
+document = "한국개발연구원 공공투자관리센터 (KDI PIMAC) (2022-12). 예비타당성조사 수행을 위한 세부지침 의료부문 연구 (Detailed guideline for preliminary feasibility studies, health care sector; includes a statistical-life-value section)."
+url = "https://pimac.kdi.re.kr/common/studydown.jsp?filename=xpuZ4h8UroYggZsSlvqqcQ%3D%3D&member_pub=2"
+quote = "2019년 기준으로 각 연령별 통계적 생명가치의 값은 만 29세에서 6 억 9,170만원으로 추정되었으며"
+licence = "not stated"
+
+[price_index]
+currency = "KRW"
+series = "Consumer price index, all items, annual"
+series_id = "Bank of Korea ECOS 901Y009, item 0 (총지수), annual, 2020 = 100"
+unit = "index, 2020 = 100"
+publisher = "Bank of Korea (ECOS open API)"
+document = "ECOS Open API, StatisticSearch, table 4.2.1 소비자물가지수 (901Y009), annual, 1990 to 2025"
+url = "https://ecos.bok.or.kr/api/StatisticSearch/sample/json/kr/1/10/901Y009/A/1990/2025/0"
+date_read = "2026-11-09T16:47Z"
+quote = "\"STAT_NAME\":\"4.2.1. 소비자물가지수\""
+licence = "not stated in the API response"
+licence_note = "Open API of the Bank of Korea read with its public sample key; the response carries no licence terms. Raw responses: research/price_indices/2026-11-09/raw/."
+guidance_document = "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies)., art. 49 paragraph 1 item 2"
+guidance_url = "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201"
+guidance_quote = "비용 보정 지수는 건설투자 GDP Deflator(국내총생산에 대한 지출 Deflator 중 건설투자 항목), 편익 보정 지수는 소비자물가지수를 적용하는 것을 원칙으로 하되, 항목별 특성에 따라 별도의 보정 지수를 사용할 경우에는 그 근거를 명확히 서술하여야 한다."
+guidance_note = "The guideline names the consumer price index for benefits and the construction-investment GDP deflator for costs; the transport guideline (molit_2026_transport_appraisal) names the consumer price index for unit values. The consumer price index is the only series stored here, so a cost stream corrected with it departs from the guidance's principle, and a case with construction costs needs the deflator collected."
+
+[price_index.calendar_year]
+"1990" = 38.48
+"1991" = 42.071
+"1992" = 44.685
+"1993" = 46.831
+"1994" = 49.765
+"1995" = 51.995
+"1996" = 54.555
+"1997" = 56.977
+"1998" = 61.258
+"1999" = 61.756
+"2000" = 63.151
+"2001" = 65.719
+"2002" = 67.534
+"2003" = 69.908
+"2004" = 72.418
+"2005" = 74.413
+"2006" = 76.081
+"2007" = 78.01
+"2008" = 81.656
+"2009" = 83.906
+"2010" = 86.373
+"2011" = 89.85
+"2012" = 91.815
+"2013" = 93.01
+"2014" = 94.196
+"2015" = 94.861
+"2016" = 95.783
+"2017" = 97.645
+"2018" = 99.086
+"2019" = 99.466
+"2020" = 100.0
+"2021" = 102.5
+"2022" = 107.72
+"2023" = 111.59
+"2024" = 114.18
+"2025" = 116.61

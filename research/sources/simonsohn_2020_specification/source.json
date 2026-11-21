@@ -1,0 +1,12 @@
+{
+ "key": "simonsohn_2020_specification",
+ "citation": "Simonsohn U, Simmons JP, Nelson LD (2020). Specification curve analysis. Nature Human Behaviour 4(11):1208-1214.",
+ "doi": "10.1038/s41562-020-0912-z",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41562-020-0912-z",
+ "media_type": "text/plain",
+ "sha256": "613d61594d06c815a2cbc173ca378be2ab8311ce238b072518f1da4c1606ec83",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:12Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/simonsohn_2020_specification.txt (fetched is the file's modification time)"
+}

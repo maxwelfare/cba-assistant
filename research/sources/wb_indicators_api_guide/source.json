@@ -1,0 +1,11 @@
+{
+ "key": "wb_indicators_api_guide",
+ "citation": "World Bank Data Help Desk. About the Indicators API Documentation (accessed 2026-11-09).",
+ "doi": "",
+ "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+ "media_type": "text/html",
+ "sha256": "46c5b640eee079ce2124987c11651b87577fea20cf094017bc41b73b6eca62f9",
+ "licence": "not stated on the page (World Bank datasets: CC BY 4.0 by default per datacatalog.worldbank.org)",
+ "fetched": "2026-11-09T17:30:11Z",
+ "text_method": ".venv/bin/python -I store.py (tags removed, script/style/nav/header/footer dropped, block ends to newlines)"
+}

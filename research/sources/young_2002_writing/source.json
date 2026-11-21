@@ -1,0 +1,11 @@
+{
+ "key": "young_2002_writing",
+ "citation": "Young E, Quinn L (2002). Writing Effective Public Policy Papers: A Guide for Policy Advisers in Central and Eastern Europe. LGI, Open Society Institute, Budapest. (English edition, 121 pp.; Indonesian-hosted copy)",
+ "doi": null,
+ "url": "https://www.kebijakankesehatanindonesia.net/images/2012/IDRC/Referensi_Modul_3A2.pdf",
+ "media_type": "application/pdf",
+ "sha256": "c2a489aa958159689e77ab7e3f22417084cc7312e217e853d7a48c0c35b6bb61",
+ "licence": "not stated in the extract",
+ "fetched_utc": "2026-11-10T12:51:36.054730Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

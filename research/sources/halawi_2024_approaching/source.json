@@ -1,0 +1,12 @@
+{
+  "key": "halawi_2024_approaching",
+  "citation": "Halawi D, Zhang F, Yueh-Han C, Steinhardt J (2024). Approaching Human-Level Forecasting with Language Models. arXiv:2402.18563v1 (NeurIPS 2024).",
+  "doi": "10.48550/arXiv.2402.18563",
+  "url": "https://arxiv.org/pdf/2402.18563",
+  "media_type": "application/pdf",
+  "sha256": "682c8ace41f6676cdcdf3f0fcc3988d344e97f8050204ba4074adddfbf27ac39",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:39:45Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 120039
+}

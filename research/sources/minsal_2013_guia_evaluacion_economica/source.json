@@ -1,0 +1,11 @@
+{
+ "key": "minsal_2013_guia_evaluacion_economica",
+ "citation": "Castillo Riquelme M, Castillo Laborde C, Loayza Saldivia S, Aravena Pasten M (2013). Guia metodologica para la evaluacion economica de intervenciones en salud en Chile. Departamento de Economia de la Salud, Subsecretaria de Salud Publica, Ministerio de Salud. Copy hosted by ORAS-CONHU (orasconhu.org).",
+ "doi": null,
+ "url": "https://www.orasconhu.org/case/sites/default/files/files/EE_FINAL_web.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f1e948b6ba94bf13df6c3c10019bf2c97dc45d099644ff10183d1aff54cad533",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:05Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "tbs_2025_cba_guide",
+  "citation": "Treasury Board of Canada Secretariat (last modified January 2025). Canada's Cost-Benefit Analysis Guide for Regulatory Proposals (current version, published as a Word file on GCwiki; the 2022 edition is BT58-5/2022E).",
+  "doi": null,
+  "url": "https://wiki.gccollab.ca/images/8/8e/CBA_Guide-EN.doc",
+  "media_type": "application/msword",
+  "sha256": "58ebccfd497e3e414669921e7d36475235e18d5092cb5acc015e733dc11aa303",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "catdoc -w -d utf-8 original.doc | head -n N > text.txt (N = the last footnote line, 599 English, 737 French; the binary tail of the Word file after it is dropped)"
+}

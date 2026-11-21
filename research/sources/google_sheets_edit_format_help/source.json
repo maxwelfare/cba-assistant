@@ -1,0 +1,12 @@
+{
+ "key": "google_sheets_edit_format_help",
+ "citation": "Google. Edit & format a spreadsheet, Google Docs Editors Help (read 2026-11-20).",
+ "doi": null,
+ "url": "https://support.google.com/docs/answer/46973?hl=en&co=GENIE.Platform%3DDesktop",
+ "media_type": "text/html",
+ "sha256": "08fd25660d3daccdd5621c90a47df8e095997e34e5c426ac042ab74c3a65912f",
+ "licence": "not stated",
+ "fetched": "2026-11-20T21:53:11Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8: the page declares no charset",
+ "how": "python tools/host_cooldown.py fetch https://support.google.com/docs/answer/46973?hl=en&co=GENIE.Platform%3DDesktop"
+}

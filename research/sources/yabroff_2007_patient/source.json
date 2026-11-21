@@ -1,0 +1,12 @@
+{
+ "key": "yabroff_2007_patient",
+ "citation": "Yabroff KR, Davis WW, Lamont EB, et al. (2007). Patient time costs associated with cancer care. Journal of the National Cancer Institute 99(1):14-23.",
+ "doi": "10.1093/jnci/djk001",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1093/jnci/djk001",
+ "media_type": "text/plain",
+ "sha256": "b626e11ab3a31ca9e5c913a4cf2316277f1de73aa96d67484e6fb4b3272ed9cb",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:12Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/yabroff_2007_patient.txt (fetched is the file's modification time)"
+}

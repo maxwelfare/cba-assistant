@@ -1,0 +1,11 @@
+{
+  "key": "census_acs_guide",
+  "citation": "Census Data API User Guide (U.S. Census Bureau, May 2026)",
+  "doi": "",
+  "url": "https://www2.census.gov/data/api-documentation/api-user-guide.pdf",
+  "media_type": "application/pdf",
+  "sha256": "71b4c298d147de2ab9f0efe2f7c513f4eea659e53cb47b8c9067ac9477a87a95",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:27:17Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

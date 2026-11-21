@@ -1,0 +1,12 @@
+{
+ "key": "embrechts_2006_bounds",
+ "citation": "Embrechts, P. and Puccetti, G. (2006). Bounds for functions of dependent risks. Finance and Stochastics 10(3):341-352. Author's copy (EP04web.pdf).",
+ "doi": "10.1007/s00780-006-0005-5",
+ "url": "https://people.math.ethz.ch/~embrecht/ftp/EP04web.pdf",
+ "media_type": "application/pdf",
+ "sha256": "769a7f9b3c9c522e32d9bfedfa053c473609e51aba5b20f5e14684cbb4a78544",
+ "licence": "none stated (author's web copy)",
+ "fetched": "2026-11-17T16:52:35Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://people.math.ethz.ch/~embrecht/ftp/EP04web.pdf"
+}

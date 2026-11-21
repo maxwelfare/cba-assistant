@@ -1,0 +1,12 @@
+{
+ "key": "sweller_1985_worked",
+ "citation": "Sweller J, Cooper GA (1985). The use of worked examples as a substitute for problem solving in learning algebra. Cognition and Instruction 2(1):59-89.",
+ "doi": "10.1207/s1532690xci0201_3",
+ "url": "https://api.openalex.org/works/doi:10.1207/s1532690xci0201_3",
+ "media_type": "text/plain",
+ "sha256": "b9198b506a30c0ed99771775ba293724aa90619b1aa401c6d86a0887055c65a4",
+ "licence": "abstract only, as given by OpenAlex; no free full text found",
+ "fetched": "2026-11-12T13:13:07Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/d/ab/sweller.txt (fetched is the file's modification time)"
+}

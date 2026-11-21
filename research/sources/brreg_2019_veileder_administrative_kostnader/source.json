@@ -1,0 +1,13 @@
+{
+ "key": "brreg_2019_veileder_administrative_kostnader",
+ "citation": "Brønnøysundregistrene, Veileder i beregning av administrative kostnader (web page; 2019 per the DFØ list of guides)",
+ "doi": null,
+ "url": "https://www.brreg.no/offentlig-sektor/veileder-i-beregning-av-administrative-kostnader/",
+ "media_type": "text/html",
+ "sha256": "0468e494c735a0c5dcff42e445fad98fefb6fb15cf69c264a43b0daf8418b168",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34:24Z",
+ "text_method": "tag-stripping script (re, html.unescape) on original.html",
+ "text_chars": 20910,
+ "language": "nb (Norwegian bokmål)"
+}

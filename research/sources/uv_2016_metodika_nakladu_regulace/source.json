@@ -1,0 +1,11 @@
+{
+ "key": "uv_2016_metodika_nakladu_regulace",
+ "citation": "Úřad vlády České republiky (2016). Metodika pro měření celkových nákladů na plnění povinností vyplývajících z regulace.",
+ "doi": null,
+ "url": "https://ria.gov.cz/wp-content/uploads/Metodika-mereni-nakladu-na-plneni-povinnosti-z-regulace-UV-2016.pdf",
+ "media_type": "application/pdf",
+ "sha256": "67082deed615aeed5f84d216e17c8cfa4eab16dbe069bfcf8b5f92991b7c7b89",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:18Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

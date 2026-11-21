@@ -1,0 +1,99 @@
+# Canada (federal), values in force on 2026-11-17, read on 2026-11-17 in the stored text of the Treasury Board of
+# Canada Secretariat's Cost-Benefit Analysis Guide for Regulatory Proposals (research/sources/tbs_2025_cba_guide/text.txt,
+# the Word file of January 2025 that the canada.ca guide page points to). First edition. Each `source` names the
+# research/refs.toml key whose stored text holds the quote.
+# [price_index] added on 2026-11-21 (a value collected later for this edition, with the date it was read): the Statistics
+# Canada consumer price index, all-items, annual average, the only index the guide names ([vsl_price_update_rule]),
+# copied by script from research/sources/statcan_2026_cpi_annual_18100005/text.txt.
+jurisdiction = "Canada (federal)"
+edition = "2026-11-17"
+
+[discount_rate]
+rates = [0.07, 0.03]
+unit = "real rate per year"
+note = "7% is the rate the guide prescribes (section 6.1, from the opportunity cost of funds, Jenkins and Kuo 2008); 3% is the social time preference rate the same section allows for certain health and environmental goods. The Policy on Cost-Benefit Analysis (tbs_2018_policy_cba, text.txt lines 169-175, section 7.1) requires departments to use the opportunity cost of capital in the guide, 7%, as the discount rate except where a social discount rate is more appropriate (for example, when a proposal primarily affects private consumption or its impacts occur over 50 years or more), and even then the estimates at the opportunity cost of capital must also be reported."
+document = "Treasury Board of Canada Secretariat (last modified January 2025). Canada's Cost-Benefit Analysis Guide for Regulatory Proposals, section 6.1"
+url = "https://wiki.gccollab.ca/images/8/8e/CBA_Guide-EN.doc"
+quote = "A real rate of 7% is to be used as the discount rate for the cost-benefit analysis of regulatory proposals in Canada."
+quote_heading = "Discount rates for Canada (in other words, real rate of 7% and social rate of 3%)"
+quote_social_rate = "In these circumstances, the analysis can be carried out using a social discount rate. Usually, these social discount rates are lower than the 7% real rate. One approach is to estimate the social time preference rate, which is based on the rate at which Individuals discount future consumption and projected growth in consumption. For Canada, the social time preference rate has been estimated to be around 3%"
+licence = "not stated (Government of Canada publication)"
+source = "tbs_2025_cba_guide"
+
+[value_of_statistical_life]
+value = 6500000
+unit = "per statistical life"
+currency = "CAD"
+price_year = 2007
+note = "Section 4.8: the Policy Research Initiative (2009) update of Chestnut et al. (1999)."
+document = "Treasury Board of Canada Secretariat (last modified January 2025). Canada's Cost-Benefit Analysis Guide for Regulatory Proposals, section 4.8"
+url = "https://wiki.gccollab.ca/images/8/8e/CBA_Guide-EN.doc"
+quote = "The Policy Research Initiative (2009) updated the study by Chestnut et al. (1999) and found the average VSL to be $6.5 million in 2007 Canadian dollars. Departments and agencies are expected to use this value as the VSL in their cost-benefit analysis."
+licence = "not stated (Government of Canada publication)"
+source = "tbs_2025_cba_guide"
+
+[vsl_price_update_rule]
+unit = "rule: the value of a statistical life is brought to the analysis's price year by the Statistics Canada consumer price index"
+document = "Treasury Board of Canada Secretariat (last modified January 2025). Canada's Cost-Benefit Analysis Guide for Regulatory Proposals, section 4.8"
+url = "https://wiki.gccollab.ca/images/8/8e/CBA_Guide-EN.doc"
+quote = "Departments and agencies can convert this VSL to their chosen price year using the Statistics Canada consumer price index."
+licence = "not stated (Government of Canada publication)"
+source = "tbs_2025_cba_guide"
+
+[price_index]
+currency = "CAD"
+series = "Consumer Price Index, all-items, Canada, annual average, not seasonally adjusted"
+series_id = "v41693271"
+series_note = "Statistics Canada table 18-10-0005-01 (formerly CANSIM 326-0021), 2002 = 100; calendar years, as published"
+unit = "index, 2002 = 100"
+publisher = "Statistics Canada"
+document = "Table 18-10-0005-01 Consumer Price Index, annual average, not seasonally adjusted (CSV download, file dated 2026-01-19)"
+url = "https://www150.statcan.gc.ca/n1/tbl/csv/18100005-eng.zip"
+quote_url = "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000501"
+date_read = "2026-11-21"
+quote = "Consumer Price Index, annual average, not seasonally adjusted"
+licence = "Statistics Canada Open Licence"
+licence_note = "the publisher's terms, not stated in the stored file"
+source = "statcan_2026_cpi_annual_18100005"
+guidance_document = "Treasury Board of Canada Secretariat (last modified January 2025). Canada's Cost-Benefit Analysis Guide for Regulatory Proposals, section 4.8"
+guidance_url = "https://wiki.gccollab.ca/images/8/8e/CBA_Guide-EN.doc"
+guidance_quote = "Departments and agencies can convert this VSL to their chosen price year using the Statistics Canada consumer price index."
+guidance_source = "tbs_2025_cba_guide"
+
+[price_index.calendar_year]
+"1990" = 78.4
+"1991" = 82.8
+"1992" = 84.0
+"1993" = 85.6
+"1994" = 85.7
+"1995" = 87.6
+"1996" = 88.9
+"1997" = 90.4
+"1998" = 91.3
+"1999" = 92.9
+"2000" = 95.4
+"2001" = 97.8
+"2002" = 100.0
+"2003" = 102.8
+"2004" = 104.7
+"2005" = 107.0
+"2006" = 109.1
+"2007" = 111.5
+"2008" = 114.1
+"2009" = 114.4
+"2010" = 116.5
+"2011" = 119.9
+"2012" = 121.7
+"2013" = 122.8
+"2014" = 125.2
+"2015" = 126.6
+"2016" = 128.4
+"2017" = 130.4
+"2018" = 133.4
+"2019" = 136.0
+"2020" = 137.0
+"2021" = 141.6
+"2022" = 151.2
+"2023" = 157.1
+"2024" = 160.9
+"2025" = 164.2

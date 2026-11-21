@@ -1,0 +1,12 @@
+{
+ "key": "simpson_2014_do",
+ "citation": "Simpson RD (2014/2015). Do regulators overestimate the costs of regulation? Journal of Benefit-Cost Analysis 5(2).",
+ "doi": "10.1515/jbca-2014-0027",
+ "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D1D0AD4EAC4B1FEE1BFEB71641496D32/S2194588800000798a.pdf/div-class-title-do-regulators-overestimate-the-costs-of-regulation-div.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f8e212c4e4caa7ad3296034b5ad64c90158cf9c93990cc120109dead9130d083",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:54:27Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D1D0AD4EAC4B1FEE1BFEB71641496D32/S2194588800000798a.pdf/div-class-title-do-regulators-overestimate-the-costs-of-regulation-div.pdf"
+}

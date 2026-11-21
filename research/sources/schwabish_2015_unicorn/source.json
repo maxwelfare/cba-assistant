@@ -1,0 +1,11 @@
+{
+ "key": "schwabish_2015_unicorn",
+ "citation": "Schwabish J (author as the PolicyViz repost is understood; the page text names none) (15 April 2015). Communicating research: build a unicorn, don't look for one. Urban Wire, Urban Institute; repost on PolicyViz.",
+ "doi": null,
+ "url": "https://policyviz.com/2015/04/16/communicating-research-build-a-unicorn-dont-look-for-one/",
+ "media_type": "text/html",
+ "sha256": "1ca66294512b8758bd3e0b149ffb5c83728818fa2838f89d1720ca69a1a77523",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-10T12:51:36.092797Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

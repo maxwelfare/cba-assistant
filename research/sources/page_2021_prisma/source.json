@@ -1,0 +1,11 @@
+{
+ "key": "page_2021_prisma",
+ "citation": "Page MJ, McKenzie JE, Bossuyt PM, et al. (2021). The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 372:n71.",
+ "doi": "10.1136/bmj.n71",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8005924/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "c5e3b4a1892f0cb97ea0360d5e5b4b51ab4ea8b4e8ddabe7b441b5d464f18758",
+ "licence": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+ "fetched": "2026-11-07T20:08:00Z",
+ "text_method": ".venv/bin/python -I <script> original.xml text.txt (ElementTree itertext-style walk, tags removed)"
+}

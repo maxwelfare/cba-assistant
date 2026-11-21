@@ -1,0 +1,11 @@
+{
+ "key": "hamilton_2016_bauer_head_start",
+ "citation": "Bauer L, Schanzenbach DW (August 2016). The Long-Term Impact of the Head Start Program. Economic Analysis, The Hamilton Project, Brookings (8 pp.).",
+ "doi": null,
+ "url": "https://www.hamiltonproject.org/assets/files/long_term_impact_of_head_start_program.pdf",
+ "media_type": "application/pdf",
+ "sha256": "b2e90e80e47bb5dc3cc025708a5728a2dafe7d3d6c7723eeda42b5740df17d74",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-10T12:51:36.070846Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "robinson_2008_conceptual",
+ "citation": "Robinson S (2008). Conceptual modelling for simulation Part I: definition and requirements. Journal of the Operational Research Society 59:278-290.",
+ "doi": "10.1057/palgrave.jors.2602368",
+ "url": "https://dspace.lboro.ac.uk/2134/10206",
+ "media_type": "application/pdf",
+ "sha256": "ffc1d38df6617c88c85d12712e92d656f091f9ddd8f00fd2b982de6d7088c0e7",
+ "licence": "CC BY-NC-ND 4.0 (figshare record 9504302, Loughborough repository)",
+ "fetched": "2026-11-16T03:39:08Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/dl/robinson.pdf (fetched is the file's modification time)"
+}

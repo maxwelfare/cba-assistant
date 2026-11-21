@@ -1,0 +1,40 @@
+name: Alpha feedback
+description: Tell the author what happened when you used the tool.
+title: "Alpha feedback: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Leave out anything confidential: describe a client, an employer or unpublished work in general terms, and paste nothing from a private document.
+  - type: textarea
+    id: question
+    attributes:
+      label: 1. What did you ask the tool to analyze?
+      description: In general terms, for example "a city program that pays for home repairs".
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: 2. Which level did you choose?
+      options:
+        - Sketch
+        - Fast estimate
+        - Normal
+        - Full
+        - I did not get as far as choosing
+    validations:
+      required: true
+  - type: textarea
+    id: unexpected
+    attributes:
+      label: 3. What happened that you did not expect?
+      description: Say where it went wrong, by quoting the message or naming the file.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 4. What would you change first?
+    validations:
+      required: false

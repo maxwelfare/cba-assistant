@@ -1,0 +1,11 @@
+{
+ "key": "hira_2021_pharmacoeconomic",
+ "citation": "건강보험심사평가원 (HIRA) (2021-01-20). 의약품 경제성 평가 지침 (Guidelines for economic evaluation of pharmaceuticals), 발간등록번호 G000DB6-2021-25; annex 2 of 약제의 요양급여대상여부 등의 평가기준 및 절차 등에 관한 규정 (개정 2021. 1. 20. 규정 제421호).",
+ "doi": null,
+ "url": "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8661&apndBrdTyNo=2&apndBltNo=157 (notice https://www.hira.or.kr/bbsDummy.do?brdBltNo=8661&brdScnBltNo=4&pgmid=HIRAA020002000100)",
+ "media_type": "application/hwp",
+ "sha256": "d0942c8d767ce019937425838fb9942e5c30386a1818fd714ce349a6a2097db6",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:20:00Z",
+ "text_method": "shared tools/hwp2txt.py (shared/tools/hwp2txt.py, standard-library HWP 5.0 reader keeping line breaks and special spaces), run from the shared venv with python -I original.hwp text.txt"
+}

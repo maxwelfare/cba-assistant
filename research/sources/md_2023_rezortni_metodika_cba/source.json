@@ -1,0 +1,11 @@
+{
+ "key": "md_2023_rezortni_metodika_cba",
+ "citation": "Ministerstvo dopravy ČR (10/2017, aktualizace 06/2023, schváleno 8.8.2023). Rezortní metodika pro hodnocení ekonomické efektivnosti projektů dopravních staveb, textová část.",
+ "doi": null,
+ "url": "https://opd3.opd.cz/Providers/Document.ashx?ucode=a6634df9-f251-4ded-a3b5-982de6921476&version=last (zip 2024-rm-souhrn.zip, member \"RM souhrn 08-2023/2023_rezortni-metodika-textova_cast.pdf\"; Operační program Doprava page https://opd3.opd.cz/slozka/metodika-cba republishes it; the issuer SFDI site sfdi.gov.cz answered 403)",
+ "media_type": "application/pdf",
+ "sha256": "f4dd9b43ac04fa891b3a3e8cb76ce726c41db267a9ed25593320cb4c81a1652f",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:18Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

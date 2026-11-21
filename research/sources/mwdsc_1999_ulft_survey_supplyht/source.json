@@ -1,0 +1,12 @@
+{
+ "key": "mwdsc_1999_ulft_survey_supplyht",
+ "citation": "Supply House Times (1 April 2000). Consumers satisfied with low-flow toilets [report of the Metropolitan Water District of Southern California's December 1999 survey of 1,300 rebate customers].",
+ "doi": null,
+ "url": "https://www.supplyht.com/articles/86316-consumers-satisfied-with-low-flow-toilets",
+ "media_type": "text/html",
+ "sha256": "5b3278c7455b652b21fbee48e553eed94124f97c83b8746d0ce53931757b8aca",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:26Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.supplyht.com/articles/86316-consumers-satisfied-with-low-flow-toilets"
+}

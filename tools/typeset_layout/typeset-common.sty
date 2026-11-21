@@ -1,0 +1,371 @@
+% The layout every case document shares: fonts, characters, how the Markdown is read and how its
+% headings, lists, tables, boxes, figures and code spans are set. summary.tex and document.tex load it
+% after their own \documentclass and page geometry. Built by tools/typeset.py with lualatex; reviewed by
+% the pdf-layout agent against notes/pdf_layout_review.md.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{typeset-common}
+
+% ---- Fonts. The text is in Type 1 fonts in T1: TeX Gyre Pagella text (Heros in the summary), Latin
+% Modern Typewriter code (narrower than Cursor, so a code span fits a table cell). pxfonts gives the
+% math a Palatino face of its own; tgpagella is loaded after it so the text stays Pagella. The title,
+% the headings and the boxes' titles are in Lato, and icons are glyphs of the Tabler icon font, both
+% OpenType fonts stored in assets/ (assets/README.md) and loaded with fontspec, which sets them in
+% the TU encoding; T1 is loaded after fontspec, so it stays the encoding of everything else.
+% no-math leaves the math to pxfonts.
+\RequirePackage[no-math]{fontspec}
+\edef\typeset@assets{\directlua{tex.sprint(-2, (kpse.find_file("typeset-common.sty"):match("^(.*/)")))}assets/}
+\newfontfamily\typesetlato{Lato}[Path=\typeset@assets lato/, Extension=.ttf, UprightFont=*-Regular,
+  BoldFont=*-Bold, ItalicFont=*-Italic, BoldItalicFont=*-BoldItalic]
+\newfontface\typesetlatoblack{Lato-Black.ttf}[Path=\typeset@assets lato/]
+\newfontface\typesettabler{tabler-icons.ttf}[Path=\typeset@assets tabler-icons/]
+\RequirePackage[T1]{fontenc}
+\RequirePackage{amsmath}
+\RequirePackage{pxfonts}
+\RequirePackage{tgpagella}
+\RequirePackage[scale=0.92]{tgheros}
+\renewcommand{\ttdefault}{lmtt}
+\linespread{1.05}
+% Protrusion is off: it would set characters past the right margin (checklist 3.3).
+\RequirePackage[protrusion=false,expansion=true]{microtype}
+
+% ---- Characters. A T1 font under lualatex takes a character's Unicode number as its slot, so a
+% character it lacks either drops with a "Missing character" log line or, in the range U+0080 to
+% U+00FF, prints as the wrong glyph with no word in the log (U+00D7 x prints as OE). Every
+% character of that range is therefore made an error first; then LaTeX's own tables of what the T1
+% and TS1 encodings hold map each character they cover to its command; the rest of the range stays
+% an error. Characters above U+00FF that no table maps drop with "Missing character", which
+% tools/typeset.py refuses.
+\def\typeset@nochar#1{\PackageError{typeset-common}{No glyph for character number #1 in the
+  document's fonts; map it in tools/typeset_layout/typeset-common.sty}{}}
+\def\typeset@active#1#2{% #1 a TeX number for the code point, #2 what the character prints
+  \catcode#1=13
+  \begingroup\lccode`\~=#1\relax\lowercase{\endgroup\def~}{#2}}
+\ExplSyntaxOn
+\int_step_inline:nnn { 128 } { 255 } { \typeset@active { #1 } { \typeset@nochar { #1 } } }
+\ExplSyntaxOff
+\let\typeset@declare\DeclareUnicodeCharacter
+\def\DeclareUnicodeCharacter#1#2{\typeset@active{"#1}{#2}}
+\input{t1enc.dfu}
+\input{ts1enc.dfu}
+\let\DeclareUnicodeCharacter\typeset@declare
+% Characters outside T1 and TS1 that case documents use, set in the math font. Add a line here
+% when a build stops on "Missing character".
+\RequirePackage{newunicodechar}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{∗}{\ensuremath{*}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{√}{\ensuremath{\surd}}
+\newunicodechar{∞}{\ensuremath{\infty}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{β}{\ensuremath{\beta}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{η}{\ensuremath{\eta}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{δ}{\ensuremath{\delta}}
+\newunicodechar{ε}{\ensuremath{\varepsilon}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{κ}{\ensuremath{\kappa}}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
+\newunicodechar{φ}{\ensuremath{\varphi}}
+\newunicodechar{ω}{\ensuremath{\omega}}
+\newunicodechar{ℓ}{\ensuremath{\ell}}
+\newunicodechar{∈}{\ensuremath{\in}}
+\newunicodechar{…}{\ldots}
+\newunicodechar{₀}{\ensuremath{_0}}
+\newunicodechar{₁}{\ensuremath{_1}}
+\newunicodechar{₃}{\ensuremath{_3}}
+\newunicodechar{₂}{\ensuremath{_2}}
+\newunicodechar{₇}{\ensuremath{_7}}
+\newunicodechar{₈}{\ensuremath{_8}}
+\newunicodechar{⁶}{\ensuremath{^6}}
+
+% ---- Icons. An icon is a glyph of the Tabler icon font, named as in its index, icons.json, from which
+% tools/typeset.py writes typeset-icons.tex: a line \typeset@deficon{NAME}{CODE} for every icon, CODE the
+% hexadecimal code point of its outline glyph. \typesettablericon{NAME} prints it in the current size and
+% colour; a name the index lacks stops the build (tools/icon_search.py finds names).
+\def\typeset@deficon#1#2{\expandafter\def\csname typeset@icon@#1\endcsname{"#2}}
+\input{typeset-icons.tex}
+\newcommand{\typesettablericon}[1]{\ifcsname typeset@icon@#1\endcsname
+  {\typesettabler\char\csname typeset@icon@#1\endcsname\relax}%
+  \else\PackageError{typeset-common}{No Tabler icon `#1'; tools/icon_search.py finds icons' names}{}\fi}
+
+% ---- The Markdown. Options as measured in brief 3.2; hybrid=false escapes TeX's special
+% characters, so only $$...$$ display math and $...$ math reach TeX as TeX. underscores=false:
+% the documents write subscripts as x_i and N_t, which the package (2.23, with no CommonMark
+% rule for underscores inside words) would read as emphasis; emphasis is written with *.
+% tightLists=false: every list is a plain LaTeX list, spaced by the \setlist below, rather than
+% paralist's, which takes LaTeX's default list spacing.
+% fencedDivs: a block between `::: key-findings` and `:::` is a box (below, Boxes). headerAttributes:
+% a heading may end in Pandoc's attributes, `{icon=heart}` (below, Headings).
+\RequirePackage[hybrid=false,underscores=false,tightLists=false,pipeTables,smartEllipses,fencedCode,html=false,
+  texMathDollars,fencedDivs,bracketedSpans,headerAttributes]{markdown}
+\RequirePackage{booktabs}
+\RequirePackage{tabulary}
+\RequirePackage{enumitem}
+% A list is never parted from the line that introduces it: LaTeX's own penalty before a list, -51,
+% invites a break there, which can leave a list's lead-in alone at a column's foot.
+\setlist{itemsep=0.25\baselineskip,topsep=0pt,partopsep=0pt,parsep=0pt,leftmargin=*,beginpenalty=10000}
+
+% Paragraphs: no indent, a half-line between them; ragged lines are let to stretch rather than
+% run into the margin, by up to a fifth of the line, in the last pass TeX makes only for a paragraph
+% that fails otherwise (3 em, set for a 4.6 in line, left a reference 17.5 pt in the margin of a 6 in one).
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip plus 2pt}
+\AtBeginDocument{\setlength{\emergencystretch}{0.2\linewidth}}
+% A line never ends at a hyphen the text itself holds ("well-known", "110-125"): a range or
+% compound stays whole, and text copied from the PDF keeps its hyphen, which extractors such as
+% pdftotext drop at a line end, taking it for one TeX added.
+\exhyphenpenalty=10000
+% Units of money are never split ("bil-lion"), which a narrow table column or the summary's columns invite.
+\hyphenation{million billion trillion}
+\clubpenalty=10000 \widowpenalty=10000
+
+% Headings. The documents number their own ("## 1 Introduction"), so LaTeX adds none. The first
+% "#" heading is the title; each layout file sets \typesettitle for its own page.
+% A figure never floats past the next section's heading (placeins), so it stays in its section and out
+% of the references; lower headings set no barrier, since one there flushed a figure that did not fit and
+% left the rest of its page empty (checklist 1.4).
+% Headings, and the title, are set in Lato. A heading ending in `{icon=NAME}` has that Tabler icon before its
+% text, in its colour and size (\typesetheadicon). The markdown package opens a heading's attribute context before
+% the heading and closes it only where the section ends, so the icon's name is kept in \typeset@headicon until the
+% heading is set, and then cleared; inside that context a class or identifier opens no box (typeset-boxes.sty) and
+% any other key is ignored.
+\RequirePackage{placeins}
+\def\typeset@headicon{}
+\newcommand{\typesetheadicon}{\ifx\typeset@headicon\@empty\else\typesettablericon{\typeset@headicon}\hspace{0.4em}\fi}
+\newcommand{\typeset@headingdone}{\def\typeset@headicon{}\gdef\typeset@headid{}\typeset@headerfalse}
+% A heading's identifier, which typeset-links.sty keeps, is a link target at the start of its line.
+\newcommand{\typeset@headtarget}{\ifx\typeset@headid\@empty\else\hypertarget{\typeset@headid}{}\fi}
+% A heading needs six lines of room on a one-column page, so that it is never left at a page's foot with a table's
+% header and first row, which longtable would send to the next page alone.
+\RequirePackage{needspace}
+\newcommand{\typesetheading}[2]{% #1 font, #2 text
+  \par\if@twocolumn\else\Needspace{6\baselineskip}\fi\addvspace{1.1\baselineskip}%
+  {\raggedright\typesetlato\bfseries#1\leavevmode\typeset@headtarget\typesetheadicon#2\par}\nobreak\vspace{0.3\baselineskip}\@afterheading}
+% The title is also the PDF's Title (typeset-links.sty). Each "##" and "###" heading is an entry of the contents
+% file and a bookmark, both aimed at an anchor on the heading's line (hyperref's \addcontentsline); a layout that
+% sets a contents list (document.tex) does so at \typesetbeforesection, which the first "##" heading calls.
+\newcommand{\typesetbeforesection}{}
+% The entry is written to the contents file as the heading's tokens stand (\typeset@unexpanded), since expanded a
+% character such as a closing quote became a command that took the space after it, and a code span's commands broke
+% the write; twice, for \protected@write's \edef and then the \write itself. The bookmark's text is made from the
+% tokens expanded (typeset-links.sty).
+\newcommand{\typeset@unexpanded}[1]{\unexpanded{\unexpanded{#1}}}
+\newcommand{\typeset@entry}[2]{% #1 level, #2 text
+  \leavevmode\phantomsection\addcontentsline{toc}{#1}{\typeset@unexpanded{#2}}#2}
+\markdownSetup{rendererPrototypes={
+  headerAttributeContextBegin = {\typeset@headertrue},
+  attributeKeyValue = {\iftypeset@header\ifstrequal{#1}{icon}{\def\typeset@headicon{#2}}{}\fi},
+  headingOne = {\typesettitle{#1}\typesetpdftitle{#1}\typeset@headingdone},
+  headingTwo = {\par\FloatBarrier\typesetbeforesection
+    \typesetheading{\large}{\typeset@entry{section}{#1}}\typeset@headingdone},
+  headingThree = {\typesetheading{\normalsize}{\typeset@entry{subsection}{#1}}\typeset@headingdone},
+  headingFour = {\typesetheading{\normalsize\mdseries\itshape}{#1}\typeset@headingdone},
+  headingFive = {\typesetheading{\normalsize\mdseries\itshape}{#1}\typeset@headingdone},
+  headingSix = {\typesetheading{\normalsize\mdseries\itshape}{#1}\typeset@headingdone},
+  % A Markdown hard line break (two trailing spaces or a backslash) is a line break, which verse needs.
+  lineBreak = {\newline},
+}}
+
+% Code spans (file names, input keys, commands) are never hyphenated, which would add a character,
+% and break instead after "/", "." and "_", and, at a higher cost, after a hyphen the span holds
+% ("automated-cost-benefit-analysis"), so they never run into the margin.
+\ExplSyntaxOn
+\tl_new:N \l__typeset_code_tl
+\markdownSetup{rendererPrototypes={
+  codeSpan = {
+    \tl_set:Nn \l__typeset_code_tl { #1 }
+    \tl_replace_all:Nnn \l__typeset_code_tl { / } { /\penalty50\relax }
+    \tl_replace_all:Nnn \l__typeset_code_tl { . } { .\penalty50\relax }
+    \tl_replace_all:Nnn \l__typeset_code_tl { - } { -\penalty300\relax }
+    {\ttfamily \hyphenchar\font=-1
+     \def\markdownRendererUnderscorePrototype{\char`_\penalty50\relax}
+     \tl_use:N \l__typeset_code_tl}
+  },
+}}
+\ExplSyntaxOff
+
+% Images. A document's `![Figure N. Its caption.](figures/x.png)` is set at the size it was drawn (the
+% PNG's own resolution), shrunk only to fit the line and 0.85 of a page's height, so that its labels keep the
+% size the figure gave them and a small chart is not blown up to fill the line (checklist 1.5); its alt text
+% is the caption, in small type beneath. It floats to the top or bottom of a page, or stands where it is.
+% typeset.py makes its path absolute, from the document's folder.
+\RequirePackage{graphicx}
+\RequirePackage[export]{adjustbox}
+% The height's share of the page, which a layout may lower (verse.tex).
+\newcommand{\typesetimagefraction}{0.85}
+\markdownSetup{rendererPrototypes={
+  image = {\begin{figure}[htbp]\centering
+    \includegraphics[max width=\linewidth,max height=\typesetimagefraction\textheight]{#3}\par
+    \vspace{0.3\baselineskip}{\small\raggedright #1\par}\end{figure}},
+}}
+% Floats may fill more of a page than LaTeX's defaults allow, which gave a figure half a page high a page
+% of its own and left half of the page before it empty (checklist 1.4).
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.6}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.8}
+
+% Boxes from fenced divs, shared with the CJK layout. A box's title, its first bold words, is set in Lato bold
+% after the box's icon, drawn in the colour of the box's rule (typeset-boxes.sty).
+\newcommand{\typesetboxtitle}[3]{% #1 icon, #2 its colour, #3 the title
+  {\color{#2}\typesettablericon{#1}}\hspace{0.35em}{\typesetlato\bfseries#3}}
+\RequirePackage{typeset-boxes}
+
+% Tables. A pipe table is set the width of the text, its columns sized by their content as
+% tabulary sizes them and wrapping inside the cell, in \footnotesize (9 pt on the 11 pt documents;
+% the checklist's floor is 8 pt), with booktabs rules. On a one-column page a table is first set as a
+% tabular in a box and measured: one less than \typeset@whole high is kept whole, and never parted from
+% the paragraph before it, its caption; a taller one is set again as a longtable, which breaks across
+% pages with its header repeated, its first two body rows and its last two each staying together (a
+% no-break after the first and the last but one), so no row is left alone at a page's foot or head. A column is
+% never squeezed below \tymin, so a short word or number is not split; in
+% a cell a line may end at a text hyphen, since a narrow column has few other places to break.
+\RequirePackage{longtable}
+\RequirePackage{etoolbox}
+% longtable's start allows a page break before the table (\penalty\z@, which also makes the page builder
+% update \pagetotal); \nobreak does the second and not the first, so a caption is not left at a page's foot.
+% One exception stays: where the header and the first two rows do not fit below the caption, longtable's
+% start forces a new page (\vfil\break) and the caption is left at the foot of the page before.
+\patchcmd{\LT@start}{\endgraf\penalty\z@\vskip\LTpre}{\endgraf\nobreak\vskip\LTpre}{}{\PackageError{typeset-common}{longtable's start has changed}{}}
+\setlength{\tymin}{5.6em}
+\def\typeset@endhead{}
+\newif\iftypeset@boxed
+\newbox\typeset@tablebox
+\newtoks\typeset@tabletoks
+\newtoks\typeset@boxend
+\typeset@boxend={\markdownLaTeXBottomRule\end{typesettable}}
+\newdimen\typeset@whole
+\AtBeginDocument{\typeset@whole=0.25\textheight}
+% A table of five or more columns is set wider than the text, by \typeset@bleed on each side, into the margins (a one-column
+% page only): ten columns of figures in a 6 in measure wrapped every cell over three and four lines. \typeset@tw is the
+% table's width, \typeset@over what it overhangs the text on each side. A table whose first column holds labels no longer
+% than 0.36 of the line has that column, F, set on one line (l); a longer one wraps (L).
+\newdimen\typeset@bleed \typeset@bleed=0.7in
+\newdimen\typeset@over
+\newdimen\typeset@tw
+\newdimen\typeset@firstw
+\newbox\typeset@measurebox
+\newcount\typeset@columns
+\newcommand{\typeset@labelmax}{0.36\linewidth}
+\newcommand{\typeset@widecolumns}{5}
+\newcommand{\typeset@labelwide}{0.25\linewidth}
+\newcolumntype{F}{L}
+\newcommand{\typeset@measurefirst}[1]{\setbox\typeset@measurebox\hbox{#1}%
+  \ifdim\wd\typeset@measurebox>\typeset@firstw\typeset@firstw=\wd\typeset@measurebox\fi}
+\def\typesettable{\if@twocolumn\let\TY@final\tabular\let\endTY@final\endtabular
+  \else\iftypeset@boxed\let\TY@final\tabular\let\endTY@final\endtabular\else
+    \def\TY@final{\let\typeset@endhead\endhead\longtable}\let\endTY@final\endlongtable
+    \setlength{\LTleft}{-\typeset@over}\setlength{\LTright}{-\typeset@over}%
+    \setlength{\LTpre}{0pt}\setlength{\LTpost}{0pt}\fi\fi
+  \TY@tabular}
+% The table's tokens, set as markdown.sty would set them (two columns), or measured in a box and then
+% kept whole or set as a longtable (one column).
+\def\typeset@output{\if@twocolumn\expandafter\typeset@asis\else\expandafter\typeset@measure\fi}
+\def\typeset@asis{\typeset@tabletoks=\expandafter{\the\expandafter\markdownLaTeXTable\the\markdownLaTeXTableEnd}%
+  \the\typeset@tabletoks}
+\def\typeset@wide{%
+  \typeset@over=\typeset@bleed
+  \ifnum\typeset@columns>7\relax\setlength{\tymin}{4em}\setlength{\tabcolsep}{4pt}\scriptsize\fi}
+\def\typeset@measure{%
+  \typeset@over=0pt
+  \iftypeset@inbox\else% not in a box, whose text is narrower than the page's
+  \ifnum\typeset@columns<\typeset@widecolumns\relax
+    \ifnum\typeset@columns>2\relax\ifdim\typeset@firstw>\typeset@labelwide\relax
+      \ifdim\typeset@firstw>\typeset@labelmax\else\typeset@wide\fi\fi\fi
+  \else\typeset@wide\fi\fi
+  \typeset@tw=\dimexpr\hsize+2\typeset@over\relax
+  \typeset@tabletoks=\expandafter{\the\expandafter\markdownLaTeXTable\the\typeset@boxend}%
+  \ifdim\typeset@firstw>\typeset@labelmax\newcolumntype{F}{L}\else\newcolumntype{F}{l}\fi
+  \setbox\typeset@tablebox\vbox{\hsize=\typeset@tw\typeset@boxedtrue\noindent\the\typeset@tabletoks\par}%
+  \ifdim\dimexpr\ht\typeset@tablebox+\dp\typeset@tablebox\relax<\typeset@whole
+    \expandafter\typeset@keepwhole\else\expandafter\typeset@asis\fi}
+\def\typeset@keepwhole{\par\nopagebreak\hbox to\hsize{\hss\box\typeset@tablebox\hss}\par\endgroup\addvspace{0.5\baselineskip}}
+\let\endtypesettable\endtabulary
+\AtBeginDocument{\def\markdownLaTeXMidRule{\midrule\typeset@endhead}}
+\markdownSetup{rendererPrototypes={
+  table = {%
+    \par\nopagebreak\addvspace{0.5\baselineskip}%
+    \markdownLaTeXTable={}%
+    \markdownLaTeXTableAlignment={}%
+    \markdownLaTeXTableEnd={\markdownLaTeXBottomRule\end{typesettable}\par\endgroup
+      \addvspace{0.5\baselineskip}}%
+    \begingroup\noindent\footnotesize\renewcommand{\arraystretch}{1.15}\exhyphenpenalty=50
+    \setlength{\tymax}{2.0\linewidth}% tabulary's own default: a column of long text takes the width its length asks for,
+    % not at most half the line, which left a formula column as narrow as a column of numbers
+    \typeset@firstw=0pt \typeset@columns=#3\relax \typeset@over=0pt \typeset@tw=\hsize
+    \addto@hook\markdownLaTeXTable{\begin{typesettable}{\typeset@tw}}%
+    \markdownLaTeXRowCounter=0%
+    \markdownLaTeXRowTotal=#2%
+    \markdownLaTeXColumnTotal=#3%
+    \markdownLaTeXRenderTableRow
+  }
+}}
+% A row ends with \\, or, where no page may break after it, with \\\noalign{\nobreak}: the first body
+% row (row 2, the header being row 1) and the last but one (markdown.sty's cell renderer, that one
+% change). Not \\*, whose star did not reach longtable (likely because a tabulary cell ends its row
+% with array's \@arraycr, which drops it), so a table could still be parted after its first row.
+\newif\iftypeset@tie
+\def\markdownLaTeXRenderTableCell#1{%
+  \advance\markdownLaTeXColumnCounter by 1\relax
+  \ifnum\markdownLaTeXColumnCounter=1\relax\typeset@measurefirst{#1}\fi
+  \ifnum\markdownLaTeXColumnCounter<\markdownLaTeXColumnTotal\relax
+    \addto@hook\markdownLaTeXTable{#1&}%
+  \else
+    \typeset@tiefalse
+    % A table of one to three body rows that is taller than the keep-whole limit has tall rows: tying its first two
+    % and last two rows tied the whole table, which then moved to a new page whole and left the one before it
+    % empty.
+    \ifnum\markdownLaTeXRowTotal>4\relax
+      \ifnum\markdownLaTeXRowCounter=2\relax\typeset@tietrue\fi
+      \ifnum\markdownLaTeXRowCounter=\numexpr\markdownLaTeXRowTotal-1\relax\typeset@tietrue\fi
+    \fi
+    \iftypeset@tie\addto@hook\markdownLaTeXTable{#1\\\noalign{\nobreak}}%
+    \else\addto@hook\markdownLaTeXTable{#1\\}\fi
+    \expandafter\@gobble
+  \fi\markdownLaTeXRenderTableCell}
+% tabulary reads its body up to a literal \end{tabulary}, so the last row puts the table's end
+% tokens in the input before the body is read (markdown.sty's own row renderer, that one change).
+\def\markdownLaTeXRenderTableRow#1{%
+  \markdownLaTeXColumnCounter=0%
+  \ifnum\markdownLaTeXRowCounter=0\relax
+    \markdownLaTeXReadAlignments#1%
+    \markdownLaTeXTable=\expandafter\expandafter\expandafter{%
+      \expandafter\the\expandafter\markdownLaTeXTable\expandafter{%
+        \the\markdownLaTeXTableAlignment}}%
+    \addto@hook\markdownLaTeXTable{\markdownLaTeXTopRule}%
+  \else
+    \markdownLaTeXRenderTableCell#1%
+  \fi
+  \ifnum\markdownLaTeXRowCounter=1\relax
+    \addto@hook\markdownLaTeXTable\markdownLaTeXMidRule
+  \fi
+  \advance\markdownLaTeXRowCounter by 1\relax
+  \ifnum\markdownLaTeXRowCounter>\markdownLaTeXRowTotal\relax
+    \expandafter\typeset@output
+    \expandafter\@gobble
+  \fi\markdownLaTeXRenderTableRow}
+\def\markdownLaTeXReadAlignments#1{%
+  \advance\markdownLaTeXColumnCounter by 1\relax
+  \if#1r\addto@hook\markdownLaTeXTableAlignment{R}%
+  \else\if#1c\addto@hook\markdownLaTeXTableAlignment{C}%
+  \else\ifnum\markdownLaTeXColumnCounter=1\relax\addto@hook\markdownLaTeXTableAlignment{F}%
+  \else\addto@hook\markdownLaTeXTableAlignment{L}\fi\fi\fi
+  \ifnum\markdownLaTeXColumnCounter<\markdownLaTeXColumnTotal\relax\else
+    \expandafter\@gobble
+  \fi\markdownLaTeXReadAlignments}
+
+% Display math is set at its natural width; one wider than the text block shows as an overfull
+% box in the build report, for the author.
+% Links: hyperref and the link renderers, loaded last (typeset-links.sty).
+\RequirePackage{typeset-links}
+\endinput

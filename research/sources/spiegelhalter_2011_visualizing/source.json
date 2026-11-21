@@ -1,0 +1,12 @@
+{
+ "key": "spiegelhalter_2011_visualizing",
+ "citation": "Spiegelhalter D, Pearson M, Short I (2011). Visualizing uncertainty about the future. Science 333(6048):1393-1400.",
+ "doi": "10.1126/science.1191181",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21903802%20AND%20SRC:MED&resultType=core&format=json",
+ "media_type": "text/plain",
+ "sha256": "a7b3e66a8fa8bee07dee775432d3bb7f1d1432f0a336e09ec4f55bf304ccbd55",
+ "licence": "not stated",
+ "fetched": "2026-11-12T16:11:59Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21903802%20AND%20SRC:MED&resultType=core&format=json"
+}

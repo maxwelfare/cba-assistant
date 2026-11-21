@@ -1,0 +1,12 @@
+{
+ "key": "osr_2022_presenting_uncertainty",
+ "citation": "Office for Statistics Regulation (UK) (2022). Approaches to presenting uncertainty in the statistical system (systemic review; web page, accessed 2026-11-12).",
+ "doi": null,
+ "url": "https://osr.statisticsauthority.gov.uk/publication/approaches-to-presenting-uncertainty-in-the-statistical-system/",
+ "media_type": "text/html",
+ "sha256": "0b8986d09bfe50a7f76e708f76cdcdd13dad7ace98c6a8516ab9eae12bc3c81a",
+ "licence": "not stated",
+ "fetched": "2026-11-12T15:52:25Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://osr.statisticsauthority.gov.uk/publication/approaches-to-presenting-uncertainty-in-the-statistical-system/"
+}

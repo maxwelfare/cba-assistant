@@ -1,0 +1,11 @@
+{
+ "key": "soumu_2024_ria_ja",
+ "citation": "総務省 (2007, partially amended 2017-07-28 and 2024-03-15). 規制の政策評価の実施に関するガイドライン. 政策評価各府省連絡会議了承.",
+ "doi": "none",
+ "url": "https://www.soumu.go.jp/main_content/000499513.pdf",
+ "media_type": "application/pdf",
+ "sha256": "b61f00e380d95942fbfc7a602ef6c088aa56abc9953aa92a9c699c73afc47c65",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:06Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "mckeever_2009_named_ranges",
+ "citation": "McKeever R, McDaid K, Bishop B (2009). An Exploratory Analysis of the Impact of Named Ranges on the Debugging Performance of Novice Users. Proceedings of EuSpRIG 2009. arXiv:0908.0935.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/0908.0935",
+ "media_type": "application/pdf",
+ "sha256": "23a8852073c4a88d1c637977b14699986a47caaa3144047f69f73e4097066cf5",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:44:29Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/0908.0935"
+}

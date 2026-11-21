@@ -1,0 +1,11 @@
+{
+ "key": "dawes_1979_robust",
+ "citation": "Dawes RM (1979). The robust beauty of improper linear models in decision making. American Psychologist 34(7):571-582.",
+ "doi": "10.1037/0003-066X.34.7.571",
+ "url": "https://www.cmu.edu/dietrich/sds/docs/dawes/the-robust-beauty-of-improper-linear-models-in-decision-making.pdf",
+ "media_type": "application/pdf",
+ "sha256": "ecd653d56422cf187ac4c83f3f4ece98d6e23d025499f70c49f7dea9d592eb6d",
+ "licence": "not stated (the published pages, copyright American Psychological Association, as hosted on Carnegie Mellon's Dawes page)",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "pdftotext original.pdf text.txt (two-column page: a few lines at the column join are interleaved)"
+}

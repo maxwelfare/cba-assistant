@@ -1,0 +1,12 @@
+{
+ "key": "strata_2024_pv_analizes_metodai",
+ "citation": "Strateginės analizės centras (STRATA) (2024). Poveikio vertinimas: Papildomi informacijos šaltiniai apie duomenų rinkimą, kokybinės ir kiekybinės analizės metodus. Official file strata.gov.lt/wp-content/uploads/2024/04/analizes-metodai.pdf.",
+ "doi": null,
+ "url": "http://web.archive.org/web/20240917id_/https://strata.gov.lt/wp-content/uploads/2024/04/analizes-metodai.pdf",
+ "media_type": "application/pdf",
+ "sha256": "2e442ef73dc5afbea9f91a576b3abaacfda9d8d92c2a9ab48fbbbaee640359a9",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:54:28Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "note": "Lithuanian text, diacritics checked readable. Copy taken from the Internet Archive (Wayback id_ raw capture) because the official host is behind Cloudflare."
+}

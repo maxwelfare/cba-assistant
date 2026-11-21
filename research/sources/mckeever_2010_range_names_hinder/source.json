@@ -1,0 +1,12 @@
+{
+ "key": "mckeever_2010_range_names_hinder",
+ "citation": "McKeever R, McDaid K (2010). How do Range Names Hinder Novice Spreadsheet Debugging Performance? EuSpRIG proceedings. arXiv:1009.2765.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/1009.2765",
+ "media_type": "application/pdf",
+ "sha256": "ea777ef076565d9c8f269cfcc06dd0115be386ca69b22f099cf6e02c01e70902",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:44:36Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/1009.2765"
+}

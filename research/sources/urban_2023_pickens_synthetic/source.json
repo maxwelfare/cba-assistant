@@ -1,0 +1,11 @@
+{
+ "key": "urban_2023_pickens_synthetic",
+ "citation": "Pickens M, Andre J, Morrison G (January 2023). Understanding Synthetic Data. Urban Institute (2 pp.).",
+ "doi": null,
+ "url": "https://www.urban.org/sites/default/files/2023-01/Understanding%20Synthetic%20Data.pdf",
+ "media_type": "application/pdf",
+ "sha256": "55c7ac3af01f4c7a4e34d883b1ba9e36f2d7bf5decbada00ba52e875ed47fde1",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-10T12:53:08.489769+00:00",
+ "text_method": "pdftotext (plain)"
+}

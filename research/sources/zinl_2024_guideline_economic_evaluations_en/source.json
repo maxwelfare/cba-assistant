@@ -1,0 +1,11 @@
+{
+  "key": "zinl_2024_guideline_economic_evaluations_en",
+  "citation": "Zorginstituut Nederland (2024). Guideline for economic evaluations in healthcare, 2024 version (official English).",
+  "doi": "none",
+  "url": "https://english.zorginstituutnederland.nl/site/binaries/site-content/collections/documents/2024/01/16/guideline-for-economic-evaluations-in-healthcare/guideline-for-economic-evaluations-in-healthcare.pdf",
+  "media_type": "application/pdf",
+  "sha256": "b030b3e55cab81da8a4cf921e12be39d8bf746fa04c2e2738c46760c8a3fd081",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:33:31Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

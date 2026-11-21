@@ -1,0 +1,11 @@
+{
+  "key": "riigikantselei_2021_mojude_analuusi_valmistehnikaid",
+  "citation": "Justiitsministeerium ja Riigikantselei. Mõjude analüüsi valmistehnikaid (overview of cost-benefit analysis, cost-effectiveness analysis, standard cost model and multi-criteria analysis, annex to the impact assessment methodology). File dated March 2021.",
+  "doi": null,
+  "url": "https://riigikantselei.ee/media/1042/download",
+  "media_type": "application/pdf",
+  "sha256": "4b24e3c35858b25f453e3aa2527c9294a86a51c7c291d6172658baaf5d4844db",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:45:58Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

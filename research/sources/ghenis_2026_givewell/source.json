@@ -1,0 +1,12 @@
+{
+ "key": "ghenis_2026_givewell",
+ "citation": "Ghenis M (2026). Interactive replication of GiveWell's cost-effectiveness model. EA Forum, posted 2026-02-13.",
+ "doi": null,
+ "url": "https://forum.effectivealtruism.org/posts/7QM4krYmoPtvyH9Pd/interactive-replication-of-givewell-s-cost-effectiveness",
+ "media_type": "text/html",
+ "sha256": "412c8ec2da658f5aed274248422c318c214c9f08c332d4c292fba2808df12e3c",
+ "licence": "not stated (EA Forum post; text from the forum's GraphQL API, htmlBody wrapped with title)",
+ "fetched": "2026-11-16T03:37:52Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "copied from tmp/scratchpad/dl/ghenis.html (fetched is the file's modification time)"
+}

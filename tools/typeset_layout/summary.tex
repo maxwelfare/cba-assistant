@@ -1,0 +1,37 @@
+% The layout of a case's one-page executive summary: US letter,
+% half-inch margins, Heros sans (the title in Lato); the title and the dateline (the paragraph under the title, which
+% tools/typeset.py writes to \jobname-head.md) across the page; the rest in two columns 3.6 in wide,
+% about 60 characters, which end level (flushend); boxes from fenced divs (typeset-boxes.sty); no page
+% number. The body type is the largest of 11, 10.5, 10 and 9.5 pt at which the page fits on one sheet,
+% which tools/typeset.py finds by building at each in turn (copyfitting), on 125 per cent leading
+% (notes/pdf_layout_review.md 1.7, 3.4).
+\documentclass[10pt,letterpaper,twocolumn]{article}
+\usepackage[letterpaper,margin=0.5in,columnsep=0.25in]{geometry}
+\usepackage{typeset-common}
+\usepackage{flushend}
+\makeatletter
+% Heros at its own size: here it is the body face, not a heading face matched to Pagella.
+\def\qhv@scale{1}
+\renewcommand{\familydefault}{\sfdefault}
+\providecommand{\typesetsize}{10}
+\renewcommand{\normalsize}{\@setfontsize\normalsize{\typesetsize}{\fpeval{1.25*\typesetsize}}}
+\renewcommand{\small}{\@setfontsize\small{\fpeval{0.9*\typesetsize}}{\fpeval{1.12*\typesetsize}}}
+\renewcommand{\footnotesize}{\@setfontsize\footnotesize{\fpeval{0.85*\typesetsize}}{\fpeval{1.05*\typesetsize}}}
+\renewcommand{\large}{\@setfontsize\large{\fpeval{1.15*\typesetsize}}{\fpeval{1.4*\typesetsize}}}
+\makeatother
+\normalsize
+% Space between paragraphs and around a figure that cannot stretch: flushend evens the columns by
+% stretching glue, and stretched a figure's 12 pt above and below to 26 pt each.
+\setlength{\parskip}{0.45\baselineskip}
+\setlength{\intextsep}{0.5\baselineskip}
+\setlength{\textfloatsep}{0.7\baselineskip}
+\setlength{\floatsep}{0.5\baselineskip}
+\pagestyle{empty}
+\newcommand{\typesettitle}[1]{%
+  {\normalcolor\raggedright\typesetlato\bfseries\fontsize{19}{22}\selectfont\typesetheadicon#1\par}\vspace{2pt}}
+\begin{document}
+% The dateline's size is set outside \markdownInput, which reads the head in a group that closes before the
+% dateline's paragraph ends: set inside, the dateline's 8 pt type took the body's leading.
+\twocolumn[{\fontsize{8}{10}\selectfont\color{typesetinksecond}\markdownInput{\jobname-head.md}\par\vspace{4pt}{\color{typesetrule}\rule{\linewidth}{0.6pt}}\par\vspace{6pt}}]
+\markdownInput{\jobname.md}
+\end{document}

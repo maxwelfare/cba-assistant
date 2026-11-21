@@ -1,0 +1,1638 @@
+TOPICAL REVIEW • OPEN ACCESS
+
+Meta-analytic evidence for a robust and positive
+association between individuals’ proenvironmental behaviors and their subjective
+wellbeing
+
+You may also like
+- The effect of consumer lockdown on the
+relationship between environmental beliefs
+and pro-environmental behaviors
+Carlos A Trujillo, Claudia Arias and Angela
+M Diaz
+
+To cite this article: Stephanie Johnson Zawadzki et al 2020 Environ. Res. Lett. 15 123007
+
+- The triadic relationship between green
+HRM, innovation, and pro-environmental
+behaviour: a study of their interactions and
+impacts on employee productivity and
+organizational sustainability
+Md. Abu Issa Gazi, Abdullah Al Masud,
+Md. Emon et al.
+
+View the article online for updates and enhancements.
+
+- Demand-side climate change mitigation:
+where do we stand and where do we go?
+Felix Creutzig, Joyashree Roy and Jan
+Minx
+
+This content was downloaded from IP address 76.36.13.170 on 14/11/2026 at 13:13
+
+Environ. Res. Lett. 15 (2020) 123007
+
+https://doi.org/10.1088/1748-9326/abc4ae
+
+Environmental Research Letters
+TOPICAL REVIEW
+
+OPEN ACCESS
+RECEIVED
+
+12 June 2020
+
+Meta-analytic evidence for a robust and positive association
+between individuals’ pro-environmental behaviors and their
+subjective wellbeing
+
+REVISED
+
+21 September 2020
+
+Stephanie Johnson Zawadzki, Linda Steg and Thijs Bouman
+
+ACCEPTED FOR PUBLICATION
+
+Department of Psychology, University of Groningen, Groningen, Netherlands
+
+26 October 2020
+PUBLISHED
+
+3 December 2020
+
+Original content from
+this work may be used
+under the terms of the
+Creative Commons
+Attribution 4.0 licence.
+Any further distribution
+of this work must
+maintain attribution to
+the author(s) and the title
+of the work, journal
+citation and DOI.
+
+E-mail: s.johnson.zawadzki@rug.nl, e.m.steg@rug.nl and t.bouman@rug.nl
+Keywords: pro-environmental behavior, subjective wellbeing, psychology, happiness, meta-analysis
+Supplementary material for this article is available online
+
+Abstract
+While it is often suggested that individuals’ pro-environmental behaviors may be linked with their
+subjective wellbeing, the strength and direction (e.g. positive or negative) of this relation is unclear.
+Because pro-environmental behaviors impact peoples’ everyday lives, understanding this relation is
+critical for promoting long-term environmental solutions. Using a series of meta-analyses, we
+systematically reviewed the literature on the association between individuals’ pro-environmental
+behaviors and their subjective wellbeing. We hypothesized that the relation between
+pro-environmental behavior and subjective wellbeing would be positive and strongest among types
+of behaviors (e.g. sustainable purchase decisions) and indicators of subjective wellbeing which
+more clearly reflect personal meaning (e.g. warm glow). We sourced studies via PsychINFO,
+PsychARTICLES, GreenFile, SocINDEX, Web of Science, and Scopus, as well as professional email
+lists, direct contact with authors who publish in this domain, data from the authorship team, and
+the European Social Survey (2016). We included studies with quantitative data on the relation
+between individuals’ pro-environmental behavior and their subjective wellbeing, ultimately
+identifying 78 studies (73 published, 5 unpublished) for synthesis. Across multiple indicators of
+pro-environmental behaviors and subjective wellbeing, we found a significant, positive relation
+(overall r = .243), and this relation did not meaningfully differ across study characteristics (e.g.
+sample, design). As predicted, the relation was particularly strong for indicators of
+pro-environmental behavior and subjective wellbeing which clearly reflect meaning, such as
+sustainable purchase decisions (r = .291) and for warm glow (r = .408). We found a robust,
+positive relation between people’s pro-environmental behaviors and subjective wellbeing, and
+initial evidence that this relation may be stronger the more clearly behaviors and indicators of
+subjective wellbeing reflect meaning. Our results indicate that program and policy-makers can seek
+opportunities to design ‘win-win’ sustainability programs which could positively impact both
+people and the environment.
+
+1. Introduction
+Successfully transitioning to low- or zero-carbon
+societies is becoming increasingly urgent as the
+need to mitigate to climate change rapidly grows
+(IPCC 2018). Wide-scale changes in environmentrelated behaviors will be critical to achieving the
+low-carbon transition and to reduce the negative
+impacts of climate change and other global environmental challenges (Steg et al 2015). For example,
+© 2020 The Author(s). Published by IOP Publishing Ltd
+
+people could reduce the frequency and distance
+of motorized travel, eat more sustainably produced
+food, and reduce home energy consumption to
+lower their carbon emissions. Given the potential
+impact of such behavior changes on people’s daily
+lives, a key question is whether and how individuals’ pro-environmental behavior is related to
+subjective wellbeing, and whether we can promote
+pro-environmental behaviors in a way that protects
+and promotes individuals’ subjective wellbeing. We
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+define subjective wellbeing as the extent to which
+people experience positive emotions, happiness, and
+positively evaluate their own lives (Diener et al 2003).
+The purpose of our paper is to achieve an overarching view of the empirical research on the relation
+between pro-environmental behavior and subjective wellbeing. Specifically, we sought to determine
+the direction of the relation (positive, negative, or
+no relation), it is relative strength (weak, moderate, or large), and the conditions under which this
+relation might be stronger or weaker (e.g. depending on how pro-environmental behavior and subjective wellbeing are conceptualized; and on study
+design and characteristics, such as who comprises
+the sample, how the data was collected). To those
+ends, we conducted one overarching and nine smaller, focused meta-analyses of published and unpublished studies. In doing so, we provide key insights
+into the strength, direction and robustness of the relation between pro-environmental behavior and subjective wellbeing, and the conditions under which the
+relation may be stronger or weaker.
+1.1. How and why pro-environmental behavior
+is associated with subjective wellbeing
+Although subjective wellbeing may affect the likelihood that people perform pro-environmental behaviors (Lyubomirsky et al 2005, Lengieza et al 2019),
+in this paper, we focus on how pro-environmental
+behavior may affect wellbeing, and under which
+conditions this relationship may be strongest. It
+is often assumed that pro-environmental actions
+can be costly, effortful, or otherwise unpleasant to
+do, and therefore negatively impact subjective wellbeing (e.g. Epstein 2015, Noori Farzan 2019). This
+suggests that there is a negative relation between
+pro-environmental behaviors and subjective wellbeing. Yet, a growing body of literature suggests
+the opposite may be true, and that overall, acting
+pro-environmentally might increase people’s subjective wellbeing (Kasser 2017). Indeed, despite the
+possible inconvenience, cost, or discomfort which
+are sometimes associated with pro-environmental
+behaviors, people appear to consistently associate
+pro-environmental behaviors with positive feelings
+rather than negative ones (Venhoeven et al 2020).
+Moreover, people anticipate that performing a proenvironmental behavior will make them feel good
+(Taufik et al 2016).
+It has been theorized that the association between
+pro-environmental behaviors and subjective wellbeing may be positive because performing proenvironmental behaviors is perceived as meaningful
+(Venhoeven et al 2016, 2020). The meaningfulness
+of a behavior reflects the extent to which a behavior is perceived by someone as important, significant, and the morally right thing to do (van der Werff
+et al 2013, Venhoeven et al 2016, 2020). Performing
+meaningful behaviors makes people feel good about
+2
+
+themselves, which enhances their subjective wellbeing
+(Taufik et al 2015, Binder and Blankenberg 2017, Venhoeven et al 2020). Based on this, we hypothesized:
+H1. Overall, more engagement in proenvironmental behavior will be associated with
+higher subjective wellbeing.
+If pro-environmental behaviors indeed have a
+positive impact on subjective well-being because they
+are perceived as meaningful, we would assume that
+the more meaningful a pro-environmental behavior
+is perceived to be, the stronger its positive impact
+on subjective wellbeing will be. One factor that may
+make a behavior’s meaning more or less clear, is
+the extent to which people are consciously engaging in that behavior. When people consciously perform behaviors, rather than automatically or habitually perform them, the characteristics of the behavior
+become more salient. Hence, we propose that people
+are more likely to reflect on the extent to which their
+actions are meaningful (in this case, because they
+benefit the environment) when decisions are made
+consciously (e.g. when purchasing an energy efficient
+appliance). In contrast, habitual behaviors are typically conducted without careful reflection or thought
+(e.g. recycling or turning off the lights when leaving a
+room), and so the meaning of such behaviors is likely
+to be muddled. Hence, we hypothesized that:
+H2. Pro-environmental behaviors for which the
+meaning is more apparent at the time of action,
+like purchase decisions, will be more strongly
+positively related to subjective wellbeing than
+behaviors for which the meaning is less apparent at the time of action, like turning off lights
+in an empty room.
+Along similar reasoning, if meaning explains why
+pro-environmental behavior and subjective wellbeing
+are positively related, then the positive relationship
+would be stronger for indicators of subjective wellbeing which more strongly reflect meaning. Within
+the domain of pro-environmental behavior, researchers typically conceptualize subjective wellbeing in one
+of four ways: hedonic happiness, evaluative happiness, eudaimonic happiness, and warm glow. Importantly, indicators vary in the extent to which they
+reflect meaning. Specifically, compared to hedonic
+and evaluative happiness, warm glow and eudaimonic happiness more clearly reflect meaning than
+hedonic happiness and evaluative happiness.
+Hedonic happiness reflects how happy people are
+in a given moment and is not linked to specific
+actions or meaning (Watson et al 1988). Evaluative happiness is a long-term positive state, which
+reflects the extent to which individuals feel satisfied with their lives as a whole (Diener et al 1985),
+and also is not explicitly linked to specific actions
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+or meaning. Hence, both hedonic happiness and
+evaluative happiness do not inherently reflect the
+extent to which people feel meaningful. Therefore, we
+expect both to be positively, but not very strongly,
+related to pro-environmental.
+Eudaimonic happiness is a long-term positive state
+that reflects the extent to which people perceive their
+lives in general as meaningful (Steger et al 2006).
+Warm glow reflects a momentary, positive affective state which people experience after performing
+or while anticipating the performance of a behavior which can be meaningful to them (Taufik et al
+2015, 2016, van der Linden 2018), such as the extent
+to which someone feels good, happy, or proud of
+themselves when acting in a way that helps the environment (e.g. Wang and Wu 2016). As both eudaimonic happiness and warm glow reflect the extent
+to which people feel meaningful (in general or about
+a behavior, respectively), we expect that the relation
+between pro-environmental behavior and subjective
+wellbeing is stronger for eudaimonic happiness and
+warm glow, than for hedonic and evaluative happiness. We further expect that pro-environmental behavior will be more strongly and positively related to
+warm glow than to eudaimonic happiness, as warm
+glow reflects feelings elicited by a pro-environmental
+behavior specifically, while eudaimonic happiness
+may also depend on other meaningful actions or
+events in people’s life.
+In sum, we hypothesized:
+H3a. Warm glow and eudaimonic happiness
+will be more strongly positively associated with
+pro-environmental behaviors than hedonic and
+evaluative happiness.
+H3b. Pro-environmental behavior will be more
+strongly and positively related to warm glow
+than to eudaimonic happiness.
+1.2. Does the relation depend on study
+characteristics?
+Additionally, we wanted to explore how robust the
+relation between pro-environmental behavior and
+subjective wellbeing might be against a variety of
+study characteristics, as to investigate the consistency and robustness of this relationship. Specifically, we examined whether the effect size would differ
+depending on the samples used within each study, the
+mode of data collection, whether the study employed
+a correlational or experimental design, and explored
+whether the relationship would differ depending
+on whether pro-environmental behavior or subjective wellbeing was measured first. These study characteristics can all influence the relations observed,
+potentially impacting an individual study’s generalizability (e.g. sampling biases from different modes
+of data collection or sampling methods; demand
+effects in experiments; question framing, order, and
+other survey context effects; Umbach 2005). The less
+3
+
+variation we find across these study characteristics, the more robust and generalizable the relation
+between pro-environmental behavior and subjective
+wellbeing is likely to be.
+
+2. Method
+Below we summarize how we acquired published and
+unpublished studies and the criteria we used to assess
+them for potential inclusion in our analysis. We also
+report the manner in which we structured and processed the resulting data for synthesis and a descriptive summary of the data obtained through this process. Figure 1 provides an overview of the multi-stage
+screening process with the number of studied collected and screened at each stage.
+2.1. Study retrieval
+2.1.1. Database search
+Our study benefited from the literature search being
+conducted in two stages (both in English). Specifically, the first initial database search was performed in June 2019 in five databases: PsychINFO,
+PsychArticles, Green File, SocINDEX, and Web of Science. This protocol was then peer-reviewed. Based on
+the feedback received from peer-review, we added a
+sixth database, Scopus, and refined our search terms
+to further improve comprehensiveness and avoid
+spelling biases (e.g. including both forms of wellbeing and well-being). Our final search terms were:
+(‘life satisfaction’ OR ‘subjective wellbeing’ OR ‘subjective well-being’ OR wellbeing OR well-being OR
+‘positive affect’ OR ‘positive emotions’ OR ‘hedonic
+happiness’ OR happiness OR eudaimonia OR ‘meaning in life’ OR ‘eudaimonic happiness’ OR ‘warm
+glow’) AND (‘pro-environmental behavior’ OR ‘environmental behavior’ OR ‘pro-environmental intentions’
+OR ‘environmental intentions’ OR ‘pro-environmental’
+OR ‘ecological intentions’ OR ‘ecological behavior’ OR
+‘carbon footprint’ OR ‘eco footprint’ OR ‘ecological
+footprint’ OR ‘sustainable behavior’ OR ‘sustainable
+consumption’). The final search replicated and expanded the initial results, adding articles which had
+either been missed the first round, published since the
+first round was conducted, or were only available in
+Scopus.
+2.1.2. Additional sources
+We employed four techniques for retrieving unpublished literature (all were in English). First, we sent
+notices on three widely read professional email lists,
+targeted at researchers who study pro-environmental
+behavior: the American Psychological Association’s
+Division 34 (Society for Environmental, Population, and Conservation psychology) list; the International Environmental Psychology list; and the Virtual
+Community on Sustainability and Consumption’s
+newsletter. We received nine studies for consideration
+of inclusion via these lists. Second, we directly
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+Figure 1. PRISMA-style flowchart illustrating the screening and selection process.
+
+contacted researchers via email who recently published in this field, which produced another nine
+studies. Third, we included two unpublished datasets
+collected by the authorship team from which correlations could be calculated from relevant measures.
+Finally, we included data from the European Social
+Survey 8 (2016), an open data source which is comprised of representative samples from 23 countries
+and contains measures of pro-environmental behavior and subjective wellbeing; to our knowledge the
+correlations from the relevant measures in this dataset have not yet been published.
+2.2. Inclusion criteria
+The inclusion criteria for screening were that the
+study must contain quantitative data about the
+relation between pro-environmental behavior and
+subjective wellbeing. Additionally, the study must
+quantify the relation in a form that can be statistically converted to express a correlation (e.g. Pearson’s
+r, Spearman’s r, and regression coefficients; or t- and
+F-tests using Lakens’ methods of conversion; Lakens
+2017). For five studies, the relation was not reported
+in a useable manner but it was clear the data would
+be appropriate to calculate correlations from, so we
+contacted the correspondence author to request the
+relevant statistics and heard back from four of them
+(80% response rate). In the cases when we obtained
+datasets in lieu of reports for unpublished studies, our
+lead author calculated the required effect sizes.
+2.3. Data processing
+2.3.1. Obtaining effect sizes
+We calculated each study’s effect size in the following
+way. First, most studies obtained in our search
+4
+
+contained multiple relevant effect sizes for our metaanalyses. For example, say a study examined how
+performing two separate pro-environmental behaviors, energy use and recycling, contribute to a person’s evaluative happiness. This implies that two
+separate correlations could be obtained from the
+same sample. In such cases, the correlations could
+not both be included individually within the same
+meta-analysis, as this would violate our analyses’
+assumption of independence of observations (Borenstein et al 2009). And so, if more than one effect
+size was reported in a study, the effects were averaged into one aggregated effect size within each
+meta-analysis. If the sample sizes within these studies with multiple measures varied due to missing
+data, the average sample size was calculated and
+used1 .
+Next, if effect sizes were reported in a form other
+than Pearson’s r, they were converted using standard conversion statistical practices for meta-analyses
+(for a detailed list of equations used, see van Valkengoed and Steg 2019). Lastly, because of the inherently restricted range of Pearson correlation coefficients which causes the distribution of correlation
+effect sizes to be non-normally distributed, we followed standard transformation procedures for metaanalyses: prior to conducting the meta-analyses, we
+transformed the effect sizes using Fisher’s z variancestabilizing transformation (Fisher 1925). The transformed coefficients (rz ) were used to conduct the
+
+1 This is a necessary adjustment because meta-analysis weights
+
+studies’ individual observed correlations relative to their sample
+size when calculating the aggregated correlation estimates (Borenstein et al 2009).
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+meta-analyses before using the inverse transformation back to Pearson r for interpretation and reporting (Borenstein et al 2009).
+For all analyses, effect sizes were interpreted for
+practical meaningfulness using the cut-offs suggested
+by Cohen (1988). We selected Cohen’s (1988) standards for interpreting correlations because they are
+commonly employed within the social and behavioral sciences and add critical practical value to the results of meta-analyses (Durlak and Lipsey 1991). Using
+these guidelines, a correlation of .10 is considered a
+small effect, .24 is a medium effect, and .37 or higher
+is a large effect.
+2.3.2. Data structuring
+First, we created an overall dataset, aimed at identifying an overall estimate of the relation between
+subjective wellbeing and pro-environmental behavior, regardless of the type of subjective wellbeing or behavior measured. Our overall dataset
+contained 78 studies (from 68 published papers
+and 5 unpublished datasets) for inclusion in our
+meta-analyses (see figure 2 for effect sizes and
+supplemental information (available online at
+stacks.iop.org/ERL/15/123007/mmedia) table 1 for
+study details). This dataset was also used to search
+for evidence of possible publication bias and explore
+whether effect sizes would differ depending on study
+characteristics.
+Second, we created five data subsets to look
+into the extent to which the relation between proenvironmental behavior and subjective wellbeing varies across specific types of pro-environmental behaviors. In order to create these subsets, we followed
+common practice from other meta-analyses which
+suggest k = 5 as the minimum number of studies
+needed to conduct a meta-analysis (Hornsey et al
+2016, van Valkengoed and Steg 2019). Many studies
+included a multi-faceted scale or index of many kinds
+of pro-environmental behaviors (k = 53). Hence, to
+address our research question, we only selected studies that targeted a specific behavior in this set of metaanalyses, which we explain below.
+Purchasing behavior (k = 20) was the most commonly studied specific pro-environmental behavior
+we found in the literature. Most of the studies we
+found focused on large, one-time investments, such
+as purchasing an electric vehicle (e.g. Rezvani et al
+2017) or an energy efficient household appliance (e.g.
+European Social Survey 2016).
+Food choices (k = 7) were typically measured via
+self-reported frequency of consuming eco-friendly
+or organic labeled food options (e.g. Zannakis et al
+2019).
+Energy use (k = 8) was most commonly conceptualized as self-reported energy demand reduction, or the extent to which people try to save energy
+(e.g. European Social Survey 2016).
+5
+
+Collective action (k = 7) was typically measured by asking people about whether or not they
+donate resources (i.e. time, money) to environmental
+causes (e.g. Suárez-Varela et al 2016) or participated
+in/collaborated with pro-environmental initiatives or
+groups (e.g. Janmaimool and Denpaiboon 2016).
+Waste behaviors (k = 7) was typically measured as
+self-reported frequency of recycling, either alone or
+in combination with other waste-reduction behaviors
+(e.g. Jacob et al 2009).
+In addition to these five specific proenvironmental behaviors, we identified five other
+specific pro-environmental behaviors for which there
+were too few studies to conduct separate metaanalyses: travel behaviors (k = 2), water use (k = 3),
+policy support (k = 2), workplace behavior (k = 3),
+and refusal to buy new items (k = 2). Despite not
+being useable for separate behavior-specific metaanalyses, all specific pro-environmental behaviors
+and multi-faceted scales were included in the overall
+meta-analysis.
+Third, we created four data subsets to look
+into the extent to which the relation between proenvironmental behavior and subjective wellbeing varies across different indicators of subjective wellbeing. Again, these meta-analyses were only conducted when a minimum of five studies were available.
+We found that all four indicators of subjective
+wellbeing had a sufficient number of studies to examine in separate meta-analyses. Seven studies included
+a multi-faceted composite of the subjective wellbeing
+indicators, and were therefore not included in subsets for specific indicators of subjective wellbeing
+(but were included in the overall dataset). Briefly, we
+describe the most commonly used operationalization
+for each indicator of subjective wellbeing we observed
+in the literature:
+Hedonic happiness (k = 28) was most commonly,
+measured using the positive affect items from the Positive Affect Negative Affect Schedule (Watson et al
+1988; e.g. Coelho et al 2017). If only using a singleitem measure, hedonic happiness was most commonly measured by asking participants the extent to
+which they feel happy at the moment (e.g. Moreton
+et al 2019).
+Evaluative happiness (k = 34) was the most commonly employed definition of subjective wellbeing we
+observed. To measure it, researchers most commonly
+used the Satisfaction with Life Scale (Diener et al
+1985; e.g. Zannakis et al 2019) or a single-item asking
+participants the extent to which they are satisfied with
+their lives (e.g. Janmaimool and Denpaiboon 2016).
+Eudaimonic happiness (k = 12) was typically
+measured using Steger et al’s (2006) Meaning in Life
+scale (e.g. Molinario et al 2019).
+Warm glow (k = 12) was typically measured via
+self-reported measures, asking participants the extent
+to which they felt a sense of happiness, pride, or
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+Table 1. Summary of statistics for all meta-analyses.
+
+R
+Overall
+Pro-environmental behaviors
+Purchasing
+Food
+Energy use
+Collective action
+Waste
+Subjective Wellbeing
+Hedonic
+Evaluative
+Eudaimonic
+Warm Glow
+
+0.243
+
+95% LCI 95% UCI k
+
+N
+
+Q
+
+T2
+
+I2
+
+z
+
+p
+
+0.200
+
+0.285
+
+78 212 181.6 2851.73
+
+0.038 98.81 10.723 <0.001
+
+0.332
+0.224
+0.224
+0.075
+0.216
+0.042
+0.146 −0.007
+0.138
+0.058
+
+0.431
+0.363
+0.377
+0.292
+0.215
+
+20
+7
+8
+7
+7
+
+54 198.3
+3244
+46 139.8
+2823
+30 108
+
+1031.701
+76.309
+202.488
+88.131
+39.928
+
+0.068
+0.039
+0.060
+0.039
+0.009
+
+98.58
+94.45
+97.35
+93.48
+89.24
+
+5.798
+2.918
+2.418
+1.876
+3.377
+
+<0.001
+0.004
+0.016
+0.061
+<0.001
+
+0.201
+0.213
+0.240
+0.400
+
+0.267
+0.278
+0.335
+0.480
+
+28
+34
+12
+12
+
+81 425
+169 934.5
+4929.5
+5695
+
+558.956
+1587.590
+96.415
+157.556
+
+0.031
+0.041
+0.028
+0.029
+
+98.27
+99.32
+90.86
+93.03
+
+5.705
+6.077
+4.633
+8.323
+
+<0.001
+<0.001
+<0.001
+<0.001
+
+0.133
+0.145
+0.140
+0.313
+
+Notes: k = number of studies, N = number of participants, Q = total variance, I 2 = proportion of variability due to heterogeneity
+between studies rather than sampling error, T 2 = between-study variance, p-values are based on z-tests from reported z-statistics.
+
+Figure 2. Forest plot of effect sizes in overall estimate of relation between subjective wellbeing and pro-environmental behavior.
+
+6
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+self-respect when performing a specific or set of proenvironmental behaviors (e.g. Wang and Wu 2016).
+2.3.3. Identification and handling of outliers
+Following best practices for meta-analyses, we
+employed a two-stage check for outliers within each
+dataset (Viechetbauer and Cheung 2010). First, outliers were identified by examining plots of studentized deleted residuals for each effect size within each
+factor. Additionally, Cook’s distance (or Cook’s d) was
+calculated for each effect size to determine whether
+the outlier may have exerted sufficient influence to
+alter the obtained result (Cook and Weisberg 1982).
+This process identified outliers within the following
+meta-analyses: overall relationship environmental
+behavior and subjective wellbeing (koutlier = 1), evaluative happiness, (koutlier = 1), eudaimonic happiness (koutlier = 1), collective action (koutlier = 2), and
+waste behavior (koutlier = 1). Some studies were outliers in multiple meta-analyses, although it was not
+always the same studies in every case. All effect size
+estimation and moderation analyses were run with
+and without outliers and no meaningful differences
+were found between outcomes. Therefore, the metaanalyses reported here are with outliers included. See
+Supplemental Information for more information on
+the studies flagged as outliers and details about effect
+size estimates with and without outliers.
+2.4. Description of final data set
+An examination of the release year for published
+papers suggests this is a relatively new literature, with
+the earliest study conducted in 2005, while 77% of articles published on this topic were published within
+the past 5 years (2016 or later; see figure 3). The
+studies represent data collected in 37 countries on
+five continents (see figure 4), suggesting this literature is somewhat geographically representative. However, much of Africa, the Middle East, Central and
+South America and most island nations are absent.
+The countries with the most representation in our
+studies are the United States (k = 14), Spain (k = 8),
+and Australia (k = 7).
+
+see table 1 for additional statistics). This suggests
+more performance of more pro-environmental behaviors is associated with greater subjective wellbeing.
+3.1.1. Publication bias
+As significant results are more likely to be published
+than non-significant results, effect size estimates can
+be biased toward being stronger than they may actually be. We assessed the risk of publication biases
+to our overall meta-analysis by examining funnel
+plots and testing for asymmetry, conducting failsafe
+N tests, and running trim-and-fill procedures and
+found no clear evidence of publication bias. Additionally, as we included non-published research, we were
+able to explore if a study being published or not was a
+significant moderator, and it was not (QM (1) = 0.897,
+p = 0.344). Hence, overall, no strong evidence of
+publication bias was found to indicate it may have
+influenced the reported effect sizes. See Supplemental
+Information for full results of publication bias analyses.
+3.1.2. Study characteristics
+Next, we examined various study characteristics
+that may influence the strength of the relationship
+between pro-environmental behavior and subjective wellbeing, namely sample characteristics, study
+designs, modes of data collection, and order of measures. None of these factors significantly moderated
+the effect size, suggesting that strength of the relation
+between pro-environmental behavior and subjective
+wellbeing seems not to differ depending on who is in
+the sample, the method used to collect their data, the
+design of the study, and the order in which the measures were obtained (see tables 2a–2e). Please note that
+relatively few studies (k = 19) reported the order of
+their measures, and so conclusions from this analysis
+should be drawn with caution.
+
+All meta-analyses were conducted in R using the
+metafor package (version 2.4-0). Each factor was fitted with a random-effects meta-analysis model.
+
+3.2. Testing whether the relation is stronger for
+pro-environmental behaviors and subjective
+wellbeing indicators with clear meaning
+To determine if the relation between proenvironmental behavior and subjective wellbeing is
+stronger when the type of behavior and indicators of
+subjective wellbeing more clearly reflect meaning, we
+conducted a series of nine meta-analyses on subsets
+of the data. See figure 5 for an overview of all effects
+and table 1 for more statistical details.
+
+3.1. Overall estimation of the relation between
+pro-environmental behavior and subjective
+wellbeing
+Our primary research question was to determine the
+direction and strength of the relation between individuals’ pro-environmental behavior and their subjective wellbeing. Overall and as predicted (H1), we
+found a significant, positive relationship of medium
+effect size (r = 0.243, p < 0.001, 95%CI [0.200, 0.285];
+
+3.2.1. Types of pro-environmental behaviors
+For nearly all pro-environmental behaviors we found
+significant positive relations with subjective wellbeing. In order from largest to smallest effect size,
+we found: purchasing behavior (r = 0.332, 95%CI
+[0.224, 0.431], medium-strong effect), food choices
+(r = 0.224, 95%CI [0.075, 0.363], small-medium
+effect), energy use (r = 0.216, 95%CI [0.042, 0.377],
+small-medium effect), collective action (r = 0.146,
+
+3. Results
+
+7
+
+8
+p-value (QM )
+0.344
+UCI
+0.329
+0.292
+
+df
+1
+LCI
+
+−0.010
+0.204
+
+QM
+0.897
+Estimate
+
+0.164
+0.249
+
+Table 2e. Moderator: Publish Status
+
+Unpublished
+Published
+
+Notes: Reference groups for QM statistics are first level of moderators listed in each table.
+a
+Low k, estimates may be unreliable.
+
+0.330
+0.250
+0.399
+0.426
+
+0.223
+0.090
+0.068
+0.061
+
+p-value (QM )
+0.188
+UCI
+
+0.306
+0.353
+0.282
+0.352
+0.344
+
+0.278
+0.171
+0.240
+0.252
+
+df
+3
+LCI
+
+0.094
+0.207
+0.056
+0.191
+0.059
+
+Single-purpose survey
+Multi-purpose survey
+Experiment
+Field study/quasi-experiment
+
+Students
+Adult convenience/panel
+Representative sample
+Specific target group
+Other/unclear
+
+p-value (QM )
+0.411
+UCI
+
+Table 2c. Moderator: Method
+
+0.202
+0.282
+0.172
+0.273
+0.206
+
+Table 2a. Moderator: Sample
+
+df
+4
+LCI
+
+QM
+4.787
+Estimate
+
+QM
+3.936
+Estimate
+
+0.065
+<0.001
+
+p-value
+
+<0.001
+<0.001
+0.007
+0.01
+
+p-value
+
+<0.001
+<0.001
+0.004
+<0.001
+0.006
+
+p-value
+
+5
+73
+
+k
+
+47
+22
+5
+4a
+
+k
+
+13
+25
+11
+22
+7
+
+k
+
+SWB first
+PEB first
+Unknown/other
+
+Table 2c. Moderator: Measurement Order
+
+Pen and paper/mail-in
+Face-to-face
+Online
+Laboratory
+Other/unclear
+Multi-modal
+
+Table 2b. Moderator: Data Collection Mode
+
+Tables 2a–2e. Summary of statistics for all moderator analysis conducted on the overall dataset.
+
+0.221
+0.275
+0.243
+
+QM
+0.375
+Estimate
+
+0.272
+0.253
+0.283
+0.220
+0.157
+0.201
+
+QM
+5.334
+Estimate
+
+0.107
+0.138
+0.193
+
+df
+2
+LCI
+
+0.163
+0.139
+0.216
+−0.073
+0.064
+0.006
+
+df
+5
+LCI
+
+0.33
+0.403
+0.292
+
+p-value (QM )
+0.829
+UCI
+
+0.374
+0.361
+0.348
+0.478
+0.248
+0.381
+
+p-value (QM )
+0.377
+UCI
+
+0.002
+0.001
+<0.001
+
+p-value
+
+<0.001
+<0.001
+<0.001
+0.140
+0.001
+0.044
+
+p-value
+
+12
+8
+58
+
+K
+
+12
+11
+31
+2a
+18
+4a
+
+K
+
+Environ. Res. Lett. 15 (2020) 123007
+S J Zawadzki et al
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+Figure 3. Number of studies on the relation between pro-environmental behavior and subjective wellbeing by year of publication.
+
+95%CI [−0.007, 0.292], non-significant small
+effect)2 , and waste behavior (r = 0.138, 95%CI
+[0.058, 0.215], small effect). These results suggest
+that purchase decisions may be more strongly associated with subjective wellbeing compared to daily food
+choices, energy use, collective action, and waste behaviors, offering partial support for hypothesis 2. Specifically, the relation is generally stronger for types of
+pro-environmental behaviors which are more meaningful.
+3.2.2. Indicators of subjective wellbeing
+As expected, all four indicators of subjective wellbeing were significantly and positively related to
+pro-environmental behavior, but also ask expected
+the relation was stronger for indicators of subjective wellbeing that more clearly reflect meaning. We
+observed a weak-to-moderate relation with hedonic
+happiness (r = 0.201, 95%CI [0.133, 0.267], smallmedium effect); a moderate relation with evaluative
+happiness (r = 0.213, 95%C I[0.145, 0.278], smallmedium effect); a moderate relation with eudaimonic happiness (r = 0.240, 95%CI [0.140, 0.335],
+medium effect); and the largest effect size was found
+between pro-environmental behavior and warm glow
+(r = 0.400, 95%CI [0.313, 0.480], strong effect). As
+
+2 The collective action estimate contains two studies flagged as out-
+
+liers, the highest (r = 0.43) and the lowest (r = −0.22) correlation
+observed within this small meta-analysis. Both of these studies were
+found in the same paper (Huijts et al 2014). When these outliers are
+removed the effect size remains roughly the same, but becomes statistically significant and the confidence interval no longer contains
+zero (r = 0.134, 95%CI[0.061, 0.205], small effect).
+
+9
+
+we predicted, this suggests pro-environmental behaviors was more closely linked to warm glow than to
+the other indicators of subjective wellbeing (H3b).
+Pro-environmental behaviors were only slightly more
+strongly related to eudaimonic happiness compared
+to hedonic and evaluative happiness (H3a).
+
+4. Discussion
+Our results support our reasoning that proenvironmental behavior is related to higher subjective wellbeing because acting pro-environmentally
+is meaningful. Specifically, we found the relation
+between pro-environmental behavior and subjective
+wellbeing is consistently positive, with a medium
+effect size (H1). Further, the confidence interval
+around our estimated effect was relatively small,
+which implies that we can be reasonably confident
+that the relation between pro-environmental behavior likely enhances subjective wellbeing. These findings contradict the common assumption that proenvironmental behaviors would reduce wellbeing
+because they are often costly, effortful, or otherwise
+unpleasant to do. Rather, overall, our findings suggest
+that pro-environmental behaviors are likely inherently meaningful to do (van der Werff et al 2013, Venhoeven et al 2016, 2020), and therefore make people
+feel positive about their behaviors (i.e. warm glow)
+and about themselves more generally (i.e. hedonic,
+evaluative, and eudaimonic happiness).
+We also found support for our reasoning that
+the relationship between pro-environmental behavior and subjective wellbeing was stronger for proenvironmental behaviors that are likely to be more
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+Figure 4. Countries in which data was collected in the studies observed in our meta-analyses. Darker shading indicates more
+studies.
+
+Figure 5. Visualization of effect size estimates with 95% confidence intervals for all meta-analyses.
+
+meaningful, and for indicators of subjective wellbeing
+that more closely reflect meaning, again supporting our theorizing that pro-environmental behaviors
+enhances wellbeing because they are meaningful to
+do. Specifically, as predicted, we found that the relation between pro-environmental behavior and wellbeing was stronger for pro-environmental behaviors
+which are consciously decided and so the meaning
+clear at the time of performance (H2; i.e. purchase
+decisions that are likely to be consciously made), and
+for indicators of subjective wellbeing which more
+clearly reflect meaning (H3a; i.e. warm glow and
+10
+
+eudaimonic happiness). Further, as expected, the
+relation was strongest for warm glow indicators of
+subjective wellbeing, which explicitly reflects feeling
+meaningful about performing a behavior, rather than
+feeling meaningful in general (H3b). This finding
+makes sense theoretically, as when asked to evaluate more general aspects of their subjective wellbeing,
+like hedonic, evaluative, and eudaimonic happiness,
+people probably consider many aspects of their lives
+in addition to their pro-environmental behaviors.
+Our finding that consciously-performed behaviors were more strongly related to subjective wellbeing
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+than behaviors which we reasoned are more likely
+to be performed without much conscious attention,
+supports our theoretical reasoning that meaning is
+likely an important driver of the positive relationship
+between pro-environmental behavior and subjective
+wellbeing relation. However, we found one behavior,
+collective action, which did not align with the consistent pattern we otherwise found. We would expect
+collective action, which is usually involves deliberate
+conscious decision-making to perform, to be a relatively meaningful behavior to perform and therefore relatively strongly associated with subjective wellbeing. Yet this behavior had the weakest association of
+all behaviors we examined. Perhaps this weak relation
+is because some negative emotions might be important motivators for participating in collective action
+(van Zomeren et al 2008). Such a mix of positive and
+negative emotions associated with collective action
+can be reflected in our non-significant results. More
+research is needed to determine to what extent collective action is perceived as meaningful and whether
+meaning plays a mediative role in the relation between
+collective action and subjective wellbeing.
+Despite the differences in relative strength of the
+relation between pro-environmental behavior and
+subjective wellbeing, the overall robustness and consistently positive direction of effects across different types of pro-environmental behaviors, indicators
+of subjective wellbeing, and different study characteristics is noteworthy. Importantly, we found that
+the positive association between pro-environmental
+behavior and subjective wellbeing does not appear to
+vary significantly based on study characteristics, such
+as study sample, design, mode of data collection, or
+order of measurements. Further, while we can never
+be fully sure of the potential influence of publication
+bias on our results, we found no evidence of publication bias. Thus, our results suggest the positive relation between pro-environmental behavior and subjective wellbeing is quite robust and will likely generalize across many people and contexts.
+Although we find clear support for our reasoning that pro-environmental behaviors likely enhance
+subjective wellbeing because they are meaningful,
+our conclusions are indirectly inferred by examining
+whether effect sizes are stronger for types of behaviors and indicators of meaning that more clearly reflect
+meaning (see Venhoeven et al 2020). That is, we a
+priori theorized that certain behaviors and indicators of subjective wellbeing are more closely linked to
+meaning than others. Yet, within the confines of this
+meta-analysis, we were unable to directly test this, as
+the studies included typically did not measure meaning. Therefore, future research could directly test the
+psychological process connecting pro-environmental
+behavior and subjective wellbeing. Specifically, future
+research could examine whether pro-environmental
+behavior enhances wellbeing because it is perceived to
+be meaningful, by including meaning as a mediator in
+11
+
+this relation. In doing so, both consciously and subconsciously measures of meaning could be employed
+(see Venhoeven et al 2020, who employed implicit measures to examine the relation between proenvironmental behavior and subjective wellbeing).
+Future research could further examine what
+makes pro-environmental behavior meaningful. A
+number of characteristics could enhance the meaning of pro-environmental behaviors, thereby making it more likely that the behavior would enhance
+subjective wellbeing. For example, a behavior may
+be considered more meaningful when it is seen as
+more costly or difficult to perform, socially unique or
+status-enhancing, clearly benefiting the environment,
+strongly enhancing someone’s perceived self-image,
+or, as we suggest, when it is performed more consciously rather than automatically as a habit. Future
+research is needed to determine if these characteristics
+enhance the meaning of behavior, and whether this
+enhancement, in turn, makes it more likely that the
+relevant pro-environmental behavior enhances subjective wellbeing.
+We found that the majority of studies in this field
+are correlational. Only 10% (k = 8) of our sample
+employed experimental or quasi-experimental methods and contained statistics suitable for inclusion
+in our meta-analysis. Therefore, we cannot make
+firm conclusions about the causal order of the relation between pro-environmental behavior and subjective wellbeing, and we cannot rule-out the possibility that pro-environmental behavior and subjective wellbeing are connected via an unaccountedfor third variable. Yet, the few experimental and
+quasi-experimental studies included in our review
+do provide support for a causal relation between
+the performance of pro-environmental behaviors
+and subjective wellbeing. Interestingly, most of these
+(quasi-)experimental studies (k = 7) suggest that the
+reverse causal order than we theorized may also occur
+(i.e. most of these studies induced a positive affective state and examined whether this would promote
+pro-environmental behaviors). This is both interesting and important, because it suggests that there is
+potential for creating a positive self-reinforcing cycle
+between pro-environmental engagement and subjective wellbeing, which may promote long-term environmental behaviors and enhanced subjective wellbeing (see van der Linden 2018). We recommend that
+future studies employ more experimental and longitudinal designs in order to systematically test the
+causal relation between pro-environmental behavior
+and subjective wellbeing, and to examine how this
+relation develops over time, as this may illuminate
+potentially powerful and exciting avenues for interventions.
+Over the course of conducting our meta-analysis,
+we noticed a few limitations in reporting, which
+restricted some of our analyses (e.g. estimation of
+measurement order effects). In order to facilitate
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+future meta-analyses and the creation of a cohesive
+literature on the relation between pro-environmental
+behavior and subjective wellbeing, we recommend to
+improve consistency in reporting of study findings by
+explicitly stating the following information within all
+quantitative research in this domain.
+First, it is important to have easily identifiable
+and clearly stated definitions of core variables (theoretical conceptualizations), as well as a full overview of items for measures (operationalizations). This
+information is critical to screen and code studies that
+could be included in a meta-analysis. In addition, we
+recommend researchers state the order in which constructs were measured, which 74% of the studies we
+encountered did not provide sufficient information
+on. While we found that order effects may be unlikely
+to affect results, our conclusions remain tentative in
+this regard because most studies did not mention
+measurement order. Lastly, we recommend researchers explicitly state how the data was collected, which
+23% of studies included in our meta-analysis did
+not do.
+Our findings have important practical implications. In order to successfully address today’s environmental challenges like climate change, the general
+public has to engage in a range of pro-environmental
+behaviors. As pro-environmental behaviors can be
+costly or effortful, it is often assumed they may have
+negative implications for people’s everyday lives, and
+therefore, for their subjective wellbeing. As a result, policy-makers may feel hesitant to implement
+policies which promote or enforce these types of
+behaviors for fear that it will make their constituents unhappy. However, our meta-analyses show
+evidence to the contrary: across many types of
+pro-environmental behaviors, no negative relations
+between pro-environmental behavior with different
+indicators of subjective wellbeing were found. In
+fact, we consistently found that pro-environmental
+behavior is positively related to subjective wellbeing.
+Importantly, even though our analyses included relatively costly behaviors, like buying an energy efficient
+appliance, our results suggest such behaviors are likely
+seen by people as personally meaningful and therefore feel rewarding to do. As such, the results of our
+meta-analyses suggest that pro-environmental behaviors not only benefit the environment, but may also
+enhance the subjective wellbeing of the individuals
+who engage in these behaviors. Therefore, our results suggest implementing policies to promote proenvironmental actions are unlikely to merely impede
+people’s subjective wellbeing, and that interventions
+to promote pro-environmental behavior are likely to
+produce ‘win-win’ situations by also enhancing subjective wellbeing.
+Importantly, as indicated above, there is the
+potential for the relation between behavior and
+subjective wellbeing to become a self-reinforcing
+12
+
+motivational feedback loop. People may perform
+an initial pro-environmental behavior, which may
+enhance their subjective wellbeing. This enhanced
+subjective wellbeing could, in turn, motivate them
+to perform more pro-environmental behaviors (van
+der Linden 2018), further enhancing their subjective wellbeing. This implies that it can be beneficial to ensure the pro-environmental meaning of a
+behavior is made clear. By highlighting the inherent meaning of pro-environmental behaviors, people
+may be more attuned to the resulting feelings of
+warm glow, eudaimonic happiness, and the other
+positive experiences they feel while performing proenvironmental behaviors. They may then be more
+inclined to perform similar behaviors in the future,
+anticipating these positive feelings (Taufik et al
+2016). Moreover, it may be beneficial for policymakers to emphasize how pro-environmental behaviors enhance, rather than detract from, people’s
+subjective wellbeing to maintain public engagement
+with pro-environmental programs or policies. Future
+studies could test which strategies are most effective
+in emphasizing the meaning of pro-environmental
+behavior, and to make people aware of the beneficial effects of pro-environmental actions on subjective wellbeing.
+
+5. Conclusion
+Using a series of meta-analyses, we found a consistently positive relation between individuals’ proenvironmental behavior and their subjective wellbeing, across different types of pro-environmental
+behavior, different indicators of subjective wellbeing, and different samples and study characteristics. Our results suggest that this may be because
+many pro-environmental behaviors are meaningful, which makes people feel good about themselves
+when they act pro-environmentally, enhancing subjective wellbeing. Specifically, we found that the more
+clearly a behavior or indicator of subjective wellbeing
+is linked with personal meaning, the stronger the
+relationship between pro-environmental behavior
+and subjective wellbeing is likely to be. The robust,
+positive relation we found between acting proenvironmentally and subjective wellbeing suggests
+that program and policy-makers can design environmental solutions that simultaneously enhance
+environmental quality and human wellbeing,
+addressing multiple Sustainable Development Goals
+(UN 2016).
+
+Acknowledgments
+The authors would like to thank Anne van Valkengoed for her assistance and helpful feedback during
+the early stages of this project.
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+Authorship contributions
+All authors contributed to the formulation of the
+research question, methodological approaches for the
+systematic review, and approved the final manuscript
+before submission. S J Z implemented the systematic
+review, conducted all statistical analyses, and led the
+drafting of the manuscript. T B and L S facilitated the
+implementation of the systematic review process and
+analyses and provided critical input for writing of the
+manuscript.
+
+Conflict of interest
+The authors declare no financial or non-financial
+competing interests.
+
+Data availability statement
+The data that support the findings of this study are
+available upon reasonable request from the authors.
+
+Funding
+This work is part of the project ‘Incentives and
+algorithms for efficient, reliable, sustainable and
+socially acceptable energy systems integration’
+(ERSAS; project number 647.002.005), which is financed by the Netherlands Organisation for Scientific
+Research (NWO).
+
+ORCID iD
+Stephanie Johnson Zawadzki 
+https://orcid.org/0000-0002-6097-5083
+
+References
+∗ Indicates study was included in meta-analysis.
+
+∗ Ambrey C L and Daniels P 2017 Happiness and footprints:
+
+assessing the relationship between individual well-being and
+carbon footprints Environ. Dev. Sustain. 19 895–920
+∗ Amérigo M, García J A and Sánchez T 2013 Attitudes and
+behavior towards natural environment. environmental
+health and psychological well-being Universitas Psychol.
+12 845–56 (http://ref.scielo.org/4ykdmc)
+∗ Ansu-Mensah P and Bein M A 2019 Towards sustainable
+consumption: predicting the impact of social-psychological
+factors on energy conservation intentions in Northern
+Cyprus Natural Resources Forum (Oxford, UK: Blackwell
+Publishing Ltd) Vol. 43 181–93
+∗ Becker C M, Ayscue E, Brockett S J, Scarola G and Kelley T 2014
+Initiating sustainable behavior: feel good for doing good
+Electron. Green J. 1
+∗ Binder M and Blankenberg A K 2017 Green lifestyles and
+subjective well-being: more about self-image than actual
+behavior? J. Econ. Behav. Organ. 137 304–23
+∗ Binder M, Blankenberg A K and Guardiola J 2020 Does it have to
+be a sacrifice? Different notions of the good life,
+pro-environmental behavior and their heterogeneous
+impact on well-being Ecol. Econ. 167
+∗ Bissing-Olson M J, Iyer A, Fielding K S and Zacher H 2013
+Relationships between daily affect and pro-environmental
+
+13
+
+behavior at work: the moderating role of pro-environmental
+attitude J. Organ. Behav. 34 156–75
+Borenstein M, Hedges L V, Higgins J P T and Rothstein H R 2009
+Introduction to Meta-Analysis (New York: Wiley)
+∗ Bozorgparvar E, Yazdanpanah M, Forouzani M and
+Khosravipour B 2018 Cleaner and greener livestock
+production: appraising producers’ perceptions regarding
+renewable energy in Iran J. Cleaner Prod. 203 769–76
+∗ Brown K W and Kasser T 2005 Are psychological and ecological
+well-being compatible? The role of values, mindfulness, and
+lifestyle Social Indic. Res. 74 349–68
+∗ Buhl J, Liedtke C and Bienge K 2017 How much environment do
+humans need? Evidence from an integrated online user
+application linking natural resource use and subjective
+well-being in Germany Resources 6
+∗ Carrero I, Valor C and Redondo R 2020 Do all dimensions of
+sustainable consumption lead to psychological well-being?
+empirical evidence from young consumers J. Agric. Environ.
+Ethics 33 1–26
+∗ Chatelain G, Hille S L, Sander D, Patel M, Hahnel U J J and
+Brosch T 2018 Feel good, stay green: positive affect promotes
+pro-environmental behaviors and mitigates compensatory
+‘mental bookkeeping’ effects J. Environ. Psychol. 56 3–11
+∗ Choi J 2016 Sustainable behavior: study engagement and
+happiness among university students in South Korea
+Sustainability 8 599
+∗ Choi J 2018 Structural relationships among environmental
+engagement, sustainable behavior, and happiness in
+university students Opción: Revista de Ciencias Humanas y
+Sociales 15 924–40 (https://dialnet.unirioja.es/servlet/
+articulo?codigo=7377563)
+∗ Coelho F, Pereira M C, Cruz L, Simões P and Barata E 2017
+Affect and the adoption of pro-environmental behaviour: A
+structural model J. Environ. Psychol. 54 127–38
+Cohen J 1988 Statistical Power Analysis for the Behavioral Sciences
+2nd ed. edn (Hillsdale, NJ: Lawrence Erlbaum)
+Cook R D and Weisberg S 1982 Residuals and Influence in
+Regression (London: Chapman and Hall)
+∗ Corral-Verdugo V, Mireles-Acosta J F, Tapia-Fonllem C and
+Fraijo-Sing B 2011 Happiness as correlate of sustainable
+behavior: A study of pro-ecological, frugal, equitable and
+altruistic actions that promote subjective wellbeing Hum.
+Ecol. Rev. 18 95–104 2 (https://www.jstor.
+org/stable/24707465)
+∗ Dhandra T K 2019 Achieving triple dividend through
+mindfulness: more sustainable consumption, less
+unsustainable consumption and more life satisfaction Ecol.
+Econ. 161 83–90
+Diener E, Oishi S and Lucas R E 2003 Personality, culture, and
+subjective well-being: emotional and cognitive evaluations
+of life Ann. Rev. Psychol. 54 403–25
+Diener E D, Emmons R A, Larsen R J and Griffin S 1985 The
+satisfaction with life scale J. Pers. Assess. 49 71–75
+∗ Dreyer B C, Coulombe S, Whitney S, Riemer M and Labbé D
+2018 Beyond exposure to outdoor nature: exploration of the
+benefits of a green building’s indoor environment on
+wellbeing Front. Psychol. 9 1583
+Durlak J A and Lipsey M W 1991 A practitioner’s guide to
+meta-analysis Am. J. Community Psychol. 19 291–332
+Epstein A 2015 ‘97% of climate scientists agree’ is 100% wrong
+Forbes (available from: www.forbes.com/sites/
+alexepstein/2015/01/06/97-of-climate-scientists-agree-is100-wrong/)
+ESS Round 8: European Social Survey Round 8 Data 2016 Data
+file edition 2.1. (Norway: NSD - Norwegian Centre for
+Research Data, Data Archive and distributor of ESS data for
+ESS ERIC) (https://doi.org/10.21338/NSD-ESS8-2016)
+∗ Fanning A L and O’Neill D W 2019 The
+Wellbeing–Consumption paradox: happiness, health,
+income, and carbon emissions in growing versus
+non-growing economies J. Cleaner Prod. 212 810–21
+Fisher R A 1925 Statistical Methods for Research Workers
+(Edinburgh: Oliver and Boyd)
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+∗ Fröhlich G, Sellmann D and Bogner F X 2013 The influence of
+
+∗ Junot A, Paquet Y and Martin-Krumm C 2017 Passion for
+
+situational emotions on the intention for sustainable
+consumer behaviour in a student-centred intervention
+Environ. Educ. Res. 19 747–64
+∗ Frugoli P A, Almeida C M V B, Agostinho F, Giannetti B F and
+Huisingh D 2015 Can measures of well-being and progress
+help societies to achieve sustainable development? J. Cleaner
+Prod. 90 370–80
+∗ Geiger S M, Fischer D, Schrader U and Grossman P 2019
+Meditating for the planet: effects of a mindfulness-based
+intervention on sustainable consumption behaviors Environ.
+Behav. 59 1012–42
+∗ Gu D, Huang N, Zhang M and Wang F 2015 Under the dome: air
+pollution, wellbeing, and pro-environmental behaviour
+among Beijing residents J. Pac. Rim Psychol. 9 65–77
+∗ Guillen-Royo M 2019 Sustainable consumption and wellbeing:
+does on-line shopping matter? J. Cleaner Prod. 229
+1112–24
+∗ Han H, Olya H G, Kim J and Kim W 2018 Model of sustainable
+behavior: assessing cognitive, emotional and normative
+influence in the cruise context Bus. Strategy Environ.
+27 789–800
+∗ Hartmann P, Eisend M, Apaolaza V and D’Souza C 2017 Warm
+glow vs. altruistic values: how important is intrinsic
+emotional reward in proenvironmental behavior? J. Environ.
+Psychol. 52 43–55
+∗ Helm S, Serido J, Ahn S Y, Ligon V and Shim S (2019).
+Materialist values, financial and pro-environmental
+behaviors, and well-being. Young Consumers
+Hornsey M J, Harris E A, Bain P G and Fielding K S 2016
+Meta-analyses of the determinants and outcomes of belief in
+climate change Nat. Clim. Change 6 622–6
+∗ Huijts N M, Molin E J and van Wee B 2014 Hydrogen fuel
+station acceptance: A structural equation model based on
+the technology acceptance framework J. Environ. Psychol.
+38 153–66
+∗ Hunecke M and Richter N 2019 Mindfulness, construction of
+meaning, and sustainable food consumption Mindfulness
+10 446–58
+∗ Innocent M and Francois-Lecompte A 2018 The values of
+electricity saving for consumers Energy Policy 123 136–46
+IPCC 2018 Summary for Policymakers: Global Warming of 1.5◦ C.
+An IPCC Special Report on the Impacts of Global Warming of
+1.5◦ C above Pre-industrial Levels and Related Global
+Greenhouse Gas Emission Pathways, the Context of
+Strengthening the Global Response to the Threat of Climate
+Change, Sustainable Development, and Efforts to Eradicate
+Poverty ed V Masson-Delmotte, P Zhai, H-O Pörtner, D
+Roberts, J Skea, P R Shukla, A Pirani, Moufouma-Okia W, C
+Péan, R Pidcock, S Connors, J B R Matthews, Y Chen, X
+Zhou, M I Gomis, E Lonnoy, M M Tignor and T Waterfield
+(Geneva, Switzerland: World Meteorological Organization)
+1–32
+∗ Iweala S, Spiller A and Meyerding S 2019 Buy good, feel good?
+The influence of the warm glow of giving on the evaluation
+of food items with ethical claims in the UK and Germany J.
+Cleaner Prod. 215 315–28
+Jacob J, Jovic E and Brinkerhoff M B 2009 Personal and planetary
+well-being: mindfulness meditation, pro-environmental
+behavior and personal quality of life in a survey from the
+social justice and ecological sustainability movement Social
+Indic. Res. 93 275–94
+∗ Janmaimool P 2017 Investigating pro-environmental behaviors
+of well-educated people in Thailand Int. J. Sociology Social
+Policy 37 788–807 13/14
+∗ Janmaimool P and Denpaiboon C 2016 Evaluating determinants
+of rural villagers’ engagement in conservation and waste
+management behaviors based on integrated conceptual
+framework of pro-environmental behavior Life Sci. Soc.
+Policy 12 12
+∗ Junot A, Paquet Y and Fenouillet F 2018 Place attachment
+influence on human well-being and general
+pro-environmental behaviors J. Theor. Soc. Psychol. 2 49–57
+
+outdoor activities and environmental behaviors: A look at
+emotions related to passionate activities J. Environ. Psychol.
+53 177–84
+∗ Kácha O and Ruggeri K 2019 Nudging intrinsic motivation in
+environmental risk and social policy J. Risk Res. 22 581–92
+∗ Kaida N and Kaida K 2016a Facilitating pro-environmental
+behavior: the role of pessimism and anthropocentric
+environmental values Social Indic. Res. 126 1243–60
+∗ Kaida N and Kaida K 2016b Pro-environmental behavior
+correlates with present and future subjective well-being
+Environ. Dev. Sustain. 18 111–27
+∗ Kaida N and Kaida K 2019 Positive associations of
+optimism–pessimism orientation with pro-environmental
+behavior and subjective well-being: a longitudinal study on
+quality of life and everyday behavior Qual. Life Res.
+28 3323–32
+Kasser T 2017 Living both well and sustainably: a review of the
+literature, with some reflections on future research,
+interventions and policy Phil. Trans. R. Soc. A 375 20160369
+∗ Kerret D, Orkibi H and Ronen T 2016 Testing a model linking
+environmental hope and self-control with students’ positive
+emotions and environmental behavior J. Environ. Educ.
+47 307–17
+∗ Kerret D and Tal A 2018 Transforming an Environmentally
+pernicious holiday into an environmentally healthy festival:
+an intervention study of L’ag B’Omer Worldviews 22 238–62
+∗ Kitamura T, Takamatsu A, Ishii H and Shimoda H 2013 Feed-in
+tariff personal carbon allowance: a case study of
+psychological change Int. Conf. of Design, User Experience,
+and Usability pp 530–9 (Berlin, Heidelberg: Springer)
+∗ Kuanr A, Pradhan D and Chaudhuri H R 2020 I (do not)
+consume; therefore, I am: investigating materialism and
+voluntary simplicity through a moderated mediation model
+Psychol. Marketing 37 260–77
+∗ Ladhari R and Tchetgna N M 2017 Values, socially conscious
+behaviour and consumption emotions as predictors of
+Canadians’ intent to buy fair trade products Int. J. Consum.
+Stud. 41 696–705
+Lakens D 2017 Calculating and reporting effect sizes to facilitate
+cumulative science: a practical primer for t-tests and
+ANOVAs available from (https://osf.io/ixGcd/)
+∗ Lengieza M L, Swim J K and Hunt C A 2019 Effects of post-trip
+eudaimonic reflections on affect, self-transcendence and
+philanthropy Serv.Ind. J. 39 1–22
+∗ Leygue C, Ferguson E and Spence A 2017 Saving energy in the
+workplace: why, and for whom? J. Environ. Psychol. 53 50–62
+Lyubomirsky S, King L and Diener E 2005 The benefits of
+frequent positive affect: does happiness lead to success?
+Psychol. Bull. 131 803–55
+∗ Manríquez-Betanzos J C, Corral-Verdugo V, Fraijo-Sing B S and
+Tapia-Fonllem C O 2017 Influence of positive, motivational
+and time factors on water conservation behavior Quaderns
+De Psicologia 19 137
+∗ Minton E A, Jeffrey Xie H, Gurel-Atay E and Kahle L R 2018
+Greening up because of god: the relations among religion,
+sustainable consumption and subjective well-being Int. J.
+Consum. Stud. 42 655–63
+∗ Molinario E, Kruglanski A W, Bonaiuto F, Bonnes M, Cicero L,
+Fornara F and Degroot W 2019 Motivations to act for the
+protection of nature biodiversity and the environment: a
+matter of ‘significance’ Environ. Behav. 52 1133–63
+∗ Moreton S G, Arena A, Hornsey M J, Crimston C R and
+Tiliopoulos N 2019 Elevating nature: moral elevation
+increases feelings of connectedness to nature J. Environ.
+Psychol. 65
+∗ Moyano-Diaz E, Cornejo F A and Gallardo I 2011
+Environmental beliefs and behavior, economic liberalism
+and happiness Acta Colombiana De Psicología 14 69–77
+(http://ref.scielo.org/sgkdjr)
+∗ Moyano-Díaz E, Palomo-Vélez G, Olivos P and
+Sepúlveda-Fuentes J 2017 Natural and urban environments
+determining environmental beliefs and behaviours,
+
+14
+
+Environ. Res. Lett. 15 (2020) 123007
+
+S J Zawadzki et al
+
+economic thought and happiness/Ambientes naturales y
+urbanos determinan creencias y comportamientos
+ambientales, el pensamiento económico y la felicidad
+Psyecology 8 75–106
+∗ Muiños G, Suárez E, Hess S and Hernández B 2015 Frugality and
+psychological wellbeing. The role of voluntary restriction
+and the resourceful use of resources/Frugalidad y bienestar
+psicológico. El papel de la restricción voluntaria y el uso
+ingenioso de recursos Psyecology 6 169–90
+∗ Nguyen T N, Lobo A and Nguyen B K 2018 Young consumers’
+green purchase behaviour in an emerging market J. Strategic
+Marketing 26 583–600
+∗ Nguyen T N, Nguyen H V, Lobo A and Dao T S 2017
+Encouraging Vietnamese household recycling behavior:
+insights and implications Sustainability 9 179
+Noori Farzan A 2019 The latest right-wing attack on democrats:
+‘they want to take away your hamburgers’ The Washington
+Post available from (www.washingtonpost.com/
+nation/2019/03/01/latest-right-wing-attack-democratsthey-want-take-away-your-hamburgers)
+∗ Özgül E 2017 Determinants of simplicity behavior: effects on
+sustainable consumption and life satisfaction Int J. Contemp.
+Econ. Adm. Sci. 7 42–79
+∗ Rezvani Z, Jansson J and Bengtsson M 2017 Cause I’ll feel good!
+An investigation into the effects of anticipated emotions and
+personal moral norms on consumer pro-environmental
+behavior J. Promotion Manage. 23 163–83
+∗ Schmitt M T, Aknin L B, Axsen J and Shwom R L 2018
+Unpacking the relationships between pro-environmental
+behavior, life satisfaction, and perceived ecological threat
+Ecol. Econ. 143 130–40
+∗ Snell T L and Simmonds J G 2015 Mystical experiences in nature:
+comparing outcomes for psychological well-being and
+environmental behaviour Arch. Psychol. Religion 37 169–84
+∗ Song S Y and Kim Y K 2019 Doing good better: impure altruism
+in green apparel advertising Sustainability 11 57–62
+Steg L, Perlaviciute G and van der Werff E 2015 Understanding
+the human dimensions of a sustainable energy transition
+Front. Psychol. 6 805
+Steger M F, Frazier P, Oishi S and Kaler M 2006 The meaning in
+life questionnaire: assessing the presence of and search for
+meaning in life J. Couns. Psychol. 53 80
+∗ Suárez-Varela M, Guardiola J and González-Gómez F 2016 Do
+pro-environmental behaviors and awareness contribute to
+improve subjective well-being? Appl Res. Qual. Life
+11 429–44
+∗ Tapia-Fonllem C, Corral-Verdugo V, Fraijo-Sing B and
+Durón-Ramos M F 2013 Assessing sustainable behavior and
+its correlates: A measure of pro-ecological, frugal, altruistic
+and equitable actions Sustainability 5 711–23
+Taufik D, Bolderdijk J W and Steg L 2015 Acting green elicits a
+literal warm glow Nat. Clim. Change 5 37–40
+Taufik D, Bolderdijk J W and Steg L 2016 Going green? The
+relative importance of feelings over calculation in driving
+environmental intent in the Netherlands and the United
+States Energy Res. Social Sci. 22 52–62
+
+15
+
+U. N. 2016 Transforming our world: the 2030 agenda for
+sustainable development available from
+(www.undp.org/content/undp/en/home/2030-agenda-forsustainable-development.html)
+Umbach P D 2005 Getting back to the basics of survey research
+New Dir. Inst. Res. 2005 91–100
+van der Linden S 2018 Warm glow is associated with low-but not
+high-cost sustainable behaviour Nat. Sustain. 1 28–30
+van der Werff E, Steg L and Keizer K 2013 It is a moral issue: the
+relationship between environmental self-identity,
+obligation-based intrinsic motivation and
+pro-environmental behaviour Global Environ. Change
+23 1258–65
+van Valkengoed A M and Steg L 2019 Meta-analyses of factors
+motivating climate change adaptation behaviour Nat. Clim.
+Change 9 158–63
+van Zomeren M, Postmes T and Spears R 2008 Toward an
+integrative social identity model of collective action: A
+quantitative research synthesis of three socio-psychological
+perspectives Psychol. Bull. 134 504
+Venhoeven L A, Bolderdijk J W and Steg L 2013 Explaining the
+paradox: how pro-environmental behaviour can both thwart
+and foster well-being Sustainability 5 1372–86
+∗ Venhoeven L A, Bolderdijk J W and Steg L 2016 Why acting
+environmentally-friendly feels good: exploring the role of
+self-image Front. Psychol. 7 1846
+Venhoeven L A, Bolderdijk J W and Steg L 2020 Why going green
+feels good J. Environ. Psychol. 71
+∗ Verhofstadt E, Van Ootegem L, Defloor B and Bleys B 2016
+Linking individuals’ ecological footprint to their subjective
+well-being Ecol. Econ. 127 80–89
+Viechtbauer W and Cheung M W L 2010 Outlier and influence
+diagnostics for meta-analysis Res. Synth. Methods
+1 112–25
+∗ Wang E and Kang N 2019 Does life satisfaction matter for
+pro-environmental behavior? empirical evidence from china
+general social survey Qual. Quantity 53 449–69
+∗ Wang J and Wu L 2016 The impact of emotions on the intention
+of sustainable consumption choices: evidence from a big city
+in an emerging country J. Cleaner Prod. 126 325–36
+Watson D, Clark L A and Tellegen A 1988 Development and
+validation of brief measures of positive and negative affect:
+the PANAS scales J. Pers. Social Psychol. 54 1063
+∗ Wray-Lake L, Dehaan C R, Shubert J and Ryan R M 2019
+Examining links from civic engagement to daily well-being
+from a self-determination theory perspective J. Positive
+Psychol. 14 166–77
+∗ Wu Z, Chen Y, Geng L, Zhou L and Zhou K 2019 Greening in
+nostalgia? How nostalgic traveling enhances tourists’
+proenvironmental behaviour Sustain. Dev. 28 634–45
+∗ Xiao J J and Li H 2011 Sustainable consumption and life
+satisfaction Social Indic. Res. 104 323–9
+∗ Zannakis M, Molander S and Johansson L O 2019 On the
+relationship between pro-environmental behavior,
+experienced monetary costs, and psychological gains
+Sustainability 11 19
+
+

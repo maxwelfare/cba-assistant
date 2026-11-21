@@ -1,0 +1,11 @@
+{
+ "key": "resolution_2025_spending_review",
+ "citation": "Resolution Foundation (June 2025). A healthy State? Putting the 2025 Spending Review into context (30 pp.).",
+ "doi": null,
+ "url": "https://www.resolutionfoundation.org/app/uploads/2025/06/Spending-Review-2025.pdf",
+ "media_type": "application/pdf",
+ "sha256": "7fdff4e360e849cb1e516cf0301d80a56008f4057289e5d6ecf4044e0797d695",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-10T12:51:36.091399Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

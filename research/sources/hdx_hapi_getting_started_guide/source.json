@@ -1,0 +1,11 @@
+{
+  "key": "hdx_hapi_getting_started_guide",
+  "citation": "HDX HAPI Getting Started. UN OCHA Centre for Humanitarian Data.",
+  "doi": "",
+  "url": "https://hdx-hapi.readthedocs.io/en/latest/getting-started/",
+  "media_type": "text/html",
+  "sha256": "a9587a55a70a800862941ab9870aa30e7a53b7baf1ec4e788c212e2aad36b25d",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:41Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

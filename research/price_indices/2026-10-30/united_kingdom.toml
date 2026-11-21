@@ -1,0 +1,96 @@
+# United Kingdom, GDP deflator at market prices, read from HM Treasury's release on 2026-10-30.
+jurisdiction = "United Kingdom"
+
+[gdp_deflator]
+series = "GDP deflator at market prices, annual"
+publisher = "HM Treasury (data: ONS series L8GG financial year, MNF2 calendar year)"
+release = "GDP deflators at market prices, and money GDP, October 2026 (Budget)"
+release_date = "2026-10-29 (gov.uk publication stamp 2026-10-29T12:28:09+00:00); outturn as at ONS Quarterly National Accounts, 30 September 2026; forecast as OBR EFO, Budget 28 October 2026"
+page_url = "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-october-2026-budget"
+url = "https://assets.publishing.service.gov.uk/media/6ae32ab0a5c2f99e3a7b82e3/GDP_Deflators_Budget_October_2026_update.xlsx"
+file = "GDP_Deflators_Budget_October_2026_update.xlsx, sheet '28102026 deflator update', financial year column C rows 8-78 (1955-56 to 2025-26), calendar year column I"
+date_read = "2026-10-30T16:48Z"
+base_year_financial = "2025-26 = 100"
+base_year_calendar = "2025 = 100"
+unit = "index"
+quote = "GDP deflators for financial years 1955-56 to 2025-26 have been taken directly from ONS series L8GG. GDP deflators for calendar years 1955 to 2025 have been taken from ONS series MNF2."
+quote_url = "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-october-2026-budget"
+forecasts = "2026-27 to 2031-32 are shown in the file only as per cent change (index cells print '-'), so no index value is recorded for them"
+cross_check = "ONS YBGB (implied deflator, SA, index 2023 = 100, 1 dp) answered at https://www.ons.gov.uk/economy/grossdomesticproductgdp/timeseries/ybgb/pn2/data, release 2026-08-12 (2026 Q2 edition); 2024 = 103.9, 2025 = 107.7 against HMT 2025/2023 ratio 107.5 for calendar years: an earlier vintage, not the same edition"
+raw_files = ["raw/GDP_Deflators_Budget_October_2026_update.xlsx", "raw/uk_page.html", "raw/ons_ybgb.html (JSON)"]
+
+[gdp_deflator.financial_year]
+"1990-91" = 42.0032
+"1991-92" = 44.5275
+"1992-93" = 45.747
+"1993-94" = 47.0487
+"1994-95" = 47.8281
+"1995-96" = 49.3461
+"1996-97" = 51.0041
+"1997-98" = 51.0876
+"1998-99" = 51.8797
+"1999-00" = 52.5153
+"2000-01" = 52.9443
+"2001-02" = 54.0349
+"2002-03" = 55.1525
+"2003-04" = 56.48
+"2004-05" = 58.1847
+"2005-06" = 59.8047
+"2006-07" = 61.5765
+"2007-08" = 62.7943
+"2008-09" = 65.1553
+"2009-10" = 65.9715
+"2010-11" = 67.0587
+"2011-12" = 68.4164
+"2012-13" = 69.5581
+"2013-14" = 70.9258
+"2014-15" = 71.8702
+"2015-16" = 72.2622
+"2016-17" = 73.7129
+"2017-18" = 74.6091
+"2018-19" = 76.2884
+"2019-20" = 78.3047
+"2020-21" = 82.3141
+"2021-22" = 82.6648
+"2022-23" = 88.4564
+"2023-24" = 93.1026
+"2024-25" = 96.757
+"2025-26" = 100.0
+
+[gdp_deflator.calendar_year]
+1990 = 41.5478
+1991 = 44.3319
+1992 = 45.7775
+1993 = 47.1483
+1994 = 48.0194
+1995 = 49.2748
+1996 = 51.317
+1997 = 51.3092
+1998 = 52.0042
+1999 = 52.7384
+2000 = 53.2608
+2001 = 54.1657
+2002 = 55.2887
+2003 = 56.6242
+2004 = 58.1642
+2005 = 59.8523
+2006 = 61.6871
+2007 = 62.9085
+2008 = 65.005
+2009 = 66.3178
+2010 = 67.1637
+2011 = 68.7396
+2012 = 69.7531
+2013 = 71.1961
+2014 = 72.2397
+2015 = 72.6589
+2016 = 73.9044
+2017 = 74.99
+2018 = 76.4375
+2019 = 78.3418
+2020 = 82.2004
+2021 = 82.7095
+2022 = 87.4661
+2023 = 92.9927
+2024 = 96.5672
+2025 = 100.0

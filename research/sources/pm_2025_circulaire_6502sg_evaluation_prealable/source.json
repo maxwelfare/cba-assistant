@@ -1,0 +1,11 @@
+{
+ "key": "pm_2025_circulaire_6502sg_evaluation_prealable",
+ "citation": "Premier ministre (1er septembre 2025). Circulaire n° 6502/SG relative à l'évaluation préalable des textes normatifs et à la maîtrise du flux réglementaire (NOR PRMX2521132C). Copy from Ineris AIDA.",
+ "doi": null,
+ "url": "https://aida.ineris.fr/reglementation/circulaire-ndeg-6502sg-010925-relative-a-levaluation-prealable-textes-normatifs-a",
+ "media_type": "application/pdf",
+ "sha256": "78437b7c2c0ffa0561a6be887c9250e86f0a4f4f456cd9416c030108b40e7d24",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:27:32Z",
+ "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "destatis_genesis_guide",
+ "citation": "Statistisches Bundesamt (2026-06-01). GENESIS Anwenderdokumentation Webservice/API, Version 5.1.",
+ "doi": null,
+ "url": "https://genesis.destatis.de/datenbank/online/docs/GENESIS-Webservices_Einfuehrung.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f62cfb59d7fa79403952048a64f941ec0d32c5a38091bbf733b3b46eb4804ffd",
+ "licence": "Data Licence Germany - Attribution - Version 2.0 (for the data; the guide states no licence of its own)",
+ "fetched": "2026-11-09T17:27:35Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,13 @@
+{
+ "key": "dmp_2026_submission_guideline_sta",
+ "citation": "Norwegian Medical Products Agency (DMP/NOMA), Submission guidelines for Single Technology Assessment of Medicinal Products, valid from 01.01.2018, updated 06.07.2026",
+ "doi": null,
+ "url": "https://www.dmp.no/globalassets/documents/offentlig-finansiering-og-pris/dokumentasjon-til-metodevurdering/submission-guideline-july-2026.pdf",
+ "media_type": "application/pdf",
+ "sha256": "47e4ba2ab4012b8f1b792b67ef371798d2b8de5ef4d1005dd1883bc68010c90e",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34:24Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "text_chars": 143852,
+ "language": "en"
+}

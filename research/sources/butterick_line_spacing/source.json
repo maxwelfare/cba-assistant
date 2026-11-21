@@ -1,0 +1,11 @@
+{
+ "key": "butterick_line_spacing",
+ "citation": "Butterick M. Line spacing. Butterick's Practical Typography (read 2026-11-10).",
+ "doi": null,
+ "url": "https://practicaltypography.com/line-spacing.html",
+ "media_type": "text/html",
+ "sha256": "959cadeb62b3e1f5de5cc24326b6b8a182eb4ee30a0487df0915659d9a864837",
+ "licence": "not stated; free online",
+ "fetched_utc": "2026-11-10T12:51:36.058916Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

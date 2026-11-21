@@ -1,0 +1,13 @@
+{
+  "key": "dnp_2021_guia_metodologica_ain",
+  "citation": "Departamento Nacional de Planeación, Grupo de Modernización del Estado. Guía Metodológica para la Elaboración de Análisis de Impacto Normativo (AIN), Versión 2.0. Bogotá, marzo de 2021.",
+  "doi": null,
+  "url": "https://web.archive.org/web/20260129015130id_/https://colaboracion.dnp.gov.co/CDT/ModernizacionEstado/EReI/Guia_Metodologica_AIN.pdf",
+  "official_url": "https://colaboracion.dnp.gov.co/CDT/ModernizacionEstado/EReI/Guia_Metodologica_AIN.pdf",
+  "media_type": "application/pdf",
+  "sha256": "0aeeea68db4372a0d8c052034a4663cf6e525036a72dcb1c3beca6bdcfd0d5c1",
+  "licence": "not stated (© Departamento Nacional de Planeación)",
+  "fetched_utc": "2026-11-09T16:49:26Z",
+  "note": "Internet Archive raw copy (id_) of the official DNP file, snapshot 2026-01-29; official host fails TLS verification from this machine.",
+  "text_method": "pdftotext original.pdf text.txt"
+}

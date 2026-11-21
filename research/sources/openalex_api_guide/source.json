@@ -1,0 +1,11 @@
+{
+ "key": "openalex_api_guide",
+ "citation": "OpenAlex. API authentication and rate limits guide (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://developers.openalex.org/guides/authentication",
+ "media_type": "text/html",
+ "sha256": "8e6901ddcd0d4e70802b60d15a836c1f86de81b1447191d4777e4930d0ead1fb",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

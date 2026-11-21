@@ -1,0 +1,12 @@
+{
+ "key": "husereau_2022_cheers_ee",
+ "citation": "Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S (2022). Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 Explanation and Elaboration: a report of the ISPOR CHEERS II Good Practices Task Force. Value in Health 25(1):10-31.",
+ "doi": "10.1016/j.jval.2021.10.008",
+ "url": "https://wrap.warwick.ac.uk/162982/1/WRAP-Consolidated-Health-Economic-Evaluation-Reporting-Standards-%28CHEERS%29-2022-explanation-elaboration-2022.pdf",
+ "media_type": "application/pdf",
+ "sha256": "e3156f41a50cb3c170fda493e5eb9ae402073ca2b6caf521f01cd4b92bcbfc31",
+ "licence": "not stated",
+ "fetched": "2026-11-12T15:47:41Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://wrap.warwick.ac.uk/162982/1/WRAP-Consolidated-Health-Economic-Evaluation-Reporting-Standards-%28CHEERS%29-2022-explanation-elaboration-2022.pdf"
+}

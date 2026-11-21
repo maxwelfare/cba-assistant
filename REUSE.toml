@@ -1,0 +1,43 @@
+# The licence of every file, by the REUSE specification 3.3 (https://reuse.software/spec-3.3/). The policy and its
+# reasons are the shared standard standards/process/licensing.md. The last [[annotations]] table that matches a file
+# is the one used, so the tables run from the default to the exceptions. Files are classed by path, not checked one
+# by one; before a public release `reuse lint` passes and every third-party file is reviewed (the standard, 4.1).
+version = 1
+
+# Default: text (designs, research notes, briefs, READMEs, papers) under CC BY 4.0.
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "Max Welfare Inc."
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Code, tests, configuration and agent prompts: MIT.
+[[annotations]]
+path = ["**/*.py", "**/*.js", "**/*.sh", "tools/**", "gate/**", "workflows/**", "tests/**", ".claude/**", "pyproject.toml", "uv.lock", ".gitignore"]
+SPDX-FileCopyrightText = "Max Welfare Inc."
+SPDX-License-Identifier = "MIT"
+
+# Data the project made and its results: CC0 1.0.
+[[annotations]]
+path = ["cases/*/inputs.toml", "cases/*/sources.toml", "cases/*/case.toml", "cases/*/data/**", "cases/*/results/**", "cases/*/ro-crate-metadata.json", "jurisdiction_guidance/**/*.toml", "research/**/*.json", "research/**/*.jsonl", "research/**/*.csv", "research/**/*.tsv", "research/**/*.txt", "research/**/*.toml", "research/**/*.xlsx", "research/**/*.xml", "notes/**/*.jsonl", "notes/**/*.csv", "notes/**/*.tsv"]
+SPDX-FileCopyrightText = "Max Welfare Inc."
+SPDX-License-Identifier = "CC0-1.0"
+
+# Third-party: stored copies of sources, downloaded documents and extracts of others' data. "override" keeps a
+# stored page's own embedded licence tags (a web page's scripts) from being read as the licence of the copy.
+[[annotations]]
+precedence = "override"
+path = ["cases/*/sources/**", "research/**/sources/**", "research/**/*.pdf", "research/**/*.html", "research/price_indices/**/*.txt"]
+SPDX-FileCopyrightText = "The owner of each work; see its entry in the sources.toml that cites it"
+SPDX-License-Identifier = "LicenseRef-third-party"
+
+# The typeset layout's stored assets (tools/typeset_layout/assets/README.md): the Tabler icon font and its index,
+# Paweł Kuna's, under MIT (its LICENSE); the Lato fonts, under the SIL Open Font License 1.1 (its OFL.txt).
+[[annotations]]
+path = "tools/typeset_layout/assets/tabler-icons/**"
+SPDX-FileCopyrightText = "2020-2026 Paweł Kuna"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "tools/typeset_layout/assets/lato/**"
+SPDX-FileCopyrightText = "2010-2014 tyPoland Lukasz Dziedzic, with Reserved Font Name \"Lato\""
+SPDX-License-Identifier = "OFL-1.1"

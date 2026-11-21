@@ -1,0 +1,12 @@
+{
+ "key": "gayer_viscusi_2012_overriding",
+ "citation": "Gayer T, Viscusi WK (2012). Overriding consumer preferences with energy regulations. Brookings Institution article page (Mercatus Working Paper 12-21; published 2013, Journal of Regulatory Economics 43(3):248-264).",
+ "doi": null,
+ "url": "https://www.brookings.edu/articles/overriding-consumer-preferences-with-energy-regulations/",
+ "media_type": "text/html",
+ "sha256": "0494b4036d313ccaab59dc3f5293e7e34f3f66ad50ebd39f3db3eb9a9dc64da9",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:14:48Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.brookings.edu/articles/overriding-consumer-preferences-with-energy-regulations/"
+}

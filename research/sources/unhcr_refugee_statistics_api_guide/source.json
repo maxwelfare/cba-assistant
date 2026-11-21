@@ -1,0 +1,11 @@
+{
+  "key": "unhcr_refugee_statistics_api_guide",
+  "citation": "Refugee Statistics API and SDK Documentation v1.0.0. UNHCR.",
+  "doi": "",
+  "url": "https://api.unhcr.org/docs/refugee-statistics.html",
+  "media_type": "text/html",
+  "sha256": "662f9da2cff3c0a331fe84881e45d405b5186066ed25a9a309834f8505773ba4",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:41Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

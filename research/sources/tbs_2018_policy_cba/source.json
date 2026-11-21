@@ -1,0 +1,11 @@
+{
+  "key": "tbs_2018_policy_cba",
+  "citation": "Treasury Board of Canada Secretariat (page dated 2025-10-22; policy in effect 1 September 2018). Policy on Cost-Benefit Analysis.",
+  "doi": null,
+  "url": "https://www.canada.ca/en/treasury-board-secretariat/services/federal-regulatory-management/guidelines-tools/policy-cost-benefit-analysis.html",
+  "media_type": "text/html",
+  "sha256": "0e37550a72de72431f075804b4faff80503a15e5c4a55e28a0e0645ac24dc98d",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "python3 -I html2txt script (main element, tags stripped, paragraph breaks)"
+}

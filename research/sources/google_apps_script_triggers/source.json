@@ -1,0 +1,12 @@
+{
+ "key": "google_apps_script_triggers",
+ "citation": "Google, Apps Script guides: Simple triggers (developers.google.com/apps-script/guides/triggers), read 2026-11-16",
+ "doi": null,
+ "url": "https://developers.google.com/apps-script/guides/triggers",
+ "media_type": "text/html",
+ "sha256": "198c7851901face536e960384744df0aa93813ffb943e28d61d68c9aabed3e17",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:58:52Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://developers.google.com/apps-script/guides/triggers"
+}

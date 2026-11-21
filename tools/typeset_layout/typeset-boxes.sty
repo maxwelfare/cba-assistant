@@ -1,0 +1,67 @@
+% The boxes of every case document, English or CJK: typeset-common.sty and typeset-cjk.sty load it after
+% the markdown package, with its fencedDivs option on.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{typeset-boxes}
+
+% Boxes. A fenced div, a block of Markdown between a line `::: key-findings` (or `::: {.key-findings}`) and a
+% line `:::`, is set in a shaded box with a rule down its left side: key-findings (blue rule) for the answer
+% and its range, callout (amber rule, cream ground) for what a reader must not miss, worked-example (grey
+% rule) for the one unit rebuilt to the headline. Its first words in bold are its title. A box breaks across
+% a page or column if it must. A fourth class, credit, is no box: the tool's credit line (the project's
+% `notes/what_a_case_delivers.md`), set in small grey type. Any other class is refused.
+\RequirePackage{xcolor}
+\definecolor{typesetink}{HTML}{0B0B0B}
+\definecolor{typesetinksecond}{HTML}{52514E}
+\definecolor{typesetpanel}{HTML}{F4F3EF}
+\definecolor{typesetblue}{HTML}{2A78D6}
+\definecolor{typesetwarn}{HTML}{FFF4DC}
+\definecolor{typesetwarnline}{HTML}{EDA100}
+\definecolor{typesetgray}{HTML}{9A998F}
+\definecolor{typesetrule}{HTML}{E4E3DE}
+\RequirePackage[most]{tcolorbox}
+% True inside a box: a table there is never set wider than the text (typeset-common.sty, tables).
+\newif\iftypeset@inbox
+\tcbset{typesetbox/.style={enhanced jigsaw,breakable,parbox=false,boxrule=0pt,frame hidden,arc=2pt,
+  left=8pt,right=8pt,top=4pt,bottom=4pt,before skip=0.6\baselineskip,after skip=0.6\baselineskip,
+  before upper={\setlength{\parskip}{0.35\baselineskip}\typeset@inboxtrue}}}
+\newtcolorbox{typeset@box@key-findings}{typesetbox,colback=typesetpanel,borderline west={2.5pt}{0pt}{typesetblue}}
+\newtcolorbox{typeset@box@callout}{typesetbox,colback=typesetwarn,borderline west={2.5pt}{0pt}{typesetwarnline}}
+\newtcolorbox{typeset@box@worked-example}{typesetbox,colback=typesetpanel,borderline west={2.5pt}{0pt}{typesetgray}}
+\newenvironment{typeset@box@credit}{\par\addvspace{0.6\baselineskip}\footnotesize\color{typesetinksecond}}{\par}
+% A box's title, its first bold words, is set by \typesetboxtitle{ICON}{COLOUR}{TITLE} with the box's icon (a Tabler
+% name) and the colour of its rule: typeset-common.sty draws the icon before a Lato title; a layout that defines no
+% \typesetboxtitle (the CJK one) sets the title in plain bold. The credit has no icon and no title.
+\providecommand{\typesetboxtitle}[3]{\textbf{#3}}
+\@namedef{typeset@boxicon@key-findings}{{bulb}{typesetblue}}
+\@namedef{typeset@boxicon@callout}{{alert-triangle}{typesetwarnline}}
+\@namedef{typeset@boxicon@worked-example}{{calculator}{typesetgray}}
+\@namedef{typeset@boxicon@credit}{}
+\def\typeset@boxicon{}
+\def\typeset@boxclose{}
+% True inside a heading's attributes (typeset-common.sty, Headings), where a class names no box.
+\newif\iftypeset@header
+\markdownSetup{rendererPrototypes={
+  fencedDivAttributeContextBegin = {\par\begingroup\def\typeset@boxclose{}},
+  attributeClassName = {\iftypeset@header\else
+    \ifcsname typeset@box@#1\endcsname\begin{typeset@box@#1}\def\typeset@boxclose{\end{typeset@box@#1}}%
+      \expandafter\let\expandafter\typeset@boxicon\csname typeset@boxicon@#1\endcsname
+    \else\PackageError{typeset-boxes}{No box `#1': the boxes are key-findings, callout, worked-example and credit}{}\fi\fi},
+  strongEmphasis = {\ifx\typeset@boxicon\@empty\textbf{#1}\else
+    \expandafter\typesetboxtitle\typeset@boxicon{#1}\global\let\typeset@boxicon\@empty\fi},
+  fencedDivAttributeContextEnd = {\par\typeset@boxclose\endgroup\par},
+}}
+% An audience edition's colours and heading font (tools/typeset.py, theme_tex), read after the base theme above;
+% the file exists only in the build folder of a document under documents/audience/<key>/.
+\InputIfFileExists{typeset-theme.tex}{}{}
+% A notice at the head of every page, `--notice TEXT` (tools/typeset.py, notice_tex): read only when the build folder
+% holds typeset-notice.tex, it is drawn over each page once the page is set, so the text block does not move; its
+% baseline is 0.3 in from the top, inside the smallest top margin (the summary's 0.5 in). Grey, or white on the one
+% page shipped after \typesetnoticecolour is set to white (the policy paper's cover, on its blue band); the colour
+% returns to grey after each page.
+\InputIfFileExists{typeset-notice.tex}{}{}
+\ifdefined\typesetnotice
+  \def\typesetnoticecolour{typesetinksecond}
+  \AddToHook{shipout/foreground}{\put(0pt,-0.3in){\makebox[\paperwidth]{\normalfont\sffamily\fontsize{8}{9.6}%
+    \selectfont\color{\typesetnoticecolour}\typesetnotice}}\gdef\typesetnoticecolour{typesetinksecond}}
+\fi
+\endinput

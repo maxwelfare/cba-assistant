@@ -1,0 +1,12 @@
+{
+  "key": "sbb_2026_devlet_yardimlari_etki_degerlendirme_rehberi",
+  "citation": "Devlet Yardımları Etki Değerlendirme Rehberi, Devlet Yardımları Genel Müdürlüğü, Ankara 2026 (T.C. Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı)",
+  "doi": null,
+  "url": "https://www.sbb.gov.tr/wp-content/uploads/2026/01/Devlet-Yardimlari-Etki-Degerlendirme-Rehberi_06.01.2026.pdf",
+  "media_type": "application/pdf",
+  "sha256": "8fa1765492252a7c0b1f17bc8aafaa15b994387561d4f149b825af5247e249a2",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:07+00:00",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)",
+  "text_language": "Turkish, readable with diacritics"
+}

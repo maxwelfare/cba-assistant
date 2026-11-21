@@ -1,0 +1,11 @@
+{
+ "key": "oakley_2004_probabilistic",
+ "citation": "Oakley JE, O'Hagan A (2004). Probabilistic sensitivity analysis of complex models: a Bayesian approach. Journal of the Royal Statistical Society Series B 66(3):751-769.",
+ "doi": "10.1111/j.1467-9868.2004.05304.x",
+ "url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.470.6932&rep=rep1&type=pdf",
+ "media_type": "application/pdf",
+ "sha256": "3dc626efab1e4ce1fea10e594a230fda10bf5d6f5b1412d1a06c2ce2f37aa802",
+ "licence": "not stated (CiteSeerX copy of the paper; journal-typeset layout, received May 2002, revised December 2003)",
+ "fetched": "2026-11-08T01:10:01Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

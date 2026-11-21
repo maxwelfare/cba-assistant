@@ -1,0 +1,12 @@
+{
+ "key": "butterick_alternate_figures",
+ "citation": "Butterick M. Alternate figures. Butterick's Practical Typography (read 2026-11-20).",
+ "doi": null,
+ "url": "https://practicaltypography.com/alternate-figures.html",
+ "media_type": "text/html",
+ "sha256": "91f183b26886ef75b4594f86d5c7b387877a269b065b60d0abe69bc7015ffe1e",
+ "licence": "not stated; free online",
+ "fetched": "2026-11-20T21:52:25Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://practicaltypography.com/alternate-figures.html"
+}

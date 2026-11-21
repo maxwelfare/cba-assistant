@@ -1,0 +1,12 @@
+{
+ "key": "mfr_2026_cba_a_resource",
+ "citation": "Ministry for Regulation, Cost-benefit analysis: A Resource (May 2026)",
+ "doi": null,
+ "url": "https://www.regulation.govt.nz/assets/Documents/Policy-Documents-under-RSA-/Cost-benefit-analysis-A-Resource.pdf",
+ "media_type": "application/pdf",
+ "sha256": "98c04452c250959509925d86837335351cebaff49f2f5c05459f14ad15fc7c94",
+ "licence": "CC BY 3.0 NZ",
+ "fetched_utc": "2026-11-09T16:52:44+00:00",
+ "text_method": "pdftotext original.pdf text.txt",
+ "notes": ""
+}

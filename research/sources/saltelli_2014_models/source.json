@@ -1,0 +1,11 @@
+{
+ "key": "saltelli_2014_models",
+ "citation": "Saltelli A, Funtowicz S (2014). When all models are wrong. Issues in Science and Technology 30(2):79-85.",
+ "doi": null,
+ "url": "https://issues.org/andrea/",
+ "media_type": "text/html",
+ "sha256": "bdb775f78d00028eb8eccacff263140dca7a8417e70c7de3f05f5325d4b29241",
+ "licence": "not stated",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "html2txt.py (stdlib html.parser: the text of the <article> element, one paragraph per block tag, scripts and navigation dropped), run with python -I"
+}

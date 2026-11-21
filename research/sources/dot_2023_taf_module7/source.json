@@ -1,0 +1,11 @@
+{
+  "key": "dot_2023_taf_module7",
+  "citation": "Department of Transport, Strategic Research and Analysis Division (2023). Transport Appraisal Framework: Appraisal Guidelines for Capital Investments in Transport, Module 7 - Detailed Guidance on Appraisal Techniques, June 2023.",
+  "doi": null,
+  "url": "https://assets.gov.ie/260306/66dec974-288e-4c60-bc2e-826f16bf04e8.pdf",
+  "media_type": "application/pdf",
+  "sha256": "4829c979a49a61c88c66f0ba09f1ec707dd9b110a014f8b3ef48bda2730e6607",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:28:55+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

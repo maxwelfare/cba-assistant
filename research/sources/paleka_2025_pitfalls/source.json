@@ -1,0 +1,12 @@
+{
+  "key": "paleka_2025_pitfalls",
+  "citation": "Paleka D, Goel S, Geiping J, Tramèr F (2025). Pitfalls in Evaluating Language Model Forecasters. arXiv:2506.00723v1.",
+  "doi": "10.48550/arXiv.2506.00723",
+  "url": "https://arxiv.org/pdf/2506.00723",
+  "media_type": "application/pdf",
+  "sha256": "0e5d6d7a260e452688953ce3bce667b437e463e501a70bad2ac1158c5fa027aa",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:39:20Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 64102
+}

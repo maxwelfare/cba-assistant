@@ -1,0 +1,12 @@
+{
+ "key": "goodstein_1997_polluted_data",
+ "citation": "Goodstein E, Hodges H (1997). Behind the Numbers: Polluted Data (Overestimating Environmental Costs). The American Prospect, 1 November 1997; Wayback Machine copy of prospect.org.",
+ "doi": null,
+ "url": "https://web.archive.org/web/2005/http://www.prospect.org/cs/articles?article=polluted_data",
+ "media_type": "text/html",
+ "sha256": "7f72e4f2bfa5ba5f9e7e71b667ea0cfc6bca6a8df4556074684d2ef4a04ec344",
+ "licence": "not stated",
+ "fetched": "2026-11-14T09:58:47Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "copied from a file fetched in an earlier session (fetched is the file's modification time)"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "mackay_2009_without_hot_air",
+  "citation": "MacKay DJC (2009). Sustainable Energy - without the hot air. UIT Cambridge.",
+  "url": "https://www.inference.org.uk/sustainable/book/tex/sewtha.pdf",
+  "media_type": "application/pdf",
+  "sha256": "ade22462ddf3f1caa32b2f641b583db7282f95f4b6ef7501d2394a9ddb64745c",
+  "licence": "CC BY-NC-SA 2.0 UK (the book's own notice, text.txt line 252)",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 994650
+}

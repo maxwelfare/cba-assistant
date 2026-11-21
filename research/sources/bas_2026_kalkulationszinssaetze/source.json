@@ -1,0 +1,11 @@
+{
+ "key": "bas_2026_kalkulationszinssaetze",
+ "citation": "Bundesamt für Soziale Sicherung (page read 2026-11-09). Haushalts- und Rechnungswesen: table 'Kalkulationszinssätze für Wirtschaftlichkeitsuntersuchungen' listing the rate of each BMF circular (secondary relay of the BMF's rates).",
+ "doi": null,
+ "url": "https://www.bundesamtsozialesicherung.de/de/themen/alle-sozialversicherungszweige-finanzen/haushalts-und-rechnungswesen/",
+ "media_type": "text/html",
+ "sha256": "f10ccf5c871e09164a4da208176cdfe9056f2081b8a42d7fe377c4f62a5f3554",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "python -I: keep <main> element, drop script/style, tags to line breaks, unescape entities"
+}

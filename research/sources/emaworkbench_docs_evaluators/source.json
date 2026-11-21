@@ -1,0 +1,12 @@
+{
+ "key": "emaworkbench_docs_evaluators",
+ "citation": "EMA Workbench documentation: Evaluators (em_framework.evaluators), emaworkbench.readthedocs.io, latest.",
+ "doi": null,
+ "url": "https://emaworkbench.readthedocs.io/en/latest/ema_documentation/em_framework/evaluators.html",
+ "media_type": "text/html",
+ "sha256": "29d9d56f95cf8687c97bc556ebd0f109ddac6ebd323d632a1b89a1d4b3999047",
+ "licence": "BSD 3-clause (the project's software licence; documentation page, not separately stated)",
+ "fetched": "2026-11-13T12:43:04Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://emaworkbench.readthedocs.io/en/latest/ema_documentation/em_framework/evaluators.html"
+}

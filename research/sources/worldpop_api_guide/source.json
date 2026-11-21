@@ -1,0 +1,11 @@
+{
+  "key": "worldpop_api_guide",
+  "citation": "WorldPop REST API basics (WorldPop, University of Southampton; page read 2026-11-09)",
+  "doi": "",
+  "url": "https://www.worldpop.org/sdi/introapi/",
+  "media_type": "text/html",
+  "sha256": "d431cc22443c3394e37cc4e6b0bc2fe9ad11ff99eee310c5c062dd85da3b14e5",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:40:00Z",
+  "text_method": "python -I script: drop script/style/nav/header/footer, tags to text, paragraph breaks"
+}

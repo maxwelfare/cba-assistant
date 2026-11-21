@@ -1,0 +1,11 @@
+{
+ "key": "uba_2015_nutzen_kosten_gfa",
+ "citation": "Porsch L, Sutter D, Maibach M, Preiss P, Müller W (2015). Leitfaden zur Nutzen-Kosten-Abschätzung umweltrelevanter Effekte in der Gesetzesfolgenabschätzung. Umweltbundesamt, TEXTE 01/2015.",
+ "doi": null,
+ "url": "https://plattform.egesetzgebung.bund.de/egesetzgebung-platform-backend/arbeitshilfen/download/45",
+ "media_type": "application/pdf",
+ "sha256": "685970950fdca875b2eac5d9510f703abf92ad05ab9f8cfa596ea45820746476",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

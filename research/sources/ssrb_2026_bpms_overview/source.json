@@ -1,0 +1,12 @@
+{
+ "key": "ssrb_2026_bpms_overview",
+ "citation": "Spreadsheet Standards Review Board. Best Practice Spreadsheet Modeling Standards (overview page, with BPMS 1-6 on font colouring). ssrb.org/standards, Internet Archive capture of 2026-03-16 (read 2026-11-20). The full Standards (v6.1) are issued only by emailed download link and were not obtained.",
+ "doi": null,
+ "url": "https://web.archive.org/web/20260316153135id_/https://ssrb.org/standards",
+ "media_type": "text/html",
+ "sha256": "0ce083f69ea2c839f106c85ddd48cc1f030f302b4571fe676919c146fcf58c7e",
+ "licence": "not stated",
+ "fetched": "2026-11-20T21:52:49Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://web.archive.org/web/20260316153135id_/https://ssrb.org/standards"
+}

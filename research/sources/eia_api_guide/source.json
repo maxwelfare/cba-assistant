@@ -1,0 +1,11 @@
+{
+  "key": "eia_api_guide",
+  "citation": "U.S. Energy Information Administration. EIA's API Technical Documentation (APIv2), page as fetched 2026-11-09; latest patch note March 2026, v2.1.12.",
+  "doi": "",
+  "url": "https://www.eia.gov/opendata/documentation.php",
+  "media_type": "text/html",
+  "sha256": "465d5d243fa9287bb486d3e0bc97d2133d67a0f57187dfface41fddf4947d62c",
+  "licence": "U.S. government publications are in the public domain (eia.gov/about/copyrights_reuse.php)",
+  "fetched_utc": "2026-11-09T17:26:49Z",
+  "text_method": "ElementTree-free regex script: removed script/style/nav/header/footer, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

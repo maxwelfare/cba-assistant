@@ -1,0 +1,11 @@
+{
+ "key": "li_2019_cochrane_ch5",
+ "citation": "Li T, Higgins JP, Deeks JJ. Chapter 5: Collecting data [last updated October 2019]. In: Higgins JP, Thomas J, et al (eds). Cochrane Handbook for Systematic Reviews of Interventions version 6.5. Cochrane, 2024.",
+ "doi": null,
+ "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-05",
+ "media_type": "text/html",
+ "sha256": "dc72c61d0a1ceb7160605bb8a2df197a784c4ffc1fbf406f7d5a390c5735d971",
+ "licence": "not stated on the page (site footer: Copyright (c) 2026 The Cochrane Collaboration)",
+ "fetched": "2026-11-07T20:08:00Z",
+ "text_method": ".venv/bin/python -I <script> original.html text.txt (html.parser, script/style/nav/header/footer dropped)"
+}

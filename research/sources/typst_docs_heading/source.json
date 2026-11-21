@@ -1,0 +1,12 @@
+{
+ "key": "typst_docs_heading",
+ "citation": "Typst GmbH. Typst documentation: Heading (reference, model), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://typst.app/docs/reference/model/heading/",
+ "media_type": "text/html",
+ "sha256": "31f0a8898b1e0fd7426e33fc659afcbf261b286d3fae189bbb2a7bd9bdac5d8a",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:23Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://typst.app/docs/reference/model/heading/"
+}

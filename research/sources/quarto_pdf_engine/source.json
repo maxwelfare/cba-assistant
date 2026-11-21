@@ -1,0 +1,12 @@
+{
+ "key": "quarto_pdf_engine",
+ "citation": "Posit PBC. Quarto documentation: PDF engines, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://quarto.org/docs/output-formats/pdf-engine.html",
+ "media_type": "text/html",
+ "sha256": "9e5521f3d928c9bee2290b8c308f52af58f674f97c1a2228e32842c2aeaaaa7c",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:41Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://quarto.org/docs/output-formats/pdf-engine.html"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "directline_2024_in_car_tech",
+ "citation": "Direct Line (2024/2025). In-car tech that drives us mad. Direct Line magazine (table credited to Direct Line Motor Insurance 2024 survey of UK drivers).",
+ "doi": null,
+ "url": "https://www.directline.com/magazine/car-cover/in-car-tech-that-drives-us-mad",
+ "media_type": "text/html",
+ "sha256": "d6d2fff1e18ed71c67e6c19d3eff45e6c29deaf1569df95c3d3b3c2ef611e08b",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:54Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.directline.com/magazine/car-cover/in-car-tech-that-drives-us-mad"
+}

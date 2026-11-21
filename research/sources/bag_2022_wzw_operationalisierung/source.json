@@ -1,0 +1,11 @@
+{
+  "key": "bag_2022_wzw_operationalisierung",
+  "citation": "BAG (2022). Operationalisierung der Kriterien Wirksamkeit, Zweckmässigkeit und Wirtschaftlichkeit nach Art. 32 KVG, valid from 1 Sept 2022.",
+  "doi": null,
+  "url": "https://www.bag.admin.ch/dam/de/sd-web/dmmbS5sv9sve/Operationalisierung%20der%20WZW-Kriterien%20vom%2031.03.2022%2C%20g%C3%BCltig%20ab%2001.09.2022.pdf",
+  "media_type": "application/pdf",
+  "sha256": "ebfe4272f55a6c9f8396f681f5e472e7d0f691d4a6ede434ba2a842185e4de43",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:22Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

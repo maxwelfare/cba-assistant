@@ -1,0 +1,11 @@
+{
+ "key": "nice_2026_health_technology_evaluations_manual",
+ "citation": "NICE (2026). NICE health technology evaluations: the manual (PMG36), last updated 13 October 2026.",
+ "doi": null,
+ "url": "https://www.nice.org.uk/process/pmg36/resources/nice-technology-appraisal-and-highly-specialised-technologies-guidance-the-manual-pdf-72286779244741",
+ "media_type": "application/pdf",
+ "sha256": "e1838d8d5737c236d4bc25f1dab0f9ee1e4d83192cee67e530a2ee5a192edd4a",
+ "licence": "(c) NICE 2026. All rights reserved. Subject to Notice of rights",
+ "fetched_utc": "2026-11-09T16:37Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "readbatson_1999_spreadsheet_modelling_best_practice",
+ "citation": "Read N, Batson J (1999). Spreadsheet Modelling Best Practice. Business Dynamics (PricewaterhouseCoopers), published by ICAEW, April 1999.",
+ "doi": null,
+ "url": "https://emunix.emich.edu/~aross15/coursepack3419/419/excel-guides/smbp.pdf",
+ "media_type": "application/pdf",
+ "sha256": "d7943cf722a76bfef794fdc57800383b92d4abc158431b2861f71c4123318033",
+ "licence": "copyright ICAEW; copy from a university course pack; cache only",
+ "fetched": "2026-11-20T21:52:52Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://emunix.emich.edu/~aross15/coursepack3419/419/excel-guides/smbp.pdf"
+}

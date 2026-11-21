@@ -1,0 +1,1474 @@
+# The shared index of literature behind harness and process rules (tools/library.py; CORE rule 6).
+# The owner, 2026-10-31: "Keep a shared index for anything like a harness or process
+# rule, and each project keeps its own refs." Each table: citation; then link, quote (the line a rule rests on),
+# status (how it was checked) and cited_in, as known. A seat that cites a new source of this kind adds its entry.
+# Entries from the literature review of 2026-10-29 carry its citation as written; what it could not verify is its
+# section 9.
+
+[adams_2021_people]
+quote = "In eight experiments, participants missed better changes that removed something unless they were cued to consider removal, and more so under cognitive load (the review's summary, section 5)."
+citation = "Adams, G. S., Converse, B. A., Hales, A. H., Klotz, L. E. (2021). People systematically overlook subtractive changes. Nature 592, 258–261. doi:10.1038/s41586-021-03380-y"
+link = "doi:10.1038/s41586-021-03380-y"
+
+[alahmadi_2022_false]
+citation = "Alahmadi, B. A., Axon, L., Martinovic, I. (2022). 99% false positives: a qualitative study of SOC analysts' perspectives on security alarms. 31st USENIX Security Symposium. https://www.usenix.org/conference/usenixsecurity22/presentation/alahmadi"
+link = "https://www.usenix.org/conference/usenixsecurity22/presentation/alahmadi"
+
+[aleithan_2024_bench]
+citation = "Aleithan, R., et al. (2024). SWE-Bench+: enhanced coding benchmark for LLMs. arXiv:2410.06992"
+link = "arXiv:2410.06992"
+
+[alshahwan_2024_automated]
+citation = "Alshahwan, N., Harman, M., et al. (2024). Automated unit test improvement using large language models at Meta. FSE 2024 Companion (Industry). arXiv:2402.09171"
+link = "arXiv:2402.09171"
+
+[amalberti_2001_paradoxes]
+citation = "Amalberti, R. (2001). The paradoxes of almost totally safe transportation systems. Safety Science 37(2–3), 109–126. doi:10.1016/S0925-7535(00)00045-X"
+link = "doi:10.1016/S0925-7535(00)00045-X"
+
+[amodei_2016_concrete]
+citation = "Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., Mané, D. (2016). Concrete problems in AI safety. arXiv:1606.06565"
+link = "arXiv:1606.06565"
+
+[ancker_2017_effects]
+citation = "Ancker, J. S., Edwards, A., Nosal, S., Hauser, D., Mauer, E., Kaushal, R. (2017). Effects of workload, work complexity, and repeated alerts on alert fatigue in a clinical decision support system. BMC Medical Informatics and Decision Making 17, 36. doi:10.1186/s12911-017-0430-8"
+link = "doi:10.1186/s12911-017-0430-8"
+
+[anthropic_2025_claude]
+citation = "Anthropic (2025). Claude 3.7 Sonnet System Card, section 6, \"Excessive focus on passing tests\". https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf"
+link = "https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf"
+
+[asme_2018_assessing]
+citation = "ASME (2018). V&V 40-2018: Assessing Credibility of Computational Modeling through Verification and Validation: Application to Medical Devices. American Society of Mechanical Engineers."
+
+[ashbaughskaife_2008_effect]
+citation = "Ashbaugh-Skaife, H., Collins, D. W., Kinney, W. R., LaFond, R. (2008). The effect of SOX internal control deficiencies and their remediation on accrual quality. The Accounting Review 83(1), 217–250. doi:10.2308/accr.2008.83.1.217"
+link = "doi:10.2308/accr.2008.83.1.217"
+
+[bacchelli_2013_expectations]
+citation = "Bacchelli, A., Bird, C. (2013). Expectations, outcomes, and challenges of modern code review. ICSE 2013, 712–721. doi:10.1109/ICSE.2013.6606617"
+link = "doi:10.1109/ICSE.2013.6606617"
+
+[baker_2025_monitoring]
+citation = "Baker, B., Huizinga, J., Gao, L., Dou, Z., Guan, M. Y., Madry, A., Zaremba, W., Pachocki, J., Farhi, D. (2025). Monitoring reasoning models for misbehavior and the risks of promoting obfuscation. arXiv:2503.11926"
+link = "arXiv:2503.11926"
+
+[bevan_2006_measured]
+citation = "Bevan, G., Hood, C. (2006). What's measured is what matters: targets and gaming in the English public health care system. Public Administration 84(3), 517–538. doi:10.1111/j.1467-9299.2006.00600.x"
+link = "doi:10.1111/j.1467-9299.2006.00600.x"
+
+[bloom_2013_does]
+citation = "Bloom, N., Eifert, B., Mahajan, A., McKenzie, D., Roberts, J. (2013). Does management matter? Evidence from India. Quarterly Journal of Economics 128(1), 1–51. doi:10.1093/qje/qjs044"
+link = "doi:10.1093/qje/qjs044"
+
+[currency_2011_supervisory]
+citation = "Board of Governors of the Federal Reserve System and Office of the Comptroller of the Currency (2011). Supervisory Guidance on Model Risk Management (SR 11-7 / OCC 2011-12). https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm"
+link = "https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm"
+
+[bossavit_2012_leprechauns]
+citation = "Bossavit, L. (2012). The Leprechauns of Software Engineering. Leanpub (first release 2012, revised since). https://leanpub.com/leprechauns"
+link = "https://leanpub.com/leprechauns"
+
+[brosteanu_2017_risk]
+citation = "Brosteanu, O., et al. (2017). Risk-adapted monitoring is not inferior to extensive on-site monitoring: results of the ADAMON cluster-randomised study. Clinical Trials 14(6), 584–596. doi:10.1177/1740774517724165"
+link = "doi:10.1177/1740774517724165"
+
+[campbell_1979_assessing]
+citation = "Campbell, D. T. (1979). Assessing the impact of planned social change. Evaluation and Program Planning 2(1), 67–90."
+
+[chandra_1996_unreliable]
+citation = "Chandra, T. D., Toueg, S. (1996). Unreliable failure detectors for reliable distributed systems. Journal of the ACM 43(2), 225–267. doi:10.1145/226643.226647"
+link = "doi:10.1145/226643.226647"
+quote = "We characterise unreliable failure detectors in terms of two properties—completeness and accuracy."
+status = "record and abstract checked in OpenAlex (W2133943294), 2026-11-10; the paper not opened, so no copy is stored; that a timeout detector can suspect a live but slow process is recalled"
+
+[chen_2018_metamorphic]
+citation = "Chen, T. Y., Kuo, F.-C., Liu, H., Poon, P.-L., Towey, D., Tse, T. H., Zhou, Z. Q. (2018). Metamorphic testing: a review of challenges and opportunities. ACM Computing Surveys 51(1), 4. doi:10.1145/3143561"
+link = "doi:10.1145/3143561"
+
+[coates_2014_after]
+citation = "Coates, J. C., Srinivasan, S. (2014). SOX after ten years: a multidisciplinary review. Accounting Horizons 28(3), 627–671. doi:10.2308/acch-50759"
+link = "doi:10.2308/acch-50759"
+
+[coffey_2020_cumulative]
+citation = "Coffey, B., McLaughlin, P. A., Peretto, P. (2020). The cumulative cost of regulations. Review of Economic Dynamics 38, 1–21. doi:10.1016/j.red.2020.03.004"
+link = "doi:10.1016/j.red.2020.03.004"
+
+[czerwonka_2015_code]
+citation = "Czerwonka, J., Greiler, M., Tilford, J. (2015). Code reviews do not find bugs: how the current code review best practice slows us down. ICSE 2015 vol. 2, 27–28. doi:10.1109/ICSE.2015.131"
+link = "doi:10.1109/ICSE.2015.131"
+
+[degani_1993_cockpit]
+citation = "Degani, A., Wiener, E. L. (1993). Cockpit checklists: concepts, design, and use. Human Factors 35(2), 345–359. doi:10.1177/001872089303500209"
+link = "doi:10.1177/001872089303500209"
+
+[deming_1986_crisis]
+citation = "Deming, W. E. (1986). Out of the Crisis. MIT Center for Advanced Engineering Study."
+
+[denison_2024_sycophancy]
+citation = "Denison, C., MacDiarmid, M., et al. (2024). Sycophancy to subterfuge: investigating reward-tampering in large language models. arXiv:2406.10162"
+link = "arXiv:2406.10162"
+
+[dixonwoods_2011_explaining]
+citation = "Dixon-Woods, M., Bosk, C. L., Aveling, E. L., Goeschel, C. A., Pronovost, P. J. (2011). Explaining Michigan: developing an ex post theory of a quality improvement program. Milbank Quarterly 89(2), 167–205. doi:10.1111/j.1468-0009.2011.00625.x"
+link = "doi:10.1111/j.1468-0009.2011.00625.x"
+
+[forsgren_2019_accelerate]
+citation = "DORA: Forsgren, N., Smith, D., Humble, J., Frazelle, J. (2019). Accelerate: State of DevOps 2019. DORA and Google Cloud. https://dora.dev/publications/pdf/state-of-devops-2019.pdf"
+link = "https://dora.dev/publications/pdf/state-of-devops-2019.pdf"
+
+[drew_2014_insights]
+citation = "Drew, B. J., Harris, P., Zègre-Hemsey, J. K., et al. (2014). Insights into the problem of alarm fatigue with physiologic monitor devices: a comprehensive observational study of consecutive intensive care unit patients. PLoS ONE 9(10), e110274. doi:10.1371/journal.pone.0110274"
+link = "doi:10.1371/journal.pone.0110274"
+
+[duflo_2013_truth]
+citation = "Duflo, E., Greenstone, M., Pande, R., Ryan, N. (2013). Truth-telling by third-party auditors and the response of polluting firms: experimental evidence from India. Quarterly Journal of Economics 128(4), 1499–1545. doi:10.1093/qje/qjt024"
+link = "doi:10.1093/qje/qjt024"
+
+[dupuy_2000_empirical]
+citation = "Dupuy, A., Leveson, N. (2000). An empirical evaluation of the MC/DC coverage criterion on the HETE-2 satellite software. Digital Avionics Systems Conference (DASC). https://www.cs.washington.edu/homes/leveson/papers/dupuy.pdf"
+link = "https://www.cs.washington.edu/homes/leveson/papers/dupuy.pdf"
+
+[echt_1991_mortality]
+citation = "Echt, D. S., Liebson, P. R., et al. (1991). Mortality and morbidity in patients receiving encainide, flecainide, or placebo: the Cardiac Arrhythmia Suppression Trial. New England Journal of Medicine 324(12), 781–788."
+
+[fda_2023_assessing]
+citation = "FDA (2023). Assessing the Credibility of Computational Modeling and Simulation in Medical Device Submissions. Final guidance, November 2023. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-credibility-computational-modeling-and-simulation-medical-device-submissions"
+link = "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-credibility-computational-modeling-and-simulation-medical-device-submissions"
+
+[fdic_2017_adoption]
+citation = "FDIC (2017). FIL-22-2017, Adoption of Supervisory Guidance on Model Risk Management. https://www.fdic.gov/news/financial-institution-letters/2017/fil17022.pdf"
+link = "https://www.fdic.gov/news/financial-institution-letters/2017/fil17022.pdf"
+
+[felderer_2014_taxonomy]
+citation = "Felderer, M., Schieferdecker, I. (2014). A taxonomy of risk-based testing. International Journal on Software Tools for Technology Transfer 16, 559–568. arXiv:1912.11519"
+link = "arXiv:1912.11519"
+
+[fleming_1996_surrogate]
+citation = "Fleming, T. R., DeMets, D. L. (1996). Surrogate end points in clinical trials: are we being misled? Annals of Internal Medicine 125(7), 605–613. doi:10.7326/0003-4819-125-7-199610010-00011"
+link = "doi:10.7326/0003-4819-125-7-199610010-00011"
+
+[foster_2025_mutation]
+citation = "Foster, C., Gulati, A., Harman, M., et al. (2025). Mutation-guided LLM-based test generation at Meta. arXiv:2501.12862"
+link = "arXiv:2501.12862"
+
+[fucci_2017_dissection]
+citation = "Fucci, D., Erdogmus, H., Turhan, B., Oivo, M., Juristo, N. (2017). A dissection of the test-driven development process: does it really matter to test-first or to test-last? IEEE Transactions on Software Engineering (2017). arXiv:1611.05994"
+link = "arXiv:1611.05994"
+
+[gabor_2025_evilgenie]
+citation = "Gabor, J., Lynch, J., Rosenfeld, J. (2025). EvilGenie: a reward hacking benchmark. arXiv:2511.21654"
+link = "arXiv:2511.21654"
+
+[gao_2023_scaling]
+citation = "Gao, L., Schulman, J., Hilton, J. (2023). Scaling laws for reward model overoptimization. ICML 2023, PMLR 202, 10835–10866."
+
+[gao_2017_type]
+citation = "Gao, Z., Bird, C., Barr, E. T. (2017). To type or not to type: quantifying detectable bugs in JavaScript. ICSE 2017, 758–769. doi:10.1109/ICSE.2017.75"
+link = "doi:10.1109/ICSE.2017.75"
+
+[gao_2014_standards]
+citation = "GAO (2014). Standards for Internal Control in the Federal Government (GAO-14-704G, the \"Green Book\"). https://www.gao.gov/products/GAO-14-704G"
+link = "https://www.gao.gov/products/GAO-14-704G"
+
+[gay_2015_risks]
+citation = "Gay, G., Staats, M., Whalen, M., Heimdahl, M. P. E. (2015). The risks of coverage-directed test case generation. IEEE Transactions on Software Engineering 41(8), 803–819. doi:10.1109/TSE.2015.2421011"
+link = "doi:10.1109/TSE.2015.2421011"
+
+[gersen_2007_temporary]
+citation = "Gersen, J. E. (2007). Temporary legislation. University of Chicago Law Review 74, 247."
+
+[goodhart_1975_problems]
+citation = "Goodhart, C. A. E. (1975). Problems of monetary management: the U.K. experience. Reserve Bank of Australia conference, published in Papers in Monetary Economics (1976); reprinted in Goodhart, Monetary Theory and Practice (Macmillan, 1984), ch. 4. doi:10.1007/978-1-349-17295-5_4"
+link = "doi:10.1007/978-1-349-17295-5_4"
+
+[gopinath_2014_code]
+citation = "Gopinath, R., Jensen, C., Groce, A. (2014). Code coverage for suite evaluation by developers. ICSE 2014, 72–82. doi:10.1145/2568225.2568278"
+link = "doi:10.1145/2568225.2568278"
+
+[hancom_2018_hwp]
+citation = "Hancom Inc. (2018). 한글 문서 파일 형식 5.0 (HWP document file format 5.0), revision 1.3. Published on hancom.com."
+link = "https://www.hancom.com/etc/hwpDownload.do"
+status = "recalled, not opened; no stored copy"
+
+[hansen_1996_empirical]
+citation = "Hansen, L. P., Heckman, J. J. (1996). The empirical foundations of calibration. Journal of Economic Perspectives 10(1), 87–104. doi:10.1257/jep.10.1.87"
+link = "doi:10.1257/jep.10.1.87"
+
+[hatton_1997_experiments]
+citation = "Hatton, L. (1997). The T experiments: errors in scientific software. IEEE Computational Science and Engineering 4(2), 27–38. doi:10.1109/99.609829"
+link = "doi:10.1109/99.609829"
+
+[haugen_2015_effect]
+citation = "Haugen, A. S., Søfteland, E., et al. (2015). Effect of the World Health Organization checklist on patient outcomes: a stepped wedge cluster randomized controlled trial. Annals of Surgery 261(5), 821–828."
+
+[haynes_2009_surgical]
+citation = "Haynes, A. B., Weiser, T. G., Berry, W. R., et al. (2009). A surgical safety checklist to reduce morbidity and mortality in a global population. New England Journal of Medicine 360(5), 491–499. doi:10.1056/NEJMsa0810119"
+link = "doi:10.1056/NEJMsa0810119"
+
+[herndon_2014_does]
+citation = "Herndon, T., Ash, M., Pollin, R. (2014). Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff. Cambridge Journal of Economics 38(2), 257–279."
+
+[holmstrom_1991_multitask]
+citation = "Holmström, B., Milgrom, P. (1991). Multitask principal-agent analyses: incentive contracts, asset ownership, and job design. Journal of Law, Economics, and Organization 7 (special issue), 24–52."
+
+[howard_1966_information]
+citation = "Howard, R. A. (1966). Information value theory. IEEE Transactions on Systems Science and Cybernetics 2(1). doi:10.1109/TSSC.1966.300074"
+link = "doi:10.1109/TSSC.1966.300074"
+
+[huang_2024_large]
+citation = "Huang, J., Chen, X., Mishra, S., et al. (2024). Large language models cannot self-correct reasoning yet. ICLR 2024. arXiv:2310.01798"
+link = "arXiv:2310.01798"
+
+[iliev_2010_effect]
+citation = "Iliev, P. (2010). The effect of SOX Section 404: costs, earnings quality, and stock prices. Journal of Finance 65(3), 1163–1196. doi:10.1111/j.1540-6261.2010.01564.x"
+link = "doi:10.1111/j.1540-6261.2010.01564.x"
+
+[inozemtseva_2014_coverage]
+citation = "Inozemtseva, L., Holmes, R. (2014). Coverage is not strongly correlated with test suite effectiveness. ICSE 2014, 435–445. doi:10.1145/2568225.2568271"
+link = "doi:10.1145/2568225.2568271"
+
+[jacob_2003_rotten]
+citation = "Jacob, B. A., Levitt, S. D. (2003). Rotten apples: an investigation of the prevalence and predictors of teacher cheating. Quarterly Journal of Economics 118(3), 843–877."
+
+[just_2014_mutants]
+citation = "Just, R., Jalali, D., Inozemtseva, L., Ernst, M. D., Holmes, R., Fraser, G. (2014). Are mutants a valid substitute for real faults in software testing? FSE 2014, 654–665. doi:10.1145/2635868.2635929"
+link = "doi:10.1145/2635868.2635929"
+
+[kamei_2013_large]
+citation = "Kamei, Y., Shihab, E., Adams, B., Hassan, A. E., Mockus, A., Sinha, A., Ubayashi, N. (2013). A large-scale empirical study of just-in-time quality assurance. IEEE Transactions on Software Engineering 39(6), 757–773. doi:10.1109/TSE.2012.70"
+link = "doi:10.1109/TSE.2012.70"
+
+[kanewala_2014_testing]
+citation = "Kanewala, U., Bieman, J. M. (2014). Testing scientific software: a systematic literature review. Information and Software Technology 56(10), 1219–1232. arXiv:1804.01954"
+link = "arXiv:1804.01954"
+
+[kemerer_2009_impact]
+citation = "Kemerer, C. F., Paulk, M. C. (2009). The impact of design and code reviews on software quality: an empirical study based on PSP data. IEEE Transactions on Software Engineering 35(4), 534–550. doi:10.1109/TSE.2009.27"
+link = "doi:10.1109/TSE.2009.27"
+
+[kerr_1975_folly]
+citation = "Kerr, S. (1975). On the folly of rewarding A, while hoping for B. Academy of Management Journal 18(4), 769–783."
+
+[klatte_2021_monitoring]
+citation = "Klatte, K., Pauli-Magnus, C., et al. (2021). Monitoring strategies for clinical intervention studies. Cochrane Database of Systematic Reviews, MR000051.pub2. doi:10.1002/14651858.MR000051.pub2"
+link = "doi:10.1002/14651858.MR000051.pub2"
+
+[kochhar_2015_code]
+citation = "Kochhar, P. S., Thung, F., Lo, D. (2015). Code coverage and test suite effectiveness: empirical study with real bugs in large systems. SANER 2015, 560–564. doi:10.1109/SANER.2015.7081877"
+link = "doi:10.1109/SANER.2015.7081877"
+
+[labuschagne_2017_measuring]
+citation = "Labuschagne, A., Inozemtseva, L., Holmes, R. (2017). Measuring the cost of regression testing in practice: a study of Java projects using continuous integration. ESEC/FSE 2017, 821–830. doi:10.1145/3106237.3106288"
+link = "doi:10.1145/3106237.3106288"
+
+[liu_2023_your]
+citation = "Liu, J., Xia, C. S., Wang, Y., Zhang, L. (2023). Is your code generated by ChatGPT really correct? Rigorous evaluation of large language models for code generation. NeurIPS 2023. arXiv:2305.01210"
+link = "arXiv:2305.01210"
+
+[macdiarmid_2025_natural]
+citation = "MacDiarmid, M., Hubinger, E., et al. (2025). Natural emergent misalignment from reward hacking in production RL. arXiv:2511.18397"
+link = "arXiv:2511.18397"
+
+[machalica_2019_predictive]
+citation = "Machalica, M., Samylkin, A., Porth, M., Chandra, S. (2019). Predictive test selection. ICSE-SEIP 2019. arXiv:1810.05286"
+link = "arXiv:1810.05286"
+
+[mandel_2013_regulatory]
+citation = "Mandel, M., Carew, D. G. (2013). Regulatory Improvement Commission: A Politically-Viable Approach to U.S. Regulatory Reform. Progressive Policy Institute."
+
+[manheim_2018_categorizing]
+citation = "Manheim, D., Garrabrant, S. (2018). Categorizing variants of Goodhart's Law. arXiv:1803.04585"
+link = "arXiv:1803.04585"
+
+[mantyla_2009_types]
+citation = "Mäntylä, M. V., Lassenius, C. (2009). What types of defects are really discovered in code reviews? IEEE Transactions on Software Engineering 35(3), 430–448."
+
+[march_2000_dynamics]
+citation = "March, J. G., Schulz, M., Zhou, X. (2000). The Dynamics of Rules: Change in Written Organizational Codes. Stanford University Press."
+
+[mcintosh_2016_empirical]
+citation = "McIntosh, S., Kamei, Y., Adams, B., Hassan, A. E. (2016). An empirical study of the impact of modern code review practices on software quality. Empirical Software Engineering 21(5), 2146–2189. doi:10.1007/s10664-015-9381-9"
+link = "doi:10.1007/s10664-015-9381-9"
+
+[memon_2017_taming]
+citation = "Memon, A., Gao, Z., Nguyen, B., Dhanda, S., Nickell, E., Siemborski, R., Micco, J. (2017). Taming Google-scale continuous testing. ICSE-SEIP 2017, 233–242. doi:10.1109/ICSE-SEIP.2017.16"
+link = "doi:10.1109/ICSE-SEIP.2017.16"
+
+[menzies_2017_delayed]
+citation = "Menzies, T., Nichols, W., Shull, F., Layman, L. (2017). Are delayed issues harder to resolve? Revisiting cost-to-fix of defects throughout the lifecycle. Empirical Software Engineering 22(4), 1903–1935. doi:10.1007/s10664-016-9469-x"
+link = "doi:10.1007/s10664-016-9469-x"
+
+[meyer_1977_institutionalized]
+citation = "Meyer, J. W., Rowan, B. (1977). Institutionalized organizations: formal structure as myth and ceremony. American Journal of Sociology 83(2), 340–363."
+
+[metr_2025a_recent]
+citation = "METR (2025a). Recent frontier models are reward hacking. Blog post, 5 June 2025. https://metr.org/blog/2025-06-05-recent-reward-hacking ; METR (2025b). Details about METR's preliminary evaluation of OpenAI's o3 and o4-mini. https://evaluations.metr.org/openai-o3-report"
+link = "https://metr.org/blog/2025-06-05-recent-reward-hacking"
+status = "2025a read whole, 2026-11-05: its own rates, for an earlier o3, are HCAST 8 of 1,087 runs (0.7%) and RE-Bench 39 of 128 (30.4%)"
+
+[micco_2016_flaky]
+citation = "Micco, J. (2016). Flaky tests at Google and how we mitigate them. Google Testing Blog, 27 May 2016. https://testing.googleblog.com/2016/05/"
+link = "https://testing.googleblog.com/2016/05/"
+
+[microsoft_mscfb]
+citation = "Microsoft. [MS-CFB]: Compound File Binary File Format. Open Specifications."
+link = "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/"
+status = "recalled, not opened; no stored copy"
+
+[mockus_2000_predicting]
+citation = "Mockus, A., Weiss, D. M. (2000). Predicting risk of software changes. Bell Labs Technical Journal 5(2), 169–180. doi:10.1002/bltj.2229"
+link = "doi:10.1002/bltj.2229"
+
+[nasa_2024_nasa]
+citation = "NASA (2024). NASA-STD-7009B, Standard for Models and Simulations. https://standards.nasa.gov/sites/default/files/standards/NASA/B/1/NASA-STD-7009B-Final-3-5-2024.pdf"
+link = "https://standards.nasa.gov/sites/default/files/standards/NASA/B/1/NASA-STD-7009B-Final-3-5-2024.pdf"
+
+[olken_2007_monitoring]
+citation = "Olken, B. A. (2007). Monitoring corruption: evidence from a field experiment in Indonesia. Journal of Political Economy 115(2), 200–249."
+
+[oreskes_1994_verification]
+citation = "Oreskes, N., Shrader-Frechette, K., Belitz, K. (1994). Verification, validation, and confirmation of numerical models in the earth sciences. Science 263(5147), 641–646. doi:10.1126/science.263.5147.641"
+link = "doi:10.1126/science.263.5147.641"
+
+[pan_2022_effects]
+citation = "Pan, A., Bhatia, K., Steinhardt, J. (2022). The effects of reward misspecification: mapping and mitigating misaligned models. ICLR 2022. arXiv:2201.03544"
+link = "arXiv:2201.03544"
+
+[papadakis_1985_deming]
+citation = "Papadakis, E. P. (1985). The Deming inspection criterion for choosing zero or 100 percent inspection. Journal of Quality Technology 17(3), 121–127. doi:10.1080/00224065.1985.11978950"
+link = "doi:10.1080/00224065.1985.11978950"
+
+[paterno_2009_tiering]
+citation = "Paterno, M. D., Maviglia, S. M., Gorman, P. N., Seger, D. L., Yoshida, E., Seger, A. C., Bates, D. W., Gandhi, T. K. (2009). Tiering drug–drug interaction alerts by severity increases compliance rates. JAMIA 16(1), 40–46. doi:10.1197/jamia.M2808"
+link = "doi:10.1197/jamia.M2808"
+
+[pcaob_2007_auditing]
+citation = "PCAOB (2007). Auditing Standard No. 5: An Audit of Internal Control Over Financial Reporting That Is Integrated with an Audit of Financial Statements. Public Company Accounting Oversight Board."
+
+[perry_2023_users]
+citation = "Perry, N., Srivastava, M., Kumar, D., Boneh, D. (2023). Do users write more insecure code with AI assistants? ACM CCS 2023. doi:10.1145/3576915.3623157"
+link = "doi:10.1145/3576915.3623157"
+
+[petrovic_2021_does]
+citation = "Petrović, G., Ivanković, M., Fraser, G., Just, R. (2021). Does mutation testing improve testing practices? ICSE 2021, 910–921. arXiv:2103.07189"
+link = "arXiv:2103.07189"
+
+[porter_1997_experiment]
+citation = "Porter, A. A., Siy, H. P., Toman, C. A., Votta, L. G. (1997). An experiment to assess the cost-benefits of code inspections in large scale software development. IEEE Transactions on Software Engineering 23(6), 329–346."
+
+[power_1997_audit]
+citation = "Power, M. (1997). The Audit Society: Rituals of Verification. Oxford University Press."
+
+[pronovost_2006_intervention]
+citation = "Pronovost, P., Needham, D., Berenholtz, S., et al. (2006). An intervention to decrease catheter-related bloodstream infections in the ICU. New England Journal of Medicine 355(26), 2725–2732. doi:10.1056/NEJMoa061115"
+link = "doi:10.1056/NEJMoa061115"
+
+[rae_2018_safety]
+citation = "Rae, A. J., Provan, D. J., Weber, D. E., Dekker, S. W. A. (2018). Safety clutter: the accumulation and persistence of \"safety\" work that does not contribute to operational safety. Policy and Practice in Health and Safety 16(2), 194–211. doi:10.1080/14773996.2018.1491147"
+link = "doi:10.1080/14773996.2018.1491147"
+
+[rafique_2013_effects]
+citation = "Rafique, Y., Mišić, V. B. (2013). The effects of test-driven development on external quality and productivity: a meta-analysis. IEEE Transactions on Software Engineering 39(6), 835–856. doi:10.1109/TSE.2012.28"
+link = "doi:10.1109/TSE.2012.28"
+
+[ridgway_1956_dysfunctional]
+citation = "Ridgway, V. F. (1956). Dysfunctional consequences of performance measurements. Administrative Science Quarterly 1(2), 240–247. doi:10.2307/2390989"
+link = "doi:10.2307/2390989"
+
+[rtca_2011_software]
+citation = "RTCA (2011). DO-178C: Software Considerations in Airborne Systems and Equipment Certification. RTCA, Inc."
+
+[sadowski_2015_tricorder]
+citation = "Sadowski, C., van Gogh, J., Jaspan, C., Söderberg, E., Winter, C. (2015). Tricorder: building a program analysis ecosystem. ICSE 2015, 598–608."
+
+[sadowski_2018_modern]
+citation = "Sadowski, C., Söderberg, E., Church, L., Sipko, M., Bacchelli, A. (2018). Modern code review: a case study at Google. ICSE-SEIP 2018, 181–190. doi:10.1145/3183519.3183525"
+link = "doi:10.1145/3183519.3183525"
+
+[sadowski_2018b_lessons]
+citation = "Sadowski, C., Aftandilian, E., Eagle, A., Miller-Cushon, L., Jaspan, C. (2018b). Lessons from building static analysis tools at Google. Communications of the ACM 61(4), 58–66."
+
+[sagan_2004_problem]
+citation = "Sagan, S. D. (2004). The problem of redundancy problem: why more nuclear security forces may produce less nuclear security. Risk Analysis 24(4), 935–946. doi:10.1111/j.0272-4332.2004.00495.x"
+link = "doi:10.1111/j.0272-4332.2004.00495.x"
+
+[sargent_2013_verification]
+citation = "Sargent, R. G. (2013). Verification and validation of simulation models. Journal of Simulation 7(1), 12–24. doi:10.1057/jos.2012.20"
+link = "doi:10.1057/jos.2012.20"
+
+[schulz_1998_limits]
+citation = "Schulz, M. (1998). Limits to bureaucratic growth: the density dependence of organizational rule births. Administrative Science Quarterly 43(4), 845–876."
+
+[shingo_1986_zero]
+citation = "Shingo, S. (1986). Zero Quality Control: Source Inspection and the Poka-Yoke System. Productivity Press."
+
+[skalse_2022_defining]
+citation = "Skalse, J., Howe, N., Krasheninnikov, D., Krueger, D. (2022). Defining and characterizing reward hacking (proceedings title: \"reward gaming\"). NeurIPS 2022. arXiv:2209.13085"
+link = "arXiv:2209.13085"
+
+[smith_1995_unintended]
+citation = "Smith, P. (1995). On the unintended consequences of publishing performance data in the public sector. International Journal of Public Administration 18, 277–310. doi:10.1080/01900699508525011"
+link = "doi:10.1080/01900699508525011"
+
+[stenning_2018_triggered]
+citation = "Stenning, S. P., et al. (2018). Triggered or routine site monitoring visits for randomised controlled trials: results of TEMPER, a prospective, matched-pair study. Clinical Trials 15(6), 600–609. doi:10.1177/1740774518793379"
+link = "doi:10.1177/1740774518793379"
+
+[strathern_1997_improving]
+citation = "Strathern, M. (1997). \"Improving ratings\": audit in the British University system. European Review 5(3), 305–321."
+
+[commission_nd_impact]
+citation = "Texas Sunset Advisory Commission (n.d.). Impact of Sunset reviews. https://www.sunset.texas.gov/how-sunset-works/impact-sunset-reviews"
+link = "https://www.sunset.texas.gov/how-sunset-works/impact-sunset-reviews"
+
+[urbach_2014_introduction]
+citation = "Urbach, D. R., Govindarajan, A., Saskin, R., Wilton, A. S., Baxter, N. N. (2014). Introduction of surgical safety checklists in Ontario, Canada. New England Journal of Medicine 370, 1029–1038. doi:10.1056/NEJMsa1308261"
+link = "doi:10.1056/NEJMsa1308261"
+
+[sijs_2006_overriding]
+citation = "van der Sijs, H., Aarts, J., Vulto, A., Berg, M. (2006). Overriding of drug safety alerts in computerized physician order entry. JAMIA 13(2), 138–147. doi:10.1197/jamia.M1809"
+link = "doi:10.1197/jamia.M1809"
+
+[vasilescu_2015_quality]
+citation = "Vasilescu, B., Yu, Y., Wang, H., Devanbu, P., Filkov, V. (2015). Quality and productivity outcomes relating to continuous integration in GitHub. ESEC/FSE 2015, 805–816. doi:10.1145/2786805.2786850"
+link = "doi:10.1145/2786805.2786850"
+
+[wang_2025_solved]
+citation = "Wang, Y., Pradel, M., Liu, Z. (2025). Are \"solved issues\" in SWE-bench really solved correctly? An empirical study. arXiv:2503.15223 (accepted at ICSE 2026)."
+link = "arXiv:2503.15223"
+
+[wilson_1968_principles]
+citation = "Wilson, J. M. G., Jungner, G. (1968). Principles and Practice of Screening for Disease. Public Health Papers 34. World Health Organization."
+
+[yoo_2012_regression]
+citation = "Yoo, S., Harman, M. (2012). Regression testing minimization, selection and prioritization: a survey. Software Testing, Verification and Reliability 22(2), 67–120. doi:10.1002/stvr.430"
+link = "doi:10.1002/stvr.430"
+
+[zhong_2025_impossiblebench]
+citation = "Zhong, Z., Raghunathan, A., Carlini, N. (2025). ImpossibleBench: measuring LLMs' propensity of exploiting test cases. arXiv:2510.20270"
+link = "arXiv:2510.20270"
+
+[gause_weinberg_1989_exploring]
+citation = "Gause, D. C., Weinberg, G. M. (1989). Exploring Requirements: Quality Before Design. Dorset House."
+link = "https://argondigital.com/blog/product-management/the-art-and-science-of-disambiguation"
+quote = "Section 9.3, the \"Mary had a little lamb\" heuristic: stress each word of a statement in turn to bring out its readings."
+status = "section confirmed from the book's contents, 2026-10-31; the procedure from secondary sources"
+
+[wynne_2015_example_mapping]
+citation = "Wynne, M. (2015). Introducing Example Mapping. Cucumber blog, 8 December 2015."
+link = "https://cucumber.io/blog/example-mapping-introduction"
+quote = "Rules, the examples that illustrate them and the questions nobody can answer go on separate cards."
+status = "read, 2026-10-31"
+
+[adzic_2011_specification]
+citation = "Adzic, G. (2011). Specification by Example. Manning."
+link = "https://oreilly.com/library/view/specification-by-example/9781617290084"
+status = "the book confirmed; the paraphrase \"examples illustrate a rule, never the rule\" not found, so not cited"
+
+[ousterhout_2018_philosophy]
+citation = "Ousterhout, J. (2018). A Philosophy of Software Design. Yaknyam Press."
+quote = "Complexity is anything in a system's structure that makes it hard to understand and modify; its causes are dependencies and obscurity."
+status = "recalled"
+
+[brooks_1986_silver]
+citation = "Brooks, F. P. (1986). No Silver Bullet: Essence and Accidents of Software Engineering. Proceedings of IFIP Tenth World Computing Conference; reprinted in IEEE Computer 20(4), 10-19, 1987."
+quote = "Essential complexity belongs to the problem; accidental complexity to how it is solved."
+status = "recalled"
+
+[raymond_2003_representation]
+citation = "Raymond, E. S. (2003). The Art of Unix Programming, chapter 1, the Rule of Representation. Addison-Wesley."
+link = "http://catb.org/~esr/writings/taoup/html/ch01s06.html"
+quote = "Fold knowledge into data so program logic can be stupid and robust."
+status = "quoted from an index that stores the page"
+
+[perrow_1984_normal]
+citation = "Perrow, C. (1984). Normal Accidents: Living with High-Risk Technologies. Basic Books."
+quote = "System accidents come from interactive complexity and tight coupling, not from size."
+status = "recalled"
+
+[puy_2022_effective]
+citation = "Puy, A., Beneventano, P., Levin, S. A., Lo Piano, S., Portaluri, T., Saltelli, A. (2022). Models with higher effective dimensions tend to produce more uncertain estimates. Science Advances 8(42), eabn9450."
+link = "https://collaborate.princeton.edu/en/publications/models-with-higher-effective-dimensions-tend-to-produce-more-unce/"
+quote = "Adding detail raises a model's effective dimensions (the influential parameters and the weight of high-order interactions), which makes its estimates fuzzier."
+status = "abstract and press coverage read by search, 2026-10-31"
+
+[klotz_2021_subtract]
+citation = "Klotz, L. (2021). Subtract: The Untapped Science of Less. Flatiron Books."
+status = "recalled"
+
+[ohno_1988_toyota]
+citation = "Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Productivity Press."
+quote = "Waiting, over-processing and work in progress are waste."
+status = "recalled"
+
+[womack_1996_lean]
+citation = "Womack, J. P., Jones, D. T. (1996). Lean Thinking. Simon & Schuster."
+status = "recalled"
+
+[reinertsen_2009_principles]
+citation = "Reinertsen, D. G. (2009). The Principles of Product Development Flow. Celeritas."
+quote = "Price the delay a step adds; queues are the largest hidden cost of development."
+status = "recalled | 2026-11-21: book text not found free. Author's own restatement of the holding-cost versus transaction-cost tradeoff stored as reinertsen_2012_one_piece_flow; it is not the book."
+
+[goldratt_1984_goal]
+citation = "Goldratt, E. M. (1984). The Goal. North River Press."
+status = "recalled"
+
+[gall_1975_systemantics]
+citation = "Gall, J. (1975). Systemantics: How Systems Work and Especially How They Fail. Quadrangle."
+quote = "A complex system that works is invariably found to have evolved from a simple system that worked."
+status = "recalled"
+
+[beck_1999_extreme]
+citation = "Beck, K. (1999). Extreme Programming Explained. Addison-Wesley."
+quote = "You aren't gonna need it."
+status = "recalled"
+
+[sunstein_2021_sludge]
+citation = "Sunstein, C. R. (2021). Sludge: What Stops Us from Getting Things Done and What to Do about It. MIT Press."
+status = "recalled"
+
+[herd_2018_administrative]
+citation = "Herd, P., Moynihan, D. P. (2018). Administrative Burden: Policymaking by Other Means. Russell Sage Foundation."
+status = "recalled"
+
+[nygard_2011_documenting]
+citation = "Nygard, M. (2011). Documenting architecture decisions. Cognitect blog, 15 November 2011. https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+link = "https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions"
+status = "recalled, not checked against the page (an earlier session, 2026-10-31)"
+
+[weber_2000_active]
+quote = "Most LL repositories are passive standalone systems and assume that decision makers requiring LL knowledge (1) have the time to search for appropriate lessons, (2) know where to find them"
+citation = "Weber, R., Aha, D. W., et al. (2000). FLAIRS-2000 paper 033, on active delivery of lessons learned. https://cdn.aaai.org/FLAIRS/2000/FLAIRS00-033.pdf"
+link = "https://cdn.aaai.org/FLAIRS/2000/FLAIRS00-033.pdf"
+status = "quote from a search extract, 2026-10-31; title and full author list not checked"
+
+[weber_2001_intelligent]
+citation = "Weber, R., Aha, D. W., Becerra-Fernandez, I. (2001). Intelligent lessons learned systems. Expert Systems with Applications 20(1), 17–34."
+link = "https://dblp.dagstuhl.de/rec/journals/eswa/WeberAB01.html"
+status = "bibliographic record found 2026-10-31; text not read"
+
+[gao_2020_cost]
+citation = "GAO (March 2020). GAO Cost Estimating and Assessment Guide. GAO-20-195G."
+link = "https://www.gao.gov/products/GAO-20-195G"
+status = "a twelve-step process, each step leaving documentation; judged on four characteristics: comprehensive, well documented, accurate, credible (the pipeline's reading); as cited, not opened this session"
+
+[aea_data_code_policy]
+citation = "American Economic Association. Data and Code Availability Policy, and its template README for replication packages."
+status = "from memory; to be cited from the page"
+
+[hmt_2025_aqua]
+citation = "HM Treasury and the Government Analysis Function (2025). The AQuA Book, 2nd edition."
+quote = "The roles of analyst and assurer shall be distinct (5.1); the scoping or design phase will need to be revisited (5.2.3); change and version control logs (9.3)"
+status = "as cited, with section numbers"
+
+[semver_2_0_0]
+citation = "Semantic Versioning 2.0.0 (semver.org)."
+link = "https://semver.org"
+status = "as cited; not opened this session"
+
+[sae_2019_eia649c]
+citation = "SAE EIA-649C (2019), the US national consensus standard for configuration management, with the Defense Department's handbook on it, MIL-HDBK-61B, chapter 6; and MIL-STD-973 (government concurrence in a contractor's Class II classing)."
+quote = "is not authorized to proceed with the implementation of the proposed change"
+status = "secondary (AcqNotes; the Air Force's SMC-T-007); MIL-STD-973 recalled"
+
+[iso_2017_10007]
+citation = "ISO 10007:2017. Quality management: guidelines for configuration management (clauses 4.2, 5.3.3, 5.4.2 to 5.4.5, 5.5)."
+quote = "has been properly documented and categorized"
+status = "wording read in the 2003 edition's sample, whose clause 4.2 has the same heading in 2017"
+
+[iso_2015_9001]
+citation = "ISO 9001:2015 (clauses 8.3.6, 8.7, 10.2)."
+status = "secondary and recalled; a sixth edition of 2026 is reported and its numbering was not checked"
+
+[iso_2016_13485]
+citation = "ISO 13485:2016 (clause 7.3.9); incorporated into the FDA's Quality Management System Regulation, 21 CFR 820, from 2 February 2026."
+status = "recalled"
+
+[fagan_1976_design]
+citation = "Fagan, M. E. (1976). Design and code inspections to reduce errors in program development. IBM Systems Journal 15(3), 182-211. doi:10.1147/sj.153.0182"
+link = "https://doi.org/10.1147/sj.153.0182"
+quote = "All errors or problems noted in the inspection report are resolved by the designer or coder/implementor (operation 4, Rework). If more than five percent of the material has been reworked, the team should reconvene and carry out a 100 percent reinspection (operation 5, Follow-Up). The inspections' error detection efficiency was 82 percent (Table 1, one project's design and code inspections)."
+status = "read 2026-11-05 in the scanned copy at https://www.ida.liu.se/~TDDC90/labs/lab-papers/fagan76.pdf; title, issue and DOI confirmed by Crossref"
+
+[chillarege_1992_orthogonal]
+citation = "Chillarege et al. (1992). Orthogonal Defect Classification. IEEE Transactions on Software Engineering 18:943-956."
+quote = "rely on the intuition of the programmer to directly map defects to process stages"
+status = "as cited with the quotation; the full author list and title are not given"
+
+[iso_2023_15288]
+citation = "ISO/IEC/IEEE 15288:2023 (3.17 note 1)."
+quote = "An incident is elevated and treated as a problem when the cause of the incident needs to be analysed and corrected to prevent reoccurrence"
+status = "as cited with the quotation"
+
+[cmmi_dev_1_3]
+citation = "CMMI for Development, version 1.3 (Software Engineering Institute), PPQA SP 2.1."
+status = "as cited; not opened this session"
+
+[iso_2015_9000]
+citation = "ISO 9000:2015 (3.12.8, deviation permit)."
+status = "recalled"
+
+[mod_jsp_945]
+citation = "UK Ministry of Defence. JSP 945, Part 2 (4.10): a major change on the fast route is 'ratified at a later date'; local authorisation followed by ratification."
+quote = "ratified at a later date"
+status = "as cited with the quotation; the edition and title are not given"
+
+[bohner_1996_software]
+citation = "Bohner and Arnold (1996). Software Change Impact Analysis."
+status = "recalled"
+
+# Added 2026-11-02 (repository maps): from one research helper's search results;
+# the links were not fetched and the citations are as the helper gave them.
+
+[aider_repomap]
+citation = "Aider. Repository map (tree-sitter symbols ranked by PageRank within a token budget). Documentation."
+link = "https://aider.chat/docs/repomap.html"
+status = "search result, not fetched; no ablation found"
+
+[gloaguen_2026_agentsmd]
+citation = "Gloaguen, T., Mündler-Sasahara, N., Müller, M. N., Raychev, V., Vechev, M. (2026). Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents? arXiv:2602.11988, version 3 of 29 September 2026. Tested Claude Code with Sonnet-4.5, Codex with GPT-5.2 and GPT-5.1 mini, and Qwen3-30B."
+link = "https://arxiv.org/abs/2602.11988"
+quote = "providing context files does not generally improve task success rates, while increasing inference cost by over 20% on average. ... Specifically, we find that while instructions in the context files are well followed by coding agents, repository overviews, although popular and recommended by model providers, are not helpful."
+status = "v3 PDF stored 2026-11-08 in sources/gloaguen_2026_agentsmd/ (2602.11988.pdf, text.txt by pdftotext -layout); quote checked against the stored text. The earlier quote here, a helper's summary of an earlier version (generated files lowered success about 2 points, developer-written ones raised it about 4), is replaced: v3's abstract finds no general gain for either kind: its sentence 'This observation holds across different LLMs, coding agents, and for both LLM-generated and developer-committed context files' is left out of the quote only because the PDF breaks 'developer-committed' at its hyphen, which the quote checker joins."
+
+[zhang_2023_repocoder]
+citation = "Zhang, F., et al. (2023). RepoCoder: repository-level code completion through iterative retrieval and generation. EMNLP 2023. arXiv:2303.12570"
+link = "arXiv:2303.12570"
+status = "search result, not fetched"
+
+[wu_2024_repoformer]
+citation = "Wu, D., et al. (2024). Repoformer: selective retrieval for repository-level code completion. ICML 2024. arXiv:2403.10059"
+link = "arXiv:2403.10059"
+status = "search result, not fetched"
+
+[w3c_2013_provo]
+citation = "Lebo, T., Sahoo, S., McGuinness, D. (eds.) (2013). PROV-O: the PROV ontology. W3C Recommendation, 30 April 2013."
+link = "https://www.w3.org/TR/prov-o/"
+status = "named by the helper, not fetched"
+
+[openlineage]
+citation = "OpenLineage: an open standard for lineage metadata collection (LF AI and Data Foundation)."
+link = "https://openlineage.io/"
+status = "named by the helper, not fetched"
+
+# Added 2026-11-02 (licensing a research package).
+
+[stodden_2009_enabling]
+citation = "Stodden, V. (2009). Enabling reproducible research: open licensing for scientific innovation. International Journal of Communications Law and Policy 13. SSRN 1362040."
+link = "https://papers.ssrn.com/abstract=1362040"
+quote = "The Reproducible Research Standard: text and figures under CC BY, code under the modified BSD licence or similar, data in the public domain or under an attribution licence (secondary summaries; the paper's own data wording not checked)."
+status = "search results only, 2026-11-02"
+
+[aea_licensing_guidance]
+citation = "AEA Data Editor. Licensing guidance (for replication packages in the AEA Data and Code Repository)."
+link = "https://aeadataeditor.github.io/aea-de-guidance/Licensing_guidance"
+quote = "3-Clause (Modified) BSD Clause, though other open-source licenses are equally acceptable (code); Creative Commons Attribution 4.0 International Public License or the more liberal CC0 1.0 (data); the license file typically named LICENSE.txt or LICENSE.md."
+status = "fetched, 2026-11-02"
+
+[reuse_spec_3_3]
+citation = "Free Software Foundation Europe. REUSE Specification, version 3.3 (2024-11-14): copyright and licence for every file, by SPDX identifiers in headers or REUSE.toml; checked by the reuse tool."
+link = "https://reuse.software/spec-3.3/"
+status = "search result, not fetched"
+
+[dryad_2011_cc0]
+citation = "Dryad. Why does Dryad use CC0? (2011): data are released under the CC0 waiver, after Science Commons, to avoid attribution stacking."
+link = "https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0"
+status = "search result, not fetched"
+
+[usco_2025_ai_part2]
+citation = "U.S. Copyright Office (2025). Copyright and Artificial Intelligence, Part 2: Copyrightability. 29 January 2025."
+link = "https://copyright.gov/newsnet/2025/1060.html"
+quote = "Copyrightability is decided case by case; a prompt alone does not make the user the author of the output; a human's own expression perceptible in the output is authored by that human (secondary summaries)."
+status = "search results only, 2026-11-02"
+
+[usc_17_201]
+citation = "17 U.S.C. § 201 (Ownership of copyright), with § 101's definition of a work made for hire, § 204(a) (a transfer needs a signed writing), § 302(c) (term of a work made for hire) and § 203 (termination of transfers)."
+link = "https://www.law.cornell.edu/uscode/text/17/201"
+quote = "In the case of a work made for hire, the employer or other person for whom the work was prepared is considered the author ... and, unless the parties have expressly agreed otherwise in a written instrument signed by them, owns all of the rights comprised in the copyright (§ 201(b); the rule confirmed by search results, 2026-11-02; §§ 204, 302 and 203 from memory, not checked)."
+status = "search results for § 201(b); the other sections not checked"
+
+[ccnv_v_reid_1989]
+citation = "Community for Creative Non-Violence v. Reid, 490 U.S. 730 (1989): employee status for a work made for hire follows common-law agency; courts apply Restatement (Second) of Agency § 228 for scope of employment."
+link = "https://www.venable.com/insights/publications/ip-quick-bytes/understanding-the-work-made-for-hire-doctrine"
+quote = "Scope of employment: the work is of the kind the employee was hired to perform, occurred substantially within authorized time and space limits, and was actuated, at least in part, by a purpose to serve the employer (the three-part test as summarized in search results)."
+status = "search results only, 2026-11-02; no case on a sole owner-employee found"
+
+[poppendieck_2006_implementing]
+citation = "Poppendieck, M., Poppendieck, T. (2006). Implementing Lean Software Development: From Concept to Cash. Addison-Wesley."
+quote = "The seven wastes of software development: partially done work, extra features, relearning, handoffs, task switching, delays, defects."
+status = "recalled, not checked against the book"
+
+[staw_1976_knee]
+citation = "Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. Organizational Behavior and Human Performance 16(1), 27-44."
+quote = "People who chose a failing course commit more resources to it than people judging the same course fresh."
+status = "recalled, not opened"
+
+[breznitz_1984_cry_wolf]
+citation = "Breznitz, S. (1984). Cry Wolf: The Psychology of False Alarms. Hillsdale, NJ: Lawrence Erlbaum."
+quote = "Each false alarm lowers the credibility of the next warning, so people respond less to a later true one."
+status = "recalled, not opened (an earlier session, 2026-11-02)"
+
+[green_swets_1966_signal_detection]
+citation = "Green, D. M., Swets, J. A. (1966). Signal Detection Theory and Psychophysics. New York: Wiley."
+quote = "A detector's yes or no depends on two separate things: how well signal can be told from noise, and the criterion it sets for saying yes, a response bias that moves with the costs and rewards of each kind of error."
+status = "recalled, not opened (an earlier session, 2026-11-02)"
+
+[norton_2012_ikea]
+citation = "Norton, M. I., Mochon, D. and Ariely, D. (2012). The IKEA effect: When labor leads to love. Journal of Consumer Psychology 22(3), 453-460."
+quote = "People value what they made themselves above the same thing made by others."
+status = "recalled, not opened (an earlier session, 2026-11-02)"
+
+[staw_1997_credit_window]
+citation = "Staw, B. M., Barsade, S. G. and Koput, K. W. (1997). Escalation at the credit window: A longitudinal study of bank executives' recognition and write-off of problem loans. Journal of Applied Psychology 82(1), 130-142."
+quote = "Escalation falls when the executive who began a course is replaced by one who did not."
+status = "recalled, not opened (an earlier session, 2026-11-02)"
+
+[singer_2019_shape]
+citation = "Singer, R. (2019). Shape Up: Stop Running in Circles and Ship Work that Matters. Basecamp (37signals). Free online."
+link = "https://basecamp.com/shapeup"
+quote = "Estimates start with a design and end with a number. Appetites start with a number and end with a design (chapter 3, Set Boundaries: fixed time, variable scope). If they don't finish, by default the project doesn't get an extension (chapter 8, The Betting Table, the circuit breaker: cancel projects that don't ship in one cycle by default instead of extending them)."
+status = "read 2026-11-05 at https://basecamp.com/shapeup/1.2-chapter-03 and https://basecamp.com/shapeup/2.2-chapter-08; the 2019 release from the publisher's blog (https://signalvnoise.com/svn3/announcing-shape-up-a-deep-dive-into-how-we-work/, search result)"
+
+[kaplow_1992_rules]
+citation = "Kaplow, L. (1992). Rules versus Standards: An Economic Analysis. Duke Law Journal 42(3), 557-629. doi:10.2307/1372840"
+link = "https://doi.org/10.2307/1372840"
+quote = "Rules are more costly to promulgate than standards because rules involve advance determinations of the law's content, whereas standards are more costly for legal advisors to predict or enforcement authorities to apply because they require later determinations of the law's content (pp. 562-563). In summary, the greater the frequency with which a legal command will apply, the more desirable rules tend to be relative to standards. This result arises because promulgation costs are borne only once, whereas efforts to comply with and action to enforce the law may occur rarely or often (p. 577)."
+status = "read 2026-11-05 in the published pages posted at Harvard's DASH repository (http://nrs.harvard.edu/urn-3:HUL.InstRepos:10611784), pp. 562-563 and 577; the journal's own copy refused automated fetches"
+
+# Added 2026-11-05.
+# Status words are the raw literature lists' own claims; the seat that merged them opened none of these sources.
+
+[eveleens_2010_chaos]
+citation = "Eveleens, J. L., Verhoef, C. (2010). The rise and fall of the Chaos report figures. IEEE Software 27(1), 30-36. doi:10.1109/MS.2009.154"
+link = "https://ieeexplore.ieee.org/document/5232804"
+status = "search snippet only (raw list); not opened"
+
+[flyvbjerg_2011_riskier]
+citation = "Flyvbjerg, B., Budzier, A. (2011). Why your IT project may be riskier than you think. Harvard Business Review 89(9). arXiv:1304.0265"
+link = "https://arxiv.org/abs/1304.0265"
+status = "search snippet only (raw list); not opened"
+
+[bai_2026_agents_money]
+citation = "Bai et al. (2026). How do AI agents spend your money? arXiv:2604.22750"
+link = "https://huggingface.co/papers/2604.22750"
+status = "search snippet only (raw list); not opened"
+
+[becker_2025_metr_speed]
+citation = "Becker, J., et al. (METR) (2025). Measuring the impact of early-2025 AI on experienced open-source developer productivity. arXiv:2507.09089"
+link = "arXiv:2507.09089"
+status = "search snippet only (raw list); not opened"
+
+[luo_2014_flaky]
+citation = "Luo, Q., Hariri, F., Eloussi, L., Marinov, D. (2014). An empirical analysis of flaky tests. FSE 2014. doi:10.1145/2635868.2635920"
+link = "doi:10.1145/2635868.2635920"
+status = "search snippet only (raw list); not opened"
+
+[aghajani_2019_docissues]
+citation = "Aghajani, E., et al. (2019). Software documentation issues unveiled. ICSE 2019. doi:10.1109/ICSE.2019.00122"
+link = "doi:10.1109/ICSE.2019.00122"
+status = "search snippet only (raw list); not opened"
+
+[construx_2008_classic]
+citation = "Construx (2008). Software Development's Classic Mistakes. White paper."
+link = "https://www.construx.com/wp-content/uploads/2020/04/CxWhitePaper_ClassicMistakes.pdf"
+status = "PDF unreadable to the raw author; not opened"
+
+[sendelbach_2013_alarm]
+citation = "Sendelbach, S., Funk, M. (2013). Alarm fatigue: a patient safety concern. AACN Advanced Critical Care 24(4), 378-386. PubMed 24153215"
+link = "https://pubmed.ncbi.nlm.nih.gov/24153215/"
+status = "recalled, not opened (raw list)"
+
+[dora_change_approval]
+citation = "DORA. Streamlining change approval (capability page)."
+link = "https://dora.dev/capabilities/streamlining-change-approval/"
+status = "page opened by the raw list's author (no figures on it); the Accelerate book (Forsgren, Humble, Kim 2018) is recalled"
+
+[anthropic_2024_effective_agents]
+citation = "Anthropic (2024). Building effective agents. Engineering blog, published 19 December 2024 (the page now carries a note that its tooling has changed)."
+link = "https://www.anthropic.com/engineering/building-effective-agents"
+quote = "When building applications with LLMs, we recommend finding the simplest solution possible, and only increasing complexity when needed."
+status = "opened by the raw list's author; page stored 2026-11-08 in sources/anthropic_2024_effective_agents/ with text.txt; quote checked against the stored text"
+
+[anthropic_2025_multiagent]
+citation = "Anthropic (2025). How we built our multi-agent research system. Engineering blog, published 13 June 2025."
+link = "https://www.anthropic.com/engineering/multi-agent-research-system"
+quote = "Our prompting strategy focuses on instilling good heuristics rather than rigid rules. We studied how skilled humans approach research tasks and encoded these strategies in our prompts"
+status = "opened by the raw list's author; page stored 2026-11-08 in sources/anthropic_2025_multiagent/ with text.txt; quote checked against the stored text. The figures the raw list gave hold in the stored text: agents about 4x and multi-agent systems about 15x the tokens of chats, token usage alone explains 80% of the variance, and the upgrade to Sonnet 4 beat doubling the token budget on Sonnet 3.7."
+
+[anthropic_2025_context_engineering]
+citation = "Anthropic Applied AI team (2025). Effective context engineering for AI agents. Engineering blog, published 29 September 2025."
+link = "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+quote = "good context engineering means finding the smallest possible set of high-signal tokens that maximize the likelihood of some desired outcome"
+status = "opened by the raw list's author; fetched 2026-11-08 and stored in sources/anthropic_2025_context_engineering/ (the page and text.txt); quote checked against the stored text"
+
+[anthropic_claude_code_best_practices]
+citation = "Anthropic. Best practices for Claude Code."
+link = "https://code.claude.com/docs/en/best-practices"
+status = "opened by the raw list's author"
+
+[cognition_2025_multiagents]
+citation = "Cognition (2025). Don't build multi-agents."
+link = "https://cognition.com/blog/dont-build-multi-agents"
+status = "fetched and stored 2026-11-12 in sources/cognition_2025_multiagents/ (original.html, text.txt)"
+
+[chroma_2025_contextrot]
+citation = "Chroma (2025). Context rot: how increasing input tokens impacts LLM performance."
+link = "https://www.trychroma.com/research/context-rot"
+status = "fetched and stored 2026-11-12 in sources/chroma_2025_contextrot/ (original.html, text.txt)"
+
+[cemri_2025_whymas]
+citation = "Cemri, M., et al. (2025). Why do multi-agent LLM systems fail? arXiv:2503.13657"
+link = "arXiv:2503.13657"
+status = "abstract only (raw list)"
+
+[kapoor_2024_agents_matter]
+citation = "Kapoor, S., et al. (2024). AI agents that matter. arXiv:2407.01502"
+link = "arXiv:2407.01502"
+status = "abstract only (raw list)"
+
+[xia_2024_agentless]
+citation = "Xia, C. S., et al. (2024). Agentless: demystifying LLM-based software engineering agents. arXiv:2407.01489"
+link = "arXiv:2407.01489"
+status = "abstract only (raw list)"
+
+[yang_2024_sweagent]
+citation = "Yang, J., et al. (2024). SWE-agent: agent-computer interfaces enable automated software engineering. arXiv:2405.15793"
+link = "arXiv:2405.15793"
+status = "abstract only (raw list)"
+
+[liu_2023_lostmiddle]
+citation = "Liu, N. F., et al. (2023). Lost in the middle: how language models use long contexts. arXiv:2307.03172"
+link = "arXiv:2307.03172"
+status = "abstract only (raw list)"
+
+[jaroslawicz_2025_instructions]
+citation = "Jaroslawicz, D., et al. (2025). How many instructions can LLMs follow at once? arXiv:2507.11538"
+link = "arXiv:2507.11538"
+status = "abstract only (raw list); best models 68% at 500 instructions per that list"
+
+[zheng_2023_llmjudge]
+citation = "Zheng, L., et al. (2023). Judging LLM-as-a-judge with MT-Bench and Chatbot Arena. arXiv:2306.05685"
+link = "arXiv:2306.05685"
+status = "abstract only (raw list)"
+
+[panickssery_2024_selfpref]
+citation = "Panickssery, A., et al. (2024). LLM evaluators recognize and favor their own generations. arXiv:2404.13076"
+link = "arXiv:2404.13076"
+status = "abstract only (raw list)"
+
+[sharma_2023_sycophancy]
+citation = "Sharma, M., et al. (2023). Towards understanding sycophancy in language models. arXiv:2310.13548"
+link = "arXiv:2310.13548"
+status = "abstract only (raw list)"
+
+[helicone_prompt_caching]
+citation = "Helicone documentation. Prompt caching."
+link = "https://docs.helicone.ai/gateway/concepts/prompt-caching"
+status = "third party, unverified; check against Anthropic's own pricing page"
+
+[hammer_1990_reengineering]
+citation = "Hammer, M. (1990). Reengineering work: don't automate, obliterate. Harvard Business Review 68(4): 104-112."
+quote = "Redesign the process from its outcome, rather than automating the steps it has accreted."
+status = "recalled"
+
+[rother_1999_learning_to_see]
+citation = "Rother, M., Shook, J. (1999). Learning to See: Value-Stream Mapping to Add Value and Eliminate Muda. Lean Enterprise Institute."
+quote = "Map the current state, then design a future state in which each step adds value and work flows to the customer's pull."
+status = "recalled"
+
+[cooper_1990_stage_gate]
+citation = "Cooper, R. G. (1990). Stage-gate systems: a new tool for managing new products. Business Horizons 33(3): 44-54."
+quote = "Work passes through stages, each closed by a gate where the deliverables are reviewed against stated criteria before the next stage is funded."
+status = "recalled"
+
+[iso_9001_2015]
+citation = "ISO 9001:2015. Quality management systems: requirements. International Organization for Standardization. Clause 10.2, nonconformity and corrective action."
+quote = "Determine the causes of a nonconformity and act on them, so that it does not recur or occur elsewhere."
+status = "recalled; paraphrase, not the standard's wording"
+
+# Added 2026-11-05 by the writer of automated-cost-benefit-analysis/notes/requirements_conversation.md: the requirements-engineering, evaluation, consulting, interviewing and choice-architecture sources behind its process rule, from the entries the workflow checked that day; each status is as the checker gave it.
+
+[gotel_1994_traceability]
+citation = "Gotel, O. C. Z., Finkelstein, A. C. W. (1994). An analysis of the requirements traceability problem. Proceedings of the First International Conference on Requirements Engineering (ICRE), IEEE, pp. 94-101."
+link = "https://doi.org/10.1109/ICRE.1994.292398"
+quote = "Pre-RS traceability refers to those aspects of a requirement's life prior to inclusion in the RS."
+status = "fetched 2026-11-05 from UCL Discovery (https://discovery.ucl.ac.uk/749/1/2.2_rtprob.pdf), read with pdftotext; DOI recalled from search results, not opened"
+
+[yarbrough_2011_standards]
+citation = "Yarbrough, D. B., Shulha, L. M., Hopson, R. K., Caruthers, F. A. (2011). The Program Evaluation Standards: A Guide for Evaluators and Evaluation Users, 3rd ed. Sage, Thousand Oaks, CA."
+link = "https://eval.org/About/Competencies-Standards/Program-Evaluation-Standards"
+quote = "Evaluations should clarify and specify the individual and cultural values underpinning purposes, processes, and judgments."
+status = "fetched 2026-11-05 from the American Evaluation Association's standards page (standard U4 Explicit Values; P2 Formal Agreements reads 'Evaluation agreements should be negotiated to make obligations explicit...'). Sage's own listing dates the edition July 2010; the Joint Committee cites 2011"
+
+[aea_2025_principles]
+citation = "American Evaluation Association, Guiding Principles for Evaluators. The page fetched is the current version (last updated 2025); the 2018 version the brief names was not found on that page."
+link = "https://www.eval.org/About/Guiding-Principles"
+quote = "disclose any actual, perceived, or potential conflicts of interest before accepting an evaluation commission"
+status = "fetched 2026-11-05 from eval.org, but it is the 2025 version (principle C.2), not the 2018 one; cite as 2025 or fetch the 2018 text separately. Page stored 2026-11-14 in library/sources/aea_2025_principles/ (original.html; text.txt 26,737 characters); quote 'decline the evaluation' (principle C.6) machine-checked."
+
+[johnson_2012_nudges]
+citation = "Johnson, E. J., Shu, S. B., Dellaert, B. G. C., Fox, C., Goldstein, D. G., Haubl, G., Larrick, R. P., Payne, J. W., Peters, E., Schkade, D., Wansink, B., Weber, E. U. (2012). Beyond nudges: Tools of a choice architecture. Marketing Letters 23(2), 487-504."
+link = "https://doi.org/10.1007/s11002-012-9186-1"
+status = "bibliographic details fetched 2026-11-05 from EconPapers (RePEc), DOI confirmed; no abstract or text opened, so no quote and the 'few presets with a recommended default' use is unchecked"
+
+[ashrae_2019_guideline0]
+citation = "ASHRAE (2019). ASHRAE Guideline 0-2019, The Commissioning Process. ASHRAE, Peachtree Corners, GA."
+link = "https://www.ashrae.org/technical-resources/bookstore/commissioning"
+status = "recalled, not opened: ashrae.org returned 403; existence, title, and the OPR role confirmed only by search-result summaries (including a draft addendum: 'to describe a Commissioning Process (Cx) for verifying that the facility and its systems meet the OPR'); that wording is from a draft, not for quoting"
+
+[iso_2018_29148]
+citation = "ISO/IEC/IEEE 29148:2018. Systems and software engineering - Life cycle processes - Requirements engineering. ISO, Geneva."
+link = "https://www.iso.org/standard/72089.html"
+status = "recalled, not opened: iso.org returned 403; no search confirmation of the business, stakeholder and system levels or validation clauses was obtained"
+
+[spetzler_2016_decision]
+citation = "Spetzler, C., Winter, H., Meyer, J. (2016). Decision Quality: Value Creation from Better Business Decisions. Wiley, Hoboken, NJ."
+link = "https://oreilly.com/library/view/decision-quality/9781119144670"
+status = "recalled, not opened: book existence, authors, publisher, year and ISBN 9781119144670 confirmed from catalog records; table of contents shows Chapter 4 'The Appropriate Frame' (purpose, perspective, scope per secondary sources); no verbatim text seen"
+
+[schein_2013_humble]
+citation = "Schein, E. H. (2013). Humble Inquiry: The Gentle Art of Asking Instead of Telling. Berrett-Koehler, San Francisco. (2nd ed. 2021 with P. A. Schein.)"
+link = "https://www.porchlightbooks.com/products/humble-inquiry-second-edition-edgar-h-schein-9781523092628"
+status = "recalled, not opened: existence and editions confirmed from catalog and retailer records; no verbatim text seen"
+
+[patton_2008_utilization]
+citation = "Patton, M. Q. (2008). Utilization-Focused Evaluation, 4th ed. Sage, Thousand Oaks, CA."
+link = "https://in.sagepub.com/en-in/sas/utilization-focused-evaluation/book229324"
+status = "recalled, not opened: Sage and BetterEvaluation pages; existence confirmed from search results, which attribute 'intended use by intended users' and Chapter 3 'the personal factor' to it; BetterEvaluation page returned 403; no verbatim text seen"
+
+[iso_2017_20700]
+citation = "ISO 20700:2017. Guidelines for management consultancy services. ISO, Geneva (adopted as EN ISO 20700:2018)."
+link = "https://www.iso.org/standard/66651.html"
+status = "recalled, not opened: iso.org returned 403; existence, year and purpose (specification, execution, acceptance and closure of consultancy services) confirmed from search-result summaries only"
+
+[eggs_2015_dependent]
+citation = "Eggs, J., Jäckle, A. (2015). Dependent Interviewing and Sub-Optimal Responding. Survey Research Methods 9(1), 15-29. doi:10.18148/srm/2015.v9i1.5860"
+link = "https://ojs.ub.uni-konstanz.de/srm/article/view/5860"
+quote = "A large proportion of respondents accepted the false preload."
+status = "abstract read through a fetch summary, 2026-11-06, and the quoted sentence confirmed verbatim there; the paper's body not read"
+
+[larman_2003_iterative]
+citation = "Larman, C., Basili, V. R. (2003). Iterative and incremental development: a brief history. IEEE Computer 36(6), 47–56. doi:10.1109/MC.2003.1204375"
+link = "doi:10.1109/MC.2003.1204375"
+quote = "Recalled, not fetched: the history of large projects built in short iterations, each ending in a working, tested partial system that grows, against the single-pass waterfall that delivers everything at once."
+status = "recalled from training, 2026-11-06; not fetched"
+
+[cockburn_2004_crystal]
+citation = "Cockburn, A. (2004). Crystal Clear: A Human-Powered Methodology for Small Teams. Addison-Wesley. Strategy: Walking Skeleton."
+link = "ISBN 0-201-69947-8"
+quote = "Recalled, not fetched: a walking skeleton is a tiny implementation of the system that performs a small end-to-end function; it need not use the final architecture, but it links together the main architectural components, and architecture and function then grow in parallel."
+status = "recalled from training, 2026-11-06; not fetched"
+
+[freeman_2009_goos]
+citation = "Freeman, S., Pryce, N. (2009). Growing Object-Oriented Software, Guided by Tests. Addison-Wesley. Chapter 4, Kick-Starting the Test-Driven Cycle."
+link = "ISBN 978-0-321-50362-6"
+quote = "Recalled, not fetched: the walking skeleton is the thinnest slice of real function that can be built and tested end to end, built first, with its end-to-end test, before any feature is deepened."
+status = "recalled from training, 2026-11-06; not fetched"
+
+[abelson_1996_sicp]
+citation = "Abelson, H., Sussman, G. J., with Sussman, J. (1996). Structure and Interpretation of Computer Programs, 2nd ed. MIT Press. Section 1.1, The Elements of Programming."
+link = "https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book-Z-H-10.html"
+quote = "Every powerful language has three mechanisms for accomplishing this: primitive expressions, which represent the simplest entities the language is concerned with, means of combination, by which compound elements are built from simpler ones, and means of abstraction, by which compound elements can be named and manipulated as units."
+status = "quoted from the MIT Press full text of section 1.1, opened 2026-11-06"
+
+[meyer_1988_oosc]
+citation = "Meyer, B. (1988). Object-Oriented Software Construction. Prentice Hall. The open-closed principle."
+link = "ISBN 0-13-629049-3"
+quote = "Recalled, not fetched: a module should be open for extension but closed for modification; a new case is added without editing the code that handles the existing ones."
+status = "recalled from training, 2026-11-06; not fetched"
+
+# Added 2026-11-06.
+[tversky_1974_heuristics]
+citation = "Tversky, A. and Kahneman, D. (1974). Judgment under uncertainty: heuristics and biases. Science 185(4157), 1124-1131."
+status = "recalled from training, 2026-11-06, not read; verify before quoting"
+
+[jansson_1991_fixation]
+citation = "Jansson, D. G. and Smith, S. M. (1991). Design fixation. Design Studies 12(1), 3-11."
+status = "recalled from training, 2026-11-06, not read; verify before quoting"
+
+[kimball_1957_third_kind]
+citation = "Kimball, A. W. (1957). Errors of the third kind in statistical consulting. Journal of the American Statistical Association 52(278), 133-142."
+status = "recalled from training, 2026-11-06, not read; verify before quoting"
+
+[argyris_1977_double_loop]
+citation = "Argyris, C. (1977). Double loop learning in organizations. Harvard Business Review 55(5), 115-125."
+status = "recalled from training, 2026-11-06, not read; verify before quoting"
+
+[simonson_1992_deescalation]
+citation = "Simonson, I. and Staw, B. M. (1992). Deescalation strategies. Journal of Applied Psychology 77(4), 419-426."
+status = "recalled from training, 2026-11-06, not read; verify before quoting"
+
+[mason_1981_assumptions]
+citation = "Mason, R. O. and Mitroff, I. I. (1981). Challenging Strategic Planning Assumptions. Wiley."
+status = "recalled from training, 2026-11-06, not read; verify before quoting"
+
+[nygard_2007_release]
+citation = "Nygard, M. T. (2007). Release It! Design and Deploy Production-Ready Software. Raleigh, NC: Pragmatic Bookshelf."
+quote = "A circuit breaker stops calls through a failing path once failures pass a threshold, so that one failure cannot run on and exhaust the whole system."
+status = "recalled, not opened (an earlier session, 2026-11-06)"
+
+[klein_2007_premortem]
+citation = "Klein, G. (2007). Performing a project premortem. Harvard Business Review 85(9), 18-19."
+quote = "Reviewers told to imagine the project has already failed, and to say why, name more of its real risks than reviewers asked whether it will work."
+status = "recalled, not opened (an earlier session, 2026-11-06)"
+
+[parnas_1972_modules]
+citation = "Parnas, D. L. (1972). On the criteria to be used in decomposing systems into modules. Communications of the ACM 15(12), 1053-1058."
+quote = "Split a system so that each module hides one design decision behind a stated interface; each module can then be written and understood without the others."
+status = "recalled, not opened (an earlier session, 2026-11-06)"
+
+[ipcc_2013_procedures]
+citation = "IPCC (2013, as amended). Principles Governing IPCC Work, Appendix A: Procedures for the Preparation, Review, Acceptance, Adoption, Approval and Publication of IPCC Reports. Geneva: IPCC."
+quote = "Each chapter has coordinating lead authors and lead authors; review editors, who are not authors, see that every substantive review comment is given appropriate consideration and the response is recorded."
+status = "recalled, not opened (an earlier session, 2026-11-06); verify before quoting"
+
+[brooks_1975_mythical]
+citation = "Brooks, F. P. (1975). The Mythical Man-Month: Essays on Software Engineering, chapter 3 \"The Surgical Team\" and chapter 4 \"Aristocracy, Democracy, and System Design\" (on conceptual integrity). Addison-Wesley."
+quote = "One does the cutting and the others give him every support (Mills's surgical team, the chief programmer team, chapter 3); conceptual integrity is the most important consideration in system design, and it comes from one mind or a very few (chapter 4)."
+status = "recalled, not opened (shared-folder session, 2026-11-07)"
+
+[roberts_1998_evolving]
+citation = "Roberts, D., Johnson, R. E. (1998; some references give 1997, the year of the conference proceedings). Evolving Frameworks: A Pattern Language for Developing Object-Oriented Frameworks. In Martin, R. C., Riehle, D., Buschmann, F. (eds.), Pattern Languages of Program Design 3, 471–486. Addison-Wesley. ISBN 0-201-31011-2."
+quote = "Frameworks are built from finished applications: write the first applications, generalise their common parts, and move from white-box reuse (subclassing) to black-box reuse (composition) as the hot spots become known; it is a common path, but not necessary to follow to the end (the paper's claim as the Hosking, Grundy and Mugridge 2000 paper restates it; the text itself was not opened)."
+status = "bibliographic details checked against web bibliographies, 2026-11-07 (title, authors, volume, editors, pages 471-486 from one bibliography; Crossref and OpenAlex have no record). No stored copy: the author's page (st-www.cs.uiuc.edu/users/droberts/evolve.html) and the Sherbrooke course copy returned errors and the scispace copy refused the download, so the text was not read."
+
+[johnson_1988_designing]
+citation = "Johnson, R. E., Foote, B. (1988). Designing Reusable Classes. Journal of Object-Oriented Programming 1(2), 22–35 (June/July). Author-hosted copy: http://www.laputan.org/drc/drc.html"
+link = "http://www.laputan.org/drc/drc.html"
+quote = "This paper describes how classes are developed so that they will be reusable (its abstract); reusable abstractions are found by generalising from several concrete cases, not designed in advance."
+status = "details checked against the author-hosted copy's title block (volume 1, number 2, pages 22-35), 2026-11-07; the second half of the quote is the review's gloss, not a verbatim line. Copy stored in sources/johnson_1988_designing/ (drc.html and text.txt), fetched from the authors' site."
+
+[fowler_1999_refactoring]
+citation = "Fowler, M., with Beck, K., Brant, J., Opdyke, W., Roberts, D. (1999). Refactoring: Improving the Design of Existing Code. Reading, MA: Addison-Wesley. ISBN 0-201-48567-2."
+quote = "The rule of three (credited to Don Roberts): the first time you do something you just do it; the second time you wince at the duplication but do it anyway; the third time you refactor (recalled; the line is the book's, from memory of the chapter 2 text)."
+status = "bibliographic details checked against library catalogues and Wikipedia's article on the rule of three, 2026-11-07. No stored copy: the book is in copyright and not freely available; the circulating PDFs are unlicensed copies and were not fetched. The quote is recalled, not opened; verify before quoting."
+
+# Writing subagent definitions: current sources (Anthropic's documentation and engineering blog, practitioners'
+# posts, and two short prompting reports), gathered 2026-11-08 for the cost-benefit project's plan for agent
+# definitions. Each is stored in sources/<key>/ with text.txt; each quote was checked against that text by script.
+
+[anthropic_2026_subagents]
+citation = "Anthropic (2026). Create custom subagents. Claude Code documentation, page as served on 2026-11-08 (it carries no date; it describes Claude Code v2.1.271 and later)."
+link = "https://code.claude.com/docs/en/sub-agents"
+quote = "Define a custom subagent when you keep spawning the same kind of worker with the same instructions."
+status = "fetched 2026-11-08 as Markdown (sub-agents.md) and stored in sources/anthropic_2026_subagents/ with text.txt; refetched 2026-11-10 and the stored text replaced (first line of each file is the URL and date; the only change from 2026-11-08 is one added paragraph on subagent permission requests under bypassPermissions); quote checked against the stored text"
+
+[anthropic_2026_prompting_best_practices]
+citation = "Anthropic (2026). Prompting best practices. Claude API documentation, page as served on 2026-11-08 (undated; it covers models through Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5)."
+link = "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+quote = "Setting a role in the system prompt focuses Claude’s behavior and tone for your use case."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_prompting_best_practices/ with text.txt; quote checked against the stored text"
+
+[anthropic_2026_prompting_haiku_5_5]
+citation = "Anthropic (2026). Prompting Claude Haiku 5.5. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5"
+quote = "In long agent prompts, the model is more likely to skip a search, stop early, or skip a check at this level."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_prompting_haiku_5_5/ with text.txt; quote checked against the stored text (it describes effort low)"
+
+[anthropic_2026_prompting_sonnet_5_5]
+citation = "Anthropic (2026). Prompting Claude Sonnet 5.5. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5-5"
+quote = "For agentic coding and multistep tool use, start at `medium` for well-specified tasks and move to `high` for harder or longer ones."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_prompting_sonnet_5_5/ with text.txt; quote checked against the stored text"
+
+[anthropic_2026_prompting_opus_5_5]
+citation = "Anthropic (2026). Prompting Claude Opus 5.5. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5"
+quote = "in Anthropic’s testing, Claude Opus 5.5 at `medium` matches or exceeds Claude Opus 5 at `high` on coding and knowledge-work evaluations"
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_prompting_opus_5_5/ with text.txt; quote checked against the stored text"
+
+[anthropic_2026_prompting_opus_5]
+citation = "Anthropic (2026). Prompting Claude Opus 5. Claude API documentation, page as served on 2026-11-14 (undated). The Opus 5.5 page says its patterns remain a reasonable starting point for Opus 5.5."
+link = "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5"
+quote = "Positive examples of the communication style you want tend to be more effective than instructions about what not to do."
+status = "fetched 2026-11-14 as Markdown and stored in sources/anthropic_2026_prompting_opus_5/ with text.txt (tools/source_store.py); quote checked against the stored text, line 49"
+
+[anthropic_2026_effort]
+citation = "Anthropic (2026). Effort. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/build-with-claude/effort"
+quote = "Effort is a behavioral signal, not a strict token budget."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_effort/ with text.txt; quote checked against the stored text"
+
+[anthropic_2026_thinking]
+citation = "Anthropic (2026). Thinking. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/build-with-claude/thinking"
+quote = "On most models, thinking is on by default or needs only one parameter."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_thinking/ with text.txt; quote checked against the stored text. Its table shows adaptive thinking always on for Opus 5.5."
+
+[anthropic_2026_thinking_steering]
+citation = "Anthropic (2026). Steering thinking. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost"
+quote = "Lowering the ... level is usually the better first lever, because it is a calibrated control rather than a wording-sensitive instruction."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_thinking_steering/ with text.txt; quote checked against the stored text (the ellipsis stands for a link on the word effort)"
+
+[anthropic_2026_choosing_model]
+citation = "Anthropic (2026). Choosing the right model. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model"
+quote = "Tuning effort is often a better lever than switching models."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_choosing_model/ with text.txt; quote checked against the stored text"
+
+[anthropic_2026_skill_best_practices]
+citation = "Anthropic (2026). Skill authoring best practices. Claude API documentation, page as served on 2026-11-08 (undated)."
+link = "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices"
+quote = "Only add context Claude doesn’t already have."
+status = "fetched 2026-11-08 as Markdown and stored in sources/anthropic_2026_skill_best_practices/ with text.txt; quote checked against the stored text"
+
+[anthropic_2025_writing_tools]
+citation = "Anthropic (2025). Writing effective tools for agents — with agents. Engineering blog, published 11 September 2025."
+link = "https://www.anthropic.com/engineering/writing-tools-for-agents"
+quote = "More tools don’t always lead to better outcomes."
+status = "fetched 2026-11-08 and stored in sources/anthropic_2025_writing_tools/ (the page and text.txt); quote checked against the stored text"
+
+[anthropic_2026_harness_design]
+citation = "Rajasekaran, P. (2026). Harness design for long-running application development. Anthropic engineering blog, published 24 March 2026."
+link = "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+quote = "every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing"
+status = "fetched 2026-11-08 and stored in sources/anthropic_2026_harness_design/ (the page and text.txt); quote checked against the stored text"
+
+[anthropic_2026_demystifying_evals]
+citation = "Anthropic (2026). Demystifying evals for AI agents. Engineering blog, published 9 January 2026."
+link = "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+quote = "In reality, 20-50 simple tasks drawn from real failures is a great start."
+status = "fetched 2026-11-08 and stored in sources/anthropic_2026_demystifying_evals/ (the page and text.txt); quote checked against the stored text"
+
+[shankar_2025_every_feature]
+citation = "Shankar, S. (2025). How I Use Every Claude Code Feature. Shrivu's Substack (blog.sshh.io), 2 November 2025. A practitioner's post."
+link = "https://blog.sshh.io/p/how-i-use-every-claude-code-feature"
+quote = "The Takeaway: Custom subagents are a brittle solution. Give your main agent the context (in CLAUDE.md) and let it use its own Task/Explore(...) feature to manage delegation."
+status = "fetched 2026-11-08 and stored in sources/shankar_2025_every_feature/ (the page and text.txt); quote checked against the stored text"
+
+[humanlayer_2025_claude_md]
+citation = "Kyle (HumanLayer) (2025). Writing a good CLAUDE.md. HumanLayer blog, 25 November 2025. A practitioner's post; its figures on instruction counts rest on a study it cites, which was not opened."
+link = "https://www.humanlayer.dev/blog/writing-a-good-claude-md"
+quote = "Frontier thinking LLMs can follow ~ 150-200 instructions with reasonable consistency. Smaller models can attend to fewer instructions than larger models"
+status = "fetched 2026-11-08 and stored in sources/humanlayer_2025_claude_md/ (the page and text.txt); quote checked against the stored text"
+
+[cherny_2026_tips]
+citation = "Cherny, B. (2026). Thread of tips for using Claude Code, from the Claude Code team. X (@bcherny), posted 31 January 2026 (dated from the post ids). The author created Claude Code."
+link = "https://x.com/bcherny/status/2017742741636321619"
+quote = "Offload individual tasks to subagents to keep your main agent's context window clean and focused"
+status = "page fetched 2026-11-08 (HTTP 200) and stored in sources/cherny_2026_tips/; text.txt holds tips 1 to 10 taken from the page's note_tweet fields; quote checked against the stored text"
+
+[vincent_2025_superpowers]
+citation = "Vincent, J. (2025). Superpowers: How I'm using coding agents in October 2025. Massively Parallel Procrastination (blog.fsck.com), 9 October 2025. A practitioner's post."
+link = "https://blog.fsck.com/2025/10/09/superpowers/"
+quote = "I asked to switch to realistic scenarios that put pressure on the agents, to better simulate what they might actually do."
+status = "fetched 2026-11-08 and stored in sources/vincent_2025_superpowers/ (the page and text.txt); quote checked against the stored text"
+
+[basil_2025_personas]
+citation = "Basil, S., Shapiro, I., Shapiro, D., Mollick, E., Mollick, L., Meincke, L. (2025). Prompting Science Report 4: Playing Pretend: Expert Personas Don't Improve Factual Accuracy. Generative AI Labs, Wharton. arXiv:2512.05858v1, December 2025. Tested GPT-4o, GPT-4o-mini, o3-mini, o4-mini, Gemini 2.0 Flash and Gemini 2.5 Flash on multiple-choice benchmarks; no Claude model."
+link = "https://arxiv.org/abs/2512.05858"
+quote = "Across both benchmarks, persona prompts generally did not improve accuracy relative to a no-persona baseline."
+status = "PDF fetched 2026-11-08 and stored in sources/basil_2025_personas/ (2512.05858v1.pdf, text.txt by pdftotext -layout); quote checked against the stored text"
+
+[meincke_2025_cot]
+citation = "Meincke, L., Mollick, E., Mollick, L., Shapiro, D. (2025). Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting. Generative AI Labs, Wharton. arXiv:2506.07142v1, June 2025. Tested Claude 3.5 Sonnet, GPT-4o and Gemini models among others, all older than the models in use here."
+link = "https://arxiv.org/abs/2506.07142"
+quote = "For models designed with explicit reasoning capabilities, CoT prompting often results in only marginal, if any, gains in answer accuracy."
+status = "PDF fetched 2026-11-08 and stored in sources/meincke_2025_cot/ (2506.07142v1.pdf, text.txt by pdftotext -layout); quote checked against the stored text"
+
+# Claude Code documentation pages on dispatch (Agent tool against Workflow tool), fetched verbatim 2026-11-10 for the
+# shared session's comparison bearing on CORE rule 8. Each is stored in sources/<key>/text.txt, whose first line is
+# the URL and the retrieval date; each quote was checked against that text by script.
+
+[anthropic_2026_cc_workflows]
+citation = "Anthropic (2026). Orchestrate subagents at scale with dynamic workflows. Claude Code documentation, page as served on 2026-11-10 (undated)."
+link = "https://code.claude.com/docs/en/workflows"
+quote = "Intermediate results stay in script variables instead of landing in Claude's context."
+status = "fetched 2026-11-10 as Markdown (workflows.md) and stored in sources/anthropic_2026_cc_workflows/text.txt; quote checked against the stored text"
+
+[anthropic_2026_cc_agents]
+citation = "Anthropic (2026). Run agents in parallel. Claude Code documentation, page as served on 2026-11-10 (undated)."
+link = "https://code.claude.com/docs/en/agents"
+quote = "Claude Code has five ways to work on several tasks at once: subagents, agent view, agent teams, dynamic workflows, and projects."
+status = "fetched 2026-11-10 as Markdown (agents.md) and stored in sources/anthropic_2026_cc_agents/text.txt; quote checked against the stored text (links dropped from the quote)"
+
+[anthropic_2026_cc_vs_code]
+citation = "Anthropic (2026). Use Claude Code in VS Code. Claude Code documentation, page as served on 2026-11-10 (undated)."
+link = "https://code.claude.com/docs/en/vs-code"
+quote = "Click the agent count to open the agent map, which draws the conversation's subagents as a tree under the main agent, each with its status, elapsed time, and token count."
+status = "fetched 2026-11-10 as Markdown (vs-code.md) and stored in sources/anthropic_2026_cc_vs_code/text.txt; quote checked against the stored text (the agent map needs v2.1.269 or later)"
+
+[anthropic_2026_cc_tools_reference]
+citation = "Anthropic (2026). Tools reference. Claude Code documentation, page as served on 2026-11-10 (undated)."
+link = "https://code.claude.com/docs/en/tools-reference"
+quote = "Runs a dynamic workflow: a script that orchestrates many subagents in the background and returns one consolidated result"
+status = "fetched 2026-11-10 as Markdown (tools-reference.md) and stored in sources/anthropic_2026_cc_tools_reference/text.txt; quote checked against the stored text (the Workflow row of the tool table, link dropped)"
+
+[anthropic_2026_cc_changelog_agent_sections]
+citation = "Anthropic (2026). Claude Code changelog, entries on subagents (version 2.1.304, 19 October 2026, and 2.1.293, 7 October 2026). Claude Code documentation, page as served on 2026-11-10."
+link = "https://code.claude.com/docs/en/changelog"
+quote = "Changed background sub-agents to show as one status line under their Agent card instead of streaming every step into the chat; the full transcript stays in /tasks"
+status = "fetched 2026-11-10 as Markdown; what is stored in sources/anthropic_2026_cc_changelog_agent_sections/text.txt is an EXTRACT of the entries the comparison relies on (about 4 kB of a 1.2 MB page), not the whole page; quote (the VS Code entry of 2.1.304) checked against the extract"
+
+# Claude Code documentation pages on compaction and hooks, fetched verbatim 2026-11-10 for the shared session's
+# decision (owner, 2026-11-10, an earlier session) to use a PreCompact hook that asks the compaction summary for
+# the seat's welfare section (standards/process/welfare.md). Each is stored in sources/<key>/text.txt, whose first
+# line is the URL and the retrieval date; each quote was checked against that text by script.
+
+[anthropic_2026_cc_hooks]
+citation = "Anthropic (2026). Hooks reference. Claude Code documentation, page as served on 2026-11-10 (undated)."
+link = "https://code.claude.com/docs/en/hooks"
+quote = "When a PreCompact hook exits 0 and doesn't block, Claude Code uses its stdout as instructions for the compaction summary."
+status = "fetched 2026-11-10 as Markdown (hooks.md) and stored in sources/anthropic_2026_cc_hooks/text.txt; quote checked against the stored text (the page adds: keep that stdout under 10,000 characters per hook)"
+
+[anthropic_2026_cc_context_window]
+citation = "Anthropic (2026). Explore the context window. Claude Code documentation, page as served on 2026-11-10 (undated)."
+link = "https://code.claude.com/docs/en/context-window"
+quote = "When a long session compacts, Claude Code summarizes the conversation history to fit the context window."
+status = "fetched 2026-11-10 as Markdown (context-window.md) and stored in sources/anthropic_2026_cc_context_window/text.txt; quote checked against the stored text (section What survives compaction: context that hooks added earlier is summarized with the rest of the conversation)"
+
+[anthropic_2026_cc_hooks_guide]
+citation = "Anthropic (2026). Automate workflows with hooks (guide). Claude Code documentation, page as served on 2026-11-10 (undated)."
+link = "https://code.claude.com/docs/en/hooks-guide"
+quote = "When Claude's context window fills up, compaction summarizes the conversation to free space."
+status = "fetched 2026-11-10 as Markdown (hooks-guide.md) and stored in sources/anthropic_2026_cc_hooks_guide/text.txt; quote checked against the stored text"
+
+# The web standards behind tools/source_store.py's reading of a page's declared charset, and the registry behind its
+# media types, fetched 2026-11-10 by the polite fetch for the build briefs of that day (an earlier session). Each
+# is stored by tools/source_store.py in sources/<key>/ (original, text.txt, source.json); each quote was checked
+# against the stored text by script, white space folded.
+
+[whatwg_encoding]
+citation = "WHATWG (2026). Encoding Standard. Living Standard, last updated 19 October 2026. https://encoding.spec.whatwg.org/"
+link = "https://encoding.spec.whatwg.org/"
+quote = "If label is an ASCII case-insensitive match for any of the labels listed in the table below, then return the corresponding encoding; otherwise return failure."
+status = "fetched 2026-11-10: the label table as the Standard's non-normative encodings.json (sources/whatwg_encoding/original.json, 40 encodings, 228 labels), and the page itself beside it (spec.html, its text spec.txt made by source_store's html_text); quote (section 4.2, get an encoding) checked against spec.txt, as are its first step, 'Remove any leading and trailing ASCII whitespace from label.', and section 10.1.1, 'GBK’s decoder is gb18030’s decoder.' Licence CC BY 4.0, by the page's notice."
+
+[whatwg_html_parsing]
+citation = "WHATWG (2026). HTML Standard, section 13.2 Parsing HTML documents (the multipage chapter parsing.html). Living Standard, last updated 9 November 2026. https://html.spec.whatwg.org/multipage/parsing.html"
+link = "https://html.spec.whatwg.org/multipage/parsing.html"
+quote = "If charset is UTF-16BE/LE, then set charset to UTF-8."
+status = "fetched 2026-11-10 and stored in sources/whatwg_html_parsing/ (original.html, text.txt); quote checked against text.txt, in 13.2.3.2 Determining the character encoding (prescan a byte stream), with the step after it, 'If charset is x-user-defined, then set charset to windows-1252.' Licence CC BY 4.0, by the page's notice."
+
+[iana_2026_media_types]
+citation = "IANA (2026). Media Types registry, the application/ subtree, as served on 2026-11-10. https://www.iana.org/assignments/media-types/media-types.xhtml"
+link = "https://www.iana.org/assignments/media-types/application.csv"
+status = "fetched 2026-11-10 as application.csv (1,823 registrations) and stored in sources/iana_2026_media_types/; searched by script: no registration contains hwp, hancom, haansoft or hangul, and the OOXML, msword and vnd.ms-excel types are registered. No quote: a registry is read by its rows."
+
+# Claude Code on the web, cloud environments and claude.ai skills, stored in sources/<key>/ by tools/source_store.py
+# on 2026-11-10 (about 16:00 New York time) for the cost-benefit project's work on tools for different populations; each
+# quote checked against the stored text.
+
+[anthropic_2026_cc_web]
+citation = "Anthropic (2026). Use Claude Code in the cloud. Claude Code documentation, page as served on 2026-11-10."
+link = "https://code.claude.com/docs/en/claude-code-on-the-web"
+quote = "Subagents work the same way they do locally. ... Outside a project's threads, subagents defined in your repo's `.claude/agents/` load automatically."
+status = "fetched 2026-11-10 as Markdown and stored in sources/anthropic_2026_cc_web/; quote checked against text.txt line 300, its links dropped; SUPERSEDED for current wording by the 2026-11-13 refetch stored under the same key plus _2026_11_13; the page changed in between, so this copy is the 2026-11-10 reading only"
+
+[anthropic_2026_cc_web_quickstart]
+citation = "Anthropic (2026). Get started with Claude Code in the cloud. Claude Code documentation, page as served on 2026-11-10."
+link = "https://code.claude.com/docs/en/web-quickstart"
+status = "fetched 2026-11-10 as Markdown and stored in sources/anthropic_2026_cc_web_quickstart/; stored for the web route of roadmap item 2.25, which quotes none of it; SUPERSEDED for current wording by the 2026-11-13 refetch stored under the same key plus _2026_11_13; the page changed in between, so this copy is the 2026-11-10 reading only"
+
+[anthropic_2026_cc_cloud_environments]
+citation = "Anthropic (2026). Configure cloud environments. Claude Code documentation, page as served on 2026-11-10."
+link = "https://code.claude.com/docs/en/cloud-environments"
+status = "fetched 2026-11-10 as Markdown and stored in sources/anthropic_2026_cc_cloud_environments/; stored for the web route of roadmap item 2.25, which quotes none of it; SUPERSEDED for current wording by the 2026-11-13 refetch stored under the same key plus _2026_11_13; the page changed in between, so this copy is the 2026-11-10 reading only"
+
+[anthropic_2026_cc_web_2026_11_13]
+citation = "Anthropic (2026). Use Claude Code in the cloud. Claude Code documentation, page as served on 2026-11-13."
+link = "https://code.claude.com/docs/en/claude-code-on-the-web"
+status = "refetched 2026-11-13 and stored in sources/anthropic_2026_cc_web_2026_11_13/; the CURRENT copy, beside the 2026-11-10 one (anthropic_2026_cc_web), which is kept because the page changed (its first-environment line now says Limited, not Trusted); the tool has no refetch form, so the new key carries the date"
+
+[anthropic_2026_cc_web_quickstart_2026_11_13]
+citation = "Anthropic (2026). Get started with Claude Code in the cloud. Claude Code documentation, page as served on 2026-11-13."
+link = "https://code.claude.com/docs/en/web-quickstart"
+status = "refetched 2026-11-13 and stored in sources/anthropic_2026_cc_web_quickstart_2026_11_13/; the CURRENT copy, beside the 2026-11-10 one (anthropic_2026_cc_web_quickstart), kept because the page changed (Trusted became Limited)"
+
+[anthropic_2026_cc_cloud_environments_2026_11_13]
+citation = "Anthropic (2026). Configure cloud environments. Claude Code documentation, page as served on 2026-11-13."
+link = "https://code.claude.com/docs/en/cloud-environments"
+status = "refetched 2026-11-13 and stored in sources/anthropic_2026_cc_cloud_environments_2026_11_13/; the CURRENT copy, beside the 2026-11-10 one (anthropic_2026_cc_cloud_environments), kept because the network access levels changed: None, Limited (default), Full, with Trusted and Custom as legacy saved values"
+
+[anthropic_2026_cc_mobile]
+citation = "Anthropic (2026). Claude Code on mobile. Claude Code documentation, page as served on 2026-11-13."
+link = "https://code.claude.com/docs/en/mobile"
+status = "fetched 2026-11-13 as Markdown and stored in sources/anthropic_2026_cc_mobile/; the page changes, so the date is part of the citation; no quote"
+
+[anthropic_2026_cc_subagents]
+citation = "Anthropic (2026). Create custom subagents. Claude Code documentation, page as served on 2026-11-10."
+link = "https://code.claude.com/docs/en/sub-agents"
+quote = "By default, a subagent can spawn subagents of its own, up to three layers below the main conversation."
+status = "fetched 2026-11-10 and stored in sources/anthropic_2026_cc_subagents/; the same page as anthropic_2026_subagents, refetched the same day by another seat, its text differing in the lines on which model Explore runs; kept under this key because the citing roadmap uses it; quote checked against text.txt"
+
+[anthropic_2026_claudeai_using_skills]
+citation = "Anthropic (2026). Using Skills in Claude. Claude Help Center, article 12512180, page as served on 2026-11-10."
+link = "https://support.claude.com/en/articles/12512180-using-skills-in-claude"
+quote = "This feature requires code execution to be enabled."
+status = "fetched 2026-11-10 as HTML and stored in sources/anthropic_2026_claudeai_using_skills/ with text.txt made by source_store's html_text; quote checked against text.txt line 52 (the roadmap's 'require code execution' is this sentence)"
+
+[anthropic_2025_effective_harnesses]
+citation = "Young, J. (2025). Effective harnesses for long-running agents. Anthropic engineering blog, published 26 November 2025."
+link = "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+status = "fetched and stored 2026-11-12 in sources/anthropic_2025_effective_harnesses/"
+
+[cognition_2026_multiagents_followup]
+citation = "Yan, W. (2026). Multi-Agents: What's Actually Working. Cognition blog, 22 April 2026."
+link = "https://cognition.com/blog/multi-agents-working"
+status = "fetched and stored 2026-11-12 in sources/cognition_2026_multiagents_followup/"
+
+[mohamed_2025_broken_telephone]
+citation = "Mohamed, A., Geng, M., Vazirgiannis, M., Shang, G. (2025). LLM as a Broken Telephone: Iterative Generation Distorts Information. arXiv:2502.20258 (v2, 15 Sep 2025)."
+link = "https://arxiv.org/abs/2502.20258"
+status = "fetched and stored 2026-11-12 in sources/laban_2025_broken_telephone/ (folder name carries a wrong author key; the paper is Mohamed et al.)"
+
+[laban_2025_lost_multiturn]
+citation = "Laban, P., Hayashi, H., Zhou, Y., Neville, J. (2025). LLMs Get Lost In Multi-Turn Conversation. arXiv:2505.06120."
+link = "https://arxiv.org/abs/2505.06120"
+status = "fetched and stored 2026-11-12 in sources/laban_2025_lost_multiturn/"
+
+[liu_2023_lostmiddle_pdf]
+citation = "Liu, N. F., et al. (2023). Lost in the middle. arXiv:2307.03172 (full PDF; see liu_2023_lostmiddle)."
+link = "https://arxiv.org/abs/2307.03172"
+status = "fetched and stored 2026-11-12 in sources/liu_2023_lostmiddle_pdf/"
+
+[cemri_2025_whymas_pdf]
+citation = "Cemri, M., et al. (2025). Why do multi-agent LLM systems fail? arXiv:2503.13657 (full PDF; see cemri_2025_whymas)."
+link = "https://arxiv.org/abs/2503.13657"
+status = "fetched and stored 2026-11-12 in sources/cemri_2025_whymas_pdf/"
+
+# Pages read 2026-11-14 at about 05:13 UTC by the investigation of prompt caching; copies from its scratchpad.
+
+[anthropic_2026_api_prompt_caching]
+citation = "Anthropic (2026). Prompt caching. Claude API documentation, page as served on 2026-11-14."
+link = "https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_api_prompt_caching/ with original and text.txt; the API mechanism: cache_control breakpoints, 5-minute and 1-hour lifetimes, prices; a dated page of current practice that changes without notice, so the date is part of the citation; quotes checked against text.txt line 239 (five-minute default, refreshed at no cost on use) and lines 288 and 501 (one-hour write at 2x base input price)"
+
+[anthropic_2026_cc_prompt_caching]
+citation = "Anthropic (2026). Prompt caching. Claude Code documentation, page as served on 2026-11-14."
+link = "https://code.claude.com/docs/en/prompt-caching.md"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_cc_prompt_caching/ with original and text.txt; how Claude Code uses the cache: which lifetime each request gets, subagents, env variables; a dated page of current practice that changes without notice, so the date is part of the citation; no quote"
+
+[anthropic_2026_cc_subagents_2026_11_14]
+citation = "Anthropic (2026). Create custom subagents. Claude Code documentation, page as served on 2026-11-14."
+link = "https://code.claude.com/docs/en/sub-agents.md"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_cc_subagents_2026_11_14/ with original and text.txt; the same page as anthropic_2026_subagents (read 2026-11-08, replaced 2026-11-10) and anthropic_2026_cc_subagents (2026-11-10), read again; a dated page of current practice that changes without notice, so the date is part of the citation; no quote"
+
+[anthropic_2026_cc_settings_reference]
+citation = "Anthropic (2026). Settings reference. Claude Code documentation, page as served on 2026-11-14."
+link = "https://code.claude.com/docs/en/settings-reference.md"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_cc_settings_reference/ with original and text.txt; every settings key; a dated page of current practice that changes without notice, so the date is part of the citation; no quote"
+
+[anthropic_2026_cc_env_vars]
+citation = "Anthropic (2026). Environment variables. Claude Code documentation, page as served on 2026-11-14."
+link = "https://code.claude.com/docs/en/env-vars.md"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_cc_env_vars/ with original and text.txt; every environment variable; a dated page of current practice that changes without notice, so the date is part of the citation; no quote"
+
+[anthropic_2026_cc_costs]
+citation = "Anthropic (2026). Manage costs effectively. Claude Code documentation, page as served on 2026-11-14."
+link = "https://code.claude.com/docs/en/costs.md"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_cc_costs/ with original and text.txt; what Claude Code costs and how to lower it; a dated page of current practice that changes without notice, so the date is part of the citation; no quote"
+
+[anthropic_2026_cc_model_config]
+citation = "Anthropic (2026). Model configuration. Claude Code documentation, page as served on 2026-11-14."
+link = "https://code.claude.com/docs/en/model-config.md"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_cc_model_config/ with original and text.txt; model aliases, effort and provider resolution; a dated page of current practice that changes without notice, so the date is part of the citation; no quote"
+
+[anthropic_2026_cc_llms_txt]
+citation = "Anthropic (2026). Claude Code documentation index (llms.txt), page as served on 2026-11-14."
+link = "https://code.claude.com/docs/llms.txt"
+status = "read 2026-11-14 and stored in sources/anthropic_2026_cc_llms_txt/ with original and text.txt; the index of every documentation page; a dated page of current practice that changes without notice, so the date is part of the citation; no quote"
+
+# Added 2026-11-15 from refs_fragment_peer_review.toml.
+
+[chambers_2013_registered]
+citation = "Chambers, C. D. (2013). Registered Reports: a new publishing initiative at Cortex. Cortex 49(3), 609-610. doi:10.1016/j.cortex.2012.12.016"
+link = "doi:10.1016/j.cortex.2012.12.016"
+status = "recalled; not read. Existence and bibliographic data checked in OpenAlex 2026-11-16 (W2002030061: an editorial, Cortex 49(3) 609-610, online 2012-12-25, closed access). The author's accepted manuscript in Cardiff University's repository (https://orca.cardiff.ac.uk/45177/1/Chambers_Cortex_2013b_GreenOA.pdf) answered 403, so no file is stored. Cited only as the launch of the Registered Report format; what the standard says of the format rests on nosek_2014_registered and pcirr_2026_reviewer_guide, both read."
+
+[nosek_2014_registered]
+citation = "Nosek, B. A., Lakens, D. (2014). Registered reports: a method to increase the credibility of published results. Social Psychology 45(3), 137-141. doi:10.1027/1864-9335/a000192"
+link = "https://zenodo.org/record/235813 (the publisher's page, econtent.hogrefe.com, answered 403)"
+quote = "Authors proceeded with the data collection with assurance that the results would be published irrespective of the outcome, as long they followed the registered plans or provided reasonable, explicit justifications for deviating from the plan. | When the results are known, evaluation of quality is likely influenced by preexisting beliefs | this might be termed, CARKing, critiquing after the results are known."
+status = "full text read 2026-11-16 from the Zenodo copy (record 235813, PDF), stored in sources/nosek_2014_registered/ with text.txt by pdftotext; the editorial introducing a special issue of replications run as Registered Reports; quotes checked against the stored text."
+
+[pcirr_2026_reviewer_guide]
+citation = "Peer Community In Registered Reports (2026). Guide for reviewers. Page as served on 2026-11-16."
+link = "https://rr.peercommunityin.org/help/guide_for_reviewers"
+quote = "Where they are proposed they must be pre-specified and “outcome-neutral”, meaning that they are designed before knowledge of the results and are independent of the main study hypotheses. | 2A. Whether the data are able to test the authors’ proposed hypotheses (or answer the proposed research question) by passing the approved outcome-neutral criteria | 2C. Whether the authors adhered precisely to the registered study procedures. | 2E. Whether the authors’ conclusions are justified given the evidence. | Note that PCI RR recommendation decisions will never be based on the perceived importance, novelty, or conclusiveness of the results. | Authors are welcome to include preliminary studies in their Stage 1 submissions"
+status = "read 2026-11-16 (section 2.1, the Stage 1 and Stage 2 criteria, and the passages on preliminary studies and deviations after in-principle acceptance) and stored in sources/pcirr_2026_reviewer_guide/ with original and text.txt; a dated page of current practice that changes without notice, so the date is part of the citation; quotes checked against the stored text."
+
+[button_2016_withholding]
+citation = "Button, K. S., Bal, L., Clark, A., Shipley, T. (2016). Preventing the ends from justifying the means: withholding results to address publication bias in peer-review. BMC Psychology 4, 59. doi:10.1186/s40359-016-0167-7"
+link = "doi:10.1186/s40359-016-0167-7"
+quote = "Authors submit otherwise complete manuscripts, but omit any discussion of results, and provisional acceptance is based on peer review of the background and methods alone. The results and discussion of accepted manuscripts may then be reviewed in a second stage, to | check for adherence to methods and to allow minor revisions."
+status = "read 2026-11-16 in part (the section 'Results-free peer review') from the publisher's PDF (CC BY 4.0), stored in sources/button_2016_withholding/ with text.txt; the editorial launching BMC Psychology's pilot of results-free review; quote checked against the stored text, split at the page header the PDF's text puts between 'to' and 'check'."
+
+[casey_2012_reshaping]
+citation = "Casey, K., Glennerster, R., Miguel, E. (2012). Reshaping institutions: evidence on aid impacts using a preanalysis plan. Quarterly Journal of Economics 127(4), 1755-1812. doi:10.1093/qje/qje027. Read as NBER Working Paper 17012 (May 2011, revised October 2011)."
+link = "https://www.nber.org/papers/w17012"
+quote = "we present results for the specific hypotheses described in our pre-analysis plan, a document that was finalized before we analyzed any follow-up data | Pre-analysis plans limit data mining, specification searches, or an ex post rationalization that selectively highlights only positive (or negative) effects | There are two minor deviations from the original pre-analysis plan in what we present below."
+status = "working paper read 2026-11-16 in part (section 3.3, the pre-analysis plan, and section 4.4, the perils of data mining, whose Table 5 builds a negative and a positive story from the same data) and stored in sources/casey_2012_reshaping/ with text.txt; the published QJE version (closed access) not opened, its bibliographic data checked in OpenAlex (W2180623213); quotes checked against the stored text. The paper has no table shells: its plan fixes outcomes, their grouping into hypotheses and the specifications. Blank tables are cited to jpal_2026_preanalysis."
+
+[jpal_2026_preanalysis]
+citation = "J-PAL (2026). Pre-analysis plans. Research resource, page as served on 2026-11-16."
+link = "https://www.povertyactionlab.org/resource/pre-analysis-plans"
+quote = "has a 2014 pre-analysis plan with blank tables showing their planned analyses. The authors then included these tables and discussion of any departures from the PAP in the appendix to their published paper | Researchers may consider creating a separate document that populates the PAP to the extent possible and discusses any deviations from it."
+status = "read 2026-11-16 and stored in sources/jpal_2026_preanalysis/ with original and text.txt; the example of blank tables is Finkelstein, Zhou, Taubman and Doyle's plan of 2014 and its paper of 2020, neither opened; a dated page of current practice that changes without notice, so the date is part of the citation; quotes checked against the stored text."
+
+[ieee_2026_sasb_opman]
+citation = "IEEE SA Standards Board (2026). IEEE SA Standards Board Operations Manual, approved January 2026. Piscataway, NJ: IEEE SA."
+link = "https://saforms.ieee.org/wp-content/uploads/import/documents/other/sb_om.pdf"
+quote = "Such evidence shall include (i) an indication of whether the resolution proposed by the comment was accepted, revised, or rejected and (ii) for comments that are not accepted verbatim, an explanation for the rejection of the comment or for revision of the change proposed by the commenter. | Once the proposed standard has achieved 75% approval, comments in subsequent ballots shall be based only on the changed portions of the balloted proposed standard, portions of the balloted proposed standard affected by the changes, or portions of the balloted proposed standard that are the subject of unresolved comments associated with Do Not Approve votes. | The verbatim text of each comment, the name of the Do Not Approve voter, and a response by the comment resolution group shall be included in the recirculation ballot package."
+status = "read 2026-11-16 in part (5.4.3.3, comments in the ballot, and 5.4.3.4, recirculation ballots) and stored in sources/ieee_2026_sasb_opman/ with text.txt; quotes checked against the stored text."
+
+[ieee_2025_ballot_comment_resolution]
+citation = "IEEE Standards Association (November 2025). IEEE SA Balloting and Comment Resolution Process Guidelines. Piscataway, NJ: IEEE SA."
+link = "https://standards.ieee.org/wp-content/uploads/2025/11/Ballot-and-Comment-Resoultion-Process-Guidelines-clean.pdf"
+quote = "The disposition status field of a comment resolution shall be set to one of: Accepted, Revised or Rejected. | The comment is in support of an unsatisfied previous comment associated with a Disapprove vote and does not provide substantive additional rationale. | No commenter (either member of the balloting group or other) can force the balloting and comment resolution process to continue indefinitely."
+status = "read 2026-11-16 whole (7 pages) and stored in sources/ieee_2025_ballot_comment_resolution/ with text.txt; the same document the cost-benefit project's research/refs.toml holds under this key (opened there 2026-11-08); quotes checked against the stored text."
+
+[olken_2015_promises]
+citation = "Olken, B. A. (2015). Promises and Perils of Pre-Analysis Plans. Journal of Economic Perspectives 29(3): 61-80. doi:10.1257/jep.29.3.61"
+link = "doi:10.1257/jep.29.3.61"
+quote = "An analysis plan should spell out the precise estimating equation and statistical model, including functional form and estimator (ordinary least squares, probit, logit, Poisson, instrumental variables, and so on)."
+status = "fetched 2026-11-16 from the author's department copy of the published article (economics.mit.edu, JEP Analysis Plans Final.pdf), text by plain pdftotext, 66,671 characters; read in part (Table 1, the model and covariates passage, and Costs of Pre-Analysis Plans); the quote was checked by a Python search of text.txt with white space collapsed and quotes straightened; DOI resolved by Crossref and OpenAlex; publisher (aeaweb.org, 403) and MIT DSpace (429) hosts closed"
+
+[kydland_1996_computational]
+citation = "Kydland, F. E. and Prescott, E. C. (1996). The Computational Experiment: An Econometric Tool. Journal of Economic Perspectives 10(1), 69-85. doi:10.1257/jep.10.1.69"
+link = "doi:10.1257/jep.10.1.69"
+quote = "Note that the goal of a computational experiment is not to try to match correlations."
+status = "2026-11-16: stored library/sources/kydland_1996_computational/ is the Cleveland Fed Working Paper 9420 (December 1994) version, from fraser.stlouisfed.org, not the 1996 journal text (aeaweb and the Minneapolis Fed copy refused). Read in part (section 'Calibrate the Model Economy', PDF p. 10); quote machine-checked with tools.quotes against that text. It says calibration fixes parameters so the model mimics known facts, and that a model-data discrepancy in an untargeted correlation can support the answer; it does not state in so many words that fit to targeted moments is no evidence. Page numbers of the journal version unchecked."
+
+[anthropic_2026_pricing]
+citation = "Anthropic. Pricing. Claude API Docs, platform.claude.com/docs/en/about-claude/pricing, retrieved 2026-11-17."
+link = "https://platform.claude.com/docs/en/about-claude/pricing"
+quote = "Claude 4.6 and later models (except Claude Haiku 5.5) and Claude Mythos Preview include the full 1M token context window at standard pricing."
+status = "Stored 2026-11-17 from the live page (HTML, text.txt 30985 chars); read in part (model pricing table, long-context section). Table 'Additional models' row for Claude Opus 5 reads, in order, input $5, output $25, 5m write $6.25, 1h write $10, cache hit $0.50 per MTok (text.txt lines 203-211, the table cells are one per line so are not quotable whole). The 1h write is 2.0 times input. No long-prompt tier for Opus 5: only Haiku 5.5 has one. Opus 5 is listed as an additional (older) model; the table's main rows are Opus 5.5 at $4/$20 with cache hit $0.20."
+
+# Added 2026-11-21 from ../notes/r61_publisher_terms_fragment.toml.
+
+[elsevier_terms_2026]
+citation = "Elsevier website terms and conditions, elsevier.com/legal, last revised 12 March 2026 (accessed 2026-11-21)"
+link = "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions"
+quote = "You may not use Content from the Services in combination with an artificial intelligence tool, (including to train an algorithm, test, process, analyse, generate output and/or develop any form of artificial intelligence tool) except as otherwise expressly permitted under these Terms and Conditions, or any relevant license or subscription agreement or authorization by us."
+status = "Stored 2026-11-21 by polite fetch from the publisher; read in full, quote machine-checked (tools.quotes). The page is the general website terms; it lists a separate ScienceDirect AI Personal Digital Subscription terms page, not read."
+
+[nejm_terms_of_use_2026]
+citation = "NEJM Group Terms of Use, last updated January 2026 (Internet Archive capture of 2026-11-07 of nejmgroup.org/legal/terms-of-use.htm)"
+link = "https://web.archive.org/web/20261107015249id_/https://www.nejmgroup.org/legal/terms-of-use.htm"
+quote = "Use Content from the Services to test, process, analyze, train, generate output from, or develop any form of artificial intelligence or machine learning tool or software."
+status = "Stored 2026-11-21 from the Internet Archive capture, not from nejmgroup.org; read in full, quote machine-checked (tools.quotes)."
+
+[sage_tdm_ai_policy_2025]
+citation = "Sage Policy on Text and Data Mining (TDM) and Artificial Intelligence (AI), sagepub.com/tdm-ai-policy (Internet Archive capture of 2025-06-30; no date on page)"
+link = "https://web.archive.org/web/20250630025228id_/https://www.sagepub.com/tdm-ai-policy"
+quote = "To use Sage’s website and content for any AI uses including generative AI you will need lawful access to the content you wish to use as well as a license from Sage."
+status = "Stored 2026-11-21 from the Internet Archive capture of 2025-06-30, not the live page; read in full, quote machine-checked (tools.quotes)."
+
+[welch_tdm_explained]
+citation = "TDM Explained, Content Permissions for Text & Data Mining (TDM), Welch Medical Library Guides, Johns Hopkins University (accessed 2026-11-21; no date on page)"
+link = "https://browse.welch.jhmi.edu/content_permissions_for_tdm/tdm_explanation"
+quote = "tools used to “scrape” content search results could breach Johns Hopkins' license agreement where TDM is not permitted, and this could result in resource access being shut down for the institution."
+status = "Stored 2026-11-21 by polite fetch; read in full, quote machine-checked (tools.quotes)."
+
+# Added 2026-11-21 from ../notes/reinertsen_fragment.toml.
+
+[reinertsen_2012_one_piece_flow]
+citation = "Reinertsen, D. G. (2012-11-01). Is One-Piece Flow the Lower Limit for Product Developers? Donald G. Reinertsen's Blog, Goodreads."
+link = "https://www.goodreads.com/author_blog_posts/5042135-is-one-piece-flow-the-lower-limit-for-product-developers?tab=author"
+quote = "The economically optimal batch size for a manufacturing process is an economic tradeoff, but it is a tradeoff that can be shifted to favor small batches."
+status = "Stored 2026-11-21 from the Goodreads author blog, read in full (short post). The author's own statement of the batch-size tradeoff, not the book's chapter 5; the book is closed and no free copy was found. Quote machine-checked with tools.quotes text. Source stored at library/sources/reinertsen_2012_one_piece_flow."

@@ -1,0 +1,11 @@
+{
+ "key": "uv_2025_manual_ria",
+ "citation": "Úřad vlády ČR, Odbor vládního analytického útvaru (2025). Manuál hodnocení dopadů regulace.",
+ "doi": null,
+ "url": "https://ria.gov.cz/wp-content/uploads/Manual-hodnoceni-dopadu-regulace_compressed.pdf",
+ "media_type": "application/pdf",
+ "sha256": "5d89a7aed1f5048cc0acac789d53147dc50db080ffab3e9b6688f2ab31addd60",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:18Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

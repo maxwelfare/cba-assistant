@@ -1,0 +1,12 @@
+{
+ "key": "nzta_2026_mbcm_vol1",
+ "citation": "NZ Transport Agency Waka Kotahi (May 2026). Monetised benefits and costs manual, volume 1: procedures, version 1.7.5. Internet Archive copy of 12 September 2026.",
+ "doi": null,
+ "url": "http://web.archive.org/web/20260912041117/https://www.nzta.govt.nz/assets/resources/monetised-benefits-and-costs-manual/Monetised-benefits-and-costs-manual-volume-1-procedures.pdf",
+ "media_type": "application/pdf",
+ "sha256": "1037aca0627ac7fab72bfe39e069d75935000ff0c6eb3b90ecc9e404a0eea072",
+ "licence": "copyright NZTA; reproduction for personal or in-house use without formal permission, with acknowledgement; other reproduction on request (page 2)",
+ "fetched": "2026-11-21T07:14:45Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/nz/vol1-procedures.pdf (fetched is the file's modification time)"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "mds_2013_metodologia_general",
+ "citation": "Ministerio de Desarrollo Social, Division de Evaluacion Social de Inversiones (2013). Metodologia General de Preparacion y Evaluacion de Proyectos. Copy republished by the Ministerio del Medio Ambiente (santiagorecicla.mma.gob.cl); the issuer's own sni.gob.cl refused.",
+ "doi": null,
+ "url": "https://santiagorecicla.mma.gob.cl/wp-content/uploads/2017/10/METODOLOGIA-DE-GENERAL-DE-PREPARACION-Y-EVALUACION-DE-PROYECTOS.pdf",
+ "media_type": "application/pdf",
+ "sha256": "47aeb875921f5d754bfe3489d66e5953ae3a4767ff9d553e8e3cde4074afecad",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:05Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

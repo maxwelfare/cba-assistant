@@ -1,0 +1,11 @@
+{
+ "key": "esgf_search_guide",
+ "citation": "ESGF. The ESGF Search RESTful API, esg-search v4.7.19 documentation (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://esgf.github.io/esg-search/ESGF_Search_RESTful_API.html",
+ "media_type": "text/html",
+ "sha256": "79bf7d4ce52a2193c0caf1f4c96b5b2bb85efa27a4503a13e877b032bb7db183",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

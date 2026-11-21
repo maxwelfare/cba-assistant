@@ -1,0 +1,11 @@
+{
+ "key": "iqwig_2025_allgemeine_methoden_v8",
+ "citation": "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (19. Dezember 2025). Allgemeine Methoden, Version 8.0. DOI 10.60584/Allgemeine-Methoden_V8.0.",
+ "doi": null,
+ "url": "https://www.iqwig.de/methoden/allgemeine-methoden_v8-0.pdf",
+ "media_type": "application/pdf",
+ "sha256": "047e80b9d7edaedebb974cc9f7236b1c10afcb6a155aa334c5d480ca7603650a",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

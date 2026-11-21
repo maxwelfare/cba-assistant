@@ -1,0 +1,11 @@
+{
+ "key": "mlit_2025_cba_shishin",
+ "citation": "国土交通省 (2025-09). 公共事業評価の費用便益分析に関する技術指針（共通編）.",
+ "doi": "none",
+ "url": "https://www.mlit.go.jp/tec/hyouka/public/250918_shishin/shishin/shishin250918.pdf",
+ "media_type": "application/pdf",
+ "sha256": "660bbad60629ab938f2bf926bc2f31a1c16ff5706c125f83ddbe5f97e9351962",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:06Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

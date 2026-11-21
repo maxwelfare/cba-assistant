@@ -1,0 +1,12 @@
+{
+ "key": "butera_2022_shame_pride",
+ "citation": "Butera L, Metcalfe R, Morrison W, Taubinsky D (2022). Measuring the Welfare Effects of Shame and Pride. American Economic Review 112(1):122-168 (NBER working paper 25637 stored).",
+ "doi": "10.1257/aer.20190433",
+ "url": "https://www.nber.org/system/files/working_papers/w25637/w25637.pdf",
+ "media_type": "application/pdf",
+ "sha256": "a4681bc8cfd9889cae9f96deaa9ba1ed6b9c6d861f9e08e1f3108cbd3afd7ac6",
+ "licence": "NBER working paper, copyright the authors; free download",
+ "fetched": "2026-11-14T13:41:33Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.nber.org/system/files/working_papers/w25637/w25637.pdf"
+}

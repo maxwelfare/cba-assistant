@@ -1,0 +1,11 @@
+{
+ "key": "knutti_2013_genealogy",
+ "citation": "Knutti R, Masson D, Gettelman A (2013). Climate model genealogy: Generation CMIP5 and how we got there. Geophysical Research Letters 40(6):1194-1199.",
+ "doi": "10.1002/grl.50256",
+ "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/b50a9e73-80af-4ce7-a458-7e046e2956fc/content",
+ "media_type": "application/pdf",
+ "sha256": "3d49eed31933d39b45d6e59208a3df125161b0411c41781eadd05be8c64a94cf",
+ "licence": "In Copyright - Non-Commercial Use Permitted (ETH Research Collection)",
+ "fetched": "2026-11-08T01:08:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

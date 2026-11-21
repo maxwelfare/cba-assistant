@@ -1,0 +1,12 @@
+{
+ "key": "bastos_2010_validating_gp_thesis",
+ "citation": "Bastos LS (2010). Validating Gaussian Process Models in Computer Experiments. PhD thesis, University of Sheffield (awarded 19 July 2010); White Rose eTheses Online 963. Contains the diagnostics published as Bastos LS, O'Hagan A (2009) Technometrics 51(4):425-438.",
+ "doi": null,
+ "url": "https://etheses.whiterose.ac.uk/963/2/Bastos_thesis_final.pdf",
+ "media_type": "application/pdf",
+ "sha256": "ba8aa3c70d96d604eb08e6ac1e61b6251d092395ab36dbaccf57476d59acce67",
+ "licence": "Thesis page: CC BY-NC-ND (Attribution, non-commercial, no derivatives), 'No reproduction is permitted without consent of the author'",
+ "fetched": "2026-11-13T12:44:59Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/hold/bastos.pdf (fetched is the file's modification time)"
+}

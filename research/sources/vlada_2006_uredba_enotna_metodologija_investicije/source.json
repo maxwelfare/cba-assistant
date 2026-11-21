@@ -1,0 +1,12 @@
+{
+ "key": "vlada_2006_uredba_enotna_metodologija_investicije",
+ "citation": "Uradni list RS, No. 60/2006, whole issue (Uredbeni del); contains the original Uredba o enotni metodologiji za pripravo in obravnavo investicijske dokumentacije na podrocju javnih financ (Vlada RS). Superseded in part: Article 8 (discount rate 7 %) was replaced in 2016. Stored as the base text the 2016 amendment changes.",
+ "doi": null,
+ "url": "https://www.uradni-list.si/_pdf/2006/Ur/u2006060.pdf",
+ "media_type": "application/pdf",
+ "sha256": "2bb38cde65526f50232315e0817ea578502d8ff14f46fbb975f41007839aba01",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)",
+ "language": "sl"
+}

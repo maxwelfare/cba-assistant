@@ -1,0 +1,11 @@
+{
+  "key": "emmi_2013_egeszseg_gazdasagtani_iranyelv",
+  "citation": "EMMI szakmai irányelv az egészség-gazdaságtani elemzések készítéséhez (Egészségügyi Közlöny 2013/3; republished by IJSZ)",
+  "doi": null,
+  "url": "https://www.ijsz.hu/UserFiles/egeszseg_gazdasagtani_elemzesek_keszitesehez_2013euk3szam(1).pdf",
+  "media_type": "application/pdf",
+  "sha256": "341d6e282b0c81083a264296512c1270cec3f7c3fa468e07be76cee478525dde",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:50Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

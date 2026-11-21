@@ -1,0 +1,12 @@
+{
+ "key": "atmi_1981_donovan",
+ "citation": "American Textile Manufacturers Institute, Inc. v. Donovan, 452 U.S. 490 (1981).",
+ "doi": null,
+ "url": "https://www.law.cornell.edu/supremecourt/text/452/490",
+ "media_type": "text/html",
+ "sha256": "0c9506a25f69616129cfa93f92134c84d4bf2c4339c423e2c214d7c7e2a37028",
+ "licence": "US Supreme Court opinion, public domain",
+ "fetched": "2026-11-17T11:55:12Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.law.cornell.edu/supremecourt/text/452/490"
+}

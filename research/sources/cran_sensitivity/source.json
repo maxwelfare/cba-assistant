@@ -1,0 +1,12 @@
+{
+ "key": "cran_sensitivity",
+ "citation": "Iooss B et al. sensitivity: Global Sensitivity Analysis of Model Outputs and Importance Measures, CRAN page, version 1.31.0, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://cran.r-project.org/web/packages/sensitivity/index.html",
+ "media_type": "text/html",
+ "sha256": "bb40b99009a3ef8ab2439b5699fe812869dd6edd102023bccc1ae01123c7b48b",
+ "licence": "GPL-2 (package)",
+ "fetched": "2026-11-13T11:41:57Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://cran.r-project.org/web/packages/sensitivity/index.html"
+}

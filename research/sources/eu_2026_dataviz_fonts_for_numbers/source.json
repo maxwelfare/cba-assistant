@@ -1,0 +1,12 @@
+{
+ "key": "eu_2026_dataviz_fonts_for_numbers",
+ "citation": "Publications Office of the European Union. Fonts for numbers. Data Visualisation Guide, data.europa.eu (read 2026-11-20).",
+ "doi": null,
+ "url": "https://data.europa.eu/apps/data-visualisation-guide/fonts-for-numbers",
+ "media_type": "text/html",
+ "sha256": "89b3913bd6205b000fb76a2f1130e98c041b8627d369a026e03dcb8af8f573e9",
+ "licence": "not stated; free online",
+ "fetched": "2026-11-20T21:52:28Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://data.europa.eu/apps/data-visualisation-guide/fonts-for-numbers"
+}

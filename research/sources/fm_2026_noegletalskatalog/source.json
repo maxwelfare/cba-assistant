@@ -1,0 +1,11 @@
+{
+  "key": "fm_2026_noegletalskatalog",
+  "citation": "Finansministeriet (2026): Nøgletalskatalog, juni 2026 (tillæg til Vejledning i samfundsøkonomiske konsekvensvurderinger)",
+  "doi": null,
+  "url": "https://fm.dk/media/4tkj2o4w/noegletalskatalog_juni-2026.pdf",
+  "media_type": "application/pdf",
+  "sha256": "dde7264609ff04a7d8c7e7f0ad11e111db1ae82c5fcba8909ab42938854dcbff",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:24:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

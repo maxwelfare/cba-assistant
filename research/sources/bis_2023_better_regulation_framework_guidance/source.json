@@ -1,0 +1,11 @@
+{
+ "key": "bis_2023_better_regulation_framework_guidance",
+ "citation": "Department for Business and Trade (2023). Better Regulation Framework guidance (September 2023 version, on GOV.UK page updated 5 September 2025).",
+ "doi": null,
+ "url": "https://assets.publishing.service.gov.uk/media/67587ba55a2e4d4b993bfa83/better-regulation-framework-guidance-2023.pdf",
+ "media_type": "application/pdf",
+ "sha256": "37d88eff025846ef4a2d3b1096528f02ca85c849969fb4e060d121625d623b7b",
+ "licence": "Open Government Licence v3.0 (text line 3247)",
+ "fetched_utc": "2026-11-09T16:37Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

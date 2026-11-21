@@ -1,0 +1,31 @@
+% The layout of a verse document (documents/verse/*.md): US letter, two columns of 11 pt Pagella, each 3.35 in
+% wide, which holds a 45-character line of trochaic tetrameter without wrapping (three columns would be
+% 2.1 in, too narrow). A wrapped line hangs by 1.5 em. tools/typeset.py splits the Markdown into pieces
+% and writes body.tex: each heading, table (with its caption) and image piece is read across the full width,
+% and each piece of verse inside a multicols environment (multicols cannot be ended from inside the Markdown
+% package's groups). A heading's piece first asks for seven lines of room (needspace): multicols starts a new
+% page when less than \premulticols (50 pt) is left, which would otherwise leave the heading above it alone at
+% the page's foot.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,textwidth=7in,hmarginratio=1:1,top=1in,bottom=1.1in]{geometry}
+\usepackage{typeset-common}
+\usepackage{multicol}
+\usepackage{needspace}
+\setlength{\columnsep}{0.3in}
+% A tall figure is at most 0.8 of a page high, not 0.85, so that it fits below the last lines of a section
+% rather than taking a page of its own and leaving those lines alone on the page before; a wide
+% figure is then still drawn at its own size.
+\renewcommand{\typesetimagefraction}{0.8}
+\newcommand{\typesettitle}[1]{%
+  {\centering\typesetlato\bfseries\LARGE\typesetheadicon#1\par}\vspace{\baselineskip}}
+% Each verse line is its own paragraph, so that a wrapped line hangs; the space between paragraphs is taken
+% back after a hard line break, so only a blank line (a stanza break) leaves a gap.
+\markdownSetup{rendererPrototypes={
+  lineBreak = {\par\vskip-\parskip},
+}}
+\newcommand{\versepiece}[1]{\begin{multicols}{2}\everypar{\hangindent=1.5em \hangafter=1 }\markdownInput{#1}\end{multicols}}
+\newcommand{\widepiece}[1]{\markdownInput{#1}}
+\newcommand{\headingpiece}[1]{\needspace{7\baselineskip}\markdownInput{#1}}
+\begin{document}
+\input{body.tex}
+\end{document}

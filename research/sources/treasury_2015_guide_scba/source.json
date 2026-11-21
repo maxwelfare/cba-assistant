@@ -1,0 +1,11 @@
+{
+  "key": "treasury_2015_guide_scba",
+  "citation": "New Zealand Treasury (July 2015). Guide to Social Cost Benefit Analysis. Wellington. ISBN 978-0-478-43698-3.",
+  "doi": null,
+  "url": "https://www.treasury.govt.nz/sites/default/files/2015-07/cba-guide-jul15.pdf",
+  "media_type": "application/pdf",
+  "sha256": "8b25247558b061c2bab74fb092b4447f2df957ef7aec05788584f7d4f4487b86",
+  "licence": "Creative Commons Attribution 3.0 New Zealand (Crown copyright)",
+  "fetched_utc": "2026-11-09T16:32:13+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

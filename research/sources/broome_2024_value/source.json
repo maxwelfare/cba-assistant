@@ -1,0 +1,12 @@
+{
+ "key": "broome_2024_value",
+ "citation": "Broome J (2024). The Value of Life in the Social Cost of Carbon: A Critique and a Proposal. Journal of Benefit-Cost Analysis.",
+ "doi": "10.1017/bca.2024.21",
+ "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/40FB43D98AD3CE799FB790F0A8B3F211/S2194588824000216a.pdf/div-class-title-the-value-of-life-in-the-social-cost-of-carbon-a-critique-and-a-proposal-div.pdf",
+ "media_type": "application/pdf",
+ "sha256": "c55bc5f883fa71afc2e6030a33e4362c679a339ae9e560f8fd0ad5a995e54647",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:57:28Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.cambridge.org/core/services/aop-cambridge-core/content/view/40FB43D98AD3CE799FB790F0A8B3F211/S2194588824000216a.pdf/div-class-title-the-value-of-life-in-the-social-cost-of-carbon-a-critique-and-a-proposal-div.pdf"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "kce_2012_economic_evaluations_guidelines",
+  "citation": "Cleemput I, Neyt M, Van De Sande S, Thiry N. Belgian guidelines for economic evaluations and budget impact analyses: second edition. KCE Reports 183C. Brussels: Belgian Health Care Knowledge Centre; 2012",
+  "doi": null,
+  "url": "https://kce.fgov.be/sites/default/files/2021-11/KCE_183_economic_evaluations_second_edition_Report_update.pdf",
+  "media_type": "application/pdf",
+  "sha256": "86510752d1e8dc2f7b76542e10e7e4a4df9e3dcd70ea628cf37635e79b6d05fb",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:20:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

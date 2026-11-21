@@ -1,0 +1,11 @@
+{
+  "key": "fm_2025_celvedis_administrativais_slogs",
+  "citation": "Finanšu ministrijas Iekšējā audita departaments (2025/26). Metodologijas celvedis ieksejiem auditoriem administrativa sloga, birokratiska sloga aprekinasana un mazinasana un izdevumu efektivitates novertesana. Riga.",
+  "doi": null,
+  "url": "https://www.fm.gov.lv/lv/media/25965/download",
+  "media_type": "application/pdf",
+  "sha256": "ef717a5fc783fec052e79625f6a25175106693ac66b533cd8b13d1df3c135302",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:31:16+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

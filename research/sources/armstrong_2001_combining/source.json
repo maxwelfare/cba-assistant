@@ -1,0 +1,10 @@
+{
+ "key": "armstrong_2001_combining",
+ "citation": "Armstrong JS (2001). Combining forecasts. In Armstrong JS (ed.), Principles of Forecasting: A Handbook for Researchers and Practitioners, Kluwer, 417-439.",
+ "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2020/07/96-JSA-Combining-Forecasts.pdf",
+ "media_type": "application/pdf",
+ "sha256": "db5cc7d2d3df09c3b9cde73815bccc8e91d23ee1aa0cc021899c9a869fa4533f",
+ "licence": "the author's copy, 'Reprinted permission of Kluwer/Springer'",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext -layout original.pdf text.txt"
+}

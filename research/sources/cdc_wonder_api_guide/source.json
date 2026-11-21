@@ -1,0 +1,11 @@
+{
+  "key": "cdc_wonder_api_guide",
+  "citation": "CDC WONDER API for Data Query Web Service (help page). National Center for Health Statistics, CDC.",
+  "doi": "",
+  "url": "https://wonder.cdc.gov/wonder/help/wonder-api.html",
+  "media_type": "text/html",
+  "sha256": "2a8e9b00cdbb6816f16c7a45cc32c2fb6f88d3b9c560ddf5b2e92fce9b27b151",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:27:54Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

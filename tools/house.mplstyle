@@ -1,0 +1,35 @@
+# The house look of every scientific figure (tools/figures.py). Figure code sets no color, font, size of type or
+# margin; it reads them from here, within matplotlib.style.context, so a caller's settings are untouched.
+
+# matplotlib's bundled serif, at one type size for every text.
+font.family: serif
+font.serif: DejaVu Serif
+font.size: 9
+axes.titlesize: medium
+axes.labelsize: medium
+xtick.labelsize: medium
+ytick.labelsize: medium
+legend.fontsize: medium
+legend.title_fontsize: medium
+figure.titlesize: medium
+
+# The bundled colorblind-safe cycle, tableau-colorblind10, copied as matplotlib ships it.
+axes.prop_cycle: cycler('color', ['006BA4', 'FF800E', 'ABABAB', '595959', '5F9ED1', 'C85200', '898989', 'A2C8EC', 'FFBC79', 'CFCFCF'])
+patch.facecolor: 006BA4
+
+# Layout: constrained, one text-width wide.
+figure.constrained_layout.use: True
+figure.figsize: 6.5, 4
+
+# No top or right spine; a light grid, which a figure keeps on its value axis only.
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.axisbelow: True
+grid.color: D9D9D9
+grid.linewidth: 0.6
+legend.frameon: False
+
+# Fonts embedded: text as paths in SVG, TrueType in PDF.
+svg.fonttype: path
+pdf.fonttype: 42

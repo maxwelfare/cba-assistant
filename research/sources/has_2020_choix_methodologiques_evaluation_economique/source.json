@@ -1,0 +1,11 @@
+{
+ "key": "has_2020_choix_methodologiques_evaluation_economique",
+ "citation": "Haute Autorité de santé (juillet 2020). Choix méthodologiques pour l'évaluation économique à la HAS (French).",
+ "doi": null,
+ "url": "https://www.has-sante.fr/upload/docs/application/pdf/2020-07/guide_methodologique_evaluation_economique_has_2020_vf.pdf",
+ "media_type": "application/pdf",
+ "sha256": "b6754dadded7b724769c2e09111037437d3c9497dd2f09df356d1ce6243d8d74",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:27:32Z",
+ "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

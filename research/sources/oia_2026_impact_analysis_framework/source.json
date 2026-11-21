@@ -1,0 +1,11 @@
+{
+  "key": "oia_2026_impact_analysis_framework",
+  "citation": "Office of Impact Analysis, Department of the Prime Minister and Cabinet (July 2026). Australian Government Impact Analysis Framework.",
+  "doi": null,
+  "url": "https://oia.pmc.gov.au/sites/default/files/resource/download/impact-analysis-framework.pdf",
+  "media_type": "application/pdf",
+  "sha256": "60d684f8c5a62d5606b54263469633deafeddc85deb3f9594d719005cc5b4476",
+  "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0), as the copy states",
+  "fetched_utc": "2026-11-09T16:23:35Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

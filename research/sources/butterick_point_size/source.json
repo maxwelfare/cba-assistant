@@ -1,0 +1,11 @@
+{
+ "key": "butterick_point_size",
+ "citation": "Butterick M. Point size. Butterick's Practical Typography (read 2026-11-10).",
+ "doi": null,
+ "url": "https://practicaltypography.com/point-size.html",
+ "media_type": "text/html",
+ "sha256": "a5ee04f781c5d193150ac9efebc2386cc8ef4e95d40f0e4b8869d1e2976cd8b1",
+ "licence": "not stated; free online",
+ "fetched_utc": "2026-11-10T12:51:36.058115Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

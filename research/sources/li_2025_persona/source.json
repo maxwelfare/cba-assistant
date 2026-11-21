@@ -1,0 +1,13 @@
+{
+  "key": "li_2025_persona",
+  "citation": "Li A, Chen H, Namkoong H, Peng T (2025). LLM Generated Persona is a Promise with a Catch. arXiv:2503.16527v1; NeurIPS 2025 (doi:10.52202/085713-2226 per OpenAlex).",
+  "doi": "10.48550/arXiv.2503.16527",
+  "url": "https://arxiv.org/pdf/2503.16527",
+  "media_type": "application/pdf",
+  "sha256": "dca754a2cbee6ec3518fffb57312af1e3c6cbf2a699583f98255958807c1ee6d",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:39:40Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 61873,
+  "note": "Venue from OpenAlex (W4417149595), not from the arXiv PDF, which carries no venue."
+}

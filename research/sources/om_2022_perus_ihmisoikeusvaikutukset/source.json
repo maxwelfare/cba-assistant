@@ -1,0 +1,11 @@
+{
+ "key": "om_2022_perus_ihmisoikeusvaikutukset",
+ "citation": "Rönty H (2022). Perus- ja ihmisoikeusvaikutusten arviointi lainvalmistelussa. Oikeusministeriön julkaisuja, Selvityksiä ja ohjeita 2022:15.",
+ "doi": null,
+ "url": "https://api.hankeikkuna.fi/asiakirjat/45c9250e-1280-436b-a933-182292ad00d9/ff82826b-d5c6-4a27-9723-ae21a00fb152/JULKAISU_20221130071925.pdf",
+ "media_type": "application/pdf",
+ "sha256": "3231c50634a4ac55fec84cd3cda93feff95734df078dfeac3f0b67e05a6f3dcd",
+ "licence": "CC BY-SA 4.0 (as stated in the publication)",
+ "fetched": "2026-11-09T16:28:01Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

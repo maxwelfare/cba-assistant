@@ -1,0 +1,11 @@
+{
+ "key": "francestrategie_2025_avis_cs_ese_valeur_action_climat",
+ "citation": "France Stratégie, Conseil scientifique des méthodes d'évaluation socioéconomique (21 mai 2025). Avis n° 2025-2 sur la valeur de l'action pour le climat.",
+ "doi": null,
+ "url": "https://www.strategie-plan.gouv.fr/files/files/Publications/ESE%20-%20Juin%202025/Avis%20du%20CS%20ESE%20FS%20du%2021%20mai%202025%20-%20VAC%20V2bis.pdf",
+ "media_type": "application/pdf",
+ "sha256": "d8e3426691a85b733d532b5bba15452cdaa0c7916da61afb1ee8720dd99f58bd",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:27:32Z",
+ "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

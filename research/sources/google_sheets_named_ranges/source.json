@@ -1,0 +1,12 @@
+{
+ "key": "google_sheets_named_ranges",
+ "citation": "Google. Docs Editors Help (google_sheets_named_ranges), https://support.google.com/docs/answer/63175?hl=en, retrieved 2026-11-16.",
+ "doi": null,
+ "url": "https://support.google.com/docs/answer/63175?hl=en",
+ "media_type": "text/html",
+ "sha256": "8b25f7fc66f8835cf1393ba62cbe8ccafb453d41255598a8e09142471b29fe99",
+ "licence": "none stated (Google help page; Creative Commons Attribution 4.0 applies to Google Help content only where its page says)",
+ "fetched": "2026-11-16T18:46:34Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8: the page declares no charset",
+ "how": "python tools/host_cooldown.py fetch https://support.google.com/docs/answer/63175?hl=en"
+}

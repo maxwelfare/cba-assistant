@@ -1,0 +1,11 @@
+{
+  "key": "fomento_1990_recomendaciones_evaluacion_carreteras",
+  "citation": "Recomendaciones para la evaluación económica, coste-beneficio, de estudios y proyectos de carreteras. Actualización del valor del tiempo y costes de accidentes y combustibles (Ministerio de Obras Públicas / Fomento, Servicio de Planeamiento, c.1990, with later parameter update pages)",
+  "doi": null,
+  "url": "https://web.archive.org/web/20240718124113id_/https://www.transportes.gob.es/recursos_mfom/0410901.pdf",
+  "media_type": "application/pdf",
+  "sha256": "ec399a3803d9726f92d8f00a597c819f84659bd4b026291b1ec8e63005513916",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:48:55+00:00",
+  "text_method": "pdftotext original.pdf text.txt (scanned document with poor embedded OCR)"
+}

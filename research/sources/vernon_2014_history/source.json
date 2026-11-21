@@ -1,0 +1,11 @@
+{
+ "key": "vernon_2014_history",
+ "citation": "Vernon I, Goldstein M, Bower R (2014). Galaxy formation: Bayesian history matching for the observable universe. Statistical Science 29(1):81-90.",
+ "doi": "10.1214/12-STS412",
+ "url": "https://arxiv.org/pdf/1405.4976v1",
+ "media_type": "application/pdf",
+ "sha256": "f30dea347ca5abaa6bda715a24167e23242a03daf734aecc88cdb64ea88b191d",
+ "licence": "arXiv non-exclusive distribution licence",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext"
+}

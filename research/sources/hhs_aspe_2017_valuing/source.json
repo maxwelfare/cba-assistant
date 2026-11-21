@@ -1,0 +1,12 @@
+{
+ "key": "hhs_aspe_2017_valuing",
+ "citation": "HHS ASPE (2017). Valuing time in U.S. HHS regulatory impact analyses: conceptual framework and best practices.",
+ "doi": null,
+ "url": "https://aspe.hhs.gov/reports/valuing-time-us-department-health-human-services-regulatory-impact-analyses-conceptual-framework",
+ "media_type": "text/html",
+ "sha256": "4c0a752e924acbe763ea5bde1fa29afd3172f0d56b3b5cb5589fa19d1386f0e2",
+ "licence": "US government work",
+ "fetched": "2026-11-17T11:56:21Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://aspe.hhs.gov/reports/valuing-time-us-department-health-human-services-regulatory-impact-analyses-conceptual-framework"
+}

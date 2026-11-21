@@ -1,0 +1,11 @@
+{
+ "key": "uv_2025_manual_ria_priloha",
+ "citation": "Úřad vlády ČR, Odbor vládního analytického útvaru (2025). Příloha Manuálu hodnocení dopadů regulace: Specifické věcné dopady.",
+ "doi": null,
+ "url": "https://ria.gov.cz/wp-content/uploads/Manual_priloha_final_web.pdf",
+ "media_type": "application/pdf",
+ "sha256": "4f002e8d51047e61e0417ba60108b82bc6eb77a85eccbb0423c8d481da76565d",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:18Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

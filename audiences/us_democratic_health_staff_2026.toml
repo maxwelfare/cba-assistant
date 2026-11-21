@@ -1,0 +1,144 @@
+# Audience profile: Democratic health-committee staff in the 119th Congress, or a health official of a
+# Democratic administration. Format: notes/audience_layer.md section 3. Evidence: research/audience_layer.md.
+# Every `source` is a key of research/refs.toml, and every `quote` is checked by machine against that key's
+# stored text. `basis`: "source", "study", "sample", "convention" or "judgement" (no evidence).
+
+schema = 1
+key = "us_democratic_health_staff_2026"
+label = "Democratic staff of a congressional health committee, or a health official of a Democratic administration"
+disclosure_label = "congressional staff working on health policy"
+# The edition sentence, added word for word at the foot of each document beside the credit line, and nowhere under
+# its title (notes/audience_layer.md 5.3): a draft in the form of the first profile's, whose wording awaits the owner
+# (the referee's review, 7.4). It names the office and not the party, the cautious default until he rules;
+# here that makes the label wider than the truth, since the words are tuned to one party's staff, so this profile is
+# not used for a delivered edition before his ruling.
+edition_line = "This edition is written for congressional staff working on health policy."
+as_of = 2026-11-12
+review_by = 2027-02-12
+status = "not for a delivered edition yet: the result of the election of 3 November 2026 has not been looked up (the referee's review, 3.12), and no one who has worked for such a committee has read it; revised on 2026-11-12 to that review"
+assumes = """No Democratic administration is in office, so the priorities come from two kinds of document: what \
+congressional Democrats said in 2025 as the minority, and what the last Democratic administration wrote in \
+2021 and 2022. The election of 3 November 2026 may have changed which party holds each chamber; its result \
+was not looked up, and a majority's staff sets an agenda where a minority's answers one. The department's \
+strategic plan for 2022 to 2026 and its 2025 budget in brief were refused by hhs.gov and are not stored."""
+
+[reader]
+who = "Professional staff of the Democratic members of a health committee (Senate HELP or Finance, House Energy and Commerce or Ways and Means), or an appointee of a Democratic administration: often trained in public health or health policy."
+decides = "What to advise a member to support, amend or oppose, and what to ask an agency for."
+reads = "The summary and the key findings; then who gains and who pays, and the limits."
+basis = "judgement"
+
+[[priority]]
+name = "the public health system and its workforce"
+connect = "what each option builds or uses in public health laboratories, data systems and staff"
+source = "ec_democrats_2025_pallone_hhs_budget"
+date = 2025-06-24
+quote = "All of these actions decimate our public health infrastructure"
+basis = "source"
+
+[[priority]]
+name = "the health of all Americans: seniors, children and working families"
+connect = "how many people are protected or treated sooner, and who they are"
+source = "senate_help_2025_trumps_war_on_science"
+date = 2025-05-13
+quote = "The agency in charge of the health and well-being of all Americans, including tens of millions of seniors, children, and working families"
+basis = "source"
+
+[[priority]]
+name = "science and public data"
+connect = "what data each option makes public, and what the evidence behind each estimate is"
+source = "senate_help_2025_trumps_war_on_science"
+date = 2025-05-13
+quote = "Removing data will make it harder to understand how the health of different populations has changed with time, and whether programs focused on improving the health of Americans are actually working."
+basis = "source"
+
+[[priority]]
+name = "who is reached: access and unequal burdens"
+connect = "the findings on who gains and who pays, by group, with their numbers"
+source = "whitehouse_2021_american_pandemic_preparedness"
+date = 2021-09-02
+quote = "All of these efforts must, from the outset, include a strong emphasis on reducing inequities and increasing access by all Americans to the resulting advances."
+basis = "source"
+
+[[priority]]
+name = "early warning of a pandemic"
+connect = "what the option achieves, and how soon"
+source = "whitehouse_2021_american_pandemic_preparedness"
+date = 2021-09-02
+quote = "Goal: Have the ability to detect viruses that pose a pandemic threat soon after they emerge in humans and produce and publicly share the full genome sequence."
+basis = "source"
+
+[[priority]]
+name = "the strength of CDC"
+connect = "what each option asks of CDC and what it adds to CDC's capacity"
+source = "ec_democrats_2025_pallone_hhs_budget"
+date = 2025-06-24
+quote = "threatening the agency’s ability to protect the health of the American people."
+basis = "source"
+
+[[term]]
+prefer = "public health infrastructure, public health workforce"
+instead_of = "the surveillance apparatus, the bureaucracy, overhead"
+source = "ec_democrats_2025_pallone_hhs_budget"
+quote = "All of these actions decimate our public health infrastructure"
+basis = "source"
+
+[[term]]
+prefer = "communities, families, patients, people"
+instead_of = "consumers, taxpayers (where the sentence is about who is helped, not who pays)"
+basis = "sample"
+evidence = "Per 10,000 words, left- against right-leaning think tanks' reports: 'communit-' 15.5 against 9.9, 'famil-' 10.1 against 4.8, 'taxpayer' 0.5 against 7.8 (research/audience_layer.md 5.5.1). Part of each gap is topic."
+
+[[term]]
+prefer = "equity, unequal burdens, underserved, named with the group and its number"
+instead_of = "the same finding stated without its distributional word"
+rule = "Only where the plain edition reports the difference between groups. The word is never attached to a finding the analysis did not make."
+basis = "sample"
+evidence = "'equit-' runs at 8.2 per 10,000 words in the left-leaning reports against 0.9 in the right-leaning, and at 3.0 in the administration documents of 2021 and 2022 (the same place)."
+
+[[term]]
+prefer = "Department of Defense"
+instead_of = "Department of War"
+rule = "The statutory name."
+source = "eo_14347_department_of_war"
+quote = "Statutory references to the Department of Defense, Secretary of Defense, and subordinate officers and components shall remain controlling until changed subsequently by the law."
+basis = "source"
+
+[voice]
+basis = "judgement"
+tone = "Evidence first and concrete about people: who is helped, how many, how soon. Measured, not alarmed. Every hedge of the plain edition kept."
+lead = [
+  "the answer: which option, its expected net benefit with the range, and its cost",
+  "the people protected or treated sooner, and who they are",
+  "who gains and who pays, group by group",
+  "what it builds in the public health system and what data it makes public",
+  "what is uncertain and what would change the answer",
+]
+emphasis_boxes = ["who gains and who pays", "the finding on people's health and care", "what would change the answer"]
+sources_named_first = "Peer-reviewed studies and the public health agencies' own data where the plain edition cites them, then the Government Accountability Office and the Congressional Budget Office. No source is added or dropped."
+sources_named_first_basis = "judgement, on kahan_2011_cultural"
+never = [
+  "a party's or a campaign's slogans as the analysis's own voice",
+  "blame of the present administration, or any comment on it the plain edition does not make",
+  "a claim that any member or party supports the proposal",
+  "any seal, flag or agency mark",
+]
+
+# Design tokens. The sample shows no left-leaning look that the base theme lacks: its blue accent, amber
+# caveat rule and Lato headings are the Urban Institute's own choices (research/report_layout.md 1.2.3), and
+# blue with sans display type is what Brookings, the Center for American Progress and KFF use
+# (research/audience_layer.md 5.5). So this profile overrides nothing, on purpose.
+
+[design]
+
+[design.icons]
+cover = "users-group"
+basis = "judgement"
+evidence = "People first, as the lead does; an icon shows the subject, never a verdict. A Tabler name, checked with tools/icon_search.py; the first of the two names this profile listed before the table held one (users-group, stethoscope)."
+
+[design.imagery]
+cover = "The band, the title, one icon. No national symbol and no agency mark."
+photograph = "None in the first build. If a picture library is added: the people the policy serves, at work or in care, with their consent and a licence; two of the four left-leaning covers in the sample carry such a photograph (5.6.3), which is weak evidence."
+basis = "sample and judgement"
+
+# No [design.charts]: the base palette, as for the colours above.

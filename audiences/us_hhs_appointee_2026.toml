@@ -1,0 +1,239 @@
+# Audience profile: a Republican political appointee at the US Department of Health and Human Services,
+# in the second Trump administration. Format: notes/audience_layer.md section 3. Evidence: research/audience_layer.md.
+# Every `source` is a key of research/refs.toml, and every `quote` is checked by machine against that key's
+# stored text. `basis` says what an entry rests on: "source" (the reader's own dated public document, quoted),
+# "study" (peer-reviewed research), "sample" (the 22 reports looked at, research/audience_layer.md 5.5),
+# "convention" (documented practice) or "judgement" (an inference or a stereotype: no evidence).
+# A profile describes an office and is used by many cases: what one case asks an edition to attend to, such as
+# effects on a named group, is in that case's requirements.md, never here.
+
+schema = 1
+key = "us_hhs_appointee_2026"
+label = "a Republican political appointee at the US Department of Health and Human Services, second Trump administration"
+disclosure_label = "officials of the present administration at the US Department of Health and Human Services"
+# The edition sentence, added word for word at the foot of each document beside the credit line, and nowhere under
+# its title (notes/audience_layer.md 5.3). Its wording is public-facing and awaits the owner; it is the first sentence
+# of the referee's draft (the referee's review, 7.4), which names the office and not the party.
+edition_line = "This edition is written for officials of the present administration at the US Department of Health and Human Services."
+as_of = 2026-11-12
+review_by = 2027-02-12
+status = "revised on 2026-11-12 to the referee's review (the referee's review, finding 3); not yet read by anyone who has worked in that department"
+assumes = """The administration that took office on 20 January 2025 is in office and its orders of 2025 stand. \
+Checked 2026-11-12 from search summaries, not from stored documents: the Secretary is Robert F. Kennedy Jr. \
+(sworn in 13 February 2025; press of October 2026); no order of 2026 replaces Executive Order 14303; the \
+department's budget in brief for 2027 exists (April 2026) but hhs.gov refused the fetch, so CDC's budget \
+justification for 2027 stands in for it; no department-wide strategic plan for 2026 to 2030 was found. \
+Re-read all of this after any change of Secretary or a new strategic plan."""
+
+[reader]
+who = "A politically appointed official (a deputy or assistant secretary, a senior adviser, an agency's chief of staff): chosen by the administration, answerable to the Secretary and the White House."
+decides = "Whether to back a proposal inside the department and defend it to the Secretary, the Office of Management and Budget and Congress."
+reads = "The one-page summary whole; of the paper, the key findings, the boxes and the section on who gains and who pays. Staff read the rest."
+basis = "judgement"
+
+# What the administration has said it cares about, in its own dated documents. The translator connects a finding
+# to one of these only where the plain edition already states the finding; a priority no finding meets is left
+# unused. The quotes are evidence for the profile and are never quoted or cited in an edition.
+
+[[priority]]
+name = "core mission: infectious disease and preparedness"
+connect = "what the option achieves, and how soon"
+source = "cdc_fy2027_congressional_justification"
+date = 2026-04-03
+quote = "The FY 2027 President’s Budget positions CDC to focus squarely on core responsibilities, including infectious disease surveillance, outbreak investigation, preparedness and response, and maintenance of the nation's public health infrastructure."
+basis = "source"
+note = "The date is that of the budget's release as press summaries give it; the document itself gives only the fiscal year."
+
+[[priority]]
+name = "trust, transparency and public data"
+connect = "what data each option collects, who holds it, and what is published"
+source = "cdc_2025_priorities"
+date = 2025-09-17
+quote = "President Trump and HHS Secretary Kennedy are committed to restoring trust, transparency, and credibility to CDC."
+basis = "source"
+note = "Whether this reader has concerns about privacy, or about CDC itself, that no stored document states is not known."
+
+[[priority]]
+name = "protecting Americans from threats before they arrive"
+connect = "early warning of a pandemic or an attack; days gained"
+source = "state_2025_america_first_global_health"
+date = 2025-09-18
+quote = "We will keep Americans safe by continuing to support a global surveillance system that can detect an outbreak within seven days."
+basis = "source"
+note = "The State Department's document, not the reader's own department's."
+
+[[priority]]
+name = "readiness against biological threats"
+connect = "effects on biodefense and on readiness for a biological threat"
+source = "eo_14292_biological_research"
+date = 2025-05-05
+quote = "My Administration will balance the prevention of catastrophic consequences with maintaining readiness against biological threats and driving global leadership in biotechnology, biological countermeasures, biosecurity, and health research."
+basis = "source"
+
+[[priority]]
+name = "Gold Standard Science"
+connect = "every range, every stated assumption, the open model and its sources, in the standard's own plain words (reproducible, transparent, uncertainty stated); the edition does not say that the order requires or endorses anything, which would be a claim the plain edition does not make"
+source = "eo_14303_gold_standard_science"
+date = 2025-05-23
+quote = "Gold Standard Science means science conducted in a manner that is: (i) reproducible; (ii) transparent; (iii) communicative of error and uncertainty; (iv) collaborative and interdisciplinary; (v) skeptical of its findings and assumptions; (vi) structured for falsifiability of hypotheses; (vii) subject to unbiased peer review; (viii) accepting of negative results as positive outcomes; and (ix) without conflicts of interest."
+basis = "source"
+
+[[priority]]
+name = "the taxpayer's dollar: waste and measurable results"
+connect = "the government's outlay, who pays it, the benefit per dollar of outlay where the plain edition gives it, and what is already paid for and need not be bought twice"
+source = "aspr_2026_strategic_plan"
+date = 2026-01-09
+quote = "This Strategic Plan ensures funding aligns with national priorities, eliminates waste, and seeks to strengthen engagement"
+basis = "source"
+
+[[priority]]
+name = "the patient, and the clinician freed from paperwork"
+connect = "what a patient or a member of the public gains; what a clinician or other provider must do and how long it takes"
+source = "cms_2025_oz_vision"
+date = 2025-04-10
+quote = "Empowering the American People with personalized solutions they can better manage their health and navigate the complex health care system."
+basis = "source"
+
+[[priority]]
+name = "states and localities lead on preparedness"
+connect = "who runs each option, and what it asks of states, providers and others who carry it out"
+source = "eo_14239_state_local_preparedness"
+date = 2025-03-18
+quote = "preparedness is most effectively owned and managed at the State, local, and even individual levels, supported by a competent, accessible, and efficient Federal Government."
+basis = "source"
+
+[[priority]]
+name = "less regulatory burden"
+connect = "any requirement or mandate an option places on providers, stated as a cost in hours and dollars where the plain edition gives them"
+source = "eo_14192_deregulation"
+date = 2025-01-31
+quote = "to alleviate unnecessary regulatory burdens placed on the American people"
+basis = "source"
+
+[[priority]]
+name = "chronic disease"
+connect = "only where the analysis itself reports an effect on chronic disease; never stretched to fit"
+source = "eo_14212_maha_commission"
+date = 2025-02-13
+quote = "executive departments and agencies (agencies) that address health or healthcare must focus on reversing chronic disease."
+basis = "source"
+
+# Words. A preferred term names the same thing as the term it replaces and asserts nothing the analysis does
+# not. Titles of sources, quotations and citations of statutes keep their own words. An entry with
+# `apply = false` is recorded and not used.
+
+[[term]]
+prefer = "Department of War"
+instead_of = "Department of Defense"
+apply = false
+awaiting = "The owner's ruling on whether an analysis writes 'Department of War' (the referee's review, 4.3). Until he rules, an edition uses the name the plain edition uses."
+rule = "In running text. At first use: 'the Department of War (Department of Defense)', which says only that they are one body; nothing is said of the statute. Whether Congress has changed the legal name was not confirmed on 2026-11-12: the House passed a bill that would on 22 July 2026, and no report of enactment was found (the referee's search summaries)."
+source = "eo_14347_department_of_war"
+date = 2025-09-05
+quote = "The Department of Defense and the Office of the Secretary of Defense may be referred to as the Department of War and the Office of the Secretary of War, respectively"
+source_2 = "cdc_fy2027_congressional_justification"
+quote_2 = "In coordination with the White House and the Department of War"
+basis = "source"
+evidence = "The reader's own department uses the name in running text (source_2) and keeps 'Department of Defense' in the title of an appropriations act."
+
+[[term]]
+prefer = "detection, monitoring; early warning"
+instead_of = "surveillance, where the word could be read as watching people"
+rule = "'Disease surveillance' and 'infectious disease surveillance' stay: the department uses them. 'Early warning' only where the plain edition says the system gives warning; otherwise 'detection' or 'monitoring'."
+source = "cdc_fy2027_congressional_justification"
+quote = "The FY 2027 President’s Budget request supports targeted increases to enhance early warning and"
+basis = "source"
+
+[[term]]
+prefer = "taxpayers, the taxpayer's dollar"
+instead_of = "the public purse, government funds, public investment"
+rule = "'Taxpayers' only where the plain edition's quantity is a government outlay; a cost to society keeps its name."
+source = "aspr_2026_strategic_plan"
+quote = "steward taxpayer resources with transparency, discipline, and measurable outcomes"
+basis = "source"
+
+[[term]]
+prefer = "Americans, American patients, seniors, veterans, service members"
+instead_of = "populations, individuals (where the sentence allows)"
+rule = "A named group replaces a general word only where the plain edition's quantity is for that group."
+basis = "sample"
+evidence = "'American(s)' runs at 23.1 per 10,000 words in the administration's nine stored documents of 2025 and 2026 against 6.0 in the pair of 2021 and 2022 (research/audience_layer.md 5.5.1)."
+
+[[term]]
+prefer = "the groups by name: rural hospitals, low-income patients, seniors, veterans"
+instead_of = "equity, inequities"
+rule = "This changes words only. Every finding on who gains and who pays stays, stated for the named group with its number; the comparison between groups stays, with both numbers. 'Disproportionately', 'disparities' and 'underserved' stay wherever the plain edition uses them: the administration's own budget justification for CDC uses the last two."
+source = "cdc_2025_priorities"
+date = 2025-09-17
+quote = "CDC has previously invested substantially in ideologically-laden concepts like health equity"
+basis = "source"
+evidence = "'equit-' runs at 0.7 per 10,000 words in the administration's stored documents of 2025 and 2026 against 3.0 in the pair of 2021 and 2022, and at 0.9 against 8.2 in right- and left-leaning think tanks' reports (research/audience_layer.md 5.5.1)."
+
+[voice]
+basis = "judgement"
+tone = "Direct and confident where the analysis is confident, plain about what is not known. A verdict, then its reasons. No academic throat-clearing; every hedge of the plain edition kept, in as few words as it takes."
+lead = [
+  "the answer: which option, its expected net benefit with the range, and its cost",
+  "what it protects: Americans, and how much sooner a threat is seen",
+  "what the patient and the clinician get from it",
+  "what it asks of states, hospitals and clinicians",
+  "what is uncertain and what would change the answer, stated up front and not in a footnote",
+]
+emphasis_boxes = ["the benefit per dollar of government outlay, where the plain edition gives it", "what would change the answer"]
+sources_named_first = "The government's own data and auditors where the plain edition cites them (such as the Centers for Medicare and Medicaid Services, the Government Accountability Office, the Congressional Budget Office), then peer-reviewed studies. No source is added or dropped."
+sources_named_first_basis = "judgement, on kahan_2011_cultural: readers discount experts whose values they take to differ from theirs"
+never = [
+  "the administration's or any movement's slogans as the analysis's own voice; a programme is named by its name",
+  "praise of the reader, the Secretary or the President",
+  "a claim that the administration supports, proposes or has approved anything the plain edition does not source",
+  "any seal, flag, eagle or agency mark",
+]
+
+# Design tokens (notes/audience_layer.md 3.4). A token overrides the base theme of
+# tools/typeset_layout/typeset-boxes.sty; one left out keeps the base value.
+
+[design.color.accent]
+value = "#14315C"
+type = "color"
+basis = "sample"
+evidence = "Navy leads the covers of the State Department's 2025 strategy (measured #072C48), Paragon (#18306D) and the 2018 biodefense strategy's band (#0D364D), and also of Brookings, the Bipartisan Policy Center and the 2022 strategy: it reads as official, not as one party's (research/audience_layer.md 5.6.1)."
+
+[design.color.accent_caveat]
+value = "#A6192E"
+type = "color"
+basis = "sample"
+evidence = "A deep red is the accent of AEI (#AE1837), Hoover (#930C2D), AFPI's headings and the State Department's 2025 cover, and of no left-leaning cover in the sample (5.6.2): five documents against four, so weak. It marks the caveat boxes, where red also carries its common sense of warning, so only a cost, a caveat or a limit is set in that box."
+
+[design.color.caveat_ground]
+value = "#FBF3EE"
+type = "color"
+basis = "judgement"
+evidence = "A pale ground under the red rule, chosen for contrast with the text, not for the audience."
+
+[design.color.panel]
+value = "#F3F0E7"
+type = "color"
+basis = "sample"
+evidence = "Cream grounds: the 2018 biodefense strategy's cover (#EEE6D5) and the inner pages of the 2025 MAHA report. Two documents."
+
+[design.font.heading]
+value = "pagella"
+type = "fontFamily"
+basis = "study"
+evidence = "Serif typefaces are rated more conservative than sans serif, by about a third of a standard deviation on a neutral phrase (haenschen_2020_font; one study). In the sample, serif display type marks the administration's own documents and AFPI, while Hoover, Paragon and AEI use sans (5.6.4). Weak; treat as judgement."
+
+[design.icons]
+cover = "stethoscope"
+basis = "judgement"
+evidence = "Health care: an icon shows the subject, never a verdict; a case whose subject differs sets its own on the title, so no tick and no shield. A Tabler name, checked with tools/icon_search.py."
+
+[design.imagery]
+cover = "The band, the title, one icon. No photograph and no national symbol: seals, the flag and stars appear in the sample only on the government's own documents and AFPI's, where they claim an authorship this analysis does not have (5.6.5). Not the MAHA report's dark green or its wordmark: that is a publisher's own dress."
+photograph = "None in the first build."
+basis = "sample and judgement"
+
+[design.charts]
+"axes.prop_cycle" = "cycler('color', ['14315C', '898989', 'ABABAB', '595959', 'CFCFCF'])"
+"patch.facecolor" = "14315C"
+basis = "sample and judgement"
+evidence = "Navy for the series the finding is about and grey for the rest: the accent above, then the greys of the house cycle. Red for at most one mark (the caveat colour above) is the author's to set on that mark; no rc setting expresses it."

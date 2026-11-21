@@ -1,0 +1,12 @@
+{
+ "key": "ochalek_2018_estimating",
+ "citation": "Ochalek J, Lomas J, Claxton K (2018). Estimating health opportunity costs in low-income and middle-income countries: a novel approach and evidence from cross-country data. BMJ Global Health 3:e000964.",
+ "doi": "10.1136/bmjgh-2018-000964",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6231096/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "7a54ad34d6debb796f27c83083d9db2c3565d15cf50fd086508fd1c9d7455a5a",
+ "licence": "CC BY-NC (Europe PMC)",
+ "fetched": "2026-11-17T11:57:26Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6231096/fullTextXML"
+}

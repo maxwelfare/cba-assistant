@@ -1,0 +1,11 @@
+{
+ "key": "sgmaote_2015_acb_ambiente",
+ "citation": "Teixeira, F. (2015-11-12). Análise Custo-Benefício e a sua Aplicação ao Ambiente: Clarificação Concetual. Secretaria-Geral do MAOTE, Serviço de Prospetiva e Planeamento.",
+ "doi": null,
+ "url": "https://www.sgambiente.gov.pt/wp-content/uploads/2023/12/AnaliseCustoBeneficioAplicacaoambientefinal.pdf",
+ "media_type": "application/pdf",
+ "sha256": "db582c2c6d97d6219d683d834576e55b123bfa14939771f9cac793850a1c84e4",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:49:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

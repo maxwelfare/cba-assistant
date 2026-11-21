@@ -1,0 +1,11 @@
+{
+ "key": "reginfo_xml_reports_guide",
+ "citation": "Executive Order XML Reports (OIRA, Reginfo.gov) (accessed 2026-11-09).",
+ "doi": "",
+ "url": "https://www.reginfo.gov/public/do/XMLReportList",
+ "media_type": "text/html",
+ "sha256": "9a7774c7fe1f6d0b5eb95c258309a8099d2dda5f3df0b8ad20c44980c2656577",
+ "licence": "not stated on the page",
+ "fetched": "2026-11-09T18:00:00Z",
+ "text_method": ".venv/bin/python -I tools/store_rs.py (scripts/styles dropped, tags removed, block ends to newlines)"
+}

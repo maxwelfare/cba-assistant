@@ -1,0 +1,12 @@
+{
+ "key": "nbs_1982_showerheads",
+ "citation": "National Bureau of Standards (1982). NBSIR 82-2630 [study of low-flow showerhead performance and user acceptance].",
+ "doi": null,
+ "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir82-2630.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f132abe52a1f522410915dd7ae3daf28d8ef6239f49bcfbb413b989f2304e5f8",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:38Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir82-2630.pdf"
+}

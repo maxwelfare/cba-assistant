@@ -1,0 +1,12 @@
+{
+ "key": "canning_2007_axiomatic",
+ "citation": "Canning D (2007). PGDA Working Paper 2707 (IDEAS/RePEc abstract page; published as Canning 2013).",
+ "doi": null,
+ "url": "https://ideas.repec.org/p/gdm/wpaper/2707.html",
+ "media_type": "text/html",
+ "sha256": "d6651b5cd82a685c56ede529307dcb899df75fb1eb93ceb5ab1eae1fa45d9971",
+ "licence": "abstract only",
+ "fetched": "2026-11-17T12:01:37Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://ideas.repec.org/p/gdm/wpaper/2707.html"
+}

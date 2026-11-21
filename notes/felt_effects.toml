@@ -1,0 +1,129 @@
+# Felt effects of rules: one row per type. Method, sources and worked examples:
+# research/felt_effects_of_rules.md, sections 2, 3 and 5. The list is open: a new type is a new row.
+#
+# The value of a row in a year, of either sign:  P x s x f x m x V / 1,000,000
+#   P  people whose experience differs because of the rule (those exposed x the rule's share, judged as one)
+#   s  share of them who feel it
+#   f  episodes a year for each who feels it
+#   m  micro-life-years an episode = felt minutes x weight per felt minute x 1.901
+#   V  the case's value of a life-year, a welfare equivalence (notes/owner_cba_rules.md rules 15 to 17)
+# The value is the difference between the world with the rule and the world without it.
+# A pleasant and an unpleasant felt minute of matching intensity take the same weight.
+# A remedy (an off button, a removable part, a better compliant product) splits a row into two effects:
+#   (a) P x s x u x f x m x V / 1e6, where u is the share of those who feel it who know of no usable remedy;
+#   (b) P x s x (u's complement, complement_of) x the felt cost a person-year, its low, middle and high each
+#       no more than the remedy's annual cost.
+#   Usable means they know of it and can use it: a renter cannot replace a fixture. Where the remedy undoes
+#   the rule, the share who use it lowers the rule's benefit, under the same factor name; a better compliant
+#   product lowers nothing.
+# In (a), u and the felt cost a person-year move against each other: a person who loses much has reason to
+#   find the remedy. Judge the low and high of their product afresh, as one quantity (fermi-estimator rule 6.5),
+#   never as the product of each one's ends.
+# A gain is bounded the same way: those who could have had the rule's result before it, and did not, gain
+#   at most what that would have cost them.
+# Modifiers of any row, not types: income (the case's distributional weight), people not surveyed
+# such as children (proxy reports), later buyers (the same row at a later date, after products change).
+
+[[type]]
+id = "T1"
+name = "worse performance, each use"
+is = "irritation each time a product or service works worse because of the rule, or relief each time it works better"
+side = "either: a cost of a rule that weakens a product; a benefit of its repeal or of a rule that improves one"
+members = ["weak shower", "second flush", "engine stop at a light", "slower appliance cycle"]
+chain = "users whose product works differently because of the rule x share who feel it x uses a year x micro-life-years a use x V / 1e6"
+weight = { per = "felt minute", low = 0.005, middle = 0.03, high = 0.2, sources = ["haagsma_2024_noise_disability_weights", "salomon_2015_gbd_disability_weights", "benmap_ce_2017_appendices", "dft_2024_tag_m3_2"], basis = "low near disability weights read per felt minute (0.003 to 0.011); middle near symptom-day willingness to pay over 960 waking minutes (0.0041 to 0.062); high the waiting premium (0.054 to 0.38); combined by judgement" }
+remedy = "a removable restrictor, an off button, a better compliant product"
+second_method = "the attribute's market value (price premium x share who buy) or stated value (a choice experiment); a count of remedy users; for a voluntary program, non-resource costs as a share of private savings, 0.49 (allcott_kessler_2019_nudges)"
+overlaps = ["willingness to pay for the lost attribute: the same effect by another method, never added", "the time a use takes: its own effect at weight 1", "remedy users, once counted at the remedy's cost"]
+share_from = ["a probability sample of current users asked a balanced question", "remedy sales and opt-out logs: the share who use a remedy exactly, the share who feel it as a floor", "meters, for uses a year", "judgement, its low at the lowest share any source supports", "never the share: complaints, reviews, officials' statements (intensity and a floor)"]
+
+[[type]]
+id = "T2"
+name = "being overridden"
+is = "displeasure at a lost choice, consent or control, apart from what the rule does to the product (reactance; procedural utility)"
+side = "a cost of a rule that removes a choice, consent or control; a benefit of its repeal"
+members = ["a mandated fixture", "a product ban", "data taken without consent", "a rule read as contempt for a way of life"]
+chain = "the T1 value for the same people (T1's factors, shared by name) x the share of it that losing the choice adds"
+weight = { per = "share of the T1 value", sources = ["steindl_2015_reactance", "frey_benz_stutzer_2004_procedural_utility", "bartling_fehr_herz_2014"], basis = "no weight per episode exists: an upper bound, unless a study separates the value of the choice from its outcome, such as the laboratory premium for decision rights, carried to the rule by judgement as a share of the T1 value for the same people, sharing T1's factors by name" }
+remedy = "an opt-out, an exemption or a waiver"
+second_method = "a stated willingness to pay to repeal the rule, less its performance part; protest answers in stated-preference studies"
+overlaps = ["a stated willingness to pay to repeal the rule, which holds both this and T1", "T1 for the same people"]
+share_from = ["a probability sample asked about the rule itself, both directions offered (a reactance scale)", "judgement"]
+
+[[type]]
+id = "T3"
+name = "enjoyment of the rule's result"
+is = "pleasure, relief or reassurance in daily life from what the rule changes, and the dislike of those who preferred the old state"
+side = "either: a benefit for those who enjoy it, a cost for those who preferred the old state"
+members = ["a smoke-free bar", "a quieter street", "a cleaner beach", "knowing what is in food"]
+chain = "people who meet the result because of the rule x net share who enjoy it (more minus less) x encounters a year x micro-life-years an encounter x V / 1e6"
+weight = { per = "felt minute", low = 0.005, middle = 0.03, high = 0.2, sources = ["haagsma_2024_noise_disability_weights", "salomon_2015_gbd_disability_weights", "benmap_ce_2017_appendices", "dft_2024_tag_m3_2"], basis = "as T1, with the sign reversed for a pleasant minute" }
+remedy = "for those who dislike the result, going elsewhere; for those who enjoy it, what they could have paid for it before the rule, such as a smoke-free venue or section"
+second_method = "willingness to pay for the amenity, stated, or revealed by the choice of venue or home"
+overlaps = ["amenity and house-price values of the same change", "the value of a statistical life, where the relief is from fear of a health risk", "the health stream itself"]
+share_from = ["a before-and-after or after survey offering both directions (snhd_2008_clean_indoor_air_survey, a health department's)", "judgement"]
+
+[[type]]
+id = "T4"
+name = "relief from a commitment device"
+is = "higher life satisfaction for people the rule helps keep a resolution they could not keep alone"
+side = "a benefit for those it helps; those who resent it are T2"
+members = ["smokers trying to quit under a ban or a tax"]
+chain = "people trying to change the habit x share the rule helps x years x life-years a person-year x V"
+weight = { per = "person-year", low = 0.014, middle = 0.023, high = 0.038, unit = "life-years", sources = ["odermatt_stutzer_2013_smoking_bans", "hm_treasury_2021_wellbeing_guidance"], basis = "0.03 to 0.08 points on a four-point scale, rescaled to 0 to 10 (x 10/3, an inference) and divided by 7 points a life-year; middle the geometric mean" }
+remedy = "none"
+second_method = "revealed demand for commitment: people who ask for the rule or buy a commitment device; no source stored"
+overlaps = ["the health gain, where satisfaction rises through health", "T2 for those who resent the rule"]
+share_from = ["a life-satisfaction panel around the rule's start (odermatt_stutzer_2013_smoking_bans; gruber_mullainathan_2002_cigarette_taxes disagrees)", "judgement"]
+
+[[type]]
+id = "T5"
+name = "lost warm glow or signal"
+is = "the pride of conserving or giving by choice, and the image it shows, which a mandate makes common; or the dismay of those who value a repealed rule's goal"
+side = "either: a cost of a mandate to those whose distinction it removes, a benefit to those whose shame it ends; a cost of a repeal to those who value the goal"
+members = ["owners of visibly green products", "voluntary conservers", "supporters of a repealed standard"]
+chain = "people who conserved or signaled by choice x share who feel the change x years x money a person-year"
+weight = { per = "person-year", unit = "money", sources = ["sexton_2011_conspicuous_conservation", "butera_2022_shame_pride", "zawadzki_2020_pro_environmental_wellbeing"], basis = "a signal's price, $430 to $4,200 for a hybrid car's green image; public recognition's image value of either sign, elicited between -$8 and $8, negative-sum in two samples and positive-sum in one" }
+remedy = "a visible act beyond the mandate"
+second_method = "willingness to pay of either sign for the signal, elicited so that answering truthfully pays (butera_2022_shame_pride's method)"
+overlaps = ["existence and passive-use values of the rule's goal, which often hold moral satisfaction (kahneman_knetsch_1992_valuing)"]
+share_from = ["price premia of visible green goods", "an incentive-compatible elicitation allowing negative values", "warm-glow surveys (correlational)", "judgement"]
+
+[[type]]
+id = "T6"
+name = "a lost function for disabled people"
+is = "a substitute the rule imposes fails someone whose body needs the old product, or a rule restores a function"
+side = "either"
+members = ["paper straws", "a weak flush for someone of limited strength", "a heavier door"]
+chain = "disabled people who used the old product x share whose substitute fails x uses a year x micro-life-years a use x V / 1e6"
+weight = { per = "felt minute", low = 0.005, middle = 0.03, high = 0.2, sources = ["salomon_2015_gbd_disability_weights", "benmap_ce_2017_appendices", "dft_2024_tag_m3_2"], basis = "as T1; where the function is lost all day, the disability weight of the functional limit per year (salomon_2015_gbd_disability_weights)" }
+remedy = "an exemption or a workaround product"
+second_method = "the cost of workarounds and exemptions"
+overlaps = ["T1 for the same people: counted once, at the larger"]
+share_from = ["surveys by disability organizations; exemption requests (green_2023_disabled_short_straw)", "judgement"]
+
+[[type]]
+id = "T7"
+name = "the burden of the rule's process"
+is = "the psychological cost of paperwork, waiting, an inspection or a procedure the rule requires or removes, apart from its time"
+side = "either: a cost of a rule that adds a procedure, a benefit of one that removes it"
+members = ["a swab", "an application form", "a face-to-face check by an enforcing worker"]
+chain = "people who go through the process x share who feel it x times a year x micro-life-years a time x V / 1e6"
+weight = { per = "felt minute", low = 0.005, middle = 0.03, high = 0.2, sources = ["haagsma_2024_noise_disability_weights", "salomon_2015_gbd_disability_weights", "benmap_ce_2017_appendices", "dft_2024_tag_m3_2"], basis = "as T1" }
+remedy = "a paid service that does it for them"
+second_method = "willingness to pay to avoid the procedure; the take-up gap a sludge audit measures (oecd_2024_sludge_audits)"
+overlaps = ["the process's time at the wage: its own effect at weight 1"]
+share_from = ["process maps, take-up rates and call logs", "a survey of users offering both directions", "judgement"]
+
+[[type]]
+id = "T8"
+name = "neighbors' exposure"
+is = "annoyance or lost sleep from noise, smell or light the rule adds or removes for people nearby"
+side = "either"
+members = ["idling engines at a light", "a heat pump's hum", "odor from drains and sewers"]
+chain = "people exposed because of the rule x share highly annoyed x years x life-years a year of being highly annoyed x V"
+weight = { per = "year of being highly annoyed", low = 0.01, middle = 0.02, high = 0.12, unit = "life-years", sources = ["who_2011_noise_burden", "haagsma_2024_noise_disability_weights"], basis = "WHO's tentative 0.02 and its interval; the 2024 public weight for severe annoyance is 0.011" }
+remedy = "closed windows, earplugs, a quieter product"
+second_method = "hedonic house prices of the same exposure"
+overlaps = ["house-price values of the same exposure: one quantity (defra_2014_noise_valuing_impacts)"]
+share_from = ["exposure-response curves (who_2011_noise_burden)", "an annoyance survey with the standard five-point question (iso_ts_15666)", "judgement"]

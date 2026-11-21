@@ -1,0 +1,11 @@
+{
+  "key": "fjarmalaraduneytid_2017_gatlisti_fjarhagsahrif",
+  "citation": "Fjarmala- og efnahagsraduneytid. Gatlisti vid mat a fjarhagsahrifum - sbr. eydubladid Mat a ahrifum lagasetningar (undated; PDF creation date 10 Aug 2017).",
+  "doi": null,
+  "url": "https://www.stjornarradid.is/library/03-Verkefni/Log-og-rettur/Skjol/Mat%20%C3%A1%20fj%C3%A1rhags%C3%A1hrifum%20-%20G%C3%A1tlisti.pdf",
+  "media_type": "application/pdf",
+  "sha256": "254be0c880e7caf59ba4145bcf9095c11f4b1b2a029be9d4980131b265369b4c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:44Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "ballanco_2000_pmmag_ulft",
+ "citation": "Ballanco J (18 May 2000). Your customers really do like 1.6-gpf toilets. Plumbing & Mechanical.",
+ "doi": null,
+ "url": "https://www.pmmag.com/articles/84752-your-customers-really-do-like-1-6-gpf-toilets",
+ "media_type": "text/html",
+ "sha256": "58590684a2348fefe187d775c214624bee2d2bcf511ca694a42beb4cb8858bb5",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:27Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.pmmag.com/articles/84752-your-customers-really-do-like-1-6-gpf-toilets"
+}

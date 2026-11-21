@@ -1,0 +1,11 @@
+{
+  "key": "mandel_2020_confidence",
+  "citation": "Mandel DR, Collins RN, Risko EF, Fugelsang JA (2020). Effect of confidence interval construction on judgment accuracy. Judgment and Decision Making 15(5):783-797.",
+  "doi": "",
+  "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BC53996661339539048C43C1D3905FB1/S1930297500007920a.pdf/effect-of-confidence-interval-construction-on-judgment-accuracy.pdf",
+  "media_type": "application/pdf",
+  "sha256": "1035da1d588e3a79e26f42e4048fccdf7aacb0f3939896461b8954620d25d115",
+  "licence": "Creative Commons Attribution 3.0 (as the PDF states)",
+  "fetched_utc": "2026-11-09T17:51:14Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

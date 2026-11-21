@@ -1,0 +1,11 @@
+{
+  "key": "acled_api_getting_started_guide",
+  "citation": "ACLED API Getting Started. Armed Conflict Location and Event Data.",
+  "doi": "",
+  "url": "https://acleddata.com/api-documentation/getting-started",
+  "media_type": "text/html",
+  "sha256": "672bb7c93f84c75fc67a32793cefdc290029da71d79dbed2af943c55d8cb6d32",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:41Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

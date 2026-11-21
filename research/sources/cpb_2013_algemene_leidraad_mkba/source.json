@@ -1,0 +1,11 @@
+{
+  "key": "cpb_2013_algemene_leidraad_mkba",
+  "citation": "Romijn G, Renes G (2013). Algemene leidraad voor maatschappelijke kosten-batenanalyse. CPB and PBL, The Hague.",
+  "doi": "none",
+  "url": "https://www.pbl.nl/uploads/default/downloads/cpb-pbl-2013-algemene-leidraad-voor-maatschappelijke-kosten-batenanalyse-687.pdf",
+  "media_type": "application/pdf",
+  "sha256": "97676f37f0392c0d406dd80e92b7e9ca28f1670190e1bc3eadfcfc39b7e47242",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:33:31Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

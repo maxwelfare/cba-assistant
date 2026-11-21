@@ -1,0 +1,11 @@
+{
+ "key": "cao_2023_trafficloss_ch3",
+ "citation": "内閣府 (令和5年3月). 令和4年度 交通事故の被害・損失の経済的分析に関する調査, 第III章 交通事故による非金銭的損失 (chapter only).",
+ "doi": "none",
+ "url": "https://www8.cao.go.jp/koutu/chou-ken/r04/pdf/file4.pdf",
+ "media_type": "application/pdf",
+ "sha256": "5462820b92e6abd442d65672ced6ab1092e472fc30332534f9493c2c2cd38046",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:06Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "ghsl_data_package_guide",
+  "citation": "GHSL Data Package 2023 (JRC Scientific Information Systems and Databases report, European Commission, 2024)",
+  "doi": "",
+  "url": "https://human-settlement.emergency.copernicus.eu/documents/GHSL_Data_Package_2023.pdf",
+  "media_type": "application/pdf",
+  "sha256": "8b856f6e7e51066be62cb18e48476492f839211c89b40986259658de20bbde08",
+  "licence": "CC BY 4.0 (the document states it for Commission documents)",
+  "fetched_utc": "2026-11-09T17:40:00Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

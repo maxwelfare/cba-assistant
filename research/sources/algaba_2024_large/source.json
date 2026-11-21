@@ -1,0 +1,12 @@
+{
+ "key": "algaba_2024_large",
+ "citation": "Algaba A et al (2024). Large Language Models Reflect Human Citation Patterns with a Heightened Citation Bias. arXiv:2405.15739.",
+ "doi": "10.48550/arXiv.2405.15739",
+ "url": "https://arxiv.org/pdf/2405.15739",
+ "media_type": "application/pdf",
+ "sha256": "37d166f08fc179c2f62351eb3b8da68f7af39184682da87135b8e856ff962b87",
+ "licence": "CC BY-NC-ND",
+ "fetched": "2026-11-17T11:53:08Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/2405.15739"
+}

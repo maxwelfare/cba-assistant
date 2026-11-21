@@ -1,0 +1,12 @@
+{
+ "key": "owen_2013_monte_carlo_ch8",
+ "citation": "Owen AB (2013). Monte Carlo theory, methods and examples, chapter 8, Variance reduction. Online book, Stanford University.",
+ "doi": null,
+ "url": "https://artowen.su.domains/mc/Ch-var-basic.pdf",
+ "media_type": "application/pdf",
+ "sha256": "26b03406aefdcf64fcd2e19532a9c6fd4d60947273bdbafcc3aa7bd67f683f9e",
+ "licence": "Author's online draft; each page says 'do not distribute or post electronically without author's permission'",
+ "fetched": "2026-11-17T14:41:10Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/mcaudit/owen_ch8.pdf (fetched is the file's modification time)"
+}

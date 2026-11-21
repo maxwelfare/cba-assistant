@@ -1,0 +1,11 @@
+{
+ "key": "utail_2018_guia_ail",
+ "citation": "UTAIL/JurisAPP (2018-06). Avaliação Prévia de Impacto Legislativo: Guia de apoio à estimação de encargos para cidadãos e empresas, avaliação qualitativa de benefícios, teste PME e avaliação de impacto concorrencial. Presidência do Conselho de Ministros.",
+ "doi": null,
+ "url": "https://dgpj.justica.gov.pt/Portals/31/AIN_Programas/guia_ail_06_2018.pdf (official copy; same file also at https://cejure.gov.pt/media/1108/guia_ail_06_2018_final.pdf, which failed TLS verification)",
+ "media_type": "application/pdf",
+ "sha256": "4045032d6e5c541a114b28d0e9989b52c1d59c04a0f41ea86ecb724974b1560e",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:49:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

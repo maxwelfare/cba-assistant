@@ -1,0 +1,1 @@
+A191RD,"Gross domestic product","Chained Dollar IPDs","Level",0,T10109:1,NONE

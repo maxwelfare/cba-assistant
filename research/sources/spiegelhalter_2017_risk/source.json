@@ -1,0 +1,12 @@
+{
+ "key": "spiegelhalter_2017_risk",
+ "citation": "Spiegelhalter D (2017). Risk and uncertainty communication. Annual Review of Statistics and Its Application 4:31-60.",
+ "doi": "10.1146/annurev-statistics-010814-020148",
+ "url": "https://api.crossref.org/works/10.1146/annurev-statistics-010814-020148",
+ "media_type": "text/plain",
+ "sha256": "503e4cc9dea1e09f6e717e5a2ce82c33c5f8a977fdf35ab09030adde6ed6c16a",
+ "licence": "abstract record only (Crossref)",
+ "fetched": "2026-11-12T05:56:21Z",
+ "text_method": ".venv/bin/python -I script: json.load of original.txt, Crossref record: title, authors, abstract, HTML tags removed; abstract only, not the full text",
+ "how": "python tools/host_cooldown.py fetch https://api.crossref.org/works/10.1146/annurev-statistics-010814-020148"
+}

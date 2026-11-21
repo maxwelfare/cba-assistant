@@ -1,0 +1,11 @@
+{
+  "key": "mfsr_2009_manual_monitorovania",
+  "citation": "Manuál pre oblasť monitorovania a hodnotenia (Posilnenie riadenia verejných financií), Bratislava, 20 May 2009, PwC/CA konzorcium for MF SR",
+  "doi": null,
+  "url": "https://www.mfsr.sk/files/archiv/priloha-stranky/4620/100/MaH.pdf",
+  "media_type": "application/pdf",
+  "sha256": "906a24bcd301fd11ba4cd7f27808cfbc468837da90890f50eda8cc61fac80445",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:35:20+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

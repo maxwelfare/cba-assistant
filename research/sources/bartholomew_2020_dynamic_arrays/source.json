@@ -1,0 +1,12 @@
+{
+ "key": "bartholomew_2020_dynamic_arrays",
+ "citation": "Bartholomew P (2019/2020). Will Dynamic Arrays finally change the way Models are built? EuSpRIG proceedings. arXiv:2006.14706.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/2006.14706",
+ "media_type": "application/pdf",
+ "sha256": "d8cfc90aad0a2f4ae2031faaa57a73ecebffed63a780dc6f3bf8e806a3e912ec",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:47:56Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/2006.14706"
+}

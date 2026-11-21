@@ -1,0 +1,11 @@
+{
+  "key": "ec_2014_cba_guide",
+  "citation": "Guide to Cost-Benefit Analysis of Investment Projects: Economic appraisal tool for Cohesion Policy 2014-2020, European Commission DG Regional and Urban Policy, December 2014",
+  "doi": "10.2776/97516",
+  "url": "https://ec.europa.eu/regional_policy/sources/studies/cba_guide.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5f682b2aadb98bc8fa58f9ef320690f4d75f9fc6ae14fdc7e05ce107f75416ed",
+  "licence": "not stated (EU publication; Publications Office, ISBN 978-92-79-34796-2)",
+  "fetched_utc": "2026-11-09T16:37:11Z",
+  "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

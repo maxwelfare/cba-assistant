@@ -1,0 +1,11 @@
+{
+  "key": "dper_2023_infrastructure_guidelines",
+  "citation": "Department of Public Expenditure, NDP Delivery and Reform (2023). Infrastructure Guidelines, December 2023 (in effect 1 January 2024).",
+  "doi": null,
+  "url": "https://assets.gov.ie/static/documents/infrastructure-guidelines.pdf",
+  "media_type": "application/pdf",
+  "sha256": "3a9608641325d7aabc4ec4660e7695a6547324b14f6207f3c0aefdf985051604",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:28:54+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

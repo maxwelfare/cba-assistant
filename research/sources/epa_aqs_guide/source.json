@@ -1,0 +1,11 @@
+{
+ "key": "epa_aqs_guide",
+ "citation": "U.S. EPA. AQS Data Mart API Documentation (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://aqs.epa.gov/aqsweb/documents/data_api.html",
+ "media_type": "text/html",
+ "sha256": "abe56912cb5f747f15224f90fc0bee62e29096ce3fc182fa85d1ab7ddde64c72",
+ "licence": "U.S. government work; licence not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

@@ -1,0 +1,2174 @@
+International Trade Data
+API User Guide
+
+1
+
+3
+3
+4
+5
+5
+6
+6
+7
+7
+8
+8
+9
+9
+10
+11
+11
+12
+13
+15
+16
+17
+17
+17
+17
+18
+21
+25
+26
+27
+
+Introduction
+Accessing the Census API
+Uniform Resource Identifiers (URIs) and Endpoints
+Choosing the Right Endpoint
+Port and State Level Data
+Accessing the Trade Data
+Output Format
+Parameters
+Default Value for Parameters
+Description Parameters
+Invalid Parameters
+Missing Required Parameters
+Invalid Combination of Parameters
+Valid Request with No Results
+Units of Quantity
+Missing Values
+Hexidecimal Equivalents
+Example Calls
+Summary Levels
+Commodity Aggregation Level (COMM_LVL)
+Country Grouping Codes
+Release Schedule
+Questions
+Available Variables by Endpoint
+Appendix A – Export Parameters
+Appendix B – Import Parameters
+Appendix C – Export Summary Levels
+Appendix D – Import Summary Levels
+Appendix E – Country Grouping Codes
+
+2
+
+This user guide explains how to access the Monthly International Trade Datasets and their
+associated meta-data as published in the Census API. It also serves as an informational resource
+about the datasets. This guide assumes that you already have some familiarity with the
+concepts and techniques of retrieving data from web services. See the International Trade
+Developers Page for more information.
+
+The International Trade Query Builder Tool is a live-connection graphical user interface to the
+Monthly International Trade Datasets. For new users of the API this tool is an easy method of
+constructing a properly formatted API call. For more experienced users this tool is an effective
+shortcut to building complex API calls.
+
+An API Key is needed to access the Census API. A Key is a 40-character string that you append to
+the end of your API calls in the following format: &key=<your 40 character key>.
+To request a Key register at https://api.census.gov/data/key_signup.html. To register, you must
+provide your name (or organization name), a valid email address, and agree to the published
+terms of service.
+After completing the registration form, you will receive an email containing your assigned API
+Key and an activation link. You must click on the link to activate your Key.
+
+The Uniform Resource Identifiers (URIs) of the Monthly International Trade Dataset endpoints
+are as follows:
+Exports
+
+https://api.census.gov/data/timeseries/intltrade/exports/[dataset]
+Imports
+
+https://api.census.gov/data/timeseries/intltrade/imports/[dataset]
+
+3
+
+Data set:
+
+Export Endpoints
+
+Import Endpoints
+
+Harmonized System (HS)
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/hs
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/hs
+
+Harmonized System (HS)
+by State
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/statehs
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/statehs
+
+Harmonized System (HS)
+by Port
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/porths
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/porths
+
+North American Industry
+Classification System
+(NAICS)
+NAICS by State
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/naics
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/naics
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/statenaics
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/statenaics
+
+End-Use
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/enduse
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/enduse
+
+Standard International
+Trade Classification (SITC)
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/sitc
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/sitc
+
+Advance Technology
+(Hi-tech)
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/hitech
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/hitech
+
+USDA (Ag or NonAg)
+
+https://api.census.gov/data/timeseries
+/intltrade/exports/usda
+
+https://api.census.gov/data/timeseries
+/intltrade/imports/usda
+
+Selecting the correct endpoint(s) will depend upon your preferred commodity
+classification system and geography. For example, if you would like U.S. export data
+aggregated by NAICS codes then choose the Export NAICS endpoint. HS, NAICS, EndUse, SITC, USDA, and Advanced Technology endpoints all have district and country level
+detail and totals.
+
+4
+
+To avoid disclosure, port-level data is only available at the 2-, 4-, and 6-digit HS levels
+and state-level data is only available at the 2-, 4-, and 6-digit HS levels and 2-, 3-, and 4digit NAICS levels. These different levels of detail are why state and port endpoints are
+separate from the others.
+
+Dataset
+
+Level of Detail for Exports
+
+Level of Detail for Imports
+
+Harmonized System (HS)
+
+2-,4-,6-,& 10-digit HS by Country by
+District by Domestic/Foreign (DF)
+
+Harmonized System (HS)
+by State
+Harmonized System (HS)
+by Port
+North American Industry
+Classification System
+(NAICS)
+NAICS by State
+
+2-,4-,& 6-digit HS by Country by State
+
+2-,4-,6-,& 10-digit HS by Country by
+District by Rate Provision by Country
+Subcode
+2-,4-,& 6-digit HS by Country by State
+
+2-,4-,& 6-digit HS by Country by Port
+
+2-,4-,& 6-digit HS by Country by Port
+
+2-,3-,4-,5- & 6-digit NAICS by Country by
+District by DF
+
+2-,3-,4-,5- & 6-digit NAICS by Country
+by District
+
+2-,3-,& 4-digit NAICS by Country by State
+
+End-Use
+
+1-& 5-digit End-Use by Country by District
+by DF
+SITC by Country by District by DF
+
+2-,3-,& 4-digit NAICS by Country by
+State
+1-& 5-digit End-Use by Country by
+District
+SITC by Country by District
+
+Hi-tech by Country by District by DF
+
+Hi-tech by Country by District
+
+USDA by Country by District by DF
+
+USDA by Country by District
+
+Standard International
+Trade Classification (SITC)
+Advance Technology
+(Hi-tech)
+USDA (Ag or NonAg)
+
+Use the URIs above to access the Monthly Trade Datasets in the Census API. You can
+retrieve data by sending an HTTPS GET to the URI with the appropriate (querystring)
+parameters. A comprehensive list of available export and import parameters is found in
+appendices A and B.
+Here is an example API call. The call specifies that the request is for the January 2016
+monthly export value (note: the API Key below is not valid).
+5
+
+“get” is the API
+method being invoked
+
+API Key (this is not a valid
+key. It is just an example.)
+
+YEAR and MONTH are Query
+String parameters
+
+For reasons of space and clarity, the following API call examples will not include an
+API Key. API calls without an API Key will fail.
+
+When unspecified, the default API data format is the Javascript Object Notation (JSON) format. There is
+also an option to obtain a comma-delimited file by specifying &outputFormat=csv.
+
+There are currently 56 export parameters (appendix A) and 85 import parameters (appendix B) in the
+Monthly International Trade Datasets. Note that not all variables are available in each endpoint. The
+following section gives guidance on how to use these parameters correctly.
+Time Parameters
+Calls must include either the time or YEAR/MONTH parameters. The following API call will result in the
+following message: “error: missing required variable/predicate: time”.
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=DISTRICT,DIST_NA
+ME,GEN_VAL_YR
+Adding a specified time parameter or YEAR/MONTH to the API call resolves the error.
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=DISTRICT,GEN_VA
+L_YR&time=2013-03
+
+There are two methods of requesting a custom time range. The time parameter has a native syntax for
+date ranges where adding “&time=from+2022-03+to+2022-07” will return data from March – July 2022.
+6
+
+That same date range requested using the YEAR/MONTH combination is done as follows:
+“&YEAR=2022&MONTH=03&MONTH=04&MONTH=05&MONTH=06&MONTH=07”.
+Because ‘time’ is an API defined parameter, and not a variable defined in the dataset, it uses
+more processing resources, leading to more frequent API timeout errors. For larger requests we
+recommend using YEAR/MONTH.
+
+Default Values for Parameters
+The default value for all string type parameters is a dash (-). This means that calls that do not apply
+filtering parameters will return the total value for the specified string parameter. For example, the
+following call has no defined parameters other than ALL_VAL_MO, meaning the result will return a total
+value for that variable in that endpoint and time.
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=ALL_VAL_MO&time=2013-01
+[["ALL_VAL_MO","time"],
+["123031879061","2013-01"]]
+
+Adding the parameters for country (CTY_CODE or CTY_NAME), HS (E_COMMODITY), district (DISTRICT),
+and/or domestic/foreign (DF) will return the total value of all countries, HS codes, districts, and/or DF
+values in January 2013. If you add the country code parameters (CTY_CODE,CTY_NAME) to your call,
+then your call will return the total export value for January 2013 broken down by country.
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=CTY_CODE,CTY_NAME,ALL_VAL_M
+O&time=2013-01
+[["CTY_CODE","CTY_NAME","ALL_VAL_MO","time"],
+["-","TOTAL FOR ALL COUNTRIES","123031879061","2013-01"],
+["1010","GREENLAND","233446","2013-01"],
+["1220","CANADA","23170845914","2013-01"],
+["2010","MEXICO","17902453702","2013-01"],
+["2050","GUATEMALA","425978783","2013-01"],
+["2080","BELIZE","17795867","2013-01"],
+
+….
+
+API results are not sorted on a parameter, they are instead returned by record order,
+meaning “TOTAL FOR ALL COUNTRIES” may not always appear as the first record.
+Changing the sort order must be done outside of the API.
+Similarly, adding DF to the original call returns the total export value broken out by domestic (DF=1) and
+foreign (DF=2) export value.
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=DF,ALL_VAL_MO&time=2013-01
+7
+
+[["DF","ALL_VAL_MO","time"],
+["-","123031879061","2013-01"],
+["1","107249767181","2013-01"],
+["2","15782111880","2013-01"]]
+
+Description Parameters
+There are certain string parameters that must be used in conjunction with their corresponding code
+parameter. If not, the the call will not return expected results. These parameters are noted in
+Appendixes A and B.
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=CTY_NAME,ALL_VAL_MO
+&YEAR=2017&MONTH=04
+[["CTY_NAME","ALL_VAL_MO","YEAR","MONTH"],
+["TOTAL FOR ALL COUNTRIES","123722329072","2017","04"]]
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=CTY_CODE,CTY_NAME
+,ALL_VAL_MO&YEAR=2017&MONTH=04
+[["CTY_CODE","CTY_NAME","ALL_VAL_MO","YEAR","MONTH"],
+["-","TOTAL FOR ALL COUNTRIES","123722329072","2017","04"],
+["1010","GREENLAND","583168","2017","04"],
+["1220","CANADA","22712815642","2017","04"],…
+
+Invalid Parameters
+
+A call that includes any invalid parameters will result in an error message:
+https://api.census.gov/data/timeseries/intltrade/exports/sitc?get=SITC,ALL_VAL_MO
+,GEN_VAL_MO&YEAR=2017&MONTH=04
+error: error: unknown variable 'GEN_VAL_MO'
+
+https://api.census.gov/data/timeseries/intltrade/exports/sitc?get=SITC,ALL_VAL_MO,AL
+L_VAL_YR&YEAR=2017&MONTH=04
+
+An API call that returns an HTTP status of 204 is not an error. HTTP status 204 means that
+there are no records for that particular combination of parameters. See the following
+section on Valid Request with No Results.
+
+8
+
+Invalid Combination of Parameters
+There are six different commodity classification systems available in the API for exports and imports.
+Two of these systems, the Harmonized System (HS) and End-Use, have different codes for exports and
+imports, while the rest of the codes are the same for exports and imports. End-Use, NAICS, SITC, USDA,
+and HITECH classification codes are derived from the collection of Harmonized System codes
+(E_COMMODITY for exports and I_COMMODITY for imports). You can map which HS codes are included
+in End-Use, NAICS, SITC, USDA, and HITECH codes using the year vintage concordance as a guide.
+A successful API call references only one endpoint and its associated parameters, do not attempt to
+combine more than one classification system endpoint of parameters into an API call or you will get an
+error.
+Successful API calls reference only parameters from that endpoint. The tables below match endpoints
+with their valid parameters.
+Exports
+Endpoint
+
+Choose parameter(s) from only one row
+
+hs
+enduse
+naics
+sitc
+
+E_COMMODITY, E_COMMODITY_LDESC,
+E_COMMODITY_SDESC
+E_ENDUSE, E_ENDUSE_LDESC, E_ENDUSE_SDESC
+NAICS, NAICS_LDESC, NAICS_SDESC
+SITC, SITC_LDESC, SITC_SDESC
+
+usda
+hitech
+
+USDA
+HITECH and HITECH_DESC
+
+Imports
+Endpoint
+
+Choose code(s) from only one row
+
+hs
+
+naics
+sitc
+
+I_COMMODITY, I_COMMODITY_LDESC,
+I_COMMODITY_SDESC
+I_ENDUSE, I_ENDUSE_LDESC,
+I_ENDUSE_SDESC
+NAICS, NAICS_LDESC, NAICS_SDESC
+SITC, SITC_LDESC, SITC_SDESC
+
+usda
+hitech
+
+USDA
+HITECH and HITECH_DESC
+
+enduse
+
+9
+
+Valid Request with No Results
+If an API call returns no results that does not necessarily mean there is an error. It may mean that there
+is no data for that combination of parameters. As mentioned above, a successful request with no results
+returns HTTP status code 204. As an example, the API call below returns an HTTP status code of 204
+meaning it is a valid request, but the U.S. did not export any soybeans to the Dominican Republic in
+January of 2013.
+https://api.census.gov/data/timeseries/intltrade/exports/enduse?get=E_ENDUSE
+,E_ENDUSE_LDESC,CTY_CODE,ALL_VAL_MO,ALL_VAL_YR&YEAR=2013&MONTH=
+01&CTY_CODE=2470&E_ENDUSE=00100
+Units of Quantity
+Units of Quantity are only available in the Harmonized System (HS) endpoints and only for the most
+detailed, 10-digit HS code level. These two quantity parameters (UNIT_QY1 and UNIT_QY2) return the
+unit of measurement for the corresponding QTY_1 and QTY_2 variables.
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=E_COMMODIT
+Y,E_COMMODITY_LDESC,UNIT_QY1,UNIT_QY2,ALL_VAL_MO,QTY_1_MO,QTY_1_
+MO_FLAG,QTY_2_MO,QTY_2_MO_FLAG&time=2016-05
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=I_COMMODIT
+Y,I_COMMODITY_LDESC,UNIT_QY1,UNIT_QY2,GEN_VAL_MO,GEN_QY1_MO,GE
+N_QY1_MO_FLAG,GEN_QY2_MO,GEN_QY2_MO_FLAG&time=2016-05
+
+Notice the the QTY_1_MO_FLAG and QTY_2_MO_FLAG parameters in the calls? See the
+next section for why those are strongly recommended when using UNIT_QY1 and
+UNIT_QY2.
+
+Missing Value Flags
+Occasionally the QTY_1 and QTY_2 variables have missing values. Because this means that some zero quantity
+values returned by the API are not true zeros, but are instead missing values, there are variables to alert you that
+the data is not a true zero. Both QTY variables have a Missing Value Flag parameter (QTY_1_MO has a
+QTY_1_MO_FLAG) that should always be paired in an API call. The FLAG parameter will be equal to “M” when a
+value is missing, otherwise it will be blank field denoting a true zero.
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=E_COMMODITY,ALL_VAL_
+YR,QTY_1_MO,QTY_1_MO_FLAG&time=2013-01&COMM_LVL=HS2
+
+10
+
+Hexadecimal Equivalents
+Certain special characters needed for a filering variable (e.g. Country Subcode J+ or A*) are shared with
+functions in API calls, so including them may return unexpected results. To avoid this use the
+hexadecimal equivalents of those characters:
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=CTY_SUBCO
+DE,GEN_VAL_MO&time=2013-01&CTY_SUBCODE=P%2B
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=CTY_SUBCO
+DE,GEN_VAL_MO&time=2013-01&CTY_SUBCODE=P+
+
+Because the amount of data available in the Monthly International Trade Datasets it can be very easy for
+users to overwhelm the API’s ability to respond. When this happens users will experience slow
+performance or system timeouts. As an example, a single query pulling data for all countries and all HS
+commodities will almost always result in a time out error. Even with other classification systems or a
+more limited selection of variables these timeouts are possible. The occurrence of these events is
+unpredictable because the cardinality of the data returned by a request will vary by month, year,
+commodity, and geography. It can happen that a data call that functioned perfectly when requesting
+April data will time out when requesting that same report for November because that month had more
+trade partners or other data points that rapidly multiply the number of unique items in the response.
+For this reason our recommended best practice is to query the API with many smaller data calls that
+always return results rather than larger data calls that will potentially fail. This is particularly critical for
+an automated data retrieval process. Users have regularly succeeded in retrieving the complete Monthly
+International Trade Datasets from the API by limiting the size of their query by breaking up the call and
+recombining the results. One useful tool to accomplish this is to generalize your request by using a wild
+card “*”.
+
+https://api.census.gov/data/timeseries/intltrade/imports/porths?get=PORT,CTY_CODE,I
+_COMMODITY,GEN_VAL_MO,AIR_VAL_MO,AIR_WGT_MO&YEAR=2017&MONTH=09&S
+UMMARY_LVL=DET&COMM_LVL=HS6
+https://api.census.gov/data/timeseries/intltrade/imports/porths?get=PORT,CTY_CODE,I_CO
+MMODITY,GEN_VAL_MO,AIR_VAL_MO,AIR_WGT_MO&YEAR=2017&MONTH=09&SUMMAR
+Y_LVL=DET&COMM_LVL=HS6&I_COMMODITY=1*
+11
+
+and
+https://api.census.gov/data/timeseries/intltrade/imports/porths?get=PORT,CTY_CODE,I_CO
+MMODITY,GEN_VAL_MO,AIR_VAL_MO,AIR_WGT_MO&YEAR=2017&MONTH=09&SUMMAR
+Y_LVL=DET&COMM_LVL=HS6&I_COMMODITY=2*
+and
+https://api.census.gov/data/timeseries/intltrade/imports/porths?get=PORT,CTY_CODE,I_CO
+MMODITY,GEN_VAL_MO,AIR_VAL_MO,AIR_WGT_MO&YEAR=2017&MONTH=09&SUMMAR
+Y_LVL=DET&COMM_LVL=HS6&I_COMMODITY=3*
+etc...
+Splitting your calls by pulling all the classification codes that begin with 1,2,3,..,9 in separate calls but
+keeping all other parameters constant makes recreating the dataset a simple matter of appending.
+
+12
+
+Totals
+Transportation
+Country
+Subnational
+Commodity Level
+Time Series
+
+Data Requested
+
+Time Period
+
+API Call
+
+Total, Domestic, and
+Foreign Export Totals
+
+December 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=DF,ALL_VAL
+_MO,ALL_VAL_YR&YEAR=2013&MONTH=12
+
+General and Consumption
+Import Totals
+
+May 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=GEN_VAL_
+MO,CON_VAL_MO&YEAR=2013&MONTH=05
+
+Total Exports by Method
+of Transportation
+
+September 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=ALL_VAL_M
+O,ALL_VAL_YR,AIR_VAL_MO,AIR_VAL_YR,CNT_VAL_MO,CNT_VAL_YR,VES_VA
+L_MO,VES_VAL_YR&YEAR=2013&MONTH=09
+
+General Imports by
+Method of Transporation
+
+March 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=GEN_VAL_
+MO,GEN_VAL_YR,AIR_VAL_MO,AIR_VAL_YR,CNT_VAL_MO,CNT_VAL_YR,VES_
+VAL_MO,VES_VAL_YR&YEAR=2013&MONTH=03
+
+Total Exports by Country
+and Country Groupings
+
+June 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=CTY_CODE,C
+TY_NAME,ALL_VAL_MO,ALL_VAL_YR&time=2013-06
+
+Total Exports to Canada
+and Mexico
+
+April 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=CTY_CODE,C
+TY_NAME,ALL_VAL_MO,ALL_VAL_YR&time=201304&CTY_CODE=1220&CTY_CODE=2010
+
+General Import Values for
+Unique Country Subcodes
+
+January 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=CTY_SUBCO
+DE,GEN_VAL_MO&time=2013-01
+
+State Export Totals
+
+January 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/statehs?get=STATE,
+ALL_VAL_MO,ALL_VAL_YR&time=2013-01
+
+District Exports from
+Baltimore
+
+October 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=DISTRICT,DI
+ST_NAME,ALL_VAL_MO,ALL_VAL_YR&time=2013-10&DISTRICT=13
+
+Port Imports to All Ports
+
+June 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/porths?get=PORT,P
+ORT_NAME,GEN_VAL_MO,GEN_VAL_YR&time=2013-06
+
+HS Export Totals for all 2-,
+4-, 6-, and 10-digit codes
+
+March 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=I_COMMOD
+ITY,I_COMMODITY_SDESC,I_COMMODITY_LDESC,GEN_VAL_MO,GEN_VAL_YR
+&time=2013-03
+
+Import Totals for Video
+Games (9504.50.0000)
+
+March 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=I_COMMOD
+ITY,I_COMMODITY_SDESC,I_COMMODITY_LDESC,GEN_VAL_MO,GEN_VAL_YR
+&time=2013-03&I_COMMODITY=9504500000
+
+Export Totals from
+January to November
+2013
+
+January 2013 to
+November 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=ALL_VAL_M
+O,ALL_VAL_YR&time=from+2013-01+to+2013-11
+
+Import Totals from April
+2013 on
+
+April 2013 to
+Most Recent
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=GEN_VAL_
+MO,GEN_VAL_YR&time=from+2013-04
+
+13
+
+EndUse Code
+Hitech/USDA
+NAICS
+Port (HS)
+SITC
+State
+
+Data Requested
+
+Time Period
+
+API Call
+
+Export Totals by enduse
+code
+
+November 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/enduse?get=E_END
+USE,ALL_VAL_MO,ALL_VAL_YR&YEAR=2013&MONTH=11
+
+Monthly Card Count
+Import Totals by HS
+
+October 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=I_COMMOD
+ITY,CC_MO,GEN_VAL_MO,CON_VAL_MO&YEAR=2013&MONTH=10
+
+Year-to-date vessel
+Weight for Agricultural
+and Non-agricultural
+commodities
+Advanced Technology
+Imports by Method of
+Transporation
+
+January 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/usda?get=USDA,ALL
+_VAL_MO,ALL_VAL_YR,AIR_VAL_MO,AIR_VAL_YR,CNT_VAL_MO,CNT_VAL_YR
+,VES_VAL_MO,VES_VAL_YR&YEAR=2013&MONTH=01
+
+February 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/hitech?get=HITECH,
+GEN_VAL_MO,GEN_VAL_YR,AIR_VAL_MO,AIR_VAL_YR,CNT_VAL_MO,CNT_V
+AL_YR,VES_VAL_MO,VES_VAL_YR&YEAR=2013&MONTH=02
+
+Total Exports by Country
+and Country Groupings
+
+May 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/naics?get=CTY_COD
+E,CTY_NAME,ALL_VAL_MO,ALL_VAL_YR&time=2013-05
+
+Total General Imports
+from Canada and Mexico
+by 3- digit NAICS code
+
+June 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/naics?get=NAICS,CT
+Y_CODE,CTY_NAME,GEN_VAL_MO,GEN_VAL_YR&time=201306&COMM_LVL=NA3&CTY_CODE=1220&CTY_CODE=2010
+
+General Import Value of
+All Manufactured Goods
+
+January 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/naics?get=NAICS,G
+EN_VAL_MO&time=2013-01&COMM_LVL=MAN
+
+Port Export Totals from
+Rochester, NY
+
+April 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/porths?get=PORT,P
+ORT_NAME,ALL_VAL_MO,ALL_VAL_YR&PORT=0903&time=2013-04
+
+Port Exports of Rye Seed
+(1002.10)
+
+June 2013
+
+https://api.census.gov/data/timeseries/intltrade/exports/porths?get=PORT,P
+ORT_NAME,ALL_VAL_MO,ALL_VAL_YR&time=201306&E_COMMODITY=100210
+
+Port Imports to All Ports
+
+August 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/porths?get=PORT,P
+ORT_NAME,GEN_VAL_MO,GEN_VAL_YR&time=2013-08
+
+SITC Export Totals with
+descriptions
+
+March 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/sitc?get=SITC,SITC_
+LDESC,GEN_VAL_MO,GEN_VAL_YR&time=2013-03
+
+Import Totals for Liquid
+Natural Gas (34310)
+
+July 2013
+
+https://api.census.gov/data/timeseries/intltrade/imports/sitc?get=SITC,SITC_
+LDESC,GEN_VAL_MO,GEN_VAL_YR&time=2013-07&SITC=34310
+
+Export Totals from Alaska
+by 2-digit HS Code from
+January to March 2013
+
+January 2013 to
+March 2013 (1st
+Quarter)
+
+https://api.census.gov/data/timeseries/intltrade/exports/statehs?get=E_COM
+MODITY,ALL_VAL_MO,ALL_VAL_YR&COMM_LVL=HS2&time=from+201301+to+2013-03
+
+Import Totals from April
+2013 on by NAICS code
+
+April 2013 to
+Most Recent
+
+https://api.census.gov/data/timeseries/intltrade/imports/statenaics?get=NAI
+CS,GEN_VAL_MO,GEN_VAL_YR&time=from+2013-04
+
+14
+
+The two parameters SUMMARY_LVL and SUMMARY_LVL2 in the International Trade Datasets allow you to define
+different levels of data summarization.
+SUMMARY_LVL
+SUMMARY_LVL has only two potential values: CGP and DET. CGP indicates common country groupings including
+geographic regions (e.g. Africa), international organizations (e.g. European Union), or free trade agreements (e.g.
+USMCA). “DET” indicates individual trading partner data. The SUMMARY_LVL parameter allows you to limit the
+returned data to individual trade partners (&SUMMARY_LVL=DET) or to country groupings
+(&SUMMARY_LVL=CGP). It also allows you to see sort and group country groupings apart from individual partners.
+
+https://api.census.gov/data/timeseries/intltrade/exports/hs?get=CTY_CODE,CTY_NAME,A
+LL_VAL_MO,ALL_VAL_YR&SUMMARY_LVL&time=2013-06
+[["CTY_CODE","CTY_NAME","ALL_VAL_MO","ALL_VAL_YR","SUMMARY_LVL","time"],
+["-","TOTAL FOR ALL COUNTRIES","134550410192","780097405136","DET","2013-06"],
+["1010","GREENLAND","736003","13477046","DET","2013-06"],
+["1220","CANADA","25393740866","150486828704","DET","2013-06"],
+["1610","ST PIERRE AND MIQUELON","0","251067","DET","2013-06"],
+["2010","MEXICO","17986313583","110705488223","DET","2013-06"],
+…
+["4XXX","EUROPE","28895861434","163631270188","CGP","2013-06"],
+["5XXX","ASIA","40653581774","232504626191","CGP","2013-06"],
+["6XXX","AUSTRALIA AND OCEANIA","2845898699","14708183536","CGP","2013-06"],
+["7XXX","AFRICA","3235940151","18140824146","CGP","2013-06"]]
+
+SUMMARY_LVL2
+The second parameter representing different levels of data summarization is SUMMARY_LVL2, which allows you to
+request all unique combinations of specified parameters from the API. For example, the SUMMARY_LVL2
+parameter can be asked to pull all combinations of NAICS (NA), CTY_CODE (CY), and Domestic/Foreign (DF) by
+submitting the following API call:
+
+https://api.census.gov/data/timeseries/intltrade/exports/naics?get=NAICS,NAICS_SDESC,CT
+Y_CODE,CTY_NAME,DF,ALL_VAL_MO&time=2013-05&SUMMARY_LVL2=NACY
+Lists of all SUMMARY_LVL2 codes are found in Appendix C (exports) and Appendix D
+(imports).
+
+15
+
+The COMM_LVL parameter is used in combination with E_COMMODITY/I_COMMODITY, NAICS, or
+E_ENDUSE/I_ENDUSE to specify a level(s) of commodity detail:
+Parameters Combined with
+COMM_LVL
+E_COMMODITY/I_COMMODITY
+
+COMM_LVL
+
+Level of Aggregation
+
+HS2
+
+2-digit HS
+
+E_COMMODITY/I_COMMODITY
+
+HS4
+
+4-digit HS
+
+E_COMMODITY/I_COMMODITY
+
+HS6
+
+6-digit HS
+
+E_COMMODITY/I_COMMODITY
+
+HS10
+
+10-digit HS
+
+NAICS
+
+NA2
+
+2-digit NAICS
+
+NAICS
+
+NA3
+
+3-digit NAICS
+
+NAICS
+
+NA4
+
+4-digit NAICS
+
+NAICS
+
+NA5
+
+5-digit NAICS
+
+NAICS
+
+NA6
+
+6-digit NAICS
+
+NAICS
+
+MAN
+
+Total Manufactured Commodities
+
+E_ENDUSE, I_ENDUSE
+
+EU1
+
+1-digit End-Use
+
+E_ENDUSE, I_ENDUSE
+
+EU5
+
+5-digit End-Use
+
+To protect respondent confidentiality HS10, NA5, and NA6 records are not available in
+the statehs, statenaics, and porths datasets.
+Example API calls using COMM_LVL and the results:
+
+https://api.census.gov/data/timeseries/intltrade/exports/enduse?get=E_END
+USE,ALL_VAL_MO,COMM_LVL&time=2013-01
+[["E_ENDUSE","ALL_VAL_MO","COMM_LVL","time"],
+["-","123031879061","","2013-01"],
+["0","11908153216","EU1","2013-01"],
+["00000","753852825","EU5","2013-01"],
+["00010","185697951","EU5","2013-01"],
+["00110","330346856","EU5","2013-01"],
+…
+
+https://api.census.gov/data/timeseries/intltrade/imports/hs?get=I_COMMO
+DITY,GEN_VAL_MO&time=2013-01&COMM_LVL=HS2
+[["I_COMMODITY","GEN_VAL_MO","time","COMM_LVL"],
+["01","221313094","2013-01","HS2"],
+["02","503382248","2013-01","HS2"],
+["03","1052835760","2013-01","HS2"],
+["04","165756808","2013-01","HS2"],
+…
+
+16
+
+The CTY_CODE codes for country groupings are not Schedule C codes. They are codes created specifically for the
+API that represent country groupings. For a list of all country grouping codes and names that can be used with the
+CTY_CODE parameter, see Appendix E.
+
+The Trade Datasets in the Census API will be updated with the most recent month of trade statistics, after 8:30AM
+on the morning of the International Trade in Goods and Services (FT-900) release. You can find the FT-900 release
+dates in our online release schedule.
+
+If you have any questions about the Monthly International Trade Datasets or trade data in general please contact
+the International Trade Macro Analysis Branch at 1-800-549-0595 Option#4 or email to
+eid.international.trade.data@census.gov. For technical questions regarding the Census API, please visit the API
+Developers Forum.
+
+The API includes a list of valid parameters by endpoint. To view them please reference the hyperlinks below.
+
+Endpoint
+enduse
+hitech
+naics
+sitc
+usda
+hs
+porths
+statehs
+statenaics
+
+Export Variables
+https://api.census.gov/data/timeseries/intltrade
+/exports/enduse/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/hitech/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/naics/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/sitc/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/usda/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/hs/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/porths/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/statehs/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/exports/statenaics/variables.html
+
+Import Variables
+https://api.census.gov/data/timeseries/intltrade
+/imports/enduse/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/hitech/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/naics/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/sitc/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/usda/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/hs/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/porths/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/statehs/variables.html
+https://api.census.gov/data/timeseries/intltrade
+/imports/statenaics/variables.html
+
+17
+
+Parameter Name
+
+Parameter Description
+
+Type
+
+Endpoints
+
+AIR_VAL_MO
+
+Air Value
+
+Int
+
+All
+
+AIR_VAL_YR
+AIR_WGT_MO
+
+Year-to-Date Air Value
+Air Shipping Weight
+
+Int
+Int
+
+All
+All
+
+AIR_WGT_YR
+ALL_VAL_MO
+
+Year-to-Date Air Shipping Weight
+Total Value
+
+Int
+Int
+
+All
+All
+
+ALL_VAL_YR
+CC_MO
+
+Year-to-Date Total Value
+Card Count
+
+Int
+Int
+
+CC_YR
+
+Year-to-Date Card Count
+
+Int
+
+CNT_VAL_MO
+CNT_VAL_YR
+CNT_WGT_MO
+CNT_WGT_YR
+COMM_LVL
+
+Containerized Vessel Value
+Year-to-Date Containerized Vessel Value
+Containerized Vessel Shipping Weight
+Year-to-Date Containerized Vessel Shipping Weight
+4-character Aggregation Levels for Commodity, NAICS,
+and End-Use. Available values include HS2, HS4, HS6,
+HS10, NA6, NA5, NA4, NA3, EU5, and EU1 (see page
+10).
+
+Int
+Int
+Int
+Int
+String
+
+CTY_CODE
+CTY_NAME
+
+String
+String
+
+DF
+
+4-character Country Code
+50-character Country Name
+**API call must also include CTY_CODE parameter**
+1-character Domestic or Foreign Code
+
+All
+hs, naics,
+enduse,
+usda, sitc,
+hitech
+hs, naics,
+enduse,
+usda, sitc,
+hitech
+All
+All
+All
+All
+hs, naics,
+enduse,
+statenaics,
+statehs,
+porths
+All
+All
+
+DISTRICT
+
+2-character District Code
+
+String
+
+DIST_NAME
+
+50-character District name
+**API call must also include DISTRICT parameter**
+
+String
+
+E_COMMODITY
+
+2-, 4-, 6-, or 10-character Export Harmonized System
+String
+Code
+150-character Export Harmonized Code Description
+String
+**API call must also include E_COMMODITY parameter**
+50-character Export Harmonized Code Description
+String
+**API call must also include E_COMMODITY parameter**
+
+E_COMMODITY_LDESC
+E_COMMODITY_SDESC
+
+String
+
+hs, naics,
+enduse,
+usda, sitc,
+hitech
+hs, naics,
+enduse,
+usda, sitc,
+hitech
+hs, naics,
+enduse,
+usda, sitc,
+hitech
+hs, statehs,
+porths
+hs, statehs,
+porths
+hs, statehs,
+porths
+18
+
+Parameter Name
+
+Parameter Description
+
+Type
+
+Endpoints
+
+E_ENDUSE
+
+1- or 5-character Export ENDUSE Code
+
+String
+
+enduse
+
+E_ENDUSE_LDESC
+
+100-character Export ENDUSE Description
+**API call must also include E_ENDUSE parameter**
+50-character Export ENDUSE Description
+**API call must also include E_ENDUSE parameter**
+2-character HITECH Code
+40-character HITECH Description
+**API call must also include HITECH parameter**
+10-character Date of Last Update
+2-character Month
+3-, 4-, 5-, or 6-character NAICS Code
+
+String
+
+enduse
+
+String
+
+enduse
+
+String
+String
+
+hitech
+hitech
+
+String
+String
+String
+
+150-character NAICS Description
+**API call must also include NAICS parameter**
+50-character NAICS Description
+**API call must also include NAICS parameter**
+4-character Port Code
+
+String
+
+String
+
+All
+All
+naics,
+statenaics
+naics,
+statenaics
+naics,
+statenaics
+porths
+
+150-character Port Name
+**API call must also include PORT parameter**
+Quantity 1
+1-character Missing Value Flag for Quantity 1
+Year-to-Date Quantity 1
+1-character Missing Value Flag for Year-to-Date Quantity
+1
+Quantity 2
+1-character Missing Value Flag for Quantity 2
+Year-to-Date Quantity 2
+1-character Missing Value Flag for Year-to-Date Quantity
+2
+5-character SITC Code
+150-character SITC Description
+**API call must also include SITC parameter**
+50-character SITC Description
+**API call must also include SITC parameter**
+2-character State of Origin of Movement
+
+String
+
+porths
+
+Int
+String
+Int
+String
+
+hs
+hs
+hs
+hs
+
+Int
+String
+Int
+String
+
+hs
+hs
+hs
+hs
+
+String
+String
+
+sitc
+sitc
+
+String
+
+sitc
+
+String
+
+Detail or Country Grouping record
+Variables being summarized
+<YYYY>-<MM> (where YYYY represents the year and
+MM represents the month of data
+3-character Export Unit of Quantity 1
+**API call must also include E_COMMODITY parameter**
+3-character Export Unit of Quantity 2
+
+String
+String
+Datetime
+
+statehs,
+statenaics
+All
+All
+All
+
+String
+
+hs
+
+String
+
+hs
+
+E_ENDUSE_SDESC
+HITECH
+HITECH_DESC
+LAST_UPDATE
+MONTH
+NAICS
+NAICS_LDESC
+NAICS_SDESC
+PORT
+PORT_NAME
+QTY_1_MO
+QTY_1_MO_FLAG
+QTY_1_YR
+QTY_1_YR_FLAG
+QTY_2_MO
+QTY_2_MO_FLAG
+QTY_2_YR
+QTY_2_YR_FLAG
+SITC
+SITC_LDESC
+SITC_SDESC
+STATE
+SUMMARY_LVL
+SUMMARY_LVL2
+Time
+UNIT_QY1
+UNIT_QY2
+
+String
+
+19
+
+Parameter Name
+
+Parameter Description
+
+Type
+
+Endpoints
+
+**API call must also include E_COMMODITY parameter**
+USDA
+VES_VAL_MO
+
+1-character USDA Code
+Vessel Value
+
+String
+Int
+
+usda
+All
+
+VES_VAL_YR
+VES_WGT_MO
+
+Year-to-Date Vessel Value
+Vessel Shipping Weight
+
+Int
+Int
+
+All
+All
+
+VES_WGT_YR
+YEAR
+
+Year-to-Date Vessel Shipping Weight
+4-character Year
+
+Int
+String
+
+All
+All
+
+20
+
+Variable Name
+AIR_CHA_MO
+
+Parameter Description
+Air Charges
+
+Type
+Int
+
+AIR_CHA_YR
+
+Year-to-Date Air Charges
+
+Int
+
+AIR_VAL_MO
+AIR_VAL_YR
+AIR_WGT_MO
+AIR_WGT_YR
+CAL_DUT_MO
+
+Air Value
+Year-to-Date Air Value
+Air Shipping Weight
+Year-to-Date Air Shipping Weight
+Imports for Consumption, Calculated Duty
+
+Int
+Int
+Int
+Int
+Int
+
+CAL_DUT_YR
+
+Year-to-Date Imports for Consumption, Calculated Duty
+
+Int
+
+CC_MO
+
+Card Count
+
+Int
+
+CC_YR
+
+Year-to-Date Card Count
+
+Int
+
+CNT_CHA_MO
+
+Containerized Vessel Charges
+
+Int
+
+CNT_CHA_YR
+
+Year-to-Date Containerized Vessel Charges
+
+Int
+
+CNT_VAL_MO
+CNT_VAL_YR
+CNT_WGT_MO
+CNT_WGT_YR
+COMM_LVL
+
+Containerized Vessel Value
+Year-to-Date Containerized Vessel Value
+Containerized Vessel Shipping Weight
+Year-to-Date Containerized Vessel Shipping Weight
+4-character Aggregation Levels for Commodity, NAICS,
+and End-Use. Available values include HS2, HS4, HS6,
+HS10, NA6, NA5, NA4, NA3, EU5, and EU1 (see page
+10).
+
+Int
+Int
+Int
+Int
+String
+
+CON_CHA_MO
+
+Imports for Consumption, Charges
+
+Int
+
+CON_CHA_YR
+
+Year-to-Date Imports for Consumption, Charges
+
+Int
+
+CON_CIF_MO
+
+Imports for Consumption, CIF Value
+
+Int
+
+Endpoints
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+All
+All
+All
+All
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+All
+All
+All
+All
+hs, naics,
+enduse,
+statenaics,
+statehs,
+porths
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+
+21
+
+Variable Name
+CON_CIF_YR
+
+Parameter Description
+Year-to-Date Imports for Consumption, CIF Value
+
+Type
+Int
+
+CON_QY1_MO
+CON_QY1_MO_FLAG
+
+Int
+String
+Int
+String
+
+hs
+hs
+
+Int
+String
+Int
+String
+
+hs
+hs
+hs
+hs
+
+CON_VAL_MO
+
+Imports for Consumption, Quantity 1
+1-character Missing Value Flag for Imports for
+Consumption Quantity 1
+Year-to-Date Imports for Consumption, Quantity 1
+1-character Missing Value Flag for Year-to-Date Imports
+for Consumption Quantity 1
+Imports for Consumption, Quantity 2
+1-character Flag Imports for Consumption, Quantity 2
+Year-to-Date Imports for Consumption, Quantity 2
+1-character Missing Value Flag for Year-to-Date Imports
+for Consumption, Quantity 2
+Imports for Consumption, Total Value
+
+Endpoints
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs
+hs
+
+Int
+
+CON_VAL_YR
+
+Year-to-Date Imports for Consumption, Total Value
+
+Int
+
+CTY_CODE
+CTY_NAME
+
+4-character Country Code
+50-character Country Name
+**API call must also include CTY_CODE parameter**
+1- or 2-character Country subcode
+50-character District name
+**API call must also include DISTRICT parameter**
+
+String
+String
+
+hs, naics,
+enduse, usda,
+sitc, hitech,
+statehs,
+statenaics
+hs, naics,
+enduse, usda,
+sitc, hitech,
+statehs,
+statenaics
+All
+All
+
+DISTRICT
+
+2-character District of Entry Code
+
+String
+
+DUT_VAL_MO
+
+Imports for Consumption, Dutiable Value
+
+Int
+
+DUT_VAL_YR
+
+Year-to-Date Imports for Consumption, Dutiable Value
+
+Int
+
+GEN_CHA_MO
+
+General Imports, Charges
+
+Int
+
+GEN_CHA_YR
+
+Year-to-Date General Imports, Charges
+
+Int
+
+CON_QY1_YR
+CON_QY1_YR_FLAG
+CON_QY2_MO
+CON_QY2_MO_FLAG
+CON_QY2_YR
+CON_QY2_YR_FLAG
+
+CTY_SUBCODE
+DIST_NAME
+
+String
+String
+
+hs
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+
+22
+
+Variable Name
+GEN_CIF_MO
+
+Parameter Description
+General Imports, CIF Value
+
+Type
+Int
+
+GEN_CIF_YR
+
+Year-to-Date General Imports, CIF Value
+
+Int
+
+GEN_QY1_MO
+GEN_QY1_MO_FLAG
+
+General Imports, Quantity 1
+1-character Missing Value Flag for General Imports,
+Quantity 2
+Year-to-Date General Imports, Quantity 1
+1-character Missing Value Flag for Year-to-Date General
+Imports, Quantity 2
+General Imports, Quantity 2
+1-character Missing Value Flag for General Imports,
+Quantity 2
+Year-to-Date General Imports, Quantity 2
+1-character Missing Value Flag for Year-to-Date General
+Imports, Quantity 3
+General Imports, Total Value
+Year-to-Date General Imports, Total Value
+2-character HITECH Code
+40-character HITECH Description
+**API call must also include HITECH parameter**
+2-, 4-, 6-, or 10-character Import Harmonized System
+Code
+150-character Import Harmonized Code Description
+**API call must also include I_COMMODITY parameter**
+50-character Import Harmonized Code Description
+**API call must also include I_COMMODITY parameter**
+1- or 5-character Import End-Use Code
+100-character Import ENDUSE Description
+**API call must also include I_ENDUSE parameter**
+50-character Import ENDUSE Description
+**API call must also include I_ENDUSE parameter**
+10-character Date of Last Update
+2-character Month
+3-, 4-, 5-, or 6-character NAICS Code
+
+Int
+String
+
+Endpoints
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs
+hs
+
+Int
+String
+
+hs
+hs
+
+Int
+String
+
+hs
+hs
+
+Int
+String
+
+hs
+hs
+
+Int
+Int
+String
+String
+
+All
+All
+hitech
+hitech
+
+String
+
+hs, statehs,
+porths
+hs, statehs,
+porths
+hs, statehs,
+porths
+enduse
+enduse
+
+150-character NAICS Description
+**API call must also include NAICS parameter**
+50-character NAICS Description
+**API call must also include NAICS parameter**
+4-character Port of Entry Code (2-Digit District of Entry +
+2-Digit Port of Entry)
+150-character Port Name
+**API call must also include PORT parameter**
+2-character Rate Provision Code
+5-character SITC Code
+
+String
+
+GEN_QY1_YR
+GEN_QY1_YR_FLAG
+GEN_QY2_MO
+GEN_QY2_MO_FLAG
+GEN_QY2_YR
+GEN_QY2_YR_FLAG
+GEN_VAL_MO
+GEN_VAL_YR
+HITECH
+HITECH_DESC
+I_COMMODITY
+I_COMMODITY_LDESC
+I_COMMODITY_SDESC
+I_ENDUSE
+I_ENDUSE_LDESC
+I_ENDUSE_SDESC
+LAST_UPDATE
+MONTH
+NAICS
+NAICS_LDESC
+NAICS_SDESC
+PORT
+PORT_NAME
+RP
+SITC
+
+String
+String
+String
+String
+
+enduse
+String
+String
+String
+
+String
+
+All
+All
+naics,
+statenaics
+naics,
+statenaics
+naics,
+statenaics
+porths
+
+String
+
+porths
+
+String
+String
+
+hs
+sitc
+
+String
+
+23
+
+Variable Name
+SITC_LDESC
+
+Parameter Description
+Type
+150-character SITC Description
+String
+**API call must also include SITC parameter**
+50-character SITC Description
+String
+**API call must also include SITC parameter**
+Detail or Country Grouping record
+String
+Variables being summarized
+String
+2-character State of Destination, using US Postal Service String
+State Abbreviations. "XX" = Unidentified
+<YYYY>-<MM> (where YYYY represents the year and Datetime
+MM represents the month of data
+3-character Import Unit of Quantity 1
+String
+**API call must also include I_COMMODITY parameter**
+
+Endpoints
+sitc
+
+hs
+
+USDA
+VES_CHA_MO
+
+3-character Import Unit of Quantity 2
+String
+**API call must also include I_COMMODITY parameter**
+1-character USDA Code
+String
+Vessel Charges
+Int
+
+VES_CHA_YR
+
+Year-to-Date Vessel Charges
+
+Int
+
+VES_VAL_MO
+VES_VAL_YR
+VES_WGT_MO
+VES_WGT_YR
+YEAR
+
+Vessel Value
+Year-to-Date Vessel Value
+Vessel Shipping Weight
+Year-to-Date Vessel Shipping Weight
+4-character Year
+
+Int
+Int
+Int
+Int
+String
+
+SITC_SDESC
+SUMMARY_LVL
+SUMMARY_LVL2
+STATE
+time
+UNIT_QY1
+UNIT_QY2
+
+sitc
+All
+All
+statehs,
+statenaics
+All
+hs
+
+usda
+hs, naics,
+enduse, usda,
+sitc, hitech
+hs, naics,
+enduse, usda,
+sitc, hitech
+All
+All
+All
+All
+All
+
+24
+
+SUMMARY_LVL2 Types
+TO – Total Exports
+DF – Domestic(1) or Foreign(2)
+DT – District
+PT – Port
+CY – Country
+ST – State of Origin of Movement of Goods
+HS – Schedule B Commodity Classification Number
+NA – NAICS code of Commodity
+EU – End-Use Classification Code of Commodity
+US – 1-digit USDA code of Commodity
+SI – SITC code of Commodity
+HT – 2-digit Hi-tech code of Commodity
+Listed below are all the different summary levels included in the monthly export dataset. Summary levels are the
+variable combinations that are available in the trade datasets. For example, if you would like to know if you could
+pull the export value of cellphones (HS), exported out of Baltimore (DT), to Canada (CY) you could look at the
+following table and see that variable combination is available (HSDTCY).
+CY
+CYDF
+DF
+DT
+DTCY
+DTCYDF
+DTDF
+EU
+EUCY
+EUCYDF
+EUDF
+EUDT
+EUDTCY
+EUDTCYDF
+EUDTDF
+HS
+HSCY
+HSCYDF
+HSDF
+HSDT
+HSDTCY
+HSDTCYDF
+
+HSDTDF
+HSPT
+HSPTCY
+HSST
+HSSTCY
+HT
+HTCY
+HTCYDF
+HTDF
+HTDT
+HTDTCY
+HTDTCYDF
+HTDTDF
+NA
+NACY
+NACYDF
+NADF
+NADT
+NADTCY
+NADTCYDF
+NADTDF
+NAST
+
+NASTCY
+PT
+PTCY
+SI
+SICY
+SICYDF
+SIDF
+SIDT
+SIDTCY
+SIDTCYDF
+SIDTDF
+ST
+STCY
+TO
+US
+USCY
+USCYDF
+USDF
+USDT
+USDTCY
+USDTCYDF
+USDTDF
+
+25
+
+SUMMARY_LVL2 Types
+TO – Total Imports
+DT – District
+PT – Port
+CS – Country Subcode
+CY – Country
+RP – Rate Provision
+ST – State of Destination
+HS – HTS Commodity Classification Number
+NA – NAICS code of Commodity
+EU – End-Use Classification Code of Commodity
+US – 1-digit USDA code of Commodity
+SI – SITC code of Commodity
+HT – 2-digit Hi-tech code of Commodity
+Listed below are all the different summary levels included in the monthly import dataset. Summary levels are the
+variable combinations that are available in the trade datasets. For example, if you would like to know if you could
+pull the import value of cellphones (HS), imported into Baltimore (DT), from Canada (CY) you could look at the
+following table and see that variable combination is available (HSDTCY).
+
+CS
+CSDT
+CSDTRP
+CSRP
+CY
+CYCS
+CYCSDT
+CYCSDTRP
+CYCSRP
+CYDT
+CYDTRP
+CYRP
+DT
+DTRP
+EU
+EUCY
+EUCYDT
+EUDT
+HS
+HSCS
+HSCSDT
+
+HSCSRP
+HSCSRPDT
+HSCY
+HSCYCS
+HSCYCSDT
+HSCYCSDTRP
+HSCYCSRP
+HSCYDT
+HSCYRP
+HSCYRPDT
+HSDT
+HSPT
+HSPTCY
+HSRP
+HSRPDT
+HSST
+HSSTCY
+HT
+HTCY
+HTCYDT
+HTDT
+
+NA
+NACY
+NACYDT
+NADT
+NAST
+NASTCY
+PT
+PTCY
+RP
+SI
+SICY
+SICYDT
+SIDT
+ST
+STCY
+TO
+US
+USCY
+USCYDT
+USDT
+
+26
+
+CTY_CODE
+0001
+0003
+0014
+0017
+0020
+0021
+0022
+0023
+0024
+0025
+0026
+0027
+0028
+1XXX
+2XXX
+3XXX
+4XXX
+5XXX
+6XXX
+7XXX
+
+Country Grouping
+OPEC
+EUROPEAN UNION
+PACIFIC RIM COUNTRIES
+CAFTA-DR
+NAFTA
+TWENTY LATIN AMERICAN
+REPUBLICS
+OECD
+NATO
+LAFTA
+EURO AREA
+APEC
+ASEAN
+CACM
+NORTH AMERICA
+CENTRAL AMERICA
+SOUTH AMERICA
+EUROPE
+ASIA
+AUSTRALIA AND OCEANIA
+AFRICA
+
+27
+
+

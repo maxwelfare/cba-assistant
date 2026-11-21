@@ -1,0 +1,12 @@
+{
+ "key": "broughel_2021_mortality",
+ "citation": "Broughel J, Viscusi WK (2021). The mortality cost of expenditures. Contemporary Economic Policy 39(1):156-167.",
+ "doi": "10.1111/coep.12483",
+ "url": "https://api.openalex.org/works/doi:10.1111/coep.12483",
+ "media_type": "text/plain",
+ "sha256": "beab03cc880d14018c09f2d967780883cfc67b7f426ab3c1b17731cacb4bfed0",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:41Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/broughel_2021_mortality.txt (fetched is the file's modification time)"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "bka_2015_handbuch_wfa_umwelt",
+ "citation": "Bundeskanzleramt Österreich and BMLFUW (2015). Handbuch Wirkungsorientierte Folgenabschätzung, Arbeitsunterlage Wirkungsdimension Umwelt. Wien.",
+ "doi": null,
+ "url": "https://oeffentlicherdienst.gv.at/wp-content/uploads/2023/02/Handbuch_WFA_WD_Umwelt_2015_final.pdf",
+ "media_type": "application/pdf",
+ "sha256": "cb671a7ee5f9080f597694233130e89f1d543ea745fafe2f3e5f734d41890047",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:22:13Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

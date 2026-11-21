@@ -1,0 +1,11 @@
+{
+  "key": "dper_2024_ghg_supplementary_guidance",
+  "citation": "Department of Public Expenditure, NDP Delivery and Reform (2024). Infrastructure Guidelines Supplementary Guidance: Measuring and Valuing Changes in Greenhouse Gas Emissions in Economic Appraisal, March 2024.",
+  "doi": null,
+  "url": "https://assets.gov.ie/286767/89f0c763-708f-443e-8ccd-0fb2cb839f31.pdf",
+  "media_type": "application/pdf",
+  "sha256": "1e7836ca4d43751046dab2c7a67357c32fd242c2dd3b9b0f52fc5a818d2493e1",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:28:54+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}
