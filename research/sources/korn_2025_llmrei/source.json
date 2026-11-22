@@ -1,0 +1,11 @@
+{
+ "key": "korn_2025_llmrei",
+ "citation": "Korn A, Gorsch S, Vogelsang A (2025). LLMREI: Automating Requirements Elicitation Interviews with LLMs. arXiv:2507.02564v1 (3 Jul 2025).",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/2507.02564",
+ "media_type": "application/pdf",
+ "sha256": "9f62e1706342ce5fd0b6e27ec409283042a6b5231496272e3b9896584ee21323",
+ "licence": "not stated in the extracted text (arXiv PDF)",
+ "fetched_utc": "2026-11-09T15:51:41+00:00",
+ "text_method": "pdftotext original.pdf text.txt"
+}

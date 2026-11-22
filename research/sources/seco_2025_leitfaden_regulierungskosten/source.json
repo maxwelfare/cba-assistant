@@ -1,0 +1,11 @@
+{
+  "key": "seco_2025_leitfaden_regulierungskosten",
+  "citation": "WBF/SECO (2025). Anhang 02 - Leitfaden zur Schätzung von Regulierungskosten für Unternehmen, 1 Sept 2025 (status 9 July 2026).",
+  "doi": null,
+  "url": "https://www.seco.admin.ch/dam/de/sd-web/VblVyYo0x68s/Leitfaden_Sch%C3%A4tzung_Regulierungskosten_20260702.pdf",
+  "media_type": "application/pdf",
+  "sha256": "e0d69fa4a1bf6c1157513d7cdae414c516c22b81532cd81f3d923e9e25952e1d",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:22Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

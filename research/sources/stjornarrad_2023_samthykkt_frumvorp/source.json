@@ -1,0 +1,11 @@
+{
+  "key": "stjornarrad_2023_samthykkt_frumvorp",
+  "citation": "Forsaetisraduneytid (Iceland). Samthykkt rikisstjornarinnar um undirbuning og fragang stjornarfrumvarpa og thingsalyktunartillagna, sbr. 10. gr. regla um starfshaetti rikisstjornar nr. 791/2018. Government resolution of 24 February 2023.",
+  "doi": null,
+  "url": "https://www.stjornarradid.is:443/library/03-Verkefni/Log-og-rettur/Skjol/Sam%c3%beykkt%20r%c3%adkisstj%c3%b3rnarinnar%20um%20undirb%c3%baning%20og%20fr%c3%a1gang%20stj%c3%b3rnarfrumvarpa%20og%20%c3%beings%c3%a1lyktunartillagna%20240223.pdf",
+  "media_type": "application/pdf",
+  "sha256": "4d94231cac0aff5ee8f1701f4d4181a737defcce0eb88f5406c15104adfa718c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:44Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

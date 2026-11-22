@@ -1,0 +1,11 @@
+{
+  "key": "who_gho_odata_guide",
+  "citation": "WHO Global Health Observatory OData API (documentation page). World Health Organization.",
+  "doi": "",
+  "url": "https://www.who.int/data/gho/info/gho-odata-api",
+  "media_type": "text/html",
+  "sha256": "dd3436f5afe302c187ddbe8e2a81262022af83466b3fb3cc0d8c3ea0fef48af6",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:27:54Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

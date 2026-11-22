@@ -1,0 +1,12 @@
+{
+  "key": "police_uk_api_guide",
+  "citation": "Police API documentation overview and API call limits pages (police.uk, Home Office data service, accessed 2026-11-09)",
+  "doi": "",
+  "url": "https://data.police.uk/docs/ (original.html); https://data.police.uk/docs/api-call-limits/ (original_call_limits.html)",
+  "media_type": "text/html",
+  "sha256": "4c9c88ae53aba7cb9e028a68d8c7946a4e42339b6a6ad07b6f9240992ee58c80",
+  "sha256_call_limits": "2977c37dc058ef5c4b2ecdcdd2cbc330c749eb1333d5d5db053776d4f1030120",
+  "licence": "not stated on these pages (the site's about page states Open Government Licence v3.0 for the data)",
+  "fetched_utc": "2026-11-09T17:32:00Z",
+  "text_method": "short Python script run with -I: drop script/style, strip tags, unescape, one line per block; the two pages joined, the limits page after a marker line"
+}

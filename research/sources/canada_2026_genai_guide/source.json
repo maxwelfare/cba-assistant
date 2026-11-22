@@ -1,0 +1,12 @@
+{
+ "key": "canada_2026_genai_guide",
+ "citation": "Government of Canada. Guide on the use of generative AI. canada.ca, fetched 2026-11-10.",
+ "doi": null,
+ "url": "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html",
+ "media_type": "text/html",
+ "sha256": "d2fe6ab06be4746ec0d4b563de450b1f50f78336f489cef18099eceb642f1df8",
+ "licence": "not stated",
+ "fetched": "2026-11-10T23:15:35Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "samgov_contract_awards_guide",
+ "citation": "SAM.gov Contract Awards API documentation (GSA Open Technology) (accessed 2026-11-09).",
+ "doi": "",
+ "url": "https://open.gsa.gov/api/contract-awards/",
+ "media_type": "text/html",
+ "sha256": "46cb995d2d026bef0d5a1e85ff2ec2220c3775b9d3701fded4895f5244ac7fb2",
+ "licence": "not stated on the page",
+ "fetched": "2026-11-09T18:00:00Z",
+ "text_method": ".venv/bin/python -I tools/store_rs.py (scripts/styles dropped, tags removed, block ends to newlines)"
+}

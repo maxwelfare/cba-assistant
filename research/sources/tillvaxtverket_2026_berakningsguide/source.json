@@ -1,0 +1,11 @@
+{
+ "key": "tillvaxtverket_2026_berakningsguide",
+ "citation": "Tillväxtverket (Info 0696; first issued Dec 2017, file labelled 2026). Ekonomiska effekter av nya regler: Så beräknar du företagens kostnader.",
+ "doi": null,
+ "url": "https://www.tillvaxtverket.se/download/18.10ba1f0019c2cb84622bdcc2/1770729090979/Ber%C3%A4kningsguide%202026.pdf",
+ "media_type": "application/pdf",
+ "sha256": "3c7967d94f08435c012d86a227e13d2f8d90a0a88dfd15c5cc9a9a80105133ad",
+ "licence": "not stated",
+ "fetched": "2026-11-09T17:00:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

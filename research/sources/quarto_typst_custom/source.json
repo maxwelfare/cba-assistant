@@ -1,0 +1,12 @@
+{
+ "key": "quarto_typst_custom",
+ "citation": "Posit PBC. Quarto documentation: Custom Typst formats, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://quarto.org/docs/output-formats/typst-custom.html",
+ "media_type": "text/html",
+ "sha256": "7920ff686ba3e8ed2c986939629dbbc9ef39bdafb4f4a57f6c97c05b267ab01e",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:32Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://quarto.org/docs/output-formats/typst-custom.html"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "nsf_awards_api_guide",
+ "citation": "National Science Foundation. NSF Awards API documentation, research.gov (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://resources.research.gov/common/webapi/awardapisearch-v1.htm",
+ "media_type": "text/html",
+ "sha256": "a9f1496ded248fb856c134e7547bd414a1c90b590718780815944ef4bef5e7e7",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

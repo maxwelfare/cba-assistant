@@ -1,0 +1,12 @@
+{
+ "key": "clemens_2017_meaning",
+ "citation": "Clemens MA (2015). The Meaning of Failed Replications: A Review and Proposal. Center for Global Development Working Paper 399; the working paper of the 2017 Journal of Economic Surveys article.",
+ "doi": null,
+ "url": "https://www.cgdev.org/sites/default/files/CGD-Working-Paper-399-Clemens-Meaning-Failed-Replications.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f3b42fb50ff18865884aaf07ca77ea1d26f7510da1634fee467aa752db88770f",
+ "licence": "not stated",
+ "fetched": "2026-11-10T22:26:47Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/fetch/clemens/clemens.pdf (fetched is the file's modification time)"
+}

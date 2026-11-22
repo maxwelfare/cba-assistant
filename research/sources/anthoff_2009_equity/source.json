@@ -1,0 +1,12 @@
+{
+ "key": "anthoff_2009_equity",
+ "citation": "Anthoff D, Hepburn C, Tol RSJ (2009). Equity weighting and the marginal damage costs of climate change. Ecological Economics 68:836-849 (FEEM Nota di Lavoro 43.2007 stored).",
+ "doi": "10.1016/j.ecolecon.2008.06.017",
+ "url": "https://ageconsearch.umn.edu/record/9325/files/wp070043.pdf",
+ "media_type": "application/pdf",
+ "sha256": "624b62c1c020da04ca2d95c9ded8dc812917400f91cbbf740287a3930330047c",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:59:58Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://ageconsearch.umn.edu/record/9325/files/wp070043.pdf"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "ncbi_api_key_guide",
+ "citation": "NLM Support Center. What is an API Key and how can I get it? KA-05317 (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://support.nlm.nih.gov/kbArticle/?pn=KA-05317",
+ "media_type": "text/html",
+ "sha256": "87f05a7c0705cf22d1f7b8eb2c9fe36221bf10b79577d2942c088fdbcfff554c",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

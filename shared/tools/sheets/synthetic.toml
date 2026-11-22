@@ -1,0 +1,330 @@
+# The stored suite's data file (tools/sheets/suite.py): made up, every value invented, so that each test of the
+# complaint register has a case to run on. A change here rewrites the suite's base (suite.py --write-base).
+
+[[tab]]
+name = "Guide"
+kind = "guide"
+credit = "Written with the shared sheet tools."
+interval = 0.9
+worked_example = "Benefits"
+fill_down_script = true
+stage = "template"
+backward_references = "The suite's made-up Benefits tab reads Costs, a later tab; the waiver keeps that file a test case of the warning."
+what = "A made-up program that pays households to take up a practice, in 2024 dollars: the stored suite's test sheet."
+start_here = "1. Does the program pay? Results, its first rows. 2. Which input moves the net most? Sensitivity, its ranked list. 3. Where does the effect come from? Benefits, {col:Benefits.effect}."
+general_form = "Net benefit = households reached x effect x value per household, summed over ten years and discounted, less the setup and running costs."
+notes = [
+  ["How to Read the Sheet", "Every dollar is a 2024 dollar, and every present value is taken in 2024."],
+  ["Made up", "No number here comes from a real program: each source is an example address."],
+]
+details = "The suite's data file and how its tests read it https://example.org/details"
+references = [
+  ["Method note", "https://example.org/method-note"],
+]
+tabs = [
+  ["Globals", "The inputs more than one tab uses: the discount rates, the households and the region's output."],
+  ["Benefits", "The worked example: the effect, picked between two methods by their credences, and what it is worth."],
+  ["Costs", "The setup and running costs of the program, and their present value."],
+  ["Results", "The headline: the net benefit's mean and interval at each discount rate, and the chance it is above zero."],
+  ["Sensitivity", "For each net, the 15 inputs that move it most."],
+  ["Notes", "A text tab: a heading, a subhead, a paragraph and a link."],
+]
+
+[[tab]]
+name = "Globals"
+about = "Inputs several tabs share"
+
+[[tab.column]]
+id = "discount_rate"
+name = "Discount rate"
+note = "The guidance's central real rate, a year."
+kind = "constant"
+mean = 0.03
+citation = "Convention: the guidance's central rate. https://example.org/guidance"
+format = "%"
+
+[[tab.column]]
+id = "discount_rate_low"
+name = "Discount rate, low"
+note = "The guidance's lower rate, for Results."
+kind = "constant"
+mean = 0.02
+citation = "Convention: the guidance's lower rate. https://example.org/guidance"
+format = "%"
+
+[[tab.column]]
+id = "discount_rate_high"
+name = "Discount rate, high"
+note = "The guidance's upper rate, for Results."
+kind = "constant"
+mean = 0.07
+citation = "Convention: the guidance's upper rate. https://example.org/guidance"
+format = "%"
+
+[[tab.column]]
+id = "households_2020"
+name = "Households, 2020"
+note = "A census count of the region's households."
+kind = "constant"
+mean = 1200000
+citation = "An example census: \"1,200,000 households\". https://example.org/census"
+
+[[tab.column]]
+id = "regional_output"
+name = "Regional output ($ Bil)"
+note = "The region's yearly output, in $ billion."
+kind = "triangular"
+lo = 21
+peak = 26
+hi = 30
+citation = "An example accounts table: \"21 to 30 billion\". https://example.org/accounts"
+format = "$"
+
+[[tab]]
+name = "Benefits"
+about = "What the program's effect is worth"
+
+[[tab.column]]
+id = "effect_trial"
+name = "Effect on take-up (trial)"
+group = "Effect, method 1: trial"
+header_note = "A made-up trial's estimate."
+note = "The trial's effect on take-up, as a share of households."
+kind = "lognormal"
+mean = 0.12
+sd = 0.05
+citation = "An example trial: \"0.12 (sd 0.05)\". https://example.org/trial"
+format = "%"
+
+[[tab.column]]
+id = "effect_survey"
+name = "Effect on take-up (survey)"
+group = "Effect, method 2: survey"
+note = "A survey's range for the same effect."
+kind = "triangular"
+lo = 0.05
+peak = 0.1
+hi = 0.2
+citation = "Judge: the suite's author, from an example survey."
+format = "%"
+
+[[tab.column]]
+id = "effect_pick"
+name = "Random number of the pick"
+group = "Effect used"
+note = "A random number from 0 to 1, drawn fresh in each row; the pick to its right reads it."
+kind = "uniform"
+lo = 0
+hi = 1
+citation = "The random number the pick to its right reads: uniform from 0 to 1."
+
+[[tab.column]]
+id = "effect"
+name = "Effect on take-up"
+group = "Effect used"
+note = "Method 1 or method 2 in each draw, by the methods' credences."
+kind = "calc"
+formula = "IF(effect_pick<=CUMSHARE(m_trial),effect_trial,effect_survey)"
+format = "%"
+
+[[tab.column]]
+id = "reach"
+name = "Share of households reached"
+group = "Value of the effect"
+note = "A beta between 0 and 1."
+kind = "beta"
+lo = 0
+hi = 1
+alpha = 2
+beta = 5
+citation = "Judge: the suite's author."
+format = "%"
+
+[[tab.column]]
+id = "value_per_household"
+name = "Value per household"
+group = "Value of the effect"
+note = "A year's value of the practice to one household."
+kind = "lognormal"
+mean = 120
+sd = 100
+citation = "An example valuation study: \"120 dollars (sd 100)\". https://example.org/value"
+format = "$"
+
+[[tab.column]]
+id = "annual_benefit"
+name = "Annual benefit"
+group = "Value of the effect"
+note = "Households x share reached x effect x value."
+kind = "calc"
+formula = "Globals!households_2020*reach*effect*value_per_household"
+format = "$"
+
+[[tab.column]]
+id = "benefit_share"
+name = "Benefit share of output"
+group = "Value of the effect"
+note = "The yearly benefit over the region's output."
+kind = "calc"
+formula = "annual_benefit/(Globals!regional_output*1000000000)"
+format = "%"
+
+[[tab.column]]
+id = "net_benefit"
+name = "Net benefit"
+group = "Net present value"
+note = "Ten years of benefits less costs, at the central rate."
+kind = "calc"
+formula = "annual_benefit*10/(1+Globals!discount_rate)^5-Costs!cost_pv"
+result = true
+format = "$"
+
+[[tab.column]]
+id = "net_positive"
+name = "Net above zero"
+group = "Net present value"
+note = "1 where the net benefit is above zero; its mean is the chance."
+kind = "calc"
+formula = "IF(net_benefit>0,1,0)"
+format = "%"
+
+[[tab.column]]
+id = "net_low"
+name = "Net PV, low rate"
+group = "Net present value"
+note = "The same net at the guidance's lower rate."
+kind = "calc"
+formula = "(annual_benefit-Costs!annual_cost)*10/(1+Globals!discount_rate_low)^5"
+format = "$"
+
+[[tab.column]]
+id = "net_high"
+name = "Net PV, high rate"
+group = "Net present value"
+note = "The same net at the guidance's upper rate."
+kind = "calc"
+formula = "(annual_benefit-Costs!annual_cost)*10/(1+Globals!discount_rate_high)^5"
+format = "$"
+
+[[tab.method]]
+id = "m_trial"
+group = "Effect, method 1: trial"
+credence = 1
+
+[[tab.method]]
+id = "m_survey"
+group = "Effect, method 2: survey"
+credence = 2
+
+[[tab]]
+name = "Costs"
+about = "What the program costs"
+
+[[tab.column]]
+id = "start_year"
+name = "Year the program starts"
+note = "A judged range of start years."
+kind = "triangular"
+lo = 2026
+peak = 2027
+hi = 2029
+citation = "Judge: the suite's author."
+format = "year"
+
+[[tab.column]]
+id = "setup_cost"
+name = "Setup cost"
+note = "A long right tail: a few setups cost far more."
+kind = "lognormal"
+mean = 6000000
+sd = 5000000
+citation = "An example audit of setups: \"6 million dollars (sd 5 million)\". https://example.org/setup"
+format = "$"
+
+[[tab.column]]
+id = "setup_weeks"
+name = "Weeks to set up"
+note = "A fat tail: a few setups take far longer."
+kind = "power law"
+lo = 2
+alpha = 2.5
+citation = "An example audit of setups: \"from 2 weeks\". https://example.org/setup"
+
+[[tab.column]]
+id = "running_cost"
+name = "Running cost per household"
+note = "A year's cost of serving one household."
+kind = "normal"
+mean = 15
+sd = 4
+citation = "An example budget: \"15 dollars (sd 4)\". https://example.org/budget"
+format = "$"
+
+[[tab.column]]
+id = "share_enrolled"
+name = "Share of households enrolled"
+note = "The households the program serves."
+kind = "uniform"
+lo = 0.1
+hi = 0.3
+citation = "Judge: the suite's author."
+format = "%"
+
+[[tab.column]]
+id = "annual_cost"
+name = "Annual cost"
+note = "A tenth of the setup plus a year's running cost."
+kind = "calc"
+formula = "setup_cost/10+running_cost*Globals!households_2020*share_enrolled"
+format = "$"
+
+[[tab.column]]
+id = "cost_share"
+name = "Cost share of output"
+note = "The yearly cost over the region's output."
+kind = "calc"
+formula = "annual_cost/(Globals!regional_output*1000000000)"
+format = "%"
+
+[[tab.column]]
+id = "cost_pv"
+name = "Cost, present value"
+note = "Ten years of cost, at the central rate."
+kind = "calc"
+formula = "annual_cost*10/(1+Globals!discount_rate)^5"
+result = true
+format = "$"
+
+[[tab]]
+name = "Results"
+kind = "table"
+rows = [
+  ["Results: the net benefit over ten years, as a present value. Mean of the 1,000 draws, and the low and high ends of the interval the Guide sets."],
+  [],
+  ["", "Mean", "Low end", "High end", "P(net > 0)"],
+  ["Central rate", "=Benefits!net_benefit.mean", "=Benefits!net_benefit.low", "=Benefits!net_benefit.high", "=Benefits!net_positive.mean"],
+  ["Lower rate", "=Benefits!net_low.mean", "=Benefits!net_low.low", "=Benefits!net_low.high"],
+  ["Upper rate", "=Benefits!net_high.mean", "=Benefits!net_high.low", "=Benefits!net_high.high"],
+  ["Costs", "=Costs!cost_pv.mean", "=Costs!cost_pv.low", "=Costs!cost_pv.high"],
+  [],
+  ["Rates", "Central", "Lower", "Upper"],
+  ["Discount rate", "=Globals!discount_rate.mean", "=Globals!discount_rate_low.mean", "=Globals!discount_rate_high.mean"],
+  ["Net at the central rate", "=INTERVAL(Benefits!net_benefit)"],
+  ["Year the program starts", 2027],
+]
+
+[[tab]]
+name = "Sensitivity"
+kind = "sensitivity"
+outputs = ["Benefits!net_benefit", "Benefits!net_low"]
+
+[[tab]]
+name = "Notes"
+kind = "text"
+rows = [
+  ["# Notes on the test sheet"],
+  ["## Why it exists"],
+  ["A data file made up for the stored suite of the sheet tools: every value in it is invented."],
+  ["\\# of households is plain text, not a heading."],
+  ["The method's note https://example.org/method"],
+]

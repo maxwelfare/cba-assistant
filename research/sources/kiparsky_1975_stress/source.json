@@ -1,0 +1,12 @@
+{
+  "key": "kiparsky_1975_stress",
+  "citation": "Kiparsky P (1975). Stress, syntax, and meter. Language 51(3):576-616.",
+  "doi": "10.2307/412889",
+  "url": "https://openalex.org/W2004708354",
+  "media_type": "application/json",
+  "sha256": "8f5df2369e4839179ed4ef035d8c3d544841262f9b0ee5a228f7ed7a59174861",
+  "licence": "OpenAlex metadata, CC0; the abstract is the publisher's",
+  "fetched_utc": "2026-11-10T03:18:31Z",
+  "text_method": "research/bibliography.py lookup 10.2307/412889; text.txt is the record's citation and abstract",
+  "text_chars": 1075
+}

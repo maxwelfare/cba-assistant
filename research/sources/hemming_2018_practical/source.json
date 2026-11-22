@@ -1,0 +1,11 @@
+{
+  "key": "hemming_2018_practical",
+  "citation": "Hemming V, Burgman MA, Hanea AM, McBride MF, Wintle BC (2018). A practical guide to structured expert elicitation using the IDEA protocol. Methods Ecol Evol 9:169-180 (accepted manuscript).",
+  "doi": "10.1111/2041-210X.12857",
+  "url": "https://spiral.imperial.ac.uk/server/api/core/bitstreams/4c3d43d0-7aee-417e-8013-d3ff030cbad1/content (Imperial Spiral, handle 10044/1/56056)",
+  "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "bc9f3d066e6647c826186a28d2047c98ea0f09c29dd73172e2a515314b999f47",
+  "licence": "Accepted version; Spiral states: may be used for non-commercial purposes under Wiley Terms and Conditions for self-archiving",
+  "fetched_utc": "2026-11-09T17:37:02Z",
+  "text_method": "ElementTree script: w:t text per w:p joined by blank lines"
+}

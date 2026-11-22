@@ -1,0 +1,12 @@
+{
+ "key": "fox_2005_partition",
+ "citation": "Fox CR, Clemen RT (2005). Subjective probability assessment in decision analysis: partition dependence and bias toward the ignorance prior. Management Science 51(9):1417-1432 (abstract, EconPapers record).",
+ "doi": "10.1287/mnsc.1050.0409",
+ "url": "https://econpapers.repec.org/RePEc:inm:ormnsc:v:51:y:2005:i:9:p:1417-1432",
+ "media_type": "text/html",
+ "sha256": "d983b82532a0341011fc7194ec8c337637e28002f4faabb3587a0d240a39d841",
+ "licence": "abstract on the EconPapers (RePEc) record; publisher's copyright",
+ "fetched": "2026-11-12T17:30:38Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://econpapers.repec.org/RePEc:inm:ormnsc:v:51:y:2005:i:9:p:1417-1432"
+}

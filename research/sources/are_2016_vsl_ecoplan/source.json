@@ -1,0 +1,11 @@
+{
+  "key": "are_2016_vsl_ecoplan",
+  "citation": "Ecoplan for ARE and bfu (2016). Empfehlungen zur Festlegung der Zahlungsbereitschaft für die Verminderung des Unfall- und Gesundheitsrisikos (value of statistical life), 19 Sept 2016.",
+  "doi": null,
+  "url": "https://www.are.admin.ch/dam/de/sd-web/MuFxvhWGYPIh/value-of-statistical-life.pdf",
+  "media_type": "application/pdf",
+  "sha256": "d34bff00a57712306e0a44a306a92bdae72ae3019d83919540946ee01518c1f5",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:22Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

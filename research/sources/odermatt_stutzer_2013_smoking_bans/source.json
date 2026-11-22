@@ -1,0 +1,12 @@
+{
+ "key": "odermatt_stutzer_2013_smoking_bans",
+ "citation": "Odermatt R, Stutzer A (2013). Smoking bans, cigarette prices and life satisfaction. IZA Discussion Paper 7177. Published 2015, Journal of Health Economics 44:176-194.",
+ "doi": null,
+ "url": "https://docs.iza.org/dp7177.pdf",
+ "media_type": "application/pdf",
+ "sha256": "7bba0b093cccbdaca8c114ed64eeea1ee926a3a66afe6c00ff58b2636e7874dc",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:34Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://docs.iza.org/dp7177.pdf"
+}

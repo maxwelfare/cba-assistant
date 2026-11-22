@@ -1,0 +1,12 @@
+{
+ "key": "oecd_2024_sludge_audits",
+ "citation": "OECD (2024). Fixing frictions: 'sludge audits' around the world. OECD Public Governance Policy Papers 48. OECD Publishing, Paris.",
+ "doi": "10.1787/5e9bb35c-en",
+ "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/fixing-frictions-sludge-audits-around-the-world_1b4bbf1a/5e9bb35c-en.pdf",
+ "media_type": "application/pdf",
+ "sha256": "9164b79de870ea1abb6dff9c3128b1bc6a92ebf97964b488737d846fc807d4ed",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:13:42Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/fixing-frictions-sludge-audits-around-the-world_1b4bbf1a/5e9bb35c-en.pdf"
+}

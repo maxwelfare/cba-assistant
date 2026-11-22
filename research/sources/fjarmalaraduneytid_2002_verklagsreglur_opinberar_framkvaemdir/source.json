@@ -1,0 +1,12 @@
+{
+ "key": "fjarmalaraduneytid_2002_verklagsreglur_opinberar_framkvaemdir",
+ "citation": "Fjármálaráðuneytið (2002) Verklagsreglur um tilhögun frumathugunar, áætlunargerðar og verklegar framkvæmdir við opinberar framkvæmdir, 27 May 2002, under Act 84/2001 and regulation 715/2001, as published on stjornarradid.is",
+ "doi": null,
+ "url": "https://www.stjornarradid.is/verkefni/rekstur-og-eignir-rikisins/eignir-rikisins/opinberar-framkvaemdir/verklagsreglur/",
+ "media_type": "text/html",
+ "sha256": "45f75a8c0bf74e7d145c1c8320af8789a670b559be192ce60ae652fe1b583758",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09",
+ "text_method": "python -I: strip script/style, tags to newlines, html.unescape, cut before the Efnisyfirlit footer; body begins at the title line",
+ "language": "is"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "elsevier_genai_policy",
+  "citation": "Elsevier. The use of generative AI and AI-assisted technologies in writing for Elsevier.",
+  "doi": null,
+  "url": "https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier",
+  "media_type": "text/html",
+  "sha256": "edd8346b7578da38e43b7cef5c332f73ab7ddb2b91dbb76d39a49fe2fd1690b0",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:01:21Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 21125
+}

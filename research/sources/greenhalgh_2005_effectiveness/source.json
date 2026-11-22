@@ -1,0 +1,12 @@
+{
+ "key": "greenhalgh_2005_effectiveness",
+ "citation": "Greenhalgh and Peacock (2005). Effectiveness and efficiency of search methods in systematic reviews of complex evidence: audit of primary sources. BMJ 331:1064-1065.",
+ "doi": "10.1136/bmj.38636.593461.68",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1136/bmj.38636.593461.68",
+ "media_type": "text/plain",
+ "sha256": "33e4195cabea35b9b1551c728f6e8668165f93ecfd3cb58e0420d958423e9ba8",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:43Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/greenhalgh_2005_effectiveness.txt (fetched is the file's modification time)"
+}

@@ -1,0 +1,55 @@
+# United States (federal), values in force on 2026-10-29. Read in each document's own text on 2026-10-29 or 2026-10-30.
+# Not collected: the Department of Transportation's current value of a statistical life (its site refused every fetch).
+jurisdiction = "United States (federal)"
+edition = "2026-10-29"
+
+[discount_rate]
+rates = [0.03, 0.07]
+unit = "real rate per year"
+document = "OMB Circular A-4 (17 September 2003), reinstated by OMB Memorandum M-25-15 (12 February 2025), which revoked the 2023 revision"
+url = "https://obamawhitehouse.archives.gov/omb/circulars_a004_a-4/"
+quote = "For regulatory analysis, you should provide estimates of net benefits using both 3 percent and 7 percent."
+reinstatement_url = "https://www.whitehouse.gov/wp-content/uploads/2025/03/M-25-15-Recission-and-Reinstatement-of-Circular-A-4.pdf"
+reinstatement_quote = "I revoke Office of Management and Budget Circular A-4 of November 9, 2023 (Regulatory Analysis), and all accompanying appendices, guidelines, and documents. I reinstate Office of Management and Budget Circular A-4 of September 17, 2003"
+licence = "US government work (17 U.S.C. 105); no licence stated in the documents"
+
+[value_of_statistical_life]
+value = 14100000
+low = 6600000
+high = 21500000
+unit = "USD 2025 per statistical life, for risk changes in 2026"
+document = "HHS ASPE, Standard Values for Regulatory Analysis, 2026 (10 March 2026), Table 1"
+url = "https://aspe.hhs.gov/sites/default/files/documents/2d83af5823915d81871334ee08ad03d9/Standard-RIA-Values-2026.pdf"
+quote = "For mortality risk changes occurring in 2026, we adopt $6.6 million, $14.1 million, and $21.5 million for the low, central, and high estimates of VSL, respectively."
+growth = "real growth of 1.117% a year with income elasticity 1.0, as the same document states"
+licence = "US government work (17 U.S.C. 105); no licence stated in the document"
+
+[value_of_statistical_life_year]
+value_at_3_percent = 611000
+value_at_7_percent = 1030000
+unit = "USD 2025 per life-year, for 2026"
+document = "HHS ASPE, Standard Values for Regulatory Analysis, 2026, Table 3"
+url = "https://aspe.hhs.gov/sites/default/files/documents/2d83af5823915d81871334ee08ad03d9/Standard-RIA-Values-2026.pdf"
+quote = "we adopt $611,000 as the central estimate of VSLY for analyses using a 3% discount rate, and $1,030,000 for analyses using a 7% discount rate."
+licence = "US government work (17 U.S.C. 105); no licence stated in the document"
+
+[value_of_statistical_life_epa]
+value = 7400000
+unit = "USD 2006 per statistical life, updated to the year of the analysis"
+document = "US EPA, Mortality Risk Valuation"
+url = "https://www.epa.gov/environmental-economics/mortality-risk-valuation"
+quote = "EPA recommends that the central estimate of $7.4 million ($2006), updated to the year of the analysis, be used"
+note = "Whether EPA has since replaced this figure was not established."
+licence = "US government work (17 U.S.C. 105)"
+
+[consumer_price_index]
+series = "CUUR0000SA0"
+label = "CPI for All Urban Consumers (CPI-U), all items, US city average, not seasonally adjusted"
+document = "named in HHS ASPE, Standard Values for Regulatory Analysis, 2026, footnote 8"
+quote = "Consumer Price Index for All Urban Consumers (CPI-U), Not Seasonally Adjusted. Series ID: CUUR0000SA0."
+note = "Annual averages (period M13), read from the BLS public API on 2026-10-30 (https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0, annualaverage=true)."
+annual_average = { 2003 = 184.0, 2007 = 207.342, 2023 = 304.702, 2024 = 313.689, 2025 = 321.943 }
+annual_average_note = "2003 added 2026-10-30 from the same API."
+url = "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0"
+licence = "US government work (17 U.S.C. 105); no licence stated by the source"
+unit = "index, 1982-84 = 100"

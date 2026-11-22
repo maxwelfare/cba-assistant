@@ -1,0 +1,12 @@
+{
+ "key": "schwabish_2020_tables",
+ "citation": "Schwabish JA (2020). Ten guidelines for better tables. Journal of Benefit-Cost Analysis 11(2):151-178.",
+ "doi": "10.1017/bca.2020.11",
+ "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/74C6FD9FEB12038A52A95B9FBCA05A12/S2194588820000111a.pdf/div-class-title-ten-guidelines-for-better-tables-div.pdf",
+ "media_type": "text/html",
+ "sha256": "9abf7a6aff1ec21829bbe21ee03e6e851042decb9ae3dbf1fb2aa35a9c0dbe10",
+ "licence": "not stated",
+ "fetched": "2026-11-12T15:51:13Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.cambridge.org/core/services/aop-cambridge-core/content/view/74C6FD9FEB12038A52A95B9FBCA05A12/S2194588820000111a.pdf/div-class-title-ten-guidelines-for-better-tables-div.pdf"
+}

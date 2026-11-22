@@ -1,0 +1,12 @@
+{
+ "key": "koeller_2003_dual_flush",
+ "citation": "Koeller J (2003). Dual-flush toilet fixtures: field studies and water savings. Koeller and Company.",
+ "doi": null,
+ "url": "https://www.builditsolar.com/Projects/Water/Dual-Flush%2520Fixture%2520Studies.pdf",
+ "media_type": "application/pdf",
+ "sha256": "cb4028b21201140939a776efd324fa90a179dbe073fc19025a70f6298eb7ebdc",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:41Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.builditsolar.com/Projects/Water/Dual-Flush%2520Fixture%2520Studies.pdf"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "seaborn_home",
+ "citation": "Waskom M. seaborn: statistical data visualization (home page), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://seaborn.pydata.org/",
+ "media_type": "text/html",
+ "sha256": "3d331176015fa1732516809dc2d572abd3925561467dd0527124518626ac266c",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:55Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://seaborn.pydata.org/"
+}

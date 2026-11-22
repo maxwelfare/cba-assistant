@@ -1,0 +1,11 @@
+{
+ "key": "mideplan_2024_guia_general_perfil",
+ "citation": "Ministerio de Planificación Nacional y Política Económica (MIDEPLAN), Área de Inversiones (2024-07). Guía Metodológica General para la Identificación, Formulación y Evaluación de Proyectos de Inversión Pública: Perfil del Proyecto. San José: MIDEPLAN. ISBN 978-9977-73-367-8. 149 p.",
+ "doi": null,
+ "url": "https://pani.go.cr/wp-content/uploads/2026/01/Guia-Metodologica-General-para-la-identificacion-formulacion-y-Evaluacion-de-proyectos-de-Inversion-Publica-Perfil-del-Proyecto.pdf",
+ "media_type": "application/pdf",
+ "sha256": "6080af4168d14c1fb344e732620bb63f2e8d72bbbdf06452925d1acc6f362661",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:30Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, not -layout). Copy republished by PANI (pani.go.cr); mideplan.go.cr answered 403 Cloudflare."
+}

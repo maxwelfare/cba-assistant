@@ -1,0 +1,12 @@
+{
+ "key": "saltelli_2019_why",
+ "citation": "Saltelli A, Aleksankina K, Becker W, Fennell P, Ferretti F, Holst N, Li S, Wu Q (2019). Why so many published sensitivity analyses are false: a systematic review of sensitivity analysis practices. Environmental Modelling & Software 114:29-39 (arXiv:1711.11359).",
+ "doi": "10.1016/j.envsoft.2019.01.012",
+ "url": "https://arxiv.org/pdf/1711.11359",
+ "media_type": "application/pdf",
+ "sha256": "7937bc3b5efa1e675fc3c75e6cf8832c8bdbc832f8b2a3a50c8b5dd5f6564c02",
+ "licence": "arXiv preprint; published version CC BY",
+ "fetched": "2026-11-12T15:47:59Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/1711.11359"
+}

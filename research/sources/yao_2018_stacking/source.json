@@ -1,0 +1,11 @@
+{
+ "key": "yao_2018_stacking",
+ "citation": "Yao Y, Vehtari A, Simpson D, Gelman A (2018). Using stacking to average Bayesian predictive distributions (with discussion). Bayesian Analysis 13(3):917-1007.",
+ "doi": "10.1214/17-BA1091",
+ "url": "https://arxiv.org/pdf/1704.02030v3",
+ "media_type": "application/pdf",
+ "sha256": "d7296a69864fd0e8d6891dac527e79107314179a8e4e0e010b2b6c7407aca5bf",
+ "licence": "arXiv preprint v3 (16 September 2017); licence as arXiv lists it",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext -layout original.pdf text.txt"
+}

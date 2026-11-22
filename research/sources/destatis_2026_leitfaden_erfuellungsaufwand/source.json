@@ -1,0 +1,11 @@
+{
+ "key": "destatis_2026_leitfaden_erfuellungsaufwand",
+ "citation": "Statistisches Bundesamt, im Auftrag der Bundesregierung und des Nationalen Normenkontrollrates (Februar 2026). Leitfaden zur Ermittlung und Darstellung des Erfüllungsaufwands in Regelungsvorhaben der Bundesregierung.",
+ "doi": null,
+ "url": "https://plattform.egesetzgebung.bund.de/egesetzgebung-platform-backend/arbeitshilfen/download/29",
+ "media_type": "application/pdf",
+ "sha256": "924b56ec1e64b472d0ef03fd942ec6b592e6a3d38676e1438209cfd693945e5d",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

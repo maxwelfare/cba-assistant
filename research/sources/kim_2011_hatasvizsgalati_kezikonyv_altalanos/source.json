@@ -1,0 +1,11 @@
+{
+  "key": "kim_2011_hatasvizsgalati_kezikonyv_altalanos",
+  "citation": "Hatásvizsgálati kézikönyv és hatásvizsgálati lap általános bemutatása (Kaposi, Sinka, Zoltai-Menyhárt, KIM; ECOSTAT)",
+  "doi": null,
+  "url": "https://hatasvizsgalat.kormany.hu/download/4/48/20000/altalanos.pdf",
+  "media_type": "application/pdf",
+  "sha256": "bf9cd907a04bbe98cf22dbe543226bd9520dc6a21809f12e0f456f1fb0ed9c14",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:50Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

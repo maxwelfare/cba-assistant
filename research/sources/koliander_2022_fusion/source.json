@@ -1,0 +1,11 @@
+{
+ "key": "koliander_2022_fusion",
+ "citation": "Koliander G, El-Laham Y, Djuric PM, Hlawatsch F (2022). Fusion of probability density functions. Proceedings of the IEEE 110(4):404-453.",
+ "doi": "10.1109/JPROC.2022.3154399",
+ "url": "https://arxiv.org/pdf/2202.11633v1",
+ "media_type": "application/pdf",
+ "sha256": "c73fb89a355c44ea8621b32ee5ec9f070c65607744fd466373e098ca0432efad",
+ "licence": "arXiv preprint v1 (23 February 2022); licence as arXiv lists it",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext original.pdf text.txt"
+}

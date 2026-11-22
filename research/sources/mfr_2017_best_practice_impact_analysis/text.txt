@@ -1,0 +1,1018 @@
+Guidance Note
+Best Practice Impact Analysis
+
+June 2017
+
+© Crown Copyright
+This work is licensed under the Creative Commons Attribution 4.0 International licence.
+In essence, you are free to copy, distribute and adapt the work, as long as you attribute
+the work to the Crown and abide by the other licence terms.
+To view a copy of this licence, visit https://creativecommons.org/licenses/by/4.0/. Please note that no
+departmental or governmental emblem, logo or Coat of Arms may be used in any way which infringes
+any provision of the Flags, Emblems, and Names Protection Act 1981. Attribution to the Crown should be
+in written form and not by reproduction of any such emblem, logo or Coat of Arms.
+
+ISBN: 978-1-98-853422-0 (Online)
+The Treasury URL at June 2017 for this document is
+http://www.treasury.govt.nz/regulation/impact-analysis
+
+Contents
+Introduction ............................................................................................................................1
+1.
+
+The purpose of Impact Analysis ......................................................................................2
+
+2.
+
+The Impact Analysis Framework......................................................................................3
+2.1. Describe the status quo (or counter factual)..............................................................4
+2.2. Define the problem and assess its magnitude...........................................................6
+2.3. Define the objectives ................................................................................................8
+2.4. Identify the full range of feasible options ...................................................................9
+2.5. Analyse the options ................................................................................................12
+2.6. Consultation............................................................................................................17
+2.7. Conclusions and recommendations ........................................................................ 19
+2.8. Implementation .......................................................................................................21
+2.9. Monitoring, evaluation and review ........................................................................... 24
+
+Guidance Note: Best Practice Impact Analysis | i
+
+Introduction
+This Guidance Note describes the key elements of the Impact Analysis Framework. These
+elements should underlie the development all government policy initiatives which involve
+proposals to create, amend or repeal primary or secondary legislation (a ‘government
+regulatory proposal’). This is an interim product.
+The material in this document has been adapted from the former Regulatory Impact Analysis
+Handbook. That Handbook was written in 2013 and there are practices and methods that we
+can improve on. Treasury will work in partnership with the Head of Policy Profession’s Policy
+Project and with regulatory system stewards to improve our practice advice, and in due
+course replace this Guidance Note and the Consultation for Impact Analysis Guidance Note.
+Input and feedback from your agency is also welcome.
+
+Further information
+The formal requirements for all government regulatory proposals are set out in the Cabinet
+Office circular: CO(17)3: Impact Analysis Requirements available at
+dpmc.govt.nz/publications/co-17-3-impact-analysis-requirements: There is further guidance
+in the revised Cabinet Manual, available at dpmc.govt.nz/our-business-units/cabinetoffice/supporting-work-cabinet/cabinet-manual.
+The Guide to Cabinet’s Impact Analysis Requirements provides guidance on how to meet the
+formal requirements for regulatory proposals. The Guidance Note on Effective Consultation
+for Impact Analysis also provides useful guidance on the policy development of regulatory
+proposals. Both are available on Treasury’s Regulation webpage
+(treasury.govt.nz/regulation/impact-analysis).
+
+Guidance Note: Best Practice Impact Analysis | 1
+
+1. The Purpose of Impact Analysis
+The purpose of Impact Analysis is to help achieve a high quality regulatory environment by
+ensuring that regulatory proposals are subject to careful and robust analysis. Impact Analysis
+is intended to provide assurance about whether problems might be adequately addressed
+through private or non-regulatory arrangements—and to ensure that particular regulatory
+solutions have been demonstrated to enhance the public interest.
+The results of your Impact Analysis should be summarised in a Regulatory Impact
+Assessment and provided to Cabinet when seeking policy approvals. This is a government
+agency document which summaries an agency’s best advice on the Impact Analysis relating
+to a government regulatory proposal.
+Impact Analysis summarised in a Regulatory Impact Assessment (or RIA) can serve two
+benefits:
+• Enhancing the evidence-base to inform decisions about regulatory proposals—to
+ensure that all practical options for addressing the problem have been considered and
+that the benefits of the preferred option not only exceed the costs but will deliver the
+highest level of net benefit, and
+• Transparency—the presentation of agencies’ free and frank advice to decision-makers at
+the relevant decision points provides reassurance that the interests of all sectors of the
+New Zealand public have been considered. Impact Analysis also aims to encourage the
+public to provide information to enhance the quality of regulatory decisions, to further
+inform the evidence-base.
+
+2 | Guidance Note: Best Practice Impact Analysis
+
+2. The Impact Analysis Framework
+The following guidance is detailed because Impact Analysis is expected to deal with various
+policy problems and a ‘one-size-fits-all’ approach is not possible. Good Impact Analysis is
+essentially just robust policy development within a transparent framework, so several factors
+will be relevant to particular regulatory proposals. The detail in this guidance should not
+suggest that a resulting Regulatory Impact Assessment (as a summary of the Impact
+Analysis) should be lengthy and overly detailed.
+
+Guidance Note: Best Practice Impact Analysis | 3
+
+2.1. Describe the status quo (or counter-factual)
+Impact Analysis involves assessing one or more policy options against the situation expected
+to occur in the absence of any further government action or decisions (the status quo).
+The description of the status quo should cover the following key features of the current
+situation.
+
+Features of the market or relevant social arrangements
+The description of the status quo should include consideration of the relevant prevailing
+market conditions or social arrangements. This may, for example, include expected demand
+and supply trends, and other features or characteristics such as relevant market participants
+or agents. This means identifying the producers, suppliers, retailers, consumers,
+beneficiaries, regulators, any other interested parties, and describing their interests.
+Impact Analysis needs to be forward-looking in order to assess alternative options for dealing
+with a problem over time. It is therefore useful to identify how the status quo is likely to
+change over time without further intervention—rather than simply providing a static snapshot.
+
+Existing legislation/regulations
+The status quo should describe any existing legislation/regulations, or other relevant
+government interventions or programmes that are in place.
+If there are non-regulatory, self-regulatory, or co-regulatory arrangements in place, these
+also form part of the status quo. The description should be detailed enough to enable an
+interested (but non-expert) member of the public to understand:
+• who are the relevant parties and institutions—both public and private, regulators and
+regulatees, quasi-governmental, unions or clubs, and charitable organisations, etc
+• what are the different incentives and observed behaviours of those parties and
+institutions, and
+• what are the tools or resources those parties and institutions currently have available.
+
+Any relevant decisions that have already been taken
+Any relevant decisions that have already been taken should also be taken into account,
+including decisions that have been agreed by Cabinet but for which the legislation has not
+yet been passed.
+If Cabinet has previously considered a proposal, for instance by directing or limiting scope for
+officials starting work on an issue which is in its early stages, prior decisions should be
+described in the status quo of the Regulatory Impact Assessment. Previous related
+Regulatory Impact Assessments should be briefly summarised and referenced so that the
+public can follow the overall Impact Analysis.
+
+4 | Guidance Note: Best Practice Impact Analysis
+
+Confidence and supply agreements
+Confidence and Supply agreements generally commit to specific policy options to achieve
+set objectives. These commitments are outside the Cabinet decision making process.
+The analysis undertaken by Agencies in these situations usually focuses on design and
+implementation issues for the stipulated option. However, the Regulatory Impact Assessment
+should at a minimum include information on:
+• the merits of the policy objectives (if any) sought to be achieved by the specific
+commitment in the confidence and supply agreement
+• the nature of the policy problem that is being addressed, and
+• any alternative options for achieving the objectives / solving the problem that were not
+considered because of directions as to the scope of the policy process, and whether any
+of them might better achieve the objectives / solve the problem.
+In some circumstances a full analysis will be both feasible and desirable—and may already
+have been undertaken by the Agency. In such cases, and where the issues at stake are
+significant, the Regulatory Impact Assessment should include the full analysis. The
+Regulatory Quality Team should be consulted where there is any doubt about the Regulatory
+Impact Assessment to be prepared in these circumstances.
+
+Guidance Note: Best Practice Impact Analysis | 5
+
+2.2. Define the problem and assess its magnitude
+Impact Analysis requires a problem to be identified. Having described the status quo, the
+next task is to assess the nature and size of the problem associated with the expected
+outcomes in the absence of any further government action. A good problem definition will
+explain the gap between the current situation (what officials expect to be the status quo
+projected over the period of analysis) and the outcome that the agency is aiming for (as
+described in the objectives). Problems should be couched in terms of public interest, broadly
+considered.
+A problem definition will be the prima facie case for regulatory intervention and the reason for
+discussing options. The problem should be able to be summarised in a pithy sentence.
+
+Size of the problem
+The problem definition needs to do more than identify the gap between status quo and
+objectives: it should discuss its size and importance. This involves identifying the costs and
+benefits of the current arrangements, including:
+• the nature and probability of the adverse outcome/s that will arise in the absence of further
+government intervention (in addition to the interventions already in place), and
+• who is likely to be affected by the adverse outcome, including how widespread it is likely
+to be (ie, how many individuals, groups, firms etc. are affected), what harm or injury is
+likely to occur, and the magnitude of these impacts.
+Not everything can or should be valued in monetary terms, but quantification should occur to
+the extent possible. For example, if the problem is related to economic efficiency, how much
+is at stake? If equity-related, what is the current distribution of costs and benefits? If an
+environmental problem, what is the potential effect of not acting and what are the overall
+costs? This quantification should include aggregate figures (totals) to help put the issue in a
+wider perspective.
+
+Distinguish between causes and symptoms of problems
+The next step is to identify the root cause of the problem (not just the symptoms), for
+example market failure, regulatory failure, unacceptable hazard or risks, social goals/equity
+issues. Detail should be provided as to the nature of the problem—for example, if the market
+failure is a result of information asymmetries, the problem definition needs to identify who is
+unable to access what information and how their behaviour results in evidence of a problem.
+The reason why the problem will not be addressed within existing arrangements or by private
+arrangements (such as individual contracts, market forces etc.) should be explained. If the
+problem relates to existing legislation or regulation, it should be made clear whether the
+problem is in relation to its design or its implementation, or both.
+In practice, the status quo and problem may be inter-related and considered or discussed
+together. For instance, the problem may be best expressed by describing how policy
+objectives are not being met. However, the key elements of both should be addressed.
+
+6 | Guidance Note: Best Practice Impact Analysis
+
+Identifying and diagnosing problems
+Voluntary arrangements between parties are often the best way to promote the long-term
+interests of consumers, employees, entrepreneurs, investors, government and wider society.
+However, there are circumstances when voluntary transacting can fail. Good problem
+definition requires an understanding of the failures that can arise from voluntary transacting,
+and self- or co-regulatory initiatives, and government regulatory arrangements:
+Imperfect competition—where one or more party is able to control a market for their own
+benefit at the expense of consumers or other firms.
+Information problems—where one party to a transaction does not have the information
+needed to act in their best interests. In extreme circumstances this can lead to significant
+costs to many parties and the market being under-developed because of a lack of trust.
+Externalities (spill-overs)—where costs or benefits fall on people other than those who
+consume the good or service. This can lead to the over- or under-provision of the good or
+service, and
+Public and mixed goods—where a good or service is:
+• under-supplied, because it cannot be charged for
+• under-consumed, because consumers are being directly charged but their consumption is
+not incurring extra costs, (ie, it non-rivalrous), or
+• over-consumed, because there is free access to the resource but consumption still
+imposes costs.
+Lack of clear property rights—unclear, ill-defined, or poorly designed property rights can
+mean that parties do not bear the consequences or receive the rewards that result from their
+actions.
+Self- or co-regulatory arrangements can go some way to correcting these failures, but there
+are risks that other problems are created. The regulatory body might be captured to promote
+the interests of its members at the expense of the public (rent-seeking), in particular where
+members have strong market power. Such arrangements may lack legitimacy and credibility
+(thereby undermining effectiveness), or lack the capability and capacity to deal effectively
+with new or emerging problems.
+The problem may relate to current regulation and previous attempts to manage risks. The
+government can fail where it lacks the capability or information, or has poor incentives to do
+a better job than voluntary and self- or co-regulatory arrangements. As well as each of the
+above problems, direct regulation can risk leading to further problems with:
+Unintended consequences—by inducing behaviour or providing incentives that do not
+improve welfare
+Inefficient regulatory enforcement—in the absence of market pressures, there may be a
+risk of institutional failure. For example, regulatory activity might not reflect the current
+preferences or risk-tolerances of the public
+
+Guidance Note: Best Practice Impact Analysis | 7
+
+Moral hazard—making the market less responsive to competitive pressure by giving an
+implicit guarantee of government support or protecting incumbents from competition
+Crowding-out—a reduction in private economic activity due to complying with regulation
+Rent seeking behaviour—government involvement can open the door to political lobbying
+to be given a share of wealth that has already been created. As with crowding-out, this
+activity distracts from creating new wealth.
+
+2.3. Define the objectives
+The objectives should summarise the Government’s policy intentions, but also inform how
+any potential regulatory solution will be evaluated for effectiveness.
+The objectives, outcomes, goals or targets that are sought in relation to the identified
+problem should be described. These may be a restatement of the current policy objectives if
+they are relevant to the status quo, or they may be particular to the problem identified in the
+previous section—it is important to state the objectives of any current policy arrangements
+and whether those objectives have changed as a result of identifying a problem. If there is an
+authoritative or statutory basis for undertaking the analysis eg, legislative requirement to
+annually review an item of regulation, this should be explained.
+The objectives should be clear and should not pre-justify a particular solution. They should
+be specified broadly enough to allow consideration of all relevant alternative solutions. It may
+be appropriate to distinguish between primary and subsidiary objectives. The objectives
+should focus on the desired final outcome rather than the means of achieving it, but should
+allow the consideration of all feasible alternative options. If they do not, the objectives are
+likely to be too narrow.
+There is usually more than one policy objective, meaning there may be potential for conflict
+between objectives. Balancing objectives may reflect that regulating is not costless, or that
+there are multiple outcomes expected by society. It should be clear how trade-offs between
+competing objectives are going to be made and the weightings given to objectives—not just
+those in direct conflict. The Treasury’s Living Standards Framework provides one example of
+how to think about trade-offs and how to incorporate social aims into regulatory objectives1.
+There may also be a hierarchy of objectives, particularly when the desired high-level policy
+outcomes cannot be directly measured. More specific assessment criteria and observable
+targets should be used to measure progress towards achieving policy objectives. If the
+outcomes are subject to constraints, for example if they must be achieved within a certain
+time period or budget, then these should be clearly specified in the statement of objectives.
+Stating the objectives should also provide scope for the subsequent impact analysis. What
+questions will officials be asking themselves (and what information will Ministers need) when
+ranking options?
+
+1
+
+The Treasury’s Living Standards Framework can be found online at:
+http://www.treasury.govt.nz/abouttreasury/higherlivingstandards
+
+8 | Guidance Note: Best Practice Impact Analysis
+
+2.4. Identify the full range of feasible options
+Identify the full range of policy options that may fully or partially achieve the stated objectives
+and thereby address the identified problem. This should include both regulatory and nonregulatory options. Within regulatory options, a representative and pertinent spectrum of
+viable regulatory forms should be considered.
+If the range of options has been previously limited by Cabinet or by specific Ministers, this
+should be made clear as part of describing the status quo.
+If the range of feasible options for responding to an identified problem has been restricted
+without a formal Cabinet decision, the reasoning behind this direction should be explained by
+setting out the policy objectives in the Regulatory Impact Assessment. Where policy work
+has been limited without detailed analysis, the agency may need to outline the implications of
+this in the Regulatory Impact Assessment.
+It is not always possible to analyse every possible combination or permutation of policy tools
+within options–there might be an infinite range of options. Unless past decisions limit the set
+of options that can be considered, Impact Analysis should identify and describe:
+• the status quo scenario projected forward—where no further regulatory changes occur
+(behaviour may still be expected to change over time)
+• one or more non-regulatory options (eg, education, industry self-regulation)
+• one or more regulatory options, and
+• what would happen without regulation or government intervention (if different from the
+status quo).
+If deliberately excluding feasible options, or options that affected parties are likely to think are
+feasible, the Impact Analysis (and subsequent Regulatory Impact Assessment) should
+explain why. If these exclusions or restrictions would lead to any shortcomings in the
+analysis, or increase the risks or making the decision, this should be noted in the relevant
+part of the template of the subsequent Regulatory Impact Assessment.
+
+Guidance Note: Best Practice Impact Analysis | 9
+
+Regulatory alternatives
+A variety of regulatory and non-regulatory instruments are available to achieve the
+government’s objectives. Selecting the right instrument will depend on the problem to be
+addressed and the overall policy objective.
+
+Non-regulatory options include education campaigns and subsidies. These options seek to
+influence individual preferences but do not guarantee that changes in behaviour will occur.
+Examples include:
+•
+
+drink-driving advertising campaigns that seek to reduce drink driving rates, and
+
+•
+
+home insulation subsidies that seek to encourage home insulation improvements.
+
+Self-regulation options can be used where a group can exert control over its membership, for
+example an industry body regulating its members. This can include standards used by industry
+members, for example the Advertising Standards Authority’s Code for Advertising to Children, or
+establish a consumer complaints mechanism, for example the Insurance and Savings
+Ombudsman.
+The government may also use co-regulatory options, which combine elements of self-regulation
+and government regulation. Co-regulation involves government oversight or ratification of selfregulatory instruments.
+Alternatively, the government can directly control outcomes through regulation. For example,
+occupational licensing could be introduced where only licensed individuals are able to perform
+particular tasks, such as builders. Or, individuals could be required to be licensed before they are
+able to work in a particular profession, such as working as a physiotherapist.
+Mandatory standards and codes could be introduced to control the outcome or process used.
+Performance based standards and codes specify the outcome that is to be achieved. In contrast,
+prescriptive-based standards and codes specify the technical detail around how the outcome is to
+be achieved. For example, if the government wished to improve vehicle safety it could introduce a
+standard that drivers must have a 90% survival rate in a head on crash at 50 km/h (performance
+based). Alternatively, the standard could require that cars have seatbelts and front and side airbags
+(prescription).
+Regulatory options can also seek to influence behaviour, such as making information disclosure
+mandatory (eg, nutritional information on food packaging). This does not require consumers to
+make healthy food decisions but provides more information to assist their decision making.
+
+10 | Guidance Note: Best Practice Impact Analysis
+
+Alternatively, the government can regulate more directly, by prohibiting certain conduct or actions.
+Drink driving offences are an example of this, where driving with over 80 milligrams of alcohol for
+every 100mls of blood is prohibited.
+In many cases, there will not be one answer and a number of instruments used in conjunction may
+be the most effective way of addressing the problem. For example, education campaigns can be
+used to increase compliance with legal requirements such as the blood alcohol limits while driving.
+
+Levels of analysis
+Generally speaking, the level of analysis undertaken (detail and depth) should be
+commensurate with the magnitude of the problem and the size of the potential impacts of the
+options being considered. There is often judgment required to determine how much analysis
+is appropriate in particular circumstances and the Regulatory Quality Team can provide
+advice on this.
+Sometimes it is appropriate to narrow down the initial range of options, and undertake
+comprehensive analysis on a more limited set of options, as this enables analytical resources
+to be focused on those options most likely to deliver net benefits2. In these circumstances,
+the objectives against which the full range of options was assessed should be explained, and
+the way they were applied made explicit (eg, if any objectives were weighted more highly
+than others). An example of this process is where a multi-criteria analysis3 is employed to
+narrow down the set of options subject to full cost benefit analysis. Initial options may also be
+narrowed down through early consultation processes.
+New regulation should not conflict with or duplicate existing legislation or regulations. It is
+therefore also important to consider how a regulatory option will interact with the stock of
+regulation, including whether there is scope to reduce or remove any existing regulations.
+
+2
+
+If there is a preferred option, the greatest effort should go towards analysing this, and the second-most
+preferred option.
+
+3
+
+Multi-criteria analysis is a way of appraising and ranking policy options against a given set of objectives or
+criteria. It is not an alternative to cost benefit analysis since it evaluates options’ likely effectiveness in
+achieving the objectives—rather than the overall efficiency from a New Zealand net-public benefits
+perspective.
+
+Guidance Note: Best Practice Impact Analysis | 11
+
+2.5. Analyse the options
+Having identified the full range of feasible options, the next step is to analyse the costs,
+benefits and risks of each option. The analysis needs to show how each option would alter
+the status quo, which option is likely to be the most effective for solving the problem, and
+which option has the highest net-benefit.
+Options analysis should be the fundamental concern of any decision about whether to
+regulate and in what way. All options analysis must aim to answer:
+• How does the option broadly measure up against the objectives? Answering this question
+may require a full impact analysis of each option.
+• What is the net impact (or net benefit or cost) of taking any of the available options?
+• What are the distributional implications of the options being considered? Options analysis
+requires evidence and analysis of who wins and who loses—and by how much.
+The options analysis should structure the analysis on the different elements of the problem.
+This may require identifying the particular decision-points and different policy tools within an
+option that might address discrete elements of the broader problem. This requires an
+appropriate framework for analysis.
+Where the problem is related to particular risks, these should have been clearly identified.
+The options should describe how those risks would be:
+• voluntarily accepted by those bearing the consequences of any risk, eg, requiring
+participants to sign waivers of liability
+• transferred to other parties, eg, making certain parties liable for consequences of their
+actions (such as advice to uninformed clients)
+• mitigated (reduced in likelihood or consequence), eg, by mandating safety equipment to
+minimise the injuries that could be sustained, or
+• avoided, eg, prohibiting the activity which could lead to the risk.
+
+Identify the full range of impacts
+This stage involves identifying the full range of impacts, and providing a qualitative
+description or explanation.
+Impacts can be positive or negative (ie, include both costs and benefits), and include
+economic, fiscal, compliance, social, environmental and cultural impacts. They include direct
+and indirect (flow-on) effects; one-off and recurring or on-going impacts. Impact Analysis
+needs to identify whether an option would increase or decrease the net-benefit to society
+compared with the status quo.
+
+12 | Guidance Note: Best Practice Impact Analysis
+
+Discrete impacts should be separately described and accounted for:
+• Economic impacts include the dynamic effects on overall welfare and reflect changes to
+overall production and consumption. They are relevant to gauging overall efficiency by
+considering whether the behaviour of consumers, business, and the community might be:
+a) Altered positively to achieve the objectives or create other net-benefits to society, or
+b) Distorted with negative consequences—creating opportunity costs. Welfare losses can
+arise from regulation which impairs competition, stifles innovation, artificially constrains
+pricing or valuation decisions, or generally restrains the economic activity of individuals
+and firms (eg, by distracting people from more productive endeavours).
+• Fiscal costs are borne by public agencies (and ultimately, the taxpayer) in administering
+the regulation or law. They include the costs of implementation, formulating standards,
+monitoring and enforcing compliance, and adjudicating disputes or administering appeals.
+• Compliance costs are the direct costs that regulated parties will face in order to comply
+with regulatory options. They include the cost of collecting and reporting information,
+equipment purchases and the development of new processes and reporting systems.
+Compliance costs are usually the most prominent and identifiable impacts. However, while
+they may affect individual or group behaviour, compliance costs may be less significant from
+a net economic benefit (society-wide) point of view. Cost estimates in options analysis are
+likely to be subject to assumptions about how regulatory options might be implemented or
+how businesses might choose to comply.
+Consideration should be given to ways in which costs, particularly compliance costs, may be
+reduced or minimised. There may be trade-offs between compliance costs and the
+administrative costs to government—these should be explicitly identified. For instance,
+greater flexibility in the ways regulated parties could comply with regulatory requirements
+may minimise their costs, but may increase the costs of administering the regulation. The key
+informational requirements are set out in the following box. Key informational requirements
+for identifying compliance impacts
+The specific costs on regulated and third parties should be separately identified from fiscal and
+wider economic impacts of regulation and should be tested with affected parties through
+consultation. Impact Analysis aims to make agency assessments of compliance cost impacts more
+transparent by identifying:
+
+One-off costs, such as acquiring sufficient knowledge to meet the regulatory obligations,
+retooling production processes, purchasing or leasing additional equipment and buildings,
+legal/consultancy fees and training expenses.
+Recurring and ongoing costs, such as staff costs or time, consumable materials, inspection
+fees/licences, costs imposed by enforcement processes, form filing (that is, costs arising
+from the need to devote additional time and resources to satisfying regulatory requirements).
+The parties likely to be affected. If the costs will be borne by businesses, the sector and sizes
+of firms should be identified to give an indication of magnitude.
+
+Guidance Note: Best Practice Impact Analysis | 13
+
+An assessment of the risks or uncertainties associated with cost estimates.
+Overlapping compliance requirements with other agencies or regulatory regimes. It may be
+possible to design compliance processes so that information is shared between two related
+compliance processes.
+
+Analyse the incidence of impacts
+The incidence of the impacts of each option also needs to be assessed, that is, what would
+happen as a result of each option and who would be affected. While it may be appropriate to
+consider ‘who’ before ‘what’ or ‘how’, both the impacts and their incidence should be
+identified before the individual impacts are valued to determine net-benefits.
+The different types of people and groups relevant to the analysis will vary depending on the
+options being considered. They may include:
+• individuals, families and/or households
+• consumers
+• employees (including relevant contractors and sub-contractors)
+• businesses (including those upstream and downstream in the supply chain)
+• people who live in particular regions
+• members of particular groups of the population (ie, ethnicities, genders, age groups etc)
+• users of resources eg, recreational fishers, road-users
+• not-for-profit organisations (including charities, voluntary organisations and incorporated
+societies)
+• local government, and/or
+• central government agencies.
+It may be necessary to further distinguish within these groups (eg, within businesses by firm
+size or industry sector). The proportionate incidence of costs may be of particular relevance,
+eg, the impact on small businesses compared to total/average firms. The redistributive
+effects on income or wealth may also be of concern.
+Assessing the impact of options on different parties should consider the competition effects—
+this may be done explicitly in evaluating an option against a policy objective (to ‘promote
+competition’ for instance), or as part of the analysis of who bears or receives costs and
+benefits. If an option is likely to have effects on competition, the Impact Analysis should
+consider (and the Regulatory Impact Assessment should summarise) the impacts on:
+• Incumbent Firms—Will the option (eg, a proposed regulatory tool) affect companies
+differently, for example altering competitive relationships between them in a way that it will
+reduce competition in the market as a whole?
+• Entry of new firms—Will the option restrict the entry of new firms? Will it affect
+competition in the long term?
+• Prices and production—Will the option put upward pressure on prices by imposing new
+costs to producers?
+
+14 | Guidance Note: Best Practice Impact Analysis
+
+• Quality and variety of products and services—Does the option include minimum
+standards that will reduce the range of price or performance combinations in the market?
+• Market growth—Will the option affect the potential for parties, or the number of parties, to
+expand supply and meet more demand over time?
+• Related Markets—Does the option affect related markets? That is, does it have effects
+on the production line?
+
+Analyse the magnitude of impacts—and whether they are costs or benefits
+Impacts should be quantified, and expressed in dollar terms (monetised) to the extent
+practical. This requires determining the number of individuals, firms or groups affected, the
+size of the impact on each of these, and the total impacts (ie, number affected multiplied by
+the size of impact). Quantification helps examine the costs of regulation and tests the
+assumptions and judgements involved in the formulation of policy advice. Monetisation
+enables comparison of options against each other and, by providing a common analytical
+denominator it helps avoid double-counting costs and benefits.
+Quantification and monetisation is not always possible. In these cases, the costs and
+benefits should be described as fully as possible, drawing on any available qualitative
+evidence. Dollar figures should not be “invented” for their own sake.
+All assessments of costs and benefits whether quantitative or qualitative, should be based on
+evidence, with data sources and assumptions clearly identified. If, for example, qualitative
+benefits are considered to outweigh monetised costs, the basis for this judgement should be
+explained.
+Net impacts may not be easily expressed as monetary values, but the impact analysis should
+attempt to conclude what the net benefit (or cost) of each option is. Put simply, the net
+benefit (or cost) is the difference between total costs and total benefits.
+In some cases, for example where costs and benefits will occur over many years, it may be
+helpful to identify a net present value (NPV) of the various options. The NPV is the sum of
+discounted net cash-flows, ie, the present value of costs less the present value of benefits.
+These concepts and how to calculate them are explained in detail in Treasury’s Cost-Benefit
+Analysis Primer.4
+It is crucial when evaluating net-impacts of each option to avoid double-counting. Some costs
+borne by certain businesses may be passed onto consumers, but the impact considered in
+the CBA should be the first order impact on businesses, rather than the second order impact
+on consumers. The likely flow-on effect on consumers should be described separately in
+terms of transfers and distributional implications—not quantitatively added to the business
+impact. Please see Treasury’s CBA Primer for guidance on quantification.
+
+4
+
+The Cost-Benefit Analysis Primer can be found online at:
+http://www.treasury.govt.nz/publications/guidance/planning/costbenefitanalysis/primer
+
+Guidance Note: Best Practice Impact Analysis | 15
+
+Risk assessment
+Impact Analysis requires an assessment of risks alongside agencies’ conclusions about the
+relative merit and likely net benefit of the options. Some important types of risks to consider
+are set out in the Preliminary Impact and Risk Assessment template (see Annex 1.1).
+Risks should be expressed in terms of how exposed each option is to future uncertainty.
+Some form of sensitivity or scenario analysis should be presented in the Regulatory Impact
+Assessment. A qualitative description of any risks and uncertainties—particularly for
+intangible costs and benefits—should also be given.
+Risks should be identified for each of the affected parties. These might include the likelihood
+of compliance or of expected costs or benefit actually accruing. It might not be possible to
+estimate this probability with much precision—that is, there may be instances of true
+uncertainty. In that case, a risk analysis should assess the worst-case and best-case
+scenario, and comment on the likelihood of these extreme events.
+Presenting the Impact Analysis
+Separate rows or detailed descriptions in the option analysis section of the Regulatory Impact
+Assessment may be required to summarise how the different costs and benefits are borne by which
+parties. There are multiple possible tables that could be used to present the analysis, but below is
+one example:
+Party
+
+Benefits
+
+Costs
+
+Net impact
+
+Risks
+(and likely effect
+on impacts)
+
+Party 1
+
++
+
+-
+
++/-
+
+Describe
+
+Party 2
+
++
+
+-
+
++/-
+
+Describe
+
+Party 3, etc...
+
++
+
+-
+
++/-
+
+Describe
+
+Total (net NZ)
+
+Total benefits
+
+Total costs
+
+Net NZ welfare
+
+Likelihood of net impact
+
+An alternative way of presenting risks or uncertainties may include expressing net impacts as
+adjusted by a probability value. Expected values are calculated by multiplying the magnitude of an
+impact by the probability that it will actually be revealed. This may be a useful way of incorporating
+risks into the options analysis and is ideal where there is good quantitative evidence of potential
+impacts.
+Where it is difficult to be precise about probabilities, colour-coding has previously been effective to
+show how confident an Agency is about projected impacts in an options analysis table.
+The specific costs, benefits, and risks may be difficult to identify, and could be more accurately
+described as positive or negative ‘impacts’. Where this is the case, the relative effectiveness of
+alternative options may need to be assessed in terms of how parties’ behaviour might change.
+Incentive analysis is one method of comparing each option with the status quo. A simple framework
+is presented as an example below. This is another way of describing particular impacts (in this case
+behaviour)—but note that it may not be useful for capturing the total or net effects of an option.
+
+16 | Guidance Note: Best Practice Impact Analysis
+
+Incentive under Status Quo
+
+Incentive under Option 1 (etc...)
+
+Current Behaviour
+
+Likely Behaviour
+
+Why?
+
+Why?
+
+Party 1
+Party 2
+Etc…
+
+2.6. Consultation
+The purpose of consultation is to provide confidence about the workability of proposals and
+that options have been properly considered. This section covers the basic process
+requirements for consultation on Impact Analysis —see Effective Consultation (Part 3) for
+general guidance.
+To meet Cabinet’s Impact Analysis Requirements, agencies proposing new regulation must
+demonstrate consultation with affected parties on the problem definition, the range of feasible
+options, and the impacts of the options. Consultation can be inadequate for a number of
+reasons, including:
+• when affected or interested parties are not consulted (eg, not consulted at all or
+unrepresentative consultation, such as where only large organisations are consulted), and
+• when consultation processes are ineffective (eg, consulted parties not given enough time
+to respond, important issues not consulted on, consultation documents not promoted
+widely enough).
+The magnitude of the proposal, including who is likely to be affected determines who and
+how to consult—more consultation is required if the proposal has wide-reaching impacts.
+In most cases, and particularly for significant proposals, there should have been material
+consultation before the Regulatory Impact Assessment is drafted. The draft Regulatory
+Impact Assessment nevertheless provides another vital basis for consultation, both with
+affected parties and with government agencies. The Regulatory Impact Assessment format
+(which follows the Impact Analysis Framework) also provides a useful vehicle for providing
+advice to the portfolio Minister, during the course of policy development.
+The draft Regulatory Impact Assessment should therefore be circulated for comment to
+relevant government agencies. Ideally, this should be done before the Cabinet paper is
+prepared. Otherwise it must be circulated with the draft Cabinet paper. It must also be
+included with draft Cabinet papers when they are submitted to Officials’ Committees.
+
+Guidance Note: Best Practice Impact Analysis | 17
+
+Who to consult
+In addition to consultation with affected parties, a number of government agencies may need
+to be consulted, depending on the nature of the option or proposal.
+For guidance on which departments require consultation on particular issues, see this
+CabGuide section on consultation with government agencies5. It does not provide a complete
+list of consultation requirements, but is intended to assist officials in identifying the
+departments they should consult.
+For regulatory proposals, key government agencies to consult (as well as the relevant
+Treasury policy team) include the following:
+• The Ministry of Justice (MoJ) is responsible for vetting proposals for consistency with
+the New Zealand Bill of Rights Act 1990, MoJ must also be consulted on proposals that
+potentially create or alter criminal offences, sanctions, or penalties.
+• The Ministry of Foreign Affairs and Trade (MFAT) has certain obligations with respect
+to ensuring New Zealand's compliance with international agreements to which we are a
+Party. It is therefore important to consult MFAT where a regulatory proposal could affect
+New Zealand’s international obligations.
+These obligations include the Agreements of the World Trade Organisation (WTO), Closer
+Economic Relations (CER), free trade agreements, etc. Where a proposed regulation
+affects, or may affect traded goods and services, or foreign investment, the advice of the
+Ministry should be sought on whether the proposed regulation is consistent with these
+obligations. Even where proposed regulation is consistent, there may be an obligation to
+notify an international organisation or a trading partner of the proposed measures and
+allow them to comment. The usual timeframe for comments is 60 days.
+• The Ministry of Business, Innovation and Employment (MBIE) should be consulted on
+proposals that may impact on businesses, particularly those that impose compliance costs
+and direct costs. MBIE should also be consulted on regulatory proposals that have TransTasman Mutual Recognition Agreement (TTMRA) implications.
+The TTMRA is a horizontal arrangement that impacts on a wide range of non-specified
+areas and is predicated on a number of principles, including comprehensiveness (there
+should be limited exceptions) and mutual recognition principles (as opposed to
+harmonisation principles). Judgments need to be taken on a case by case basis taking
+into account both trans-Tasman and domestic factors. Judgments should also be informed
+by Cabinet’s Impact Analysis Requirements (as required by the Council of Australian
+Government (COAG) Principles and Guidelines for National Standard Setting and
+Regulatory Action).
+• For matters relating to local government, or potential regulatory options that may be
+implemented or enforced by local government agencies, please refer to the Department of
+Internal Affairs’ Guidelines for which entities to engage with directly.
+
+5
+
+http://cabguide.cabinetoffice.govt.nz/procedures/consultation
+
+18 | Guidance Note: Best Practice Impact Analysis
+
+2.7. Conclusions and recommendations
+It is crucial for Impact Analysis, and particularly for the summary of the analysis in the
+Regulatory Impact Assessment, to clearly explain what decisions are required, what choices
+are available, and what stage of the policy process the Impact Analysis reflects. Failing to
+clearly articulate the difference between the status quo and the outcome that is being
+presented via the Cabinet recommendations (either the preferred option or any of the
+alternatives) will limit the transparency of the Impact Analysis.
+There are various ways of summarising and presenting the outcomes of options analysis.
+Summary information to convey includes:
+• For each option, a summary of the main costs, benefits and risks and overall (net)
+impacts, in relation to the status quo. This should include aggregates (eg, economy-wide
+totals).
+• Key assumptions underlying estimates of net benefits. For example, the assumptions
+around expected compliance rates.
+The usual methods of presenting convincing options analysis in a Regulatory Impact
+Assessment to meet Cabinet’s Impact Analysis Requirements include:
+• cost-benefit analysis (CBA) if feasible—an assessment of net-benefits including
+quantitatively, and if necessary qualitatively, estimated impacts (see Treasury’s CostBenefit Analysis Primer)
+• cost-effectiveness analysis, if feasible—to determine the least cost method of achieving a
+policy objective or standard, and
+• incentive analysis—if an option’s design is intended to change the behaviour of certain
+groups.
+Any conclusions regarding the impacts of different options should ideally be expressed in
+terms of net present values (NPVs) over a reasonable time-horizon. Any weighting of risks
+should also be made explicit. That is, it should be made clear how trade-offs have been
+made (eg, between a high-risk/low cost option, and a low-risk/high cost option).
+The OECD Introductory Handbook for Undertaking RIA contains greater detail about these
+methods6. In each case, the aim is to compare the likely situation under the status quo with
+each option and conclude which option is preferred according to the objectives and a
+judgement about net-benefits. While there should be enough impact analysis to be able to
+compare options, a greater level of effort should go into analysing the impacts of the
+preferred option and the recommendation in the Cabinet paper (which may be different).
+It is unlikely that a Regulatory Impact Assessment or discussion document can meet
+Cabinet’s Impact Analysis Requirements if no clear methodology for assessing options has
+been explained, or if the analysis has not been articulated convincingly to inform decisions.
+
+6
+
+Available online at: http://www.oecd.org/gov/regulatory-policy/44789472.pdf
+
+Guidance Note: Best Practice Impact Analysis | 19
+
+Presenting a summary of the options analysis
+There are multiple ways of summarising the Impact Analysis in a Regulatory Impact
+Assessment and the presentation should be tailored to how the option has been described.
+For example, different parts of the problem and option may need to be described separately.
+A conclusion about the preferred option is not always required or possible, but the
+Regulatory Impact Assessment requires at least a brief, clear statement to summarise
+options and set out the evidence base on which a decision would rest on.
+A simple table can be a useful way to organise the options, structure the summary of the
+options analysis, and describe the net-benefits (efficiency) alongside the options’ ability to
+achieve the stated policy objectives (effectiveness). This is just one of many potential
+example tables for summarising the results of the Impact Analysis.
+Options
+
+Objectives
+
+Impacts
+
+Are they met?
+How?
+
+Net Effects
+
+Risks
+
+Preferred? Why?
+
+Option 1
+
+Describe
+
++/-
+
+Describe
+
+Describe
+
+Option 2
+
+Describe
+
++/-
+
+Describe
+
+Describe
+
+Option 3
+
+Describe
+
++/-
+
+Describe
+
+Describe
+
+20 | Guidance Note: Best Practice Impact Analysis
+
+Overall Assessment
+
+2.8. Implementation
+Impact Analysis requires consideration of how the preferred option would be implemented if
+agreed. If the option being presented to Cabinet is different, the Impact Analysis should also
+include consideration of how that option could be implemented.
+Choices around the implementation and enforcement of a regulatory option can have a major
+influence on expected compliance rates and whether the expected costs and benefits will
+materialise (ie, the likely effectiveness of the regulation). Significant costs can be incurred
+during the implementation stage (such as the costs of monitoring and data collection) so key
+parameters should be included in the analysis of the costs and benefits of options.
+Impact Analysis should cover the entire implementation and enforcement stages of the policy
+by describing the impact of different choices around enforcement strategy on costs and
+benefits (expected compliance and effectiveness). Consideration should also be given as to
+how enforcement costs will be funded—although the appropriate level of analysis of
+implementation will depend on the stage of the policy development process and the
+magnitude of impact.
+It is therefore important to consider some practical implementation issues before key policy
+and design choices are taken. To the extent that implementation design issues are not
+covered in the description and analysis of options and impacts, specific implementation
+considerations include:
+• Administration issues, such as which agency will implement and administer the option
+and how it will function.
+• Timing and transitional arrangements eg, delayed or gradual introduction of new
+requirements, provision of interim assistance.
+• Compliance costs minimisation strategies. What implementation strategies will be
+required, such as an education campaign, the use of electronic technology, form design,
+advisory services and testing with stakeholders? Is there existing regulation that can be
+reduced or removed to prevent overlap?
+• Implementation risks and their potential impact on the effectiveness of an option.
+Strategies for mitigating these risks should be explained.
+• Information that regulated parties will require in order to comply with the regulation, and
+how this will be provided (eg, whether there is opportunity to rationalise or “piggyback” on
+existing information sources or methods of communication).
+• Enforcement strategy—how compliance will be enforced, who will undertake this,
+whether there will be sanctions for non-compliance (eg, warnings, fines, licence
+suspension, prosecution, and whether there will be gradations of sanction depending on
+the level/severity of breach), the suitability of risk-based enforcement strategies.
+Impact Analysis also needs to establish plans for oversight and operational safeguards. Who
+could (and who will) be best placed to make informed judgements about the operation of the
+regulatory regime, the enforcement of rules, and the performance of the regulator? These
+may not be the same groups, but all affected parties should be considered for their likely
+interest and exposure to regulator discretion and behaviour
+
+Guidance Note: Best Practice Impact Analysis | 21
+
+The plans for how stakeholders are expected to continue engaging with agencies should also
+be clearly articulated so that stakeholders can have an indication of likely compliance costs.
+Imposing information and reporting requirements can create costs that are difficult to quantify
+without information from affected parties through consultation.
+It is important that Agencies strike the right balance between collecting the necessary
+information to meet their responsibilities to the public, while not requiring information that is
+unnecessary or unavailable. Agencies and relevant regulators should only collect information
+essential for enforcing rules or monitoring regulatory objectives and behaviour. They should
+also ensure that processes are in place to only collect information once—not multiple times
+redundantly.
+The Department of Internal Affairs (DIA) has published Achieving Compliance - A Guide for
+Compliance Agencies in New Zealand which contains more detail about implementing
+policies.
+The importance of implementation
+The prevailing view has been that the implementation of legislation is “something that regulators
+do”, once the law is passed. This view is changing, as we increasingly recognise that how
+regulation works in practice has as much to do with factors that influence implementation as the
+law itself, and these factors can and should be taken into account in the policy development
+process and regulatory impact analysis.
+There are two distinct phases to implementation:
+•
+
+the initial phase when a new law is introduced, and
+
+•
+
+the ongoing administration and review of the law.
+
+The initial phase has distinct characteristics as it is at this point that historical behaviours are
+required to change in line with the expectations underlying the law. Behaviours are a function of
+both attitudes and capabilities. In addition, it is often the case that the behaviours of more than one
+group need to change. Experience suggests that the behaviours that must change to achieve the
+objectives of the law are often path-dependent and can be deeply embedded, and we typically
+under-estimate the effort required to effect change. Therefore, we need to allow sufficient time for
+implementation, to adopt appropriate strategies to facilitate and manage the change process, and
+undertake sufficient ongoing monitoring and evaluation.
+The questions that should be asked at the outset include:
+•
+
+What groups will be affected by this law (this will bear on the analysis of the status quo; key
+groups include producers, consumers, regulators, standards bodies etc)?
+
+•
+
+What behaviours would we expect these groups to demonstrate if the law is to achieve its
+intended objectives? Bear in mind that actors respond to their “complete” regulatory
+environment, which may involve other areas of regulation and legislation than the policy
+question at hand.
+
+•
+
+What might act as a barrier to behavioural change? Put yourself in the shoes of the affected
+parties – what incentives are in place to influence their behaviours?
+
+•
+
+What strategies are likely to work best during the implementation phase to reduce these
+barriers? This will include consideration of appropriate transition arrangements.
+
+22 | Guidance Note: Best Practice Impact Analysis
+
+•
+
+What monitoring and evaluation strategy is required to identify and address emerging issues
+that are affecting the effective implementation of the law?
+
+When considering the factors that influence the administration of the law on an ongoing basis, it is
+important to note that interventions that do not deliver on their intended objectives may reflect poor
+strategy choice by the regulator rather than the rules themselves. There are two key factors to
+consider in the analysis:
+1 Regulators are always in the situation of allocating limited resources. In effect they must make
+hard choices about where to invest their regulatory capability. Risk-based frameworks are most
+commonly used today to make resource allocation decisions. In effect these require regulators
+to make an assessment of the likelihood and consequences of certain adverse events
+happening, relative to the cost of mitigating them, and use this information to prioritise activity.
+Dealing with uncertainty is an important dimension of risk-based regulatory action.
+2 Regulated entities are not homogenous. A strategy that works best for one group may not be
+effective or necessary for another.
+Given these two factors, in addition to revisiting the factors and question outlined above, the
+questions we should also ask at the outset include:
+•
+
+Does the proposed law permit risk-based decision making by the regulator?
+
+•
+
+Can we be assured that the regulator will take a risk-based approach?
+
+•
+
+Does the regulator have the statutory tools to take a “fit for purpose” approach to enforcement?
+
+•
+
+Can we be assured that the regulator will take a “fit for purpose” approach?
+
+Guidance Note: Best Practice Impact Analysis | 23
+
+2.9. Monitoring, evaluation and review
+Impact Analysis must establish the agency’s plans for monitoring, evaluating, and reviewing
+the performance over time. The key questions are:
+• How will the Agency determine when and whether the regulatory changes have performed
+well?
+• How will the Agency assess whether the preferred option continues to have a greater netbenefit than alternatives?
+While the plans for monitoring the implementation of the preferred option should be
+summarised in the Regulatory Impact Assessment, it is also important that any new
+regulation is monitored and periodically reviewed to evaluate whether the option is the
+preferred solution to the particular policy problem over time. Such monitoring and evaluation
+helps to ensure that new regulations are working as expected (delivering the anticipated
+benefits at expected costs), that there have been no unforeseen consequences and they
+continue to be necessary as circumstances change and evolve.
+When new regulatory options are being proposed, it is important to have a clear
+understanding of the channels through which the intervention is expected to generate the
+intended benefits. Analysis needs to consider how effectiveness will be measured: what
+indicators will be used; what data will be required; how this information will be collected, and
+by whom. As noted above, monitoring and evaluation involves costs, which should be
+factored in to the analysis of options.
+On-going or periodic consultation with stakeholders may be appropriate, in which case the
+arrangements for this should be agreed. It may be appropriate to establish a feedback
+mechanism (eg, a way for stakeholders to ask questions or lodge complaints). Regular,
+public reporting on the effectiveness of the regulation may also be considered.
+Plans should also be made for how and when the regulation will be reviewed. Agencies
+should consider committing to a periodic review of particular regulatory interventions, either
+through a sunset-review clause in the regulation itself, or through committing to collect and
+monitor information for evaluating regulatory performance. Reviews should be reported and
+consulted on with a view to ensuring regulation remains fit for purpose.
+Reviews should consider the following issues:
+• Is there still a problem (and is it the one originally identified)?
+• Are the objectives being met?
+• Are the impacts as expected? Are there any unforeseen problems? Are there any indirect
+effects that were not anticipated?
+Is intervention still required? Is the current intervention still the most appropriate, or would
+another measure be more suitable?
+
+24 | Guidance Note: Best Practice Impact Analysis
+
+

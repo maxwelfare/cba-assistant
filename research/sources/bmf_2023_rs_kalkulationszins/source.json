@@ -1,0 +1,11 @@
+{
+ "key": "bmf_2023_rs_kalkulationszins",
+ "citation": "Bundesministerium der Finanzen (7. Juli 2023, GZ II A 3 - H 1012-10/21/10003 :002). Rundschreiben: Personal- und Sachkosten in der Bundesverwaltung für Wirtschaftlichkeitsuntersuchungen und Kostenberechnungen; Kalkulationszinssätze für Wirtschaftlichkeitsuntersuchungen. Copy published by the Bundesamt für Soziale Sicherung.",
+ "doi": null,
+ "url": "https://www.bundesamtsozialesicherung.de/fileadmin/redaktion/vermoegen_und_finanzen/20240408Rundschreibn_PKS_2023.pdf",
+ "media_type": "application/pdf",
+ "sha256": "7efa9eddec012667156fb34bf43725de4bab3ed5834e107f49e997b709e4db52",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "shcp_2013_lineamientos_acb",
+ "citation": "Secretaría de Hacienda y Crédito Público, Unidad de Inversiones. Lineamientos para la elaboración y presentación de los análisis costo y beneficio de los programas y proyectos de inversión. Diario Oficial de la Federación, 30 December 2013 (Segunda Sección).",
+ "doi": "none",
+ "url": "https://www.gob.mx/cms/uploads/attachment/file/21174/Lineamientos_costo_beneficio.pdf",
+ "media_type": "application/pdf",
+ "sha256": "255f7ed3ae0227396a8b6a2002d561d605231553fe2b1f230b2895ef3efeb3e2",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:31:23.379984Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "language": "es"
+}

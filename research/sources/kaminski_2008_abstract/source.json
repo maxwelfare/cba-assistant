@@ -1,0 +1,12 @@
+{
+ "key": "kaminski_2008_abstract",
+ "citation": "Kaminski JA, Sloutsky VM, Heckler AF (2008). The advantage of abstract examples in learning math. Science 320:454-455.",
+ "doi": "10.1126/science.1154659",
+ "url": "https://api.openalex.org/works/doi:10.1126/science.1154659",
+ "media_type": "text/plain",
+ "sha256": "809b14c9753d5f3d9d8a2b95e1926fe30414e7ede531401970117fdbad04329a",
+ "licence": "not stated (abstract only; OpenAlex data is CC0)",
+ "fetched": "2026-11-16T03:39:34Z",
+ "text_method": "python -I script: title, authors and the abstract rebuilt from abstract_inverted_index of original.1154659 (OpenAlex JSON; abstract only; the Europe PMC record has no abstract)",
+ "how": "copied from tmp/scratchpad/dl/kam_oa.json (fetched is the file's modification time)"
+}

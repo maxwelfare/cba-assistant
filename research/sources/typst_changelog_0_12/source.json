@@ -1,0 +1,12 @@
+{
+ "key": "typst_changelog_0_12",
+ "citation": "Typst GmbH. Typst 0.12.0 changelog, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://typst.app/docs/changelog/0.12.0/",
+ "media_type": "text/html",
+ "sha256": "5d429b594596cb23afdeaf232f3ae3ecaf74525e86357b96dfbe5fbd1a3d8ffb",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:26Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://typst.app/docs/changelog/0.12.0/"
+}

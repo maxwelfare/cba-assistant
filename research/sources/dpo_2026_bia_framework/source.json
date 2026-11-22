@@ -1,0 +1,11 @@
+{
+ "key": "dpo_2026_bia_framework",
+ "citation": "Digital Policy Office (Hong Kong), Business Impact Assessment framework and tasks under different stages (web page, accessed 2026-11-09)",
+ "doi": null,
+ "url": "https://www.digitalpolicy.gov.hk/en/our_work/digital_government/business_facilitation/business_consultation_e-platform/business-impact_assessment/index.html",
+ "media_type": "text/html",
+ "sha256": "175d313e025a194508dcf98e91d2778fa0b79dfed2cca5f91b96e6ec2efa9458",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:45:47+00:00",
+ "text_method": "short regex HTML-to-text script (research/sources/dpo_2026_bia_framework, run with python -I): scripts/styles removed, paragraph breaks kept; text from the framework section onward"
+}

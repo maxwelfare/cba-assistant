@@ -1,0 +1,11 @@
+{
+ "key": "ted_search_api_guide",
+ "citation": "TED Search API documentation (Publications Office of the European Union) (accessed 2026-11-09).",
+ "doi": "",
+ "url": "https://docs.ted.europa.eu/api/latest/search.html",
+ "media_type": "text/html",
+ "sha256": "bbcc1f7976f0e8bc65aed6611c8c3c791d0088f516eb96d79743cd3fe3a71849",
+ "licence": "not stated on the page",
+ "fetched": "2026-11-09T18:00:00Z",
+ "text_method": ".venv/bin/python -I tools/store_rs.py (scripts/styles dropped, tags removed, block ends to newlines)"
+}

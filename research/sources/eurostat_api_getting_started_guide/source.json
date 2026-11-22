@@ -1,0 +1,11 @@
+{
+ "key": "eurostat_api_getting_started_guide",
+ "citation": "Eurostat. API - Getting started with statistics API. User guides (accessed 2026-11-09).",
+ "doi": "",
+ "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started/api",
+ "media_type": "text/html",
+ "sha256": "8ff4c3a9a85d708992b0c4a433e98d7a1219f4e13705e48d45ad72347487b0cf",
+ "licence": "not stated on the page; Eurostat copyright notice authorises reuse with source acknowledged",
+ "fetched": "2026-11-09T17:30:11Z",
+ "text_method": ".venv/bin/python -I store.py (tags removed, script/style/nav/header/footer dropped, block ends to newlines)"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "ndc_2025_gonggong_jianshe_xiaoyi_pinggu",
+  "citation": "公共建設計畫經濟效益評估及財務計畫手冊 (國家發展委員會, 中華民國114年6月, 編號 (114)006.0201)",
+  "doi": null,
+  "url": "https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvMC8zOC9kM2FjYzk2Ni0zMThiLTRlYzEtYWUxZi1kMmNkZDAwZjE2NWQucGRm&n=MTE0MDblhazlhbHlu7roqK3oqIjnlavntpPmv5%2fmlYjnm4roqZXkvLDlj4rosqHli5noqIjnlavmiYvlhooucGRm&icon=.pdf",
+  "media_type": "application/pdf",
+  "sha256": "23f874a529a3681a9a0eab53f412133cb8bcf2b47c9398018b9160ebc72fe0f3",
+  "licence": "Government Open Data License v1 (stated on data.gov.tw dataset 39479)",
+  "fetched_utc": "2026-11-09T16:52Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

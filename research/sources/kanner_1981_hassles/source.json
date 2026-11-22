@@ -1,0 +1,12 @@
+{
+ "key": "kanner_1981_hassles",
+ "citation": "Kanner AD, Coyne JC, Schaefer C, Lazarus RS (1981). Comparison of two modes of stress measurement: daily hassles and uplifts versus major life events. Journal of Behavioral Medicine 4(1):1-39.",
+ "doi": "10.1007/BF00844845",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:7288876%20AND%20SRC:MED&resultType=core&format=xml",
+ "media_type": "application/xml",
+ "sha256": "438cb83d2439548ef48f6c100b57441c944b5e6255c1e2c1d80c9eaf793226ad",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:12:12Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:7288876%20AND%20SRC:MED&resultType=core&format=xml"
+}

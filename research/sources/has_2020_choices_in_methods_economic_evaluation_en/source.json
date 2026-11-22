@@ -1,0 +1,11 @@
+{
+ "key": "has_2020_choices_in_methods_economic_evaluation_en",
+ "citation": "Haute Autorité de santé (2020). Choices in methods for economic evaluation (official English version of the 2020 guidance).",
+ "doi": null,
+ "url": "https://has-sante.fr/upload/docs/application/pdf/2020-11/methodological_guidance_2020_-choices_in_methods_for_economic_evaluation.pdf",
+ "media_type": "application/pdf",
+ "sha256": "1e9ca7c4f5596082172fe7064656f5a8c9e8239666f1dd94a9a189ca50bb1fb8",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:27:32Z",
+ "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

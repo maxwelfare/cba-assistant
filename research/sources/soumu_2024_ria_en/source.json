@@ -1,0 +1,11 @@
+{
+ "key": "soumu_2024_ria_en",
+ "citation": "Ministry of Internal Affairs and Communications (2007, partially amended 2017-07-28 and 2024-03-15). Implementation Guidelines for Policy Evaluation of Regulations (official English).",
+ "doi": "none",
+ "url": "https://www.soumu.go.jp/main_content/001014182.pdf",
+ "media_type": "application/pdf",
+ "sha256": "cb7f2a34f7ab667f1e6b04ba227c5d8a6d18fa6be2a7e827a6aa61dd390f0c7f",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:06Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

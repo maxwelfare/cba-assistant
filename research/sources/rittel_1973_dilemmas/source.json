@@ -1,0 +1,11 @@
+{
+ "key": "rittel_1973_dilemmas",
+ "citation": "Rittel HWJ, Webber MM (1973). Dilemmas in a general theory of planning. Policy Sciences 4:155-169.",
+ "doi": "10.1007/BF01405730",
+ "url": "https://archive.epa.gov/reg3esd1/data/web/pdf/rittel%2bwebber%2bdilemmas%2bgeneral_theory_of_planning.pdf",
+ "media_type": "application/pdf",
+ "sha256": "73bbbcd28aed545cb86f8ca655ae06ab8463256364b6231dfdd303a9c9b1b1d9",
+ "licence": "not stated (a US EPA archive copy of the journal pages)",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

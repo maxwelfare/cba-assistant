@@ -1,0 +1,12 @@
+{
+ "key": "mfr_2017_best_practice_impact_analysis",
+ "citation": "Treasury/Ministry for Regulation, Guidance Note: Best Practice Impact Analysis (June 2017)",
+ "doi": null,
+ "url": "https://www.regulation.govt.nz/assets/Uploads/Best-Practice-Impact-Analysis-Guidance-Note.pdf",
+ "media_type": "application/pdf",
+ "sha256": "922823eaf5883dc9c550e9c858ede2f1fb9c992b2f9c4aa9d63f1034a32bb0cd",
+ "licence": "CC BY 4.0",
+ "fetched_utc": "2026-11-09T16:52:44+00:00",
+ "text_method": "pdftotext original.pdf text.txt",
+ "notes": ""
+}

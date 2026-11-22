@@ -1,0 +1,11 @@
+{
+ "key": "goeg_2012_methodenhandbuch_hta",
+ "citation": "Fröschl B. et al. (2012). Methodenhandbuch für Health Technology Assessment, Version 1.2012. Gesundheit Österreich GmbH with Donau-Universität Krems, EBM Review Center Graz, LBI-HTA and UMIT. Wissenschaftlicher Ergebnisbericht.",
+ "doi": null,
+ "url": "https://jasmin.goeg.at/id/eprint/121/1/Methodenhandbuch%20f%C3%BCr%20Health%20technology%20Assessment%20Version%201.2012.pdf",
+ "media_type": "application/pdf",
+ "sha256": "4156f381949058b30663fc247cb9015b4ab5b1bd738402d03921872126bbffc5",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:22:13Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

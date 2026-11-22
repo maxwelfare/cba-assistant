@@ -1,0 +1,12 @@
+{
+ "key": "whitman_2001_ata",
+ "citation": "Whitman v. American Trucking Associations, Inc., 531 U.S. 457 (2001).",
+ "doi": null,
+ "url": "https://www.law.cornell.edu/supremecourt/text/531/457",
+ "media_type": "text/html",
+ "sha256": "49c88243b4dec28b29ad837d4b6a5c0d99098588ed8f15b265643c23852b77d0",
+ "licence": "US Supreme Court opinion, public domain",
+ "fetched": "2026-11-17T11:55:08Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.law.cornell.edu/supremecourt/text/531/457"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "strata_2024_pv_5_zingsnis",
+ "citation": "Strateginės analizės centras (STRATA) (2024). Poveikio vertinimas: 5 žingsnis, Priemonės problemai spręsti. Official file strata.gov.lt/wp-content/uploads/2024/04/5-zingsnis.pdf.",
+ "doi": null,
+ "url": "http://web.archive.org/web/20240917id_/https://strata.gov.lt/wp-content/uploads/2024/04/5-zingsnis.pdf",
+ "media_type": "application/pdf",
+ "sha256": "66d0da36ed3b2ef253f05ac0645a18761a68e2e71c1a01e1aca16029a479f547",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:54:28Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "note": "Lithuanian text, diacritics checked readable. Copy taken from the Internet Archive (Wayback id_ raw capture) because the official host is behind Cloudflare."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "census_intltrade_guide",
+  "citation": "U.S. Census Bureau. Guide to Using U.S. International Trade Datasets in the Census API (PDF created 2026-05-20).",
+  "doi": "",
+  "url": "https://www.census.gov/foreign-trade/reference/guides/Guide%20to%20International%20Trade%20Datasets.pdf",
+  "media_type": "application/pdf",
+  "sha256": "e23d2df9553a1730c612f89deab7ae59dab3fcb1a26c21738ef60db0e8639332",
+  "licence": "U.S. government work; no licence stated in the PDF",
+  "fetched_utc": "2026-11-09T17:36:07Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

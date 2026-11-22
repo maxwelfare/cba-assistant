@@ -1,0 +1,12 @@
+{
+ "key": "scm_2021_technical_build_guidance",
+ "citation": "UK Government (Cabinet Office/Government Commercial Function). Should Cost Modelling: Technical Build Guidance, V1, May 2021.",
+ "doi": null,
+ "url": "https://assets.publishing.service.gov.uk/media/60a4ef9a8fa8f56a353a13e4/SCM_Technical_Build_Guidance_V1_May_2021.pdf",
+ "media_type": "application/pdf",
+ "sha256": "7122af2f8574aa2e94fb24ad215d10e52e796f72466ffbb0655efea890580395",
+ "licence": "not stated (UK government publication)",
+ "fetched": "2026-11-20T21:52:50Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://assets.publishing.service.gov.uk/media/60a4ef9a8fa8f56a353a13e4/SCM_Technical_Build_Guidance_V1_May_2021.pdf"
+}

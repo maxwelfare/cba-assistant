@@ -1,0 +1,12 @@
+{
+ "key": "snhd_2008_clean_indoor_air_survey",
+ "citation": "Southern Nevada Health District (2008). Nevada Clean Indoor Air Act survey [public opinion survey after the 2006 Act].",
+ "doi": null,
+ "url": "https://www.southernnevadahealthdistrict.org/download/epi/08-nciaa-survey.pdf",
+ "media_type": "application/pdf",
+ "sha256": "69fa7675d935ce98f0b3af0fe6b945eba93d4de14f0a31adcff50dea5f5cfda0",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:18:59Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.southernnevadahealthdistrict.org/download/epi/08-nciaa-survey.pdf"
+}

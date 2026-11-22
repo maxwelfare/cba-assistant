@@ -1,0 +1,11 @@
+{
+  "key": "kcbr_2025_beleidskompas",
+  "citation": "Kenniscentrum voor beleid en regelgeving (KCBR). Beleidskompas (web page; replaces the Integraal afwegingskader).",
+  "doi": "none",
+  "url": "https://www.kcbr.nl/ontwikkelen-beleid-en-regelgeving/beleidskompas",
+  "media_type": "text/html",
+  "sha256": "aa2fe177cc6bb4d6dec0c98e0ef2e9625632ab9605f97359afad850f7e0189f8",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:33:31Z",
+  "text_method": "python html.parser script (scratchpad x_html2txt.py): text content with paragraph breaks"
+}

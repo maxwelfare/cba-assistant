@@ -1,0 +1,12 @@
+{
+ "key": "hahn_2008_has",
+ "citation": "Hahn RW, Tetlock PC (2008). Has economic analysis improved regulatory decisions? Journal of Economic Perspectives 22(1):67-84.",
+ "doi": "10.1257/jep.22.1.67",
+ "url": "https://api.openalex.org/works/doi:10.1257/jep.22.1.67",
+ "media_type": "text/plain",
+ "sha256": "166d567f037127d73356c1607a949a350fd63ad4567db5fea82cbc9cd762f7d3",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:37Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/hahn_2008_has.txt (fetched is the file's modification time)"
+}

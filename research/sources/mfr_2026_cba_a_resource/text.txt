@@ -1,0 +1,421 @@
+Cost-benefit
+analysis
+A Resource
+May 2026
+
+Published in May 2026 by the Ministry for Regulation,
+Wellington, New Zealand.
+This document is available on the Ministry for Regulation
+website: regulation.govt.nz Crown copyright © 2026
+This work is licensed under the Creative Commons Attribution
+3.0 New Zealand licence. In essence, you are free
+to copy, distribute and adapt the work, as long as
+you attribute the work to the Crown and abide by
+the other licence terms. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by/3.0/nz/
+Please note that no departmental or governmental emblem,
+logo or Coat of Arms may be used in any way which infringes
+any provision of the Flags, Emblems, and Names Protection
+Act 1981. Attribution to the Crown should be in written form
+and not by reproduction of any such emblem, logo or Coat of
+Arms.
+
+2
+
+Contents
+Introduction ............................................................................................................... 4
+Link with the good-law making requirements ........................................................................... 4
+What cost-benefit analysis is (and is not) .................................................................. 6
+The proportionate use of cost-benefit analysis .......................................................... 7
+Link with the good law-making requirements ........................................................................... 8
+Key steps of cost-benefit analysis ............................................................................. 9
+Step 1: Define the factual and counterfactual .......................................................................... 9
+Step 2: Identifying costs and benefits ........................................................................................ 9
+Step 3: Quantify and monetise costs and benefits ................................................................ 11
+Step 4: Discount and compare benefits and costs in present-day values ......................... 11
+Step 5: Account for uncertainty................................................................................................. 12
+Step 6: Identify distributional impacts ...................................................................................... 12
+Summary .................................................................................................................. 13
+
+3
+
+Introduction
+The specific focus of this document is on cost-benefit analysis (CBA). CBA is an analytical
+technique that identifies the costs and benefits of a regulatory change, measures them in dollars
+where possible, and determines the net benefit (benefits minus costs). This document provides
+some preliminary background to what CBA is (and is not) and its proportionate use. It then
+explains the key steps to undertaking CBA, which are illustrated in Figure 1.
+This document will provide support in:
+•
+•
+•
+
+Early policy development;
+When preparing a Regulatory Analysis Summary; and.
+When preparing a Consistency Accountability Statement.
+
+This note is not intended to be a comprehensive guide to CBA; rather, it is a high-level resource
+that provides background and a general overview to the approach. Practitioners should also
+consider drawing on more detailed guidance, such as that by the New Zealand Treasury,1
+overseas agencies,2 or academics.3
+
+Link with the good-law making requirements
+This document is intended to provide additional support to agencies to the Guidance
+issued under section 26 of the Regulatory Standards Act 2025 and Regulatory Analysis
+Summary guidance issued by the Ministry for Regulation.
+The related provisions of the Regulatory Standards Act are 9(j)(v): “the importance of
+carefully evaluating…who is likely to benefit, and who is likely to suffer a detriment, from
+the legislation” and 9(l): “legislation should be expected to produce benefits that exceed
+the costs of the legislation to the public or persons”.
+This document will also be useful to inform your approach to CBA that will eventually be
+summarised in a Regulatory Analysis Summary (as required by Cabinet circular CO (26)
+2).
+
+New Zealand Treasury “Guide to Social Cost Benefit Analysis”, July 2015, Guide to Social Cost Benefit Analysis July 2015 and “CBAx Tool User Guidance”, November 2025, CBAx Tool User Guidance - Guide for departments
+and agencies using Treasury's CBAx tool for cost benefit analysis - November 2025.
+2
+For example, the UK’s government’s guidance is provided in the HM Treasury Green Book, The Green Book GOV.UK.
+3
+A useful textbook resource is Anthony E. Boardman, David H. Greenberg, Aidan R. Vining, and David L. Weimer
+(2018), Cost-Benefit Analysis: Concepts and Practice, Fifth edition, Cambridge University Press.
+1
+
+4
+
+Figure 1: Step-by-step guide to conducting cost-benefit analysis
+
+1. Define the
+factual and
+counterfactual
+
+2. Identify
+benefits and costs
+
+3. Quantify and
+monetise costs
+and benefits
+
+Specify the
+regulatory change
+being assessed (the
+factual) and the
+alternative situation
+if the regulatory
+change does not go
+ahead (the
+counterfactual).
+
+Identify the
+impacts of the
+regulatory change
+on the welfare of
+affected parties
+and classify as
+benefits or costs.
+
+Quantify costs and
+benefits by
+expressing them in
+measurable terms,
+and then monetise
+to convert to
+dollar values.
+
+4. Discount and
+compare benefits
+and costs in presentday values
+
+5. Account for
+uncertainty
+
+6. Identify
+distributional
+impacts
+
+Discount benefits and
+costs to the present
+day using an
+appropriate discount
+rate, and calculate the
+net present value as
+discounted benefits
+minus discounted
+costs.
+
+Account for
+uncertainty in the
+predicted values for
+benefits and costs
+by using ranges,
+sensitivity analysis,
+scenario analysis, or
+more sophisticated
+techniques.
+
+Identify the
+specific groups
+or individuals on
+which the costs
+and benefits fall.
+
+5
+
+What cost-benefit analysis is
+(and is not)
+CBA is an analytical technique used to identify and measure (in dollars) the costs and benefits of
+a regulatory change, and calculate the net benefit (benefits minus costs, which may be a net cost
+if costs exceed benefits).
+The net benefit of a regulatory change is the increase it gives to the aggregate welfare of society;
+that is, how much it makes society better off. It consists of more than just direct financial impacts
+and impacts related to goods and services traded in markets; the net benefit incorporates all
+things that affect people’s welfare. This includes impacts on the environment (e.g., air and water
+quality, noise levels, biodiversity), impacts on people’s time (e.g., travel time or leisure time), and
+social impacts (e.g., crime or mortality risks). For example, a regulatory change that negatively
+impacts health and safety will include these impacts as a cost. A regulatory change that reduces
+the time spent on compliance will include these time savings as a benefit.
+CBA must account for both costs and benefits. For example, a CBA would not focus only on
+compliance costs, while ignoring benefits. Although expressing some impacts in dollar terms
+may be challenging, difficult-to-quantify impacts should not be ignored. Even if costs and
+benefits cannot be converted into dollar terms within the time available or due to data
+constraints, they should still be disclosed. Care should also be taken to avoid an overly optimistic
+focus on impacts that are easy to quantify, with less weight placed on more difficult-to-quantify
+impacts.
+The value of CBA is not only in showing whether a regulatory change improves the lives of New
+Zealanders on average (which is a primary goal of regulation), but also in increasing rigour and
+objectivity by introducing analytical discipline and structure to decision-making. CBA makes
+clear the trade-offs and their underlying assumptions, and helps identify the assumptions that
+matter most, focusing the debate and facilitating independent testing of assumptions. By
+allowing impacts to be expressed in dollar terms, CBA provides a way of assessing and balancing
+these impacts using a common metric.
+Importantly, CBA is not a substitute for other forms of analysis, such as stakeholder engagement,
+literature reviews, agency consultation, and expert judgement. The net benefit should not be
+seen as the sole determinant of whether a regulatory change is appropriate; rather, it is
+complementary to the broader suite of inputs and analysis that collectively support robust,
+evidence-based decision-making.
+
+6
+
+The proportionate use of costbenefit analysis
+CBA can be used by agencies to support them in preparing Regulatory Analysis Summaries and
+meeting their requirements under the Regulatory Standards Act. However, the type of CBA
+conducted will depend on various factors. There are circumstances where a rough, high-level
+CBA is appropriate and other situations where a detailed, precise CBA is preferable. The
+following factors can help determine the proportionate CBA approach to apply to a regulatory
+change:
+•
+
+Scale: the scale of the regulatory change (e.g., smaller scale changes that focus more on
+reducing duplication or improving processes versus more significant regulatory changes
+that induce structural or behavioural change and are likely to involve costs or benefits
+that are large in dollar terms);
+
+•
+
+Data availability: the availability of data to put a dollar value on (‘monetise’) costs and
+benefits; and
+
+•
+
+Nature of costs and benefits: whether the nature of the costs and benefits allows for
+relatively straightforward monetisation (e.g., environmental, social, cultural, and similar
+non-market impacts for which assigning dollar values can be more difficult, or
+compliance costs, administrative costs, or financial impacts for which there are often
+readily assignable dollar values).
+
+At a minimum, CBA should identify benefits and costs in qualitative terms. At one extreme (e.g.,
+when the scale of the change is small, data are limited, and monetisation is difficult),
+monetisation may not be appropriate, and it may be sufficient to list and describe costs and
+benefits in a table. At the other end of the spectrum, a more detailed CBA may be warranted,
+where most or all of the impacts are evaluated in dollar terms. Between these two extremes lies a
+range of intermediate approaches, for example, where dollar values are assigned only to those
+impacts that are easily monetised or for which public data exist.
+Ideally, CBA should be undertaken relatively early in the policy process, although only after
+options for regulatory change have been identified and appropriately scoped. This allows CBA to
+be used to assess the different options and improves the chance the option that offers the
+greatest net benefits will be chosen. Leaving CBA to the end once a preferred option has been
+chosen robs it of some of its potential to improve decision-making. A proportionate approach
+can also be considered here; for example, a higher-level CBA for the different options,
+proceeding to a more detailed CBA once the preferred option has been selected.
+
+7
+
+Link with the good law-making requirements
+Where you are required to prepare a Regulatory Analysis Summary for your proposal,
+you will need to summarise the results of your CBA in the Regulatory Analysis
+Summary for the option the Minister is taking to Cabinet for approval. If your agency’s
+preferred option differs from the Minister’s preferred option, you will need to
+summarise the results of your CBA for your preferred option too. The Regulatory
+Analysis Summary template also includes a space for specifying distributional impacts.
+
+8
+
+Key steps of cost-benefit
+analysis
+The following key steps of CBA outline the general approach and articulate how to undertake a
+basic level of analysis. They are not a comprehensive guide to undertaking a CBA, which would
+necessarily be highly detailed, due to CBA often involving technical and bespoke considerations.4
+
+Step 1: Define the factual and counterfactual
+The first step in any CBA is to identify two alternative ‘states of the world’, the factual and the
+counterfactual. The factual scenario is the situation if the regulatory change being assessed went
+ahead, and the counterfactual is the situation without the regulatory change. The status quo, or
+current situation, is sometimes the appropriate counterfactual. However, if the current situation
+is expected to evolve without regulatory change, the appropriate counterfactual will be this
+evolved situation. For example, legislation may be proposed to address a problem of consumers
+not having adequate information on a particular product (the factual). However, there may be
+good evidence that private sector businesses are developing their own solution to this problem.
+The appropriate counterfactual is therefore the private solution to the problem (rather than a
+counterfactual of the status quo, where the problem exists without a solution).
+In any CBA, it is important to understand the factual and counterfactual, because the costs and
+benefits of the regulatory change in the factual are assessed relative to the counterfactual. That
+is, costs and benefits are only those that are additional to what would otherwise occur in the
+counterfactual.
+
+Step 2: Identifying costs and benefits
+Costs and benefits are defined in terms of concrete impacts on the welfare of affected parties,
+including impacts on resource use (additional resources required or avoided), environmental
+outcomes, time savings, health, crime, etc. Impacts can fall on a wide range of groups, including
+the general public, businesses, consumers, taxpayers, government agencies, and communities.
+CBA is typically undertaken at a ‘national’ level, where the costs and benefits counted are those
+that fall on New Zealanders. This would not include benefits and costs that accrue to parties
+outside New Zealand e.g., profits paid out to foreign shareholders, benefits to overseas tourists,
+benefits to overseas consumers. It would also exclude benefits to one group of New Zealanders
+(e.g., within one region) that are directly matched by costs to another group of New Zealanders.
+
+4
+
+For more comprehensive guidance, see the resources referred to earlier in this note.
+9
+
+These are considered transfers, discussed below; they have distributional impacts, but do not
+affect the net benefits of the regulatory change.
+A useful approach to identifying the benefits of new regulation is to start from the market failure
+the regulation intends to address. For example, if a regulation intends to address market power,
+then the benefits might be increased welfare from an increase in quantities traded due to
+improved competition. If the relevant market failure is an environmental externality, then the
+benefit might be improved environmental outcomes.
+If the proposed regulatory change is different or less regulation, consider whether the change
+will mean the market failure is addressed more effectively (generating benefits) or less effectively
+(generating costs).
+The costs of new regulation include compliance, administrative, and distortionary costs.
+Compliance costs are the costs affected parties face to comply with the regulation, and include
+not only direct financial costs but also the costs of time spent on compliance. Administrative
+costs are the costs of administering a regulatory regime, usually borne by the regulator. This
+includes the costs of establishing a new regulatory regime, such as costs of policy analysis and
+drafting legislation. Distortionary costs are the indirect costs imposed by regulation through
+distorting behaviour and market outcomes. This includes when regulation: creates barriers to
+entry and expansion or more broadly undermines competition; distorts price signals in markets;
+dampens incentives for innovation; or hinders the emergence of new markets.
+When evaluating a change in regulation, consider whether the change will increase or decrease
+each of these types of cost relative to the counterfactual. Increased costs of regulation should be
+counted as costs and decreased costs as benefits.
+In identifying benefits and costs, caution should be exercised in identifying transfer payments. A
+transfer payment is a payment between two parties that does not directly involve any change in
+resource use. The benefit to the recipient directly offsets the cost to the payer. The main types of
+transfer payment are taxes, subsidies, welfare payments, and local authority rates. These
+payments simply shift money between parties, with no direct change in the production or
+consumption of resources (such as labour, land, or capital). Transfer payments should not be
+included in the net benefit calculation as either costs or benefits. However, they should be
+considered when evaluating distributional effects, discussed later.
+Every cost and benefit should be included only once, and care should be taken to avoid double
+counting. An example of double counting is where the money a government department receives
+(e.g., via a fee or levy) is included as a benefit, and what the money is spent on is included as
+another benefit. The benefit arises because of what the money is spent on, and it can be
+measured by the amount received, but it is double counting to include both. Another example is
+where both the upfront capital expenditure of an investment and annual depreciation are
+included as costs. Depreciation is an accounting charge that spreads the capital cost over the life
+of the investment, so should be excluded to avoid double counting.
+
+10
+
+Step 3: Quantify and monetise costs and benefits
+Quantifying costs and benefits involves expressing them in measurable terms, such as hours of
+travel time saved, number of lives saved, or tonnes of carbon emissions avoided. Monetisation
+then converts these quantified impacts into dollar values, using appropriate values such as wage
+rates, willingness-to-pay measures, costs per unit, or the statistical value of a life. These values
+can be obtained from various sources. The Treasury’s CBAx spreadsheet model includes values
+for a wide range of impacts, such as for health and safety, environmental attributes, and leisure
+activities.5 Other sources are the economics literature or calculations by other agencies.6
+The use of dollar values provides a consistent ‘measuring rod’ with which to compare costs and
+benefits. Monetisation relates not only to costs/benefits that are naturally denominated in
+dollars, but also to other impacts such as environmental and health impacts. Economics has
+developed robust methodologies to assigning dollar values to such impacts.
+If impacts cannot be monetised, they can often still be measured in some way. Regardless, they
+should be identified and disclosed to aid transparency. If monetisation is only possible for one
+side of the ledger (say, for costs), ‘breakeven analysis’ can be used. This involves using the
+monetised costs to determine how high the non-monetised benefits would need to be to exceed
+the costs, and making an informed judgement on how plausible those benefits are.
+
+Step 4: Discount and compare benefits and costs in present-day
+values
+Costs and benefits often occur in different years, but it is not appropriate to treat dollar values in
+different time periods as having the same weighting. This is because of the ‘time value of
+money’: one dollar today is worth more than a dollar tomorrow, because one dollar today can be
+invested or consumed to provide greater value tomorrow. Discounting is used to compare
+impacts in different time periods, which converts an impact into a present-day value using an
+appropriate discount rate.7 The Treasury provides guidance on the appropriate public sector
+discount rates for agencies to use.8
+Having discounted all values to a present value, the overall net benefit can be calculated as the
+‘net present value’ (NPV). The NPV is the sum of the discounted benefits minus the sum of the
+discounted costs.
+Consideration should also be given to the time horizon over which future benefits and costs are
+analysed. This should balance the need to have a sufficient period to cover when benefits and
+CBAx Spreadsheet Model | The Treasury New Zealand
+For example, the New Zealand Transport Agency undertakes CBA that includes values for various transport-related
+impacts, such as time travel savings, noise, and injury and death. See Monetised benefits and costs manual v1.7.2
+November 2024
+7
+The formula used to convert a dollar impact 𝐼 incurred in a future time period 𝑡 into a present-day value is 𝑃𝑉 =
+𝐼
+𝑡 , where 𝑟 is the discount rate.
+5
+6
+
+(1+𝑟)
+8
+
+See Discount Rates | The Treasury New Zealand
+11
+
+costs occur, against future impacts having a relatively smaller effect on the NPV and increased
+uncertainty in their estimation. The choice of time period can also have implications for the
+choice of discount rate, which is reflected in the Treasury discount rate guidance.
+
+Step 5: Account for uncertainty
+Benefits and costs used in CBA are always predicted future values, based on assumptions as to
+the expected impact of a regulatory change. There will therefore always be some uncertainty
+over the benefits and costs.
+There are various ways to account for this uncertainty. One way is to use ranges for specific
+unknown values. For example, a regulatory change may be expected to result in time savings for
+compliance, and while a precise value for these savings is unknown, a reasonable range may be
+10 to 20 hours per year. Another approach is to conduct sensitivity testing. This involves varying
+each assumption within a plausible range, and considering how sensitive the overall NPV result
+is to variation in that assumption (for example, does variation in a given assumption change a
+net benefit into a net cost?) As well as varying each assumption individually, scenario analysis
+can also be undertaken, which involves considering if a combination of plausible changes to
+each assumption reverses the sign of the NPV.
+
+Step 6: Identify distributional impacts
+The implicit framework underlying CBA is that if the benefits of a regulatory proposal exceed its
+costs, then society (in aggregate) is better off. However, the costs and benefits of a regulatory
+proposal typically fall on different groups. For example, while the benefits of a proposal may
+exceed the costs, the benefits may accrue to higher-income households, while the costs fall on
+lower-income households. It is important to explicitly identify who gains and who loses, and by
+how much. This makes these impacts transparent, and allows the ultimate decision-maker to
+consider whether the net benefits are large enough to justify any undesirable distributional
+impacts.
+
+12
+
+Summary
+CBA is a technique that identifies and measures in dollar terms the full range of societal impacts
+from a regulatory change. In doing so, it provides a structured, transparent, and evidence-based
+approach to regulatory decision-making. Used proportionately and alongside other forms of
+analysis, CBA helps ensure regulatory decisions are analytically rigorous and deliver net value to
+society.
+
+13
+
+14
+
+

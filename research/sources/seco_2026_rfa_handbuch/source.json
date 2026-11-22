@@ -1,0 +1,11 @@
+{
+  "key": "seco_2026_rfa_handbuch",
+  "citation": "SECO/WBF (2026). Handbuch Regulierungsfolgenabschätzung (RFA), Version 2.1, 19 May 2026 (status 9 July 2026).",
+  "doi": null,
+  "url": "https://www.seco.admin.ch/dam/de/sd-web/W7MSDZbhgl5Z/RFA-Handbuch_20260702.pdf",
+  "media_type": "application/pdf",
+  "sha256": "aa7e796e98f82267f3b01aac835147bf3ee5dcbdb8cd9f5cb2c041f90df87d47",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:22Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

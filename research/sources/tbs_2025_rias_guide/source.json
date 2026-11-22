@@ -1,0 +1,11 @@
+{
+  "key": "tbs_2025_rias_guide",
+  "citation": "Treasury Board of Canada Secretariat (2025). Guide to Regulatory Development and RIAS Writing.",
+  "doi": null,
+  "url": "https://wiki.gccollab.ca/images/f/fb/Guide_to_Regulatory_Development_and_RIAS_Writing_EN.docx",
+  "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "cf7a00c0347eb7bc5166c4bbc571e50b58bd136470706a89a0c71b4912b743ae",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "docx2txt.py: paragraphs of word/document.xml joined by blank lines"
+}

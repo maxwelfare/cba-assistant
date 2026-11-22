@@ -1,0 +1,11 @@
+{
+  "key": "bea_api_guide",
+  "citation": "BEA API for Data Retrieval, User Guide (U.S. Bureau of Economic Analysis)",
+  "doi": "",
+  "url": "https://apps.bea.gov/API/_pdf/bea_web_service_api_user_guide.pdf",
+  "media_type": "application/pdf",
+  "sha256": "21f9a5fa68aafb2eca35f2ff85948b415cdde9b72478594dd0064988b73d2ca0",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:27:17Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

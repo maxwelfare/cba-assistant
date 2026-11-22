@@ -1,0 +1,12 @@
+{
+ "key": "steindl_2015_reactance",
+ "citation": "Steindl C, Jonas E, Sittenthaler S, Traut-Mattausch E, Greenberg J (2015). Understanding psychological reactance: new developments and findings. Zeitschrift für Psychologie 223(4):205-214.",
+ "doi": "10.1027/2151-2604/a000222",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4675534/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "3b8776080df99dd8c07b3a58c2987096e3c46c1876f7c347332e5b7a13790894",
+ "licence": "open access (PMC)",
+ "fetched": "2026-11-14T13:09:38Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4675534/fullTextXML"
+}

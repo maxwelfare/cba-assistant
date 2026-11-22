@@ -1,0 +1,11 @@
+{
+  "key": "oia_2026_value_statistical_life_note",
+  "citation": "Office of Impact Analysis, PM&C (January 2026). Value of statistical life (guidance note).",
+  "doi": null,
+  "url": "https://oia.pmc.gov.au/sites/default/files/2026-01/value-statistical-life-guidance-note.pdf",
+  "media_type": "application/pdf",
+  "sha256": "320ae8cae064d8549e9621848e469519250215deb26d9e6851c62913ed1ffe6c",
+  "licence": "not stated in the extracted text",
+  "fetched_utc": "2026-11-09T16:23:35Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

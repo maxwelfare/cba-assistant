@@ -1,0 +1,15 @@
+# Reviewer agents on decisions: the weighing
+
+The owner said on 2026-10-30 local (an earlier session, the owner's message of 2026-10-31): "At every stage in the process, decisions should be subjected to reviewer agents. Probably make a custom agent definition for this. decisions should be questioned." ("before it is acted on" is the seat's gloss.) This note weighs that review by the five points of the shared `standards/process/controls.md`, as CORE rule 10 asks before a control is built.
+
+1. The fault it catches: a method, structure or input taken as first proposed, by the owner or the session, when the field has a better one. Kinds seen:
+   1.1. A run brief stopped by its cold readers on design choices the session made, such as an identity tolerance scaled by the result (a false fault near break-even), sensitivity indices that the run's design cannot compute, or no seed for a model's own randomness. Each stop costs a cold read; a review of the design before the brief is written catches them together.
+   1.2. A fault in a model's structure that surfaces only because the owner happens to ask for comments.
+   1.3. The owner's own reading: "You are very good at pointing to the proper methods when I ask, but you default to doing what I say if I don't specifically ask."
+   1.4. The literature: a model is more likely adequate when people with varied views shape it and a neutral specialist guides it (Phillips 1984, "A theory of requisite decision models", *Acta Psychologica* 56:29–48); model risk is managed by "effective challenge" from people independent of the model's development (Federal Reserve SR 11-7, 2011).
+2. Its benefit: a wrong method in a cost-benefit analysis misstates the result a client reads and is costly to undo once inputs are elicited and documents written around it. A review that changes one structural choice early saves at least one build round and, later, a revision of three documents.
+3. Its cost: one review is one agent at high effort, about 50,000 to 150,000 tokens and five to fifteen minutes; the owner reads a few ranked findings with the decision they bear on. False alarms are cleared by the author's answer and the editor's ruling (`notes/peer_review_trial.md` 2.1 and 2.3), never by the session alone.
+4. Cheaper alternatives, and why they fall short: the session reviewing its own decision is not independent, which is the fault in 1.3; the build workflow's cold reader reviews a brief for gaps, not whether its method is the field's best. So the review is scoped to decisions that set a method, a structure or an input, or can move a result; one far inside the result's uncertainty is not reviewed (CORE 1.5).
+5. Review date: 2026-12-01, with the shared build's review. The reading: count the findings that changed a decision against the tokens spent; if fewer than one review in four changes anything, narrow the scope.
+
+A change to a tool that alters any quantity it computes (a mean, a share, a set's total, a draw) is a decision that sets a method, put to the `referee` before it is built, since every case trusts the tool's definitions (method audit of 2026-11-17, section B).

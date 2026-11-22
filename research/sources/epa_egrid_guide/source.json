@@ -1,0 +1,11 @@
+{
+  "key": "epa_egrid_guide",
+  "citation": "U.S. EPA Clean Air and Power Division (2025). eGRID2023 Technical Guide with Year 2023 Data (prepared by Abt Global), January 2025.",
+  "doi": "",
+  "url": "https://www.epa.gov/system/files/documents/2025-01/egrid2023_technical_guide.pdf",
+  "media_type": "application/pdf",
+  "sha256": "12164c665217f1b4d00ac6a8115a3806710dab79993d02959cdf7f7f66abd841",
+  "licence": "not stated (U.S. government publication)",
+  "fetched_utc": "2026-11-09T17:26:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "zinl_2024_richtlijn_economische_evaluaties",
+  "citation": "Zorginstituut Nederland (2024). Richtlijn voor het uitvoeren van economische evaluaties in de gezondheidzorg, herziene versie 2024.",
+  "doi": "none",
+  "url": "https://www.zorginstituutnederland.nl/site/binaries/site-content/collections/documents/2024/01/16/richtlijn-voor-het-uitvoeren-van-economische-evaluaties-in-de-gezondheidszorg/Richtlijn+voor+het+uitvoeren+van+economische+evaluaties+in+de+gezondheidszorg+%28versie+2024%29.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5a5f0c83af4bd410b69054a65e838b39ec8a43ccf054534505b35c3e8dafea5d",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:33:31Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

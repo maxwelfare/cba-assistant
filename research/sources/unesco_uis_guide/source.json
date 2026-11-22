@@ -1,0 +1,11 @@
+{
+  "key": "unesco_uis_guide",
+  "citation": "UIS Data API OpenAPI schema (UNESCO Institute for Statistics)",
+  "doi": "",
+  "url": "https://api.uis.unesco.org/api/public/openapi/schema.json",
+  "media_type": "application/json",
+  "sha256": "40dde238c823c25d56c1c99a2d758455337dbaad5a8c8831436ab8fc0de3877f",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:32:49Z",
+  "text_method": "python json.dumps(json.load(original.json), indent=1)"
+}

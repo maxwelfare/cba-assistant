@@ -1,0 +1,11 @@
+{
+ "key": "mpb_2026_pfs_overall",
+ "citation": "기획예산처 (Ministry of Planning and Budget) (2026-05-29). 예비타당성조사 수행 총괄지침 [기획예산처훈령 제63호, 시행 2026. 5. 29., 일부개정] (Overall Guideline for conducting preliminary feasibility studies).",
+ "doi": null,
+ "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000280172&chrClsCd=010201 (public page https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000280172)",
+ "media_type": "text/html",
+ "sha256": "7145b3323bbf41343f26f997d069e1926e12e43f4397150b283dc16869c37bc0",
+ "licence": "not stated (statutory administrative rule published on the National Law Information Center)",
+ "fetched": "2026-11-09T16:20:00Z",
+ "text_method": "short ElementTree-free script ext.py: drop script/style, break lines at block tags, strip tags, unescape HTML; run with .venv/bin/python -I"
+}

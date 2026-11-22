@@ -1,0 +1,109 @@
+# Australia, implicit price deflators, annual (financial year ending 30 June), read from ABS 5206.0 on 2026-10-30.
+jurisdiction = "Australia"
+
+[common]
+publisher = "Australian Bureau of Statistics"
+release = "Australian National Accounts: National Income, Expenditure and Product, June 2026"
+release_date = "2026-09-02 11:30am AEST"
+release_page = "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release"
+date_read = "2026-10-30T16:50Z"
+base_year = "2023-24 = 100 (both files print 100 for 2023-24)"
+unit = "Index Numbers"
+series_type = "Original, DERIVED, annual"
+note = "ABS Data API (data.api.abs.gov.au, dataflow ANA_EXP) answered but serves implicit price deflators quarterly only, so the annual workbooks were used"
+
+[gross_non_farm_product_deflator]
+series = "Non-farm ;  Gross domestic product: Implicit price deflators ;"
+series_id = "A2304681A"
+table = "Table 34. Key Aggregates and analytical series, Annual"
+url = "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/jun-2026/5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx"
+quote = "Non-farm ;  Gross domestic product: Implicit price deflators ;"
+quote_note = "data item description in the workbook's Index and Data1 sheets, Series ID A2304681A, series start 1959-60 (22068), end 2025-26 (46174)"
+raw_file = "raw/abs_all/5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx"
+
+[gross_non_farm_product_deflator.values]
+"1989-90" = 39.2
+"1990-91" = 41.0
+"1991-92" = 41.7
+"1992-93" = 42.0
+"1993-94" = 42.4
+"1994-95" = 43.3
+"1995-96" = 44.6
+"1996-97" = 45.3
+"1997-98" = 45.8
+"1998-99" = 46.1
+"1999-00" = 47.3
+"2000-01" = 49.3
+"2001-02" = 50.5
+"2002-03" = 52.0
+"2003-04" = 53.9
+"2004-05" = 56.0
+"2005-06" = 59.0
+"2006-07" = 61.9
+"2007-08" = 64.7
+"2008-09" = 68.2
+"2009-10" = 69.0
+"2010-11" = 73.2
+"2011-12" = 74.5
+"2012-13" = 74.3
+"2013-14" = 75.4
+"2014-15" = 74.8
+"2015-16" = 74.2
+"2016-17" = 76.8
+"2017-18" = 78.2
+"2018-19" = 81.0
+"2019-20" = 82.4
+"2020-21" = 85.0
+"2021-22" = 91.1
+"2022-23" = 97.1
+"2023-24" = 100.0
+"2024-25" = 102.1
+"2025-26" = 105.0
+
+[gdp_deflator]
+series = "Gross domestic product: Implicit price deflators ;"
+series_id = "A2304682C"
+table = "Table 36. Expenditure on Gross Domestic Product (GDP), Chain volume measures and Current prices, Annual"
+url = "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/jun-2026/5206036_Expenditure_on_GDP_Annual.xlsx"
+quote = "Gross domestic product: Implicit price deflators ;"
+quote_note = "data item description in the workbook, Series ID A2304682C, series start 1959-60, end 2025-26"
+raw_file = "raw/abs_all/5206036_Expenditure_on_GDP_Annual.xlsx"
+
+[gdp_deflator.values]
+"1989-90" = 40.1
+"1990-91" = 41.3
+"1991-92" = 41.9
+"1992-93" = 42.3
+"1993-94" = 42.7
+"1994-95" = 43.7
+"1995-96" = 44.9
+"1996-97" = 45.4
+"1997-98" = 45.9
+"1998-99" = 46.2
+"1999-00" = 47.3
+"2000-01" = 49.5
+"2001-02" = 50.9
+"2002-03" = 52.5
+"2003-04" = 54.2
+"2004-05" = 56.2
+"2005-06" = 59.1
+"2006-07" = 62.1
+"2007-08" = 64.9
+"2008-09" = 68.1
+"2009-10" = 68.9
+"2010-11" = 73.2
+"2011-12" = 74.5
+"2012-13" = 74.4
+"2013-14" = 75.5
+"2014-15" = 75.0
+"2015-16" = 74.5
+"2016-17" = 77.2
+"2017-18" = 78.6
+"2018-19" = 81.4
+"2019-20" = 82.9
+"2020-21" = 85.4
+"2021-22" = 91.6
+"2022-23" = 97.5
+"2023-24" = 100.0
+"2024-25" = 102.3
+"2025-26" = 105.4

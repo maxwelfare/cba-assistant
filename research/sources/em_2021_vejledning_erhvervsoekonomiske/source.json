@@ -1,0 +1,11 @@
+{
+  "key": "em_2021_vejledning_erhvervsoekonomiske",
+  "citation": "Erhvervsministeriet/Erhvervsstyrelsen (2021): Vejledning om erhvervsøkonomiske konsekvensvurderinger, maj 2021",
+  "doi": null,
+  "url": "https://em.dk/Media/638478112526574223/maj%202021_Vejledning%20om%20erhvervs%c3%b8konomiske%20konsekvensvurderinger.pdf",
+  "media_type": "application/pdf",
+  "sha256": "3481d52b6f64ceb1e7674435634da7f7f60bc94210e07fbd8012f88ac2ddc19c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:24:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

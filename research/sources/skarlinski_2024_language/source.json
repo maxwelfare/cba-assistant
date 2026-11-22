@@ -1,0 +1,12 @@
+{
+ "key": "skarlinski_2024_language",
+ "citation": "Skarlinski MD et al (2024). Language agents achieve superhuman synthesis of scientific knowledge. arXiv:2409.13740.",
+ "doi": "10.48550/arXiv.2409.13740",
+ "url": "https://arxiv.org/pdf/2409.13740",
+ "media_type": "application/pdf",
+ "sha256": "7d45adf85d98a9a2f4e619f4f6c0e380c8ad842d678d50497ab5a20b6ae79f9c",
+ "licence": "CC BY-SA",
+ "fetched": "2026-11-17T11:52:57Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/2409.13740"
+}

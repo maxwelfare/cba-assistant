@@ -1,0 +1,11 @@
+{
+ "key": "lefebvre_2025_cochrane_ch4",
+ "citation": "Lefebvre C, Glanville J, Briscoe S, et al. Chapter 4: Searching for and selecting studies [last updated March 2025]. In: Higgins JP, Thomas J, et al (eds). Cochrane Handbook for Systematic Reviews of Interventions version 6.5.1. Cochrane, 2025.",
+ "doi": null,
+ "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-04",
+ "media_type": "text/html",
+ "sha256": "6ff162df6a74018c5f1aa66dcdc347b7bf05d89dab318b2deaed6854305d0442",
+ "licence": "not stated on the page (site footer: Copyright (c) 2026 The Cochrane Collaboration)",
+ "fetched": "2026-11-07T20:08:00Z",
+ "text_method": ".venv/bin/python -I <script> original.html text.txt (html.parser, script/style/nav/header/footer dropped)"
+}

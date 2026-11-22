@@ -1,0 +1,12 @@
+{
+ "key": "cohen_2010_handoff_literature_euro",
+ "citation": "x",
+ "doi": null,
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20378616",
+ "media_type": "application/xml",
+ "sha256": "75224a52617b0258e75a1abfe45069b41d9e17881ca0fda6dd3fe9e220c177f6",
+ "licence": "not stated",
+ "fetched": "2026-11-12T15:31:39Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20378616"
+}

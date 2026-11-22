@@ -1,0 +1,12 @@
+{
+ "key": "typst_docs_table",
+ "citation": "Typst GmbH. Typst documentation: Table (reference, model), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://typst.app/docs/reference/model/table/",
+ "media_type": "text/html",
+ "sha256": "9023d4ea981a4a7372f70ff30f766fd8d910b6fb280e8d32ff1217d40bec43ec",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:18:59Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://typst.app/docs/reference/model/table/"
+}

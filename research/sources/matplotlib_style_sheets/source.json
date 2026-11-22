@@ -1,0 +1,12 @@
+{
+ "key": "matplotlib_style_sheets",
+ "citation": "Matplotlib development team. Style sheets reference (gallery), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html",
+ "media_type": "text/html",
+ "sha256": "b2e0ae080ba5b6c3a24dc4ad119b4da064685adc9beee955c206ee60d8aed1cb",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:55Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html"
+}

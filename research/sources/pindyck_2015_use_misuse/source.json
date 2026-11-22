@@ -1,0 +1,11 @@
+{
+  "key": "pindyck_2015_use_misuse",
+  "citation": "Pindyck RS (2015). The use and misuse of models for climate policy. NBER Working Paper 21097 (April 2015); published in Review of Environmental Economics and Policy 11(1):100-114 (2017).",
+  "url": "https://www.nber.org/papers/w21097.pdf",
+  "media_type": "application/pdf",
+  "sha256": "733c9e1393bb459bc675d3662caf51c9c744d4d81c0626c9a79a2620d7acca02",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 41439
+}

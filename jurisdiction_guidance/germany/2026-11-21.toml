@@ -1,0 +1,91 @@
+# Germany, values in force on 2026-11-21, read on 2026-11-21 in the stored texts of the Federal Ministry of Finance's
+# circular of 8 June 2026 on cost rates and discount rates for economic-efficiency studies
+# (research/sources/bmf_2026_rs_kalkulationszins/text.txt), its Arbeitsanleitung Einführung in
+# Wirtschaftlichkeitsuntersuchungen (2011; research/sources/bmf_2011_arbeitsanleitung_wu/text.txt) and the Umweltbundesamt's
+# Handbuch Umweltkosten, Methodenkonvention 4.0 (2026; research/sources/uba_2026_methodenkonvention_4/text.txt). First
+# edition. Each `source` names the research/refs.toml key whose stored text holds the quote; each quote is the passage as
+# stored, a line break as a space.
+# Not collected: [discount_rate]. The one federal rate published is the BMF's nominal average rate for single-economy
+# (einzelwirtschaftliche) appraisals, entered below as [nominal_financial_discount_rate]; the cases discount money in
+# constant prices, and the Arbeitsanleitung sends measures with substantial economy-wide effects to separate rates the
+# ministries derive and agree with the BMF (for transport, the Bundesverkehrswegeplan 2030 Methodenhandbuch, whose host
+# bmv.de did not answer on 2026-11-21). A case that asks this edition for its discount rate refuses until a real social
+# rate is collected with its source.
+# Not collected: a value of a statistical life or of a prevented fatality. No stored German document states one in euros;
+# the UBA convention uses the value of Amann et al. (2020a) without stating it, and the BVWP accident cost rates (bmv.de)
+# and BASt's accident cost pages (404 on 2026-11-21) were not reached. A case that asks for one refuses.
+# The [price_index] is the Destatis consumer price index (Verbraucherpreisindex), annual averages, 2020 = 100, the index
+# the UBA convention names for bringing its cost rates to another price year; the BMF guidance works in nominal terms and
+# names none. Its values are copied by script from research/price_indices/2026-11-21/germany.toml (README rule 3). The
+# stored release ends at 2024, so money in a 2025 or later price year refuses until a later release is collected. It is
+# the second euro index in this folder (after ireland/2026-11-21): a case that pins both refuses the second (README rule 5).
+jurisdiction = "Germany"
+edition = "2026-11-21"
+
+[nominal_financial_discount_rate]
+rates = [0.013]
+unit = "nominal rate per year, the BMF's average rate (Durchschnittszinssatz) for federal economic-efficiency studies of single-economy measures; not a real social discount rate"
+note = "For financially significant, long-running measures where substantial private financing is an alternative, the circular asks for the Bundesbank's yields for the same terms and dates instead (not collected). The rate is revised by each yearly circular; the previous ones were 1.2% (23 June 2025, by the Bundesamt für Soziale Sicherung's relay, bas_2026_kalkulationszinssaetze) and 0.9% (7 July 2023, bmf_2023_rs_kalkulationszins)."
+document = "Bundesministerium der Finanzen. Rundschreiben vom 8. Juni 2026: 1. Personal- und Sachkosten in der Bundesverwaltung für Wirtschaftlichkeitsuntersuchungen und Kostenberechnungen (PSK); 2. Kalkulationszinssätze für Wirtschaftlichkeitsuntersuchungen"
+url = "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Oeffentliche_Finanzen/Bundeshaushalt/personalkosten-sachkosten-2025-barrierefrei.pdf?__blob=publicationFile&v=2"
+quote = "Der nominale Kalkulationszinssatz (Durchschnittszinssatz) gemäß Nummer VII. des Abschnitts B der „Arbeitsanleitung Einführung in Wirtschaftlichkeitsuntersuchungen“ (Anhang zur VV Nr. 2.3 zu § 7 BHO) beträgt 1,3 %."
+quote_scope = "Bei monetärer Betrachtung von Maßnahmen mit nicht zu vernachlässigenden gesamtwirtschaftlichen Auswirkungen sind gesonderte Zinssätze zugrunde zu legen, die von den Ressorts aus gesamtwirtschaftlichen Kriterien abzuleiten und mit dem BMF abzustimmen sind."
+scope_source = "bmf_2011_arbeitsanleitung_wu"
+licence = "not stated in the stored text (Federal Ministry of Finance publication)"
+source = "bmf_2026_rs_kalkulationszins"
+
+[price_index]
+currency = "EUR"
+series = "Verbraucherpreisindex für Deutschland (consumer price index), annual average"
+series_note = "Destatis, Statistischer Bericht 'Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948' (10 July 2025), sheet 611xx-01, column Deutschland, Verbraucherpreisindex, 2020 = 100; calendar years, as published, 1991 to 2024"
+unit = "index, 2020 = 100"
+publisher = "Statistisches Bundesamt (Destatis)"
+document = "Statistischer Bericht: Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948, Artikelnummer 5611103251065_SB, published 10 July 2025"
+url = "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/statistischer-bericht-verbraucherpreisindex-lange-reihen-5611103.xlsx?__blob=publicationFile&v=29"
+date_read = "2026-11-21"
+quote = "Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948"
+licence = "Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenangabe gestattet (© Statistisches Bundesamt (Destatis), 2025)"
+source = "destatis_2025_vpi_lange_reihen"
+research_file = "research/price_indices/2026-11-21/germany.toml"
+research_table = "calendar_year"
+guidance_document = "Umweltbundesamt (Eser, Matthey, Bünger), Handbuch Umweltkosten: Methodenkonvention 4.0 (2026), introduction (application of the cost rates)"
+guidance_url = "https://www.umweltbundesamt.de/system/files/medien/14437/publikationen/2026-10/MK_4_0_Kostens%C3%A4tze_final2.pdf"
+guidance_quote = "Für die Anwendung der Kostensätze auf Aktivitäten oder Emissionen nach 2025 ist eine Preisanpassung erforderlich. Dafür empfehlen wir, die Kostensätze anhand des Verbraucherpreisindexes des jeweiligen nationalen Statistikamtes anzupassen."
+guidance_quote_own_use = "Wir haben den Verbraucherpreisindex des Statistischen Bundesamtes verwendet, um die Kostensätze in €2025 umzurechnen"
+guidance_source = "uba_2026_methodenkonvention_4"
+
+[price_index.calendar_year]
+"1991" = 61.9
+"1992" = 65.0
+"1993" = 67.9
+"1994" = 69.7
+"1995" = 71.0
+"1996" = 72.0
+"1997" = 73.4
+"1998" = 74.0
+"1999" = 74.5
+"2000" = 75.5
+"2001" = 77.0
+"2002" = 78.1
+"2003" = 78.9
+"2004" = 80.2
+"2005" = 81.5
+"2006" = 82.8
+"2007" = 84.7
+"2008" = 86.9
+"2009" = 87.2
+"2010" = 88.1
+"2011" = 90.0
+"2012" = 91.7
+"2013" = 93.1
+"2014" = 94.0
+"2015" = 94.5
+"2016" = 95.0
+"2017" = 96.4
+"2018" = 98.1
+"2019" = 99.5
+"2020" = 100.0
+"2021" = 103.1
+"2022" = 110.2
+"2023" = 116.7
+"2024" = 119.3

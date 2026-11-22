@@ -1,0 +1,100 @@
+# Australia (Commonwealth), values in force on 2026-10-30: the 2026-10-29 edition with money declared by currency and
+# price_year (the value of statistical life and life-year, in 2025 dollars, their units without the currency), its
+# [consumer_price_index] left out, and a [price_index], the Gross Non-Farm Product implicit price deflator by calendar
+# year. The quotes of the 2026-10-29 edition were read in the
+# document's own text on 2026-10-29 or 2026-10-30 (the Office of Impact Analysis page as raw HTML; its value of
+# statistical life note as PDF text).
+jurisdiction = "Australia (Commonwealth)"
+edition = "2026-10-30"
+
+[discount_rate]
+central = 0.07
+sensitivity = [0.03, 0.10]
+unit = "real rate per year"
+document = "Office of Impact Analysis, Cost Benefit Analysis guidance"
+url = "https://oia.pmc.gov.au/resources/cost-benefit-analysis"
+quote = "OIA requires the calculation of net present values at an annual real discount rate of 7 per cent."
+quote_sensitivity = "the net present values should also be calculated with real discount rates of 3 per cent and 10 per cent."
+note = "Footnote 5 of the same page: OIA also accepts a central rate of 8 per cent with sensitivity at 3 and 10 per cent (Harrison 2010)."
+licence = "not stated on the page (its footer links a copyright notice, not read)"
+
+[value_of_statistical_life]
+value = 5870000
+unit = "per statistical life"
+currency = "AUD"
+price_year = 2025
+document = "Office of Impact Analysis, Value of statistical life guidance note, January 2026"
+url = "https://oia.pmc.gov.au/sites/default/files/2026-01/value-statistical-life-guidance-note.pdf"
+quote = "Using ABS Wage Price Index data to express these estimates in 2025 dollars gives a VSL of $5.87 million, and a VLY of $253,000 based on a private time preference discount rate of 3 per cent."
+indexation = "ABS Wage Price Index (Cat. No. 6345.0), as the note states for its own update; it gives no rule for later years."
+licence = "not stated in the note"
+
+[value_of_statistical_life_year]
+value = 253000
+unit = "per life-year"
+currency = "AUD"
+price_year = 2025
+document = "Office of Impact Analysis, Value of statistical life guidance note, January 2026"
+url = "https://oia.pmc.gov.au/sites/default/files/2026-01/value-statistical-life-guidance-note.pdf"
+quote = "the value of statistical life year is $253,000 in 2025 dollars"
+licence = "not stated in the note"
+
+[price_index]
+currency = "AUD"
+series = "Non-farm ;  Gross domestic product: Implicit price deflators ;"
+series_id = "A2304681A"
+unit = "index, the mean of two financial years each 2023-24 = 100"
+publisher = "Australian Bureau of Statistics"
+document = "Australian National Accounts: National Income, Expenditure and Product, June 2026"
+table = "Table 34. Key Aggregates and analytical series, Annual"
+url = "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/jun-2026/5206034_Key_Aggregates_and_Analytical_Series_Annual_data.xlsx"
+date_read = "2026-10-30T16:50Z"
+quote = "Non-farm ;  Gross domestic product: Implicit price deflators ;"
+quote_note = "data item description in the workbook's Index and Data1 sheets, Series ID A2304681A, series start 1959-60 (22068), end 2025-26 (46174)"
+licence = "Creative Commons Attribution 4.0 International"
+licence_note = "The ABS page https://www.abs.gov.au/website-privacy-copyright-and-disclaimer, read 2026-10-30 and stored at research/price_indices/2026-10-30/raw/abs_copyright.html: \"All material presented on this website is provided under a Creative Commons Attribution 4.0 International licence\", with exceptions (the Commonwealth Coat of Arms, the ABS logo, trade marks, unit record data, content supplied by third parties, branding) that do not touch this series."
+derivation = "ABS publishes this deflator annually only for financial years ending 30 June. Each calendar year Y here is the mean of the financial years (Y-1)-Y and Y-(Y+1), the two halves of which year Y is made, so that every price year is a calendar year, by the owner's ruling of 2026-10-30: \"maybe just drop the entire concept of financial year and assume everything is a calendar year\", and for details of this size, \"Just do what would be normal in the field\". Computed by script from research/price_indices/2026-10-30/australia.toml, [gross_non_farm_product_deflator.values], 1989-90 to 2025-26."
+guidance_document = "Commonwealth of Australia, Handbook of Cost-Benefit Analysis (January 2006), section 4.8, the pages the Office of Impact Analysis's Cost Benefit Analysis guidance note cites for real and nominal values"
+guidance_url = "https://blogs.ubc.ca/apfnet04/files/2015/08/SUFES_05_Module-VI_Handbook-of-BCA.pdf"
+guidance_quote = "unless a specific IPD seems applicable, a general deflator such as the Gross Non-Farm Product IPD may appropriately be used."
+guidance_url_note = "a mirror copy"
+research_file = "research/price_indices/2026-10-30/australia.toml"
+research_table = "gross_non_farm_product_deflator.values"
+
+[price_index.calendar_year]
+"1990" = 40.1
+"1991" = 41.35
+"1992" = 41.85
+"1993" = 42.2
+"1994" = 42.849999999999994
+"1995" = 43.95
+"1996" = 44.95
+"1997" = 45.55
+"1998" = 45.95
+"1999" = 46.7
+"2000" = 48.3
+"2001" = 49.9
+"2002" = 51.25
+"2003" = 52.95
+"2004" = 54.95
+"2005" = 57.5
+"2006" = 60.45
+"2007" = 63.3
+"2008" = 66.45
+"2009" = 68.6
+"2010" = 71.1
+"2011" = 73.85
+"2012" = 74.4
+"2013" = 74.85
+"2014" = 75.1
+"2015" = 74.5
+"2016" = 75.5
+"2017" = 77.5
+"2018" = 79.6
+"2019" = 81.7
+"2020" = 83.7
+"2021" = 88.05
+"2022" = 94.1
+"2023" = 98.55
+"2024" = 101.05
+"2025" = 103.55

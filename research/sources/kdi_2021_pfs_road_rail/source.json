@@ -1,0 +1,11 @@
+{
+ "key": "kdi_2021_pfs_road_rail",
+ "citation": "한국개발연구원 공공투자관리센터 (KDI PIMAC) (2021-05). 예비타당성조사 수행을 위한 세부지침 도로·철도부문 연구 (Detailed guideline for preliminary feasibility studies, road and rail).",
+ "doi": null,
+ "url": "https://pimac.kdi.re.kr/common/studydown.jsp?filename=4b%2FLxh5VuJRCD6tJbwJGFw%3D%3D&member_pub=2 (listing https://pimac.kdi.re.kr/guide/rguide_list.jsp; pub_no 17190)",
+ "media_type": "application/pdf",
+ "sha256": "f55841949bde15fb7cd4a98efee37dc887d4ae93e994a0b46d53c5f4baf31975",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:20:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

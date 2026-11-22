@@ -1,0 +1,11 @@
+{
+  "key": "mpidr_hmd_methods_guide",
+  "citation": "Wilmoth JR, Andreev K, Jdanov D, Glei DA, Riffe T (2025). Methods Protocol for the Human Mortality Database, Version 6 (revised 5 Aug 2025).",
+  "doi": "",
+  "url": "https://www.mortality.org/File/GetDocument/Public/Docs/MethodsProtocolV6.pdf",
+  "media_type": "application/pdf",
+  "sha256": "df97b6b413793107b36647b6ecd77d4681dd7b089df2440f81a6efa2015f209e",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:27:54Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

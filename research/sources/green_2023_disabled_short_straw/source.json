@@ -1,0 +1,12 @@
+{
+ "key": "green_2023_disabled_short_straw",
+ "citation": "Green D (2023). When disabled people draw the short straw [on plastic straw bans and disabled people]. Student note, University of North Carolina School of Law.",
+ "doi": null,
+ "url": "https://law.unc.edu/wp-content/uploads/2023/05/Green_ForPublication.pdf",
+ "media_type": "application/pdf",
+ "sha256": "c8575f9964ec1230d4a5233a1135d4072ebfdb0457a201dd82a67e51572b9294",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:17:00Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://law.unc.edu/wp-content/uploads/2023/05/Green_ForPublication.pdf"
+}

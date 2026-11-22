@@ -1,0 +1,12 @@
+{
+ "key": "salib_160_rbd_fast",
+ "citation": "Herman J, Usher W, Iwanaga T et al. SALib 1.6.0, src/SALib/analyze/rbd_fast.py (GitHub tag v1.6.0), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://raw.githubusercontent.com/SALib/SALib/v1.6.0/src/SALib/analyze/rbd_fast.py",
+ "media_type": "text/x-python",
+ "sha256": "15dc78285049fc593a122aeacf5523ac42ab7698e7092c9edbd39855990acb56",
+ "licence": "MIT",
+ "fetched": "2026-11-13T11:42:01Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://raw.githubusercontent.com/SALib/SALib/v1.6.0/src/SALib/analyze/rbd_fast.py"
+}

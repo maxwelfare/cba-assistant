@@ -1,0 +1,12 @@
+{
+ "key": "treasury_2026_discount_rates_wayback",
+ "citation": "New Zealand Treasury, Discount Rates page (Internet Archive copy of 30 Oct 2026, of the official page; rates per Treasury Circular 2024/15)",
+ "doi": null,
+ "url": "http://web.archive.org/web/20261030085123/https://www.treasury.govt.nz/information-and-services/public-sector-leadership/guidance/reporting-financial/discount-rates",
+ "media_type": "text/html",
+ "sha256": "ff21d2c70f6d2da4f42962ccbfeead8af11ec5909b99ee66ca0e2ef5cfd7d34f",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:52:44+00:00",
+ "text_method": "regex tag-strip script (scripts/styles removed, block ends to newlines, html.unescape); run with python -I",
+ "notes": "Internet Archive copy of the official Treasury page; Treasury host is Cloudflare-walled"
+}

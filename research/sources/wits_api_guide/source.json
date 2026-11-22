@@ -1,0 +1,11 @@
+{
+  "key": "wits_api_guide",
+  "citation": "World Bank. WITS API introduction, wits.worldbank.org/witsapiintro.aspx, page as fetched 2026-11-09.",
+  "doi": "",
+  "url": "https://wits.worldbank.org/witsapiintro.aspx",
+  "media_type": "text/html",
+  "sha256": "0ba3968fa68723d12eb3d0ec3cd75391c2c086373d818d60cd34b5e1649c6643",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:07Z",
+  "text_method": ".venv/bin/python -I (regex script: removed script/style/nav/header/footer, paragraph breaks at block-end tags, tags stripped, entities unescaped)"
+}

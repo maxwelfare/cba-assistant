@@ -1,0 +1,11 @@
+{
+  "key": "bafu_2020_monetarisierung_umweltwirkungen",
+  "citation": "Bertschmann D, Bieler C, Sutter D, INFRAS for BAFU (2020). Hilfestellung für die Monetarisierung von Umweltwirkungen politischer Massnahmen, Schlussbericht Version 2020.",
+  "doi": null,
+  "url": "https://www.bafu.admin.ch/dam/de/sd-web/ui8klvKTlpul/hilfestellung-fuer-die-monetarisierung-von-umweltwirkungen-politischer-massnahmen.pdf",
+  "media_type": "application/pdf",
+  "sha256": "e2d9dcd86ba22c5b4685e69b6f306b24972cceb0205f1d58ed2f9c8687378b30",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:22Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

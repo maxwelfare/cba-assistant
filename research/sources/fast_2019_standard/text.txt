@@ -1,0 +1,2781 @@
+WWW.FAST-STANDARD.ORG
+
+The FAST
+Standard
+Practical, structured design rules
+for financial modelling.
+
+Version/ FAST Standard 02c July 2019
+
+FAST Standard 02c July 2019 / 1
+
+Contents
+Introduction
+
+3
+5
+7
+8
+9
+10
+
+Welcome to the FAST Standard
+The FAST Philosophy
+The FAST Acronym
+How Rules are Organised
+A Living Document
+Document Conventions
+
+1.0
+
+13
+15
+19
+20
+
+Workbook Design
+1.01 General Workbook Design Principles
+1.02 Sheet Organisation
+1.03 Multiple Workbook Models
+
+2.0
+
+22
+23
+25
+27
+28
+29
+31
+
+Worksheet Design
+2.01 Universal Design Layout Principles
+2.02 Calculation Blocks
+2.03 Header Design
+2.04 Input Sheets
+2.05 Presentation Sheets
+2.06 Control Sheets
+
+3.0
+
+32
+33
+35
+36
+40
+42
+45
+46
+
+The Line Item
+3.01 Line Item Taxonomy
+3.02 Formula Design Fundamentals
+3.03 Formula Simplicity
+3.04 Formula Clarity
+3.05 FAST Labelling Conventions
+3.06 Links
+3.07 Timing Flags and PPFs
+
+4.0
+
+48
+49
+51
+52
+53
+53
+53
+
+Excel Features Used in Modelling
+4.01 Excel Functions
+4.02 Formatting Features
+4.03 Excel Names
+4.04 Data Validation
+4.05 Group Outline
+4.06 Macros / VBA Considerations
+
+5.0
+6.0
+
+54
+
+Appendix A: FAST Formatting
+
+56
+
+Appendix B: FAST Terminology
+
+62
+
+Appendix C: Rules in Short
+
+7.0
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+2 / FAST Standard 02c July 2019
+
+Introduction/
+
+i
+
+Welcome to the FAST Standard
+
+FAST Standard 02c July 2019 / 3
+
+Welcome to
+the FAST
+Standard
+Welcome to the FAST Standard, a set of rules on
+the structure and detailed design of spreadsheetbased models.
+This standard set of rules provides both a clear
+route to good model design for the individual
+modeller, and a common style platform on
+which modellers and reviewers can rely when
+passing models amongst themselves.
+See How Rules are Organised, page 7, for a discussion on how these rules are
+organised and numbered.
+
+4 / FAST Standard 02c July 2019
+
+The FAST
+Philosophy
+The FAST Standard is published openly
+and regularly revised by the FAST Standard
+Organisation.
+
+The Signatories to the FAST Standard believe
+financial models must be as simple as possible,
+but no simpler. Any model that is unnecessarily
+complicated is not good. Without simplicity
+supported by rigorous structure a financial
+model will be poorly suited to its sole purpose –
+supporting informed business decisions.
+The Standard advocates a philosophy of good financial model design
+rules founded on the acronym FAST: flexible, appropriate, structured,
+and transparent. It advocates transparent model structure and clear, crisp
+modelling style. See section The Fast Acronym on page 7, for details on each
+of these fundamental design priorities.
+The FAST Standard is primarily concerned with good spreadsheet design. While
+its remit does not extend to the management and control environment in which
+spreadsheets are used (such as back-up, version control and testing), modellers
+using the Standard are encouraged to consider these important aspects of the
+business environment when building and deploying their models.
+The Standard has been developed from the experience of industry
+practitioners who have learned simple techniques to replace overly-clever
+‘good ideas’ that proved bad in practice over time. It documents a skilled
+craft that is functional within the realities of the business environment. As
+a minimum objective, models must be free of fundamental omissions and
+logical errors, and this outcome must be achieved under short lead times.
+However, a good model must achieve more than this minimum standard.
+It must be easily used and reviewed by others and readily adaptable as
+circumstances change.
+The FAST Standard speaks predominantly about outcomes, i.e what the
+final model should look like. It dwells little on the trade-craft of executing
+spreadsheet models, with specifics related to Microsoft Excel-based execution.
+For instance, it does not detail the use of recommended Excel keystrokes
+or so-called shortcut keys – vastly superior to using a mouse in almost all
+circumstances – on which the FAST Standard relies.
+
+FAST Standard 02c July 2019 / 5
+
+The FAST
+Philosophy
+
+However, no set of design rules can be entirely divorced from the
+manufacturing environment in which the product must be built. Many of
+the design rules are expressly recommended because of the strengths
+and weaknesses of the Microsoft Excel modelling environment, providing
+designs that take advantage of the environment’s strengths and mitigating
+its weaknesses. Recommending design that takes advantage of efficient and
+error-reducing construction techniques is one of the prime objectives of the
+FAST Standard.
+Finally, the FAST Standard presumes the reader has a good understanding of
+Excel; this is not a ‘how to’ document, but a professional Standard supported
+by expert modellers.
+
+6 / FAST Standard 02c July 2019
+
+The FAST
+Acronym
+Flexible
+Appropriate
+
+Model design and modelling techniques must allow models to be both flexible in
+the immediate term and adaptable in the longer term. Models must allow users
+to run scenarios and sensitivities and make modifications over an extended
+period as new information becomes available -- even by different modellers. A
+flexible model is not an all-singing, all-dancing template model with an option
+switch for every eventuality. Flexibility is born of simplicity.
+
+Models must reflect key business assumptions directly and faithfully without
+being over-built or cluttered with unnecessary detail. The modeller must not lose
+sight of what a model is: a good representation of reality, not reality itself.
+Spurious precision is distracting, verging on dangerous, particularly when it
+is unbalanced. For example, over-specifying tax assumptions may lead to an
+expectation that all elements of the model are equally certain and, for example,
+lead to a false impression, if the revenue forecast is essentially guesswork.
+An overly precise base case only serves to drown analytically more important
+scenario-based risk analysis and likely ensures the model is incapable of conducting Monte Carlo analyses practically.
+
+Structured
+Transparent
+
+Rigorous consistency in model layout and organisation is essential to retain a
+model’s logical integrity over time, particularly as a model’s author may change.
+A consistent approach to structuring workbooks, worksheets and formulas
+saves time when building, learning, or maintaining the model.
+
+Models must rely on simple, clear formulas that can be understood by other
+modellers and non-modellers alike. Confidence in a financial model’s integrity
+can only be assured with clarity of logic structure and layout. Many recommendations that enhance transparency also increase the flexibility of the model to
+be adapted over time and make it more easily reviewed.
+Fundamental to supporting each of these aims is the root definition of the term
+analysis– the concept of ‘breaking things up’. This theme must be applied at
+different levels of model design: tactically in forming short, simple formulas;
+functionally to separate timing, escalation, and monetary calculations; and structurally at the level of worksheet purpose.
+
+FAST Standard 02c July 2019 / 7
+
+How
+Rules are
+Organised
+Nearly all modelling design decisions are objectively good or bad; a minority
+of modelling alternatives are simply one modeller’s preferred approach over
+another. Hence the FAST Standard is fundamentally organised around a set of
+rules – dos and don’ts
+Rules are meant to be broken. However, such pragmatic behaviour does not
+render the rule book useless. Breaking rules must be a conscious decision made
+with justification. Inexperienced modellers will know they are on ‘thin ice’ when
+breaking rules and will learn from experience when they have regretted rulebreaking in the past.
+The Standard lists exceptions where breaking rules may be advisable.
+Analogies between good modelling and good writing standards are legion,
+and this extends to the means of organising this specification: what works
+for the budding author works for the financial modeller. For a writing method,
+an experienced author would first counsel on how to organise the book into
+chapters, then drill into advice on structuring individual chapters into sections and
+paragraphs, and finally details on good sentence structure (including word choice).
+
+In this spirit, the FAST Standard organises its rules
+on good model design into four main chapters:
+1. The workbook is analogous to the author’s overall subject. Workbook rules
+are concerned with how the subject should be divided up, its chapters, and the
+logical order and organisation of the overall model. The rules that relate to this
+level are collected in section 1.0/ Workbook Design on page 13
+2. A worksheet is similar to a chapter in a book. Worksheet rules are concerned
+with design layout, including column usage and breaking the chapter’s subject
+into ‘sections’ and ‘paragraphs’. The rules for how to organise the worksheet are
+collected in section 2.0/ Worksheet Design on page 22
+3. The line item is analogous to a specific sentence. Line items should have clear
+labels, clear unit designation, and their formulas should be short, simple, direct,
+and readily understood. The rules that relate to line items are collected in section
+3.0/ The Line Item on page 32
+4. Microsoft Excel is the tool used to create the model analogous to word
+processing software. Excel has numerous features that can be applied in
+modelling. Rules governing which features are good, which are bad, and which
+can be used, but with caution are listed in section 4.0/ Excel Features Used in
+Modelling on page 48
+
+8 / FAST Standard 02c July 2019
+
+A Living
+Document
+The Standard is an evolving document and discussion on points of the Standard are ongoing. You can join in the discussion on the FAST Standard Organisation
+website: www.fast-standard.org
+The FAST website is being updated to accompany the new published Standard.
+You can sign up at www.fast-standard.org to be informed when the new site is
+available and the revised FAST Standard has been published.
+Following the recommendations of the FAST Standard moderators, this document
+is saved to a new version every time a major update is performed. The first version of
+the document is FAST01a, incrementing from a to z before reaching 02.
+When a discussion has come to a conclusion, or a temporary agreement, the
+conclusions are added to the Standard document as rules and exceptions. A new
+version of the document is issued every three months, or when there are several
+new rules to add to it, or significant changes to make to the existing Standard.
+
+FAST Standard 02c July 2019 / 9
+
+Document
+Conventions
+The Standard is divided into chapters and sections; each section holds a
+number of rules. Rules are numbered according to the section:
+FAST SECTION NUMBER-RULE NUMBER
+For example, FAST 1.01-2
+Exceptions to the main rules are expressed as sub-rules:
+FAST-SECTIONNUMBER-RULENUMBER.n
+For example, FAST 1.10-2.1
+Exceptions are listed immediately after rules and are indented.
+Rules are, for the most part, prescriptive and use prescriptive language: do not,
+always, never. When a rule is suggestive, less strong language is used: avoid, should.
+A list of defined terms can be found in FAST Terminology on page 56
+Defined terms are bold and blue (or underlined when contained within a rule.)
+“good modelling practice begins at the workbook level”.
+Where keyboard shortcuts are referred to, they are expressed in one of two ways:
+Key sequences, where keys are pressed one after the other, are expressed with
+commas (,) separating the keys: F5, ENTER
+Key combinations, where the keys are pressed at the same time, are shown with
+the keys separated by plus (+) signs: CTRL + SHIFT + J
+Throughout, the Microsoft style for referring to keys is used, so, for example, all
+keys in a sequence or combination are listed and the letters are always shown in
+capitals, as they are printed on the keyboard.
+
+10 / FAST Standard 02c July 2019
+
+FAST Standard 02c July 2019 / 11
+
+The FAST Standard/
+
+12 / FAST Standard 02c July 2019
+
+1
+
+Section 1.0/
+Workbook Design
+
+FAST Standard 02c July 2019 / 13
+
+1.0
+
+Workbook
+Design
+Good modelling practice begins with an explicit
+and purposeful structure applied with consistent
+discipline at the workbook level.
+The high-level layout of a model must reflect
+the requirements of two fundamentally different
+groups of interested parties. To borrow on the
+automotive analogy, financial model design must
+cater to both drivers (users of financial models)
+and mechanics (modellers).
+
+14 / FAST Standard 02c July 2019
+
+1.01 General
+Workbook
+Design
+Principles
+The rules in this section apply generally to
+workbook design and/or all worksheets in a model.
+FAST 1.01-01
+
+Separate worksheets by type: Foundation, Workings,
+Presentation and Control.
+Following on from the principles of good automotive design, worksheets
+within a model should be grouped within the following four functional classes:
+1. Foundation, including sheets for inputs, timing flags, indexation factors: the
+model’s chassis or main underpinnings. In adapting a model, re-designing elements
+of the foundation, particular time structure, are the most hazardous operations;
+2. Workings, i.e. the build-ups of calculations leading to presented results:
+the model’s ‘engine’;
+3. Presentation, including financial statements, charts, primary commercial
+inputs, and summary results: the model’s dashboard and primary showroom
+selling points.
+4. Control, e.g. check sheets, control of sensitivities and scenarios, changetracking, list of pending changes, version control, and table of contents: the
+model’s main control devices and engine status indicators.
+Each of these functional groups has a different audience (model driver vs. model
+mechanic) and hence a different design priority.
+An issue that arises in the preceding analysis that often causes design challenge
+and confusion is the dual role of inputs: on the one hand foundation and on
+the other presentation and/or control. Where should they be placed? Input
+organisation is an important design choice; the pros and cons of different
+approaches should be considered carefully. Should Input sheets ever have
+calculations? Should inputs ever be located on Workings sheets?
+FAST Standard 02c July 2019 / 15
+
+Design specifics for each of family of worksheet are presented in the relevant
+sections in Chapter 2: Worksheet Design:
+• input sheets are described in section 2.04, page 23,
+• presentation sheets are described in section 2.05, page 24, and
+• control sheets are described in section 2.06, page 26.
+
+FAST 1.01-02
+
+Maintain consistent column structure across all sheets.
+
+Set up a standard column definition and apply this across all sheets if at all possible,
+even if this causes a requirement for ‘extra’, unused columns on some sheets. For
+instance, the column used for labels, constants, units, and first column of given
+time series can usually be conformed across all sheets in a model.
+
+FAST 1.01-03
+FAST-1.01-03.1
+
+Maintain a consistent time ruler throughout the model
+Except when multiple time resolutions are required
+Presuming the model can be designed with a consistent time resolution
+throughout (e.g. monthly, quarterly, annual), each worksheet in the model
+should have an identical time axis. This means each worksheet uses the same
+column for the start of the time ruler and each time ruler should run to the same
+length, even if this means that some worksheets have unused columns.
+Inconsistent time rulers in different parts of the model cause confusion; keeping
+the time ruler as consistent as possible vastly improves readability and reduces
+possibility that serious errors are missed during the review process.
+
+FAST 1.01-04
+
+Ensure primary time rulers span time frames of secondary rulers
+
+In some circumstances, a model may require different time resolutions and hence
+different time rulers with a different timing frequency, for example a ‘secondary’,
+monthly resolution construction period followed by a ‘primary’ quarterly
+operations period.
+In these cases, ensure that the primary time ruler encompasses the higherresolution time period such that summarisation of data from both periods can
+be effected more easily.
+
+FAST 1.01-05
+
+Proliferate links to maximise navigational efficiency
+Repeated links in the model have the dual benefit of increasing formula
+comprehension by co-locating ingredients, more formally known as precedents,
+alongside the formula itself, within a single calculation block. This is one of
+the cornerstones of the FAST Standard as it is a singularly effective means of
+increasing the transparency of a financial model.
+
+16 / FAST Standard 02c July 2019
+
+Links have the additional benefit of increasing navigational efficiency within a
+model. The inbuilt CTRL + [ keyboard shortcut will go straight to the source of a
+link, where there is a single link in the reference. F5, ENTER returns to the original
+link location. This greatly increases ease of review of the model user within a given
+calculation block and increases navigational efficiency throughout the model.
+Note: for users of non Qwerty keyboards, CTRL + [ will not work. The standard
+FAST Format Macros book contains a work around for those keyboards, with
+alternative keystrokes assigned to SHIFT + CTRL + J to following the link, and
+SHIFT + CTRL + K returning from a followed link.
+As stated in FAST 3.06-02: Do not create daisy chains; do not link to links, page
+45, all links should point back to the original source calculation and should never
+be daisy chained. Daisy chained links impair the navigational effectiveness of links
+by requiring the user for following multiple steps to locate the original calculation,
+and by destroying the efficient ‘return’ operation possible with F5, ENTER.
+
+FAST 1.01-06
+
+Mark exports with red font and imports with blue font
+
+While the Standard does not attach any philosophical importance to the choice
+of colours per se, one of the intentions of the Standard is to engender a shared
+language of modelling across practitioners. There is a case therefore for all users
+of the Standard adhering to the same colour convention for imports and exports,
+simply to reduce the incremental effort required to decode a model where the
+Standard convention has not been followed. Normally the argument for not
+following the Standard convention comes down to personal preference on the
+part of the modeller, which, as aesthetically sensitive as the individual may be, is
+outweighed by the industry network-effect of shared communication protocols.
+
+FAST 1.01-07
+
+Calculate only once
+
+A given calculation should appear only once in a model. While this may sound
+obvious, it is often violated in practice. Even if it is simple to do otherwise,
+ensure that subsequent requirements to display or use a set of figures are
+created by a direct link back to the source calculation, not by repeating a
+calculation. (The rationale for this principle is similar to the rationale that an input
+assumption must appear only once in a model.)
+
+FAST 1.01-08
+
+Use normally positive convention on Workings sheets
+
+The normally positive convention sees all figures in a model as positive and the
+direction of the value – whether it is coming in or going out – is suggested by the
+label. Positive labels such as revenues and receipts indicate that something is
+coming in and negative labels such as expenses and expenditure indicate that
+something is going out.
+
+FAST Standard 02c July 2019 / 17
+
+FAST 1.01-09
+
+Use in-flow / out-flow convention on Presentation sheets
+
+Flows can be of two types, either an inflow or an outflow. A clear distinction
+should be made between the two. In order to comply with user expectation and
+thereby enhance model readability, inflows should be represented as a positive
+value and outflows should be represented as a negative value. This is the inflow
+/ outflow convention.
+
+FAST 1.01-10
+
+Do not overuse macros
+Consensus position being developed for subsequent draft.
+
+FAST 1.01-11
+
+Never release a model with purposeful use of circularity
+
+Circularity is Excel’s in-built capacity to iterate to a solution. Test for lack of
+convergence, for example insufficient debt commitments, rather than setting up
+model to converge automatically; this often reflects commercial reality anyway.
+Circular models inevitably suffer from the modeller being blinded by precision
+over the principle of accuracy.
+
+18 / FAST Standard 02c July 2019
+
+1.02 Sheet
+Organisation
+FAST 1.02-01
+FAST-1.02-01.1
+
+Arrange sheets so that calculation order flows left to right
+Except to group Input and Results sheets
+The rationale for this is to improve general readability and detection of
+inadvertent logical circularities, not calculation speed. Necessary deviations
+(counter-flows) to this ‘thinking order’ should be:
+1. kept to an absolute minimum, and
+2. clearly marked when not otherwise obvious.
+However, grouping Input and Results sheets at the front of a model can assist
+readability and comprehension.
+
+FAST 1.02-02
+
+Do not attempt to optimise calculation layout and user
+interface / presentation on the same worksheet
+There is almost always a trade-off between design layouts that are optimised
+for clarity of calculation and those that are optimised for user interface and
+presentation. Separate these objectives between Calculation and Presentation
+sheets to prevent a model design that is poor on both fronts.
+Workings sheets need not (and probably should not) look ‘pretty’ or be particularly
+printable, certainly in toto, particularly if this increases construction and maintenance
+time to sustain appearances that serve no fundamental benefit to the modeller or
+the user.
+
+FAST 1.02-03
+
+Separate flags and factors onto dedicated sheets
+
+The foundation of any financial model is laid down by the time sheet which defines
+the time line of the model. Time sheets should contain all flags and partial period
+factors (PPFs). If timing logic is simple, then indexation factors may be included
+with this logic on ‘timing and escalation’ sheets, often labelled T&E sheets.
+
+FAST Standard 02c July 2019 / 19
+
+FAST 1.02-04
+
+Separate Workings sheets into functional ‘chapters’
+
+Workings sheets should be functionally sub-divided, for example revenues, costs,
+financing, tax, accounting and so called “one-sheet wonders” should be avoided.
+
+FAST 1.02-05
+
+Minimise inter-linking between sheets
+
+Organising calculations across worksheets in a workbook should, in part, also
+be driven by an effort to minimise Exports and Imports. High density of sheet
+inter-linkages is a sign of poor allocation of logic to specific worksheets. To use
+the writing analogy, the chapters are not organised with a sufficient degree of
+autonomy.
+
+1.03 Multiple
+Workbook
+Models
+FAST 1.03-01
+
+Do not split a model across multiple workbooks
+
+FAST-1.03-01.1
+
+Except when more than one modeller must work concurrently
+
+FAST-1.03-01.2
+
+Except when different files should be sent to different recipients
+
+FAST-1.03-01.3
+
+Except when a single workbook would be too large and intimidating
+Multiple, inter-linked workbooks are usually difficult to manage and generally
+a bad idea. However, the particular circumstances of a modelling project may
+sometimes dictate a so-called ‘split model’. Where time-scales necessitate
+parallel model development by multiple modellers, where different recipients
+should receive different workbooks for considerations of confidentiality or
+specialty, e.g. a technical recipient not being confused by financing and tax
+logic, or where, despite the best efforts of heeding the principle of approximation,
+a single file would be intimidating and unwieldy simply for its size.
+
+20 / FAST Standard 02c July 2019
+
+Avoid direct (external file) links
+
+FAST 1.03-02
+FAST-1.03-02.1
+
+Except when the logic flows back and forth between workbooks
+It is generally simpler and easier to manage the manual interchange of data
+through dedicated import and export areas of respective inter-linked workbooks.
+However, direct links should be used when workbook A passes calculated
+values to workbook B, which in turn uses these values to calculate dependent
+values passed back to workbook A. However, such circumstances should call
+into question the decision to split the model.
+
+FAST 1.03-03
+
+Use import / export sheets for line items passed between workbooks
+
+Data should be organised into a single ‘exported data’ sheet in the one file and an
+‘imported data’ sheet in the second. Even if direct links are used, these are functionally similar to inputs, albeit potentially refreshed to different values via recalculations, and hence should be separated and organised with a similar approach.
+
+FAST 1.03-04
+
+External file links should be Named
+
+If a model relies on links to external files, these should be named in the source
+file. In the absence of a call reference in an external file being named, Excel will be
+unable to keep track of any changes in the location of that cell in the external file.
+In most instances, the FAST Standard advises against using Names, as stated in
+FAST 4.03-01: Do not use Excel Names, page 52. This is a notable exception
+to that rule.
+
+FAST Standard 02c July 2019 / 21
+
+2
+
+Section 2.0/
+Worksheet Design
+
+22 / FAST Standard 02c July 2019
+
+2.01 Universal
+Layout
+Principles
+Each column should have a single and consistent purpose
+
+FAST 2.01-01
+
+Constants (for example IRRs) should be clearly separated from series line items.
+Further requirements to provide section heading indenting, display totals, units,
+and an empty column to represent the period before modelling begins, should
+be placed in dedicated columns of appropriate width, a width that should be
+identical across all sheets in the model.
+Exclusive use of a given column for a specific purpose not only improves clarity
+and structure, but can yield additional advantages. For instance, navigating through
+column A (say) for main section headings is facilitated with CTRL+ UP ARROW /
+DOWN ARROW when this column is not cluttered with other data. A separate
+units column causes the question of units to be begged, never a bad thing.
+
+Series worksheets should be defined for a single time axis only
+
+FAST 2.01-02
+FAST-2.01-02.1
+
+Except series inputs sheets to avoid too many sheets
+
+FAST-2.01-02.2
+
+Except where local exceptions warranted
+Including more than one time axis on a given sheet must be carefully considered
+with reference to the four FAST principles. Making life easier on the modeller is
+insufficient justification. Every sheet should have a dominant time axis located
+within the freeze pane intersection for consistent viewability. Any other time axis
+used on the sheet should be clearly marked as an ‘alien’ time axis.
+The standard formatting for ‘alien’ time axes will be described in Appendix A:
+FAST Formatting, page 54, in a later version of this document.
+
+FAST 2.01-03
+
+Make only two columns matter
+On the presumption that a series line item will be constructed via consistent
+formulas across the row, the requirement for model review is limited to confirming only that the first cell in the range is logically sensible. Therefore, only the
+constants column and the first series column tell the story.
+FAST Standard 02c July 2019 / 23
+
+Calculation logic should generally flow from top to bottom
+and left to right.
+
+FAST 2.01-04
+
+This helps ensures logical flow and consistency of reading / calculation order.
+
+Mark intra-sheet counter-flows with grey shade
+
+FAST 2.01-05
+
+Keeping with the ‘reading order equals calculation order’ design approach, logic
+should flow top-to-bottom on a given sheet, with necessary exceptions to this
+(counter- flows) kept to a minimum and clearly marked.
+
+Limit counter-flows to opening balance positions
+
+FAST 2.01-06
+
+Although it often impossible to avoid counter-flows, having too many in a given
+section may be a sign that calculation section ordering may need to be considered.
+Counter-flowing opening balance positions is generally considered benign since
+the opening balance is always linked to the previous period closing balance, so
+it is an indirect link to a previous period balance and thus in keeping with the ‘left
+to right, top to bottom’ rule (FAST 2.01-04: Calculation logic should generally
+flow from top to bottom and left to right, above).
+Counter-flowing closing balances are more problematic and highly likely to cause
+a circularity in the model either immediately, or eventually. FAST 1.01-11: Never release a model with purposeful use of circularity, page 18, discusses this further.
+
+Present information horizontally
+
+FAST 2.01-07
+FAST-2.01-07.1
+
+Except for short vertical series for scenario structuring
+
+FAST-2.01-07.2
+
+Except where vertical layout is more clear for printing
+Vertical presentation should generally only be used when schedules are required
+for presentation / printing or where input structures are best laid out this way to
+support ‘single column’ scenario loading or ‘picking’.
+
+Do not hide anything
+
+FAST 2.01-08
+
+Rows, columns, and sheets themselves should rarely be hidden (a prohibition
+which generally includes use of Excel’s outline feature).
+FAST-2.01-08.1
+
+Except for undefined time which should be hidden
+The primary exception to the previous rule, and a strong design imperative, is to
+hide commercially undefined cell ranges (columns beyond the defined time axis
+on horizontal presentations).
+
+24 / FAST Standard 02c July 2019
+
+‣
+
+FAST-2.01-08.1
+
+Columns to the right that are beyond the sheets’ modelling range (to assist in
+CTRL+RIGHT ARROW operations), to restrict the x-axis on Excel charts, and in
+limited circumstances when the visible range of values is commercially uninteresting (for example first 15 columns are currently all zero).
+
+2.02 Calculation
+Blocks
+
+Calculation blocks are the paragraph structure of
+the worksheet. Analogous to a paragraph communicating a single idea lead by a topic sentence,
+a prototypical calculation block contains a single
+calculation in its last row.
+The other rows above this calculation contain the precedents to the calculation,
+each in turn a link directly to the source line item. These precedents, the ‘ingredients’ to the calculation, should include links to the source line item’s row label,
+so-called live labelling. They are separated by blank rows above and below to
+visually separate them from adjacent calculation blocks.
+
+FAST 2.02-01
+
+Construct all calculations in a separate calculation block
+
+All ingredients must be presented as links immediately above the calculation
+with consistent calculation order and appearance in the formula.
+FAST-2.02-01.1
+
+Except when the calculation block is a balance corkscrew
+
+FAST-2.02-01.2
+
+Except when cascading calculations are warranted
+
+FAST-2.02-01.3
+
+Except when the calculation is a trivial formula
+
+FAST-2.02-01.4
+
+Except when a 2D line item is deemed the more efficient and/or readable
+design solution
+
+FAST Standard 02c July 2019 / 25
+
+FAST 2.02-02
+
+Build calculation blocks so they can be replicated
+
+Build calculation blocks so that they can be copied and re-used; apply minimum
+anchoring on formulas; row-anchor all links to facilitate re-using the structure.
+
+FAST 2.02-03		
+
+List common calculation block components in a consistent order
+
+Place oft-used components (e.g. timing flags, indexation factors) in a similar
+position each time they are used, usually placing more significant commercial
+components first and timing flags and factors last.
+
+FAST 2.02-04		
+FAST-2.02-04.1
+
+List precedents in the order they appear in a formula
+Except when this violates a ‘pyramid’ layout
+Maintain calculation order by listing precedents in the order they are used in the
+formula (except for priority for pyramid structure, i.e. where constants are listed first).
+
+FAST 2.02-05		
+
+Use corkscrew calculation blocks for balance accumulation
+
+Balance accumulations should be performed by a special calculation block referred to as a ‘corkscrew’, not via semi-anchored cumulative SUMs. A corkscrew
+can take one of three design forms:
+• a 4-line corkscrew,
+• 7-line corkscrews with flag, and
+• 7-line corkscrew with PPF.
+
+FAST 2.02-06		
+
+Use timing flag and factor components routinely
+
+Use timing flags (or if required, partial period factors, a.k.a. PPFs) and separate
+indexation factors universally. Conditional logic embedded in complex formula
+to test for timing issues should never exist; separating this complexity from the
+primary calculation with timing flags or factors is always the preferred solution.
+If there is a question of setting the time period or inflation that is not driven by
+flags and factors respectively, then the calculation block is likely poorly designed.
+
+26 / FAST Standard 02c July 2019
+
+2.03 Header
+Design
+FAST 2.03-01		
+
+The time axis is best placed on the worksheet
+only once in a freeze pane
+
+FAST 2.03-02		
+
+Display a single end-of-period date in a freeze pane
+
+If necessary to support this design standard, it is often sensible to sub-divide a
+particular area of the model so that all values presented adhere to a single time axis.
+
+FAST 2.03-03		
+
+Display the operative period flag
+
+FAST 2.03-04		
+
+Include a column counter for cross-reference on F11 quick charts
+
+FAST 2.03-05		
+
+Include master error checks and alert indicators in the freeze pane
+
+FAST 2.03-06		
+
+Include definition of SMU on Presentation sheets
+
+FAST Standard 02c July 2019 / 27
+
+2.04 Input Sheets
+FAST 2.04-01
+
+Organise inputs both by structure and commercial area
+
+The most meaningful way of grouping inputs is first to consider their nature, e.g.
+separating constant inputs from series inputs, and actual values from forecasts
+data. These groupings can be further divided by what the inputs represent, for
+example, capital expenditure, financing, costs or revenue.
+
+FAST 2.04-02		
+
+Include a dedicated instruction /
+comments column on Input sheets
+The input sheet should be structured in a descriptive style and at the same time
+maintaining its brevity. Add a “comments” column where any comments, notes or
+instructions related to a particular input can be precisely written. This information
+ensures that anybody handling a model understands how to use the input. Such a
+column will be visible on print-outs; do not use cell comments for such information.
+
+FAST 2.04-03		
+
+Create self-documenting Input sheets
+
+Together with readable code, the model can act as its own data book (a separate document is exceedingly expensive to produce and rarely up to date to be
+useful on the day). Printing the input sheets, together with a software copy of
+the model itself, should give other modellers all the documentation they need.
+
+28 / FAST Standard 02c July 2019
+
+2.05 Presentation
+Sheets
+The modeller should not lose sight of a model’s
+main purpose: communication. A financial model
+must communicate the results of numeric analysis:
+a model is therefore worthless if it fails to present
+information effectively.
+The Standard differentiates between what is effective practice for the calculation
+and control sheets of a model, and what is effective practice for presentation
+sheets. Each of these model areas has a distinct function, and, per the famous
+architectural maxim, form follows function.
+
+FAST 2.05-01		
+
+Use Presentation sheets to present the model’s results
+Presentation sheets form one of the basic requirement of any model and must
+be effective in presenting numbers, charts and tables. What sheets are placed in
+the model is central to its usability and fitness for purpose. Presentation sheets
+can be described in the form of descriptive analysis, control, report or documentation sheets.
+• An analysis sheet describes the calculation in descriptive form,
+• a Report sheet provides the output in terms of charts and tables. The difference
+between the two is that the analysis sheet shows every calculation required for
+the analysis whereas the Report sheet is a crux of specific details only.
+• A Control sheet presents both inputs and outputs. Sometimes, a model user
+wants a Control sheet from where they can control the whole model by altering a
+few numbers and check the specific output without shuffling a sheet.
+• Documentation sheets provide important information about the models, for
+example external inputs, exported links, and methodology.
+
+FAST 2.05-02		
+
+A model must completely explain how it works without the need
+for other software applications to present the model outputs
+
+Generally, a model can be divided into input, calculation and output. A well
+structured model contains sections which explain how the model is used and allows
+the reviewer and model user to use the model as a complete decision analysis kit.
+
+FAST Standard 02c July 2019 / 29
+
+FAST 2.05-03		
+
+Provide a description of the modelling standards and method
+used to build the model
+The description must be precise and provided in terms of points so that the user
+can get the general model overview in short.
+
+FAST 2.05-04		
+
+Provide a description of the model’s flow
+
+‣
+
+‣
+
+A simple model flow is always input calculations output. A complex model
+may have a counter-flow of calculations, so the flow must always be described
+on a sheet to give the user a macro view.
+
+FAST 2.05-05			
+
+Provide keys to colour coding, abbreviation, named ranges,
+and functions
+Keys are crucial to make the model easy to understand. Standardising the use
+of abbreviations, range-names and functions helps the user to understand the
+model fast and allows for key pages to be re-used.
+
+FAST 2.05-06			
+		
+
+Selection of chart type should correspond to the nature of the
+data being presented
+The FAST Standard does not provide specific guidance on the choice or design
+of charts in a model: there is no need to replicate the excellent work done elsewhere. In the area of effective design of charts and the visualisation of data, we
+recommend FAST modellers to familiarise themselves with the work of Edward
+Tufte, especially “Visual Display of Quantitative Information”1, and Stephen Few’s
+book “Show Me The Numbers.”2 Being more ‘applied’ in nature than Tufte, Few’s
+publications give modellers a highly systematic and practical guide to the design
+of effective charts and tables. We recommend that FAST modellers follow Few’s
+recommendations in the presentational sheets in their models.
+1 Edward R. Tufte, 2001 (2nd ed.): “The Visual Display of Quantitative Information”; Graphics Press, USA
+2 Stephen Few, 2004: “Show Me the Numbers: Designing Tables and Graphs to Enlighten”; Analytics Press, Oakland, California, USA.
+
+FAST 2.05-07			
+		
+
+Charts should be formatted for ease of comprehension of the
+main messages being communicated
+Again we refer modellers to the work of Stephen Few in this area.
+
+30 / FAST Standard 02c July 2019
+
+2.06 Control
+Sheets
+Control sheets allow the model builder to check
+that the model, or section of the model, works
+correctly. These sheets can be, for example,
+check sheets, control of sensitivities and scenarios, change-tracking, list of pending changes,
+version control, and table of contents: the model’s
+main control devices and engine status indicators.
+FAST 2.06-01			
+
+Provide a table of contents
+
+The table of contents should be broken down into functional areas (input, calculation, presentation) to make it easy for the user to find each section of the model. For example, the Financial Statements sheet link goes under the functional
+area headed Presentation.
+
+FAST 2.06-02			
+
+Provide a list of model qualifications and weaknesses
+
+This should be actively maintained and included in the standard short-form print-out
+of the model. Unless clearly documented and presented to the model customer,
+implicit assumptions may be construed as nothing more than ‘serious model error’.
+
+FAST Standard 02c July 2019 / 31
+
+3
+
+Section 3.0/
+The Line Item
+
+32 / FAST Standard 02c July 2019
+
+3.01 Line Item
+Taxonomy
+Borrowing on the accounting terminology, a line
+item is the lowest level of granularity that should
+be considered in the build-up of a model. Akin to
+considering that the atom is not divisible in chemistry
+(only in nuclear physics), a line item is the lowest level
+structure in a model and should not be corrupted.
+A modeller must have a clear understanding of how a line item is classified, its
+taxonomy. General design principles can include:
+1. Is the line item a constant or a series?
+2. Is the line item cash or not-cash?
+3. Is the line item a flow or a balance?
+4. If the line item is a flow, is it an in-flow or an out-flow from the business or project?
+5. If the line item is a balance, is it an opening (brought forward) or closing 		
+(carried forward) position?
+
+FAST 3.01-01			
+		
+
+Provide clear indication for constants vs series
+
+As constants, by definition, are not time based, they require their own column
+separate from the time based columns.
+This rule is supported by the rules FAST 2.01-03: Make only two columns matter,
+page 23 and FAST 2.01-01: Each column should have a single and consistent
+purpose, page 23
+
+FAST 3.01-02			
+			
+
+Treat line items as the smallest indivisible object in a model
+Treat a line item as an autonomous, incorruptible unit of information. Do not
+link to sub- parts of a line item, including displaying only part of its time range
+except in the rarest examples. Pass the label, units designator, and display total
+on through to any link.
+
+FAST Standard 02c July 2019 / 33
+
+FAST 3.01-03			
+				
+
+Do not use a series structure to present constants
+It is tempting to pre-build the flexibility for series constructions on values that do
+not vary over time, but this temptation should be avoided; adapt the model as/if
+such circumstance actually materialises.
+This rule applies to inputs in particular. Many inputs in a model are constants
+and will not change over time. Updating the numbers across the time-line is a
+relatively tedious and error-prone job compared with updating the single cell that
+defines a constant.
+
+FAST 3.01-04			
+				
+
+Do not use row totals in model logic
+
+A row total provides useful information and serves to highlight the line item in
+question being a flow (certainly not a balance). However, if a row total is required to
+be actively used, for example the SUM of discounted cash flows, then a separate
+(constant) line item should be created with its own row. Row totals should have no
+substantive dependants, and hence be ‘display only’, i.e. display totals. (This rule is
+further supported by FAST 2.01-03: Make only two columns matter, page 23.)
+Even cross-totalling via adding Display Totals from precedent line items should
+be avoided, though may be sensible as a check performed elsewhere. A missing
+Display Total, which is a non-structural element, should therefore not raise any
+concern on the part of the modeller.
+
+FAST 3.01-05			
+				
+
+Include display totals on all flows
+Totals of flows are informationally important and can assist in spotting errors. Include a display total in a column dedicated for this purpose. Together with FAST
+3.05-06: Include the word “balance” in labels of balances, page 43 this rule is
+a good way to provide clear distinction.
+
+FAST 3.01-06			
+				
+FAST-3.01-06.1
+
+Do not include display totals on balances
+
+Except when the line item includes a single balance
+In this case a flag should be used to select the balance at that point of time and
+display it in the constants column.
+
+FAST 3.01-07			
+				
+
+34 / FAST Standard 02c July 2019
+
+Place display totals on the left where they are visible
+
+FAST 3.01-08			
+				
+
+Make numbers look like what they are with smart format
+Use formatting to assist with fast and easy comprehension. Format non-monetary
+quantities to a resolution that is unlikely to be ‘money’, for example four decimals
+for factors, single decimal place for indices. Conversely, monetary units (other
+than dollars and cents) should be formatted in engineering notation: no decimals
+or in groups of three.
+
+3.02 Formula
+Design Fundamentals
+FAST 3.02-01			
+		
+FAST-3.02-01.1
+
+Formulas must be consistent
+Except when marked as temporary code
+Series calculations must be constructed from consistent formulas along the axis
+of presentation. 2D line items should be bi-directionally consistent on both the
+row and column axes. This is one of only a few universally accepted principles of
+good modelling.
+
+FAST 3.02-02			
+			
+
+Mark temporary code clearly
+
+Temporary code should be marked both by wrapping the label in square brackets and yellow shade, along the entire row unless the reason for the status will
+be clearly visible when the view is on the left-side of the row.
+
+FAST 3.02-03
+
+Do not use partial range references
+
+Ranges used in formulas should always span the entire operative range of
+any series precedent. Though technically, such formula constructions are
+not themselves inconsistent, such an approach is prone to creating errors as
+circumstances change and would worry any model reviewer.
+FAST Standard 02c July 2019 / 35
+
+3.03 Formula
+Simplicity
+FAST 3.03-01			
+				
+
+Do not write a formula longer than your thumb
+
+Also known as “the rule of thumb”, referencing the formula in the editing pane, a
+formula longer than your thumb likely means that it should be broken into more
+than one step.
+
+FAST 3.03-02			
+				
+
+No formula should take more than 24 seconds to explain
+
+Also known as “the rule of seconds”. Understanding and explaining a formula
+should be a short exercise; if not, break the logic into smaller calculation steps.
+
+FAST 3.03-03			
+				
+
+Do not write multi-line formulas
+
+Even if “the rule of thumb” may be at times bent or broken, under no circumstances should a formula break past a single line. Any such formula is almost certainly too complex, impractical to review, and suffers from the added
+annoyance (in Excel 2003 and before) that it masks the column letters on the
+sheet, further hampering model review. Such a formula will certainly break “the
+rule of seconds”.
+
+FAST 3.03-04			
+				
+
+Use a limited set of Excel functions
+
+Very often, by simplifying calculations and breaking them down into calculation
+block based steps, complex functions are not needed. For specific rules, see
+Excel Functions, page 49
+
+36 / FAST Standard 02c July 2019
+
+FAST 3.03-05			
+				
+
+Use flags to limit use of IF function
+
+There is nothing wrong with a (simple) use of IF function, as simple statements
+can generally be read intuitively as simple English. However, it shouldn’t be
+over-used or used intensively. Circumstances where = IF( TRUE, x, 0), where
+TRUE is evaluated on some question of time, should be replaced with x * Flag,
+except where circularity is being deliberately protected. As well = IF (FALSE, x, 0)
+can be replaced by = x * (1 – Flag).
+
+FAST 3.03-06			
+				
+
+Use INDEX (or even CHOOSE) over IF to pick values
+For more information on Excel functions, refer to section 4.01: Excel Functions,
+page 49
+
+FAST 3.03-07			
+				
+
+Never use nested IFs
+
+Nested IFs are a common cause of reduced transparency in models. They take
+a long time for users to decode and understand. They are prone to errors as
+there are multiple combinations of logical states that are infrequently properly
+tested by modellers.
+Multiplication by flags can often be used to evaluate elements of the logic and
+breaking the logical steps into separate blocks aids comprehension later.
+
+FAST 3.03-08			
+				
+
+Do not use Excel Names
+The FAST Standard advocates a very limited and precise use of Named Ranges.
+In the majority of cases, the ingredient-rich construct of a FAST calculation block
+makes naming not only unnecessary (as the dynamic row label provides better
+information than a Name would) but also something to avoid (given the likelihood
+that a discrepancy between the dynamic row label and the static Name will
+creep in over time).
+It is not possible when looking at a formula alone to determine exactly which
+range is being referenced simply from its Name. The properties of Excel Names
+are only visible in Excel’s Name Manager. This includes the extent to which
+the range is anchored and whether the Name is “local” (scoped to just one
+worksheet) or “global” (scoped to the workbook).
+The FAST Standard does not advocate the general use of Names to improve a
+formula’s readability since the Name could be materially misleading.
+
+FAST-3.03-08.1
+
+Except for external links
+If external references are required, then define them using Excel Names. This is
+to avoid errors arising from the insertion of additional rows or columns whereby
+links no longer point to their intended source data. See FAST 1.03-04.
+FAST Standard 02c July 2019 / 37
+
+FAST-3.03-08.2
+
+Except as a substitute for cell references in macro coding
+Always use Excel Names as a substitute for cell references when constructing
+macros. This is to avoid errors arising from the insertion of additional rows or
+columns whereby the macro coding no longer points to the intended source data.
+
+FAST-3.03-08.3
+
+Except where it is impractical to display locally an ingredient in a
+calculation block
+For example, use Excel Names to call up an ingredient where the timeline
+of the ingredient is different from that of the calculation.
+This should be restricted to circumstances where naming the range adds
+considerably to the readability of the formula.
+
+FAST-3.03-08.4
+
+Except when it is a poor design choice to display locally an ingredient
+in a calculation block e.g. error check tolerance value
+For example, use Excel Names to call up an error check tolerance value.
+
+FAST-3.03-08.5
+
+Except in data validation lists
+In constructing data validation lists, a range source for the list is required.
+This may be constructed using cell references or Excel Names.
+Excel Names may be used where the range source is on a different worksheet
+from the data validation list (where an Excel Name is a more effective
+communicator of the nature of the source than a set of off-worksheet cell
+references).
+
+FAST-3.03-08.6
+
+Except for text based criteria in conditional formatting
+Conditional formatting may be deployed to add clarity to a model’s
+presentation of different items e.g. a timeline header containing actuals
+columns and forecast columns.
+Excel Names may be used to ensure that the header text and the associated
+conditional formatting are always driven off the same source text string.
+
+FAST 3.03-09			
+				
+
+Do not construct array formulas
+Do not use functions that require array constructions, nor form array-variants
+with standard functions. The resulting complexity is not warranted.
+
+FAST-3.03-09.1
+
+Except when Excel’s Data Table feature is being used
+
+FAST-3.03-09.2
+
+Except when calculation cannot be achieved without arrays
+
+FAST-3.03-09.3
+
+Except when the logic bloat required to avoid arrays creates a solution that
+is more difficult to review than the array alternative
+The Standard’s approach to specific Excel features are explored in more depth in
+Chapter 4: Excel Features Used in Modelling, page 48
+
+38 / FAST Standard 02c July 2019
+
+FAST 3.03-10			
+				
+
+Do not use a space as an intersection operator
+Consensus position being developed for subsequent draft.
+
+FAST 3.03-11			
+				
+
+Beware circularity or #ERRORs protected on inactive
+branch of IF function
+Under some designs, it may be required that an IF statement be used to ‘protect’ circularity that would occur on the inactive branch, ‘FALSE side of the IF
+conditional. An example of this is the circumstance where the construction = x
+* Flag is circular, but = IF( Flag = 1, x, 0) is not, i.e. where the time period during
+which Flag = 0 cause the circularities.
+This feature of Excel (not found in Lotus) should not be used casually. When it
+is used, it should be marked and commented. It leaves the model in a position
+where it may become circular via a simple input change.
+Excel ‘hash errors’, e.g. #REF, #VALUE, #DIV/0, etc., do not manifest themselves
+if they sit on the FALSE-side branch, even if present in the function itself. Hence,
+IF( Flag = 1, x, #REF) will not manifest a problem in any or all cells where Flag = 1.
+Model audit software will often not detect this problem either.
+
+FAST Standard 02c July 2019 / 39
+
+3.04 Formula
+Clarity
+FAST 3.04-01			
+		
+
+Do not write formulas with embedded constants
+
+FAST-3.04-01.1
+
+Except when constants are universal
+
+FAST-3.04-01.2
+
+Except when constants are deliberately embedded to avoid their manipulation
+Embedding commercial information, for example an inflation rate, is never a good
+idea, as both clarity of model assumptions and active parameterisation are lost.
+However, not all embedded inputs are created equal. Embedding a 24 (for 24 hours
+per day), 12 (12 months a year), 1000 (dollars in $ 000s) is permissible, even sensible.
+As well, certain constants may be embedded as a clear design intent, rather than
+presented in explicit input cells. For instance, the model’s time frequency, e.g.
+6 months per period, may not be able to be flexed, as the model may not have
+sufficient width to make this change, nor is the design ever expected to support
+such a change.
+
+FAST 3.04-02			
+			
+
+Include spaces between arguments in formulas
+
+To the surprise of many modellers, Excel does allow the use of spaces in formulas.
+They make the formula clearer to read and only cause disruption in three places:
+1. before the leading equal sign;
+2. between a function name and the opening parenthesis; and
+3. within compound logic operators such as <=, >=, and <>.
+We note that the space itself can be used as the intersection operator. However,
+such usage should not be used, as it will almost always confuse the average
+model user.
+
+FAST 3.04-03			
+			
+FAST-3.04-03.1
+
+Do not use parentheses in formulas unnecessarily
+Except when they may improve formula clarity
+Parentheses (otherwise known as ‘brackets’) are used to separate the logic in
+formulas. Keep their use to a minimum, though in some circumstances Excel’s
+order of calculation is less clear than adding superfluous parentheses, for example
+($a / 2) * b reads more easily for most people than the functionally identical $a / 2 * b
+
+40 / FAST Standard 02c July 2019
+
+FAST 3.04-04			
+				
+
+Use “-1 *” coefficient for all sign switches
+Sign convention is a larger topic, but when sign switches are required, make
+the action as apparent as possible: -1 * a rather than simply -a. One cannot
+over-communicate the intention and visibility of sign switches.
+
+FAST 3.04-05			
+				
+
+Do not include current sheet references in formulas
+Including a sheet label for cells referenced on the current sheet only serves to
+confuse formulas and the reviewer.
+
+FAST 3.04-06			
+				
+
+Do not use elements that appear to be non-structural in model logic
+Using elements that would appear to be non-structural in model logic is risky
+as future users may not be aware of the importance of maintaining integrity. This
+would apply to using section headings, labels, or empty cells in model logic.
+
+FAST 3.04-07			
+				
+
+Do not over-anchor
+Do not anchor beyond what is required to effect a consistent formula. Superfluous dollar signs not only clutter the formula from a reading perspective, but
+disrupt the ability to copy calculation blocks for re-use with different ingredient
+lines. See also FAST 2.02-02: Build calculation blocks so they can be replicated,
+page 26
+
+FAST Standard 02c July 2019 / 41
+
+3.05 FAST
+Labelling
+Conventions
+Labelling is seldom given the thought and emphasis
+it requires. We are often asked, “What is the main
+thing one can do to make models more readable
+and reviewable?” Simply stated, “More and better
+labels.” In fact, short, simple formulas improve
+readability mostly because they force the modeller
+to include more labels explaining and walking the
+reviewer through each step of what otherwise would
+be a complex calculation.
+FAST 3.05-01			
+			
+
+Provide a label for all line items
+Labelling everything improves the clarity of the model and avoids modellers
+making faulty assumptions about what values represent. Labelling constants
+provides the safety net of a broken anchor described above.
+
+FAST 3.05-02			
+		
+
+Invest time in drafting a good label
+Some line items are easy to describe, and a comprehensive and clear label
+comes immediately. In other cases, this is more challenging. In these cases, be
+clear over being brief and work to streamline the label over time. Spend at least
+30 seconds developing such labels; it is worth the investment of time.
+
+FAST 3.05-03			
+			
+
+All line items must have a unique label
+Inconsistent and confusing labelling should be eliminated. Each calculation,
+itself unique, should be given a unique label (of course as augmented with units
+and section headings as relevant). It is no better to have two calculations called
+the same thing, then to have the same label for two different calculations.
+
+42 / FAST Standard 02c July 2019
+
+FAST 3.05-04			
+				
+FAST-3.05-04.1
+
+Include a units designator on all line items
+Except it can potentially be omitted when SMU applies
+Unit labelling starts with the reasonable command:
+“Label everything with a units designator; a missing unit is something that needs
+attention. Absence of information to convey meaning is a fundamentally
+weak design”.
+To this, some will reasonably argue that clarity is hampered by over-cluttering the
+display with unimportant units designators. One of the common, valid omissions
+of units is for Standard Monetary Units (or SMUs for short). If a units designator
+is omitted in these circumstances some ‘global’ indication on a sheet print-out,
+up in the freeze pane header indicating a statement such as, “Unless otherwise
+indicated, all monetary units are in $ 000s” is warranted. (See also FAST 2.03-06:
+Include definition of SMU on Presentation sheets, page 27.)
+A case can also be made that Line Items that are inherently dimensionless, e.g.
+Flags, factors, percentages of amounts (as distinct from interest rates), need not
+have a unit. However, to avoid any prospect of confusion under circumstances
+where omission of units on SMU Line Items is adopted, including simple designators
+such as ‘flag’, ‘index’, ‘factor’, ‘of x’ (on percentages), etc. likely will improve clarity.
+
+FAST 3.05-05			
+				
+
+Choose a capitalisation convention and stick with it
+
+The Standard does not take a position on capitalisation in labels. The rule is that
+whatever standard you use, apply it consistently throughout the model. Failure
+to do so looks scrappy and gives a poor impression of the modeller’s attention
+to detail. Like all labelling inconsistency it also impairs any ability to search on
+specific terms and therefore increases model risk.
+
+FAST 3.05-06			
+				
+
+Include the word “balance” in labels of balances
+
+Together with FAST 3.01-05: Include display totals on all flows, page 34, this
+rule is one of the clearest means to ensure the distinction between flows and
+balances is clear to anyone reviewing the model.
+
+FAST 3.05-07			
+				
+
+FAST 3.05-08			
+				
+
+Include the word “cash” when Label is otherwise
+insufficiently clear
+
+Unit designators must be clear and unambiguous
+
+FAST Standard 02c July 2019 / 43
+
+FAST 3.05-09			
+			
+
+Include units in the label
+
+Including units in the label again adds clarity. When it comes to labels, verbosity
+is less of a problem than miscommunication.
+
+FAST 3.05-10			
+			
+
+Ensure alternative sign version of flows are clearly labelled
+
+position being developed for subsequent draft.
+
+FAST 3.05-11			
+			
+
+Ensure distinction between opening and
+closing balances is clearly indicated
+It is important to clearly indicate whether a balance is an opening or closing
+balance. The opening balance will rarely, if ever, be reported on a Presentation
+sheet. For this reason it is given the functional suffix of BEG for ‘beginning
+balance’. While this is not in keeping with accounting conventions, accounting
+conventions of ‘brought forward’ and ‘carried forward’ balances are often
+shortened to ‘b/f’ and ‘c/f’ which are unclear and easy to confuse. The purpose
+of the BEG suffix is to ensure that modellers do not link to the wrong balance.
+Closing balances are given no suffix and the absence of a suffix on a balance
+line item indicates that it is the closing balance. The reason that no suffix is
+given is that closing balances are very often reported on presentation sheets,
+especially on the balance sheet itself and the lack of suffix is preferable from a
+presentational perspective.
+Rule FAST 3.05-03:
+All line items must have a unique label, page 42, is related to this rule.
+
+FAST 3.05-12			
+			
+
+Maintain labelling consistency pedantically and precisely
+
+Exercise discipline on standard elements to assist in global search and replace,
+for example, do not use “Tranche A” in one label and “Tr. A” or “TrA” in another.
+Do not vary the text used for standard suffixes, e.g. BEG for opening balances,
+POS for positive form of outflow line items.
+
+FAST 3.05-13			
+			
+
+Unit designators must be consistently applied throughout the model
+
+Consistency amongst labelling components extends to units.
+
+44 / FAST Standard 02c July 2019
+
+3.06 Links
+FAST 3.06-01			
+				
+FAST-3.06-01.1
+
+Row anchor all links
+
+Except when setting up to replicate sections
+It is preferable to remove row anchoring on links when setting up a calculation block
+that will be replicated a number of times. This will ensure that when the calculation
+block is copied, the calculation points to precedents within the new calculation block,
+and does not hold on to references from the source calculation block.
+
+FAST 3.06-02			
+				
+
+Do not create daisy chains; do not link to links
+
+In general terms, a daisy chain is series of linked links. The last link does not
+form a direct link to the original source of the figures, an input or calculation,
+but instead is linked to an intermediate link, which in turn is linked to the first
+object, forming a series.
+
+FAST Standard 02c July 2019 / 45
+
+3.07 Timing Flags
+and PPFs
+Consensus position being developed for subsequent draft.
+
+FAST 3.07-01			
+				
+
+Use timing flags
+
+FAST 3.07-02			
+				
+
+Only create a flag when it is required
+
+FAST 3.07-03			
+				
+
+FAST 3.07-04			
+				
+
+46 / FAST Standard 02c July 2019
+
+Only use flags that are relevant to the logic they
+are being applied to
+
+Include display totals on all flags and PPFs
+
+FAST Standard 02c July 2019 / 47
+
+4
+
+Section 4.0/
+Excel Features Used in Modelling
+
+48 / FAST Standard 02c July 2019
+
+Though many of the design considerations would
+apply to any spreadsheet software package,
+the FAST Standard has been drafted on the
+presumption that Microsoft Excel is the software of
+choice, whether the most recent version is being
+used or not. Much in the Standard is based on
+taking advantage of Excel’s strengths, e.g. modelling
+with Links to support fast navigation with CTRL+[
+key, copying row-anchored links, etc.
+However, Excel also has its weaknesses in a modelling context, and these
+must be considered carefully when considering appropriate Model design.
+This section is designed to provide guidance on Excel’s functions and features
+in a modelling sense, indicating those that are:
+• Generally good to apply in models
+• Often smart to use, but should not be over-used
+• Have occasional use, but rarely a good idea
+• Should fairly much be banned in modelling use
+
+4.01 Excel
+Functions
+FAST 4.01-01			
+				
+
+Use the INDEX function over the CHOOSE function
+
+INDEX and CHOOSE are used for the selection amongst the options. Both functions
+solve the purpose. However, in FAST methodology we would advise modellers to
+choose amongst options by using INDEX function over CHOOSE function.
+INDEX function has more advantage in comparison to CHOOSE function because
+INDEX is:
+1. Easy to update if additional line items are added. Simply increase the array size.
+2. In accordance with the FAST methodology of block calculation.
+3. Easy to write the formula as INDEX takes array whereas for CHOOSE we need
+to point out each of cell addresses.
+4. From our experience we have found that sometimes function CHOOSE
+(if used excessively) makes the file heavy, crashes Excel and sometimes the
+model does not get fully calculated.
+The only advantage CHOOSE has over INDEX is that CHOOSE works
+when the options are scattered at various places. However, this advantage
+becomes redundant when following the FAST methodology where block
+calculations are promoted.
+FAST Standard 02c July 2019 / 49
+
+FAST 4.01-02			
+				
+
+Do not use the NPV function – ever
+
+We have seen modellers use NPV function quite often. However, we propose to
+minimise the use of NPV function in spreadsheet financial modelling OR use it
+very intelligently depending upon the type of model we have.
+Generally we build financial models where the financial reporting is done on the
+End of Period (EoP) basis. In these type of models the NPV function should not
+be used because the NPV function discounts the Cash Flows for a period with
+the discount rate. This yields a wrong result because Cash Flows which are
+reported on the EoP should not be discounted in that period.
+For the above scenario in particular, the XNPV function can be used instead of
+the NPV function. Both functions have limitations and cannot be used to cater
+for varying discount rates.
+
+FAST 4.01-03			
+			
+
+Do not use OFFSET or INDIRECT functions
+
+Excel function selection should be ‘fit for purpose’, and the simplest, most direct
+implementation should be applied, for example using LOOKUP function variants,
+when INDEX or CHOOSE is fit for the task would be considered poor style.
+OFFSET and INDIRECT functions should be avoided except in limited circumstances, as the logic inter-dependency is not direct when using Excel tracing
+arrows. (OFFSET for scenario picking in particular should be avoided, as INDEX
+is invariably a preferred choice.)
+
+FAST 4.01-04			
+				
+
+ROUND
+
+Use of Excel rounding functions – particularly for purposes of making figures
+look better, ensuring tables appear to ‘add up’ better, or, somewhat ironically,
+in the interests of precisely matching reality (for example debt draws only
+available in certain increments) – should generally be avoided. If necessary,
+find the particular point that requires adjustment, that is do not simply throw
+ROUND(x, 2) on all formulas.
+
+50 / FAST Standard 02c July 2019
+
+4.02 Formatting
+Features
+FAST 4.02-01
+
+Use well-defined format styles
+
+Make use of well-defined format styles, ideally merged from a standard workbook
+that has pre-built styles that are well-engineered and with which the modeller is
+familiar. Do not lazily stay with the simple defaults provided with Excel.
+
+FAST 4.02-02
+
+Do not merge cells
+
+Avoid merge cell alignment setting, as it disrupts ability to select columns
+efficiently. (As well, it is rarely of great benefit with advent of Excel’s centeracross-selection setting.) Merging cells is one of those options that seems like
+a good idea at the time but then turns out not to be. From a first principles
+perspective, merging cells breaks the only element of inherent structure that
+Excel starts with and that doesn’t have to be imposed by the modeller. That
+doesn’t seem like it would get us off to a good start from a ‘consistency of
+structure’ perspective. Selecting columns and/or rows gets confused when
+models have cells merged across them and unmerging is time consuming and
+can cause referencing problems.
+The latter is the most common problem faced by modellers in relation to merging
+cells. However, other points which should be noted while dealing with merge
+cells are:
+Dealing with merge cells in macros can be very problematic.
+Model review or audit software also struggles with merged cells and may
+sometimes simply unmerge all cells in the process of running their analysis
+procedures.
+When a selection of cells containing multiple data values are merged into one
+cell, then only the upper-left most data value is kept and rest are deleted, and
+nevertheless to mention unmerging these cells will not bring back those initial
+cell values.
+The only advantage which ‘merge cells’ options provide in a financial model is
+the formatting and graphical representation to the summary tables, key output
+and representation sheets, etc. However, this benefit can be achieved by using
+centre-across-selection cell formatting.
+
+FAST Standard 02c July 2019 / 51
+
+4.03 Excel
+Names
+FAST 4.03-01			
+			
+
+Only use fully anchored references when defining Names
+Unanchored or partially anchored Excel Names behave in the same way as
+unanchored cell ranges when a formula is copied, i.e. the range that the name
+refers to changes.
+
+FAST 4.03-02			
+
+Only use Names scoped to the workbook level
+(and not to the worksheet level) in calculations
+Multiple ranges using the same Name but referring to different locations can
+cause confusion and error. This is because a Name can be scoped as “global”
+(to an entire workbook) or as “local” (to a specified worksheet). Names that
+appear to be identical, but being defined over different scopes, can exist in the
+same workbook. When a worksheet is copied, if the worksheet contains locallyscoped Names, Excel will create a copy of any local Names, scoping these
+Names only to the copied sheet, and using an identical name label.
+Excel prevents identical Name labels for global Names, so avoiding locallyscoped Names reduces the risk of a Name being mistaken for another Name.
+
+52 / FAST Standard 02c July 2019
+
+4.04 Data
+Validation
+Consensus position being developed for subsequent draft.
+
+4.05 Group
+Outline
+
+Consensus position being developed for subsequent draft.
+
+4.06 Macros/
+VBA Considerations
+Consensus position being developed for subsequent draft.
+
+FAST Standard 02c July 2019 / 53
+
+5
+
+Section 5.0/
+Appendix A: FAST Formatting
+
+54 / FAST Standard 02c July 2019
+
+5.00 Appendix A:
+FAST
+Formatting
+This section is a placeholder for recommendations
+that the FAST Standard Organisation make
+regarding formatting text, numbers and cells to
+improve a model’s readability.
+Consensus position being developed for subsequent draft.
+
+FAST Standard 02c July 2019 / 55
+
+6
+
+Section 6.0/
+Appendix B: FAST Terminology
+
+56 / FAST Standard 02c July 2019
+
+6.00 Appendix B:
+FAST
+Terminology
+In most cases, the FAST Standard uses terms in
+the same way as Microsoft Excel documentation.
+Where the FAST Standard’s definition is different
+or goes in to more detail that the same definition
+in Excel, it appears as a definition here.
+Terms that financial modellers should be aware of
+also appear here, sometimes with references to
+external resources.
+ALERT
+
+An internal crosscheck in a model which indicates a point of commercial interest
+and/or problem with the business scenario, not necessarily a problem indicated
+by a logical problem. Breaches in lending covenants, cash balances below a
+required threshold, etc. may be classified as alerts. See also Check.
+
+BALANCE
+
+A balance is a value measured at a particular point in time, e.g. the volume of
+water in a water tank. In accounting terminology, balances are the indicators of
+the position of a business and they are shown in the balance sheet. Also referred
+to as ‘stocks’.
+
+BASE CASE
+
+The expected case of a model, based on the assumptions deemed most likely to be
+true. The financial result for a base case should be better than those for a conservative case and worse than those for an aggressive, or upside, case.
+
+CALCULATION
+
+A line item that has a formula with cell references, i.e. will show arrows under a
+trace precedent command. In FAST terminology, a formula such as = 5 * 10 + 2
+would be consider an input, even has precedents and dependents.
+
+CALCULATION BLOCK
+
+Autonomous paragraphs on a worksheet, separated by at least one space,
+where the structure includes (usually) one calculation, with precedent to that calculation which are local. The traditional calculation block has a single calculation
+on the last row of the block and precedents above it.
+
+CALCULATION ORDER
+
+The sequence in which one calculation leads to another, starting from Inputs and
+ending at results.
+FAST Standard 02c July 2019 / 57
+
+CALCULATION SHEET
+
+See Workings.
+
+CALL UP
+
+See Link.
+
+CASCADING CALCULATION
+
+A formula design where a separate calculation block is not used to improve
+presentation or reduce row usage by omitting the repeat of a nearby precedent.
+
+CHECK
+
+An internal integrity crosscheck in a model that necessarily indicates a flaw in
+the model logic, i.e. no matter what the business scenario, these checks should
+not fail. Balance sheet checks, cross-totalling, cross-checks between IRR and
+NPV calculations, etc. would all be considered likely integrity checks.
+See also Alert.
+
+CODE REPLICATION
+
+The practice of copying and pasting code. This of course saves time and effort,
+but more crucially provides an opportunity to indirectly review the original code,
+testing its suitability under different assumptions.
+
+CONSTANT		
+
+A line item represented by a single value cell, i.e. with a value that does not
+change over time or may not even have a time specification to it, e.g. an IRR
+calculation. Should not be confused with an input, which is how this
+term may be used by other standards.
+
+CONTROL SHEET		
+
+A sheet that is not central to the core model logic flowing from inputs through
+workings to presentation, but generally use to report issues or information about
+the model. Error check sheets, change control tracking, documentation sheets,
+etc. would all be considered Control sheets.
+
+CORKSCREW		
+
+A special form of calculation block where the opening balance is equal to the
+previous period’s closing balance.
+
+COUNTER-FLOW		
+
+A calculation that requires precedents that are calculated ‘down stream’ in the
+standard calculation order.
+
+DASHBOARD		
+
+A dashboard is a visual, graphical display of the most important information
+needed to achieve one or more objectives. A good dashboard fits entirely on a
+single computer screen so it can be monitored at a glance.
+
+DAISY CHAIN		
+
+A poor design feature where a link refers in turn to another link.
+
+DATA RANGE
+
+The range of continuous cells that make up a series line item’s numerical values.
+
+DISPLAY TOTAL
+
+A total of the complete range of data for a series line item where the value is used
+for display only, i.e. not then used in model logic and hence has no dependents.
+
+EMBEDDED CONSTANT
+
+A fixed, static number included, i.e. embedded, within a formula, rather than split
+out separately and presented in its own labelled cell as a constant Input.
+
+EXPORT		
+
+A line item that is used on / referenced by another worksheet in the model. The
+dependents of an Export is an Import.
+
+58 / FAST Standard 02c July 2019
+
+FAST STANDARD ORGANISATION
+
+A non for profit company registered in the UK. Established to promote, protect and
+develop the FAST Standard.
+
+FLAG
+
+See Timing Flag.
+
+FLOW
+
+A line item where the values presented are accumulated over a period of time,
+and can also be described and/or derived as the differences between two balances. In accounting terminology, flows are those line items that would appear
+on either the Profit & Loss (Income) Statement and/or Cash Flow Statement.
+
+IMPORT
+
+A link where the Source Line Item is on a different worksheet.
+The source of an Import is an Export.
+
+INDEXATION FACTOR
+
+A factor-type line item often used to separate the complexity of inflation into
+a separate modelling component, alternately referred to as escalation factors
+(esc factors) or simply inflation factors. Discount factors
+are essentially reciprocals of indexation factors.
+
+INPUT
+
+Input, generally used as short form of synonym input cells or input-type line
+item, is any cell that does not contain cell references and hence has no precedents, i.e. are not calculations.
+Inputs are most often direct numeric values entered in a spreadsheet cell, but
+may also contain constructed values via so-called input formulas, which are
+a permissible alternative, e.g. = 1500 / 12.
+
+INDEXATION FACTOR
+
+Other standards alternatively refer to inputs as assumptions or ‘constants’. In the
+case of the latter, these should not be confused with the FAST Standard defined
+term Constant, that is any cell that has a value that does not vary over time.
+
+LINE ITEM
+
+A unit of information displayed on a line, row or column, of its own with its own
+label. Line items can contain some or all of the following components depending
+on their taxonomy: data range, label, units designator, and display total. As
+well, a time axis is an implicit attribute of
+a series line item.
+
+LINK		
+
+The simplest form of formula, where the only element is a simple reference to a
+single cell, but contains no functions or arithmetic operators. Links have a single
+precedent known as the source line item.
+
+LIVE LABELLING
+
+Generally used only for links, where the link’s label cell is a reference to the
+source line item’s label. Hence, consistency of labelling between link and
+source is guaranteed, and a single change on source will refresh throughout the
+model upon a recalculation.
+
+MODEL
+
+A workbook, or set of inter-dependent workbooks, where data is structured
+along an axis of presentation; essentially a highly structured spreadsheet.
+In a financial model, time is usually the primary axis.
+
+NORMALLY POSITIVE
+CONVENTION
+
+Leaving all figures in a model as positive and the direction of the value – whether it is coming in or going out – suggested by the label. Positive labels such as
+FAST Standard 02c July 2019 / 59
+
+revenues and receipts indicate that something is coming in and negative labels
+such as expenses and expenditure indicate that something is going out.
+ONE-SHEET WONDER
+
+An informal term, referring to a model where the vast majority of calculations
+are performed on a single ‘workings’ sheet.
+
+PARTIAL PERIOD FACTOR
+
+The analogue form of a timing flag, where values can range between 0 and 1.Generally used in simply multiplication to scale the amount of a flow applicable to a given time period when (say) operations are present in only a fraction of a given period.
+
+PLACEHOLDER
+
+Generic term for a temporary line item, whether entirely empty or containing
+temporary code. Placeholders are often used to construct formulas from local
+precedents in a calculation block when a given precedent does not yet exist.
+
+PRESENTATION SHEET
+
+A worksheet dedicated primarily to presenting model results. For a discussion
+on Results sheets, see Presentation Sheets, page 29
+
+RESULTS
+
+A line item with no dependents.
+
+SERIES			
+
+Short for series line item. Any line item with a range of values expressed over
+some sequential axis – in a financial model, usually time. Series may be inputs or
+calculations.
+
+SIGNATORY			
+
+A company that has signed up to support the FAST Standard.
+
+SMU
+
+See Standard Monetary Unit.
+
+SOURCE
+
+The precedent line item to which a link refers. Short form for source line item.
+
+STANDARD MONETARY UNIT
+		
+
+Often abbreviated SMU is the standard unit of currency in a model,		
+generally as presented in the financial statements and used most commonly in
+both inputs and workings, e.g. $ 000s. Generally applies to a single currency
+model, unless one currency is sufficiently dominant over the other(s).
+
+TEMPORARY CODE
+		
+
+Any installation in a model, typically caused by short-term expediency, which
+violates the design terms of the FAST Standard.
+
+TIME AXIS / TIME RULER		
+
+The timeline associated with a given series line item, generally presented as a
+‘time ruler’ in a freeze pane header when it applies to all of the Line Items on a
+given worksheet. Defining time axes is an important factor in a model’s design,
+giving shape, structure, and size to a model.
+
+TIMING FLAG
+
+Used to denote the occurrence of a particular event, that is, to place a certain
+value in time. Flags contain values of either 0s or 1s only and are used either
+in simple multiplication or often as the basis of an IF statement conditional. If a
+timing component contains values other than 0s and 1s it should be referred to
+as a partial period factor. In other standards, flags may be referred to as ‘masks’,
+drawn from the idea of a silk-screening process that allows ink through (when
+equal to 1) or not (when equal to 0).
+
+60 / FAST Standard 02c July 2019
+
+UNITS DESIGNATOR		
+
+The separate description of a line item’s units.
+
+WORKBOOK
+
+An Excel file that collects together a number of worksheets. Synonym for ‘book’
+and both terms will be found in this document.
+
+WORKINGS
+
+General term for intermediate calculations, i.e. those that have dependents, i.e.
+not results. Workings sheets and Calculation sheets are virtual synonyms and
+may be used interchangeably in the Standard.
+
+WORKSHEET
+
+Synonym for Excel term ‘sheet’ and both terms will be found in this document.
+
+FAST Standard 02c July 2019 / 61
+
+7
+
+Section 7.0/
+Appendix C: The Rules in Short
+
+62 / FAST Standard 02c July 2019
+
+7.00 Appendix C:
+The FAST
+Standard
+Rules in
+Short form.
+
+FAST Standard 02c July 2019 / 63
+
+Chapter 1:
+Workbook Design
+1.01/ General Workbook Design Principles
+Page 15
+
+FAST 1.01-01 Group or separate worksheets by type: Foundation, Workings, 		
+Presentation, and Control
+
+16
+
+FAST 1.01-02 Maintain consistent column structure across all sheets
+
+16
+
+FAST 1.01-03 Maintain a consistent time ruler throughout the model
+
+16
+
+FAST-1.01-03.1 except when multiple time resolutions are required
+
+16
+
+FAST 1.01-04 Ensure primary time rulers span time frames of secondary rulers
+
+16
+
+FAST 1.01-05 Proliferate links to maximise navigational efficiency
+
+17
+
+FAST 1.01-06 Mark exports with red font and imports with blue font
+
+17
+
+FAST 1.01-07 Calculate only once
+
+17
+
+FAST 1.01-08 Use normally positive convention on Workings sheets
+
+18
+
+FAST 1.01-09 Use in-flow / out-flow convention on Presentation sheets
+
+18
+
+FAST 1.01-10 Do not overuse macros
+
+18
+
+FAST 1.01-11 Never release a model with purposeful use of circularity
+
+1.02/ Sheet Organisation
+19
+
+FAST 1.02-01 Arrange sheets so that calculation order flows left to right
+
+19
+
+FAST-1.02-01.1 except to group Input and Results sheets
+
+19
+
+FAST 1.02-02 Do not attempt to optimise calculation layout and user interface /
+presentation on the same worksheet
+
+19
+
+FAST 1.02-03 Separate flags and factors onto dedicated sheets
+
+20
+
+FAST 1.02-04 Separate Workings sheets into functional ‘chapters’
+
+20
+
+FAST 1.02-05 Minimise inter-linking between sheets
+
+1.03/ Multiple Workbook Models
+20
+
+FAST 1.03-01 Do not split a model across multiple workbooks
+
+20
+
+FAST-1.03-01.1 except when more than one modeller must work concurrently
+
+20
+
+FAST-1.03-01.2 except when different files should be sent to different recipients
+
+20
+
+FAST-1.03-01.3 except when a single workbook would be too
+large and intimidating
+
+64 / FAST Standard 02c July 2019
+
+Page
+
+21
+
+FAST 1.03-02 Avoid direct (external file) links
+
+21
+
+FAST-1.03-02.1 except when the logic flows back and forth between workbooks
+
+21
+
+FAST 1.03-03 Use import / export sheets for line items passed
+between workbooks
+
+21
+
+FAST 1.03-04 External file links should be Named
+
+Chapter 2:
+Worksheet Design
+2.01/ Universal Design Layout Principles
+23
+
+FAST 2.01-01 Each column should have a single and consistent purpose
+
+23
+
+FAST 2.01-02 Series worksheets should be defined for a single time axis only
+
+23
+
+FAST-2.01-02.1 except series inputs sheets to avoid too many sheets
+
+23
+
+FAST-2.01-02.2 except where local exceptions warranted
+
+23
+
+FAST 2.01-03 Make only two columns matter
+
+24
+
+FAST 2.01-04 Calculation logic should generally flow from top to bottom
+and left to right
+
+24
+
+FAST 2.01-05 Mark intra-sheet counter-flows with gray shade
+
+24
+
+FAST 2.01-06 Limit counter-flows to opening balance positions
+
+24
+
+FAST 2.01-07 Present information horizontally
+
+24
+
+FAST-2.01-07.1 except for short vertical series for scenario structuring
+
+24
+
+FAST-2.01-07.2 except where vertical layout is more clear for printing
+
+24
+
+FAST 2.01-08 Do not hide anything
+
+24
+
+FAST-2.01-08.1 except for undefined time which should be hidden
+
+2.02/ Calculation Blocks
+25
+
+FAST 2.02-01 Construct all calculations in a separate calculation block
+
+25
+
+FAST-2.02-01.1 except when the calculation block is a balance corkscrew
+
+23
+
+FAST-2.02-01.2 except when cascading calculations are warranted
+
+25
+
+FAST-2.02-01.3 except when the calculation is a trivial formula
+
+25
+
+FAST-2.02-01.4 except when a 2D line item is deemed the more efficient and/or 		
+readable design solution
+
+26
+
+FAST 2.02-02 Build calculation blocks so they can be replicated
+FAST Standard 02c July 2019 / 65
+
+Page 26
+
+FAST 2.02-03 List common calculation block components in a consistent order
+
+26
+
+FAST 2.02-04 List precedents in the order they appear in a formula
+
+26
+
+FAST-2.02-04.1 except when this violates a ‘pyramid’ layout
+
+26
+
+FAST 2.02-05 Use corkscrew calculation blocks for balance accumulation
+
+26
+
+FAST 2.02-06 Use timing flag and factor components routinely
+
+2.03/ Header Design
+27
+
+FAST 2.03-01 The time axis is best placed on the worksheet only once in a 		
+		
+freeze pane
+
+27
+
+FAST 2.03-02 Display a single end-of-period date in a freeze pane
+
+27
+
+FAST 2.03-03 Display the operative period flag
+
+27
+
+FAST 2.03-04 Include a column counter for cross-reference on F11 quick charts
+
+27
+
+FAST 2.03-05 Include master error checks and alert indicators in the freeze pane
+
+27
+
+FAST 2.03-06 Include definition of SMU on Presentation sheets
+
+2.04/ Input Sheets
+27
+
+FAST 2.04-01 Organise inputs both by structure and commercial area
+
+28
+
+FAST 2.04-02 Include a dedicated instruction / comments column on Input sheets
+
+28
+
+FAST 2.04-03 Create self-documenting Input sheets
+
+2.05/ Presentation Sheets
+29
+
+FAST 2.05-01 Use Presentation sheets to present the model’s results
+
+29
+
+FAST 2.05-02 A model must completely explain how it works without the need 		
+for other software applications to present the model outputs
+
+30
+
+FAST 2.05-03 Provide a description of the modelling standards and method 		
+used to build the model
+
+30
+
+FAST 2.05-04 Provide a description of the model’s flow
+
+30
+
+FAST 2.05-05 Provide keys to color coding, abbreviation, Named ranges,
+and functions
+
+30
+
+FAST 2.05-06 Selection of chart type should correspond to the nature of the 		
+data being presented
+
+30
+
+FAST 2.05-07 Charts should be formatted for ease of comprehension of the
+main messages being communicated
+
+2.06/ Control Sheets
+31
+
+FAST 2.06-01 Provide a table of contents
+
+31
+
+FAST 2.06-02 Provide a list of model qualifications and weaknesses
+
+66 / FAST Standard 02c July 2019
+
+Chapter 3:
+The Line Item
+3.01/ Line Item Taxonomy
+Page 33
+
+FAST 3.01-01 Provide clear indication for constants vs series
+
+33
+
+FAST 3.01-02 Treat line items as the smallest indivisible object in a model
+
+34
+
+FAST 3.01-03 Do not use a series structure to present constants
+
+34
+
+FAST 3.01-04 Do not use row totals in model logic
+
+34
+
+FAST 3.01-05 Include display totals on all flows
+
+34
+
+FAST 3.01-06 Do not include display totals on balances
+
+34
+
+FAST-3.01-06.1 except when the line item includes a single balance
+
+34
+
+FAST 3.01-07 Place display totals on the left where they are visible
+
+35
+
+FAST 3.01-08 Make numbers look like what they are with smart format
+
+3.02 Formula Design Fundamentals
+35
+
+FAST 3.02-01 Formulas must be consistent
+
+35
+
+FAST-3.02-01.1 except when marked as temporary code
+
+35
+
+FAST 3.02-02 Mark temporary code clearly
+
+35
+
+FAST 3.02-03 Do not use partial range references
+
+3.03/ Formula Simplicity
+35
+
+FAST 3.03-01 Do not write a formula longer than your thumb
+
+35
+
+FAST 3.03-02 No formula should take more than 24 seconds to explain
+
+35
+
+FAST 3.03-03 Do not write multi-line formulas
+
+35
+
+FAST 3.03-04 Use a limited set of Excel functions
+
+37
+
+FAST 3.03-05 Use flags to limit use of IF function
+
+37
+
+FAST 3.03-06 Use INDEX (or even CHOOSE) over IF to pick values
+
+37
+
+FAST 3.03-07 Never use nested IFs
+
+FAST Standard 02c July 2019 / 67
+
+Page 37
+
+FAST 3.03-08 Do not use Excel Names
+
+37
+
+FAST 3.03-08.1 Except for external links
+
+38
+
+FAST 3.03–08.2 Except as a substitute for cell references in macro coding
+
+38
+
+FAST 3.03–08.3 Except where it is impractical to display locally an ingredient
+in a calculation block
+
+38
+
+FAST-3.03-08.4 Except when it is a poor design choice to display locally an
+		
+ingredient in a calculation block e.g. error check tolerance value
+
+38
+
+FAST-3.03-08.5 Except in data validation lists
+
+38
+
+FAST-3.03-08.6 Except for text based criteria in conditional formatting
+
+38
+
+FAST 3.03-09 Do not construct array formulas
+
+38
+
+FAST-3.03-09.1 Except when Excel’s Data Table feature is being used
+
+38
+
+FAST-3.03-09.2 Except when calculation cannot be achieved without arrays
+
+38
+
+FAST-3.03-09.3 Except when the logic bloat required to avoid arrays creates a 		
+solution that is more difficult to review than the array alternative
+
+39
+
+FAST 3.03-10 Do not use a space as an intersection operator
+
+39
+
+FAST 3.03-11 Beware circularity or #ERRORs protected on inactive branch
+of IF function
+
+3.04/ Formula Clarity
+38
+
+FAST 3.04-01 Do not write formulas with embedded constants
+
+39
+
+FAST-3.04-01.1 except when constants are universal
+
+39
+
+FAST-3.04-01.2 except when constants are deliberately embedded to avoid
+their manipulation
+
+40
+
+FAST 3.04-02 Include spaces between arguments in formulas
+
+40
+
+FAST 3.04-03 Do not use parentheses in formulas unnecessarily
+
+40
+
+FAST-3.04-03.1 except when they may improve formula clarity
+
+41
+
+FAST 3.04-04 Use “-1 *” coefficient for all sign switches
+
+41
+
+FAST 3.04-05 Do not include current sheet references in formulas
+
+41
+
+FAST 3.04-06 Do not use elements that appear to be non-structural
+in model logic
+
+41
+
+FAST 3.04-07 Do not over-anchor
+
+68 / FAST Standard 02c July 2019
+
+3.05/ FAST Labelling Conventions
+Page
+
+42
+
+FAST 3.05-01 Provide a label for all line items
+
+42
+
+FAST 3.05-02 Invest time in drafting a good label
+
+42
+
+FAST 3.05-03 All line items must have a unique label
+
+43
+
+FAST 3.05-04 Include a units designator on all line items
+
+43
+
+FAST-3.05-04.1 except it can potentially be omitted when SMU applies
+
+43
+
+FAST 3.05-05 Choose a capitalisation convention and stick with it
+
+43
+
+FAST 3.05-06 Include the word “balance” in labels of balances
+
+43
+
+FAST 3.05-07 Include the word “cash” when Label is otherwise insufficiently clear
+
+43
+
+FAST 3.05-08 Unit designators must be clear and unambiguous
+
+44
+
+FAST 3.05-09 Include units in the label
+
+44
+
+FAST 3.05-10 Ensure alternative sign version of flows are clearly labeled
+
+44
+
+FAST 3.05-11 Ensure distinction between opening and closing balances
+clearly indicated
+
+44
+
+FAST 3.05-12 Maintain labelling consistency pedantically and precisely
+
+44
+
+FAST 3.05-13 Unit designators must be consistently applied throughout
+the model
+
+3.06/ Links
+45
+
+FAST 3.06-01 Row anchor all links
+
+45
+
+FAST-3.06-01.1 except when setting up to replicate sections
+
+45
+
+FAST 3.06-02 Do not create daisy chains; do not link to links
+
+3.07/ Timing Flags and PPFs
+46
+
+FAST 3.07-01 Use timing flags
+
+46
+
+FAST 3.07-02 Only create a flag when it is required
+
+46
+
+FAST 3.07-03 Only use flags that are relevant to the logic they are being applied to
+
+46
+
+FAST 3.07-04 Include display totals on all flags and PPFs
+
+FAST Standard 02c July 2019 / 69
+
+Chapter 4:
+Excel Features Used
+in Modelling
+4.01 Excel Functions
+49
+
+FAST 4.01-01 Use the INDEX function over the CHOOSE function
+
+50
+
+FAST 4.01-02 Do not use the NPV function – ever
+
+50
+
+FAST 4.01-03 Do not use OFFSET or INDIRECT functions
+
+50
+
+FAST 4.01-04 ROUND
+
+4.02/ Formatting Features
+51
+
+FAST 4.02-01 Use well-defined format styles
+
+51
+
+FAST 4.02-02 Do not merge cells
+
+4.03/ Excel Names
+52
+
+FAST 4.03-01 Only use fully anchored references when defining Names
+
+52
+
+FAST 4.03-02 Only use Names scoped to the workbook level
+(and not to the worksheet level) in calculations
+
+70 / FAST Standard 02c July 2019
+
+FAST Standard 02c July 2019 / 71
+
+WWW.FAST-STANDARD.ORG
+
+Version/ FAST Standard 02c July 2019
+
+72 / FAST Standard 02c July 2019
+
+

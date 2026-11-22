@@ -1,0 +1,12 @@
+{
+ "key": "raffensperger_2001_guidelines",
+ "citation": "Raffensperger JF (2001 manuscript; arXiv 2008). New guidelines for spreadsheets. arXiv:0807.3186.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/0807.3186",
+ "media_type": "application/pdf",
+ "sha256": "adb2767ce3cca4ddf19523ab8b930770c44798dfd9a0df060a6441cd44430cb8",
+ "licence": "arXiv non-exclusive licence to distribute (arxiv.org/licenses/nonexclusive-distrib/1.0)",
+ "fetched": "2026-11-16T03:36:53Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/dl/raffensperger.pdf (fetched is the file's modification time)"
+}

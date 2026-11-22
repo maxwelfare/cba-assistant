@@ -1,0 +1,12 @@
+{
+ "key": "omb_2025_m2523",
+ "citation": "Vought RT (8 April 2025). OMB Memorandum M-25-23, Rescission and Reinstatement of Circular No. A-94.",
+ "doi": null,
+ "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-23-Rescission-and-Reinstatement-of-Circular-No.-A-94.pdf",
+ "media_type": "application/pdf",
+ "sha256": "43868c8c8016a62631456c9520600970bca5247a4ee35d43539022b57cd347aa",
+ "licence": "US federal document",
+ "fetched": "2026-11-17T11:55:14Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-23-Rescission-and-Reinstatement-of-Circular-No.-A-94.pdf"
+}

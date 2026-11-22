@@ -1,0 +1,11 @@
+{
+ "key": "mma_2013_guia_agies_calidad_aire",
+ "citation": "Ministerio del Medio Ambiente, Departamento de Economia Ambiental (2013). Guia metodologica para la elaboracion de un Analisis General de Impacto Economico y Social (AGIES) para instrumentos de gestion de calidad del aire.",
+ "doi": null,
+ "url": "https://metadatos.mma.gob.cl/sinia/articles-54447_Guia_MetodologicaCalidadAire.pdf",
+ "media_type": "application/pdf",
+ "sha256": "83ea0114394279972a7d4770625b6eb4d4ef89cdeabaa4b68100fbeeeb061fe6",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:05Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

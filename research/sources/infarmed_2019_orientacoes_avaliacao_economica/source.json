@@ -1,0 +1,11 @@
+{
+ "key": "infarmed_2019_orientacoes_avaliacao_economica",
+ "citation": "Perelman J, Soares M, Mateus C, Duarte A, Faria R, Ferreira L, Saramago P, Veiga P, Furtado C, Caldeira S, Teixeira MC, Sculpher M (2019). Orientações Metodológicas para Estudos de Avaliação Económica de Tecnologias de Saúde, versão 1.0, 12/12/2019. INFARMED, Lisboa.",
+ "doi": null,
+ "url": "https://www.infarmed.pt/documents/15786/4001413/Orienta%C3%A7%C3%B5es+metodol%C3%B3gicas+para+estudos+de+avalia%C3%A7%C3%A3o+econ%C3%B3mica+de+tecnologias+de+sa%C3%BAde/736f57a0-fa36-5e3e-65ae-00730de4dac9",
+ "media_type": "application/pdf",
+ "sha256": "316d9802bc113af90e9f76a8556cbd12b8ff5db35d8746ed8e0efe63a0888999",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:32:43Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

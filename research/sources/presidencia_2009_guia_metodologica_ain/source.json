@@ -1,0 +1,11 @@
+{
+  "key": "presidencia_2009_guia_metodologica_ain",
+  "citation": "Guía metodológica para la elaboración de la Memoria del Análisis de Impacto Normativo (Ministerio de la Presidencia, approved by Consejo de Ministros 11 Dec 2009; superseded by RD 931/2017)",
+  "doi": null,
+  "url": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/gobernanza-publica/simplificacion/impacto-normativo/guia_metodologica_ain.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5c9f3fa24830a44122582ad73affa836ea1588b89336bc7704158923f8057bf8",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:48:55+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

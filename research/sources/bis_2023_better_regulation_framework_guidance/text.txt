@@ -1,0 +1,3256 @@
+BETTER
+REGULATION
+FRAMEWORK
+Guidance
+
+September 2023
+
+1
+
+Contents
+
+1
+
+Introduction _______________________________________________________ 3
+
+2
+
+Scope _____________________________________________________________ 6
+
+3
+
+Summary of the Framework ___________________________________________ 8
+
+4
+
+Key information ____________________________________________________ 12
+
+5
+
+Policy development process __________________________________________ 15
+
+6
+
+Is RPC OA scrutiny required?__________________________________________ 19
+
+7
+
+Options Assessment ________________________________________________ 23
+
+8
+
+RPC Independent scrutiny ____________________________________________ 30
+
+9
+
+Collective agreement _______________________________________________ 33
+
+10 Development of the Regulatory IA _____________________________________ 35
+11 Finalising the policy _________________________________________________ 40
+12 Introduction to Parliament ___________________________________________ 43
+13 Post Implementation Reviews and legal requirements _____________________ 44
+Annex 1: Full list of exclusions and exemptions ______________________________ 46
+Annex 2: Key Terms, Definitions Acronyms _________________________________ 50
+Annex 3: Small, micro and medium business assessments ______________________ 52
+Annex 4: Technical note ________________________________________________ 54
+Annex 5: International Trade and Investment key considerations _______________ 60
+Annex 6: OA/IA templates, calculator and guidance __________________________ 62
+Annex 7: Other relevant sources of guidance _______________________________ 63
+
+2|Page
+
+1
+
+Introduction
+
+1.1
+
+The Better Regulation Framework (BRF or Framework) is the system
+government uses to manage the flow of regulation and understand its impacts.
+The BRF plays an important role in helping to drive behaviour and approaches
+to policy making across government. As set out in the Smarter regulation to
+grow the economy paper, the UK’s new approach recognises that regulation
+should be applied proportionately, and that there must be sufficient evidence
+that any identified risk of not regulating is credible and real. The new
+Framework provides the right system to ensure the future regulation of our
+changing economy is streamlined, recognises dynamic factors not just
+immediate compliance costs, and puts smart, forward-looking regulation at the
+heart of government decisions.
+
+1.2
+
+This new framework follows the five regulatory principles set out in the Benefits
+of Brexit report:
+
+1.3
+
+•
+
+A sovereign approach. We will use our new freedoms to follow a
+distinctive approach based on UK law, protected by independent UK
+regulators and designed to strengthen UK markets.
+
+•
+
+Leading from the front. We will focus on the future, shaping and
+supporting the development of new technologies and creating new
+markets. We will use our new freedom to act quickly and nimbly and we
+will pursue high-quality regulation because it leads to better markets.
+
+•
+
+Proportionality. Where markets achieve the best outcomes, we will let
+them move freely and dynamically. We will pursue non-regulatory
+options where we can. When strong rules are required to achieve the
+best outcomes, we will act decisively to put them in place and enforce
+them vigorously.
+
+•
+
+Recognising what works. We will thoroughly analyse our interventions
+based on the outcomes they produce in the real world and where
+regulation does not achieve its objectives or does so at unacceptable
+cost, we will ensure it is revised or removed.
+
+•
+
+Setting high standards at home and globally. We will set high
+standards at home and engage in robust regulatory diplomacy across
+the world, leading in multilateral settings, influencing the decisions of
+others and helping to solve problems that require a global approach.
+
+The objectives of the reforms to the Better Regulation Framework are:
+a) to increase the consideration and use of alternatives to regulation
+b) earlier and more holistic scrutiny of regulatory proposals through
+consideration of wider impacts beyond direct costs to business
+c) earlier and more consistent evaluation of whether implemented regulations
+are achieving their aims
+
+3|Page
+
+1.4
+
+The new approach therefore brings independent scrutiny, by the government’s
+independent advisory body, the Regulatory Policy Committee (RPC – see
+chapter 4), forward in the policy cycle, refocusing on assessing the case made
+for regulation to ensure that government regulates only where necessary. It
+ensures that proposals are assessed against a wider range of impacts and
+ensures that well-considered monitoring and evaluation plans are in place
+before implementation.
+
+1.5
+
+While the BRF’s primary purpose is to support ministerial decision making, it
+also has an important role in enabling parliamentary scrutiny of regulation and
+transparency in general. The BRF also continues to hold an important role in
+supporting the UK in meeting international commitments arising from Free
+Trade Agreements (FTAs).
+
+Transition to the new Framework
+1.6
+
+The new Framework is launched with the publication of this guidance, which
+means that departments can use the new Framework for new Regulatory
+Provisions.
+
+1.7
+
+However, new policies can require long lead-in times from conception to being
+ready to announce or consult on a lead regulatory option. This can be to make
+sure that alternatives to regulation have been fully considered, that sufficient
+evidence has been gathered, and that the proposals have been through the
+independent scrutiny process (where relevant) before publication.
+
+1.8
+
+Therefore, a transition period is necessary. This will be a period of 12 months.
+Specifically, until the start of September 2024, departments can seek collective
+agreement to a consultation or announcement for a new ‘Regulatory Provision’
+(see chapter 2 for definition) having used either the previous or new
+Framework. For the avoidance of doubt, either choice is acceptable during this
+transition at the discretion of the relevant Minister. See the guidance for the
+previous Framework.
+
+1.9
+
+In addition, some current Regulatory Provisions will already be past the earlystage collective agreement point, for example, if they are at, or past, the point
+of consultation on a lead Regulatory Provision. These will have been developed
+using the previous BRF and will therefore continue on that basis.
+
+1.10
+
+The transition period will not result in any gaps in coverage – all relevant
+Regulatory Provisions will use either the previous or new Framework.
+
+4|Page
+
+Examples of which Framework applies
+Example 1: Seeking collective agreement in March 2024
+A department plans to announce plans for a new regulatory provision. This is
+within the transition period and it is at their discretion whether to use the
+previous or new Framework.
+Example 2: Seeking collective agreement in October 2024
+A department plans to seek collective agreement in October 2024 to
+announce plans for a new regulatory provision – for example using a
+consultation where it is a preferred option. This is past the transition period
+and they must use the new Framework.
+Example 3: If using the previous system
+Referring to example 1, if a department chooses to use the previous system
+within the transition period then the regulatory provision will continue to use
+the previous system – including beyond September 2024 where relevant.
+
+How to use this guidance
+1.11
+
+The purpose of this guidance is to explain how the BRF process should operate
+and to guide policymakers in government on how to comply with the BRF when
+introducing new Regulatory Provisions.
+
+1.12
+
+It is first and foremost written for departments creating new Regulatory
+Provisions. The guidance sets out key considerations for developing regulatory
+policy. It follows the policy making cycle and sets out the process for earlier
+scrutiny of decisions to regulate and where such scrutiny is required.
+
+1.13
+
+It is strongly recommended that policymakers read this guidance in its
+entirety prior to engaging with the BRF process. This applies whether a
+Regulatory Provision is included or excluded from RPC scrutiny, as this
+guidance contains explanations and support which is likely to be needed for
+any Regulatory Provision.
+
+1.14
+
+With the exception of the transition arrangements described above, this
+document supersedes the ‘Better Regulation Framework: Interim Guidance’
+published in March 2020.
+
+5|Page
+
+2
+
+Scope
+
+2.1
+
+The Framework applies to Regulatory Provisions as defined below. If
+something is not a Regulatory Provision, it is not in scope of the Framework.
+
+2.2
+
+If a measure is not in scope of the Framework, then you do not need to follow
+this guidance. However other guidance may still be applicable – for
+example, the Green Book and/or the Guide to Making Legislation.
+
+Definition of a Regulatory Provision1
+2.3
+
+A ‘Regulatory Provision’ is a ‘statutory provision’ that relates to a ‘business
+activity’ which—
+a) imposes or amends requirements, restrictions or conditions, or sets or
+amends standards or gives or amends guidance, in relation to the activity,
+or
+b) relates to the securing of compliance with, or the enforcement of,
+requirements, restrictions, conditions, standards or guidance which relate
+to the activity.
+A ‘statutory provision’ is:
+a) a provision of an Act,
+b) a provision of subordinate legislation made by a Minister of the Crown, or
+c) any other provision which has effect by virtue of the exercise of a function
+conferred on a Minister of the Crown, or independent regulator that has
+agreed to sign up to the BRF, by or under an Act.
+A ‘statutory provision’ does not include:
+a) a provision which would be within the legislative competence of the
+Scottish Parliament if it were contained in an Act of that Parliament (see
+section 29 of the Scotland Act 1998),
+b) a provision which could be included in an Act of the Northern Ireland
+Assembly made without the consent of the Secretary of State (see
+sections 6 to 8 of the Northern Ireland Act 1998), or
+c) a provision falling within the legislative competence of the National
+Assembly for Wales (see section 108A of the Government of Wales Act
+2006).
+
+1
+
+The definition is mostly the same as the prior legal definition from s21 to s27 of the Small
+Business, Enterprise and Employment Act 2015. However, there are some differences, such as
+removal of the exclusion for making or amending measures which will have effect for a period
+of less than 12 months.
+
+6|Page
+
+'Business activities’ means activities carried on:
+a)
+
+by a business for the purposes of the business, or
+
+b)
+
+by a voluntary or community body for the purposes of the body.
+
+References to a business or a voluntary or community body do not include2
+a business or a voluntary or community body which—
+a) is controlled by a public authority, or
+b) is acting on behalf of a public authority in carrying out the activities.
+Notwithstanding the above definition, provisions and their impacts are out of
+scope from the definition of Regulatory Provisions where they are in
+connection with:
+a) imposing, abolishing, varying or in connection with any tax, duty, levy or
+other charge;
+b) procurement;
+c) grants or other financial assistance by or on behalf of a public authority; or
+d) commencement orders.
+
+How the Framework applies to regulators
+2.4
+
+Regulatory provisions in scope of the BRF include statutory provisions made by
+ministers for, or on behalf of, regulators, but not provisions made by regulators
+themselves (for example, where they have a separate legal identity to the
+ministerial department and have legislation making powers). Where an
+independent regulator makes its own Regulatory Provisions it is recommended
+that the regulator follows the Framework where possible, whilst avoiding
+duplication when there is a separate process in place that considers better
+regulation issues. Additional guidance on this will be issued at a later date.
+
+2.5
+
+As an example, the financial services regulators, including the Financial
+Conduct Authority (FCA) and the Prudential Regulation Authority (PRA), do not
+have the power to create Regulatory Provisions under the above definition, and
+are therefore out of scope of the BRF. If the Government were to make a
+Regulatory Provision in relation to financial services, then that would be in
+scope of the BRF. As with all regulatory authorities, as well as government
+departments and arm’s length public bodies with responsibility derived from
+central government for public funds, the financial services regulators are still
+bound by the Green Book. The FCA and PRA are also establishing a Cost
+Benefit Analysis (CBA) Panel, as required by the Financial Services and
+Markets Act 2023, in order to support their production and development of
+CBA. This will improve their understanding of whether proposed interventions
+are likely to be effective and proportionate.
+
+2 See here.
+
+7|Page
+
+3
+
+Summary of the Framework
+The Better Regulation Framework (BRF)
+
+3.1
+
+The BRF applies to all Regulatory Provisions (see chapter 2) and sets out the
+process for ensuring that the principles for better regulation are applied
+whenever government brings forward proposals for new Regulatory Provisions.
+
+3.2
+
+The BRF is designed to ensure that government regulation is proportionate and
+is used only where alternative, non-regulatory approaches, will either not
+achieve the desired policy outcomes or will achieve them at disproportionate
+cost. By enabling ministerial decisions to be based on robust analysis of the
+costs and benefits of different options, the Framework helps ensure that new
+regulation is implemented only where there is clear evidence that it will
+generate net positive outcomes for society and is implemented and enforced in
+a way that minimises the burdens on businesses and consumers, and supports
+other priorities such as innovation and competition.
+
+3.3
+
+The Framework builds on the principles of appraisal and evaluation set out in
+HM Treasury’s ‘Green Book’ and ‘Magenta Book’ to ensure objective analysis
+is provided to support decision making, and that the Government is
+accountable for new regulation. Where government intervention requires a
+legislative or policy change, departments are expected to analyse and assess
+the impact of the change on the different groups affected. This generally takes
+the form of an impact assessment (IA).
+
+3.4
+
+The interactions between the Framework and the regulatory policy-making
+cycle can be broken down into three stages:
+1. Initial policy development – The initial development of policy proposals
+within departments, prior to formal or informal consultations. This is the
+subject of chapter 5 of this guidance.
+2. Pre-implementation – This refers to the stage where a Regulatory Provision
+has been identified as a preferred option. The Regulatory Provision should be
+logged with the RPC Secretariat (see chapter 4) and consideration given to the
+work needed to comply with the Framework. This is the subject of chapters
+6-10 of this guidance.
+In summary, if the regulation has significant annualised impacts on business
+(greater than +/-£10m Equivalent Annual Net Direct Costs on Business
+(EANDCB)), the department must produce an ‘Options Assessment’ (OA – see
+chapter 7) for independent scrutiny by the RPC, unless an exclusion or
+exemption applies. This OA is required ahead of seeking collective agreement
+on a preferred Regulatory Provision; including for any consultations that have a
+Regulatory Provision as a preferred option. Regulatory Provisions with impacts
+on business of +/-£10m must also have a final impact assessment (IA – see
+chapter 10) for laying in Parliament alongside the regulation, regardless of
+exclusions or exemptions from independent scrutiny (see chapter 6). The
+regulation should include a review provision unless a statement is made, in the
+Explanatory Memorandum (see chapter 11), on why it would not be
+appropriate to include one.
+8|Page
+
+3. Post-implementation review (PIR) – Once the proposals have come into
+force, this stage includes reviewing whether the regulation is meeting its
+intended objectives, whether the policy could be improved, and whether it could
+meet its objectives at lower cost. This is the subject of chapter 13 of this
+guidance.
+
+Impact Assessments, Options Assessments and
+Explanatory Memoranda
+3.5
+
+Regulatory impact assessments (RIA or IA), also known as ‘final stage IAs’ (or
+often ‘final IA’), are used to support the appraisals of new primary or secondary
+legislation. The IA is an assessment of the anticipated impacts of the proposal.
+
+3.6
+
+An Options Assessment (OA) is related to an IA, but is produced at an earlier
+stage in the process of developing the Regulatory Provision, specifically for
+RPC scrutiny in the new Framework.
+
+3.7
+
+A regulatory IA needs to be prepared for all Regulatory Provisions where
+impacts are greater than ± £10m EANDCB. The final IA must be laid in
+Parliament alongside the legislation, permitting scrutiny by parliamentarians
+and other relevant bodies. This is an important consideration, not only for public
+and parliamentary transparency, but also to enable the UK Government to
+meet its legal obligations under international law. The requirement to produce
+a full regulatory IA is separate from the question of whether independent
+scrutiny of an OA or the final IA is required.
+
+3.8
+
+For de minimis measures (measures with impacts below ± £10m EANDCB),
+departments should provide a proportionate assessment or estimate of the
+impacts – to self-certify that the measure is below the de minimis threshold.
+
+3.9
+
+It should be noted that the House of Lords’ Secondary Legislation Scrutiny
+Committee (SLSC) recommends that, even if the policy does not meet the
+formal threshold for an IA, a short explanation of the net effects of the policy
+should always be included in the Explanatory Memoranda (EM), including
+estimated figures for costs and benefits.
+
+3.10
+
+The IA/OA process is based on the ROAMEF3 policy cycle and uses options
+analysis, including via an assessment of costs and benefits, as set out in the
+Green Book, to ensure good practice in developing policy based on robust
+evidence. The level of analysis should be proportionate to the problem that is
+being addressed and reflect the scale or impact of the measure.
+
+3.11
+
+An IA summarises the rationale for government intervention, the different policy
+options considered (including non-regulatory options) and the impacts of the
+intervention, as well as quantifying expected costs and benefits. Impacts should
+be set out in the most meaningful way possible given the evidence that has
+been identified and researched by the department. Where possible, this should
+include monetised costs and benefits. If monetising is not possible, quantitative
+
+3 Rationale, Objectives, Appraisal, Monitoring, Evaluation, Feedback
+
+9|Page
+
+estimates of numbers of businesses and household affected etc should be
+used. In some cases, qualitative evidence should be set out. The Green Book
+and the BRF both expect proportionate analysis, which means that
+departments are expected to make greater efforts to identify and analyse
+evidence for policies with more significant impacts.
+3.12
+
+An IA should document:
+• the total Net Present Social Value (NPSV)4
+• the Net Present Value (NPV) to business5
+• the Equivalent Annual Net Direct Costs on Business (EANDCB) for direct
+impacts on businesses
+• the Equivalent Annual Net Direct Costs on Households (EANDCH) for the
+direct impacts on households or other ‘person units’
+• other analysis as appropriate and proportionate, for example distributional
+effects, net zero and environmental impacts
+
+Overview of analysis and scrutiny requirements for Regulatory Provisions
+Stage
+Analysis
+RPC Scrutiny
+Announcing a Regulatory
+Provision as a preferred
+regulatory option
+
+OA required unless exempt or
+excluded (for example, exempt if
+under ±£10m EANDCB)
+
+Required unless exempt or
+excluded (for example,
+exempt if under ±£10m
+EANDCB)
+
+Consultation – N.B. This may
+be the same stage as above (if
+above condition is met), or
+could be before or after.
+
+Final stage
+
+Proportionate analysis required.
+Where relevant, departments can
+use information from the OA to
+demonstrate this, but will want to
+redact any sensitive information
+first.
+Final stage IA required unless
+under ±£10m EANDCB
+
+RPC scrutiny not required
+beyond OA stage scrutiny
+(where relevant).
+
+RPC scrutiny not required
+apart from the highestimpact measures where the
+Regulatory Provision BOTH:
+a) over EANDCB of ± £100
+million AND
+b) had inadequate (weak /
+very weak) scores on the
+wider impacts or
+monitoring and evaluation
+
+4
+
+NPSV is the net benefit to society and the economy as a whole (including businesses). It
+shows the present value of all benefits (including benefits to business and society at large) less
+the present value of all costs (to business and society at large). See the Green Book for further
+guidance: https://www.gov.uk/government/publications/the-green-book-appraisal-andevaluation-in-central-governent .
+
+5
+
+NPV to Business is the net direct and reasonable indirect benefits of a policy to business only.
+It shows the present value of all benefits to business less the present value costs to business.
+
+10 | P a g e
+
+on the OA, or falls within an
+exclusion category (apart
+from the Building Safety
+exclusion) and has
+therefore not gone through
+OA scrutiny
+
+Overview of key stages of the BRF
+Note: This is an illustrative high-level summary of some of the key stages of the
+BRF process, and should not be considered as a substitute for understanding
+the relevant steps that sit below or around those identified in this overview.
+
+11 | P a g e
+
+4
+
+Key information
+Key bodies
+
+4.1
+
+Every department has a Better Regulation Unit (BRU), to champion the BRF
+in the department, oversee that department’s processes for better regulation
+and advise teams on how to comply with the requirements.
+• Policy teams and analysts should consult their departmental BRU to
+ensure they are complying with the correct guidance.
+• Policy teams must consult their BRU as soon as possible if they consider
+they are unable to follow the BRF process.
+
+4.2
+
+The Better Regulation Executive (BRE) leads across government on Better
+Regulation policy and is responsible for embedding it in the policy making
+cycle. This includes publishing guidance on how to follow the BRF process and
+providing advice and support to BRUs.
+
+4.3
+
+The Regulatory Policy Committee (RPC) is the government’s independent
+advisory body for providing scrutiny of the evidence and analysis that supports
+the introduction of new Regulatory Provisions. The RPC scrutinises evidence
+and analysis, primarily in the form of an Options Assessment (OA), supporting
+the case for why regulation is necessary for measures that are subject to the
+BRF.
+
+4.4
+
+The RPC is supported by a secretariat that is staffed by civil servants – both
+policy professionals and analysts. The RPC Secretariat supports the
+independent RPC and the operation of the BRF scrutiny process. It is part of
+government and will be clear with departments about any information that it will
+share or not share with the independent RPC and its members.
+
+Records and reports
+4.5
+
+The RPC Secretariat manages operational aspects of the BRF process. It is
+responsible for maintaining a record of:
+• All Regulatory Provisions. Departments must submit basic information
+about all Regulatory Provisions (see chapter 6), including regulations that
+fall under one of the exclusion or exemption categories listed at Annex 1 –
+this is to support transparency and for monitoring and evaluation purposes.
+• RPC opinions. The RPC Secretariat will also maintain a record of OAs
+submitted for independent scrutiny and the opinions issued by the RPC,
+including ratings by category (see chapter 6). This will ensure both the RPC
+and BRE hold up to date knowledge of the number of regulations that are
+being developed by departments and how they are performing in the various
+aspects of the production of OA/IAs.
+• Post-implementation review (PIR) due dates. Departments must maintain
+an accurate log of statutory PIR due dates so they can ensure they do not
+miss the relevant statutory deadlines. Through dialogue with BRUs, the RPC
+12
+
+Secretariat and BRE will also seek to maintain a record, to track cases and
+keep notes of when a PIR should have been completed for each regulation.
+
+Controls on the BRF process
+4.6
+
+Departments need to confirm when seeking collective agreement that the
+BRF processes have been followed.
+
+4.7
+
+Where departments seek collective agreement without appropriate BRF
+clearance, this should be noted and will be for Ministers collectively to decide
+whether to give agreement.
+
+4.8
+
+Departments must not introduce Regulatory Provisions to Parliament
+without the correct accompanying material unless there is a valid reason.
+The material must include an IA where relevant (see chapter 10), and an RPC
+opinion where scrutiny was required. This will be monitored by the RPC
+Secretariat.
+
+4.9
+
+The RPC will publish an annual report, in its “independent Better Regulation
+watchdog” capacity, summarising the Government’s regulatory activities and
+offering some breakdown by department. This will make overall performance of
+the BRF transparent, for scrutiny both by Parliament and other stakeholders.
+The RPC will also continue to publish its opinions and views independently,
+respecting the confidentiality of the policy development process.
+
+Requirements that complement the BRF
+4.10
+
+There are other administrative requirements necessary for the clearance and
+publication of proposals, legislation and documents that work alongside the
+BRF. The advice in this guidance complements these requirements and does
+not affect the need to comply with them.
+• Annex 5 provides the key considerations policymakers should bear in mind
+when answering the question on trade and investment in the OA template.
+• Annex 7 lists other guidance on how to meet the requirements of good
+policy development, Cabinet clearance, making legislation, and
+parliamentary scrutiny.
+
+Common commencement dates
+4.11
+
+The policy of bringing regulatory changes into force on one of two annual
+common commencement dates is intended to reduce the costs to business of
+keeping on top of their regulatory obligations.
+
+4.12
+
+Where feasible and appropriate, departments should aim to commence
+regulatory changes on 6 April or 1 October, however legislation can be laid
+or made in advance.
+
+13 | P a g e
+
+4.13
+
+If departments intend to implement a regulation outside of these
+commencement dates, they should make sure that the rationale behind
+this is clear when seeking collective agreement. Commencement orders to
+bring primary legislation into force are not Regulatory Provisions (see Chapter
+2) and do not require IAs.
+
+Devolved regulation
+4.14
+
+In areas of reserved competence, regulation is typically commenced on a UKwide basis.
+
+4.15
+
+Where legislation includes a mixture of devolved and reserved provisions,
+departments should discuss at an early stage with officials in the
+devolved administrations and seek to align commencement dates as far as
+possible on a UK wide basis.
+
+Approach to Retained EU Law (REUL) reform scrutiny
+4.16
+
+This guidance, which covers the reformed BRF, has been introduced in parallel
+to the delivery of the programme of work put in place by the Retained EU Law
+(Revocation and Reform) Act 2023.
+
+4.17
+
+It was agreed that the approach to scrutiny of REUL reform should follow the
+equivalent of the previous BRF process, where independent scrutiny will be
+required for cases where impacts exceed ±£5m EANDCB. This is referred to as
+the ‘bespoke approach to REUL reform analysis for 2023’.
+
+4.18
+
+A review will be undertaken by the end of 2023 on whether this parallel process
+should continue into 2024, or whether the new BRF should apply to
+REUL/assimilated law reforms for 2024 onwards.
+
+Further resources and training
+4.19
+
+Training will be available on regulatory IAs and OAs via the RPC Secretariat
+and the Government Economic Service. Departmental teams should contact
+their BRU for support on how to access this training and will be able to contact
+the RPC Secretariat.
+
+4.20
+
+In addition, it is recommended to refer to the RPC pages on GOV.UK, which
+offer additional guidance and case histories.
+
+14 | P a g e
+
+5
+
+Policy development process
+Understanding the costs, benefits, and risks of any new measure or proposal is
+fundamental to better regulation and better policy making.
+
+5.1
+
+The BRF assumes that policy teams follow good policy making practice in
+considering possible solutions to policy problems:
+• They follow HMT Green Book6 policy appraisal processes. This involves
+departmental analysts and consideration of the available evidence. This is
+considered in the following section.
+• Where regulation is already in place, proportionate monitoring and
+evaluation forms part of this work, which may include the production of a
+Post-Implementation Review (PIR) where necessary (with independent RPC
+scrutiny of this if required). For the avoidance of doubt, PIRs do not simply
+replace monitoring and evaluation, they are part of the wider evaluation
+programme. RPC Scrutiny of future regulation will ask departments to say
+whether this has happened or not. Chapter 13 covers PIRs in more detail.
+• Alternative options to regulation must be considered early in the policy
+development process. Guidance on alternatives will be published separately.
+Policy teams should use this guidance, with assistance from their BRUs if
+needed. This is covered below.
+• If the preferred policy solution is likely to be a Regulatory Provision, it falls
+into scope of the BRF. When a regulatory option emerges as one of the
+preferred options, the policy team should liaise with their departmental BRU,
+and via them with the RPC Secretariat where necessary, to conclude
+whether the regulation proposed would be captured by the BRF.
+• Departments should also consider if there are different regulatory options
+that have lower costs to business, households and/or lower other impacts
+than the preferred regulatory approach.
+
+The Green Book
+5.2
+
+As set out in the HM Treasury Green Book, the objective of appraisal and
+evaluation is to provide objective analysis to support decision making.
+Appraisal can take different forms, including the production and scrutiny of
+business cases for spending decisions. Where government seeks to solve a
+policy problem through primary and/or secondary legislation, departments are
+expected to analyse and assess the impact of the change on the different
+groups involved – which should generally take the form of an Impact
+Assessment (IA). For small regulatory changes, standalone IAs may not be
+required, though any analysis included to support these changes should be in
+line with Green Book methodology.
+
+6 HM Treasury:
+
+The Green Book: appraisal and evaluation in central government is available here
+
+15 | P a g e
+
+HM Treasury Green Book
+The role of appraisal and evaluation is to provide objective analysis to support
+decision making. Decision making processes include the scrutiny of business
+cases by government departments, Treasury Approval Processes and the
+Regulatory Impact Assessment process. The principles of the Green Book
+should also support options appraisal when forma decision-making processes
+are not required.
+
+Other considerations
+5.3
+
+Options appraisal should consider a range of policy options. These should
+include alternatives to regulation, such as industry-led approaches, as a means
+of delivering the policy aim, as explained in the following section.
+
+5.4
+
+Consideration should also be given as to whether it might be beneficial to cooperate with, or adopt an approach similar to that of, our international
+counterparts, in order to address the problem collectively, or whether it is
+desirable for the UK to take a divergent approach. Consideration should also
+be given to the point that co-ordinated action may be more effective and
+regulatory consistency may lower costs to businesses. International examples
+or comparators may also provide useful evidence as to likely impact of a
+proposed measure or ideas for alternative approaches. The Foreign,
+Commonwealth and Development Office and your departmental BRUs can
+provide advice and support in relation to gathering relevant evidence.
+
+Alternatives to regulation
+5.5
+
+An essential first step in considering any form of regulatory intervention, which
+is expected to generally only occur when there is a market failure, is to identify
+the policy aims and what outcomes an intervention is intended to achieve.
+Identifying this early helps to ensure that the eventual policy approach and
+decision best addresses those aims, rather than defaulting to legislation being
+the answer.
+
+5.6
+
+Departments must ensure that they consider fully the possible use of
+alternatives to regulation (‘alternatives’) in the early stages of policy
+development. The use of alternatives can help to solve policy problems more
+quickly and encourage greater compliance. It can also help to minimise
+burdens on businesses and consumers, and promote competitive markets.
+
+5.7
+
+In addition to published guidance on alternatives, advice about alternatives and
+how they can be used is available both from your departmental BRU and from
+the BRE alternatives team.
+
+5.8
+
+If an alternative to regulation, which does not require legislation, is identified as
+the preferred solution, RPC scrutiny is not required. However, some
+alternatives may still require some legislation to put them into effect. Examples
+of such approaches include:
+16 | P a g e
+
+• Plastic bag charges (consumers can choose to buy a bag or use their own,
+but retailers must keep records)
+• ‘Traffic light’ food labelling (manufacturers do not have to use it, but if they
+do, they must use the standard format).
+5.9
+
+Departments should also consider other regulatory options that are quicker and
+encourage better compliance than their initially preferred option.
+
+Indications that alternatives have not been adequately
+considered
+5.10
+
+Indications that alternatives have not been adequately considered could include
+(where relevant to the policy under consideration):
+• No information or data to show that the sector / community to be regulated
+has been engaged at an informal level.
+• Inadequate consideration of how the measure is intended to influence
+behaviours.
+• No analysis of a null or minimal option – how the policy aim could be
+achieved using existing regulation, or by small changes.
+• No comparisons with regulatory or non-regulatory policy implementations in
+the sector; related or comparable sectors; or other areas of policy.
+• No worked-through example(s) of how the policy might be implemented
+using one or more of the standard alternatives (Economic incentives; Selfregulation; Co-regulation; Information and Guidance; Codes of Conduct;
+Standards and Accreditation).
+The RPC will consider the extent to which these types of points are addressed
+when opining on OAs. There is a potential trade-off between achieving the
+policy objectives and more intrusive regulation. Departments should also
+consider alternative approaches that have been introduced internationally.
+
+Consultation and preferred options
+5.11
+
+The Framework does not specify when consultation should happen, as not all
+measures require one. So it is up to departments, with reference to the
+Consultation Principles, to decide whether, and when, to carry out
+consultation. Where OA scrutiny is required, this should be completed ahead of
+collective agreement to announce that a Regulatory Provision is a preferred
+option – including via consultations containing a Regulatory Provision as a
+preferred option. Please see the examples below.
+
+5.12
+
+In practice, in many cases we would expect the OA, where required, to form the
+basis for the consultation-stage analysis, and to be done prior consulting on
+regulatory options. However, where a department is undertaking a consultation
+with multiple options and no favoured option, a consultation might occur prior to
+any requirement to carry out an OA. In such a case, the scrutiny and clearance
+17 | P a g e
+
+of the OA would come after consulting (and before government announces a
+preferred regulatory option).
+
+Consultation examples
+Consultation example 1: A department would like to announce a potential
+Regulatory Provision via consulting on it as a preferred option, whilst also
+providing other options. If the Regulatory Provision requires OA scrutiny, this
+should be done ahead of seeking collective agreement for the consultation – as
+the consultation would be announcing that a Regulatory Provision is a preferred
+option.
+Consultation example 2: A department would like to consult to gather more
+evidence on several options. These include a Regulatory Provision, but there is
+no indication that it is a preferred option at this stage. In line with the
+Consultation Principles, the department should still provide proportionate
+analysis alongside the consultation where possible, however OA scrutiny would
+not yet be required. Following the consultation, in this example, the department
+then decides it would like to announce the intention to create a Regulatory
+Provision. If the provision requires OA scrutiny, this should be done ahead of
+collective agreement for this announcement.
+5.13
+
+However, where a department is consulting on a preferred regulatory option,
+the new system requires that the department should go through the BRF
+process (including OA scrutiny if required) ahead of seeking collective
+agreement for the consultation, noting the BRF verdict in the write round.
+Please see chapter 1 for transition timing between the previous and new
+Framework.
+
+18 | P a g e
+
+6
+
+Is RPC OA scrutiny required?
+
+6.1
+
+Departments are expected to engage pro-actively with the RPC Secretariat, via
+their BRUs, early in the policy development process.
+
+6.2
+
+Engagement with the RPC Secretariat at an early stage allows for clarification
+on whether a measure falls within scope of the Framework and can enable
+BRE to advise on potential alternatives to regulation. Departmental BRUs
+must log all Regulatory Provisions with the RPC Secretariat to enable the
+Secretariat to maintain an internal central case register.
+
+6.3
+
+BRUs need to log Regulatory Provisions that fall under one of the
+independent scrutiny exclusion categories (see below). However, only the
+following very basic information is required:
+•
+
+the name and a basic summary of the measure
+
+•
+
+the exclusion category that applies
+
+•
+
+a brief justification for the exclusion
+
+The RPC Secretariat will supply a reference number and note the date that the
+measure was logged.
+6.4
+
+For Regulatory Provisions that use the de minimis exemption (see below),
+some additional information, necessary for the department’s internal
+assessment, should be logged on the central case register. This includes:
+•
+
+evidence supporting the consideration and discounting alternatives for
+regulation
+
+•
+
+consideration of any relevant past evaluation (including PIRs)
+
+•
+
+an assessment (or estimate) of direct business impacts (EANDCB)
+justifying the application of de minimis
+
+•
+
+a short qualitative summary of the wider impacts on the new regulatory
+scorecard
+
+6.5
+
+The separate exclusion and exemption terminology is used in order to help
+clarify that although both these categories do not require RPC scrutiny, they
+are nonetheless treated differently – for example in relation to the above
+logging processes. The collection of this information enables transparency and
+allows for clarification and/or for the RPC Secretariat to challenge where the
+case for an exclusion is not sufficiently clear. This information also provides
+BRE and the RPC with understanding to be able to monitor and evaluate the
+functioning of the Framework.
+
+6.6
+
+If a Regulatory Provision, which has been excluded or exempted from scrutiny,
+subsequently changes significantly, it is possible that the previous exclusion
+may no longer be applicable therefore require an OA.
+
+19 | P a g e
+
+Exclusion categories (from independent scrutiny)
+6.7
+
+To make best use of resources both in departments and the RPC, the BRF
+focusses on those Regulatory Provisions that will benefit most from
+independent scrutiny, in line with the objectives set out in chapter 1.
+
+6.8
+
+Independent scrutiny at OA stage would not be proportionate where it is clear it
+will add little value, for example in circumstances where specific regulation is
+the only option available. The below summary sets out instances where the
+Government has decided that a Regulatory Provision is excluded from
+independent scrutiny, apart from the highest impact measures in certain
+circumstances for most exclusion categories final stage scrutiny (see chapters
+10 and 11).
+
+Summary of categories for exclusion from
+independent scrutiny
+➢ Regulatory provisions that are necessary to implement
+international commitments and obligations.
+➢ Regulatory provisions that are necessary to comply with court
+judgments.
+➢ Regulatory provisions that are necessary to introduce or
+update technical standards or listed items in a schedule to an
+act, where these follow the recommendations of the relevant
+independent advisory body (for example, changes to the
+classification and scheduling of drugs under the Misuse of Drugs
+Act 1971).
+➢ Regulatory provisions that are necessary to make any other
+technical or drafting amendments to existing legislation. This
+includes those under the ‘minor and technical’ definition in ‘The
+Guide to Making Legislation’
+➢ Regulatory provisions for operational, day-to-day conduct of
+regulators.
+➢ Regulatory provisions imposing fines or penalties. This
+exclusion does not cover Regulatory Provisions that introduce
+powers to issue fines and penalties
+➢ Regulatory provisions for the safety of tenants, residents and
+occupants in buildings
+
+Please refer to the full explanations of the exclusions available at Annex
+1, before seeking to apply them.
+20 | P a g e
+
+De minimis exemption
+6.9
+
+Where not otherwise excluded by any of the categories listed above,
+Regulatory Provisions (other than Bills), which departments can demonstrate
+will have an Equivalent Annual Net Direct Cost to Business (EANDCB) of less
+than ±/-£10 million, are exempt from scrutiny under a de minimis exemption.
+
+6.10
+
+For de minimis measures, departments do not need to produce an OA but
+should produce a less detailed, but proportionate, assessment of the impacts.
+This should be adequate to self-certify that the measure is below the de
+minimis threshold.
+
+6.11
+
+In cases where both the department and the RPC Secretariat agree that a
+particular case should be treated differently to the de minimis rule, in either
+direction, then bilateral agreement can override the exemption. This is to allow
+sensible flexibility for examples such as where a de minimis measure has very
+high wider impacts, or on the other hand where a measure is above de minimis
+but where there is agreement that independent scrutiny would not add value.
+The requirement for bilateral agreement mitigates the element of subjectivity
+that this could introduce. The reason for the agreement would need to be
+recorded. If the agreement would be for a case above de minimis to not receive
+independent scrutiny, it will first need ministerial approval from any department
+that is involved in the Regulatory Provision.
+
+Urgent measures
+6.12
+
+Where legislation is required urgently, for example to address an emergency
+situation such as essential public safety reforms, the relevant minister may
+seek to agree, as part of the collective agreement process (where relevant),
+that there is insufficient time for the measure to be assessed under the BRF.
+The rationale for this should be made clear.
+
+6.13
+
+In such a case, it is still expected that the required analysis of impacts is
+presented to Parliament alongside the legislation or, where that is not possible,
+as soon as practical thereafter, and subject to RPC scrutiny where required.
+
+Bills
+6.14
+
+The de minimis exemption will not apply to public bills that contain
+Regulatory Provisions7. This is in recognition of the fact that primary legislation
+is adding new laws to the statute book and because, although the impacts of a
+bill may be below the de minimis threshold when considered in isolation, it
+might be enabling secondary legislation with potentially significant impacts that
+should be considered as the primary legislation is introduced.
+
+7 For the avoidance of doubt, exclusion categories do otherwise apply to bills, and finance bills are
+
+excluded from independent scrutiny.
+
+21 | P a g e
+
+6.15
+
+For private members bills, in the case where the government supports the bill
+(including where it supports it subject to amendment), the relevant department
+must produce a Regulatory Impact Assessment (unless a relevant exemption
+applies). See the Guide to Making Legislation for more information about
+private members bills.
+
+Voluntary scrutiny
+6.16
+
+If Departments wish to seek assurance from independent scrutiny for measures
+that are covered by an exclusion, then they have the option to submit an OA or
+IA voluntarily. The RPC welcomes voluntary submission regardless of whether
+or not they meet the above exclusion criteria and will generally be happy to
+provide an opinion – subject to timing and RPC capacity.
+
+The ’call-in’ process
+6.17
+
+The above exemptions and exclusions are self-certified by departments.
+However, in order to help ensure that they are being applied correctly and
+consistently, the RPC Secretariat operates a ‘call-in’ process, to allow
+challenge for what they consider may be a potential incorrect application of an
+exclusion or exemption. In this way, the RPC Secretariat will play a ‘critical
+friend’ role by highlighting relevant considerations.
+
+Scrutiny of final IAs
+6.18
+
+Under the new BRF there is not a requirement for independent scrutiny of final
+IAs, except for measures with very high anticipated impacts where scrutiny will
+be required in order to assure Ministers and Parliament of the robustness of the
+analysis for such large measures. Please see chapter 11.
+
+22 | P a g e
+
+7
+
+Options Assessment
+
+7.1
+
+If a Regulatory Provision is not in one of the exclusion or exemption categories,
+a department needs to complete an Options Assessment (OA) and submit
+it to the RPC for independent scrutiny. This will involve providing evidence in
+the OA template (Annex 6).
+
+7.2
+
+The completed OA template is not expected to be published. Where relevant,
+departments could use information from the OA (redacting any sensitive
+information) to publish consultation stage proportionate analysis.
+
+7.3
+
+An RPC opinion is required when seeking collective agreement on a proposed
+Regulatory Provision, including collective agreement for any consultation that
+has a Regulatory Provision as a preferred option.
+See chapter 3 for a summary of the differences between an OA and a
+Regulatory (or final stage) Impact Assessment. The templates for OAs and IAs
+are separate and departments should familiarise themselves with both early on
+in the policy development process. While BRE recommends that departments
+use these templates, it is not a requirement. Departments may however find
+these templates helpful to understand the type of information required at
+different stages of the process.
+
+How to appraise your measures
+7.4
+
+When completing an OA, departments’ focus should be on providing a
+convincing rationale for intervention, demonstrating consideration of a range of
+options (including non-regulatory alternatives) and identifying the main costs
+and benefits of the policy, with an indication of the likely scale of impacts where
+possible and supported with appropriate evidence. This should include
+quantified business impacts, even if this is just the best estimate at this
+stage. Other impacts may be left unquantified, including household impacts
+where quantification may not always be proportionate, at this stage.
+
+7.5
+
+As a general note on the OA, and later IA, it is up to those producing the
+document to ensure the rationale is presented clearly, and to draw in all the
+necessary analysis in the most appropriate order. The topic guide and
+suggested discussion points are provided in the template to assist with this, but
+do not represent a required order in which the evidence must be presented, nor
+a mandatory set of topics to cover. Where a suggested topic is not covered by
+the department, it is reasonable for the RPC to expect an explanation.
+
+7.6
+
+It is expected that only significant impacts are highlighted and where possible a
+sense of scale should be indicated in the narrative.
+
+7.7
+
+Analysis of impacts is expected to be carried out where they are relevant, and it
+is proportionate to do so. For example, if a measure has no impact on trade it
+should be noted but no further analysis is required.
+
+7.8
+
+Where possible, departments are invited to avoid unnecessary duplication of
+material, provided the material remains clear and easy to read.
+23 | P a g e
+
+Criteria
+7.9
+
+The new BRF system focuses scrutiny on the following categories:
+1. the rationale for intervention
+2. the different options considered to deliver the policy objectives,
+including alternatives and the Small and Micro Business Assessment
+(SaMBA – see Annex 3) considerations
+3. the approach taken for selecting the best option from a shortlist
+produced using the Green Book process
+4. the ‘scorecard’, which is a new section described below
+5. an initial monitoring and evaluation (M&E) plan
+These elements are described in more detail below.
+
+7.10
+
+At the point where an OA is being prepared, a preferred option should be
+identified from the short list and initial cost-benefit analysis will likely
+have been carried out. This should help departments understand the stage of
+policy development at which they should arrive before submission of an OA to
+the RPC is required.
+
+The expected components of an OA
+A. Rationale
+7.11
+
+A key part of the OA is the strategic case for policy intervention, also referred to
+as the ‘rationale’. This is covered in parts 2-4 of the OA and IA templates.
+
+7.12
+
+The rationale should cover:
+• the issue that needs to be addressed
+• why government needs to intervene
+• the consequences of not intervening
+
+7.13
+
+This could include descriptions of the market failure which may result8, or
+whether there is a legal requirement for the regulation.
+
+7.14
+
+Departments are asked to provide SMART objectives for their proposal –
+objectives that are Specific, Measurable, Achievable, Realistic and Timelimited, and should also link to departmental and HMG objectives.
+
+7.15
+
+Departments are asked to describe the logical change process by which their
+objectives will be met. This could be a written description, a ‘theory of change’
+diagram, or another methodology that serves a similar purpose. This guidance
+is intentionally non-prescriptive in this regard and departments should use the
+most appropriate tool for the context of the policy under consideration.
+
+7.16
+
+An important part of the rationale should include evidence of learning from
+previous experiences of making similar Regulatory Provisions. This could be
+
+8 See pages 28 and 29 of HM Treasury’s Green Book for examples relating to market failure.
+
+24 | P a g e
+
+taken from a PIR covering relevant regulation, other relevant evaluation, or
+international best practice.
+
+B. Long list and alternatives
+7.17
+
+Departments need to show the long list of options they have considered, as
+required by the Green Book. They also need to show evidence of the
+alternatives that were considered and why they were rejected. This relates to
+section 5 of the OA/IA template.
+
+7.18
+
+Departments should also consider how their measure impacts on small, micro,
+and medium sized businesses. More information on this is given in Annex
+3.
+
+C. Short list and preferred way forward
+7.19
+
+Departments need to explain how they arrived at the short list of options as well
+as how and why the preferred option was selected. This relates to section 6
+of the OA/IA template.
+
+D. Scorecard
+7.20
+
+The scorecard is a two-part table which sits within section 7 of the OA (and is
+restated in a more complete form in the final IA). The scorecard acts as point of
+continuity through the evolution of the IA for a proposal.
+
+7.21
+
+Part A of the scorecard includes:
+• net present social value (NPSV)
+• Business NPV
+• direct business impacts, measured by EANDCB
+• impacts on households, measured by EANDCH
+Positive
+Negative
+Neutral
+Uncertain
+
+7.22
+
+Part B includes assessments of wider impacts such as those on trade,
+innovation and net zero. This focus on wider government priorities is a key part
+of the new BRF process.
+
+25 | P a g e
+
+May work for
+May work against
+Neutral
+Uncertain
+
+7.23
+
+Departments should indicate where these impacts are not relevant for a
+measure. You should follow a ‘best endeavours’ approach, providing
+information where proportionate and appropriate.
+
+7.24
+
+At the OA stage proportionate attempts should be made to estimate the
+direct impacts on business (EANDCB) and, if possible and proportionate,
+to estimate the direct impacts on households (EANDCH). Annex 4 gives
+more information.
+
+7.25
+
+Additionally, some indication of the scale of other impacts should be presented.
+The scorecard can be used to indicate a magnitude, or range of impacts, as
+well as the direction of impacts (whether costs or benefits). This can apply to
+both monetised and non-monetised impacts where appropriate to do so. The
+text boxes can be used to explain more complex interactions, or to signpost to
+a later section where they are explained fully.
+
+7.26
+
+The coloured boxes are intended to give a quick view of the likely impacts.
+Only one of the boxes on each scorecard may be selected.
+
+7.27
+
+Regardless of how the information is entered, whether numbers or text,
+analysts should ensure that the meaning is clear even if the impacts are
+uncertain.
+
+7.28
+
+Please refer to Annex 4 for associated guidance on the more technical aspects
+of the calculations.
+
+E. Monitoring and evaluation plans
+7.29
+
+As part of the OA, departments are required to submit an initial monitoring and
+evaluation (M&E) plan to the RPC. This is covered in section 8 of the OA/IA
+template. This should show the initial development of an M&E plan for the
+preferred policy option.
+
+7.30
+
+Departments are strongly encouraged to consider how they might develop an
+indicative M&E plan for a proposed Regulatory Provision at the outset of the
+policy development cycle. This should then be refined as part of the process of
+developing the final Regulatory IA. This aligns with the good practice
+represented in the ROAMEF cycle in the Green Book.
+
+7.31
+
+Requirements for an initial M&E plan at OA stage closely mirror the
+requirements for plans produced as part of a consultation stage IA under the
+previous system. This is depicted by Figure 1.2 of HMT’s Magenta Book below.
+
+26 | P a g e
+
+Source: Figure 1.2: Evaluation planning expected at each appraisal stage. The Magenta Book,
+HM Treasury guidance on evaluation
+
+7.32
+
+Specifically, as part of their initial M&E plan, departments should aim to
+address the following:
+•
+•
+•
+•
+•
+
+•
+•
+
+When do departments intend to carry out a Post-Implementation Review
+(PIR) of the policy (this must be within five years of implementation)?
+What is the rationale for choosing this date?
+How will the impact of the new arrangements be monitored?
+What are the main external factors that will have an impact on the success
+of the intervention?
+How might departments assess whether the aims and objectives of the
+intervention have been met, or whether the intervention should be
+amended?
+This might include any indicative evaluation questions to be answered [see
+p.31 of the Magenta Book].
+How might departments assess whether there have been unintended
+consequences for businesses or households? This includes, any
+disproportionate or unexpected administrative costs, plus any other
+unexpected or unwanted outcomes.
+
+27 | P a g e
+
+•
+
+•
+•
+•
+
+What monitoring and evaluation arrangements are in place for any
+existing/related Regulatory Provisions and how can they maintain the
+appropriate flexibility?
+Are there any existing sources of data that could be used to inform the
+review?
+Are there any known issues with accessing or collecting the data that is
+required?
+What circumstances/changes in the market or sector would require the
+policy to be reviewed sooner or change the preferred option?
+
+7.33
+
+The above list is not intended to be either a prescriptive, or exhaustive, list of
+areas to be covered in the initial M&E plan. It is wholly expected that a
+department’s plan will not be fully developed at this point.
+
+7.34
+
+Rather, these are considerations that are relevant throughout the cycle of
+developing an M&E plan. The initial plan should be proportionate to the level of
+evidence that is available at this early stage. As evidence emerges through the
+development of the preferred option, areas that might be addressed as part of a
+Regulatory IA (for example, changes in market/sectors) may be covered at that
+stage.
+
+7.35
+
+The RPC will be looking for justification of the department’s M&E timeline. This
+is separate from the s.28 requirement under the SBEE Act 2015, which places
+a statutory duty for an initial PIR to be carried out within a maximum of five
+years of commencement, as set out by the relevant statutory instrument.
+
+7.36
+
+There may, however, be instances outside of the requirements of the SBEE Act
+where there is a legislative requirement to carry out a PIR of measures within a
+certain timeframe. For example, the Building Safety Act 20229 places a legal
+requirement on the Government for an independent review of the building
+safety system after a period of five years.
+
+7.37
+
+In such instances, the expectation is that departments would briefly set out
+such requirements within their M&E plans, which will be treated as suitable
+justification for the timeline for review.
+
+7.38
+
+Overall, departments should consider the most appropriate timeframe for a
+review to be carried out. This should be proportionate to the size and scale of
+the impacts of the measure in question while accounting for a range of
+contextual factors. See chapter 13 for further guidance on PIRs.
+
+7.39
+
+Some principles to consider when developing M&E plans can be found in the
+‘PIR Principles of Best Practice’ guidance.
+
+9 https://www.legislation.gov.uk/ukpga/2022/30/section/162/enacted
+
+28 | P a g e
+
+Other elements of the OA
+7.40
+
+In addition to the above requirements, departments should set out how they
+intend to minimise any administrative burdens of complying with the
+regulation. This relates to section 9 of the OA/IA template.
+
+7.41
+
+This applies to both business and household costs. Whilst it is understood that
+the nature of these burdens may be different, the underlying burdens for both
+groups typically relate to time and material costs, which are not intended as
+part of the policy. These include, for example, familiarisation costs, form filling
+and software updates.
+
+7.42
+
+The final part of the OA is the declaration and signature which can be made by
+either a policy director or chief analyst.
+
+29 | P a g e
+
+8
+
+RPC Independent scrutiny
+
+8.1
+
+The process for earlier RPC scrutiny has similarities to the previous system, but
+with a change on the focus of the categories on which the RPC offers ratings
+and comments.
+
+8.2
+
+Where the previous system focused on verification of the estimates of direct
+impacts to business (required for the business impact target) and the small and
+micro business assessment (SaMBA), the new process focuses initially on how
+well the case for proposed regulation has been evidenced (retaining the
+SaMBA as a part of this).
+
+8.3
+
+Where independent scrutiny is required, the policy team and analysts should
+factor the time required into plans. The proposed approach to logging cases
+means that the RPC Secretariat should get early warning of a case, can
+anticipate it coming, and engage with the relevant departmental BRU where
+appropriate.
+
+8.4
+
+When ready, the department submits their OA to the RPC Secretariat using the
+OA template.
+
+Considerations for RPC opinions
+8.5
+
+The RPC look at whether the evidence and analysis presented in the OA
+supports the need for regulation and the justification for proceeding with further
+policy development of a regulatory approach, based on appropriate application
+of HMT Green Book processes and techniques. The RPC considers:
+1. Rationale. Has the issue to be addressed been identified and evidenced?
+Why does government need to intervene and what would be the
+consequences of not doing so? Have SMART objectives been identified
+and a logical change process described setting out how the intervention will
+meet the objectives?
+2. Options identification (including SaMBA). Have departments considered
+a range of options including alternatives to regulation? Have departments
+considered exemption or mitigation for smaller businesses? Have
+departments adequately demonstrated that in moving from a long list of
+options to a short list, Green Book processes have been followed?
+3. Short list appraisal and preferred way forward. Has sufficient appraisal
+of the short list options been conducted to justify the selection of the
+preferred way forward, including cost-benefit analysis where proportionate?
+4. Wider impacts on the scorecard. Have the two parts of the regulatory
+scorecard for the preferred way forward been completed adequately? This
+includes quantitative and/or qualitative assessments of the impacts on
+society, business, households, the business environment (for example,
+competition and innovation), international trade and investment, and natural
+capital and decarbonisation. Analysis of distributional and non-monetised
+impacts should also be provided where possible.
+5. Monitoring and evaluation plan. At OA stage, this should be a light touch,
+high-level description of what policy success will look like, how it could be
+assessed, when that could happen, and what data would be needed to
+30 | P a g e
+
+evaluate the policy. Broadly this should correspond to an M&E plan
+produced for a consultation stage IA, as set out in the Magenta Book.
+8.6
+
+For criteria 1-3 above, the RPC offers Green/Red ratings, whereas for criteria
+4-5 it will retain its current four-point scale (Good / Satisfactory / Weak / Very
+weak). It will offer an overall Green/Red rating for the OA covering criteria 1-3
+together.
+
+Initial Review Notices
+8.7
+
+Where initial consideration of an OA raises issues that are likely to lead to a
+Red rating, the RPC usually issues an initial review notice (IRN). This
+process is an opportunity for the department to address the RPC’s concerns so
+that a revised OA can be submitted and hopefully a Green rated opinion can be
+issued. This forms part of the OA scrutiny stage in a similar manner to how
+IRNs were managed under the previous BRF system.
+
+RPC opinions on OAs
+8.8
+
+This overall rating will summarise whether or not the RPC thinks the case for
+the proposed regulation has been adequately evidenced. This will result in two
+broad outcomes:
+A) Fit-for-purpose (Green rated) at OA stage
+The OA receives a fit-for-purpose or Green rating, indicating that the proposal
+to regulate is supported by evidence and analysis, and that work on the
+scorecard and M&E plan is acceptable at this stage of the policy cycle. The
+RPC opinion is likely to identify areas for improvement which departments
+should act on as the proposal is taken forward.
+A department can also receive a Green rating where the proposal to regulate
+is supported by evidence, but has inadequate (weak or very weak) scorecard
+and/or M&E plans and further work is required on these. Departments are
+able to develop both of these in parallel with finalising proposals and either a)
+explain the actions taken when the final IA is published, or b) submit an IA for
+a revised RPC opinion if desired. In a few cases, the RPC may strongly
+recommend that a further iteration of either or both of these sections is resubmitted, and departments should do this before seeking collective
+agreement on the proposals.
+OR
+B) Not fit-for-purpose (Red) at OA stage.
+The RPC considers that the proposed regulation is not evidenced adequately.
+Departments can either chose to carry out further work on the OA and resubmit (and in most cases the IRN process will already have facilitated this),
+or proceed to seek collective agreement whilst making clear the concerns of
+the RPC.
+
+31 | P a g e
+
+8.9
+
+Departments are strongly advised to avoid seeking collective agreement
+if their proposals have been ‘Red’ by RPC. The RPC’s opinion must
+be noted when seeking collective agreement. Clearance will not necessarily be
+granted for the department to proceed prior to finalising the Regulatory
+Provision.
+
+8.10
+
+The RPC aims to produce an opinion on an OA within 30 working days
+(with an additional 15 days added in case of an IRN being issued along with the
+time required for the department to respond to the points – generally also
+assumed to be 15 days).
+
+Publication of RPC opinions
+8.11
+
+Where a proposal has been subject to scrutiny, the most recent version of the
+RPC’s opinion will be published at the point at which the measure is laid in
+Parliament in order to assist parliamentary scrutiny and for transparency to
+other stakeholders.
+
+8.12
+
+This does not force departments to submit measures for additional scrutiny.
+The RPC also takes a proportionate approach in terms of what needs
+demonstrating to change a rating – for example, it could be a simple matter of
+providing some additional information. See also chapter 9 below.
+
+8.13
+
+Before publication of the RPC opinion, consideration should be given as to
+whether any of its content is sensitive and should be redacted before
+publication. This is in line with the approach taken in the previous BRF system.
+The RPC Secretariat will engage with the relevant BRU on this.
+
+32 | P a g e
+
+9
+
+Collective agreement
+
+9.1
+
+Domestic measures that have an impact on business usually need collective
+agreement from Cabinet, or the relevant Cabinet Committee, before
+departments can proceed to develop detailed proposals. For further
+information and advice on clearance, please consult your BRU or speak to
+your departmental desk officer in the Cabinet Secretariat of the Cabinet
+Office.
+
+9.2
+
+When seeking collective agreement for a Regulatory Provision, papers and
+correspondence should demonstrate compliance with the BRF process
+(whether scrutiny is required or not) along with any opinion issued by the
+RPC. If for any reason this is not feasible, it should be noted and will be for
+ministers to decide whether to give agreement.
+
+9.3
+
+Where a measure is a Regulatory Provision, the relevant material should
+include proportionate analysis. This should be an OA where scrutiny is
+required. To demonstrate compliance with the BRF, departments should
+also provide one of the following:
+• Where independent scrutiny was not required or was required but not
+sought, the departmental rationale for why this is the case.
+• Where scrutiny was required, either:
+i. a ’fit for purpose’ (Green-rated) RPC opinion on the OA supporting the
+case as issued at OA stage or
+ii. a ‘not fit for purpose’ (Red-rated) RPC opinion on the OA flagging
+issues with the case for regulation
+
+Development of the IA beyond initial clearance to
+proceed
+9.4
+
+Assuming collective agreement to proceed is granted, in line with Green
+Book process, the proposal can be finalised and further work done on the
+IA. The department can resubmit to the RPC to improve the rating on any
+aspects of the opinion – particularly a better developed scorecard of impacts
+or for M&E plans. Please consult your Cabinet Secretariat Desk Officer
+should the policy change as it may require new collective agreement.
+
+9.5
+
+Where an RPC opinion on the OA was Green but contained
+recommendations, the department should set out how those
+recommendations have been addressed in their final proposals and IA.
+The department should identify the changes that have been made.
+
+9.6
+
+The RPC may consider any further revision of the OA/IA (or components of
+it) that the department submits later in the process. This might be voluntary
+(because a department wants to be able to demonstrate to Parliament that
+the RPC has endorsed the IA) or as a result of policy changes following
+collective agreement.
+33 | P a g e
+
+9.7
+
+In such cases, the RPC can reconsider only those aspects of the IA that
+have changed from the initial scrutiny. The RPC can revise its opinion to
+reflect changes from resubmission – this may, for example, change the
+rating of the scorecard or M&E plan if these have been significantly
+improved.
+
+9.8
+
+As set out in chapter 11, when a department is seeking collective
+agreement for a final proposal, which was subject to OA stage scrutiny, they
+should transparently identify where they have, or have not, acted on
+recommendations in the RPC opinion and provide justification for where
+they have not.
+
+34 | P a g e
+
+10
+
+Development of the Regulatory IA
+
+10.1
+
+This chapter covers aspects of the development of the impact assessment
+that should be published alongside relevant legislation when it is laid before
+Parliament (the ‘regulatory IA' or ‘final-stage IA’). Dependent on the type of
+legislation, this (or an earlier OA) may have been subject for RPC scrutiny
+during its development.
+
+10.2
+
+Measures that have gone through the OA scrutiny process will have some
+of the material needed for some parts of the Regulatory IA already
+prepared. The suggested outline and links in the OA and IA templates also
+provide guidance on the issues to consider and useful contacts. Links to
+the OA and IA templates, updated impacts calculators, and technical
+guidance are available in Annexes 4 and 6.
+
+10.3
+
+When developing a Regulatory IA, departments should address any
+relevant comments the RPC made on the OA.
+
+10.4
+
+In developing a Regulatory IA, departments are expected to provide a more
+detailed analysis of the likely impacts of the regulation accompanied by a
+refined monitoring & evaluation plan to support the evaluation of the
+measure.
+
+10.5
+
+The final IA template builds on the material for the OA and continues
+beyond the declaration and signature to outline the additional information
+needed for the final IA; including the full completion of the summary of
+analysis table and evidence base. Please note that the declaration should
+be updated for the final IA as it must be signed by a minister.
+
+10.6
+
+At final IA stage the scorecard should be finalised. This means that the
+impacts in parts A should be quantified (EANDCB, EANDCH, NPSV,
+business NPV), and the impacts in part B, which are proportionate to
+quantify, should have been evidenced.
+
+10.7
+
+The purpose of the summary of analysis table is to give departments and
+the RPC a useful side-by-side view of the options. The content of this table
+can be kept brief, as the options will be covered in more detail elsewhere in
+the IA.
+
+10.8
+
+The remainder of the IA is the evidence base, which is very similar to the
+previous IA template. This is where the most detailed evidence available to
+support the final policy proposition should be laid out. This section of the IA
+template has been updated, especially around natural capital and the
+environment, and trade and investment. Please read the suggested
+outline carefully. Not all the sections will require large amounts of
+evidence, but departments should explain why a particular topic is not
+addressed.
+
+10.9
+
+While it is generally not mandatory for the Regulatory IA to be submitted to
+the RPC for scrutiny under the reformed system (other than for a few
+exceptional cases – see chapter 11), where departments would find it
+helpful, they can submit further iterations of IAs for scrutiny on a voluntary
+basis. In such cases, the RPC will update its opinion as appropriate.
+35 | P a g e
+
+10.10
+
+In this way, is possible for a department to amend an IA based on
+recommendations provided by the RPC at the OA stage and receive
+reassurance that RPC is satisfied that its advice has been addressed.
+
+What are the requirements for a Regulatory IA?
+10.11
+
+For Regulatory Provisions that have been subjected to early scrutiny and
+approved to proceed, when developing their Regulatory IA, departments
+should seek to address any relevant comments the RPC made on the
+OA.
+
+10.12
+
+In developing a Regulatory IA, departments are expected to provide a more
+detailed analysis of the likely impacts of the regulation accompanied by a
+refined monitoring & evaluation plan to support the evaluation of the
+measure.
+
+10.13
+
+Under the new BRF there is no requirement for independent scrutiny of final
+IAs, except for measures with very high anticipated impacts where scrutiny
+is required in order to assure Ministers and Parliament of the robustness of
+the analysis for such large measures. Specifically, final-stage RPC scrutiny
+is needed for any Regulatory Provisions that both have an EANDCB of ±
+£100 million or more and one of the following conditions are met:
+a) The RPC opinion of the scorecard elements of the OA received a weak
+or very weak rating.
+b) The RPC opinion of the M&E plans in the OA received a weak or very
+weak rating.
+c) The measure falls within an exclusion category (apart from the Building
+Safety exclusion) and has therefore not previously been subject to OA
+scrutiny.
+
+General principles
+10.14
+
+A Regulatory IA should be prepared for all significant Regulatory Provisions
+(EANDCB greater than +/- £10m), as a standard of good policy making, and
+where an appropriate IA is expected by Parliament and other stakeholders.
+The IA must be published alongside the legislation. This is important not
+only for public and parliamentary transparency but supports the UK to meet
+its international obligations. This requirement to produce an IA is separate
+from the question of whether independent scrutiny of an OA/IA is required
+under the BRF.
+
+10.15
+
+The level of analysis in the Regulatory IA should be proportionate to the
+problem it is addressing and reflect the scale and/or impact of the measure.
+Proportionate analysis should be used to support ministerial decision
+making, the collective agreement process, and for parliamentary scrutiny.
+
+10.16
+
+Primary and secondary legislation can sometimes be part of a single policy
+development process. Where a measure is implemented through a
+36 | P a g e
+
+combination of primary and secondary legislation, the assessment of
+impacts will evolve and develop as the requirements of both pieces of
+legislation are finalised and the underlying information and modelling is
+refined. Appropriate IAs may be necessary for both primary and secondary
+legislation.
+10.17
+
+In cases where the final policy approach for future secondary legislation is
+unclear, the IA for the primary legislation should describe examples of the
+potential scale, and the nature of impacts, for how legislative powers are
+expected to be used. Where impacts cannot be monetised, departments
+should provide at least a narrative-based IA that describes the impacts of
+the entirety of the policy, covering the primary, and related, secondary
+legislation. If further guidance is required, please contact your BRU or the
+RPC secretariat.
+
+10.18
+
+Where the Regulatory IA for the primary legislation also covers the expected
+impacts of the secondary legislation, it can be re-used to support the
+clearance of the secondary legislation. If the policy changes significantly
+during the process, or further information is available - that was unavailable
+at the time of the primary legislation – in such a way that the evidence set
+out in the OA for the primary legislation is not sufficient to justify the
+secondary legislation, then the OA/IA for the secondary legislation should
+revise the assessments made for the original primary legislation
+proportionally to ensure that the secondary legislation OA and IA reflect:
+• changes to the scope of the secondary legislation
+• greater clarity on the impact of the secondary legislation, if this had been
+uncertain when the IA for the primary legislation was prepared
+• new information that has become available, which changes the
+assumptions underlying the IA for the primary legislation
+
+10.19
+
+This revision should be proportionate to the scale of the measure and the
+significance of the revision to its estimated impact.
+
+Trade impacts
+10.20
+
+For measures that have an impact on trade and investment, it is necessary
+for departments to consult the Department for Business and Trade on any
+IAs and consider whether the impacts require notification to the World Trade
+Organisation (WTO).
+
+10.21
+
+For example, for goods and services regulation, departments should include
+an assessment of whether the measure introduces different requirements
+and effects for domestic and foreign businesses, or different requirements
+for businesses from different countries, and demonstrate how the measure
+is consistent with the UK’s international obligations for equal treatment.
+Consideration should also be given to arrangements with Northern Ireland.
+
+37 | P a g e
+
+10.22
+
+Additionally, considerations should be given to the international regulatory
+environment early on in the policymaking process. The International
+Regulatory Cooperation (IRC) Strategy aims to drive international
+collaboration and learning to improve the UK’s domestic regulatory
+environment.
+
+10.23
+
+For further guidance on any of these issues, please refer to the DBT
+guidance (available through the department’s BRU) and contact the DBT
+Better Regulation Unit. More information is also given in Annex 5.
+
+Impacts on competition
+10.24
+
+For measures that affect a market where products and services are
+provided by private/public sector organisations, this is likely to affect
+competition. Departments should consider completing the Competition and
+Market Authority’s (CMA) “competition assessment checklist” to supplement
+the analysis in the IA. This is encouraged and may be expected for
+measures with a high impact.
+
+10.25
+
+Guidance on how to complete the checklist can be found in the Competition
+impact assessment: guidelines for policymakers. Departments who are
+undertaking a competition assessment with complex issues should speak to
+the CMA for further guidance.
+
+Impacts on innovation
+10.26
+
+If a measure is likely to have an impact on innovation, the impacts should be
+considered in the IA. Measures are more likely to have innovation impacts if
+they affect the creation of new or improved products, processes, services;
+or if they affect organisation methods or market competition. Further
+guidance on defining and measuring innovation and its adoption can be
+found in the OECD Oslo Manual.
+
+10.27
+
+Departments should also consider how the design, monitoring and
+evaluation of their policy can better support innovation whilst protecting
+citizens and the environment. Guidance on how regulation can support
+innovation can be found in the Regulatory Horizons Council’s Closing the
+Gap report. It outlines important principles / practices (i.e. taking an
+inclusive and collaborative approach, being proportionate and adaptable,
+being outcomes-focused and future-facing) and provides many case studies
+illustrating good practice.
+
+10.28
+
+For any questions, please contact proinnovationregulation@dsit.gov.uk.
+
+38 | P a g e
+
+Environmental impacts: natural capital and net zero
+10.29
+
+For potential effects on natural capital the Green Book A1 provides the
+process to follow. This process includes screening questions and a 4-step
+approach to identify whether and how an intervention may affect stocks of
+natural capital and the benefits they provide. More detailed guidance is
+available in the DEFRA guidance on Enabling a Natural Capital Approach
+(ENCA). The ENCA supplementary guidance also includes values and
+additional guidance for other environmental effects which it may be
+appropriate to include in the appraisal.
+
+10.30
+
+The Green Book also provides guidance on valuing changes of energy
+usage and greenhouse gas (GHG) emissions. Measures which affect the
+consumption of energy or land use may have impacts on decarbonisation
+and the transition towards net zero. For such measures, departments
+should consult the guidance on valuing energy usage and greenhouse gas
+emissions, which sets out how these impacts can be assessed. For any
+questions relating to quantification, please
+contact GHGappraisal@beis.gov.uk.
+
+10.31
+
+It is important to take a whole-system approach in assessing whether a
+policy could impact emissions, including whether there could be potential
+interactions with consumer or producer behaviour, or interdependencies
+with other government policies. For broader questions relating to these
+issues, please contact netzeroregulation@beis.gov.uk for support and
+someone will get back to you as soon as possible.
+
+Enactment impact assessments
+10.32
+
+Enactment IAs are required only for primary legislation that has been
+amended in its passage through Parliament in such a way as to significantly
+change the impacts of the policy on business. An enactment IA replaces the
+Regulatory IA and is then published alongside the enacted legislation on
+www.legislation.gov.uk. If the impacts of the Act remain unchanged then an
+enactment IA is not necessary.
+
+39 | P a g e
+
+11
+
+Finalising the policy
+Final stage scrutiny for the highest impact measures
+
+11.1
+
+Under the new BRF there is no requirement for independent scrutiny of final
+IAs, except for measures with very high anticipated impacts where scrutiny
+is required to assure ministers and Parliament of the robustness of the
+analysis for such large measures. Specifically, final-stage RPC scrutiny is
+needed for any Regulatory Provision that both have an EANDCB of ± £100
+million or more and one of the following conditions are met:
+a) the RPC opinion of the scorecard elements of the OA received a weak
+or very weak rating; or
+b) the RPC opinion of the M&E plans in the OA received a weak or very
+weak rating; or
+c) the measure falls within an exclusion category (apart from the Building
+Safety exclusion) and has therefore not previously been subject to OA
+scrutiny.
+
+Finalising proposals
+11.2
+
+Following any RPC scrutiny, whether mandatory or voluntary, the
+Regulatory Provision should be finalised by the department and any
+necessary further work completed on the IA ready to support the final
+proposal to ministers and Parliament.
+
+11.3
+
+Further engagement with the RPC might be required on issues such as
+M&E, or if the proposals change significantly. If a preferred option changes
+in such a way that the rationale for intervention and original options
+assessment can no longer be reasonably applied to it, then some form of
+resubmission to the RPC is likely to be required.
+
+11.4
+
+Where a department chooses to self-certify its Regulatory IA, it is the
+department’s responsibility to put into place a robust internal process for
+self-certifying their IAs as ‘fit for purpose’ before the legislation is laid in
+Parliament. Where an opinion was provided, for the purposes of
+parliamentary scrutiny, departments are required to provide assurance that
+the RPC’s comments have been adequately addressed.
+
+11.5
+
+The RPC are generally happy to scrutinise Regulatory IAs where a
+department would find this helpful, although this might be subject to RPC
+capacity. As such, departments are strongly encouraged to contact the RPC
+Secretariat at the earliest opportunity to seek Regulatory IA scrutiny.
+
+40 | P a g e
+
+Review and sunset provisions
+11.6
+
+At an early stage in policy development, departments should consider
+whether either a statutory review provision is required or a sunset provision
+is appropriate.
+
+11.7
+
+Statutory review provisions often impose a legislative duty to carry out
+and publish a post-implementation review (PIR) of the measure within five
+years of commencement and then regularly on at least every five years, or
+more frequently if appropriate to the secondary legislation. See below.
+
+11.8
+
+Sunset provisions impose an automatic expiry of legislation on a specified
+date, usually within seven years, and ensure scrutiny of the decision on
+whether or not to renew the regulation. They are not a requirement, but a
+tool for policy makers to use where they are deemed appropriate.
+
+11.9
+
+Departments should track statutory instruments that include either a
+statutory review provision or sunset provision, to ensure that they are
+reviewed and acted upon (if required) in sufficient time before the relevant
+deadline.
+
+11.10
+
+A PIR is a good time for an initial review of a sunset provision.
+
+Statutory review provisions
+11.11
+
+The legislative requirements to include a statutory review provision are set
+out in sections 28 – 32 of the Small Business, Enterprise and Employment
+Act 2015 (SBEE Act). Please refer to the PIR statutory guidance made
+under section.31 of the SBEE Act 2015 in order to decide whether a
+statutory review provision is appropriate. Statutory review provisions may
+also be used even when not required under the SBEE Act.
+
+11.12
+
+In cases where regulations meet the legislative requirements to include a
+statutory review provision, but one is not included, a ministerial statement is
+required (s28(2)(b) SBEE Act). The statement should be included in the
+explanatory memorandum (EM) and should clearly explain the rationale for
+not including review provisions for the relevant secondary legislation (see
+s28(2)(b) which sets out some examples of circumstances where a Minister
+may determine that it is not appropriate to make provision for review).
+
+11.13
+
+In the absence of a review provision, the s.31 guidance outlines that the
+policy should still be subject to proportionate monitoring, evaluation, and
+non-statutory review, where appropriate. Departments should briefly outline
+their plans for monitoring and evaluation within section 14 of the EM which
+accompanies the legislation. There are examples of what to include in an
+EM within the Secondary Legislation Scrutiny Committee’s guidance (see
+point.13).
+
+41 | P a g e
+
+11.14
+
+For SIs that are not subject to the statutory duty to review, the National
+Archives’ guidance is clear that an EM should contain a summary of plans
+for monitoring and review. This should address questions (where
+appropriate) including:
+• What are the success criteria and/or objectives of this instrument? Where
+possible please explain the intended outcome in measurable terms, for
+example: ‘The changes set out in this instrument aim to reduce identity
+theft by 10% over the next 3 years.’
+• When and how will they be reviewed? State who will review the outcome,
+when and how the results will be published. For example: ‘The outcome
+will be subject to internal review after 12 months and the legislation may
+be amended accordingly.” or “The University of London has conducted a
+benchmark study and will review the position again in 3 years; a report
+will be published towards the end of…’.
+
+What do I need to do?
+11.15
+
+It is important that Departments prioritise analytical resources when
+planning for and, carrying out, an evaluation. For this purpose, Departments
+may also want to refer to the RPC’s guidance on proportionality when
+planning for their evaluation.
+
+Application to devolution measures
+11.16
+
+When using statutory review and sunset provisions for legislation in a
+devolved area, whether wholly or partially devolved, departments need to
+consult colleagues from the relevant administration, to secure agreement.
+
+42 | P a g e
+
+12
+
+Introduction to Parliament
+
+12.1
+
+Departments should ensure the timely publication of their final Regulatory IA
+when an applicable instrument is laid before Parliament. Departments
+should also note the legal requirements for Impact Assessments to be in an
+accessible format when published online. Departments may wish to remove
+the long list of options prior to publication as this constitutes policy
+development and may be sensitive.
+
+12.2
+
+Publication should include, where applicable, the opinion from the RPC
+alongside either the relevant consultation document on GOV.UK or the
+relevant legislation on www.legislation.gov.uk under the impact
+assessments tab.
+
+12.3
+
+If a proportionate analysis has been prepared that do not use the standard
+template, for example for measures that have been self-certified in line with
+a department’s internal processes, this can be uploaded to the ‘More
+Resources’ tab.
+
+12.4
+
+For measures without a Regulatory IA, or an alternative assessment of
+impacts, the relevant explanatory memorandum should set out the key
+impacts and include the rationale for not providing an IA. This should refer
+to the impacts and effects of the policy. This will help to facilitate
+parliamentary scrutiny. Ask your BRU or departmental parliamentary team
+for advice.
+
+12.5
+
+If departments have completed the independent scrutiny process, they
+should notify the RPC when they publish their final impact assessment.
+
+Publication of RPC opinions
+12.6
+
+When the measure and the final IA are published, the latest version of any
+relevant RPC opinion should be published to accompany the final IA. This
+will be either the opinion issued at OA stage, or a subsequent revision to
+reflect resubmission.
+
+12.7
+
+Before publication of the RPC opinion, consideration should be given as to
+whether any of its content is sensitive and should be redacted before
+publication. This is in line with the approach taken in the previous BRF
+system. The RPC Secretariat will engage with the relevant BRU on this.
+
+12.8
+
+Both the lead department and the RPC can comment on covering
+webpages where necessary to clarify points in the final IA that are in
+response to comments made in the RPC opinion.
+
+43 | P a g e
+
+13
+
+Post Implementation Reviews and legal
+requirements
+Post-Implementation Reviews (PIRs)
+
+13.1
+
+A PIR is a process to assess the effectiveness of a measure after it has
+been implemented, and in operation, for a period of time. As set out below,
+there are statutory requirements and guidance for when PIR review
+provisions should be used.
+
+13.2
+
+In preparing a PIR, you will want to refer to chapter 8 of the HMT Green
+Book on monitoring and evaluation, the HMT Magenta Book on Evaluation,
+and the BRE’s Principles of Best Practice guidance.
+
+13.3
+
+Where a review provision is included in legislation, a PIR should be carried
+out and published by the date specified. Most review provisions require
+departments to compare estimated vs actual impacts (including impacts
+from any unintended consequences), to assess if the objectives of the
+regulation have been achieved, whether the objectives are still valid and
+relevant and if they could be achieved in a less burdensome way.
+Departments will need to work with their legal team to see what parts of the
+legislation the review provision applies to and ensure that these are covered
+in the review.
+
+13.4
+
+Regardless of the presence, or otherwise, of a review provision in
+secondary legislation, the PIR statutory guidance under s.31 of the SBEE
+Act provides that all Regulatory Provisions should be subject to
+proportionate monitoring, evaluation, and/or non-statutory review; though
+not all measures require a PIR (e.g., for measures with negligible impacts).
+
+13.5
+
+Departments should take a proportionate approach to evaluation to ensure
+that resources assigned to monitoring and evaluation are deployed
+effectively from the outset. This is important to ensure that departments are
+allocating their analytical resource to best achieve ministerial priorities and
+commitments.
+
+RPC scrutiny of PIRs
+13.6
+
+A PIR should be scrutinised by the RPC if the original Regulatory
+Provision required scrutiny.
+
+13.7
+
+Where there is no formal requirement for RPC scrutiny, departments may
+wish to voluntarily submit a PIR for scrutiny. If so, they are encouraged to
+discuss the merits of a submission with both their departmental BRU and
+the RPC secretariat.
+
+13.8
+
+Regardless of whether independent scrutiny is required, all reviews need to
+be conducted and published in line with the principles of proportionality and
+the relevant legal requirements. Furthermore, government publications,
+including a PIR setting out the conclusions of a review, may also require
+collective agreement.
+44 | P a g e
+
+13.9
+
+The RPC will publish an opinion on any PIRs that have been submitted
+for scrutiny, whether required or voluntary.
+
+How to comply with legal requirements for PIRs
+13.10
+
+If you are due to publish a PIR, please contact the Cabinet Secretariat in the
+first instance so that they can advise if collective agreement is required. An
+opinion from the RPC on the PIR should be obtained before seeking
+clearance to publish a review for any measure/s for which independent
+scrutiny of an IA or OA was required.
+
+13.11
+
+The statutory PIR report must be published by the deadline stated in the
+review provision of the legislation. Departments must ensure timelines for
+seeking collective agreement are considered so that clearance is obtained
+ahead of the deadline. Reviews must be published on
+http://www.legislation.gov.uk/ alongside the relevant regulations. This
+publication requirement supersedes the requirement to lay a command
+paper in Parliament, unless your review provision states otherwise.
+Departments should notify RPC of the publication of their reviews,
+especially where an opinion on a review was required.
+
+13.12
+
+Departments, based on the findings of the review, need to provide their
+ministers with information to help them decide whether the measure should
+be retained without changes, amended, repealed, or replaced. In such
+cases where a department may wish to retain their measure, though there is
+not enough evidence to effectively evaluate its performance, departments
+should set out, concisely in the PIR, a rationale for requiring more time to
+gather the necessary evidence.
+
+13.13
+
+The revision of M&E plans should be treated on a case-by-case basis, and it
+is up to departments to explain why the existing evaluation plan is no longer
+sufficient alongside plans for addressing any evidence gaps. Departments
+should liaise with the RPC at the earliest opportunity to discuss an
+appropriate approach, especially where a PIR is to be scrutinised.
+
+Further resources
+13.14
+
+The PIR template can be found on GOV.UK. The statutory guidance on
+reviews provides advice on when to include a review provision.
+Departments may also wish to refer to Producing post-implementation
+reviews: principles of best practice which details a set of overarching
+principles of best practice to be used in conjunction with departments’ own
+guidance when completing PIRs.
+The Cabinet Office’s Open Policy Making toolkit includes a section on how
+to measure the impact and success of Open Policy Making, which sets out
+useful principles for PIRs. HM Treasury’s Magenta Book - guidance on
+evaluation also provides useful guidance alongside the RPC’s guidance on
+proportionality when conducting reviews. Other RPC guidance, such as the
+case histories of post-implementation reviews, may also be useful.
+45 | P a g e
+
+Annex 1: Full list of exclusions and exemptions
+Independent scrutiny: exclusion categories
+Regulatory provisions that are excluded from independent scrutiny, apart from the highest impact
+measures in certain circumstances for final stage scrutiny (see chapters 10 and 11) for most exclusion
+categories.
+
+Exclusion
+
+Summary
+
+International
+obligations
+
+This exclusion relates to where a specific legislative route is necessary to
+ensure compliance with the international obligation or agreement. This does
+not cover measures where there could be more than one way to fulfil an
+obligation. This exclusion does not cover those measures where an
+alternative to regulatory intervention could be implemented to fulfil an
+obligation (whether this is the preferred option or not).
+
+Regulatory provisions
+that are necessary to
+implement
+international
+commitments and
+obligations
+Court judgements
+Regulatory provisions
+that are necessary to
+comply with Court
+judgments
+Recommendations by
+independent advisory
+bodies for updates to
+technical standards and
+schedules.
+Regulatory provisions
+that are necessary to
+introduce or update
+technical standards or
+listed items in a
+Schedule to an Act,
+where these follow the
+recommendations of
+the relevant
+independent advisory
+body
+Other technical or
+drafting amendments
+Regulatory provisions
+that are necessary to
+make any other
+technical or drafting
+
+This exclusion relates to Regulatory Provisions that are necessary to comply
+with court judgments, where a specific legislative approach is necessary to
+ensure compliance with the judgment. This does not cover measures where
+there could be more than one way to fulfil an obligation. Therefore, this
+exclusion does not cover those measures where an alternative to regulatory
+intervention could be implemented to fulfil an obligation (whether this is the
+preferred option or not).
+This exclusion relates to Regulatory Provisions necessary to introduce or
+update technical standards or listed items in a Schedule to an Act (or other
+regulation), where these follow the recommendations of the relevant
+independent advisory body. For example, this includes changes to the
+classification and scheduling of drugs under the Misuse of Drugs Act 1971.
+This exclusion category also covers a range of facilitative regulations (e.g.,
+authorisations of regulated products, as well as updates to the ‘List of High
+Risk’ imported food and feed not of animal origin).
+Independent scientific risk assessments are undertaken from which
+regulators make risk management recommendations to ministers on
+whether to regulate via SIs. As such, this subset of measures are excluded
+from independent scrutiny
+
+An exclusion from RPC scrutiny is provided for a range of Regulatory
+Provisions that are purely of a “technical nature” and do not impact on the
+substance of the legislation.
+This includes measures that fall under the ‘minor and technical’ definition in
+Cabinet Office’s Guide to Making Legislation. This covers typographical
+corrections, drafting improvements, clarifications, renumbering or
+
+46 | P a g e
+
+amendments to
+existing legislation
+
+reordering, amendments to ensure consistency with existing legislation, as
+well as updates to references in legislation (p.175). This exclusion category
+will also cover Regulatory Provisions needed to update technical lists arising
+out of developments in scientific or other technical expertise but will not
+cover those arising through developments in policy itself.
+Operational, day-to-day Applies to regulator activities only. This does not cover regulator activities
+conduct of regulators
+that have effect by virtue of the exercise of a ministerial function and are
+Regulatory Provisions (e.g., fulfilling a statutory direction given by a minister
+Regulatory provisions
+etc).
+for operational, day-today conduct of
+This exclusion aligns with the previous administrative exclusion for regulator
+regulators
+activities. This covers policy development by regulators, including formal and
+informal consultations, policy reviews, and ad hoc information requests.
+Regulator casework including specific investigation and enforcement activity,
+individual licence decisions, and issuing of individual advice are excluded.
+Other excluded activities include education, communications activities, and
+promotional campaigns by regulators, including media campaigns, posters,
+factsheets, bulletins, letters, websites, and information and advice helplines.
+Changes to the organisation and management of the regulator would all also
+be excluded, except where such changes arise from legislation and affect the
+regulatory obligations of business.
+
+Fines and penalties
+Regulatory provisions
+imposing fines or
+penalties
+
+Building safety
+Regulatory provisions
+for the safety of
+
+This does not exclude regulator activities that have effect by virtue of the
+exercise of a ministerial function and are Regulatory Provisions (e.g., fulfilling
+a statutory direction given by a minister etc). These relate to a sub-set of
+measures that often result in a regulator imposing and amending
+requirements, giving guidance, or doing something in relation to the
+securing of compliance with and enforcement of conditions, etc. Such
+measures may fall within the definition of a "Regulatory Provision" in that it
+could be a statutory provision (i.e., a provision which has effect by virtue of
+the exercise of a function conferred on a Minister of the Crown by an Act)
+and would e.g. "relate to the enforcement of requirements" in relation to a
+business activity.
+An exclusion from RPC scrutiny is provided for the issuing of fines and
+penalties to businesses and individuals. This includes those administered
+through the police or Border Force (e.g., the Clandestine Entrant Civil Penalty
+Scheme).
+This exclusion does not cover Regulatory Provisions that introduce powers to
+issue fines and penalties. Regulations which enable the issuance of fines and
+penalties may fall within the definition of a "Regulatory Provision" if it (a)
+imposes or amends requirements, restrictions or conditions, or sets or
+amends standards or gives or amends guidance, in relation to a business
+activity; or (b) relates to the securing of compliance with, or enforcement of,
+requirements, restrictions, conditions, standards or guidance which relate to
+a ‘business activity’.
+Regulatory provisions that have been certified by departments or regulators
+as relating to the safety of tenants, residents and occupants in buildings that
+stem from, or relate to, the government’s response to the Grenfell tragedy,
+
+47 | P a g e
+
+tenants, residents and
+occupants in buildings
+
+the Building Safety Act 2022 or otherwise to the government’s wider
+reviews, inquiries or working groups.
+Examples of matters in scope, include:
+• Implementation of recommendations from the Independent
+Review of Building Regulations and Fire Safety.
+• The government’s response to the Grenfell inquiry, any other
+Grenfell-related or connected review or working group including
+amendments to Approved Documents (covering Building Standards
+and Fire Safety) and any restrictions on the use of construction
+products (e.g. combustible cladding).
+The Independent Review of Building Regulations and Fire Safety was
+chaired by Dame Judith Hackitt and published an interim report in December
+2017 and its final report in May 2018.
+The Approved Documents sit beneath the Building Regulations and offer
+one route to compliance with them (though not the only route). The relevant
+Approved Document for fire safety in residential buildings is Approved
+Document B.
+Note:. This exclusion is from all elements of independent scrutiny.
+
+48 | P a g e
+
+Independent scrutiny: exemptions
+Exemption Summary
+De minimis
+
+Regulatory provisions that have been certified by departments or regulators as falling
+under the de minimis rule, namely those that have an equivalent annual net direct
+cost to business (EANDCB) of less than ±£10 million. This de minimis threshold will act
+as the primary trigger for independent scrutiny rather than being in the same
+category as the other exclusions listed below. This de minimis threshold also remains
+as the trigger for when full IAs are required, to support parliamentary scrutiny and to
+meet international obligations.
+Any Regulatory Provisions where the equivalent annual net direct cost to business is
+less than ±£10 million will be excluded from RPC scrutiny. In cases where both the
+department and the RPC agree that a particular case should be treated differently to
+the de minimis rule, in either direction, then bilateral agreement would override this
+exclusion.
+It is for departments to establish an appropriate process to record decisions on
+whether a measure is below the de minimis threshold. Such measures may be subject
+to ‘call in’ to confirm that the de minimis threshold has been appropriately applied.
+
+Urgent
+emergency
+measures
+
+Some departments have a significant number of measures where the impacts are so
+low that independent scrutiny would be unnecessary. As such, a de minimis threshold
+will maintain the focus of the BRF on regulatory measures with the most significant
+impacts on business, where not otherwise excluded by falling within any of the
+independent scrutiny exclusion categories below.
+Where legislation is required urgently, for example to address an emergency
+situation, such as essential public safety reforms, the relevant Secretary of State may
+seek to agree, as part of the collective agreement process (where relevant), that
+there is insufficient time for the measure to be assessed under the BRF. The rationale
+for this should be made clear. It would nevertheless be expected that the required
+analysis of impacts would be presented to Parliament alongside the legislation or,
+where that is not possible, as soon as practical thereafter, including RPC scrutiny
+where required.
+
+49 | P a g e
+
+Annex 2: Key Terms, Definitions Acronyms
+Key terms and definitions
+Term
+Regulatory
+Provision
+Statutory
+provision
+Business
+activities
+Regulatory
+Impact
+Assessment (IA)
+or Final IA
+Enactment
+Impact
+Assessment
+
+Definition
+See Chapter 2
+See Chapter 2
+See Chapter 2
+The impact assessment (IA) that should be published alongside relevant legislation
+when it is laid before Parliament. Final IA is short for ‘final proposal stage’ IA.
+
+An Impact Assessment required for primary legislation where it has been amended
+during its passage through Parliament in such a way as to significantly change the
+impacts of the policy on business. An enactment IA replaces the Regulatory IA and
+is then published alongside the enacted legislation on www.legislation.gov.uk. If the
+impacts of the Act remain unchanged then an enactment IA is not necessary.
+
+Acronyms
+Acronym
+
+Reference
+
+BIT
+BOU
+BRE
+BRF
+BRU
+CCD
+EANDCB
+EANDCH
+EDS
+IA
+
+Business Impact Target
+Brexit Opportunities Unit
+Better Regulation Executive
+Better Regulation Framework
+Better Regulation Unit (departmental)
+Common commencement date
+Equivalent annual net direct cost to business
+Equivalent annual net direct cost to household
+Economic and Domestic Affairs Secretariat
+Impact assessment, also known as a regulatory impact assessment or
+final impact assessment
+Initial review notice
+Monitoring and evaluation
+Net present social value
+Net present value
+Options assessment
+Post-implementation review
+Retained EU Law
+Rationale, Objectives, Appraisal, Monitoring, Evaluation, Feedback
+Regulatory Policy Committee
+Small and micro-business assessment
+
+IRN
+M&E
+NPSV
+NPV
+OA
+PIR
+REUL
+ROAMEF
+RPC
+SaMBA
+
+50 | P a g e
+
+SBEE
+SI
+SLSC
+SMART
+WTO
+
+Small Business, Enterprise and Employment Act 2015
+Statutory Instrument
+Secondary Legislation Scrutiny Committee
+Specific, Measurable, Achievable, Realistic and Time-limited
+World Trade Organisation
+
+51 | P a g e
+
+Annex 3: Small, micro and medium business
+assessments
+Small and micro business assessment (SaMBA)
+As part of the options assessment departments are asked to consider
+distributional impacts, including the impact on small and micro businesses.
+Although the proportion varies across sectors, approximately 99 per cent of
+businesses in the UK are small (10-49 employees) or micro-businesses (0-9
+employees). These businesses also account for around 48 per cent of
+employment and 34 per cent of turnover10.
+In addition to the large volume of smaller businesses, a number of factors mean
+that regulatory changes may fall disproportionately on them. As a result, the
+Government has committed to considering whether the impacts of regulatory
+changes will fall disproportionately on them, and whether such businesses could
+be exempted from regulation, or the impacts mitigated in some way without
+compromising the policy objectives.
+SaMBA is still a key requirement for RPC opinions and can still lead to a
+Red rating via the ‘Options
+’ category of RPC scrutiny.
+
+What do I need to do?
+At an early stage, when considering the options, it is important to consider the
+scope of the proposed measure, its impacts, including any disproportionate
+effects on small and micro-businesses and how this can be mitigated – see
+section 5 on policy development.
+The starting point for consideration should be exempting small and microbusinesses from the requirements of new Regulatory Provisions. In many cases it
+may be possible to achieve the majority of the intended benefits even if smaller
+businesses are exempted – for example where larger businesses account for the
+majority of the intended regulated activity or where the activities of larger
+businesses account for the majority of the harms the regulation seeks to prevent.
+If, after assessment, it is concluded that the measure should apply to small and
+micro-businesses, you should consider how burdens could be mitigated or
+minimised. There are a wide range of options that may include partial exemption,
+extended transition periods; simplifying requirements; or exempting smaller
+businesses from having to register. Also subject to Managing Public Money,
+there may be options to exempt small or micro businesses from the fees for
+registration or licensing, or having a different regime with different fees11.
+If you believe that no mitigating actions are necessary because there is no
+disproportionate burden or that the policy could not be delivered if small and
+
+10 2022, BEIS - Business Population Estimates for the UK and Regions 2022
+11 The Managing Public Money rules on cost recovery and avoiding cross-subsidy.
+
+52 | P a g e
+
+micro-businesses were exempted or the impacts on them mitigated, you must
+provide evidence of this in the supporting analysis.
+A SaMBA is mandatory for all domestic measures that require collective
+agreement and have an impact on business greater than the ±£10m EANDCB
+threshold. Departments should also consider the impact on small and microbusinesses of regulatory policy which is below the threshold, and conduct an
+assessment where appropriate.
+If your measure does not affect small and micro-businesses, you should make
+clear why this is the case when seeking collective agreement and in the relevant
+analysis in the IA.
+
+Medium-sized business regulatory exemption assessment
+Alongside the small and micro business assessment (SaMBA), departments
+should include in the development of policy proposals an assessment of the case
+for whether medium-sized businesses (in the range 50 to 499 employees) might
+also be exempted from the proposed regulation (or that the impact this wider
+range of businesses be mitigated in some way).
+Departments should address both groups of businesses (1-49 and 50-499) in the
+same section of the IA (assuming there is not a good case for doing otherwise).
+The RPC assess both groups against the same criteria as they have previously
+used in assessing SaMBAs and opinions then discuss any issues with the
+SaMBA and/or the medium-sized business assessment in their opinions.
+
+53 | P a g e
+
+Annex 4: Technical note
+The new BRF has no statutory target or report which must be completed, and this
+allows for a more flexible system, focused on improving regulation rather than
+measurement towards a target. There is no reason to sum metrics across a
+range of very disparate measures to reach a final annual impact.
+This is a new approach which increases flexibility for departments, especially
+around use of the new metric Equivalent Annual Net Direct Cost to Households
+(EANDCH). It allows BRE to be less prescriptive in exactly what information is
+presented and how. It also means that various elements of terminology are left to
+departments to decide on interpretation.
+The key principle for departments to follow is decide on a reasonable way to
+analyse and present the information, and then explain what you have done
+and why.
+
+Terminology in the OA template and guidance
+Uncertainty
+The scorecard in the OA/IA template allows departments to log an impact as
+uncertain. This is not meant in the statistical sense of uncertainty which relates to
+confidence intervals. This is an everyday meaning of uncertainty: ‘we don’t know’.
+It should be selected when an impact could cover a very wide range and could
+eventually settle to be anywhere in that range with equal probability, so far as is
+known. Analysts should imagine a wide uniform distribution for where the impact
+may end up.
+
+Neutral
+The scorecard in the OA/IA template allows departments to indicate if an impact
+is neutral. This can also be interpreted as a negligible impact, but care must be
+taken when making this assessment. The neutral category could include those
+cases where a large positive impact is netted off against a large negative impact,
+and this might be misleading, especially if those impacts affect different groups. If
+this is the case, the department should use separate lines in the scorecard table
+to indicate the significant impacts. For cases where all impacts are all relatively
+small, or not significant, this is not necessary. This raises the next question of
+what is considered significant.
+
+Significance
+The guidance refers to significance in several places. It is for departments to
+decide case by case how to interpret the significance of impacts. This will require
+judgements which may be subjective.
+The use of ‘significance’ in this guidance does not refer to statistical significance,
+which concerns sampling theory and related uncertainty. If analysts wish to
+include an indication of statistical significance in their findings, then this is
+welcome, and they should clearly indicate this more technical use of the term
+when it occurs.
+54 | P a g e
+
+Presenting impacts in the scorecard
+Note that NPSV (Net Present Social Value) and bNPV (Business Net Present
+Value) are unchanged in their scope and definition, and the Green Book should
+be consulted for further information. These do not need to be quantified at OA
+stage although it is helpful if early analysis has been carried out.
+The BRF requires that initial estimates of EANDCB (Equivalent Annual Net Direct
+Cost to Business) are submitted at OA stage. If possible estimates of EANDCH
+would also be helpful. These may be fairly early estimates which may be adjusted
+later.
+The simplest approach when preparing material for the scorecard, whether for
+the OA or IA, is for departments to keep measurement and calculation of
+EANDCB, NPSV, and bNPV broadly as they are now when performing initial
+analysis.
+EANDCB now has some forms of pass through recognised. This is discussed
+below.
+Departments should then estimate EANDCH and work out how much pass
+through is expected between businesses and people. They should adjust
+EANDCB/H accordingly, taking care not to double count impacts, and enter the
+resulting values into the new IA calculator, along with wider impacts which will
+contribute to NPSV and bNPV
+
+EANDCH
+The new metric, Equivalent Annual Net Direct Cost to Households (EANDCH), is
+analogous to the current EANDCB measure for business costs and is calculated
+in the same way. The impact assessment calculator now accommodates this new
+set of costs/benefits.
+
+Who is included?
+The EANDCH should include the direct costs of policies on households or other
+person units. The overall aim is to capture the impacts on people in the most
+meaningful way possible. This framework allows flexibility in which person
+grouping is used. If it makes more sense, owing to the nature of the policy, to
+calculate the costs and benefits on individuals, consumers, employees, or some
+other person grouping, rather than households, this should be done instead and
+explained. We would not expect these indicators to be converted to a household
+measure for the OA or IA.
+However, if a department decides to calculate EANDCH using households as the
+person unit, this should be consistent with the definition of household used by
+ONS for ease of understanding. That is, one person living alone, or a group of
+people (not necessarily related) living at the same address who share cooking
+facilities and share a living room, sitting room or dining area.
+55 | P a g e
+
+There may be other groups who could be considered in or out of scope, such as
+tourists, students, migrants, prisoners, foreign workers etc. It is for the
+department to judge how they are treated in the analysis and to explain this in
+broad terms. It is not necessary to provide an exhaustive list assessing whether
+all possible groups should be included or excluded.
+There may be cases where the distinction between businesses and households
+is unclear in relation to how EANDCB and EANDCH impacts should be
+assessed. For example, some actors in the gig economy may be more like
+participants in an informal economy, while others are more like micro businesses.
+It is up to the department to decide how best to categorise business and
+household impacts in these cases and to explain the reasoning.
+
+What is included?
+EANDCH should include costs or benefits which directly affect people’s budgets
+– the money in their pockets. This could be related to wages, or other compliance
+costs faced by households such as the costs of obtaining documentation and
+information. As per the general exemptions this would not include areas related
+to taxes, duties or levies, such as tax on petrol or alcohol duty. It is also worth
+noting that the scope of the BRF is regulatory measures which impact on
+business, and so measures which only affect households are likely to be out of
+scope.
+EANDCH should include time costs, including familiarisation and form-filling, as
+these are regarded as analogous to the administrative costs which are felt by
+businesses when complying with new policies. There could be other time costs
+which are also relevant, such as travel time, or time off work. It is for the
+department to decide which costs are most significant and to decide on
+appropriate techniques and data for quantifying and monetising these impacts
+which may be complex.
+Departments are not expected to carry out disproportionately complicated
+analysis for relatively small impacts. Departments should also be mindful of being
+able to justify when introducing contentious elements into the analysis. For
+example, a decision to value individual’s time differently may be justified by the
+scope of who is impacted by a policy, but this should be carefully considered in
+the light of eventual publication of the impact assessment.
+EANDCH is not expected to include general welfare costs and benefits or indirect
+costs and benefits (with the exception of some types of pass through, which is
+discussed below). These wider impacts should be accommodated within the
+NPSV calculations as they are currently. These are discussed further in a later
+section.
+Once the appropriate person grouping is established and the range of relevant
+impacts arrived at, the actual calculation of EANDCH is less flexible. It is defined
+in an analogous way to EANDCB and only certain forms of pass through are
+recognised under the new system.
+56 | P a g e
+
+Pass through
+Pass through mostly occurs when a business incurs a cost/benefit and passes it
+on to customers. For costs to business, this is usually passed on in the form of
+higher prices, although it could also be in the form of changes to the quantity or
+quality of the business’s products. In some cases, there may be a regulatory
+constraint placed on business profits, which may result in the cost being
+transferred to customers in the form of a benefit. This could take various forms
+such as more money staying in customers’ pockets, or a safer product being
+introduced.
+
+The pass through impacts which can be treated as direct in the BRF are:
+(a) wherever the regulation explicitly requires businesses to transfer monetised
+costs/benefits to households/individuals,
+OR
+(b) where there is a clear expectation by the design of the policy that
+businesses will pass through monetised costs/benefits,
+then departments should:
+•
+
+adjust EANDCB to account for this;
+
+•
+
+estimate EANDCH
+
+There may also be cases where the reverse is true and households pass
+some cost to business. The same considerations should be made and the
+reverse adjustment should be applied.
+
+Cases of pass through are indirect effects and would not usually be included in
+EANDCB/H. However, because one of the intentions of the new BRF is to better
+capture the impacts on people of regulatory proposals, and these often happen
+via pass through, the new framework makes a limited number of exceptions to
+that rule, and will treat those passed on impacts as if they are direct effects for
+the purpose of EANDCB/H. Care must be taken to avoid double counting these
+impacts as they are moved from EANDCB to EANDCH or vice versa.
+Sometimes there will be business-to-business pass through. This should be
+discussed in the distributional analysis if appropriate, rather than making
+adjustments to EANDCB. There may also be person-to-person pass through.
+Similar to the business case, this should be indicated in the distributional analysis
+if it is significant, rather than adjusting the EANDCH.
+57 | P a g e
+
+Situations where pass through would be expected to be quantified and
+EANDCB/H adjusted accordingly would include:
+• a cost to business resulting in a benefit to customers (or vice versa)
+
+without needing any intermediate mechanism to bring it about. This could be
+a direct transfer, or a regulatory constraint on business profits which
+automatically leaves the consumer with more money in their pockets. An
+example might be a restriction on gambling profits which leaves more money
+in the gamblers’ pockets.
+• a mandated pass through where a business cost must be partly funded by
+
+consumers
+• intended pass through. This would occur when part of the policy intention
+
+is that pass through should happen, possibly around encouraging
+behavioural change.
+Situations where pass through could possibly be estimated if the department
+thinks it is material to stakeholders in understanding the policy, but we would not
+expect EANDCB/H be adjusted include:
+•
+
+likely pass through: we expect a proportion of costs to be passed through
+and can perhaps estimate the likely amount but it’s not an explicit part of the
+policy intention.
+•
+
+unknown/Business choice: pass through which happens due to the
+decisions of businesses, which might be quite variable and is largely unknown
+at IA stage. This may be difficult to estimate due to lack of data on different
+businesses having different models for gaining market share, competing on
+price vs quality etc.
+
+Direct and indirect costs
+The RPC secretariat have published guidance on what constitutes a direct as
+opposed to an indirect cost for the purposes of EANDCB. RPC guidance on
+direct vs indirect effects
+When sufficient case studies have been generated, we expect to be able to
+publish a similar guidance for EANDCH to assist with determining which costs or
+benefits can be described as direct.
+In the meantime departments should work with the existing guidance as an
+analogy for the new metric. In particular the Summary and Key points box in the
+linked guidance can be read with the word ‘business’ changed to the appropriate
+person unit relevant to the policy, to derive a reasonable sense of the difference
+between direct and indirect impacts relating to EANDCH.
+One key difference between EANDCH and EANDCB is that somewhat fewer
+regulations directly impact individuals compared to businesses. We expect much
+of the impact on people to manifest through the new recognition of pass through
+of costs from business. This is the special case of treating an indirect cost as
+direct as discussed earlier.
+
+58 | P a g e
+
+What to include
+The areas which are more relevant to EANDCH will be those relating to money in
+a person’s pocket or time taken out of their day. This may include:
+•
+•
+•
+•
+•
+
+employment matters, such as minimum wage, limits on working time
+energy costs
+housing costs, for example, regulation of landlords
+household time, for example, recycling
+costs or benefits passed through from EANDCB which are an inevitable or
+intended part of the policy design
+
+What not to include
+Please note that general social welfare costs and benefits are not expected to be
+included in EANDCH, but in line with the Green Book, should be analysed and
+monetized, if possible, in the consideration of NSPV. These are areas which have
+an impact on people but not in an immediate way. This would include things such
+as:
+•
+•
+•
+•
+•
+
+environmental concerns, including a wide variety of issues such as air quality,
+rubbish collection, climate change
+law and order, including policing, crime rates, courts, prisons
+matters relating to the economy, trade business environment
+health and social care system, although there may be some marginal cases
+due to impacts on employment
+house building and planning
+
+Some of the above may become relevant to EANDCH depending on the policy
+design and impacted groups. However, in the first instance EANDCH may be
+treated quite narrowly, in a similar way to EANDCB.
+These are not exhaustive lists and are intended to give a sense of what to
+include. The RPC secretariat will be able to give further advice on specific cases.
+
+59 | P a g e
+
+Annex 5: International Trade and Investment key
+considerations
+This annex provides the key considerations policy makers should bear in mind
+when answering the new question (see below) on trade and investment in the
+Impact Assessment template.
+Is this measure likely to impact on international trade and investment?
+(Yes/No)
+The purpose of this question is to ensure that policy makers are giving due
+consideration to the impacts that regulatory policy could have on foreign trade
+and investment into, and out of, the UK.
+Relevant changes to regulation that could affect trade and investment include
+changes that affect:
+•
+
+the ability of UK businesses to trade or provide services overseas
+
+•
+
+the ability of overseas businesses to export to the UK or provide services
+in the UK
+
+•
+
+whether foreign investors or companies operating in the UK are impacted
+differently to UK-owned companies or investors
+
+•
+
+whether the assets of foreign investors or companies are entirely removed
+from them or otherwise substantially taken out of their control
+
+The ability of businesses to trade within the UK would be traditionally captured
+within impact assessments. However, the ability of overseas businesses to export
+to the UK is a new aspect that policy makers will need to consider.
+There is no set format for how policy makers should answer this question.
+However, policy makers should consider the four points below.
+For goods regulations, this should include an assessment of whether the
+measure could create a technical barrier to trade, identifying whether:
+•
+
+the measure is a ‘technical regulation’, for example, setting out product
+characteristics or production method
+
+•
+
+there may be a ‘significant’ trade impact
+
+•
+
+a less trade restrictive measure would achieve the same objective
+
+•
+
+the measure is not based on an ‘international standard when one exists or
+if no ‘international standard’ exists
+
+•
+
+it contains labelling requirements
+
+For services regulations, this should include an assessment of whether the
+measure could:
+60 | P a g e
+
+•
+
+‘significantly affect’ international trade in services
+
+•
+
+grant monopoly rights
+
+•
+
+authorise or establish a small number of service suppliers and
+substantially prevent competition among those suppliers
+
+•
+
+alter the definition of a natural person who has the right of permanent
+residence in the UK. The UK is obliged to accord substantially the same
+treatment to its permanent residents as it accords to its nationals
+
+Measures relating to the balance of payments and national security measures
+may also require notification.
+For both goods and services should include an assessment of whether the
+measure introduces different requirements for domestic and foreign businesses
+or different requirements for businesses from different foreign countries and
+demonstrate how the measure is consistent with the UK’s international
+obligations for equal treatment.
+International Regulatory Cooperation
+Policy makers should also consider where and how international regulatory
+considerations fall within the policymaking process. The International Regulatory
+Cooperation (IRC) toolkit is aimed at both UK government officials and industry
+regulators who work on the design, monitoring, enforcement, and review of
+regulation. It acts as a reference guide by providing a series of prompts to ensure
+a more systematic consideration of the international environment when working
+on regulation.
+When the analysis is likely to include a “Yes” answer to any of the above
+questions, it is important for departments to notify contacts in DBT so that they
+can provide further advice.
+
+61 | P a g e
+
+Annex 6: OA/IA templates, calculator and
+guidance
+Template URL
+Options Assessment Options and Impact Assessment Templates
+Template
+Impact Assessment Options and Impact Assessment Templates
+Template
+OA/IA calculator Options and Impact Assessment Calculators
+OA/IA calculator Options and Impact Assessment Calculator guidance
+guidance
+
+62 | P a g e
+
+Annex 7: Other relevant sources of guidance
+Topic
+
+Guidance
+
+Policy development, appraisal, and evaluation
+The Green Book
+The Magenta Book
+Consultation Principles
+Regulatory Policy
+Committee
+
+The Green Book: appraisal and evaluation in central
+government
+Magenta Book: Central Government guidance on evaluation
+Cabinet Office Guidance: Consultation principles
+Reports and guidance
+
+Legislation
+Guide to making
+legislation
+Secondary Legislation
+Scrutiny Committee
+
+Cabinet Office Guidance: Guide to making legislation
+Publications of the SLSC
+
+Monitoring and evaluation
+Post Implementation
+Reviews
+
+Principles of Good Practice Principles of good practice
+
+Statutory Reviews
+
+Statutory review guidance for departments: Small
+Business, Enterprise and Employment Act 2015
+
+Devolved administrations
+Scottish Government
+Business Regulation Guidance
+Welsh Government
+Business, economy and innovation
+
+Regulating businesses
+Economic growth duty
+Competition guidance
+Regulators' Code
+
+Growth duty: statutory guidance
+CMA’s Competition Impact assessment: guidelines for
+policymakers
+Regulators’ Code
+
+Other
+Rural proofing
+Public Authority Definition
+Primary Authority Scheme
+Managing Public Money
+
+Practical guidance to assess impacts of policies on rural
+areas
+Departmental Guidance Statement on Control by a Public
+Authority
+Local regulation: Primary Authority
+Managing Public Money
+
+Open Policy Making
+Cabinet Office
+
+Open Policy Making toolkit
+
+International Regulatory
+Cooperation Toolkit
+
+A reference guide to consider where and how IRC
+considerations fall within the policymaking process
+
+Public Sector Equality
+Duty
+
+Public Sector Equality Duty quick start guide
+
+Policy Profession
+
+The Policy profession pages on gov.uk
+
+63 | P a g e
+
+© Crown copyright 2023
+This publication is licensed under the terms of the Open Government Licence v3.0 except
+where otherwise stated. To view this licence, visit nationalarchives.gov.uk/doc/opengovernment-licence/version/3 or write to the Information Policy Team, The National
+Archives, Kew, London TW9 4DU, or email: psi@nationalarchives.gov.uk
+Where we have identified any third-party copyright information you will need to obtain
+permission from the copyright holders concerned.
+This publication is available from: www.gov.uk/
+
+64 | P a g e
+
+

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite it as below."
+title: "Automated cost-benefit analysis"
+type: software
+authors:
+  - family-names: Bruns
+    given-names: Richard
+    affiliation: "Max Welfare Inc."
+repository-code: "https://github.com/maxwelfare/cba-assistant"
+license:
+  - MIT
+  - CC-BY-4.0
+  - CC0-1.0

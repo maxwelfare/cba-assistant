@@ -1,0 +1,11 @@
+{
+ "key": "onthinktanks_urban_designer_2018",
+ "citation": "On Think Tanks. Data Visualization Specialist (Designer), The Urban Institute: job advertisement (deadline 26 January 2018).",
+ "doi": null,
+ "url": "https://onthinktanks.org/?p=5095",
+ "media_type": "text/html",
+ "sha256": "468a8009fa25446fc0302fd71da3d9268e34a2bac6dd69a12bd4ee4ca4035623",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-10T12:51:36.093758Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "gsa_plainlanguage_main_idea",
+ "citation": "GSA plainlanguage.gov archived guideline page: Place the main idea before exceptions and conditions (Federal Plain Language Guidelines, 2011).",
+ "doi": null,
+ "url": "https://raw.githubusercontent.com/GSA/plainlanguage.gov/main/_pages/guidelines/organize/place-the-main-idea-before-exceptions-and-conditions.md",
+ "media_type": "text/markdown",
+ "sha256": "456829b9a7e7cadcd717ec7f4343a94ee7bd844db0050eb4fcf04cb05d2f100b",
+ "licence": "US government work",
+ "fetched": "2026-11-17T11:55:56Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://raw.githubusercontent.com/GSA/plainlanguage.gov/main/_pages/guidelines/organize/place-the-main-idea-before-exceptions-and-conditions.md"
+}

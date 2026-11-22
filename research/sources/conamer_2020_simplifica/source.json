@@ -1,0 +1,12 @@
+{
+ "key": "conamer_2020_simplifica",
+ "citation": "Comisión Nacional de Mejora Regulatoria (CONAMER). SIMPLIFICA: un método para medir y reducir las cargas regulatorias. Colección Estudios de Mejora Regulatoria, first edition, July 2020. ISBN 978-970-94318-6-5.",
+ "doi": "none",
+ "url": "https://www.gob.mx/cms/uploads/attachment/file/628258/Libro_Simplifica.pdf",
+ "media_type": "application/pdf",
+ "sha256": "c8fcbd9eb465accb14ac2d66fcb1daa5f6ece6422a303a9789e813cb9efcede3",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:31:23.443995Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "language": "es"
+}

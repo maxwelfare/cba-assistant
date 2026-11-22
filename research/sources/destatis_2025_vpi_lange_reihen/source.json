@@ -1,0 +1,12 @@
+{
+ "key": "destatis_2025_vpi_lange_reihen",
+ "citation": "Statistisches Bundesamt (Destatis) (10 July 2025). Statistischer Bericht: Verbraucherpreisindex für Deutschland - Lange Reihen ab 1948 (Artikelnummer 5611103251065_SB; EVAS 61111, 61131), table 611xx-01, annual averages, 2020 = 100.",
+ "doi": null,
+ "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/statistischer-bericht-verbraucherpreisindex-lange-reihen-5611103.xlsx?__blob=publicationFile&v=29",
+ "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+ "sha256": "8c728e44fa400d762009fa34507a34e1fee3947641d2579484d7d040763b11f4",
+ "licence": "Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenangabe gestattet (© Statistisches Bundesamt (Destatis), 2025)",
+ "fetched": "2026-11-21T22:11:56Z",
+ "text_method": "python3 -I xlsx_text.py original.xlsx (a standard-library reader in the session's scratchpad, not in the tree): every sheet in workbook order, a line '=== Sheet: <name>' then one line per row, the row number and the cells' stored values (shared strings resolved, numbers as stored, e.g. 37.799999999999997) separated by tabs",
+ "how": "copied from tmp/scratchpad/de/dl/vpi_lange_reihen.xlsx (fetched is the file's modification time)"
+}

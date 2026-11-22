@@ -1,0 +1,11 @@
+{
+ "key": "nhtsa_fars_guide",
+ "citation": "National Center for Statistics and Analysis (2026, April). Fatality Analysis Reporting System analytical user's manual, 1975-2024 (Report No. DOT HS 813 794). NHTSA. https://doi.org/10.21949/dz60-ft73",
+ "doi": "",
+ "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813794",
+ "media_type": "application/pdf",
+ "sha256": "1ecdc7bde81e2853cdb946a77d5f5090cfade8b32dbca7dfe5150e68c7b14927",
+ "licence": "not stated (US Government publication)",
+ "fetched_utc": "2026-11-09T17:33:40Z",
+ "text_method": "pdftotext original.pdf text.txt (plain); original carved from the multipart wrapper the server returned, bytes from %PDF- to last %%EOF"
+}

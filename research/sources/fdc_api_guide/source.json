@@ -1,0 +1,11 @@
+{
+  "key": "fdc_api_guide",
+  "citation": "U.S. Department of Agriculture, FoodData Central. API Guide, as fetched 2026-11-09.",
+  "doi": "",
+  "url": "https://fdc.nal.usda.gov/api-guide/",
+  "media_type": "text/html",
+  "sha256": "5f6af3026d24e49fc977ee7af5bfc2662594f8f6330987537539e7cb5ad5be94",
+  "licence": "Data CC0 1.0 Universal as the page states; page itself not separately licensed",
+  "fetched_utc": "2026-11-09T17:33:15Z",
+  "text_method": "regex script: removed script/style/noscript, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I, scratchpad data_sources/totext.py)"
+}

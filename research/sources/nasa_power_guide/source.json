@@ -1,0 +1,11 @@
+{
+ "key": "nasa_power_guide",
+ "citation": "NASA POWER Project. POWER API documentation (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://power.larc.nasa.gov/docs/services/api/",
+ "media_type": "text/html",
+ "sha256": "9a012002d7f3132ff4375652abc0c3a4f333fbfde1d481c68f25cb8bb5cff6fa",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

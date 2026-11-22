@@ -1,0 +1,11 @@
+{
+  "key": "dnp_2024_formulacion_evaluacion",
+  "citation": "Departamento Nacional de Planeación, Dirección de Proyectos e Información para la Inversión Pública. Formulación de proyectos: Evaluación. Julio 2024 (presentation).",
+  "doi": null,
+  "url": "https://mgaayuda.azurewebsites.net/Recursos/Formulacion_evaluacion.pdf",
+  "media_type": "application/pdf",
+  "sha256": "6a49665d48fffa3a3e86778a5e16f94d9ae2bda802d85335817dccf94aa142c2",
+  "licence": "not stated (image note: CC BY-NC on a photo only)",
+  "fetched_utc": "2026-11-09T16:20:48Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "openturns_rank_sobol",
+ "citation": "OpenTURNS developers. RankSobolSensitivityAlgorithm, OpenTURNS user manual (latest), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://openturns.github.io/openturns/latest/user_manual/_generated/openturns.RankSobolSensitivityAlgorithm.html",
+ "media_type": "text/html",
+ "sha256": "cfe14a497e475f0d39fb069b290a5447c4e908a9cefdd97acb0e7d9d6afbe307",
+ "licence": "LGPL (software)",
+ "fetched": "2026-11-13T11:41:57Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://openturns.github.io/openturns/latest/user_manual/_generated/openturns.RankSobolSensitivityAlgorithm.html"
+}

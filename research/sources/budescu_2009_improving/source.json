@@ -1,0 +1,12 @@
+{
+ "key": "budescu_2009_improving",
+ "citation": "Budescu DV, Broomell S, Por H-H (2009). Improving communication of uncertainty in the reports of the Intergovernmental Panel on Climate Change. Psychological Science 20(3):299-308.",
+ "doi": "10.1111/j.1467-9280.2009.02284.x",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1111/j.1467-9280.2009.02284.x",
+ "media_type": "text/plain",
+ "sha256": "7f87af8fb39924e98784d119b0a706cae12e45a1f7271b10b1392ff856fd1a5d",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:14Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/budescu_2009_improving.txt (fetched is the file's modification time)"
+}

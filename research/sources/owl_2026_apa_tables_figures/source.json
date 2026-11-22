@@ -1,0 +1,12 @@
+{
+ "key": "owl_2026_apa_tables_figures",
+ "citation": "Purdue Online Writing Lab. APA Style (7th ed.): Tables and Figures (web page, fetched 2026-11-12). Secondary restatement of APA Publication Manual 7th ed. ch. 7.",
+ "doi": null,
+ "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/apa_tables_and_figures.html",
+ "media_type": "text/html",
+ "sha256": "7bf113675b3f2b3a95651d8888bb73e049b957f8afd86badcd11f809fe78837a",
+ "licence": "not stated",
+ "fetched": "2026-11-12T13:12:19Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "copied from tmp/d/owl.html (fetched is the file's modification time)"
+}

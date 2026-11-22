@@ -1,0 +1,12 @@
+{
+ "key": "tran_2024_sensitivity",
+ "citation": "Tran et al. (2024). Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses. Ann Intern Med 177(6):791-799.",
+ "doi": "10.7326/M23-3389",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.7326/M23-3389",
+ "media_type": "text/plain",
+ "sha256": "6022ad46e3f990f47ae285503ef379a0b4cfc18fa8f7ecc75738ef473c1a1801",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:38Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/tran_2024_sensitivity.txt (fetched is the file's modification time)"
+}

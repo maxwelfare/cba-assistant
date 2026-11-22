@@ -1,0 +1,11 @@
+{
+  "key": "barua_2026_long_cot_across_languages",
+  "citation": "Barua J, Eisape S, Yin K, Suhr A (2026). Long Chain-of-Thought Reasoning Across Languages. ICLR 2026; arXiv:2508.14828v3 (20 Mar 2026).",
+  "doi": null,
+  "url": "https://arxiv.org/pdf/2508.14828v3",
+  "media_type": "application/pdf",
+  "sha256": "0a87a6cdb34b2d9a537f0097173e410fb7b8c08d572469c11a15cf053e0800e3",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:07Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

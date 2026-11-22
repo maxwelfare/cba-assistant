@@ -1,0 +1,11 @@
+{
+  "key": "jm_2023_vejledning_lovkvalitet",
+  "citation": "Justitsministeriet (2023): Vejledning om lovkvalitet, VEJ nr 9964 af 23/11/2023, j.nr. 2018-00423 (retsinformation.dk print of 9 Nov 2026, status Gældende)",
+  "doi": null,
+  "url": "https://www.retsinformation.dk/eli/retsinfo/2023/9964/pdf",
+  "media_type": "application/pdf",
+  "sha256": "a4cf4406068d1037ea05f86f38093570d580d0b80415d0d93433c8259fc144da",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:48:43Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

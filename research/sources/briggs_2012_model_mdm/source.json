@@ -1,0 +1,12 @@
+{
+ "key": "briggs_2012_model_mdm",
+ "citation": "Briggs AH, Weinstein MC, Fenwick EAL, Karnon J, Sculpher MJ, Paltiel AD (2012). Model parameter estimation and uncertainty: a report of the ISPOR-SMDM Modeling Good Research Practices Task Force-6. Medical Decision Making 32(5):722-732.",
+ "doi": "10.1177/0272989X12458348",
+ "url": "https://eprints.gla.ac.uk/73438/1/73438.pdf",
+ "media_type": "application/pdf",
+ "sha256": "d318aa2e5e916ab4ef23f3c1ce59853dc58cd29e74b424f118b94ec8b9b2a307",
+ "licence": "not stated",
+ "fetched": "2026-11-16T02:33:30Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://eprints.gla.ac.uk/73438/1/73438.pdf"
+}

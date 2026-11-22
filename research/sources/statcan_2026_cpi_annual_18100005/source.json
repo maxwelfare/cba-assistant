@@ -1,0 +1,12 @@
+{
+ "key": "statcan_2026_cpi_annual_18100005",
+ "citation": "Statistics Canada. Table 18-10-0005-01 Consumer Price Index, annual average, not seasonally adjusted (CSV download, file dated 2026-01-19; read 2026-11-21).",
+ "doi": null,
+ "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100005-eng.zip",
+ "media_type": "application/zip",
+ "sha256": "9b52900a2fc26b7e11ac22d819b3164678fe9a2a5ff241c5db085816a5fe8e0a",
+ "licence": "Statistics Canada Open Licence (the publisher's terms; not stated in the stored file)",
+ "fetched": "2026-11-21T07:15:26Z",
+ "text_method": "unzip of original.zip; text.txt = the first two lines of 18100005_MetaData.csv (the cube's title row and header), the header of 18100005.csv, and every row of 18100005.csv for GEO Canada, product All-items, UOM 2002=100 (vector v41693271), by grep, byte order marks removed",
+ "how": "copied from tmp/ca/18100005-eng.zip (fetched is the file's modification time)"
+}

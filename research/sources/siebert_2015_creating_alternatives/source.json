@@ -1,0 +1,12 @@
+{
+ "key": "siebert_2015_creating_alternatives",
+ "citation": "Siebert J, Keeney RL (2015). Creating more and better alternatives for decisions using objectives. Operations Research 63(5):1144-1158.",
+ "doi": "10.1287/opre.2015.1411",
+ "url": "https://econpapers.repec.org/RePEc:inm:oropre:v:63:y:2015:i:5:p:1144-1158",
+ "media_type": "text/html",
+ "sha256": "3a393f6039dec0ac2b9168b31826b948e67d8c286078de4cf478824ffb9740ba",
+ "licence": "not stated (abstract page)",
+ "fetched": "2026-11-13T13:33:46Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://econpapers.repec.org/RePEc:inm:oropre:v:63:y:2015:i:5:p:1144-1158"
+}

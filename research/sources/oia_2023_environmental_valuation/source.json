@@ -1,0 +1,11 @@
+{
+  "key": "oia_2023_environmental_valuation",
+  "citation": "Office of Impact Analysis, PM&C (July 2023). Environmental Valuation (guidance note; says it is under review).",
+  "doi": null,
+  "url": "https://obpr.pmc.gov.au/sites/default/files/2023-08/environmental-valuation.pdf",
+  "media_type": "application/pdf",
+  "sha256": "0811c05bef087f69aefddf86b9f577b56810db87ed3ba21a9a9b9cbb3628186b",
+  "licence": "not stated in the extracted text",
+  "fetched_utc": "2026-11-09T16:23:35Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

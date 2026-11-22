@@ -1,0 +1,10 @@
+{
+ "key": "meincke_2024_prompting",
+ "citation": "Meincke L, Mollick E, Terwiesch C (2024). Prompting diverse ideas: increasing AI idea variance. Working paper, The Wharton School; arXiv:2402.01727.",
+ "url": "https://arxiv.org/pdf/2402.01727",
+ "media_type": "application/pdf",
+ "sha256": "4efee6c00b31138c67f85048395c8d53f05683749cbd08f747fe73720fb21fc0",
+ "licence": "arXiv preprint; licence as arXiv lists it",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext -layout original.pdf text.txt"
+}

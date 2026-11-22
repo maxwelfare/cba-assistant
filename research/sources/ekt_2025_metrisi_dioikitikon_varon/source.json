@@ -1,0 +1,11 @@
+{
+  "key": "ekt_2025_metrisi_dioikitikon_varon",
+  "citation": "ΕΚΤ (2025). Πρότυπη μεθοδολογία και διαδικασίες μέτρησης διοικητικών βαρών. Αθήνα: Εθνικό Κέντρο Τεκμηρίωσης και Ηλεκτρονικού Περιεχομένου (Παρατηρητήριο της Γραφειοκρατίας), Δεκέμβριος 2025.",
+  "doi": null,
+  "url": "https://diadikasies.gov.gr/storage/media/compositions/%CE%A0%CF%81%CF%8C%CF%84%CF%85%CF%80%CE%B7%20%CE%BC%CE%B5%CE%B8%CE%BF%CE%B4%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1%20%CE%BA%CE%B1%CE%B9%20%CE%B4%CE%B9%CE%B1%CE%B4%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B5%CF%82%20%CE%BC%CE%AD%CF%84%CF%81%CE%B7%CF%83%CE%B7%CF%82%20%CE%B4%CE%B9%CE%BF%CE%B9%CE%BA%CE%B7%CF%84%CE%B9%CE%BA%CF%8E%CE%BD%20%CE%B2%CE%B1%CF%81%CF%8E%CE%BD.pdf",
+  "media_type": "application/pdf",
+  "sha256": "5132e05462dc0c88d1d20770513e90423cf74af1a457f7103c464bcf0cbee3b5",
+  "licence": "Creative Commons Αναφορά – Μη Εμπορική Χρήση – Παρόμοια Διανομή 4.0 (as the copy states it)",
+  "fetched_utc": "2026-11-09T16:28:01+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

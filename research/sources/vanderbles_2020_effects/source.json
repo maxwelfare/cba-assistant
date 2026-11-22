@@ -1,0 +1,12 @@
+{
+ "key": "vanderbles_2020_effects",
+ "citation": "van der Bles AM, van der Linden S, Freeman ALJ, Spiegelhalter DJ (2020). The effects of communicating uncertainty on public trust in facts and numbers. PNAS 117(14):7672-7683.",
+ "doi": "10.1073/pnas.1913678117",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7149229/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "4d2c787176c3e3aef416e2a3600eb4ce5966ac616c1db30a7e4597f3912e8e4d",
+ "licence": "CC BY 4.0 (stated in the PMC XML, PMC7149229)",
+ "fetched": "2026-11-12T05:53:44Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7149229/fullTextXML"
+}

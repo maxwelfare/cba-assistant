@@ -1,0 +1,12 @@
+{
+  "key": "wikipedia_colophon",
+  "citation": "Wikipedia. Colophon (publishing).",
+  "doi": null,
+  "url": "https://en.wikipedia.org/wiki/Colophon_(publishing)",
+  "media_type": "text/html",
+  "sha256": "2888d4352a1901b548ac6ffed0a2b70895000b35283c05499299b7dea921ea4c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:09:32Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 15270
+}

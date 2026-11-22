@@ -1,0 +1,11 @@
+{
+  "key": "colson_2017_cross",
+  "citation": "Colson AR, Cooke RM (2017). Cross validation for the classical model of structured expert judgment. Reliab Eng Syst Saf 163:109-120.",
+  "doi": "10.1016/j.ress.2017.02.003",
+  "url": "https://strathprints.strath.ac.uk/60136/1/Colson_Cooke_RESS_2017_classical_model_of_structured_expert_judgment.pdf",
+  "media_type": "application/pdf",
+  "sha256": "259ad1fdf49c2ae1495dc98abe233b11ccab8a1e3fa76b3ecc6b99ab8fd276b4",
+  "licence": "CC BY-NC-ND 4.0 (as the PDF states)",
+  "fetched_utc": "2026-11-09T17:37:02Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

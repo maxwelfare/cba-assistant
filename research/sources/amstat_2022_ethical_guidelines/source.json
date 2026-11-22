@@ -1,0 +1,12 @@
+{
+ "key": "amstat_2022_ethical_guidelines",
+ "citation": "American Statistical Association (2022). Ethical Guidelines for Statistical Practice.",
+ "doi": null,
+ "url": "https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice",
+ "media_type": "text/html",
+ "sha256": "9b2159dd400ad19f093f4269c6f69f4370dd6187780e70d0712d9f6c3718e9ab",
+ "licence": "not stated",
+ "fetched": "2026-11-14T09:57:39Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8: the page declares no charset",
+ "how": "python tools/host_cooldown.py fetch https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "glenn_2009_futures_wheel",
+  "citation": "Glenn JC (2009). The Futures Wheel. Chapter in Glenn JC, Gordon TJ (eds), Futures Research Methodology Version 3.0, The Millennium Project. (Copy re-uploaded by the author to ResearchGate Feb 2021, hosted by the McGuinness Institute; authorisation of the host not confirmed.)",
+  "url": "https://mcguinnessinstitute.org/wp-content/uploads/2024/11/06-FuturesWheel.pdf",
+  "media_type": "application/pdf",
+  "sha256": "9df7de82f9989d14736a66a73400455df6737e46106f7ea2f9d651cfcffae8d1",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 29257
+}

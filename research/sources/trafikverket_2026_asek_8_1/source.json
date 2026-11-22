@@ -1,0 +1,11 @@
+{
+ "key": "trafikverket_2026_asek_8_1",
+ "citation": "Trafikverket (ASEK 8.1, 2026-05-04). Analysmetod och samhällsekonomiska kalkylvärden för transportsektorn (ASEK-rapporten).",
+ "doi": null,
+ "url": "https://bransch.trafikverket.se/contentassets/0e5777a6301e4134a6e8365fc20c0e0e/hela-rapporten-asek-8.1-4-maj-2026.pdf",
+ "media_type": "application/pdf",
+ "sha256": "e24675bc91bcf373c7b107374f8bb61da800d8fac810f4d54cc27b547b954be5",
+ "licence": "not stated",
+ "fetched": "2026-11-09T17:00:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "cfi_financial_modeling_guidelines",
+ "citation": "Corporate Finance Institute. Financial Modeling Guidelines (undated PDF, read 2026-11-20).",
+ "doi": null,
+ "url": "https://corporatefinanceinstitute.com/assets/Financial-Modeling-Guidelines.pdf",
+ "media_type": "application/pdf",
+ "sha256": "9609ff537f2ef9c7ef0f4944dd9e0d07ad0ab3da184af5d2d03841e9c17c143a",
+ "licence": "not stated",
+ "fetched": "2026-11-20T21:53:06Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://corporatefinanceinstitute.com/assets/Financial-Modeling-Guidelines.pdf"
+}

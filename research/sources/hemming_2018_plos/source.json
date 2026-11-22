@@ -1,0 +1,11 @@
+{
+  "key": "hemming_2018_plos",
+  "citation": "Hemming V, Walshe TV, Hanea AM, Fidler F, Burgman MA (2018). Eliciting improved quantitative judgements using the IDEA protocol: A case study in natural resource management. PLOS ONE 13(6):e0198468.",
+  "doi": "10.1371/journal.pone.0198468",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6014637/fullTextXML",
+  "media_type": "application/xml",
+  "sha256": "a31b5efbc77918a484297cbc0893c11f9b6101fb1b907794b047a292816fc5b0",
+  "licence": "CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/, per the XML)",
+  "fetched_utc": "2026-11-09T17:37:02Z",
+  "text_method": "ElementTree script: text of p/title/label elements joined by blank lines"
+}

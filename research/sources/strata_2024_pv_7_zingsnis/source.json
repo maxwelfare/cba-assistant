@@ -1,0 +1,12 @@
+{
+ "key": "strata_2024_pv_7_zingsnis",
+ "citation": "Strateginės analizės centras (STRATA) (2024). Poveikio vertinimas: 7 žingsnis, Poveikio aspektai. Official file strata.gov.lt/wp-content/uploads/2024/04/7-zingsnis.pdf.",
+ "doi": null,
+ "url": "http://web.archive.org/web/20240917id_/https://strata.gov.lt/wp-content/uploads/2024/04/7-zingsnis.pdf",
+ "media_type": "application/pdf",
+ "sha256": "93ef22ae8f9aff18ebe795bb5b87f75d0b916ed29285f21bda82e518cabe4f10",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:54:28Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "note": "Lithuanian text, diacritics checked readable. Copy taken from the Internet Archive (Wayback id_ raw capture) because the official host is behind Cloudflare."
+}

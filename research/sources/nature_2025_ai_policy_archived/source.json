@@ -1,0 +1,12 @@
+{
+  "key": "nature_2025_ai_policy_archived",
+  "citation": "Nature Portfolio. Editorial policies: Artificial Intelligence (AI), earlier version (Internet Archive snapshot of 29 May 2025).",
+  "doi": null,
+  "url": "https://web.archive.org/web/20250529010756id_/https://www.nature.com/nature-portfolio/editorial-policies/ai",
+  "media_type": "text/html",
+  "sha256": "bb95e3f3319190598ae714032dc6906978e0be79722cfbdb83d830e970fcd7c0",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:01:14Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 5266
+}

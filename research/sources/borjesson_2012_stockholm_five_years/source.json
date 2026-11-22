@@ -1,0 +1,12 @@
+{
+ "key": "borjesson_2012_stockholm_five_years",
+ "citation": "Börjesson M, Eliasson J, Hugosson MB, Brundell-Freij K (2012). The Stockholm congestion charges - five years on. Effects, acceptability and lessons learnt. CTS Working Paper 2012:3; published in Transport Policy 20:1-12.",
+ "doi": null,
+ "url": "https://www.transportportal.se/SWoPEc/CTS2012-3.pdf",
+ "media_type": "application/pdf",
+ "sha256": "3f0a020cad8e698b19bb222fac16f43c07f5f5ac5a6c069761efde2bb483426d",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:37Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.transportportal.se/SWoPEc/CTS2012-3.pdf"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "ukri_gtr_api_guide",
+ "citation": "UK Research and Innovation. Getting started with the Gateway to Research API (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://gtr.ukri.org/resources/api.html",
+ "media_type": "text/html",
+ "sha256": "1bfc23cb8f9d419b7f0b072f731cdebe09cee5078f8ecc6468a1163c59c3b17c",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

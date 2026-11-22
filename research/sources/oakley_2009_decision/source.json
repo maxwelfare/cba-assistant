@@ -1,0 +1,12 @@
+{
+ "key": "oakley_2009_decision",
+ "citation": "Oakley JE (2009). Decision-theoretic sensitivity analysis for complex computer models. Technometrics 51(2):121-129.",
+ "doi": "10.1198/tech.2009.0014",
+ "url": "https://api.openalex.org/works/doi:10.1198/tech.2009.0014",
+ "media_type": "text/plain",
+ "sha256": "8fa4a005a8c29bd06945d90470f706903fb627afc1b07704ecfc21ff86dbbfc3",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:24Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/oakley_2009_decision.txt (fetched is the file's modification time)"
+}

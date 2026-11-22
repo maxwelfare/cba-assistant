@@ -1,0 +1,12 @@
+{
+ "key": "who_2011_noise_burden",
+ "citation": "WHO Regional Office for Europe and JRC (2011). Burden of disease from environmental noise: quantification of healthy life years lost in Europe. Copenhagen: WHO Regional Office for Europe. ISBN 9789289002295. (Copy hosted by the Swiss federal administration.)",
+ "doi": null,
+ "url": "https://www.newsd.admin.ch/newsd/message/attachments/26629.pdf",
+ "media_type": "application/pdf",
+ "sha256": "82844e685ec44ae75246a18fbacd8a189f9ffd3292980c014d147b0a8fdbbf7e",
+ "licence": "WHO copyright; free distribution",
+ "fetched": "2026-11-14T13:09:07Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.newsd.admin.ch/newsd/message/attachments/26629.pdf"
+}

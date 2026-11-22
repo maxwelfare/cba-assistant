@@ -1,0 +1,12 @@
+{
+ "key": "sarkar_2018_calculation_view",
+ "citation": "Sarkar A, Gordon AD, Peyton Jones S, Toronto N (2018). Calculation View: multiple-representation editing in spreadsheets. 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), pp. 85-93. doi:10.1109/VLHCC.2018.8506584.",
+ "doi": "10.1109/VLHCC.2018.8506584",
+ "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2018/10/sarkar_2018_calcview.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f67d46bc08e6a94b9cced257d4227b200f313d65698799df35fe63bc30c6a5ac",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:45:28Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.microsoft.com/en-us/research/wp-content/uploads/2018/10/sarkar_2018_calcview.pdf"
+}

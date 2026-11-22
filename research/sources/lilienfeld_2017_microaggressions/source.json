@@ -1,0 +1,12 @@
+{
+ "key": "lilienfeld_2017_microaggressions",
+ "citation": "Lilienfeld SO (2017). Microaggressions: strong claims, inadequate evidence. Perspectives on Psychological Science 12(1):138-169.",
+ "doi": "10.1177/1745691616659391",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28073337%20AND%20SRC:MED&resultType=core&format=xml",
+ "media_type": "application/xml",
+ "sha256": "d15596e95aa147a14377d8c90a8cf28f188dfdb522f3e6377f4dacf420da66c6",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:12:21Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28073337%20AND%20SRC:MED&resultType=core&format=xml"
+}

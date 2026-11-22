@@ -1,0 +1,11 @@
+{
+ "key": "valtiokonttori_2026_korkokustannus",
+ "citation": "Valtiokonttori (2026). Vuoden 2026 laskelmissa käytettäväksi tarkoitettu korkokustannus, VK/3025/2026, 14.1.2026.",
+ "doi": null,
+ "url": "https://www.valtiokonttori.fi/maaraykset-ja-ohjeet/vuoden-2026-laskelmissa-kaytettavaksi-tarkoitettu-korkokustannus/",
+ "media_type": "text/html",
+ "sha256": "3f9187334a4189aa94c81851c3fe6a315962b614fcc93257c802e856cc1e5ad2",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:28:01Z",
+ "text_method": "python -I conv.py original.html text.txt (content of <main>, tags removed, paragraph breaks kept)"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "tbs_2025_limiting_burden_guide",
+  "citation": "Treasury Board of Canada Secretariat (September 2018, updated January 2025). Guide to Limiting Regulatory Burden on Business.",
+  "doi": null,
+  "url": "https://wiki.gccollab.ca/images/c/c8/Guide_on_Limiting_Regulatory_Burden_on_Business_EN_%28Latest%29.docx",
+  "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "8779d4e2b6036f3ccebfd61e276b10263cb5dd0f7c8dbf3f93e75f440f97852f",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "docx2txt.py: paragraphs of word/document.xml joined by blank lines"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "hiqa_2025_economic_evaluation_guidelines",
+  "citation": "Health Information and Quality Authority (2025). National Guidelines for the Economic Evaluation of Health Technologies in Ireland. Published 26 March 2025.",
+  "doi": null,
+  "url": "https://www.hiqa.ie/sites/default/files/2025-03/Economic-Evaluation-Guidelines.pdf",
+  "media_type": "application/pdf",
+  "sha256": "a649177a9cc805e38430b2016a78b5621d9eafc1763329ceaf3250a2c05ebd6e",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:28:55+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

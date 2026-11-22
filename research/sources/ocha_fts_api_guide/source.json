@@ -1,0 +1,11 @@
+{
+  "key": "ocha_fts_api_guide",
+  "citation": "Humanitarian Programme Cycle (HPC) Public API v1 documentation, incl. FTS. UN OCHA.",
+  "doi": "",
+  "url": "https://api.hpc.tools/docs/v1/",
+  "media_type": "text/html",
+  "sha256": "bbc92c313aaec51eb3a4c3d5db53c74a089e7d40d1d9a10d6ec733484539d756",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:41Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

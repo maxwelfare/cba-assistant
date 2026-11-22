@@ -1,0 +1,12 @@
+{
+ "key": "oakley_2026_shelf_manual",
+ "citation": "Oakley JE. SHELF: Tools to Support the Sheffield Elicitation Framework. R package reference manual, CRAN (version 1.13.0 of 2026-04-02).",
+ "doi": null,
+ "url": "https://cran.r-project.org/web/packages/SHELF/SHELF.pdf",
+ "media_type": "application/pdf",
+ "sha256": "83f5a5d0a87565748975c0f3f396feb6cd299387c24d6147680d8d42234def3f",
+ "licence": "GPL-2 | GPL-3 (the package's licence, stated on CRAN)",
+ "fetched": "2026-11-12T17:28:44Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://cran.r-project.org/web/packages/SHELF/SHELF.pdf"
+}

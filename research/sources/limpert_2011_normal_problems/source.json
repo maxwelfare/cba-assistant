@@ -1,0 +1,11 @@
+{
+  "key": "limpert_2011_normal_problems",
+  "citation": "Limpert E, Stahel WA (2011). Problems with using the normal distribution - and ways to improve quality and efficiency of data analysis. PLoS ONE 6(7):e21403.",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3136454",
+  "media_type": "text/html",
+  "sha256": "84450278f785b33cddb6bc8c8d3c66af5f131444c15550f02a85f0de3a592633",
+  "licence": "CC BY (the article's own statement)",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "short script: tags stripped, entities unescaped (tools: h2t.py in scratchpad)",
+  "text_chars": 51304
+}

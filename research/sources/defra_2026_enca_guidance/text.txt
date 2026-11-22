@@ -1,0 +1,4524 @@
+Enabling a Natural Capital Approach
+guidance
+February 2026
+
+We are the Department for Environment, Food and Rural Affairs. We are responsible for
+improving and protecting the environment, growing the green economy, sustaining thriving
+rural communities and supporting our world-class food, farming and fishing industries.
+We work closely with our 33 agencies and arm’s length bodies on our ambition to make
+our air purer, our water cleaner, our land greener and our food more sustainable. Our
+mission is to restore and enhance the environment for the next generation, and to leave
+the environment in a better state than we found it.
+
+© Crown copyright 2026
+This information is licensed under the Open Government Licence v3.0. To view this
+licence, visit www.nationalarchives.gov.uk/doc/open-government-licence/
+Where we have identified any third party copyright information you will need to obtain
+permission from the copyright holders concerned.
+This publication is available at www.gov.uk/defra
+Any enquiries regarding this publication should be sent to us at
+environmentanalysis@defra.gov.uk.
+
+2 of 94
+
+Contents
+Enabling a Natural Capital Approach guidance ...................................................................1
+1. Introduction to natural capital ...........................................................................................6
+2. Economic valuation of the environment .........................................................................19
+3. Natural Capital in policy or project appraisal ..................................................................32
+4. An introduction to natural capital accounting .................................................................45
+5. Place-based natural capital approaches ........................................................................58
+6. Finding data and evidence for natural capital approaches .............................................69
+7. Annex 1: navigating ENCA by theme .............................................................................71
+8. Annex 2: environmental effect categories ......................................................................74
+9. Annex 3: economic valuation methods ..........................................................................85
+10. Annex 4: glossary ........................................................................................................89
+
+3 of 94
+
+This guidance is intended for those looking to learn about natural capital and how to apply
+it. It forms part of a suite of Defra resources collectively called ‘Enabling a Natural Capital
+Approach’ (ENCA).
+ENCA is recommended for use by HM Treasury's Green Book: appraisal and evaluation in
+central government (2026) and represents supplementary guidance to the Green Book.
+Natural capital has a wide range of applications and so this guidance aims to meet the
+needs of various users.
+This table signposts relevant sections of this guidance and the wider ENCA resource,
+according to user interest.
+I am interested in
+
+Check section
+
+Other ENCA resources
+
+An overview of natural capital and
+its relevance
+
+1
+
+Applying HM Treasury Green Book
+guidance on Natural Capital
+
+3
+
+ENCA Assessment Template
+
+Understanding whether my proposal
+will affect nature
+
+3.3 to 3.4
+
+ENCA Featured Tools
+
+How ENCA can support my policy
+priorities
+
+3.2 and Annex 1
+
+ENCA Case Studies
+
+Find monetary values for
+environmental effects
+
+2 and 6
+
+ENCA Services Databook,
+ENCA Assets Databook
+ENCA Featured Tools
+
+Assessing natural capital that I own
+or manage
+
+4 and 5.1
+
+Developing a natural capital account 4
+Experience with natural capital
+approaches
+
+3.5 and 5.6
+
+ENCA Case Studies
+
+Tools and data
+
+5.2 and 7
+
+ENCA Featured Tools
+
+4 of 94
+
+Local economic development
+
+5.4 and Annex 1
+
+Generating new income streams to
+support the natural environment
+
+5.5
+
+ENCA Case Studies
+
+For a more detailed ‘roadmap’ of what ENCA can offer for specific cross-cutting themes of
+policy interest, check Annex 1 of this guidance.
+This version of the ENCA guidance updates that of July 2023, in particular including
+additional guidance on valuing biodiversity (Section 2.8), Proportionality in appraisal
+(Section 3.4) and Generating new income streams (Section 5.5).
+
+5 of 94
+
+1. Introduction to natural capital
+1.1 What is natural capital?
+Natural capital includes certain stocks of the elements of nature that have value to society,
+such as forests, fisheries, rivers, biodiversity, land and minerals. Natural capital includes
+both the living and non-living aspects of ecosystems.
+Stocks of natural capital provide flows of environmental or ‘ecosystem’ services over time.
+These services, often in combination with other forms of capital (human, produced and
+social) produce a wide range of benefits.
+These include use values that involve interaction with the resource and which can have a
+market value (minerals, timber, freshwater) or non-market value (such as outdoor
+recreation, landscape amenity).
+They also include non-use values, such as the value people place on the existence of
+particular habitats or species.”
+The ability of natural assets to provide goods and services is determined by their quality,
+quantity and location. These in turn can be affected by background pressures,
+management practices and drivers of demand.
+For some services, additional inputs are required to realise benefits. In other cases, the
+benefit follows directly from the service without further capital or human input (Figure 1).
+
+6 of 94
+
+Figure 1: The Natural Capital Framework
+
+1.2 Why take a natural capital approach?
+Taking a natural capital approach develops our traditional understanding of how the
+economy works - in which various kinds of capital provide flows of benefit to households
+and firms.
+Natural capital forms part of our natural wealth, alongside traditional assets such as
+infrastructure, skills, buildings and technology. This framing helps us to account for its
+contribution to the economy, and the range of social and economic benefits and
+opportunities that come from investment in those assets. Pressures on nature result in
+costs to the economy.
+Understanding nature as a set of assets that benefit people and society in all kinds of
+ways can support better decision-making. This helps us to give the best public value given
+that there are scarce resources and trade-offs between objectives. It reduces the risk of
+the value of the natural environment being ignored in decision making.
+Natural capital has become a standard analytical approach to thinking about nature,
+following the seminal UK National Ecosystem Assessment (2011 and 2014) and the work
+of the Natural Capital Committee. It offers a balanced focus on natural assets in ecological
+terms (their quantity, condition and sustainability) and the social and economic benefits
+that derive from those assets.
+
+7 of 94
+
+It also enables different disciplines to adopt a shared framework and understanding in both
+research and practical initiatives. However, it is recognised that natural capital as a
+conceptual approach and language may not resonate with all groups or be relevant for all
+purposes.
+Natural capital assets can overlap with cultural and heritage assets. Check the Culture and
+Heritage Capital framework and evidence base being developed by the Department for
+Culture, Media and Sport.
+
+1.3 Is there a single natural capital approach?
+Various research and analytical models, tools and methods seek to apply this framework
+and they continue to evolve.
+This guidance is structured around 3 linked, but distinct, applications of natural capital
+framework:
+•
+
+incorporating natural capital into policy or project appraisal (section 3), building on
+HM Treasury’s Green Book Appraisal guidance
+
+•
+
+natural capital accounting (section 4), building on the work of the Office for National
+Statistics to develop UK natural capital accounts
+
+•
+
+place-based implementation of natural capital principles (section 5)
+
+Each involves a staged approach, summarised in Figure 2.
+Figure 2: different spheres of natural capital approach
+
+Common to all these is potential for economic valuation of the environment, although a
+natural capital approach does not always require monetary valuation (Check section 2).
+
+8 of 94
+
+In practice, a natural capital approach depends on the context and what you are trying to
+achieve. This may include one or more of the following:
+•
+
+assessing baseline levels of natural capital to raise awareness, or inform targets
+
+•
+
+development of a natural capital plan to identify priorities and opportunities for land
+use and management (Check section 4 and Section 5.1)
+
+•
+
+using nature to find ways to support policy objectives, whether or not they are
+environmental (Check section 3.2 and section 5.5)
+
+•
+
+providing a rounded assessment of the potential costs, benefits and risks of an
+intervention on a range of natural assets and their effects on welfare (Check section
+3.4)
+
+•
+
+developing an understanding of the science and economic value of ecosystem
+services, which can inform accounting and appraisal exercises as well as strategic
+initiatives (Check section 6)
+
+•
+
+informing a strategic objective, for example around concepts of net gain, growth of
+natural assets over time or applications to project-level decisions (Check section
+5.3)
+
+•
+
+consideration of the spatial variation of natural assets or impacts on them, and how
+this affects their valuation
+
+•
+
+including natural capital as an integral part of development, regeneration and placemaking, or as “green infrastructure” (Check sections 5.3 - 5.4)
+
+•
+
+identifying potential income streams from natural capital investment (section 5.5)
+
+Annex 1 provides a means of navigating the various ENCA resources from different topical
+perspectives
+For private sector organisations, the Natural Capital Protocol has been developed
+internationally as a decision support framework that helps organisations to identify,
+measure and value their impact and dependency on natural capital. It also brings together
+a wide range of tools that may be relevant to businesses following the framework. It has
+many similar themes to this guidance.
+Further guidance on using tools can be found in section 5 and examples of natural capital
+approaches can be found in ENCA Case Studies.
+
+9 of 94
+
+1.4 Does a natural capital approach require specialist
+expertise?
+ENCA aims to minimise the need for specialist expertise. It enables general users to
+undertake strategic thinking around natural capital, ‘ask the right questions’, access
+relevant evidence and tools, apply methods, and become intelligent customers where
+specialist expertise is used.
+Where detailed assessment is required, in appraisal, accounting or place-based contexts,
+input from natural scientists and economists will usually be needed.
+
+1.5 When to consider a natural capital approach
+A natural capital approach can provide a strategic basis for how the natural environment
+can be integrated with and deliver wider socio-economic outcomes.
+A natural capital approach may be used to support application of the environmental
+principles. The Environmental principles policy statement explains how to interpret and
+proportionately apply the principles to help improve environmental protection and
+sustainable development.
+The 5 principles are:
+•
+
+integration
+
+•
+
+prevention
+
+•
+
+rectification at source
+
+•
+
+polluter pays
+
+•
+
+the precautionary principle
+
+The natural capital framework can be used to effectively “integrate nature into
+policymaking, including appraising policy impacts on nature, and using nature investment
+to meet broader policy goals” (HM Treasury Green Book). Read section 3 for how to do
+this.
+A natural capital approach can help organisations to assess needs, identify dependencies
+on natural assets and translate this into relevant information for decision making.
+It can also support public authorities to decide on what action to take as part of the duty to
+conserve and enhance biodiversity. Check section 1.7 on biodiversity as a core
+component of natural capital.
+
+10 of 94
+
+1.6 Types of natural capital
+Natural capital stocks or assets can be conceptualised in different ways. A common
+practical approach is a division in 8 ‘broad habitat types’ (Table 1). Each of these in
+principle represents a distinctive spatial area which can be combined like a jigsaw puzzle.
+These classifications underpin the UK Natural Capital Accounts and Natural England’s
+Natural Capital Atlas Maps. They are also the structure for the definition of natural capital
+to include all natural elements (such as atmosphere, climate and subsoil assets) whether
+based on ecosystems or not.
+For appraisal and accounting purposes it makes sense to define natural capital according
+to broad habitats. This enables a distinction to be made between negative externalities
+such as air pollution, noise and climate change, that affect the natural environment, and
+ecosystem services that are ‘supplied’ by natural capital.
+Table 1: UK broad habitat types (taken from the National Ecosystem Assessment)
+Broad habitat
+type
+
+Urban
+
+Summary description
+Urban areas cover just under 7% of the UK’s land area. They are home to 8
+out of 10 people, often living at extremely high population densities. Urban
+green space is scarce but heavily used.
+Depending upon how urban extent is defined, it can include land covers
+associated with other broad habitats, in particular woodland, farmland and
+freshwater.
+The most extensive form of land use in the UK, comprising arable,
+horticultural land and improved grassland as well as associated boundary
+features such as hedgerows.
+
+Enclosed
+Farmland
+
+It accounts for around 52% of land area and supplies the majority of the
+UK’s food.
+Enclosed Farmland is also of great cultural significance and is a major
+determinant of landscape in much of lowland UK.
+The land in other habitat categories will also involve farming.
+
+Mountains,
+Moors and
+Heathland
+
+Comprises upland heath, montane habitats and associated wetlands,
+rainfall fed blanket bog in upland environments and lowland habitats
+dominated by heather and gorse.
+Mountains, moorlands and heaths are the source of around 70% of the UK’s
+drinking water, support livestock farming, hold an estimated 40% of UK soil
+carbon and include some of the country’s most iconic landscapes.
+They cover 11% of the UK land area.
+
+11 of 94
+
+Freshwater
+
+Freshwaters include open waters, wetlands and floodplains, which cover
+about 5% of the UK.
+Freshwater habitats are a major source of water for a wide range of uses
+and are important for recreation and hazard (notably flood) regulation.
+Includes managed plantations as well as ancient, semi-natural woodlands.
+
+Woodland
+
+Woodlands cover 13% of the UK’s land area, making the country one of the
+least wooded in Europe.
+Much of the woodland estate is managed as a source of timber, but
+woodlands are increasingly valued for their delivery of other ecosystem
+services, particularly recreation and carbon storage.
+Coastal Margins, comprising sand dunes, machair, saltmarsh, shingle, sea
+cliffs and coastal lagoons, cover just 2% of the UK’s land area.
+
+Coastal Margins
+
+They are of immense cultural significance.
+These areas are also important in coastal defences, sediment transport and
+as nursery grounds for fish and livestock grazing on saltmarsh grasslands.
+Marine habitats of the UK cover more than 3 and a half times the land area.
+They are highly variable, comprising a very wide range of sub-habitats.
+
+Marine
+
+Inshore marine habitats are of great cultural importance, offering many
+opportunities for tourism and recreation.
+Offshore habitats support fisheries and provide a range of regulating
+services.
+Semi-natural grasslands are all grasslands unimproved for agricultural
+purposes.
+
+Semi-natural
+Grassland
+
+They once covered a large proportion of the UK’s land area, largely the
+result of low intensity traditional farming.
+The extent of semi-natural grasslands is now around 10% of UK land cover.
+
+An alternative approach which seeks to describe the underlying natural assets was set out
+by the Natural Capital Committee. This is wider than broad habitats as it includes the
+atmosphere within the definition of natural assets.
+
+12 of 94
+
+Table 2: natural asset typology by the Natural Capital Committee
+Natural asset
+type
+Species
+Ecological
+Communities
+Soils
+Freshwaters
+
+Land
+
+Atmosphere
+
+Description
+All living organisms including plants, animals, fungi and micro-organisms.
+The product of ongoing evolutionary processes
+A group of actually or potentially interacting species living in the same
+physical environment, for example, wildlife habitats
+The combination of weathered minerals, organic materials and living
+organisms and the interactions between these
+Freshwater bodies (rivers, lakes, ponds and ground-waters) and wetlands.
+This includes water, sediments, living organisms and the interactions
+between these
+The physical surface of the Earth and space for human activity. This
+includes the various landforms and processes which shape these
+(weathering and erosion)
+The layer of gases surrounding Earth including oxygen, carbon dioxide and
+nitrogen used by all living organisms and the processes which give rise to
+climate and weather
+
+Minerals
+
+Naturally occurring, non-living substances with a specific chemical
+composition formed by geologic processes
+
+Sub-soil assets
+
+Other non-living substances in the Earth's crust including rocks and
+aggregates as well as non-mineral substances such as fossil fuels
+
+Oceans
+
+Coasts
+
+Saline bodies of water that occupy the majority of the Earth's surface. This
+includes water, sediments, living organisms and the interactions between
+these
+The transitional zone between land and oceans. This includes water,
+sediments, living organisms and the interactions between these
+
+These ecological categories are not mutually exclusive, so there is some overlap between
+them. They tend to represent spheres of policy intervention.
+
+Geodiversity
+A further category underpinning natural asset and broad habitat typologies is that of
+geodiversity.
+
+13 of 94
+
+Geodiversity is defined by Natural England as ‘the natural range of geological (rocks,
+minerals, fossils), geomorphological (landforms, topography, physical processes), soil and
+hydrological features. It includes their assemblages, structures, systems and contributions
+to landscapes’.
+An understanding of geodiversity and its evidence can be a key part of a natural capital
+approach. It can support ecosystem services (such as water regulation, education and
+tourism), and inform approaches to climate change adaptation and landscape -scale
+nature conservation.
+Read Natural England’s Summary of Evidence: Geodiversity (2015) for further information
+and evidence.
+
+1.7 Biodiversity is a core component of natural capital
+Biodiversity is ‘the variability among living organisms from all sources including terrestrial,
+marine and other aquatic ecosystems and the ecological complexes of which they are part’
+(Convention on Biological Diversity). Biodiversity, although complex, forms the living
+component of natural capital, with a range of effects on social and economic welfare.
+Biodiversity:
+•
+
+underpins the ecological condition and quality of ecosystems that support the
+services provided to people and the economy
+
+•
+
+directly benefits people through the existence of valued species, through naturebased solutions and by enriching other benefits (like nature-based recreation)
+
+•
+
+underpins the resilience of ecosystems to shocks and can provide insurance value
+
+Biodiversity is represented in the Natural Capital Committee's typology as ‘species’ and
+‘ecological communities’ (Table 2). It supports the benefits provided by all 8 broad habitat
+types. Biodiversity may be the subject of a strategic constraint or goal for a policy,
+programme or project, such as:
+•
+
+options to avoid a net loss of biodiversity as measured by a biodiversity metric
+
+•
+
+a target to create or restore a certain quantity of biodiversity rich habitat
+
+Policies or projects will impact biodiversity if they are likely to cause the following types of
+changes:
+•
+
+gains or losses in the variety and abundance of or within species (for example,
+because of changes to wildlife control and management, changes to farmland
+management, or any land use change)
+
+14 of 94
+
+•
+
+gains or losses in the amount of space for ecosystems and habitats (for example,
+because of building development, or changes in land use)
+
+•
+
+gains or losses in the physical connectedness between ecosystems and habitats
+(for example, because of transport developments)
+
+•
+
+environmental changes within ecosystems and habitats (for example, arising from
+changes in any type of pollution, or restrictions of water supply)
+
+The 2021 Environment Act includes a strengthened biodiversity duty and Environmental
+principles (see 1.5 above), as well as national biodiversity targets and biodiversity net gain
+(see 5.3 below). So, it is now more important for policy makers to consider strategically
+and appropriately the effects of policies and strategies on biodiversity alongside other
+natural capital, social and economic effects.
+However, the relationship between biodiversity and ecosystem services is uncertain and
+complex to measure and value.
+For these reasons, biodiversity may be made the subject of a strategic constraint or goal
+for a policy, programme or project, such as setting:
+•
+
+options to avoid a net loss of biodiversity as measured by a biodiversity metric
+
+•
+
+a target to create or restore a certain quantity of biodiversity rich habitat
+
+Read section 2.8 on the different approaches to valuing biodiversity. For further evidence
+and guidance on valuation evidence and metrics, check the Biodiversity tab in
+the ENCA Services Databook.
+
+1.8 Services and benefits from natural capital assets
+Services from natural capital assets
+By understanding nature as an asset, it is possible to define the diverse ‘flows’ of services
+it can provide. There are various international classifications of these services. For
+example, check table 6.3 of the UN System of Environmental Economic Accounting
+The tabs in the ENCA Services Databook each focus upon a specific type of
+environmental effect or category (Table 3).
+Provisioning, regulating and cultural services are typically classified as ‘final’ ecosystem
+services as they directly contribute to society's welfare.
+
+15 of 94
+
+Table 3: services provided by natural capital
+Databook
+category
+
+Description
+
+Examples
+
+Provisioning
+services
+
+Tangible outputs that can be obtained
+from ecosystems that meet human needs
+
+Food, timber, water supply,
+crops
+
+Abiotic flows of
+natural capital
+
+Flows which are not dependent upon
+functioning ecosystems
+
+Minerals, oil and gas, solar,
+wind and tidal power
+
+Regulating
+services
+
+Ecological processes that regulate and
+reduce pollution and other adverse effects
+
+Air filtration, water regulation,
+carbon sequestration
+
+Cultural services
+
+Environmental settings that enable cultural
+interaction and activity
+
+Settings for recreation,
+education, tourism
+
+Aggregated and
+bundled services
+
+The benefits provided by nature are not
+easy to attribute to specific ecosystem
+services or can reflect a bundle of cultural
+or regulating services.
+
+Amenity, biodiversity,
+landscape, water quality,
+non-use values
+
+There can be overlap with these
+categories.
+
+A further category is ‘supporting services’. These do not produce outputs for final
+consumption or production, but are essential for the functioning of provisioning, regulating
+and cultural services, which do provide outputs. Examples include soil formation and
+pollination. Supporting services are not included as their effect is already captured within
+the other Databook categories, including the bundled categories.
+
+Negative environmental effects
+Alongside ecosystem services, it is important to include negative environmental effects
+that are typically caused by human activity (as externalities). These include various forms
+of waste and disamenity, air pollution, noise, soil degradation, invasive species,
+greenhouse gas emissions and flood damage. These negative externalities can:
+•
+
+directly affect welfare (for example, exhaust fumes harming the health of
+pedestrians)
+
+•
+
+indirectly affect welfare through the pressures they put on the condition of natural
+capital (for example, water pollution affecting recreational benefits)
+
+•
+
+be partially mitigated by the various regulating services (for example, woodland
+absorbing air pollutants or reducing flood risk)
+
+16 of 94
+
+Benefits from natural capital assets
+The services provided by natural capital provide benefits for individuals or to economic
+production. Several services can provide the same kind of benefit (such as different
+regulating services improving health) or be implicitly captured in the broad definition of a
+benefit (for example, improved water quality, amenity). It is changes in these benefits
+which are the focus of valuation in appraisal.
+Table 4 shows the difference between the type of ecosystem service or environmental
+effect and the final welfare effect to be valued.
+•
+
+Welfare effects are positive where natural capital is enhanced or negative
+environmental effects reduced.
+
+•
+
+Welfare effects are negative where natural capital is lost or negative environmental
+effects increased.
+
+Read Annex 2 for more detail on environmental benefit and effect categories.
+Table 4: welfare effects of environmental categories
+Databook category
+
+Example
+
+Final welfare effects to be
+valued
+
+Provisioning services
+
+Food, timber, water supply, crops
+
+Production of final goods
+
+Abiotic flows of
+natural capital
+
+Minerals, oil and gas
+Solar, wind and tidal power
+
+Production of final goods
+
+Regulating services
+
+Air filtration, water regulation,
+noise mitigation
+
+Cost savings, reduced damage
+costs, health benefits
+
+Cultural services
+
+Settings for recreation, education,
+tourism
+
+Recreation benefits, education
+benefits, producer surplus,
+physical and mental health
+benefits
+
+Aggregated and
+bundled services
+
+Amenity, biodiversity, landscape,
+water quality, non-use values
+
+Various use and non-use
+benefits. There may be trade-offs
+between different types of benefit
+
+Negative
+environmental effects
+
+Air pollution, noise, flood damage,
+soil degradation, greenhouse gas
+(GHG) emissions
+
+Health costs, damage costs,
+output losses
+
+17 of 94
+
+Typically, each broad habitat type can provide multiple ecosystem services and benefits.
+So, a natural capital approach needs to consider a wide range of effects (many of which
+will have no market value) and different types of land cover.
+Services associated with one broad habitat type can also be affected by changes in other
+habitats (for example, changes in agricultural practices on farmland will affect
+freshwaters).
+The ENCA Services Databook and ENCA Assets Databook identify which services and
+benefits are relevant for each broad habitat type, so that users can decide what to focus
+on.
+
+18 of 94
+
+2. Economic valuation of the environment
+2.1 What is economic valuation?
+Economic valuation measures how much an asset, product, activity or service is worth in
+terms of the benefits that are experienced or enjoyed by individuals or organisations.
+In many cases economic value is expressed and measured through market prices for
+goods and services which reflect the interplay of supply and demand. Provisioning
+services tend to be valued in this way. Many environmental services, effects or qualities
+are not typically traded in markets, because of their public good or externality
+characteristics (Section 3). These non-market values are harder to identify than market
+values but observing forgone opportunities or people’s willingness to spend resources on
+securing them can uncover their value.
+
+Total Economic Value
+Total Economic Value is a framework developed to characterise why and how individuals
+value the benefits received from the environment. Economic value can take several forms;
+direct use value, indirect use value, option value and non-use value.
+
+Direct Use Value
+This is where individuals make actual or planned use of an ecosystem service:
+•
+
+consumptive use value refers to the use of resources taken from the ecosystem (for
+example, food, timber)
+
+•
+
+non-consumptive use is the use of nature without taking any elements (such as
+recreation and landscape amenity)
+
+Indirect Use Value
+This is where individuals benefit from ecosystem services rather than directly use them.
+These tend to be the regulating and supporting services (for example, flood regulation or
+pollution filtering) and various cultural services (for example, watching nature programmes
+on television).
+
+Option Value
+‘Option Value’ is the value that people place on having the option to use a resource or
+asset in the future even if they are not currently. An example would be a National Park,
+where people who have no intention to visit it may still be willing to pay something to keep
+19 of 94
+
+that option open in the future. It can be thought of as a form of insurance, such as a wide
+species mix in a particular habitat as conditions change, different species may fulfil key
+ecological roles.
+
+Non-use Value
+‘Non-use Value’ comes from the knowledge that the natural environment is maintained. It
+can be based on three different motives:
+1. Bequest motives where individuals attach value to the fact that the ecosystem asset
+will be passed onto future generations (just as they have from previous generations,
+such as ancient woodland)
+2. Altruistic motives where individuals value the availability of the asset to others in the
+current generation (such as beaches in other parts of the country)
+3. Valuing the existence of habitats or species irrespective of any actual or planned
+use for it, for example by making legacy donations to conservation charities for an
+endangered species that they will never see
+Many people who may hold non-use values in the economic sense, understand nature to
+be objectively valuable. This can provide the motive for non-use values. Such
+philosophical and religious perspectives lie outside economic valuation which is
+necessarily subjective. Instead, economic valuation is concerned in a pragmatic and
+empirical way with the various benefits that people and society perceive, experience or
+derive from the natural environment.
+Read the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem
+Services (IPBES) approach to diverse perspectives of nature’s value for more discussion
+around this.
+In general, economic values are based on human preferences which can be driven by the
+interplay of ethics, culture, incomes, tradition and technology. Although economic values
+are subjective, they are often measured through objective data and based on biophysical
+changes and metrics, such as tonnes or visits.
+
+How are environmental effects valued?
+The economic value of a positive change in the natural environment is typically measured
+by what individuals are willing to pay to secure this benefit. In contrast, the economic value
+of a negative change is measured by what individuals are willing to pay to avoid such a
+cost.
+There are different ways to estimate economic value depending on which effect or service
+you want to estimate. Valuation methods can be broadly divided between ‘revealed
+20 of 94
+
+preference’, ‘stated preference’, direct ‘wellbeing’ and cost-based approaches. Knowing
+these methods and their advantages and limitations can help you make better use of
+existing evidence. This is also important if you are commissioning primary valuation
+research (check section 2.10).
+Check Annex 3 for more detail on the various methods.
+
+2.2 Are there standard environmental values?
+Generic or standard values, with uncertainty ranges, exist for certain environmental
+effects, such as greenhouse gas emissions, air pollution and noise pollution.
+For many other environmental benefits and losses, valuation estimates will tend to differ
+according to the characteristics, condition and extent of the asset or effect in question, its
+location and availability of substitutes. In particular, benefits will often vary with local and
+spatial factors, in the same way that the value of many produced assets and market goods
+(such as retail outlets and residential property) will be heavily influenced by their location.
+Valuations can also vary because of different or experimental methodologies, study
+contexts and datasets.
+To make the evidence base tractable, the ENCA Services and Assets Datebooks are
+selective in the studies that are included. This does not mean that studies or approaches
+that are not cited (for example, because they were undertaken in very localised contexts)
+are not valid.
+Economic valuation evidence can be accessed through the ENCA Services
+Databook and ENCA Assets Databook. Check also section 6.
+Crude average ecosystem service values by hectare of broad habitat may be derived from
+the UK natural capital accounts, based on aggregated service values and overall areas.
+However, these would be very partial and may not capture the full welfare benefit. Also,
+regulating and cultural service values are likely to vary widely within national averages.
+This reflects spatial variations in ecosystems or beneficiary populations. The Services
+Databook provides a breakdown where possible. The accounts are currently of
+experimental status and are subject to regular revision.
+
+2.3 Why put a value on the environment?
+Economic valuation is not about looking to “sell” or “commodify” nature. It is a useful way
+of making the relevance and benefits of nature more visible in decision-making.
+Valuation can help decision makers to understand the contribution that an ecosystem
+makes to an area, or determine whether an intervention is justified, or determine priorities.
+It can also clarify who the beneficiaries or losers might be.
+21 of 94
+
+Valuation can test and sometimes challenge, pre-existing assumptions and judgements as
+to the value of a project, intervention or service.
+As a piece of objective if partial analysis, it can encourage deeper reflection on issues and
+outcomes that may otherwise be neglected and exaggerated. For this reason, it may not
+always clearly support a conservationist approach. For example, the costs of conservation
+may exceed the possible benefits. In this case, valuation can facilitate debate as to
+whether there are other unmeasured benefits or considerations that might tip the balance
+towards environmental protection or enhancement.
+Economic valuation of the environment is typically undertaken for one of 2 purposes:
+
+Estimating the change in benefit or cost from an intervention or project
+This is part of economic appraisal (read section 3).
+Environmental valuation is often unavoidable even if not explicit. For example, say an
+authority chooses not to spend £2 million on a scheme to improve water quality. This
+decision implies that the marginal improvement in water quality is worth less than £2
+million, or at least worth less than the benefits achieved by spending that £2 million on
+another project.
+Had an explicit valuation been done, it may have found that the additional benefit might
+comfortably exceed the £2 million cost (or exceed the benefits of an alternative project), in
+which case an efficiency or welfare gain has been lost.
+Valuation of environmental changes can also inform economic instrument design or the
+estimation of financial liabilities.
+
+Providing an overall assessment of the value of a stock of assets
+This is known as natural capital accounting (read section 4). It can provide both annual
+and capitalised or lifetime values, based on the set of services provided.
+Economic valuation can demonstrate the value of a natural capital asset, and identify
+beneficiary groups. This may in turn generate support for a wider agenda of environmental
+improvement or prompt a new dialogue within organisations and with stakeholders. For
+example, a local authority may wish to understand and communicate the value of the
+services provided by its accessible green and natural spaces.
+When accounts are updated, they can assess change in value over time. It does not make
+sense to put an absolute monetary value on something (such as nature) that we cannot
+live without. But it can still be valued in a limited way. In the same way, the national
+housing stock can be valued even though it makes no sense to imagine a society without
+housing. Similarly, human capital is measured by the Office for National Statistics
+22 of 94
+
+(ONS) as the projected lifetime earnings of working age people. However, this ‘human
+capital’ clearly is not ‘putting a value on human life’ or referencing its intrinsic value and
+dignity.
+For the insight that natural capital valuation can provide at a national scale, review Defra’s
+paper Nature at Work for People and the Economy: 10 Insights from the UK and England
+Natural Capital Accounts.
+
+2.4 Being clear on what value is measured
+Economic valuations can be expressed in a variety of forms and metrics depending upon
+the type of use, context and data:
+•
+
+values can be positive (the value of ecosystem services), or negative (for example,
+degradation of natural capital or damage costs of pollution). The reduction of a
+negative impact is a benefit while the reduction of a positive service is a cost
+
+•
+
+monetary values may be expressed in aggregate (for example a million pounds)
+which can relate to different spatial scales (for example, UK, England or Greater
+London)
+
+•
+
+alternatively, unit values are those expressed in relation to a particular physical
+metric, such as a pound per hectare, per kilometre, per cubic metre, or per
+household
+
+•
+
+unit values may relate to average values (for example, dividing aggregate woodland
+values by the total number of hectares) or marginal values (for example what is the
+additional value of an extra hectare of woodland?)
+
+•
+
+be clear what type of unit value is appropriate. The use of average values in cost
+benefit analysis may be misleading if the focus is on marginal changes, or if the
+marginal and average values are likely to be quite different
+
+•
+
+values may be expressed as annual estimates (pounds per year) or as capitalised,
+‘present value’ estimates that reflect an expected flow over many years with a
+discount rate applied to future values. Do not confuse the two, as they will be
+measuring different orders of magnitude. For example, the value of parks within a
+local authority area may be expressed in annual flow terms as providing say £50
+million of services per year; or as capital asset value of say £700 million
+
+•
+
+benefit values can be combined with measures of cost to provide absolute Net
+Present Values (NPV) or benefit to cost ratios (BCRs). BCRs can provide an
+intuitive summary of public value for money from an intervention. A BCR of 5 means
+that for every £1 spent, society benefits by £5 in terms of monetised benefits
+
+23 of 94
+
+Another key question is: whose values are measured? This may not always be obvious.
+Are those affected by a change, local, regional or the whole population? Are there socioeconomic or regional differences between beneficiary or affected groups? Beneficiaries
+may be households (as consumers, visitors or passive recipients), businesses (for
+example, where there are cost savings) or government or taxpayers (local or national).
+More guidance on these points is given in the ENCA Services Databook for individual
+environmental effects.
+
+2.5 Applying valuation evidence to new contexts – value
+transfer
+Environmental valuation is not simply a matter of ‘finding a value’. Rather, it is a careful
+process of applying existing economic valuation evidence to a new policy or appraisal
+context.
+This is called ‘Value Transfer’. It is a quicker and lower cost approach to generating
+economic valuation evidence compared to commissioning a primary valuation study and
+enables proportionate analysis in line with Green Book guidance. The key steps are:
+1. Be clear on the purpose for the valuation and the decision context. What level of
+accuracy is required? Is value transfer appropriate? Be proportionate
+2. Identify the population affected. Who are the users? Could non-users be affected?
+3. What benefit is changing that is to be valued? Describe this in qualitative and
+quantitative terms
+4. Identify the most appropriate valuation evidence or study. There may be several
+options. Where different values are provided, investigate the relevant studies further
+to make a judgement about what is appropriate to use. Even similar studies differ in
+their scope and object of what is being valued. They will use different datasets and
+possibly locations and have been produced at different times
+5. Convert the study year prices (which are indicated in the ENCA Services Databook)
+into relevant base year prices (such as 2022 or 2023). A GDP Deflator and
+calculator is included in the Databook
+6. Conduct sensitivity analysis based on any ranges given, alternative estimates from
+studies not chosen, or other uncertain variables (such as changes in quantity). This
+is extremely important, especially where there is uncertainty regarding how
+appropriate or robust the favoured estimates are
+Read Valuing environmental impacts: guidelines for the use of value transfer for detailed
+Value Transfer guidance.
+24 of 94
+
+2.6 Projecting values into the future
+For cost benefit analysis or accounting, you will need to project values over a future
+appraisal period or accounting life-span.
+The Green Book suggests 10 years as a standard period for many typical appraisals but
+up to 60 years where significant assets are concerned and longer if there are very longterm costs and benefits.
+For ecosystem services, the UK Natural Capital Accounts project future service flows over
+100 years, so as to reflect the longevity of renewable natural assets. With Green Book
+declining discount rates, an accounting life of 100 years captures around 92% of the
+discounted value of an infinite lifespan.
+Costs should be projected for as long as the benefits that depend upon them.
+A review of the Green Book in 2021 concluded that future environmental impacts should
+not have a different discount rate, but issues specific to environment should be reflected in
+relative price adjustments. A number of factors need to be considered in projecting future
+values. On the one hand, the real value of many ecosystem services is likely to increase
+over time, reflecting:
+•
+
+increased relative scarcity of natural capital assets
+
+•
+
+rising demand for the benefits that are provided by natural capital (for example
+health)
+
+•
+
+increasing numbers of beneficiaries through population growth
+
+•
+
+climate change trends for example, in a growing role for urban cooling services and
+natural flood management or a rising trend in non-traded carbon prices
+
+Against this, where an intervention increases natural assets, the level of service may take
+time to increase to its potential. For example, the regulating, provisioning and cultural
+services from planting new woodlands will increase over time as the woodland matures
+and grows. Carbon sequestration benefits are also unlikely to be linear.
+For some regulating services, the value of the service may decline over time to reflect a
+projected downward trend in the hazard that is being mitigated. This may apply for
+example to declining levels of background air pollution over time.
+Green Book guidance is that health-related effects (for example, air quality and noise
+damage) are discounted at a lower rate of 1.5%, because the ‘wealth effect’, or real per
+capita consumption growth element of the discount rate, is excluded. This is equivalent to
+a 2% real terms annual uplift in values at a standard discount rate.
+Check the ENCA Services Databook for specific guidance by individual service or effect.
+25 of 94
+
+2.7 Challenges and limitations of using economic
+valuation
+Virtually all non-market valuation evidence is subject to uncertainty. In many cases, this is
+because the scientific effects are uncertain, or based on modelling (for example, regulating
+services such as air pollution removal or flood regulation).
+Uncertainties and methodological limitations should be presented transparently. Making
+use of appropriate uncertainty ranges, provide appropriate caveats and undertake
+sensitivity analysis and quality assurance.
+The ENCA Services Databook includes assessments of the evidence base for each of the
+environmental effect categories.
+Economic valuation will often be partial, particularly where multiple effects are expected.
+Where partially monetised benefits of an intervention to enhance nature clearly exceed the
+costs this may not be an issue. It simply means the benefit to cost ratio represents a lower
+bound of value for money.
+It becomes an issue where ecosystem services would be lost from an intervention (for
+example, through infrastructure) and valuation of those losses are exceeded by the nonenvironmental benefits of the intervention. This could lead to perverse outcomes if in
+reality there would be greater environmental loss than that which had been monetised.
+However, even a partial valuation can inform discussion as to the trade-offs between
+monetised and non-monetised effects.
+Values will also depend upon the distribution of income, as is the case with all market
+values. So it is important to understand to whom the estimated benefits accrue and to
+follow Green Book guidance (Chapter 7).
+Presentation and positioning of results is critical. If not presented carefully, economic
+values can be a source of confusion or even misuse. Although monetised non-market
+values signify real effects on wellbeing, they may not imply actual cash savings or
+benefits, nor increases in economic activity. At a local level, there may be more interest in
+accounting measures of Gross Value Added and employment than in economic welfare.
+Finally, economic valuation assumes we know what is to be valued. However, in the case
+of complex ecosystems, ecological processes and their interdependencies are not fully
+understood and outcomes from loss or enhancement are uncertain.
+In these cases, valuation of individual ecosystem services will be inadequate. Reasoned
+or evidence-based arguments for action or inaction, or a constraint on options, may be
+more appropriate (read the guidance on biodiversity in section 1.7)
+
+26 of 94
+
+Taking account of other valuation perspectives
+Bear in mind that ‘valuing’ nature is not solely the domain of economic valuation and that
+‘nature’ is a broader concept than natural capital. That needs to be acknowledged and
+positioned within a wider decision-making context.
+So, consider how qualitative social and cultural assessments of environmental change can
+complement economic valuation to inform the policy cycle.
+The UK National Ecosystem Assessment ‘Balance Sheet approach’ offers a way of
+collating, analysing and presenting this diverse data and evidence in the policy process.
+Read section 1.4.6 of the UK National Ecosystem Assessment Follow-On Synthesis
+Report (2014) for more information on the Balance Sheet approach.
+The 3 stages reflect the increasing complexity of the environmental context:
+•
+
+conventional strategic analysis - such as cost to benefit analysis and environmental
+impact analysis, with increased focus on distributional and equity issues
+
+•
+
+regional and local impact analysis - with greater spatial and socio-economic
+information on winners and losers and potential compensation measures
+
+•
+
+analytical support to address ‘contested’ policy context issues - where different
+groups hold different ethical positions, attitudes to risk, or cultural heritages
+
+Relevant evidence can be drawn from multi-criteria decision analysis methods and groupbased deliberative methods which encourage and inform discussion and debate among
+relevant participants. These methods can be employed, at the longlist stage of appraisal,
+to consider non-monetised trade-offs and rank options. They can also inform the design of
+primary valuation exercises (check section 2.10).
+Read Shared, Plural and Cultural Values: A Handbook for Decision Makers (2014) for
+practical information and examples of when and how shared values other than economic
+values can be taken into account in decision making.
+Incorporating qualitative and quantitative assessments into the decision making and
+appraisal process ensures that economic valuation evidence represents a ‘witness’ rather
+than a ‘judge’.
+For insight on the views of the general public on economic valuation of the environment,
+read Naturally Speaking… A Public Dialogue on the UK National Ecosystem Assessment.
+This identified both the strengths of monetary valuation (for example, its communicating
+power) and its limitations (particularly in more complex decision-making contexts).
+
+27 of 94
+
+2.8 Approaches to valuing biodiversity
+As a cross-cutting component of natural capital covering species and habitats, biodiversity
+is particularly challenging to value.
+Direct economic valuation of some welfare effects of biodiversity changes may be
+possible, such as pollination, amenity, non-use values. (Check the ENCA Services
+Databook).
+An indirect approach to valuing biodiversity gains and losses can be achieved by using the
+habitats associated with biodiversity as a proxy. Here we value the changes in measurable
+ecosystem services associated with those habitat changes. This might also be relevant
+where the objective is a net gain in biodiversity, as measured by a habitat-based
+biodiversity metric.
+This approach to valuing biodiversity effects would still give a partial estimate. Additional to
+these would be genuine “non-use” values associated with biodiversity such as species
+diversity, and insurance and resilience values (check Table 3 and section 2.1).
+The social costs of biodiversity loss may be judged too difficult to value adequately in
+appraisal. In this case a target or constraint could be set such that all options must meet
+that constraint (for example, no net biodiversity loss as measured by a biodiversity metric),
+and any biodiversity loss is compensated for. With this approach, other ecosystem service
+values can be included in compensation options to identify the most cost-effective way of
+meeting the biodiversity constraint or target. If a potential loss of biodiversity is not
+avoided, it should still be accounted for in appraisal as a social cost. This should be based
+on the valuation methods above, or at the very least on what it would cost to replace or
+offset the loss, such as the cost of habitat restoration or market-based biodiversity credit.
+For more information on these options, see the Biodiversity Tab of the ENCA Services
+Databook.
+
+2.9 How robust is your valuation evidence?
+Valuation evidence for some environmental effects is well established and consistent. For
+others, the evidence is fair but incomplete or inconsistent. Some evidence is subject to
+high uncertainty and requires further research. A high level robustness rating is given for
+each category included in the ENCA Services Databook. The desired accuracy of
+economic valuation will depend upon the purpose for which it is used.
+These uses range from:
+•
+
+awareness raising and context setting such as what values are at stake - what is
+the order of magnitude?
+
+28 of 94
+
+•
+
+accounting such as how assets compare and change over time
+
+•
+
+scoping and screening such as whether values likely to be significant
+
+•
+
+detailed appraisal such as value for money and ranking priorities
+
+•
+
+detailed design of economic instruments requiring marginal valuation, or cost
+recovery approaches and liability calculation (the most precise)
+
+Moving along this spectrum, the required robustness and reliability of the evidence
+increases. For initial briefing and scoping, ENCA Databook evidence and associated
+evidence reviews will be enough. For use in appraisal, further value transfer would be
+needed. A bespoke primary valuation would be necessary where there are significant
+appraisal or legal needs and the values at stake are substantial (Figure 3).
+Values taken from the ENCA Services Databook can be used as indicative values to give
+a sense of how significant certain impacts might be and to identify key sensitivities where
+more accurate valuation evidence is needed. Not all effects will be equally material, or
+equally influential on the result (for example, because they do not vary across options).
+Often the relative change in a value will be more important than the absolute level of the
+estimate. For example, in assessing trends in value over time (as in National Accounts), or
+understanding differences in valuation between project options, services or habitats. The
+more localised the effect, the more robust or specific a value will need to be.
+The robustness of economic valuation will also depend upon what other complementary
+forms of valuation and assessment are made and how sensitive outcomes are to key
+variables. Where proposed interventions are novel, large-scale or high-risk, then economic
+valuation becomes more problematic and the role of expert assessment and stakeholder
+engagement that much more important.
+
+29 of 94
+
+Figure 3: how robust should valuation evidence be?
+
+2.10 Creating new valuation evidence: primary valuation
+Where no relevant valuation study exists and the cost to benefit analysis is seen to
+depend significantly on the magnitude of the environmental effects, undertaking a primary
+valuation study may be justified.
+Primary valuation is where new evidence is created to fill an evidence gap, involving data
+collection or modelling. This may take 2 forms:
+•
+
+development of new biophysical and valuation models
+
+•
+
+conducting survey-based stated preference studies
+
+Primary valuation can be costly and time consuming so it should be undertaken only when
+it is proportionate and appropriate. Prior scoping and a literature review can help ensure
+that the primary valuation is addressing the right priorities and is technically feasible.
+The Value transfer guidelines describe what is good practice in designing primary
+valuation studies (as Annex 2). It includes guidance on how to address challenges and
+biases in stated preference studies. If you are commissioning a primary valuation study,
+you may wish to refer to these guidelines for potential bidders.
+
+30 of 94
+
+Quality assurance is a key consideration in primary valuation studies. This involves
+independent expert peer review of proposed survey design and econometric modelling
+specifications.
+Together with piloting and testing of surveys and careful scrutiny and sense checking of
+emerging results.
+Application of Defra's Value Transfer Protocol for primary valuation studies can ensure
+that primary valuation results are presented transparently and in a way which facilitates
+subsequent use in value transfer contexts.
+
+2.11 Quality assurance
+If you are using economic valuation, provide adequate assurance that addresses the
+following questions:
+•
+
+is the level of effort proportionate to the purpose?
+
+•
+
+have appropriate sources of evidence been used?
+
+•
+
+have value transfer principles been adopted?
+
+•
+
+where values are partial, is this made explicit? and is qualitative evidence
+presented to complement partial valuation evidence?
+
+•
+
+are assumptions, risks and uncertainties clearly set out? Has appropriate sensitivity
+analysis been undertaken on the key assumptions that might affect results? Is a
+worst-case scenario included?
+
+•
+
+where relevant, is valuation based on and integrated with, assessment of effects on
+natural assets (as set out in the Green Book 4 step process)?
+
+•
+
+have relevant spatial considerations and variations been considered?
+
+•
+
+are distributional effects relevant and considered? Is it clear who the beneficiaries
+or losers are?
+
+•
+
+where multiple services or benefits are included, is there any double counting of the
+same benefit?
+
+•
+
+are quantitative and qualitative assessments that underpin valuation estimates
+presented clearly?
+
+•
+
+is a consistent year adopted as a price basis for different valuations?
+
+Read the HM Treasury’s Aqua Book for guidance on analytical quality assurance and
+addressing analytical uncertainty.
+31 of 94
+
+3. Natural Capital in policy or project
+appraisal
+This section builds on and is consistent with existing guidance on natural capital within HM
+Treasury Green Book. In particular paragraphs 8.76 – 8.84 (‘Natural environment’). It
+provides guidance on how natural capital thinking can be applied at each stage of the
+appraisal cycle (rationale for intervention, generating options, assessing impacts and
+monitoring and evaluation).
+A natural capital approach may be used to support appraisal when considering the
+environmental principles. Ministers of the Crown, and those developing policy on their
+behalf, must have due regard to the Environmental principles policy statement when
+making policy. The policy statement explains how to interpret and proportionately apply
+the principles that will contribute to the improvement of environmental protection and
+sustainable development. The 5 principles are: integration, prevention, rectification at
+source, polluter pays, and the precautionary principle.
+Figure 4 provides a simple representation of how policies or proposals may affect stocks
+of natural capital directly and in turn affect social welfare.
+It also shows the direct effect of ‘traditional’ environmental externalities such as air and
+water pollution (described in ENCA as ‘negative environmental effects’) on welfare. These
+externalities will also adversely affect natural capital stocks (dashed arrow), so there are
+indirect effects on welfare through degradation of natural capital.
+This enables a more comprehensive appraisal, one that considers impact both on the
+stocks of natural capital and on the benefits that it provides, as well as the potential for
+nature to support a range of policy goals (section 3.2).
+
+32 of 94
+
+Figure 4: Natural capital impact pathway framework
+
+3.1 Rationale for policy intervention in natural capital
+Where natural capital is monitored and accounted for, it is likely to identify issues and
+potential areas for new policy intervention. Natural capital is associated with several types
+of market failure which can in principle justify government intervention.
+
+Public goods
+Many services provided by natural assets are not supplied through markets. This is
+because they are non-excludable in supply (available to all) and, once provided, nonrivalrous in demand (it matters little how many people enjoy them). For example, climate
+regulation and the ability of vegetation to absorb air pollution benefits whole populations.
+Natural assets are often public goods within a region or locality. An upland area may
+provide ecosystem services to a population downstream in terms of water filtration and
+alleviation of flood risk. Urban parks have public good features despite being potentially
+excludable and congested.
+Open access natural assets such as fisheries and recreational sites can be subject to
+degradation where there are biological or biophysical limits and this too would be an
+economically inefficient outcome that may warrant government intervention.
+
+Externalities
+Many decisions relating to natural assets are associated with negative externalities. These
+occur when an activity imposes costs for economic agents that are not directly involved.
+33 of 94
+
+These tend to result in inefficiently high levels of resource depletion, pollution and
+damage.
+Examples are pollution of watercourses, biodiversity loss, excessive land-use conversion,
+and depletion of peat bogs. Where natural assets have been depleted beyond
+economically efficient levels, it makes economic sense to enhance and restore those
+assets.
+
+Imperfect or asymmetric information
+This can take various forms, for example where users or consumers of natural resources
+are not aware that their use or consumption can lead to degradation or depletion of natural
+resources (for example, use of palm oil, or poorly managed timber forest, trade in ivory
+products).
+Loss of biodiversity and endangered species in part reflects a disconnect between
+ecological reality and the activities and choices of final consumers. Solutions include better
+public information, certification and designation, creation of new markets, and, in extreme
+cases, prohibition on use or trade.
+Poor understanding of how the natural environment works or how an intervention might
+damage nature can itself lead to inefficient decisions. The natural capital approach itself
+can improve decision-makers' understanding, so as to make better informed decisions.
+
+Equity considerations
+Disparities in natural capital or its benefits to different demographic or socio-economic
+groups or regions may provide additional justification for intervention.
+
+34 of 94
+
+3.2 Meet your policy goals with natural capital options
+Where enhancing or protecting natural capital is the object of policy or spending (for
+example, a programme of habitat creation or restoration), the standard Green Book
+approach to identifying a range of options applies.
+Many public sector bodies impact or rely on natural capital. So natural capital can also
+support shared outcomes across policy areas and, as stated in the Green Book, nature
+investment can be used to ‘meet broader policy goals’.‘’. This is relevant at the long list
+stage in Option Appraisal. Table 6 provides examples although these are not exhaustive.
+This stage can support application of the integration principle when considering the
+Environmental principles policy statement. You may also want to consider opportunities for
+your policy or investment to protect, maintain, restore, or enhance the environment.
+The ENCA Natural Capital Assessment template includes further guidance on naturebased options.
+Annex 1 links the policy goals in Table 5 to other sections of the ENCA resource.
+
+Table 5: how nature-based approaches can support policy goals
+Policy area or
+goal
+
+How natural capital can contribute
+
+Physical health
+
+Nature-based recreation (various habitats)
+Settings for walking and cycling routes
+Reducing air pollution
+
+Mental health
+
+Nature-based recreation for different ages
+Mitigation of road traffic noise
+Incorporating views of greenspace from homes, schools, hospitals,
+workplaces
+Nature volunteering and green prescriptions
+
+Local economic
+development
+
+Nature-based tourism and outdoor leisure
+Green space amenity in workplaces and settings for business locations
+Cooling effect of urban green and blue space during extreme temperatures
+(mitigating output loss)
+
+Housing and
+place-making
+
+Provision of recreation and amenity
+Contribution to sense of place
+Making high streets more attractive and climate resilient
+Mitigation of pollution pressures from new development
+Streamlined approaches to biodiversity net gain
+
+35 of 94
+
+Policy area or
+goal
+
+How natural capital can contribute
+
+Net zero
+emissions
+
+Woodland creation
+Peatland restoration
+Saltmarsh creation
+Grassland restoration
+
+Climate
+resilience
+
+Natural flood management approaches
+Sustainable urban drainage schemes
+Cooling effect of vegetation in cities
+Habitat restoration
+
+Transport
+
+Settings for cycling and walking
+Supporting resilience
+Mitigating pollution and noise
+Ecological corridors
+
+Education
+
+Settings for outdoor learning
+Support for ecological knowledge and specialist qualifications
+Enhancing nature within school grounds
+
+Levelling up
+
+Addressing regional deficits in accessible natural greenspace
+
+Social cohesion
+and loneliness
+
+Good quality green space provides opportunities for community events and
+interaction
+Safer more welcoming outdoor environments
+Nature-based volunteering
+
+Cultural
+heritage
+
+Many aspects of cultural heritage (for example, historic landscapes, ancient
+monuments), are underpinned or surrounded by natural capital
+
+3.3 Screening for effects on natural capital
+Consistent with the principle of proportionality, use the Green Book screening questions to
+consider the possibility of unintended consequences on, or missed opportunities for,
+natural capital. Table 5 provides more detail and guidance and is included in the ENCA
+Natural Capital Assessment template. You can record your answers (yes / no / possibly)
+and reasoning on the template.
+
+36 of 94
+
+Table 6: screening for natural capital impacts
+Screening question
+
+Guidance
+
+Is the proposal likely to have
+any effects on the use or
+management of land in the
+UK?
+
+Land is the basis for natural assets and the various ‘broad
+habitats’ that occupy land: woodland, moorland, enclosed
+farmland, urban, semi-natural grassland, coastal margins.
+
+Is the proposal likely to
+affect the atmosphere in any
+way?
+
+This primarily relates to potential effects, positive or
+negative on air quality or its composition including
+greenhouse gas emissions. It also includes effects on levels
+of noise or tranquillity.
+
+Is the proposal likely to
+affect any type of inland,
+coastal or marine water
+body?
+
+The water cycle cuts across natural assets and includes
+non-tidal rivers, lakes, ponds, wetlands, floodplains as well
+as coastal estuaries and the marine environment.
+
+Any proposal that potentially affects management,
+development, use or appearance of the land, including
+through changing incentives, will be in scope.
+
+It also includes groundwater where water is stored beneath
+or within soil and rocks.
+Water quality can be affected by changes in point source
+pollution from specific industrial locations, or changes in
+diffuse pollution from a variety of sources such as transport
+routes, agriculture or housing.
+
+Is the proposal likely to have
+any effect on wildlife?
+
+Wildlife is an indicator of biodiversity, as too is wild
+vegetation.
+Biodiversity is core to natural capital and can also be a final
+cultural service in its own right.
+Wildlife can be affected not only by direct changes to
+protected sites (for example, because of building
+development but also by disrupting or creating connections
+between sites caused by changes in transport systems or
+tourist activities.
+
+Is the proposal likely to have
+a significant effect on the
+supply of raw materials from
+natural sources?
+
+A proposal may not affect land or natural assets directly, but
+it may have strong indirect effects through significant
+changes to a certain type of raw material which comes
+directly from a natural source, particularly non-renewable
+sources.
+
+37 of 94
+
+This may have implications both for the sustainable supply
+of that material or for the wider environment in which it is
+extracted.
+Is the proposal likely to
+affect opportunities for
+outdoor recreation?
+
+Nature-based outdoor recreation is a major source of nonmarket value provided by the environment. This includes
+very high values provided by green spaces in and close to
+urban areas, for example: urban and country parks, local
+woodlands, riverside paths. Changes in the quantity, quality
+or access of such sites can have significant welfare effects.
+
+Is further assessment
+required?
+
+If further assessment is required, note here whether on this
+first initial assessment, the likely overall effect for natural
+capital of the proposal is positive, negative or mixed
+
+The screening questions may be helpful when Ministers of the Crown, and those
+developing policy on their behalf, are applying the duty to have due regard to the
+Environmental principles policy statement when making policy. The questions can help
+establish if a policy has potential environmental effects (positive or negative).
+The questions relate to different aspects of the natural capital framework. Give adequate
+thought to each question, particularly effects which may not be immediate or direct. Direct
+or indirect impacts on nature may arise, for example, from a policy or investment’s effects
+on:
+•
+
+supply chains and manufacturing processes
+
+•
+
+waste products or secondary products, and changes in resource efficiency
+
+•
+
+transport, building or infrastructure
+
+•
+
+consumer behaviour.
+
+Effects can be positive as well as negative. Expert advice or research may be required.
+Only say ‘No’ if you have sufficient reason or evidence for doing so.
+
+3.4 Guidance on proportionate assessment
+Further assessment, based on the 4-step natural capital framework (see section 3.5) is
+recommended where:
+•
+
+you have answered “yes” to at least one question
+38 of 94
+
+•
+
+you have answered “possibly” to the first question on land or at least two questions
+
+Judging how much further assessment is proportionate will involve a number of
+considerations:
+•
+
+The absence of environmental impacts should not be assumed. If you think a
+natural capital assessment is not needed, you should be transparent and set out
+why no substantive environmental impacts are likely
+
+•
+
+Whether the Environmental Principles apply
+
+•
+
+Materiality – whether the process or result of doing a detailed assessment might
+lead to a material change in the options or choice between them
+
+•
+
+Second round and very indirect effects on the environment, for example, arising
+from long-term behavioural change, can be difficult to assess quantitatively. It may
+be sufficient to identify and describe them in a qualitative way
+
+•
+
+Follow existing guidance where changes in specific negative externalities are
+identified or expected (such as effects on air pollution, noise or greenhouse gas
+emissions). However, these effects are often linked with other effects on natural
+capital, so it is important that all effects are accounted for
+
+•
+
+Where appropriate and proportionate, significant overseas environmental effects
+should also be identified and assessed
+
+Where it may not be proportionate to do a full natural capital assessment, the 4-step
+process below can still be used in a light-touch way to develop, cross-check or clarify
+responses to the screening questions.
+In addition to assessing for natural capital effects, an appraisal should also consider the
+potential effects of climate risks and trends and consider adaptation measures in response
+to these. See supplementary Green Book guidance on Accounting for the Effects of
+Climate Change.
+
+3.5 Assessing natural capital effects using the 4-step
+approach
+You should adopt a 4-step impact pathway approach to assessment where nature-based
+options are shortlisted or where the screening questions suggest potential environment
+effects. This is summarised in Chapter 8 of the Green Book.
+
+39 of 94
+
+Like any assessment, this can be done to different degrees of detail, depending upon the
+scope, significance and materiality of the potential impacts. What is crucial is that each
+step is properly considered, and relevant evidence in ENCA consulted, rather than
+assuming that no meaningful assessment can be made.
+This approach assesses how a proposal may affect natural assets, what this means for
+welfare and whether effects can be valued. Each step is described below with additional
+guidance.
+The ENCA Natural Capital Assessment template is useful for gathering relevant
+information for each step in a simple structured way. You can also use the template to
+develop comparative outline assessments for a proposed programme of different
+measures.
+The 4-step approach may be helpful for Ministers of the Crown, and people developing
+policy to make sure that they have due regard to the Environment principles policy
+statement. It can help summarise the potential environmental effects of a policy, whether
+positive or negative.
+
+Step 1: understand the environmental context to the proposal
+The first step is to understand the relevant natural systems that may be affected or
+contribute to outcomes and the environmental and geographic context of the proposal.
+This also helps establish a baseline against which positive or negative effects can be
+assessed. The typology of ‘broad habitats’ set out in Section 1 offers a starting point into
+understanding natural capital and the benefits that nature provides.
+The 8 broad habitats are:
+•
+
+urban
+
+•
+
+enclosed farmland
+
+•
+
+mountains, moors and heath
+
+•
+
+freshwater
+
+•
+
+woodland
+
+•
+
+coastal margins
+
+•
+
+marine
+
+•
+
+semi-natural grassland
+
+Each of these categories has its own tab in the ENCA Assets Databook bringing together
+key sources of physical and valuation evidence.
+40 of 94
+
+Describe the proposed measure. Natural capital assessments work best where there are
+well-specified and quantified measures with respect to scale and location (for example,
+hectares of coastal habitat affected). Identify the scale, location, outputs and spatial reach
+of the intervention.
+
+Step 2: consider how natural assets might be affected
+An understanding of physical, spatial or biological changes in the location, extent,
+condition and diversity of natural assets is the starting point of the appraisal and
+associated economic valuation.
+This should be easier once you have a good understanding of which broad habitats are
+affected in Step 1. For this step of the assessment, you will:
+•
+
+identify which types of natural asset (such as land use, atmosphere, water bodies,
+natural resources, species, wildlife habitats and soils (check Table 2)) might
+specifically be affected
+
+•
+
+consider the spatial nature and scale of effects - these may be localised or
+widespread.
+
+•
+
+decide whether these effects represent risks or opportunities - are they modest or
+significant?
+
+•
+
+consider the likely time frame of effects - are they immediate, short term (within a
+year or two) or longer term?
+
+This step facilitates the assessment of relevant welfare effects in Step 3. It also informs on
+the physical sustainability of natural stocks, which should be clearly reported in an
+appraisal (See Step 4).
+Each of the broad habitat tabs in the ENCA Assets Databook lists relevant ecosystem
+services and effects that might be affected. Evidence on specific ecosystem services and
+environmental effects can be found in the ENCA Services Databook.
+
+Step 3: consider and value the welfare implications
+How will changes to assets (identified in Step 2) affect benefits provided to society by
+natural capital?
+Understanding natural capital provides a framework for improved appraisal of a range of
+environmental effects alongside potentially harmful externalities such as air pollution,
+noise, waste and greenhouse gas emissions.. So multiple impacts may need to be
+measured and valued. Care should be taken to avoid double counting where impacts
+overlap.
+41 of 94
+
+The range of potential impacts include direct or indirect effects on the various services and
+benefits set out in Section 1.
+A first step is to assess:
+•
+
+who might be affected? How many?
+
+•
+
+can the change in service be quantified in physical terms?
+
+Environmental effects and associated values are often geographically specific. The
+recreational value of new or destroyed woodlands, publicly accessible green space or
+changes in air quality may be greater in or near densely populated locations than more
+remote areas. Recreational values may be greater where there are fewer alternative sites.
+Do not assume that monetization of effects is impossible. The ENCA Services
+Databook can be reviewed for relevant valuation evidence, guidance and sources
+appropriate for identified effects.
+See Section 2 of this guidance for further detail on undertaking economic valuation.
+When there are quantified but unmonetized ecosystem services, consider doing a breakeven analysis - what would the unit value of the service have to be in order for net benefits
+to be positive? In some cases, it may be possible to identify trade-offs between different
+costs and non-monetised impacts of different options.
+Effects and factors that cannot be given a monetary value should be quantified or, if that is
+not possible, accurately described in qualitative terms. Quantification and qualitative
+description should focus on effects that contribute to changes in human welfare.
+
+Step 4: consider uncertainties and optimise outcomes
+Environmental effects may be uncertain. Therefore, consideration needs to be given to
+quantifying these uncertainties as risks that must be costed and managed, so that they
+can be minimised, mitigated or where possible avoided.
+This will include consideration of:
+•
+
+the critical factors that could have a major influence on how natural assets and
+services are affected by the measure (which may require further investigation)
+
+•
+
+arrangements for monitoring these critical factors to manage risks and optimise
+outcomes
+
+•
+
+mitigating measures so that risks to natural assets can be minimised and benefits or
+opportunities maximised
+
+42 of 94
+
+Finally, effects on the sustainable use of natural assets should also be reported, drawing
+on Step 2. In addition to the marginal valuation of a loss in services, the degradation of a
+renewable asset should be assessed, such as the exploitation of a fishery or a loss in
+condition of the underlying biodiversity.
+Non-marginal effects such as reaching ecological tipping points might lead to dramatic or
+irreversible loss in the asset under consideration. This would result in a loss of
+environmental services and welfare. Cumulative effects of multiple investment decisions
+upon the underpinning stocks of natural capital should also be considered.
+Completing these 4 steps may reveal gaps in your knowledge and evidence that need
+further research and assessment.
+It is important when presenting results of natural capital assessment in an appraisal to be
+clear how far economic valuation captures the full range of relevant effects (see
+also Section 2.6).
+The template includes a section for you to summarise the insights of the 4-step
+assessment.
+
+3.6 Monitoring and evaluation with natural capital in
+mind
+According to the Magenta Book, evaluation involves understanding how an intervention
+has been, or is being implemented and what effects it has, for whom and why.
+Evaluation can inform thinking before, during and after the implementation of an
+intervention, identifying what can be improved. The environmental risks, opportunities,
+costs, benefits and uncertainties identified at the appraisal stage should inform evaluation
+thinking.
+The 4-step process and valuation of ecosystem service effects can provide the basis for a
+Theory of Change. This identifies how an intervention is expected to bring about change,
+the anticipated final benefits, the associated risks and assumptions and the importance of
+context in delivering final benefits.
+The emphasis on data within a natural capital approach may enhance evaluation, by
+helping to ensure monitoring and data collection are given greater priority. Data may then
+be available to evaluation which would not otherwise have been the case. The spatial
+nature of natural capital effects is another important consideration for monitoring and
+evaluation.
+
+43 of 94
+
+Consider using the Environmental Indicator Framework for the 25 Year Environment Plan
+as a starting point for potential metrics. Many of the indicators are referenced in the ENCA
+Databooks according to the relevant service or asset. Where natural capital accounts or
+natural capital indicator frameworks are established, there is a ready dataset for
+monitoring change on assets, services and benefits. Care needs to be taken to interpret
+changes in accounts and the factors that are driving those changes.
+The potential for significant natural capital effects, whether intended or not, should inform
+data collection and planning of process evaluation and impact evaluation. Value for money
+evaluation based on actual changes can be useful although a full understanding of
+outcomes and impacts will also typically require other metrics and qualitative evidence.
+Issues and interventions which have links to the natural environment are often of a
+‘complex’ nature that require innovative monitoring and evaluation methods. Read
+the supplementary guidance to the Magenta Book (PDF) for guidance on tackling this
+challenge.
+
+44 of 94
+
+4. An introduction to natural capital
+accounting
+Natural capital accounting is the attempt to bring a systematic, standardised and
+repeatable framework to recording information on natural capital and the services it
+provides, whether or not those services have a market value.
+In so doing, accounts can help to measure, value, monitor and communicate the state of
+natural assets within a given territory, bringing together a coherent body of physical and
+monetary information on the asset itself and the flows of services that it supplies. It can be
+done at national, regional, local or organisational level.
+A key distinction in accounting systems is that of stocks and flows, which reflects the
+distinction in the natural capital framework between assets and services. A stock refers to
+the quantity or value of an asset at one point in time or the end of an accounting period,
+and will cover concepts of extent, condition and wealth. A flow refers to the supply of
+services provided by the asset and used or experienced within an accounting period,
+usually a year.
+Accounts should be based on spatially disaggregated data where possible, although this is
+challenging particularly at larger scales. Accounting seeks to answer a number of key
+questions in an integrated and systematic way, through the production of interrelated
+accounts (Figure 5):
+1. what are the assets we own, manage or have responsibility for?
+2. what condition are they in?
+3. what services do they provide?
+4. what is the value of those services now?
+5. what is the expected value of those services into the future?
+In addition, at corporate or more granular spatial scales, it is often appropriate to include a
+further component:
+1. What are the costs of maintaining the assets?
+For further guidance on the first 5 types of accounts listed above, read the Principles of
+Natural Capital Accounting produced by the Office for National Statistics and Defra.
+The Natural Capital Committee originally developed and tested guidance on Corporate
+Natural Capital Accounting. Building on this and other practical experience of accounting,
+the British Standards Institution has issued a Natural Capital Accounting Standard which
+45 of 94
+
+provides specifications and principles for the preparation of natural capital accounts by
+organisations.
+Figure 5: the scope of natural capital accounts
+
+46 of 94
+
+Table 7: essential and desirable features of natural capital accounting
+Feature
+
+Essential
+
+Accounts for annual flows in physical and monetary terms
+
+x
+
+Time-series for service flows
+
+x
+
+Assessing the state and contribution of the ecosystem
+
+x
+
+Consistent conceptual approach across all services
+
+x
+
+Draws on range of information sources
+
+x
+
+Transparent and repeatable methods
+
+x
+
+Committed to improve over time
+
+x
+
+Desirable
+
+Spatially disaggregated
+
+x
+
+Estimates an asset value in monetary terms
+
+x
+
+Includes cost information
+
+x
+
+Integrated into management reporting processes
+
+x
+
+4.1 Distinction from appraisal
+Natural capital accounting does not in the first instance seek to answer a specific policy
+question.
+It therefore differs from one off studies which focus only on changes in flows such as cost
+to benefit analysis or one off natural capital assessments that are not repeated.
+Table 8 summarises the key conceptual differences between accounting for natural capital
+and economic appraisal.
+
+47 of 94
+
+Table 8: comparison of accounting and appraisal
+Differences
+
+Accounting for natural capital
+
+Appraisal (Cost to Benefit
+Analysis)
+
+Scope and focus
+
+Understanding the state of the current
+stock of assets and what they currently
+provide.
+
+A specific policy or spending
+intervention which will affect
+natural assets and the provision
+of services in some way.
+
+Aims to be comprehensive.
+Context and
+purpose
+
+Which aspects
+of the
+environment are
+valued?
+
+Forward or
+backwardlooking?
+
+Tends to inform the strategic context.
+Ongoing and repeated.
+
+Tends to a more operational
+context for assessing specific
+priorities.
+
+Provides basis for prioritisation and
+subsequent appraisal exercises
+
+Will be a one-off piece of
+analysis for a particular decision.
+
+Focused on what nature provides but aims
+to be comprehensive. Valuation should
+seek to value the ecosystem service (for
+example, the contribution of the ecosystem
+to farming, rather than the output of farming
+itself).
+
+Will only focus on aspects of the
+natural environment that are
+materially affected by an
+intervention. This may include
+negative environmental
+externalities.
+
+Negative environmental impacts caused by
+human activity should be accounted for
+separately as they are not produced by the
+ecosystem.
+
+Appraisal will focus on the final
+economic impact, which may
+include non-environmental inputs
+and outputs.
+
+Backward looking as they monitor trends
+and ‘actuals’.
+
+Forward looking. The outcomes
+of an appraisal and its decision
+should in principle be captured in
+subsequent accounting.
+
+Asset values are however based on
+projections of ecosystem services into the
+future.
+
+48 of 94
+
+Valuation
+concept
+
+Natural accounts are based on the concept
+of a transaction or exchange having taken
+place between the ecosystem and the user.
+
+Typically, welfare values for nonmarket goods rather than
+imputed market values.
+
+Potentially welfare values can also be
+accounted for where appropriate,
+particularly at local or corporate level.
+
+These may be negative or
+positive values.
+In some cases, accounts and
+appraisal can make use of the
+same values.
+
+Accounts only estimate a positive flow of
+services.
+Environmental pressures may be captured
+in the condition account.
+Type of value
+
+Baseline, average values. These will tend
+to give relatively large magnitudes
+
+Marginal values based on the
+change affected by an
+intervention.
+
+Cost information
+
+Production costs should not be included in
+service values.
+
+An essential part of appraisal
+these can include environmental
+as well as other types of costs
+
+Sub-national and corporate accounts
+should typically include the costs of
+maintaining the services valued, so costs
+can be compared with benefits on a
+consistent basis.
+The core UK accounts do not include cost
+information.
+Role of Net
+Present Value
+and discounting
+
+Used to value an asset. Future expected
+flows of services are discounted to a
+Present Value, which gives a monetary
+value of the asset. Strictly this is not ‘net’.
+
+Net Present Value used to
+summarise the balance of
+benefits and costs of an
+intervention or investment.
+
+4.2 What are the benefits of natural capital accounting?
+A range of information from disparate data sources about natural assets, their condition
+and the services they provide.
+Natural capital accounting is not itself a decision-making tool, but the process of
+compilation and the integrated information it provides can provide a strategic overview of
+the state and value of natural assets. In particular, accounts can:
+•
+
+raise awareness of the importance of natural assets
+49 of 94
+
+•
+
+identify an organisation’s dependencies on natural capital and risks and
+opportunities arising from investing in nature
+
+•
+
+provide a baseline for a natural capital plan (Check section 5) and so identify
+priorities for investment
+
+•
+
+support systems-based thinking, identify new lines of inquiry linking previously
+disconnected spheres of operation or data and support identification of priority
+areas of investment
+
+•
+
+highlight key trends over time (as accounts are repeated)
+
+•
+
+provide a means of monitoring outcomes of strategies to make better use of natural
+capital, to support target setting and encourage greater accountability
+
+•
+
+generate physical and monetary indicators which may be derived directly from the
+accounts in combination with other socio-economic information
+
+•
+
+enable clearer exposure of evidence gaps (‘what we know least about’) and the
+incentive to fill them through developing new measurement and valuation methods
+and data sources
+
+•
+
+facilitate accountability and transparency with stakeholders relating to the benefit
+and funding of natural capital assets
+
+Monetary valuation in natural capital accounts offers particular advantages. It can:
+•
+
+enable aggregation and comparison of ecosystem services and ecosystems and at
+national level, can be compared and potentially integrated with economic data in
+the National Accounts
+
+•
+
+highlight the value of non-market ecosystem services and what is driving that value
+(or lack of value)
+
+•
+
+demonstrate that natural assets are not simply a financial liability or a constraint,
+but offer real value to people and the economy (for example, for every £1 spent, the
+asset generates a minimum of pounds of benefit per service)
+
+•
+
+provide a base for scenario analysis, in which different forward projections of
+service flow can generate different estimates of net present value and to inform
+business cases for specific investments in natural capital
+
+•
+
+identify who benefits from ecosystem services and by how much
+
+For use of valuation in accounting, check Defra’s paper Nature at Work for People and the
+Economy: 10 Insights from the UK and England Natural Capital Accounts and sub-national
+applications in ENCA Case Studies.
+50 of 94
+
+The value of an account is maximised if it is repeated, updated and developed over time,
+enabling further benefits, such as:
+•
+
+development of policy relevant indicators, linking data with different sources, for
+example, financial and socio-economic information
+
+•
+
+a basis for analysis and economic modelling and linking with the national accounts
+
+•
+
+a better understanding of which different social groups benefit from natural capital
+
+Ongoing improvements in accounts increase their value to users as time series are
+developed. This in turn increases awareness and interest in improving data collection and
+methods and filling gaps, leading to a virtuous circle.
+Figure 6: the virtuous circle of accounting
+
+4.3 Developing an account in practice
+There are a number of considerations that enable development of an account in practice:
+•
+
+start somewhere, but provide sufficient resources - baseline studies are often a
+good starting point, but the key is having capacity to maintain and develop accounts
+over time
+
+51 of 94
+
+•
+
+compilers should be open to a wide range of existing and new sources of
+information - the ENCA Databooks reference many potential sources, and check
+also section 5.1 below for place-based accounting
+
+•
+
+consistent methods and a clear and transparent framework provide a starting point,
+based where necessary on pragmatic conventions and existing standards
+and principles
+
+•
+
+open up discussion with a wider community of institutions and users for
+engagement and feedback - identify ‘early wins’, get potential users excited whilst
+retaining rigour and credibility but be open about limitations and manage
+expectations
+
+It can be useful to think of the development of an account over a number of stages (Figure
+7):
+1. Rationale – clear commitment, purpose, understanding uses and limitations of
+accounts
+2. Scoping – review evidence, conceptual issues, draw on relevant guidance and
+principles
+3. Initial account – get feedback, identify gaps, badge as experimental
+4. Developed account – after one or more iterations, include time series
+5. Refine and maintain – ongoing commitment to improve and update, linking with
+other information sources, credibility increases as data points and experience grow
+Figure 7: the stages in developing a natural capital account
+
+52 of 94
+
+Natural capital accounting at different spatial scales
+There is considerable overlap between national, corporate and local approaches to natural
+capital accounting, as reflected in existing guidance and practice. There are also legitimate
+differences between these types of accounts, reflecting the different needs and scales
+involved.
+At the same time, methods and approaches can differ between different published
+accounts undertaken by different organisations, reflecting the experimental nature of
+natural capital accounting, including what is valued and how it is valued.
+Table 9 compares accounting at different spatial scales. The latest national accounts are
+all referenced in the ENCA Assets Databook. Examples of sub-national natural capital
+accounts can be found in ENCA Case Studies.
+Table 9: accounting at different spatial scales
+Scale
+
+National
+
+Corporate and public
+land-holding
+
+Regional, local
+authority, site level
+
+Guidance
+and
+standards
+provided by
+
+Office for National Statistics
+with Defra and the UN System
+of Economic Environmental
+Accounting.
+
+BSI Natural Capital
+Accounting
+
+Draws on both national
+and corporate
+guidance
+
+Extent defined according
+to land ownership,
+management or influence.
+
+Assets may be
+accounted for at a finer
+scale.
+
+Assets may be categorised
+at a finer scale than broad
+habitats, for example,
+components of
+ecosystems.
+
+Typically combined
+into a single ‘Asset
+Register’.
+
+Based on conceptual
+architecture of the System of
+National Accounts
+Treatment of
+asset extent
+and
+condition
+
+Done by broad habitat
+categories.
+Currently limited spatial
+disaggregation.
+Several categories of asset
+condition each with a number
+of characteristics or indicators
+that are relevant to the range
+of services.
+
+Typically combined into a
+single ‘Asset Register’.
+
+Biophysical, economic
+and spatial data
+should have a higher
+resolution than
+national accounting
+data.
+
+53 of 94
+
+Treatment of
+service flows
+and their
+valuation
+
+Rigorous focus on valuing the
+service so as to ensure
+consistency across services,
+habitats and time.
+A service flow implies a real
+or notional exchange between
+ecosystem and user. This
+value may not be the same as
+a welfare value. This
+produces a supply to use
+table.
+
+Typically, a less strict
+definition of services
+compared to national
+accounts and a wider
+scope of benefits may be
+included.
+Values typically divided
+between benefits internal
+to the accounting
+organisation (marketed
+goods) and external
+benefits (non-marketed
+goods)
+
+Typically, a less strict
+definition of services is
+used and a wider
+scope of benefits may
+be included.
+Although exchange
+values may still be
+relevant.
+Beneficiaries may be
+grouped, for example,
+businesses,
+households, public
+sector.
+
+4.4 Use of economic valuation in natural capital
+accounting
+There are 2 forms of valuation in natural capital accounting:
+•
+
+valuing the actual flow of services
+
+•
+
+valuing ecosystem assets
+
+Valuing the actual flow of services
+These will typically be based on flows of the physical service using physical metrics.
+Various valuation methods can be used. The aim is to identify and value the contribution of
+the ecosystem to the benefit. For provisioning and some cultural services, the ecosystem
+contribution will only form part of the benefit.
+For regulating services there is no distinction between the value of the final benefit (for
+example, health benefits from air filtration) and the value of the ecosystem service
+(reduced exposure to air pollution from vegetation).
+
+Valuing ecosystem assets
+These are capital values which reflect an expected stream of future service flows in the
+same way that a house price, a company share or the transfer price of an elite footballer
+represent stock values.
+54 of 94
+
+For the UK natural capital accounts, this asset value is based on projecting services over
+100 years and discounting according to HM Treasury Green Book to a ‘net present value’
+such as capitalised value.
+The projection will reflect expected trends in the physical flow and trends in real value or
+price of that flow.
+
+Use of exchange values in accounting
+Monetary valuation provides a common metric through which services can be aggregated,
+compared and comparisons made at national level with the flows and stocks that are
+already included in the System of National Accounts (SNA).
+Importantly, the SNA does not seek to capture the total welfare value provided by goods
+and services, but rather accounts more pragmatically for the values of those services as or
+if traded (so-called ‘exchange value’).
+Housing, for example, can be assigned an exchange value, based on aggregating the
+market value of all existing houses, or rental services. However, a total welfare value of
+housing makes less sense because society cannot do without housing. The same principle
+can be applied to ecosystem goods and services.
+For some services, exchange values are likely to be a lot smaller than welfare values.
+For services that have no market value, the aim would be to ‘value the quantity of
+ecosystem services at market prices that would have occurred if the services had been
+freely traded and exchanged.’ Check section 6 of (ONS and Defra Natural Capital’s
+Accounting Principles). This implies the need to impute an exchange value.
+Use of exchange values may appear less essential for natural capital accounting at
+corporate or local level and welfare values are typically used where this is the obvious
+method. However, in these cases there may not be consistency between the valuation of
+provisioning services valued at market rates and other non-market services which reflect
+the full welfare benefit (consumer surplus) to users.
+In terms of valuing non-market services on the basis of exchange values, resource rent
+and production function approaches, avoided or replacement costs and hedonic
+approaches are generally favoured from the perspective of national accounting principles.
+Additional guidance on the use of valuation for accounting is provided for individual
+services in the ENCA Services Databook.
+For further guidance on exchange values and methods, read chapter 9
+of UN SEEA Ecosystem Accounting (PDF).
+
+55 of 94
+
+4.5 Challenges and limitations
+With natural capital accounting still in its infancy, there are a number of challenges and
+limitations, particularly around data and valuation.
+The key data challenges include:
+•
+
+the need for reliable measures of extent and condition for assets
+
+•
+
+medium term planning for data and research to support improvement and
+timeliness of the accounts (for example, land cover data)
+
+•
+
+datasets that are partial or have insufficient spatial resolution to measure actual
+ecosystem services (such as reduction in flood risk)
+
+•
+
+frequency of updating datasets and a consistent time series to identify trends
+
+For these reasons, it is important to be clear what an account does not include and so
+leave space for wider considerations and values to inform deliberations around natural
+capital. However, even partial accounts with data gaps can still provide some powerful
+insights and catalyse new avenues of inquiry.
+Valuation of ecosystem services and assets in accounting faces several challenges:
+•
+
+The representation of natural capital in monetary accounts will only ever be partial
+
+•
+
+Valuation estimates may only be indicative, yet accounts rely on “single point
+estimates”. Levels of uncertainty will not be the same for each service, and this
+needs to be communicated. Single point estimates are less of an issue than
+consistency of approach when the purpose of accounts is to compare values over
+time and across assets and services
+
+•
+
+Applying standard and recognised methods. Check ONS’s Natural Capital
+Accounting Principles, and latest guidance by UN SEEA
+
+•
+
+Natural assets are interrelated and complex, subject to biophysical uncertainties
+(flood regulation), spatial variations (recreation, air filtration), environmental limits
+and thresholds. Science is needed to understand these relationships and interpret
+the results
+
+•
+
+Valuation needs to be considered alongside other biophysical information about the
+assets, so that the purpose of accounting is not misunderstood as purely a matter
+of monetisation
+
+•
+
+The two should not be separate, for example, future service flows should in
+principle reflect both the current and expected future condition of an asset
+
+56 of 94
+
+•
+
+Even a reasonably comprehensive set of natural capital accounts will have
+limitations
+
+Firstly, they focus only on what nature provides (although some human pressures will
+appear in the condition account). They would not value the full range of environmental
+impacts and externalities imposed by human activities. It may be relevant to report on
+these separately (as proposed in the BSI Natural Capital Accounting Standard), or to
+provide a more thematic analysis of what is happening (for example, relating agricultural
+activity to the natural capital of farmland and freshwater).
+Secondly, it may not be possible to capture an overall indicator of sustainability of natural
+capital, because asset values reflect a range of other factors, or a condition account lacks
+an aggregate metric. To address these challenges, UN SEEA Ecosystem
+Accounting gives guidance on decomposing changes in asset values (chapter 10) and
+ways of deriving composite ecosystem condition indices (chapter 5).
+
+57 of 94
+
+5. Place-based natural capital approaches
+5.1 Practical guidance on natural capital planning
+Several practical guides have been developed since the publication of the UK NEA in
+2011 to support a systematic and strategic natural capital or ecosystems approach or
+‘plan’ at a local or landscape scale. This is an evolving area that can involve elements of
+appraisal, accounting and valuation.
+This section summarises the latest guidance that has evolved from experience and is
+practised by Natural England and the Environment Agency. Check Natural England’s
+Natural Capital Evidence Handbook: to support place-based planning and decisionmaking together with a range of applications and supporting tools and evidence.
+The guidance is set out in 6 stages or principles. These principles are being adopted in
+various spatial and institutional contexts. Read ENCA Case Studies for a variety of
+applications of local and regional natural capital approaches.
+
+1. Define partnership and vision
+There are many circumstances where individuals and groups might want to use a natural
+capital approach to protect and improve the environment. Meaningful collaboration with a
+wide range of partners and stakeholders throughout the entire process is key. The
+partnership should aim to agree a high-level natural capital vision for your place and define
+its scale and boundaries.
+
+2. Establish a shared evidence base
+A key challenge is getting stakeholders on the same page and understanding the current
+state of natural capital, known as the baseline. There is likely to be a wealth of evidence,
+knowledge and understanding held by partners to draw on. This stage involves:
+•
+
+understanding and collating evidence about the place within which the natural
+capital sits
+
+•
+
+measuring and analysing the natural assets within scope, their quantity, quality and
+location, identifying the ecosystem services and social benefits they provide and
+who benefits
+
+This is a data intensive and interdisciplinary task that may involve use of tools and be
+structured as a natural capital account for the area in question.
+
+58 of 94
+
+3. Forecast and understand drivers of change
+Consider how long-term drivers of change (for example, climatic, economic, demographic)
+may affect natural capital and the ecosystem services it provides.
+•
+
+How might these drivers affect the extent, location and quality identified at Stage 2?
+
+•
+
+How can these be managed or reduced and what opportunities do they present?
+
+If a natural capital account is developed, these drivers can inform selection of pressure
+indicators or a risk register and can inform future projections of ecosystem services on
+which an asset valuation is based.
+
+4. Decide and plan for multiple benefits
+Drawing together the previous stages, formulate a plan of action that is more than the sum
+of its parts, identifying priorities and how potential barriers may be overcome. This stage
+can involve opportunity mapping (in which the Natural Capital Atlas Maps can provide a
+good starting point), appraisal (check section 3), modelling, use of tools, scenario
+development and deliberative discussions to agree a preferred plan and options.
+Consider potential innovative funding approaches. Where new funding is sought from
+private investors or public bodies, a business case may be necessary to demonstrate
+value for money (check section 2).
+
+5. Make it happen
+Actions might be delivered through a wide range of mechanisms, by a number of partners
+and using various funding sources. This is where economic valuation of environmental
+benefit can be important. All of these need to be specified and ideally embedded in
+relevant local strategies and plans. This is one reason taking partners and stakeholders
+through the whole process together is critical.
+
+6. Check and Improve: evaluation and monitoring
+Build in evaluation and monitoring at the outset, when establishing the partnership, vision
+and goals. This enables the collection of the right data throughout based on clearly defined
+objectives that are measurable and a ‘Theory of Change’ that identifies key assumptions
+and risks. Monitoring and evaluation should be proportionate and realistic with the aim of
+feeding back lessons and providing evidence for future decision making and funding.
+Read the Magenta Book for guidance on the main evaluation principles and methods.
+
+59 of 94
+
+5.2 How to make use of natural capital tools
+Natural capital approaches and plans as set out by the guidance above typically involve
+the use of tools. A ‘tool’ is a generic term for a range of methods that users can interact
+with to provide tailored information and analysis. The word ‘tools’ is used loosely to refer to
+methodologies, approaches and resources that support decision making. This can be a
+source of confusion.
+The diversity of natural capital assets, land covers and ecosystem services means that no
+single tool can address every aspect. Through testing, use and time, some tools become
+more used and developed, others fall by the wayside.
+Tools for assessing and exploring natural capital can be divided into 3 categories:
+•
+
+mapping natural capital stocks (habitat and land use surveys, mapping ecological
+networks for wildlife or assessing the condition of ecosystems)
+
+•
+
+quantifying ecosystem service flows (simple scoring tools, process-based and rulebased spatial modelling, calculation of biodiversity or environmental net gain,
+monetary and non-monetary valuation)
+
+•
+
+opportunity mapping (analysing ecosystem service supply and demand to look for
+gaps, opportunities to improve networks for wildlife and people, cost-effectiveness
+analysis)
+
+The Ecosystem Knowledge Network’s ‘Tool Assessor’ provides a consistent and detailed
+review of some of the leading models within the sphere of natural capital and land use.
+Many of these are referenced within the ENCA Services Databook and Assets
+Databook in their relevant context (by broad habitat or ecosystem service), with guidance
+on their use. Defra has funded an update and extension of the Tool Assessor to
+support ENCA.
+Certain tools that are developed or supported by the government have a particular
+importance and these can be found in ENCA Featured Tools, which provides summary
+information for each tool relating to who produced it, what it does, why it is useful and how
+it works in practice.
+The proliferation of various ‘tools’ or ‘toolkits’, although reflecting healthy innovation, can
+be a source of confusion to practitioners on the ground. Some general principles and
+questions can enable users to make use of the diversity of tools and avoid pitfalls:
+•
+
+Purpose - be clear about the purpose in using a tool and its relevance to the
+specific context. For example, is it to value a single ecosystem service for a parcel
+of land, or to inform a more strategic approach to assessing natural capital across a
+landscape? A combination of tools may be the most appropriate way forward.
+60 of 94
+
+•
+
+Quality of evidence - is it based on evidence that may be several years out of date?
+Not all evidence is of equal quality, even within the same tool. Who has quality
+assured or approved the tool?
+
+•
+
+Accessibility – are the results easy to interpret? Can they be intuitively
+communicated to decision makers or stakeholders?
+
+•
+
+Limitations - are you clear as to the evidence gaps and the assumptions in the tool?
+Clarity on limitations can enable other approaches to complement the use of a
+specific tool.
+
+•
+
+Transparency - it is important for tools to be seen to be making decisions more
+rather than less transparent. There is a trade-off between ease of use and hidden
+complexity (the ‘black box’) and natural capital necessarily is complex because of
+multiple ecosystem services and data requirements.
+
+•
+
+Evidence of use - consider where the tool has been used before and in what
+context and by whom. Some tools are developed but fail to get embedded.
+
+•
+
+Comparing tools - it may make sense to test more than one tool on one scenario or
+project (such as a target catchment or newly developed neighbourhood) so as to
+allow comparison of what different tools can offer their strengths and weaknesses.
+
+Mapping natural capital
+Geographic Information Systems (GIS) are increasingly important in communicating,
+assessing and informing decisions on natural capital. Much geospatial data is open source
+and available as individual spatial data layers. Read the Ordnance Survey’s guide
+to GIS software on their website.
+Increasingly such data has been used to develop combined thematic base maps and
+mapping tools that users can interact with and model changes including economic
+valuation of certain ecosystem services. Specialist GIS expertise is useful but not always
+necessary. Open source and proprietary mapping packages are available.
+•
+
+Defra group have put in place a searchable Data Services Platform to make
+environmental data openly available to a wide range of users
+
+•
+
+Natural England's Natural Capital Atlas Maps and associated data packages can
+provide users with a starting point for understanding the natural capital in a
+particular region
+
+•
+
+Defra and Natural England have developed an England-wide Green Infrastructure
+mapping tool, bringing together around 50 sources of environmental and socioeconomic data. It provides an England-level baseline and assists local authorities
+
+61 of 94
+
+and other stakeholders to assess green infrastructure provision against the new
+national Green Infrastructure Standards.
+•
+
+Ecosystems Knowledge Network's Tool Assessor includes tools that map
+ecosystem services
+
+•
+
+spatial datasets and tools relevant to particular broad habitats or benefit categories
+are referenced in the ENCA Databooks in the appropriate place
+
+•
+
+The Government’s Natural Capital and Ecosystem Assessment (NCEA) is a new
+science innovation and transformation programme, which spans across land and
+water environments. It has been set up to collect data on the extent, condition and
+change over time of England’s ecosystems and natural capital. For more
+information, see Mapping our natural assets: the Natural Capital and Ecosystem
+Assessment programme.
+
+5.3 Applying natural capital in urban and planning
+contexts – green infrastructure
+In local planning and urban contexts, the understanding of nature as an interconnected set
+of assets that provide a range of benefits is more likely to use the language of ‘green
+infrastructure’. ‘Green infrastructure’ existed as a concept before natural capital and is
+formally defined in the National Planning Policy Framework (December 2024) as:
+‘A network of multi-functional green and blue spaces and other natural features, urban and
+rural, which is capable of delivering a wide range of environmental, economic, health and
+wellbeing benefits for nature, climate, local and wider communities and prosperity.’
+Green infrastructure includes:
+•
+
+parks and gardens - urban parks, country and regional parks, formal gardens
+
+•
+
+amenity greenspace - informal recreation spaces, housing greenspaces, domestic
+gardens, village greens, urban commons, other incidental space, green roofs
+
+•
+
+natural and semi-natural urban greenspaces - woodland and scrub, grassland,
+heath or moor, wetlands, open and running water, wastelands and disturbed ground
+
+•
+
+green and blue corridors - rivers and canals including their banks, road and rail
+corridors, green bridges, field margins, cycling routes, pedestrian paths and rights
+of way
+
+•
+
+street trees, allotments, community gardens, city farms, vegetated sustainable
+drainage systems, green walls and roofs, cemeteries and churchyards
+
+62 of 94
+
+The National Green Infrastructure Framework states that good quality green infrastructure
+“can be seen as a collection of connected natural capital assets managed to provide
+ecosystem services and benefits for people and nature” which “can help grow the natural
+capital of city regions, rural-urban fringe (including Green Belts) and rural areas.”
+The Green Infrastructure Framework provides common principles, standards and metrics,
+including the mapping tool. Local authorities, developers and communities can use these
+to plan, design and maintain green infrastructure in an evidence-based, consistent and
+effective way.
+A local natural capital account can support a strategic approach to green infrastructure by
+identifying, clarifying and measuring the existing state of green and blue infrastructure
+assets and the services that they provide.
+
+Natural capital and net gain
+As noted in section 1.7, biodiversity is a core component of natural capital on which a
+range of services typically depend.
+In a land use development context, the Biodiversity Metric enables measurement of
+biodiversity losses and gains from a development to support demonstration of biodiversity
+net gain.
+Building on this approach, a natural capital net gain approach would measure a wider
+range of ecosystem service benefits in addition to biodiversity net gain.
+In some cases it may be possible to value the increase in ecosystems services from the
+creation or change in habitat as part of securing a biodiversity gain. The method would be:
+•
+
+Estimate the change in habitats associated with the change in biodiversity.
+
+•
+
+Then value the changes in ecosystem services associated with those habitat
+changes.
+
+This might be relevant where an option or objective is a net gain in biodiversity, as
+measured by the biodiversity metric. This approach to valuing biodiversity effects would
+give a lower bound as it would not include “non-use” values associated with biodiversity
+such as species diversity.
+Natural England’s ‘Environmental Benefits from Nature’ tool can be used to make an initial
+non-monetary assessment of gains and losses in ecosystem services along with
+biodiversity net gain. This can form part of a site based environmental net gain
+assessment. The tool does not consider indirect pressures on natural capital, such as
+impacts of emissions of air pollutants from a road scheme. These would be assessed
+separately.
+
+63 of 94
+
+Other net gain assessment metrics being developed include the Nature Assessment Tool
+for Urban and Rural Environments featured on the EKN Tool Assessor.
+
+5.4 How natural capital can support local economic
+development
+Green infrastructure can help a number of local development goals, according to
+the Ministry of Housing, Communities and Local Government, by:
+•
+
+helping to create high quality environments which are attractive to businesses and
+investors
+
+•
+
+enhancing the built environment, reinforcing local landscape character and
+contributing to a sense of place
+
+•
+
+promoting healthy and safe communities
+
+•
+
+providing resilience to extreme climate events and supporting urban cooling,
+sustainable drainage, and natural flood management.
+
+The ENCA Databooks reference a range of evidence showing how investment in the
+quantity and quality of natural capital or green and blue infrastructure can support local
+economic development and productivity:
+•
+
+Publicly accessible green space supports physical and mental health, and social
+capital. Siting green spaces near to workplaces supports the mental and physical
+health of workers
+
+•
+
+Natural flood risk management and drainage systems improve resilience to extreme
+weather events. Trees and blue spaces cool extreme temperatures, allowing
+businesses to reduce productivity losses
+
+•
+
+Carefully sited tree and woodland planting can improve air quality, reduce traffic
+noise and reduce hot temperatures, all with health and productivity benefits
+
+•
+
+Green infrastructure can encourage less-polluting forms of travel. Provision of
+publicly accessible green and blue space supports physical exercise which has a
+range of health benefits
+
+•
+
+Business opportunities arise from outdoor recreation and nature-based tourism - In
+turn, nature-based tourism and outdoor leisure directly depend upon the quality and
+condition of the natural assets that support them and the same is true in a less
+direct sense of regional and local branding
+
+64 of 94
+
+•
+
+Enhancement of green infrastructure, including provision of green space and nature
+-based enhancement of grey infrastructure, can give places the opportunity to grow
+and support economies of agglomeration
+
+The Environment Agency has developed the 6 stage approach (check section 5.1) into
+a Natural Capital Guide for the Development Sector, which is aimed at local organisations
+with an interest in natural capital and economic development, such as local authorities,
+combined authorities, Local Enterprise Partnerships and Local Nature Partnerships.
+
+5.5 Generate new income streams using the natural
+capital approach
+Services provided by natural capital provide benefits for individuals or to economic
+production. Some of these services have the potential to generate cost savings or
+commercial benefits which can, in principle, generate financial returns.
+For example:
+•
+
+water utilities benefit from good farming practices upstream to maintain raw water
+quality, or sustainable drainage schemes that reduce pressure on drainage capacity
+
+•
+
+future carbon savings from woodland creation or peatland restoration can be
+measured and credited to investors
+
+•
+
+the amenity benefits of urban green space are partially captured within local
+residential property prices
+
+•
+
+local tourism businesses benefiting from well-maintained green and blue
+infrastructure
+
+New approaches have been developed to value natural capital benefits, and encourage
+funding for the protection and enhancement of the underlying natural capital assets. These
+approaches include payments for ecosystem services, market-based approaches and
+investment models, such as:
+•
+
+direct payments based on the value of ecosystem service outcomes produced from
+natural interventions
+
+•
+
+supplying demand from compliance markets for mitigation and voluntary offsetting
+mechanisms focused on particular habitats or species, such as requirements for
+biodiversity net gain and nutrient neutrality
+
+•
+
+investments in sustainable enterprise models that directly benefit natural capital and
+biodiversity (even if they are not a core objective of the business)
+
+65 of 94
+
+Intermediaries (organisations who act as brokers to coordinate buyers and sellers) and
+knowledge providers are also important actors in the functioning of such schemes. In
+practice, a range of technical, financial, cultural and institutional challenges may need to
+be overcome to establish effective payment or investment schemes.
+Investment into delivering net zero, climate resilience and nature positive outcomes (i.e.
+‘green finance’) is of increasing interest to the finance sector, with various taxonomies and
+frameworks being developed. Understanding nature better provides an opportunity for
+investment and as a way to manage current and future investment risks. For an
+introduction, read Demystifying Green Finance on the Valuing Nature Network website.
+The UK government has committed to mobilising private investment and finance to restore
+and protect nature. To support this, a nature markets framework sets out core principles
+for the design, development and operation of such markets.
+The Financing Nature Recovery coalition has developed roadmap for unlocking private
+finance investment in nature recovery across the UK.
+The main resources include:
+•
+
+A Community of Practice to share the learning from projects funded by Defra and
+Environment Agency’s Natural Environment Investment Readiness Fund (NEIRF)
+
+•
+
+Ecosystems Knowledge Network Nature Finance Learning Hub
+
+•
+
+Green Finance Institute, Investment Readiness Toolkit based on learnings from
+nature-based projects across the UK
+
+•
+
+Green Finance Institute, Case studies for nature-based deals and funds in which
+private capital has played a role, Revenues for Nature toolkits and resources and
+case studies from the NEIRF
+
+•
+
+Payments for Ecosystem Services best practice guide which provides a practical 5step guidance for those wanting to design and develop payments for ecosystem
+service schemes.
+
+•
+
+Taskforce on Nature-related Financial Disclosures (TNFD) Recommendations
+
+•
+
+BSI Flex Overarching Principles and Framework, a standard which outlines
+requirements for the design and operation of high-integrity nature schemes.
+
+Read ENCA Case Studies and ENCA Assets Databook for further real world examples,
+initiatives and market-related tools.
+
+66 of 94
+
+5.6 Lessons learnt from local application of natural
+capital
+Application of natural capital approaches at a local level is developing.
+Research for the Oxford-Cambridge Arc shows growing interest in the potential for a
+natural capital approach to inform planning policy and the growth agenda at regional,
+county, neighbourhood and site scales. The natural capital approach supports more
+informed decision-making around site selection, site designations, and the development of
+new natural capital / environmental planning policies.
+The ENCA Case Studies include many other applications of natural capital and ecosystem
+service thinking in various spatial contexts.
+Generally, research for Defra of the benefits and challenges of applying a natural capital
+approach at local level draws the following conclusions:
+•
+
+There are many possible ways in which a natural capital approach can be applied,
+reflecting the array of decisions that determine the condition of the environment in
+any one place and the benefits gained from it. They can take many forms, ranging
+from very detailed analyses to much broader and more general cases for acting
+
+•
+
+Natural capital approaches are aiding progression towards integrated decision
+making, for example by generating baseline evidence and revealing values not
+previously considered in decision making
+
+•
+
+The expression of economic values for natural assets can create a common
+language for talking about value across sectors
+
+•
+
+Integrated decision making is not an inevitable outcome of adopting a natural
+capital approach. A number of cultural, institutional and technical challenges remain
+
+To help support effective natural capital approaches, practitioners can:
+•
+
+promote a flexible and pragmatic application of the approach
+
+•
+
+explore the fit of natural capital with other forms of 'capital'
+
+•
+
+identify 'entry points' for applying a natural capital approach and engaging sectors
+such as health and economic development
+
+•
+
+make the business case more explicit by building the evidence base on 'how' and
+'why' to use a natural capital approach
+
+For further information, the Ecosystem Knowledge Network originally established by the
+UK Government, is a leading UK forum for sharing practical learning and resources on
+place-based natural capital approaches. It brings over 3000 people from across sectors
+67 of 94
+
+including the built environment, local government, financial services, nature conservation,
+health and economics.
+
+68 of 94
+
+6. Finding data and evidence for natural
+capital approaches
+The evidence base on natural capital is vast, complex and rapidly expanding. This can
+make it difficult for analysts to determine what might be suitable for use in value transfer
+and natural capital applications.
+ENCA has been developed to address this challenge in a pragmatic way. It recognises
+that much of the existing evidence base does not neatly fit into the natural capital
+framework and cuts across categories.
+In identifying relevant Databook content for a range of users, Defra’s Environment Science
+and Analysis Division has drawn on its knowledge of the evidence base and the expertise
+of the Defra network.
+The 2 Databooks provide a lot of selected references, metrics, guidance and physical and
+valuation metrics across a wide range of environmental effects and asset
+categories. ENCA only covers valuation evidence from within the UK. International
+economic valuation evidence has been recently updated and collated in the UK funded
+Ecosystem Services Valuation Database.
+
+6.1 ENCA Services Databook
+This Databook enables you quickly to investigate key sources for specific environmental
+impacts, with indicative values where appropriate, alongside selected biophysical metrics
+and sources. It does not provide ‘total’ or ‘standard’ values for particular types of land
+cover (for example, woodland, wetland) because these will vary according to the
+characteristics, condition and extent of the asset or effect in question, its location and
+availability of substitutes.
+The Databook collates the most nationally relevant and up to date sources, studies and
+key estimates for 25 categories of environmental service or effect as set out in Annex 2. It
+also provides a conceptual overview of each effect and relevant analytical guidance.
+The Databook is not exhaustive. You may have available more specific or relevant
+evidence for your needs. For example, numerous small-scale valuation studies have been
+undertaken over the years in different locations and spatial contexts. These may still be
+relevant for use in similar localised contexts, subject to application of value transfer
+principles.
+The detailed notes within each tab can help you use valuation evidence appropriately. But
+you should also view the original sources to check that you are applying the original
+
+69 of 94
+
+estimates in an appropriate manner. You should cite the original source or study in your
+work alongside any reference to the ENCA Databook.
+
+6.2 ENCA Assets Databook
+This assets databook collates and summarises selected studies relevant for specific broad
+habitats. Rather than directly report specific numbers, it provides annotated references to:
+•
+•
+•
+•
+•
+
+relevant UK Natural Capital Accounts for each broad habitat
+relevant 25 year Environment Plan Outcome Indicators, based on the natural
+capital framework
+selected biophysical data, evidence and tools by habitat
+selected valuation tools and evidence by habitat
+market-related tools
+
+This Databook complements the ENCA Services Databook. Some evidence references
+are common to both Databooks, but many references are unique to each. To make
+effective use of the evidence, you should be aware of the principles of valuation and
+natural capital set out in section 2 of this guidance.
+You should cite the original source or study in your work alongside any reference to
+the ENCA Assets Databook.
+
+70 of 94
+
+7. Annex 1: navigating ENCA by theme
+Tables 10, 11 and 12 identify the potential relevance of natural capital to a range of topical
+and policy themes and relevant resources within ENCA.
+Neither the themes nor the suggested pointers are exhaustive but they are included as
+starting points for further exploration around how natural capital approaches can be
+applied in different contexts.
+Table 10: relevant ENCA resources for various topical and policy themes
+Theme
+
+How natural
+capital can
+contribute
+
+Physical health
+
+Mental health
+
+Local economic
+development
+
+Housing and
+place-making
+
+Nature-based
+recreation
+
+Nature-based
+recreation for
+different ages
+
+Provisioning
+services
+
+Sense of place
+and new
+recreational
+opportunities
+
+Settings for
+physical
+exercise,
+walking, cycling
+
+Nature
+volunteering
+
+Nature-based
+tourism and
+leisure
+
+Green
+prescriptions
+
+Workplace nature
+amenity
+
+Green
+prescriptions
+
+Nature views
+from schools,
+hospitals
+
+Temperature and
+pollution
+regulation
+
+Nature amenity
+around hospitals
+
+Traffic noise
+mitigation
+
+Recreation
+Physical health
+Recreation
+Amenity
+Air pollution
+removal
+
+Recreation
+Noise mitigation
+Amenity
+Volunteering
+Mental health
+
+Provisioning tabs
+Recreation
+Landscape
+Amenity
+Temperature
+regulation
+Water quality
+Soil
+
+Amenity
+Landscape
+Recreation
+
+Various
+
+Urban
+Woodland
+
+Farmland
+Woodland
+Marine
+Mountain, Moor
+and Heathland
+(MMH)
+
+Urban
+
+Removing air
+pollution
+
+Relevant Tabs
+in Services
+Databook
+
+Relevant Tabs
+in Assets
+Databook
+
+Mitigate pollution
+pressures from
+new development
+Compensate for
+biodiversity loss
+
+71 of 94
+
+Freshwater
+Urban
+Selected Case
+Studies (ID)
+
+Featured Tools
+
+AN5
+CR3
+CR4
+
+CR3
+CR4
+CR6
+
+ORVal
+
+AR1
+AR9
+FR1
+FR2
+
+AL5, AL7
+AR8VN7
+
+LEED
+
+Biodiversity Metric
+Environmental
+Benefits for Nature
+ORVal
+
+Table 11: relevant ENCA resources for various topical and policy themes
+Theme
+
+Net zero
+emissions
+
+Climate
+resilience
+
+Transport
+
+Education
+
+How natural capital
+can contribute
+
+Woodland
+creation
+
+Natural flood
+management
+
+Settings for cycling
+and walking
+
+Settings for
+outdoor learning
+
+Peatland
+restoration
+
+Sustainable
+urban drainage
+
+Improve access to
+green space
+
+Saltmarsh
+creation
+
+Temperature
+regulation
+
+Soil
+management
+
+Habitat
+restoration
+
+Supporting network
+resilience for
+example, flood risk
+
+Support for
+ecological
+qualifications
+Check also
+Cultural Heritage
+
+Mitigating pollution,
+noise
+Ecological corridors
+
+Relevant Tabs
+in Services
+Databook
+
+Carbon
+reduction
+Soil
+
+Flood regulation
+Temperature
+regulation
+Biodiversity
+
+Air pollutant removal
+Noise mitigation
+
+Education
+Volunteering
+
+72 of 94
+
+Relevant Tabs
+in Assets Databook
+
+Woodland
+MMH
+Coastal
+margins
+Farmland
+
+Freshwater
+Coastal
+Urban
+
+Various
+
+Various
+
+Selected Case
+Studies (ID)
+
+VN1
+FN2
+FN1
+
+FR4
+CR4
+AL2
+
+AL4
+AN5
+
+CL4
+
+Featured Tools
+
+NEVO
+MESER
+
+MESER
+
+ORVal
+
+Table 12: relevant ENCA resources for various topical and policy themes
+Theme
+
+Levelling up
+
+Social cohesion
+and loneliness
+
+Cultural
+heritage
+
+Agriculture
+
+How natural
+capital can
+contribute
+
+Addressing regional
+deficits in
+accessible natural
+greenspace
+
+Quality settings for
+recreation and
+community events
+
+Historic
+landscapes
+
+Resilience
+
+Welcoming outdoor
+environments
+
+Settings for
+ancient
+monuments
+
+Nature-based
+volunteering
+
+Diversification
+Environmental
+land
+management
+
+Relevant Tabs
+in Services
+Databook
+
+Recreation
+Amenity
+
+Recreation
+Volunteering
+
+Recreation
+Amenity
+Landscape
+Non-use
+values
+
+Food
+Soil
+Water quality
+Regulating
+services
+Cultural services
+
+Relevant Tabs
+in Assets
+Databook
+
+Urban
+
+Various
+
+Various
+
+Farmland
+
+Selected Case
+Studies (ID)
+
+FR1
+VR3
+AR9
+
+CL4
+CN4
+
+Featured Tools
+
+Natural Capital
+Atlas Maps
+
+ORVal
+
+VN6
+FR4, FR5
+FR6
+ORVal
+MESER
+
+NEVO
+MESER
+
+73 of 94
+
+8. Annex 2: environmental effect categories
+This annex describes the various types of environmental effects and benefits that are
+covered in the ENCA Services Databook.
+
+8.1 Natural capital in market outputs (provisioning and
+abiotic services)
+Natural capital provides a range of tangible goods and flows that provide economic inputs.
+These are known as provisioning services and abiotic flows, as detailed in the table.
+They are often included in trade-offs with other ecosystem services, for example, a
+reduction in food production may be associated with an increase in water quality.
+Table 13: key provisioning services and abiotic flows
+Service provided
+by natural
+capital
+
+Description
+
+Final benefits of in
+improvement in the
+good
+
+Food
+
+Food in its various forms is produced by a range
+of ecosystems.
+
+Food for human
+consumption
+
+Food can be directly consumed (wild fruit, angling)
+or be realised through processing of a provisioning
+service from raw material (crops) to final good
+(bread).
+The boundary between what is provided by natural
+capital and the contribution of other forms of
+capital is often a grey area.
+For example, crops require agricultural
+management and livestock depends upon
+grassland ecosystems.
+Timber
+
+Historically, raw timber has been the dominant use
+of UK woodlands and remains an important
+provisioning service supplying the UK forestry
+sector.
+
+Harvested timber for
+further processing
+
+Raw timber has a range of final uses including
+furniture, building materials, fuel and paper.
+
+74 of 94
+
+Fish
+
+The marine environment is a major source of food
+for human consumption.
+
+Seafood for human
+consumption
+
+Most fish is captured from the sea, with small
+amounts from freshwater and increasingly from
+aquaculture.
+Water supply
+
+Water is a vital resource that needs to be
+managed carefully to ensure that people have
+access to affordable and safe drinking water and
+sanitation.
+
+Industrial, agricultural
+and public water supply
+uses
+
+To ensure that the needs of industry are met,
+without depleting water resources or damaging
+ecosystems.
+Minerals
+
+Minerals are naturally occurring substances
+formed by geological processes.
+Other sub-soil assets include rocks, aggregates
+and fossil fuels (oil and gas).
+
+Peat
+
+Extraction of peat occurs in Northern Ireland,
+Scotland and England, mainly for horticultural use.
+
+Minerals for various
+industrial uses and
+energy services
+
+Various horticultural and
+industrial uses
+
+Extracted peat results in loss of the peat resource
+and carbon emissions.
+Extracted peat will eventually be oxidised to CO2,
+creating an additional emission source.
+Renewable
+energy
+
+Natural capital is critical for the siting and
+production of various forms of renewable energy:
+
+Energy services
+
+onshore and offshore wind power
+hydro power
+bio-energy
+These renewable sources (other than biomass)
+are not strictly produced by the functioning of
+ecosystems but rather by climate and geography.
+
+75 of 94
+
+8.2 Natural capital can reduce harmful externalities
+(regulating services)
+Regulating services are ecological processes that regulate and reduce pollution and other
+adverse effects. Their value is dependent not only on the extent and condition of the
+ecosystem, but also on the extent of harmful effects that they help to lessen and on the
+location of beneficiaries. They are often valued by reference to avoided damages or the
+costs of alternative approaches to reducing the harm.
+Table 14: key regulating services
+Service
+provided by
+natural capital
+
+Description
+
+Final benefits of an
+improvement in the good
+
+Air pollutant
+removal
+
+Air pollution presents a major risk to
+human health, resulting in premature
+deaths and reduced quality of life.
+
+The benefit is reduced health
+costs from lower levels of
+pollution exposure than would
+otherwise be the case.
+
+By improving air quality, vegetation helps
+to lessen these impacts on health and
+wellbeing. The level of the service is
+positively related to:
+(a) the amount of background pollution
+(b) the amount of vegetation
+(c) the density of population affected.
+Woodland is the major service provider.
+
+76 of 94
+
+Carbon
+sequestration
+and storage
+
+A natural function of ecosystems is to
+sequester carbon dioxide from the
+atmosphere and store it. This varies
+between broad habitats.
+Any change in land use, restoration or
+enhancement of ecosystems has a
+measurable effect on the quantity
+of GHG emissions.
+
+Contribution to meeting
+national GHG targets to avert
+damaging climate change.
+The final benefits of mitigating
+climate change (involving
+extreme weather events) are far
+broader and longer term, both
+home and abroad.
+
+Tree planting will lead to increased
+sequestration, reducing GHGs emissions
+in the atmosphere.
+Degraded habitats such as upland peat
+emit carbon dioxide and their restoration
+will reduce the level of emissions.
+Water flow
+regulation
+
+Relative to bare soil or managed
+grassland, woodland reduces flooding
+risk to downstream populations by
+reducing rainfall flows entering rivers.
+This ecosystem service also applies in
+urban areas, where vegetation can
+reduce surface water flooding from heavy
+rainfall, with benefits to sewer capacity.
+
+Reduced flood damage to
+downstream or coastal
+settlements as a result of
+reduced magnitude, frequency of
+flood ,storm events and/or lower
+sewer capacity or water storage
+costs.
+
+Coastal flood risk is reduced by habitats
+such as saltmarsh. Flood damage itself is
+covered as a separate category below.
+
+77 of 94
+
+Noise
+mitigation
+
+Noise pollution is associated with adverse
+health outcomes through lack of sleep
+and disturbance.
+
+Reduced noise disturbance
+giving wellbeing and productivity
+benefits.
+
+According to the World Health
+Organisation it is the second largest
+environmental health risk in Western
+Europe.
+Vegetation can protect against noise
+pollution, by acting as a physical buffer
+between the source of the noise and
+those living nearby.
+Noise regulation by vegetation is highly
+spatially specific and is dependent upon
+sufficient height, depth, permeability and
+of vegetation to absorb noise.
+Local climate
+regulation
+
+Urban economic activity can be impacted
+by hot summer temperatures. Woodland,
+grassland, gardens and open waters
+reduce air temperature and so reduce
+these heat related costs.
+
+A more equable climate,
+reducing labour productivity
+losses and air conditioning costs.
+
+Consequently, the creation or loss of
+urban vegetation will affect this service.
+More frequent summer heatwaves in
+future would increase the significance of
+this service.
+Water
+purification
+
+Ecosystem contribution to water quality
+through the breakdown or removal of
+nutrients and other pollutants entering
+into water bodies. Water which is polluted
+by heavy metals, excess nutrients or
+pesticides is filtered as it moves through
+wetlands, rivers and streams, floodplains
+and riparian zones, and estuaries and
+coastal marshes.
+
+Reduced water treatment costs
+and / or better health outcomes.
+
+78 of 94
+
+Waste
+remediation
+
+Ecosystems can provide a sink capacity
+for various forms of organic or inorganic
+waste and lessen their harmful impact.
+
+Avoided treatment costs
+
+For example, bioremediation of industrial
+wastes by disposal on agricultural land.
+
+8.3 Natural capital supports cultural, health and
+recreation benefits (cultural services)
+Cultural services are provided by the various environmental settings that enable various
+forms of cultural interaction and activity.
+They include the active or passive use of natural assets for a range of human pursuits
+including recreation, exercise, education, science, volunteering, cultural and religious
+activities. Some of these motivations can be difficult to disentangle. In many cases cultural
+services will also depend upon human and man-made capital, including historical and
+heritage assets. Check the Culture and Heritage Capital framework and evidence base
+being developed by the Department for Culture, Media & Sport.
+The UK National Ecosystem Assessment Follow-On Phase emphasises that cultural
+services involve cultural values as well as environmental spaces and give rise to a range
+of wellbeing benefits based on identities (like rootedness), experiences (like tranquillity)
+and capabilities (like health).
+
+79 of 94
+
+Table 15: key cultural services
+Service provided
+by natural capital
+
+Description
+
+Final benefits of an
+improvement in the good
+
+Environmental
+settings for
+recreation and
+tourism
+
+The recreational value of natural spaces
+reflects both the natural setting and the
+facilities on offer at the site and often has
+a strong non-market element.
+
+Use values to individuals
+visiting outdoor recreational
+sites and these can also
+include physical and mental
+health benefits.
+
+It varies with the type of habitat, location,
+population density and the availability of
+substitute recreational opportunities.
+Recreational values can be affected
+directly by enhancements in green
+spaces, or adversely if they are affected
+by new developments or infrastructure.
+Related to recreational values are the
+benefits to tourism where recreational
+activity involves longer stays and
+economic production focused on outdoor
+leisure.
+Settings for
+physical activity
+
+Supporting mental
+health
+
+Inadequate physical activity is associated
+with higher risk of obesity, coronary heart
+disease, diabetes, stroke, some cancers
+and mental ill health - all of which impose
+a large cost burden on society.
+
+health sector cost savings
+reduced morbidity
+
+Natural environments offer settings and
+opportunities for informal physical activity
+which enable many individuals to achieve
+recommended guidelines for weekly
+physical activity and so can be valued.
+
+increased economic output
+
+Personal interaction with and exposure to
+green space.
+
+health sector cost savings
+reduced morbidity
+increased economic output
+
+Enabling
+educational
+interactions
+
+Engaging with nature can lead to
+increased environmental knowledge and
+general learning experiences, supporting
+learning and attainment.
+
+The various educational
+benefits associated with
+outdoor learning and additional
+
+80 of 94
+
+earning power arising from
+ecological knowledge
+
+The service can operate in different
+contexts.
+For example, from pre-school and primary
+school children and special needs groups
+through to secondary school pupils,
+undergraduates and research students.
+Volunteering
+
+An important aspect of volunteering is the
+benefits to society of volunteering
+opportunities (for example, exercise,
+social contacts, training, preparing people
+for employment).
+
+Labour resource savings
+would be a lower bound of
+various use and non-use
+values.
+
+These benefits are particularly relevant
+because of environmental interventions.
+Particularly by the third sector, but also by
+others, may involve or even rely on input
+by volunteers.
+
+8.4 Bundled benefits of the natural environment
+Often in practice, the natural environment produces a bundle of services jointly and it may
+not be obvious to identify or quantify precisely which ecosystem services are involved.
+Non-use as well as use values may be included.
+These aggregated or bundled benefits tend to be cross-cutting or relate to policy areas or
+specific assets such as soil.
+Double counting can be an issue if these are added alongside specific individual services.
+Table 16: bundled and cross-cutting environmental effects
+Category
+
+Description
+
+Final benefits of an
+improvement in good
+
+Biodiversity
+
+Nature's diversity, commonly referred
+to as 'biodiversity', is the variety of life
+on Earth. It includes all species
+(animals, plants, fungi) and the
+natural systems and habitats that
+support them.
+
+Biodiversity underpins to varying
+degrees all ecosystem services.
+Species (micro-organisms, fungi,
+plants ) underpin all services that
+provide inputs to production (such
+as food, timber) and services that
+regulate the environment (such as
+
+81 of 94
+
+maintaining water quality).
+They also directly contribute to
+people's interactions with the
+environment (for example, nature
+watching) and can improve the
+level and stability of ecosystem
+services.
+Local
+environmental
+amenity
+
+‘Amenity’ loosely refers to a bundle of
+cultural services that arise from being
+close to natural assets, including
+aesthetic and visual benefits,
+tranquillity and recreational
+opportunities.
+
+Aesthetic and visual benefits, the
+option value of local recreation,
+perceived mental or physical
+health benefits from better quality
+natural assets.
+
+Conversely, activities such as waste
+disposal and quarrying impose local
+social costs such as noise,
+congestion, dust, odours and visual
+intrusion.
+Water quality
+
+Poor water quality is both a result of a
+variety of drivers (from agriculture,
+housing, industry, transport) and a
+cause of multiple costs in welfare
+terms.
+
+Recreational benefits for anglers,
+rowers, other users of riparian
+habitat (walkers, bird watchers),
+more general local amenity
+benefits. As well as lower costs of
+water treatment.
+
+Landscape
+
+Landscape provides the setting for
+people's day-to-day lives. It does not
+only refer to special or designated
+landscapes or the countryside.
+
+The generic category of
+‘landscape’ is closely associated
+with the more specific cultural
+service categories of
+‘environmental settings’.
+Here the focus is more on wider
+landscapes that give rise to a
+range of cultural and aesthetic
+benefits.
+It can also include aesthetic
+experience, visual amenity as well
+as cultural heritage.
+
+82 of 94
+
+Soil health
+
+Healthy soils perform multiple
+functions, including storage of carbon,
+infiltration and transport of water,
+nutrient cycling and provision of food.
+
+Reduced GHG emissions, reduced
+water treatment costs, reduced
+flood risk, crop yield gains.
+
+These are threatened by soil erosion,
+loss of soil carbon and soil
+compaction.
+Non-use values
+
+The value of the benefit of knowing
+that an aspect of the environment
+exists and is being maintained.
+These are particularly relevant to
+aspects of the environment that
+people express strong preferences for
+(such as charismatic species, special
+habitats, landscapes and heritage).
+
+All benefits relate to individuals,
+include:
+(i) Existence value: the satisfaction
+of knowing that an ecosystem
+continues to exist
+
+(ii) Bequest value: the benefit of
+knowing that an ecosystem will be
+passed onto future generations so
+Species, ecosystems, landscapes and that they will have the opportunity
+environmental settings can all provide to enjoy it
+non-use as well as use values.
+(iii) Altruistic value: the satisfaction
+gained from ensuring that an
+aspect of the environment is
+available to others in the current
+generation
+
+8.5 Negative environmental effects
+These are the traditional environmental ‘externalities’ which are caused by man-made
+sources or pressures. Some may be specific flows, others are bundled. Reversing a
+negative environmental impact represents an environmental benefit.
+These are different from the more general concept of ‘environmental pressures’ within the
+natural capital framework (climate change, resource use, chemicals and biosecurity),
+which directly affects the extent and condition of natural assets. The effects here directly
+impact on people's welfare.
+
+83 of 94
+
+Table 17: key negative environmental externalities
+Environmental
+effects
+
+Description
+
+Benefits of reducing the
+externality
+
+Air pollution
+
+Atmospheric pollution can have significant
+effects on health, quality of life, economic activity
+and the functioning of ecosystems.
+
+Improvements to physical
+health and mortality
+
+Noise
+
+Noise is any unwanted sound. It can arise from
+construction and industry and road, rail and air
+transport.
+
+Improvements to physical
+health and wellbeing and
+productivity
+
+Flooding
+
+ The most common forms of flood are:
+
+Reduced or avoided
+damages to property,
+human health and
+agricultural production
+
+- river flooding after heavy rainfall in
+waterlogged catchments
+- coastal flooding from tidal surges
+- surface water flooding when sewers are
+overwhelmed by heavy rainfall or become
+blocked
+Waste and
+disamenity
+
+Activities such as waste disposal and quarrying
+impose local social costs such as:
+noise
+congestion
+dust
+odours
+visual intrusion
+
+Aesthetic and health
+benefits
+
+Review also ‘local environmental amenity’
+above.
+Non-native
+invasive species
+
+Non-native invasive species have significant
+impacts on the health of ecosystems.
+As well as economic damage, for instance
+damage to buildings and crops.
+
+Reductions in financial
+damage and control costs
+
+84 of 94
+
+9. Annex 3: economic valuation methods
+Conceptually, the economic value of a positive change in the natural environment is
+typically measured by what individuals are willing to pay to secure this benefit.
+By contrast, the economic value of a negative change is measured by what individuals are
+willing to pay to avoid such a cost. The appropriate methods to elicit estimates of value will
+typically vary across the different categories of economic value.
+Valuation methods can be divided between ‘revealed preference’ ‘stated preference’ and
+cost-based approaches. Non-use values will typically require stated preference methods,
+whereas use values will typically be based on market or revealed preference methods.
+
+9.1 Revealed preference and market-based methods
+These rely on data regarding individuals' preferences for a marketable good which
+includes environmental attributes.
+
+Market prices
+These can be used to capture the value of goods and services that are traded, such as the
+market value of forest products. Even where market prices are available, they may need to
+be adjusted to take account of distortions such as subsidies.
+In natural capital accounting, market prices can inform the calculation of resource rent.
+Which is the proportion of market output value attributable to the natural asset (for
+example, the value of the soil as a proportion of crop output). It can also be used as a
+proxy for the value of a specific service (for example, arable farmland rentals to value a
+crop provisioning service).
+
+Production function
+This approach focuses on the relationship between a particular ecosystem service and the
+production of a market good.
+Environmental goods and services are considered as inputs to the production process.
+Their value is inferred by considering the changes in production process of market goods
+that result from an environmental change. This approach is capable of capturing indirect
+use value, for example, the contribution of pollinators to fruit tree production.
+
+85 of 94
+
+Averting behaviour
+This approach focuses on the price paid by individuals to avoid environmental costs. For
+example, the cost of water filtration may be used as a proxy for the value of water pollution
+damages. Another example could be the costs of buying pollution masks to protect against
+urban air pollution (although this will only represent part of the damage value). It is closely
+linked to replacement costs.
+
+Hedonic pricing
+This assumes that environmental characteristics (such as a pleasant view or the
+disamenity of a nearby landfill site) are, through the conscious and unconscious choices of
+many buyers over time, reflected in property prices.
+The value of the environmental component can be revealed by modelling the impact of all
+possible influencing factors on the price of the property, including environmental factors.
+Hedonic pricing can measure direct and indirect use value.
+
+Travel cost method
+A survey based technique that uses the costs incurred by individuals taking a trip to a
+recreation site (travel costs, entry fees, opportunity cost of time) as a proxy for the
+recreational value of that site. It captures use value such as visitors to the site may hold
+non-use values, but these cannot be assessed using this valuation method.
+Random utility models (for example, check ORVal) are an extension of the travel cost
+method and are used to test the effect of changing the quality or quantity of an
+environmental characteristic at a particular site.
+
+9.2 Stated preference methods
+These use carefully structured questionnaires to elicit individuals' preferences for a given
+change in an environmental resource or attribute. Although they are not based on actual
+economic choices and so are subject to various biases, stated preference methods have 2
+advantages:
+•
+
+they can be applied in a wide range of contexts
+
+•
+
+they are the only methods that can estimate non-use values which can be a
+significant component of overall total economic value for some natural assets
+
+Contingent valuation
+This a survey-style approach that constructs a hypothetical market using a questionnaire.
+86 of 94
+
+Respondents answer questions regarding what they are willing to pay for a particular
+environmental change.
+
+Choice modelling
+This a survey style approach that focuses on the individual attributes of the ecosystem in
+question. For example, a lake may be described in terms of water quality, number of
+species, alongside some type of fee.
+Participants are presented with different combinations of attributes and costs and asked to
+choose their preferred combination or rank the alternative combinations. Each combination
+of attributes has a price associated with it so respondents reveal their willingness to pay
+for each attribute.
+
+9.3 Subjective wellbeing approaches
+These approaches use carefully designed studies to elicit a robust estimate of the
+subjective wellbeing impact of a change. Such estimates can be converted to a monetary
+valuation, review Wellbeing guidance for appraisal in the supplementary Green Book
+guidance (2021). This includes an overview of the main findings from the current wellbeing
+literature
+
+9.4 Cost based approaches
+These approaches consider the costs in relation to provision of environmental goods and
+services and only provide 'proxy' values.
+
+Damage costs method
+Estimates the value of an ecosystem service according to the damages that would be
+inflicted in the absence of that service. This is relevant for regulating services such as air
+filtration, flood regulation and noise mitigation. It would provide an upper bound of
+willingness to pay.
+Damage costs may be based on objective assessments, such as property damages, or
+subjective stated preference methods related to avoiding noise or illness.
+
+Replacement cost method
+Considers the cost of providing a substitute good or engineering solution that performs a
+similar function to the environmental good. For example, wetlands that provide flood
+protection may be valued on the basis of the cost of building man-made defences of equal
+
+87 of 94
+
+effectiveness. Since wetlands provide a range of ecosystem services, this costing would
+be a minimum estimate of the value of a wetland.
+For replacement costs not to overstate the true economic value the following 3 conditions
+must hold, the:
+•
+
+estimate of the costs reflects the qualities of the ecosystem service being lost
+
+•
+
+replacement is the least-cost alternative
+
+•
+
+replacement would actually be fully demanded in the absence of the asset
+
+Opportunity cost method
+Considers the value forgone to protect, enhance or create a particular environmental
+asset. For example, the opportunity cost of agricultural production is lost, if land is retained
+as forest.
+
+Restoration cost method
+Looks at the cost of restoring a damaged asset to its original state and uses this cost as a
+measure of the benefit of restoration. The approach may be favoured where cost
+estimates of such costs are more readily available, but it cannot of itself value the benefits
+because of the circular logic involved.
+
+Target-based method
+Where a societally agreed target has been set for reduction of an externality, the shadow
+price would be the marginal abatement cost of the last unit required to meet the target.
+This is the basis for the valuation of non-traded carbon prices in the UK. In theory the
+same approach could also be applied to valuation of changes in biodiversity based on the
+intersection of national biodiversity targets and an ascending cost curve associated with
+nature restoration across various habitats. However, unlike carbon, biodiversity is not
+homogenous. This is an area for further research.
+
+88 of 94
+
+10. Annex 4: glossary
+Abiotic - not derived from living organisms. Associated with physical as opposed to
+biological
+Appraisal - the process of defining objectives, examining options and weighing up the
+relevant costs, benefits, risks and uncertainties before a decision is made
+Asset - a resource that provides a flow of benefits over a period of time
+Asymmetric information - imperfect or asymmetric information arises where one party
+has more information than another leading to economically inefficient outcomes
+BCR (Benefit to Cost Ratio) - the ratio of benefits to costs of an intervention or decision
+arrived at using an appraisal
+Benefits - positive impacts on wellbeing
+Biodiversity - variability among living organisms from all ecosystems of which they are
+part, covering richness, rarity and uniqueness
+Biophysical environment - the biotic and abiotic surroundings of a population
+Biotic - derived from living organisms
+Broad habitat - high level classification of ecosystems that characterise and make up the
+UK's natural environment. 8 broad habitats are defined.
+Carbon sequestration - the uptake and storage of carbon, for instance by absorption of
+carbon dioxide by trees and plants which then release the oxygen
+Choice-modelling - a technique that models the decision process of an individual in a
+given context (through revealed preferences or stated preferences)
+Consumer surplus - the benefits enjoyed by consumers when the price they pay for a
+good or service is lower than the maximum they would be willing to pay
+Contingent valuation - stated preference based economic valuation technique based on
+a survey of how much respondents would be willing to pay to obtain a good or service or
+how much they would be willing to accept
+Cost to Benefit Analysis - quantification in monetary terms of all possible costs and
+benefits of a proposal, including those that do not have substantive market values
+attached to them
+Cultural services - the non-material benefits people obtain from ecosystems for instance
+through spiritual enrichment, cognitive development, recreation and aesthetics
+89 of 94
+
+Direct use value - benefits derived from services provided by an ecosystem that are used
+directly by individuals for example, recreational value derived from actually visiting a park
+Disamenity value - welfare losses as a result of nuisance for instance noise, odour, litter,
+visual intrusion
+Discounting - a method for translating future costs or benefits into present values using a
+discount rate
+Displacement - the extent to which an increase in economic activity spurred by an
+intervention is offset by a reduction in economic activity elsewhere
+Disservices - undesired negative effects on human wellbeing from the functioning of
+ecosystems (for example, reduced agricultural productivity due to pest species)
+Double counting - an error that occurs when costs and benefits are counted twice in an
+economic analysis. This occurs often when the value of variables feeds into one another in
+stages to result in a final benefit or cost
+Ecological or environmental threshold - the point at which pressures on the condition of
+an ecosystem result in a non-linear or abrupt transition to a new state
+Economic efficiency - allocation of resources in the most productive manner such that it
+is not possible to make someone better off without making someone else worse off
+Economic growth - an increase in the output and income of an economy, measured as
+gross domestic product (GDP), over a period of time
+Economic impact - the impact of a proposed intervention (new, not displaced) on the
+economy (usually measured through a change in GVA or employment)
+Economic valuation - assignment of monetary values to a particular good or service in a
+certain context (such as decision making)
+Ecosystem - a dynamic complex of living things (animals, plants and micro-organisms)
+and their physical environment interacting as a functional unit
+Ecosystem services - functions of the natural environment, that directly or indirectly
+provide benefits for people
+Evaluation - a systematic assessment of policy or intervention covering its design or
+outcomes
+Exchange value - the value of real or hypothetical transactions of a good or service
+between buyers and sellers in an actual or hypothetical market
+
+90 of 94
+
+Existence value - the value that individuals place on the knowledge that a resource
+continues to exist, whether or not they use that resource themselves
+Externalities - the positive or negative consequences of an activity for those not involved
+in carrying out that activity
+GDP (Gross Domestic Product) - the value of output or national income of a country over
+a 12 month period
+GDP deflator - an index of the general price level in the economy, measured by the ratio
+of Gross Domestic Product (GDP) in nominal terms to GDP at constant prices
+GVA (Gross Value Added) - the sum of values added by all industries in a country,
+including subsidies but excluding taxes, over a 12 month period
+Green infrastructure - a network of multi-functional greenspace, urban and rural, which is
+capable of delivering a wide range of environmental and quality of life benefits for local
+communities
+Habitat - a place where an organism or community of organisms normally live
+Hedonic pricing - a revealed preference valuation method that estimates the use value of
+a non-market good or service by examining the relationship between the non-market good
+(environmental attribute) and the demand for some market-priced complementary good
+(such as property prices)
+Impact pathway approach - a systematic approach to the assessment of a policy or
+intervention in terms of its impact on ecosystem services and resulting welfare implications
+Indirect use value - the benefits derived from ecosystem services that are used indirectly
+by an economic agent
+Instrumental value - valuing the environment from the perspective of its benefits to
+people and the economy. This contrasts with ‘intrinsic value’, which posits that nature has
+value by, in, or for itself, irrespective of whether humans benefit from it
+Marginal abatement cost - the incremental cost of additional reductions in a negative
+environmental impact
+Marginal change - the change in value resulting from one more unit of a good or service
+produced or consumed
+Market failure - when the market mechanism alone is unable to achieve economic
+efficiency, for varying reasons
+
+91 of 94
+
+Meta-analysis - a statistical method of combining a number of valuation estimates that
+allows the analyst to systematically explore variation in existing value estimates across
+studies, for value transfer purposes
+Multi-criteria decision analysis - a technique for dealing with decisions in a context
+where multiple goals cannot be reduced to single monetary values
+Natural capital - stock of natural assets which provide benefits to people in the form of
+tangible things which are typically marketed (such as timber, fish stocks, minerals) and
+less tangible services (such as air purification, recreational settings and flood prevention)
+Net-Present Value - the sum of a stream of future values discounted at an appropriate
+discount rate (such as the Green Book social discount rate) to bring them to today's value
+Non-use or passive use value - benefit values (altruistic, bequest and existence values)
+derived by individuals which are not associated with direct or indirect use of a resource
+Option value - the value placed by individuals on having the option to use a resource in
+the future
+Precautionary principle - a principle stating that in cases ''where there are threats of
+serious or irreversible damage, lack of full scientific certainty shall not be used as a reason
+for postponing cost-effective measures to prevent environmental degradation,'' as defined
+in the Rio Declaration
+Primary valuation - an economic valuation study providing new estimates for decision
+making by estimating the value of the change in a policy good
+Producer surplus - the benefit obtained by a producer when they receive more in price
+for a product than the minimum amount, they would be willing to accept
+Production function - the relationship that may exist between a particular ecosystem
+service and the production of a market good
+Provisioning services - the products obtained from ecosystems for example, genetic
+resources, food and fibre and freshwater
+Public good - a good or service that is non-rival and non-excludable such as the
+consumption of the good by one individual does not reduce availability of the good for
+others and access to the good cannot be restricted
+Quasi-Option value - the value of preserving options for future use of an environmental
+resource by delaying a decision, where outcomes are uncertain and where there is an
+opportunity to learn by delay
+Real terms - the value of expenditure at a given general price level such that the impact of
+inflation is removed (calculated by dividing a nominal cash value by a general price index)
+92 of 94
+
+Regulating services - the benefits obtained from the regulation of ecosystem processes,
+for example, the regulation of climate, water, air quality, human diseases and erosion
+control
+Replacement cost - the costs of replacing ecosystem services with human engineered
+technologies
+Revealed preference - economic valuation methods that use the actual observation of
+consumer behaviour to define consumer preferences
+Sensitivity analysis - a study of the sensitivity of expected outcomes of an intervention to
+potential changes in key input variables under a given set of assumptions. It can therefore
+be used to test the impact of changes in assumptions on the outcome variable of an
+appraisal
+Shadow price - estimated value of a good or service where market prices are not
+available, or do not reflect total costs and benefits
+Social costs and benefits - the total costs and benefits of an action to society including,
+private costs and benefits to individuals as well as additional costs and benefits to society
+as a whole
+Species diversity - biodiversity at the species level, combining aspects of species
+richness, relative abundance and dissimilarity
+Stated Preference methods - economic valuation methods that use survey
+questionnaires to elicit individuals' preferences (such as willingness to pay and/or
+willingness to accept) for non-market goods or services
+Supporting services - ecosystem services that are necessary for the production and
+maintenance of all other ecosystem services. For example, soil formation and retention,
+nutrient cycling, water cycling and provisioning of habitat. These services often reflect the
+function and condition of natural capital stock
+Sustainability - meeting the needs of the existing population without compromising the
+ability of future generations to meet their own needs
+Total Economic Value - the value obtained from the various constituents of utilitarian
+value, including direct use value, indirect use value, option value, quasi-option value and
+existence value
+Travel cost method - a revealed preference valuation method that infers the value of a
+recreational site from the cost incurred by individuals traveling to that site (their demand
+function for visiting that site)
+Use value - value derived from using or having the potential to use a resource. This is the
+net sum of direct use values, indirect use values and option values
+93 of 94
+
+Utility - a measure of the satisfaction gained from a good or service. Synonymous with
+economic welfare.
+Valuation - assignment of values to a particular good or service in a certain context (such
+as decision making) in monetary or other terms
+Value transfer - the process of inferring the size of an economic benefit or cost at the site
+under consideration from previous research at another site, paying careful attention to
+contextual changes
+Welfare - a measure of the satisfaction that individuals gain from the consumption,
+experience or existence of a good or service, whether or not those are marketed
+Willingness to Accept - monetary measure of the value of forgoing an environmental
+gain or allowing a loss
+Willingness to Pay - monetary measure of the value of obtaining an environmental gain
+or avoiding a loss
+
+94 of 94
+
+

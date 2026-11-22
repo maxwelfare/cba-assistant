@@ -1,0 +1,13 @@
+{
+ "key": "dfo_2017_vsl_brev",
+ "citation": "Finansdepartementet to DFØ, Framskriving av verdien av et statistisk liv til bruk i samfunnsøkonomiske analyser (extract), 15.03.2017",
+ "doi": null,
+ "url": "https://www.dfo.no/sites/default/files/fagomr%C3%A5der/Utredninger/Brev-DF%C3%98-FIN-VSL.pdf",
+ "media_type": "application/pdf",
+ "sha256": "d3c82ac251f1ebe688fdc4c6c2673927419b2acf6ae3d537310ddd6a10eb2077",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34:24Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "text_chars": 5772,
+ "language": "nb (Norwegian bokmål)"
+}

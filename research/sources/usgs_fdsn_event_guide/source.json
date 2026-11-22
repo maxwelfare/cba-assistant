@@ -1,0 +1,11 @@
+{
+  "key": "usgs_fdsn_event_guide",
+  "citation": "USGS Earthquake Catalog API Documentation, FDSN Event Web Service. U.S. Geological Survey.",
+  "doi": "",
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+  "media_type": "text/html",
+  "sha256": "5058fe340d4fe14c2e15428a1234550ad612b7275f19a0035519c57ba15732b6",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:41Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

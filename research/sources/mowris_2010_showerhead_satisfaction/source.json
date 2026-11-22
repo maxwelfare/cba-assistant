@@ -1,0 +1,12 @@
+{
+ "key": "mowris_2010_showerhead_satisfaction",
+ "citation": "Mowris RJ, Woody J, et al. (2010). Consumer satisfaction with water-efficient showerheads [testing of WaterSense and other models]. Robert Mowris and Associates (copy hosted by MaP Testing).",
+ "doi": null,
+ "url": "https://map-testing.com/wp-content/uploads/2022/11/Mowris-Woody_ConsumerSatisfaction2010.pdf",
+ "media_type": "application/pdf",
+ "sha256": "2f49110d8f91e1110105ad6605a3c1b337d7453cbfd8a45475db23ef30f87d77",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:16:53Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://map-testing.com/wp-content/uploads/2022/11/Mowris-Woody_ConsumerSatisfaction2010.pdf"
+}

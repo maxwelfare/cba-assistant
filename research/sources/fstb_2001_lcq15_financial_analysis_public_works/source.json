@@ -1,0 +1,11 @@
+{
+ "key": "fstb_2001_lcq15_financial_analysis_public_works",
+ "citation": "Secretary for the Treasury (Denise Yue), reply to LCQ15 'Financial analysis of public works projects', Legislative Council, 7 February 2001",
+ "doi": null,
+ "url": "https://www.info.gov.hk/gia/general/200102/07/0207165.htm",
+ "media_type": "text/html",
+ "sha256": "57b735ed8023201bb4b2333b1d9b5fdd4ee9d3b60b4e166a96ff50ad5698b4f0",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:45:47+00:00",
+ "text_method": "short regex HTML-to-text script (research/sources/fstb_2001_lcq15_financial_analysis_public_works, run with python -I): scripts/styles removed, paragraph breaks kept; official LegCo question and written reply, a statement not a manual"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "somanathan_2006_valuing",
+ "citation": "Somanathan E (2006). Valuing lives equally: distributional weights for welfare analysis. Economics Letters 90(1):122-125 (IDEAS/RePEc abstract page).",
+ "doi": "10.1016/j.econlet.2005.07.015",
+ "url": "https://ideas.repec.org/a/eee/ecolet/v90y2006i1p122-125.html",
+ "media_type": "text/html",
+ "sha256": "89f4e107ec6a78e05c30e19c083a31b3f9df8c960ea875e8ac46a2caae06d3de",
+ "licence": "abstract only",
+ "fetched": "2026-11-17T12:01:40Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://ideas.repec.org/a/eee/ecolet/v90y2006i1p122-125.html"
+}

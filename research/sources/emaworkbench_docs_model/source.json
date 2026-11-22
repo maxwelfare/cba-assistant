@@ -1,0 +1,12 @@
+{
+ "key": "emaworkbench_docs_model",
+ "citation": "EMA Workbench documentation: Model (em_framework.model), emaworkbench.readthedocs.io, latest.",
+ "doi": null,
+ "url": "https://emaworkbench.readthedocs.io/en/latest/ema_documentation/em_framework/model.html",
+ "media_type": "text/html",
+ "sha256": "5e074cc062bf466623277067f941a58234ab865bd4ba817b7812c4cc5a2c0231",
+ "licence": "BSD 3-clause (the project's software licence; documentation page, not separately stated)",
+ "fetched": "2026-11-13T12:43:08Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://emaworkbench.readthedocs.io/en/latest/ema_documentation/em_framework/model.html"
+}

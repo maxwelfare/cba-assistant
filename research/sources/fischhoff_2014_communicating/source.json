@@ -1,0 +1,12 @@
+{
+ "key": "fischhoff_2014_communicating",
+ "citation": "Fischhoff B, Davis AL (2014). Communicating scientific uncertainty. PNAS 111(Suppl 4):13664-13671.",
+ "doi": "10.1073/pnas.1317504111",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1073/pnas.1317504111",
+ "media_type": "text/plain",
+ "sha256": "9641cf82003be3dedcbd347425f4445be3e0b4a919a35c10dadc6718c6d44a22",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:42Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/fischhoff_2014_communicating.txt (fetched is the file's modification time)"
+}

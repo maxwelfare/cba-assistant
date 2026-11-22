@@ -1,0 +1,11 @@
+{
+  "key": "cdc_nhanes_guide",
+  "citation": "CDC National Center for Health Statistics. NHANES Survey Methods and Analytic Guidelines (web page).",
+  "doi": "",
+  "url": "https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx",
+  "media_type": "text/html",
+  "sha256": "e1728ea2f8d29867e4d8311933a9a47fba1801a7601d031ea34543810db89491",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:28:09Z",
+  "text_method": "python -I /tmp/.../totext.py (strip script/style, tags to text, paragraph breaks)"
+}

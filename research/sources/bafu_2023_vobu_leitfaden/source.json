@@ -1,0 +1,11 @@
+{
+  "key": "bafu_2023_vobu_leitfaden",
+  "citation": "BAFU (2023). VOBU Volkswirtschaftliche Beurteilung von Umweltmassnahmen: Leitfaden, September 2023.",
+  "doi": null,
+  "url": "https://www.bafu.admin.ch/dam/de/sd-web/kAfJ6ykGjeQc/leitfaden_volkswirtschaftlichebeurteilungvonumweltmassnahmenvobu.pdf",
+  "media_type": "application/pdf",
+  "sha256": "289cf9d2926f4a3be42f205e2f6e5aaf90542d70a0dfd42e126bb35fafd526f1",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37:22Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

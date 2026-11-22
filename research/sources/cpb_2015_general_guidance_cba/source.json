@@ -1,0 +1,11 @@
+{
+  "key": "cpb_2015_general_guidance_cba",
+  "citation": "Romijn G, Renes G (2015). General guidance for cost-benefit analysis. CPB/PBL, The Hague (PBL report 1512; English edition of the 2013 Algemene leidraad).",
+  "doi": "none",
+  "url": "https://www.pbl.nl/downloads/pbl-cpb-2015-general-guidance-for-cost-benefit-analysis-01512pdf",
+  "media_type": "application/pdf",
+  "sha256": "7fdfd7ef70234d66036a4b5f2c6512d2c3ee0b3a42dd9103d6ecd1f15d1f3ceb",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:33:31Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

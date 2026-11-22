@@ -1,0 +1,11 @@
+{
+ "key": "uv_2025_oz_ria",
+ "citation": "Vláda České republiky (2011, consolidated text in force from 1 January 2025). Obecné zásady pro hodnocení dopadů regulace (RIA), úplné znění.",
+ "doi": null,
+ "url": "https://ria.gov.cz/wp-content/uploads/2025_01_01_OZ_RIA.pdf",
+ "media_type": "application/pdf",
+ "sha256": "76c32bf297f57ad9a2c999cf20c8a3ec622d33481e7db41882f4f6dc0c2810ab",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:18Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

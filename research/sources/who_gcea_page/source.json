@@ -1,0 +1,12 @@
+{
+ "key": "who_gcea_page",
+ "citation": "World Health Organization. Generalized cost-effectiveness analysis (web page of the Economic Analysis team, Health financing and economics).",
+ "doi": null,
+ "url": "https://www.who.int/teams/health-financing-and-economics/economic-analysis/health-technology-assessment-and-benefit-package-design/generalized-cost-effectiveness-analysis",
+ "media_type": "text/html",
+ "sha256": "331d415c004583251d72389956035b094660a154a0cf76458742aee9146e808d",
+ "licence": "not stated on the page (WHO web content; read, no licence page accepted)",
+ "fetched": "2026-11-13T12:40:31Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.who.int/teams/health-financing-and-economics/economic-analysis/health-technology-assessment-and-benefit-package-design/generalized-cost-effectiveness-analysis"
+}

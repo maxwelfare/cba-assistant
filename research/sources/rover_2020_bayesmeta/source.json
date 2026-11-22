@@ -1,0 +1,11 @@
+{
+ "key": "rover_2020_bayesmeta",
+ "citation": "Röver C (2020). Bayesian random-effects meta-analysis using the bayesmeta R package. Journal of Statistical Software 93(6):1-51.",
+ "doi": "10.18637/jss.v093.i06",
+ "url": "https://www.jstatsoft.org/index.php/jss/article/view/v093i06/v93i06.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f18b887645ffaf67aabd07dcf7658c86f0874e8f0e5e8eb093583bf31959a2ef",
+ "licence": "CC BY (per OpenAlex; not checked in the PDF)",
+ "fetched": "2026-11-08T01:09:22Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

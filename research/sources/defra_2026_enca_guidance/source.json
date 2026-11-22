@@ -1,0 +1,11 @@
+{
+ "key": "defra_2026_enca_guidance",
+ "citation": "Defra (2026). Enabling a Natural Capital Approach (ENCA) guidance, February 2026 (GOV.UK page updated 15 October 2026).",
+ "doi": null,
+ "url": "https://assets.publishing.service.gov.uk/media/6ad0d6620f7b53973e026759/Enabling_a_Natural_Capital_Approach_guidance.pdf",
+ "media_type": "application/pdf",
+ "sha256": "349604cf5752c157150e0baf88b39f21ecf3b938de24d810b61901ab336e8387",
+ "licence": "Open Government Licence v3.0 (text line 14)",
+ "fetched_utc": "2026-11-09T16:37Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

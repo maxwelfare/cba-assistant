@@ -1,0 +1,11 @@
+{
+  "key": "bosa_2014_air_manuel",
+  "citation": "Manuel pour la réalisation de l'analyse d'impact (Manuel AIR), SPF Stratégie et Appui (BOSA), Direction générale Simplification administrative, oct. 2014",
+  "doi": null,
+  "url": "https://bosa.d8.pr.belgium.be/sites/default/files/content/documents/DTdocs/Simplification/AIR%20Manuel%20-%20FR%20oct2014.pdf",
+  "media_type": "application/pdf",
+  "sha256": "f2821d06dfa1c65dff4b9d658a2abf2ce72f36405fe35d16c2af285fc133e136",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:20:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

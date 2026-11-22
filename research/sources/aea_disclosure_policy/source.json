@@ -1,0 +1,12 @@
+{
+ "key": "aea_disclosure_policy",
+ "citation": "American Economic Association. Disclosure Policy (journals).",
+ "doi": null,
+ "url": "https://www.aeaweb.org/journals/policies/disclosure-policy",
+ "media_type": "text/html",
+ "sha256": "3f7d8b5e0721f8c2abaaa2ff21a1c8606095c9ef0bdc1422c1248c00b8c937bf",
+ "licence": "not stated",
+ "fetched": "2026-11-14T09:57:44Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.aeaweb.org/journals/policies/disclosure-policy"
+}

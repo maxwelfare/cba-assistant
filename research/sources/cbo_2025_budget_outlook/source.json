@@ -1,0 +1,12 @@
+{
+ "key": "cbo_2025_budget_outlook",
+ "citation": "Congressional Budget Office (January 2025). The Budget and Economic Outlook: 2025 to 2035. Publication 60870. Copy archived by the Internet Archive on 8 November 2026 (cbo.gov refuses automated fetches, HTTP 403).",
+ "doi": null,
+ "url": "http://web.archive.org/web/20261108122116id_/https://www.cbo.gov/system/files/2025-01/60870-Outlook-2025.pdf",
+ "media_type": "application/pdf",
+ "sha256": "a6b81de4bb932843e25867be0059599ef044007b9c5d8afc298de56ffd892a53",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:22:37Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch http://web.archive.org/web/20261108122116id_/https://www.cbo.gov/system/files/2025-01/60870-Outlook-2025.pdf"
+}

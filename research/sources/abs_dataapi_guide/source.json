@@ -1,0 +1,11 @@
+{
+ "key": "abs_dataapi_guide",
+ "citation": "Australian Bureau of Statistics. Data API user guide (web page, fetched 2026-11-09).",
+ "doi": null,
+ "url": "https://www.abs.gov.au/about/data-services/application-programming-interfaces-apis/data-api-user-guide",
+ "media_type": "text/html",
+ "sha256": "7ff7d4c55a888cc73cca56f2cfcef2d61f80e6feee20a68e504ec550467849ec",
+ "licence": "not stated on the page (site footer links Creative Commons)",
+ "fetched": "2026-11-09T17:27:35Z",
+ "text_method": "regex script: tags stripped, block ends to newlines (store.py, scratch)"
+}

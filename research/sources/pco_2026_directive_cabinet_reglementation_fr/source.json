@@ -1,0 +1,11 @@
+{
+  "key": "pco_2026_directive_cabinet_reglementation_fr",
+  "citation": "Gouvernement du Canada. Directive du Cabinet sur la réglementation (version française).",
+  "doi": null,
+  "url": "https://www.canada.ca/fr/gouvernement/systeme/lois/developpement-amelioration-reglementation-federale/exigences-matiere-elaboration-gestion-examen-reglements/directive-cabinet-reglementation.html",
+  "media_type": "text/html",
+  "sha256": "49f92cde68500a5703984143b4ade4f966d69f8ff8fc73e36deabd51876fcaca",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "python3 -I html2txt script (main element, tags stripped, paragraph breaks)"
+}

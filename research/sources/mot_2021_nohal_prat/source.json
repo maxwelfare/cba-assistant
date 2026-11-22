@@ -1,0 +1,11 @@
+{
+ "key": "mot_2021_nohal_prat",
+ "citation": "Ministry of Transport and Road Safety, Ministry of Finance, Ministry of Environmental Protection (Israel), June 2021. Nohal PRAT 2021: guidelines for checking the viability of transport projects (Hebrew), Jerusalem.",
+ "doi": null,
+ "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/nohal_prat_21/he/repository-of-answers_ministry-of-transport-and-road-safety_nohal_prat_21.pdf",
+ "media_type": "application/pdf",
+ "sha256": "40b88d4a0009c5f57bc22a39675179df6d862fee3fa90a4739df48a4321bb419",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:47:51+00:00",
+ "text_method": "pdftotext original.pdf t.txt; then python3 -I re.sub('[\\u202a-\\u202e\\u200e\\u200f]','',text) to remove bidirectional control marks; no other change"
+}

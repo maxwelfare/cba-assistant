@@ -1,0 +1,11 @@
+{
+  "key": "tbs_2025_guide_acb_fr",
+  "citation": "Secrétariat du Conseil du Trésor du Canada (janvier 2025). Guide d'analyse coûts-avantages pour les propositions de réglementation du Canada (French version of the guide).",
+  "doi": null,
+  "url": "https://wiki.gccollab.ca/images/7/7a/CBA_Guide-FR.doc",
+  "media_type": "application/msword",
+  "sha256": "61c3fc134ddb0c6191b793faca34ae97e05f59afe282801ef9c4e17e16c4a411",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "catdoc -w -d utf-8 original.doc | head -n N > text.txt (N = the last footnote line, 599 English, 737 French; the binary tail of the Word file after it is dropped)"
+}

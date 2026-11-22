@@ -1,0 +1,11 @@
+{
+  "key": "w3c_klreq_hangul_layout",
+  "citation": "W3C Group Note Draft 21 March 2026: Requirements for Hangul Text Layout and Typography (klreq).",
+  "doi": null,
+  "url": "https://www.w3.org/TR/klreq/",
+  "media_type": "text/html",
+  "sha256": "7ff48cc05157a5ebe65dd354bb62bdfd9aa151d0edb7bce7ef63460b6b4050f3",
+  "licence": "W3C document licence rules referenced, not itself stated",
+  "fetched_utc": "2026-11-09T16:07Z",
+  "text_method": "python3 -I html-to-text script (tags dropped, paragraph breaks kept, script/style/nav removed)"
+}

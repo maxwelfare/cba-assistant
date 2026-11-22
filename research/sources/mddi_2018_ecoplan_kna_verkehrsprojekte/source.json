@@ -1,0 +1,11 @@
+{
+  "key": "mddi_2018_ecoplan_kna_verkehrsprojekte",
+  "citation": "Ecoplan, PRH, komobile, BDO (2018). Transportrechnung für Luxemburg und Methodik zu Kosten-Nutzen-Analysen für Verkehrsprojekte. Schlussbericht, 2.7.2018. Commissioned by Ministère du Développement durable et des Infrastructures, Direction de la Planification de la Mobilité.",
+  "doi": null,
+  "url": "https://transports.public.lu/dam-assets/planifier/observatoire/lux-schlussbericht-def-2018-07-02.pdf",
+  "licence": "not stated",
+  "sha256": "4191e3443200e67d9cc4f173b6ec30ba1bcf00f798ed6de6552cd36c93200f88",
+  "fetched_utc": "2026-11-09T16:30:51Z",
+  "media_type": "application/pdf",
+  "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

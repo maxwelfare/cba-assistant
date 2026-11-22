@@ -1,0 +1,11 @@
+{
+ "key": "medde_2014_instruction_evaluation_projets_transport",
+ "citation": "Gouvernement (MEDDE) (16 juin 2014). Instruction du Gouvernement relative à l'évaluation des projets de transport.",
+ "doi": null,
+ "url": "https://www.bulletin-officiel.developpement-durable.gouv.fr/documents/Bulletinofficiel-0027715/met_20140012_0100_0047.pdf",
+ "media_type": "application/pdf",
+ "sha256": "16bae54de84ed180de6ca29d5836a91d0fe93ef47d5b32c3dd1e6a252453d78b",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:27:32Z",
+ "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

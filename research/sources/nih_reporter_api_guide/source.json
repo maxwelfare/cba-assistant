@@ -1,0 +1,11 @@
+{
+ "key": "nih_reporter_api_guide",
+ "citation": "NIH RePORTER API. Project API documentation (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://api.reporter.nih.gov/",
+ "media_type": "text/html",
+ "sha256": "70dc9f60eb426f3b768d37eabfdebc82bcefa803d9bf51484ade2b771057178c",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

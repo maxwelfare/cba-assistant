@@ -1,0 +1,1186 @@
+Discounting
+Green Book supplementary
+guidance
+
+October 2026
+
+2
+
+Discounting
+Green Book supplementary
+guidance
+
+October 2026
+
+© Crown copyright 2026
+This publication is licensed under the terms of the Open Government
+Licence v3.0 except where otherwise stated. To view this licence, visit
+nationalarchives.gov.uk/doc/open-government-licence/version/3.
+Where we have identified any third party copyright information you will
+need to obtain permission from the copyright holders concerned.
+This publication is available at: www.gov.uk/official-documents.
+Any enquiries regarding this publication should be sent to us at
+public.enquiries@hmtreasury.gov.uk
+ISBN: 978-1-918417-98-2
+PU: 3687
+4
+
+Contents
+Chapter 1 Introduction
+
+6
+
+Chapter 2 Derivation of the discount rate
+
+7
+
+Chapter 3 Discounting in appraisal
+
+11
+
+Annex A
+
+14
+
+Discount factors
+
+5
+
+Chapter 1
+Introduction
+1.1
+The Green Book is the UK government’s guidance on appraisal,
+the process of assessing the costs, benefits and risks of different options
+for achieving government objectives.1
+1.2
+The Green Book recommends using discounting to compare
+social costs and social benefits occurring over different time periods on
+a consistent basis. Discounting enables profiles of social costs and social
+benefits stretching over many years to be expressed in ‘present value’
+terms.
+1.3
+This document supplements the Green Book by providing
+further guidance on discounting. Annex A sets out the standard
+discount factors for appraisal. Practitioners should multiply these by the
+expected social costs and social benefits in the relevant years of an
+appraisal.
+
+1 ‘The Green Book’, HM Treasury, October 2026
+
+6
+
+Chapter 2
+Derivation of the
+discount rate
+Introduction
+2.1
+The discount rate that is used in the Green Book is known
+formally as the Social Time Preference Rate (STPR). The STPR is
+currently set at 3.00% in real terms for the first 30 years of a proposal.
+2.2
+The STPR is named as such because it is primarily derived using a
+social time preference approach. This is one of the two broad
+approaches that can be used to derive the discount rate, which are:
+•
+
+Social time preference (STP): The discount rate reflects the rate at
+which society is willing to trade off consumption today for
+consumption tomorrow.
+
+•
+
+Social opportunity cost of capital (SOC): The discount rate reflects
+the cost of capital, derived from the different sources of government
+funding, as well as the return on the private investment that it
+displaces.
+
+The Ramsey formula
+2.3
+The STPR is primarily derived using a formula known as the
+Ramsey formula. The Ramsey formula is made up of two components
+that are added together. These are the:
+•
+
+Risk-free discount rate (𝒓𝒇 ): Society’s preference for social benefits
+now, rather than later. This is denoted by 𝑟𝑓 .
+
+•
+
+Systematic risk premium (𝑳): The premium that society demands in
+compensation for the riskiness of government proposals, and which
+arises from the fact that the social benefits of government proposals
+generally correlate with the wider economy. This is denoted by the
+letter 𝐿.
+
+2.4
+
+The risk-free discount rate is made up of three components:
+
+•
+
+Pure time preference (𝛅): The social time preference that is solely
+due to social benefits occurring later in time. This is denoted by the
+Greek letter δ (delta).
+
+•
+
+Wealth effect: The social time preference that arises because
+society gets richer over time.
+7
+
+•
+
+2.5
+
+Rare disaster risk (𝑹): The social time preference that arises because
+of the risk of a severe, but low-probability, negative shock to
+aggregate consumption. This is denoted by the letter 𝑅.
+The wealth effect is made up of two components:
+
+•
+
+Elasticity of marginal utility of consumption (µ): An indicator of
+how an average person’s wellbeing changes as their consumption
+changes. This is denoted by the Greek letter µ (mu).
+
+•
+
+Expected annual growth rate of future real per capita
+consumption (𝒈): A forecast of how the average person’s
+consumption of goods and services is projected to change over time.
+This is denoted by the letter 𝑔.
+
+2.6
+Under the Ramsey formula, the risk-free discount rate is
+expressed mathematically as:
+𝑟𝑓 = δ + µ𝑔 + 𝑅
+2.7
+The STPR is calculated by adding the systematic risk premium to
+the risk-free discount rate:
+𝑆𝑇𝑃𝑅 = 𝑟𝑓 + 𝐿
+2.8
+Table 2.A shows the values that HM Treasury uses in the
+calculation of the STPR. The rationale behind each of these values is
+discussed in the technical annexes of the Green Book Discount Rate
+Review 2026.2
+
+Table 2.A Assumed values for the parameters in the STPR
+Parameter
+
+Assumed value
+
+Pure time preference (𝜹)
+
+0.50%
+
+Elasticity of marginal utility of consumption (µ)
+
+1.25
+
+Expected annual growth rate of future real per
+capita consumption (𝒈)
+
+1.50%
+
+Rare disaster risk (𝑹)
+
+–0.50%
+
+Systematic risk premium (𝑳)
+
+1.00%
+
+Source: HM Treasury
+
+The risk-free discount rate
+2.9
+The first step in calculating the risk-free discount rate is to
+calculate the wealth effect. This involves multiplying together the
+values for the elasticity of marginal utility of consumption (µ) and
+expected annual growth rate of future real per capita consumption (𝑔):
+
+2 ‘Green Book Discount Rate Review: Technical Annexes’, Mark C. Freeman and Ben Groom, June 2026
+
+8
+
+µ𝑔 = 1.25 × 1.50%
+µ𝑔 = 1.875%
+2.10 The second step is to add the value for the wealth effect to the
+values for rare disaster risk (𝑅) and pure time preference (𝛿). This gives
+an estimate for the risk-free discount rate:
+𝛿 + µ𝑔 + 𝑅 = 0.50% + 1.875% − 0.50%
+𝛿 + µ𝑔 + 𝑅 = 1.875%
+2.11
+HM Treasury’s estimate of the risk-free discount rate is primarily
+founded on the Ramsey formula. However, it triangulates this estimate
+with other evidence, including expert survey data, international
+comparisons and the SOC approach. For the SOC approach, HM
+Treasury takes into account the inflation-adjusted yields on
+government bonds. In June 2026, real yields on 10-year, 20-year and 40year gilts were around 2%.3
+2.12 Based on this triangulation, HM Treasury adjusts the risk-free
+discount rate upwards by 0.125 percentage points, giving a value of
+2.00%:
+𝑟𝑓 = 1.875% + 0.125%
+𝑟𝑓 = 2.00%
+
+The systematic risk premium
+2.13
+The STPR approach implies a value for the systematic risk
+premium (𝐿) that is around 0.50%.
+2.14 As with the risk-free discount rate, HM Treasury informs its
+estimate of the systematic risk premium with a triangulation approach.
+It corroborates its estimate of 𝐿 with evidence from expert surveys,
+international comparisons and the SOC approach. This triangulation
+implies a value of 1.00% for the systematic risk premium. The rationale
+for this judgment is discussed further in the technical annexes of the
+Green Book Discount Rate Review 2026.4
+
+The Social Time Preference Rate
+2.15 The estimate for the risk-free discount rate is added to the
+systematic risk premium. This implies a value of 3.00% for the STPR:
+𝑆𝑇𝑃𝑅 = 2.00% + 1.00%
+𝑆𝑇𝑃𝑅 = 3.00%
+
+3 ‘Green Book Discount Rate Review: Summary of Findings and Recommendations’, Mark C. Freeman and Ben
+Groom, June 2026
+4 ‘Green Book Discount Rate Review: Technical Annexes’, Mark C. Freeman and Ben Groom, June 2026
+
+9
+
+2.16
+
+The discount factor for a given year is calculated as follows:
+𝐷𝑖𝑠𝑐𝑜𝑢𝑛𝑡 𝑓𝑎𝑐𝑡𝑜𝑟 𝑖𝑛 𝑦𝑒𝑎𝑟 𝑡 = (
+𝑓𝑜𝑟 𝑦𝑒𝑎𝑟𝑠 1 𝑡𝑜 30
+
+10
+
+𝑡
+1
+)
+1 + 3.00%
+
+Chapter 3
+Discounting in appraisal
+Using the discount rate
+3.1
+Practitioners should use the headline STPR to discount all
+proposals. The exception is Official Development Assistance (ODA)
+proposals, discussed in Paragraph 3.11.
+3.2
+Practitioners should not use different discount rates for different
+types of proposals. This is because the social value of a proposal should
+be reflected in the expected social costs and social benefits, rather than
+in its discount rate.
+3.3
+For example, environmental impacts should generally be
+appraised using the STPR. If environmental goods and services are
+expected to become scarcer, less substitutable, or more highly valued
+over time, then these effects should be reflected through estimates of
+future environmental values, rather than through a lower discount rate.
+Practitioners should therefore account for such effects through
+appropriate relative price adjustments and forecasts of environmental
+values, consistent with the relevant Green Book supplementary
+guidance.5
+
+Discounting and risk
+3.4
+The future outcomes of any proposal are uncertain. Practitioners
+should generally reflect the possible outcomes in the expected social
+costs and social benefits, rather than by varying the discount rate.
+3.5
+Practitioners should note that the systematic risk premium (𝐿)
+does not reflect any obsolescence risk that might be associated with a
+proposal. This is the risk that technological advances cause a proposal
+to become obsolete and to provide fewer social benefits than expected
+over the course of its time horizon. Obsolescence risk should be
+reflected in the proposal’s expected social benefits.
+3.6
+Different proposals may theoretically have different systematic
+risk premiums. In other words, their social benefits may have different
+degrees of correlation with the overall economy. This means that
+different proposals may theoretically have different estimates for the 𝐿
+term in the STPR formula. Despite this, in government appraisals,
+practitioners should not deviate from the systematic risk premium of
+1.00% and hence the STPR of 3.00%.
+
+5 ‘Enabling a Natural Capital Approach’, Department for Environment, Food & Rural Affairs, February 2026
+
+11
+
+Proposals with time horizons beyond 30 years
+3.7
+The standard discount rate of 3.00% declines over time. This is
+because there is uncertainty around the future values of the annual
+growth rate of real per capita consumption (𝑔) and long-term real gilt
+yields, both of which are used in informing the discount rate.
+3.8
+When conducting an appraisal, practitioners should use a
+discount rate of:
+•
+
+3.00% for years 1 to 30
+
+•
+
+2.50% for years 31 to 75
+
+•
+
+2.25% for years 76 to 125
+
+3.9
+The Green Book discount rate profile is expressed in terms of
+forward rates, not spot rates. For example, for an appraisal with a time
+horizon ending in year 40, practitioners should use 3.00% as the
+discount rate until year 30, then 2.50% from year 31 to year 40. They
+should not use 2.50% as the discount rate in each year until year 40.
+3.10 Many proposals have social costs and social benefits beyond 125
+years. These should be taken into account in appraisal. However,
+discounting is not an analytically meaningful technique for social costs
+and social benefits that take place after year 125. Practitioners should
+therefore use standard social cost-benefit analysis, and the relevant
+discount rates, only for monetisable impacts that occur within the first
+125 years of an appraisal. For social costs and social benefits that take
+place after year 125, practitioners should consider alternative analytical
+methods and discuss their approach with HM Treasury.
+
+Official Development Assistance (ODA)
+proposals
+3.11
+The Green Book guidance on discounting may not be suitable for
+appraising ODA proposals. Factors such as long-term growth rates can
+differ significantly across countries. Consequently, for ODA proposals
+where social costs and social benefits primarily affect people in other
+countries, alternative discount rates may be appropriate. Practitioners
+should contact the Foreign, Commonwealth & Development Office
+(FCDO) for further guidance.
+
+Discounting and inflation
+3.12 Discounting is distinct from adjusting for inflation. The STPR is a
+real discount rate and must be applied only to values expressed in real
+terms, meaning that the effects of general inflation have already been
+removed. Practitioners should first convert social costs and social
+benefits into real terms and then discount them using the STPR. The
+inflation rate and discount rate should not be added together and
+applied to social costs and social benefits because this will produce a
+mathematically incorrect result.
+12
+
+Discounting historical costs and benefits
+3.13 Discounting should not be applied retrospectively to costs and
+benefits that have already occurred. The values of social costs and social
+benefits do not increase simply because activities took place in the past.
+
+13
+
+Annex A
+Discount factors
+Year
+
+Discount
+rate
+
+Discount
+factor
+
+Year
+
+Discount
+rate
+
+Discount
+factor
+
+0
+
+–
+
+1.0000
+
+30
+
+3.00%
+
+0.4120
+
+1
+
+3.00%
+
+0.9709
+
+31
+
+2.50%
+
+0.4019
+
+2
+
+3.00%
+
+0.9426
+
+32
+
+2.50%
+
+0.3921
+
+3
+
+3.00%
+
+0.9151
+
+33
+
+2.50%
+
+0.3826
+
+4
+
+3.00%
+
+0.8885
+
+34
+
+2.50%
+
+0.3732
+
+5
+
+3.00%
+
+0.8626
+
+35
+
+2.50%
+
+0.3641
+
+6
+
+3.00%
+
+0.8375
+
+36
+
+2.50%
+
+0.3553
+
+7
+
+3.00%
+
+0.8131
+
+37
+
+2.50%
+
+0.3466
+
+8
+
+3.00%
+
+0.7894
+
+38
+
+2.50%
+
+0.3381
+
+9
+
+3.00%
+
+0.7664
+
+39
+
+2.50%
+
+0.3299
+
+10
+
+3.00%
+
+0.7441
+
+40
+
+2.50%
+
+0.3218
+
+11
+
+3.00%
+
+0.7224
+
+41
+
+2.50%
+
+0.3140
+
+12
+
+3.00%
+
+0.7014
+
+42
+
+2.50%
+
+0.3063
+
+13
+
+3.00%
+
+0.6810
+
+43
+
+2.50%
+
+0.2989
+
+14
+
+3.00%
+
+0.6611
+
+44
+
+2.50%
+
+0.2916
+
+15
+
+3.00%
+
+0.6419
+
+45
+
+2.50%
+
+0.2845
+
+16
+
+3.00%
+
+0.6232
+
+46
+
+2.50%
+
+0.2775
+
+17
+
+3.00%
+
+0.6050
+
+47
+
+2.50%
+
+0.2708
+
+18
+
+3.00%
+
+0.5874
+
+48
+
+2.50%
+
+0.2642
+
+19
+
+3.00%
+
+0.5703
+
+49
+
+2.50%
+
+0.2577
+
+20
+
+3.00%
+
+0.5537
+
+50
+
+2.50%
+
+0.2514
+
+21
+
+3.00%
+
+0.5375
+
+51
+
+2.50%
+
+0.2453
+
+22
+
+3.00%
+
+0.5219
+
+52
+
+2.50%
+
+0.2393
+
+23
+
+3.00%
+
+0.5067
+
+53
+
+2.50%
+
+0.2335
+
+24
+
+3.00%
+
+0.4919
+
+54
+
+2.50%
+
+0.2278
+
+25
+
+3.00%
+
+0.4776
+
+55
+
+2.50%
+
+0.2222
+
+26
+
+3.00%
+
+0.4637
+
+56
+
+2.50%
+
+0.2168
+
+27
+
+3.00%
+
+0.4502
+
+57
+
+2.50%
+
+0.2115
+
+28
+
+3.00%
+
+0.4371
+
+58
+
+2.50%
+
+0.2064
+
+29
+
+3.00%
+
+0.4243
+
+59
+
+2.50%
+
+0.2013
+
+14
+
+Year
+
+Discount
+rate
+
+Discount
+factor
+
+Year
+
+Discount
+rate
+
+Discount
+factor
+
+60
+
+2.50%
+
+0.1964
+
+93
+
+2.25%
+
+0.0909
+
+61
+
+2.50%
+
+0.1916
+
+94
+
+2.25%
+
+0.0889
+
+62
+
+2.50%
+
+0.1869
+
+95
+
+2.25%
+
+0.0869
+
+63
+
+2.50%
+
+0.1824
+
+96
+
+2.25%
+
+0.0850
+
+64
+
+2.50%
+
+0.1779
+
+97
+
+2.25%
+
+0.0831
+
+65
+
+2.50%
+
+0.1736
+
+98
+
+2.25%
+
+0.0813
+
+66
+
+2.50%
+
+0.1694
+
+99
+
+2.25%
+
+0.0795
+
+67
+
+2.50%
+
+0.1652
+
+100
+
+2.25%
+
+0.0778
+
+68
+
+2.50%
+
+0.1612
+
+101
+
+2.25%
+
+0.0760
+
+69
+
+2.50%
+
+0.1573
+
+102
+
+2.25%
+
+0.0744
+
+70
+
+2.50%
+
+0.1534
+
+103
+
+2.25%
+
+0.0727
+
+71
+
+2.50%
+
+0.1497
+
+104
+
+2.25%
+
+0.0711
+
+72
+
+2.50%
+
+0.1460
+
+105
+
+2.25%
+
+0.0696
+
+73
+
+2.50%
+
+0.1425
+
+106
+
+2.25%
+
+0.0680
+
+74
+
+2.50%
+
+0.1390
+
+107
+
+2.25%
+
+0.0665
+
+75
+
+2.50%
+
+0.1356
+
+108
+
+2.25%
+
+0.0651
+
+76
+
+2.25%
+
+0.1326
+
+109
+
+2.25%
+
+0.0636
+
+77
+
+2.25%
+
+0.1297
+
+110
+
+2.25%
+
+0.0622
+
+78
+
+2.25%
+
+0.1269
+
+111
+
+2.25%
+
+0.0609
+
+79
+
+2.25%
+
+0.1241
+
+112
+
+2.25%
+
+0.0595
+
+80
+
+2.25%
+
+0.1213
+
+113
+
+2.25%
+
+0.0582
+
+81
+
+2.25%
+
+0.1187
+
+114
+
+2.25%
+
+0.0569
+
+82
+
+2.25%
+
+0.1161
+
+115
+
+2.25%
+
+0.0557
+
+83
+
+2.25%
+
+0.1135
+
+116
+
+2.25%
+
+0.0545
+
+84
+
+2.25%
+
+0.1110
+
+117
+
+2.25%
+
+0.0533
+
+85
+
+2.25%
+
+0.1086
+
+118
+
+2.25%
+
+0.0521
+
+86
+
+2.25%
+
+0.1062
+
+119
+
+2.25%
+
+0.0509
+
+87
+
+2.25%
+
+0.1038
+
+120
+
+2.25%
+
+0.0498
+
+88
+
+2.25%
+
+0.1016
+
+121
+
+2.25%
+
+0.0487
+
+89
+
+2.25%
+
+0.0993
+
+122
+
+2.25%
+
+0.0477
+
+90
+
+2.25%
+
+0.0971
+
+123
+
+2.25%
+
+0.0466
+
+91
+
+2.25%
+
+0.0950
+
+124
+
+2.25%
+
+0.0456
+
+92
+
+2.25%
+
+0.0929
+
+125
+
+2.25%
+
+0.0446
+
+Source: HM Treasury
+
+15
+
+HM Treasury contacts
+This document can be downloaded from www.gov.uk
+If you require this information in an alternative format or have general
+enquiries about HM Treasury and its work, contact:
+Correspondence Team
+HM Treasury
+1 Horse Guards Road
+London
+SW1A 2HQ
+Tel: 020 7270 5000
+Email: public.enquiries@hmtreasury.gov.uk
+16
+
+

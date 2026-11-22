@@ -1,0 +1,12 @@
+{
+ "key": "hadlock_2017_jqpd_poster",
+ "citation": "Hadlock CC, Bickel JE (c. 2017). Johnson Quantile-Parameterized Distributions (J-QPD). Poster, Operations Research and Industrial Engineering, University of Texas at Austin (summarises Hadlock and Bickel 2017, Decision Analysis 14(1):35-64).",
+ "doi": null,
+ "url": "https://www.orie.utexas.edu/images/newsimages/JohnsonQuantile.pdf",
+ "media_type": "application/pdf",
+ "sha256": "3659a6b0a9663f8cdde74457d33e129b92ba37d030820c6155093e08590c3ab2",
+ "licence": "not stated",
+ "fetched": "2026-11-12T18:02:32Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from a file fetched in an earlier session (fetched is the file's modification time)"
+}

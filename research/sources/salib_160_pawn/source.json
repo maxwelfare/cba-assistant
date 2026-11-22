@@ -1,0 +1,12 @@
+{
+ "key": "salib_160_pawn",
+ "citation": "Herman J, Usher W, Iwanaga T et al. SALib 1.6.0, src/SALib/analyze/pawn.py (GitHub tag v1.6.0), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://raw.githubusercontent.com/SALib/SALib/v1.6.0/src/SALib/analyze/pawn.py",
+ "media_type": "text/x-python",
+ "sha256": "923d7d050760e4bae23e6cdd8574e2ffb6c72ed7d7c80677f4d3db4051c2cd49",
+ "licence": "MIT",
+ "fetched": "2026-11-13T11:42:04Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://raw.githubusercontent.com/SALib/SALib/v1.6.0/src/SALib/analyze/pawn.py"
+}

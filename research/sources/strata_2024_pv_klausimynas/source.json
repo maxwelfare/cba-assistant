@@ -1,0 +1,12 @@
+{
+ "key": "strata_2024_pv_klausimynas",
+ "citation": "Strateginės analizės centras (STRATA) (2024). Poveikio vertinimas: Didesnio poveikio teisės aktų projektų poveikio vertinimo rezultatų kokybės kriterijai (klausimynas). Official file strata.gov.lt/wp-content/uploads/2024/04/Klausimynas.pdf.",
+ "doi": null,
+ "url": "http://web.archive.org/web/20240917id_/https://strata.gov.lt/wp-content/uploads/2024/04/Klausimynas.pdf",
+ "media_type": "application/pdf",
+ "sha256": "e8701fff4ec37f06380d6475a17bb7389c83f59448b7e223f7b6fa68ced12f2c",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:54:28Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "note": "Lithuanian text, diacritics checked readable. Copy taken from the Internet Archive (Wayback id_ raw capture) because the official host is behind Cloudflare."
+}

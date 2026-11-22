@@ -1,0 +1,11 @@
+{
+  "key": "ndc_2023_ria_cba_methods_us",
+  "citation": "法規政策影響評估制度之成本效益分析方法與實證個案—以美國為例 (國家發展委員會委託中華經濟研究院, 112年12月, 編號 (112)007.0903; commissioned research report, not the RIA manual)",
+  "doi": null,
+  "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/5744/37797/db99d2f9-fe9f-43ee-8dcf-5b2d7c641c4b.pdf",
+  "media_type": "application/pdf",
+  "sha256": "f140058f3666f3d8c8ddc632071a95e30e70e3373f31796fc334878c5fc753e1",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:52Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

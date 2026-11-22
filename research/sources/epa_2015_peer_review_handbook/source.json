@@ -1,0 +1,12 @@
+{
+ "key": "epa_2015_peer_review_handbook",
+ "citation": "US Environmental Protection Agency (2015). Peer Review Handbook, 4th edition (EPA/100/B-15/001).",
+ "doi": null,
+ "url": "https://www.epa.gov/sites/default/files/2020-08/documents/epa_peer_review_handbook_4th_edition.pdf",
+ "media_type": "application/pdf",
+ "sha256": "1c84df8d511729d701fe40cc38b891f8ac5bbaf1c268ae3ca591b169825c91d8",
+ "licence": "US government work",
+ "fetched": "2026-11-17T22:54:50Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/epa/epa.pdf (fetched is the file's modification time)"
+}

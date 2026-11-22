@@ -1,0 +1,12 @@
+{
+ "key": "esri_2026_gdp_deflator_cy_qe263",
+ "citation": "内閣府経済社会総合研究所 (Cabinet Office, ESRI). 四半期別GDP速報 2026年7-9月期 1次速報値 (published 2026-11-16), 暦年デフレーター (Deflators, Calendar Year), def-cy2631.csv, 2020 = 100.",
+ "doi": null,
+ "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe263/tables/def-cy2631.csv",
+ "media_type": "text/csv",
+ "sha256": "8a3ebfcec9d9b10d5f54b16ae7901b5f20bf64efc6628d4d444caddd14cf7620",
+ "licence": "not stated in the stored file",
+ "fetched": "2026-11-21T09:15:00Z",
+ "text_method": "iconv -f SHIFT_JIS -t UTF-8 original.csv > text.txt (the file is Shift_JIS, which the store's plain-text path did not decode)",
+ "how": "copied from tmp/jp/def-cy2631.csv (fetched is the file's modification time)"
+}

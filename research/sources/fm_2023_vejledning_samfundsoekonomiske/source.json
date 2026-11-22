@@ -1,0 +1,11 @@
+{
+  "key": "fm_2023_vejledning_samfundsoekonomiske",
+  "citation": "Finansministeriet (2023): Vejledning i samfundsøkonomiske konsekvensvurderinger, juni 2023. ISBN 978-87-94088-59-6",
+  "doi": null,
+  "url": "https://fm.dk/media/27314/vejledning-i-samfundsoekonomiske-konsekvensvurderinger-juni-2023_web-a.pdf",
+  "media_type": "application/pdf",
+  "sha256": "cdc5ed8aa79ce43a9ad82a869a154a06034c297e5e41fe42c09ffbb3b97f74b4",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:24:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

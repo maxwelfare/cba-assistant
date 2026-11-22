@@ -1,0 +1,12 @@
+{
+  "key": "cope_2023_ai_authorship",
+  "citation": "COPE (2023). Authorship and AI tools: COPE position statement (Internet Archive snapshot of 8 Oct 2025; the live page is behind Cloudflare).",
+  "doi": "10.24318/cCVRZBms",
+  "url": "https://web.archive.org/web/20251008172609id_/https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
+  "media_type": "text/html",
+  "sha256": "1a2657730b7b7e6c30ff16b988375c99cc6ad479d0a6eadf6404258e751af8da",
+  "licence": "CC BY-NC-ND 4.0 (page footer)",
+  "fetched_utc": "2026-11-10T01:01:11Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 4955
+}

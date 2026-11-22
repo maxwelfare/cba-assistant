@@ -1,0 +1,11 @@
+{
+ "key": "bmi_2009_arbeitshilfe_gfa",
+ "citation": "Bundesministerium des Innern (2009, Stand Juni 2009). Arbeitshilfe zur Gesetzesfolgenabschätzung. Berlin: BMI.",
+ "doi": null,
+ "url": "https://plattform.egesetzgebung.bund.de/egesetzgebung-platform-backend/arbeitshilfen/download/11",
+ "media_type": "application/pdf",
+ "sha256": "dfc051b43d8b68d100186d26a7f81c6bd30b78a2619ba395b91c35734452d6de",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

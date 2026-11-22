@@ -1,0 +1,5076 @@
+This article was downloaded by: [173.153.67.206] On: 12 June 2020, At: 12:15
+Publisher: Institute for Operations Research and the Management Sciences (INFORMS)
+INFORMS is located in Maryland, USA
+
+Decision Analysis
+Publication details, including instructions for authors and subscription information:
+http://pubsonline.informs.org
+
+The Metalog Distributions
+Thomas W. Keelin
+
+To cite this article:
+Thomas W. Keelin (2016) The Metalog Distributions. Decision Analysis 13(4):243-277. https://doi.org/10.1287/deca.2016.0338
+Full terms and conditions of use: https://pubsonline.informs.org/Publications/Librarians-Portal/PubsOnLine-Terms-andConditions
+7KLVZRUNLVOLFHQVHGXQGHUD&UHDWLYH&RPPRQV$WWULEXWLRQ,QWHUQDWLRQDO/LFHQVH<RXDUHIUHH
+WRFRS\GLVWULEXWHWUDQVPLWDQGDGDSWWKLVZRUNEXW\RXPXVWDWWULEXWHWKLVZRUNDV
+'HFLVLRQ$QDO\VLV&RS\ULJKW7KH$XWKRU V KWWSVGRLRUJGHFDXQGHU
+D&UHDWLYH&RPPRQV$WWULEXWLRQ/LFHQVHKWWSVFUHDWLYHFRPPRQVRUJOLFHQVHVE\
+&RS\ULJKW7KH$XWKRU V
+Please scroll down for article—it is on subsequent pages
+
+With 12,500 members from nearly 90 countries, INFORMS is the largest international association of operations research (O.R.)
+and analytics professionals and students. INFORMS provides unique networking and learning opportunities for individual
+professionals, and organizations of all types and sizes, to better understand and use O.R. and analytics tools and methods to
+transform strategic visions and achieve better outcomes.
+For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+Decision Analysis
+Vol. 13, No. 4, December 2016, pp. 243–277
+ISSN 1545-8490 (print)  ISSN 1545-8504 (online)
+
+https://doi.org/10.1287/deca.2016.0338
+© 2016 INFORMS
+
+The Metalog Distributions1
+Thomas W. Keelin
+Keelin Reeds Partners, Menlo Park, California 94025, tomk@keelinreeds.com
+
+T
+
+he metalog distributions constitute a new system of continuous univariate probability distributions designed
+for flexibility, simplicity, and ease/speed of use in practice. The system is comprised of unbounded, semibounded, and bounded distributions, each of which offers nearly unlimited shape flexibility compared to
+previous systems of distributions. Explicit shape-flexibility comparisons are provided. Unlike other distributions
+that require nonlinear optimization for parameter estimation, the metalog quantile functions and probability
+density functions have simple closed-form expressions that are quantile parameterized linearly by cumulativedistribution-function data. Applications in fish biology and hydrology show how metalogs may aid data and
+distribution research by imposing fewer shape constraints than other commonly used distributions. Applications in decision analysis show how the metalog system can be specified with three assessed quantiles, how
+it facilities Monte Carlo simulation, and how applying it aided an actual decision that would have been made
+wrongly based on commonly used discrete methods.
+Keywords: metalog; decision analysis; continuous probability; quantile-parameterized distributions; logistic
+distribution; continuous univariate distributions; Pearson distributions; Johnson distributions; flexible
+probability distributions; engineering design of probability distributions
+History: Received on March 24, 2015. Accepted by Editor-in-Chief Rakesh K. Sarin on August 15, 2016,
+after 3 revisions. Published online in Articles in Advance November 28, 2016.
+
+1.
+
+Introduction
+
+of CDF data, but the resulting normal distribution
+will never be a satisfactory representation if the data
+itself is indicative of a skewed or bounded distribution, of which the normal is neither. While fitting the
+same data set to the parameters of a beta distribution may yield a beta distribution with appropriate
+skewness, the resulting beta distribution may not be
+satisfactory if the data itself is representative of an
+unbounded or semibounded distribution, which the
+beta is not. Moreover, such fitting involves considerable effort and complexity since such probability distributions are often nonlinear in their parameters, lack
+a closed-form expression, or both.
+Moreover, among a set of previously named distributions that have bounds that match natural bounds
+of the data, it may be unclear which of many distributions to select. The choice of distribution can be important because it inherently imposes shape constraints
+that may or may not appropriately represent the data
+and the process that generated it. In such cases, one
+needs a distribution that has flexibility far beyond that
+of traditional distributions—one that enables “the data
+
+In economics, business, engineering, science, and
+other fields, continuous uncertainties frequently arise
+that are not easily or well characterized by previously named continuous probability distributions.
+Frequently, there are data available from measurements, assessments, derivations, simulations, or other
+sources that characterize the range of an uncertainty.
+But the underlying process that generated the data is
+either unknown or fails to lend itself to convenient
+derivation of equations that appropriately characterize its probability density function (PDF), cumulative
+distribution function (CDF), or quantile distribution
+function.
+Desiring a continuous probability distribution but
+lacking appropriate functional forms, some analysts
+have attempted to “fit” their data to previously
+named distributions, often with less-than-satisfactory
+results. For example, one may attempt to derive the
+parameters of a normal distribution from a given set
+1
+See http://www.metalogdistributions.com for Excel implementation and supporting information.
+
+243
+
+244
+
+to speak for itself” in contrast to imposing unexamined and possibly inappropriate shape constraints on
+that data. While this need applies to a wide range of
+empirically generated frequency data, it can be especially acute when a probability distribution is used to
+represent state-of-information (or belief-based) data,
+as is common in decision analysis and in an increasingly wide range of other modern applications of
+probability.
+When there are many continuous uncertainties with
+very different characteristics to represent, as is often
+the case in decision analysis, it may be simply impractical to attempt to find a continuous representation
+tailored to each uncertainty using traditional methods. So decision analysts often resort to using discrete
+(e.g., three branch) representations. These have multiple shortcomings, including that they artificially cut
+off the tails and introduce undue lumpiness into the
+analysis.
+Desiring a continuous probability distribution but
+lacking appropriate functional forms, other analysts
+have resorted to sorting their data into buckets
+to develop histograms, which have the advantage
+of being able to represent the shape and location
+of most any continuous uncertainty. However, histogram development also involves effort and complexity, often includes an arbitrary choice of bucket
+limits, and inherently results in a lumpy stair-step display rather than a smooth PDF. Maximum entropy
+methods (Abbas 2003), which strive to add no information beyond the data, similarly result in either a
+stair-step or piecewise linear PDF. When knowledge
+of smoothness is present in addition to the data, such
+formulations are less than ideal.
+For applications that require probabilistic (Monte
+Carlo) simulation, the situation of having data but not
+continuous distribution functions is even more challenging and complicated. Sampling directly from the
+data itself (discrete sampling) is not satisfactory if one
+believes there are gaps, lack of sufficient tail representation, or other shortcomings in the data. Sampling
+from bucketed data (histograms) requires programming of the buckets and is inherently lumpy. Moreover, even if an appropriate continuous distribution
+has been identified (e.g., by a data “fit” to its parameters), most continuous CDFs cannot be solved analytically for their inverse CDF (quantile function),
+which is required for simulation. So look-up tables or
+
+Keelin: The Metalog Distributions
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+nonlinear programming must be employed for each
+sample.
+The metalog family of distributions can solve all
+these problems, and it has been proven effective and
+easy to use in practice. The metalog distributions can
+effectively represent a wide range of continuous probability distributions—whether skewed or symmetric,
+bounded, semibounded, or unbounded. Scaling constants that determine shape and location are uniquely
+determined by a convenient linear transformation of
+CDF data. In contrast to other continuous distributions, there is no need for nonlinear optimization to fit
+parameters to the data. In addition, the metalog’s simple, algebraic closed forms are easy to program, making it easy to replace lumpy, stair-step, or piecewise
+linear PDF displays with smooth, continuous ones.
+For simulation applications, the metalog distributions enable the calculation of a sample from a uniformly distributed random number according to a
+simple, algebraic equation, thereby displacing any
+need to use look-up tables or nonlinear optimization for the calculation of each sample. Moreover,
+over a wide range of applications, the results of the
+simulation can be conveniently and accurately represented by a metalog, compressing what may otherwise require thousands of data points into a simple
+closed-form distributional representation.
+For direct probability assessments in decision analysis and other Bayesian applications, the metalog distributions provide a convenient way to translate CDF
+data into smooth, continuous, closed-from distribution functions that can be used for real-time feedback
+to experts about the implications of their probability
+assessments—free from the confines of other continuous distributions that have more limited flexibility.
+In practice, we have found that the resulting metalog
+often yields a more accurate and authentic representation of expert beliefs than the data itself.
+The unbounded metalog distribution is a quantileparameterized distribution (QPD) (Keelin and Powley
+2011), and might be regarded as an easier to use and
+more broadly applicable successor to the simple Q
+normal distribution introduced in that paper. Like
+the simple Q normal, the metalog distribution can
+effectively represent a wide range of unbounded
+continuous probability distributions. The metalog,
+
+Keelin: The Metalog Distributions
+
+245
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+however, has several advantages: an unlimited number of terms rather than just four (enabling more
+flexible distributional representations); closed-form,
+smooth (continuously differentiable) quantile-function
+and PDF expressions, obviating any need for lookup
+tables; closed-form analytic expressions for its central
+moments; and closed-form analytic transforms that
+conveniently express probability distributions that
+are semibounded or bounded, while retaining the
+unbounded metalog’s flexibility, smoothness, and
+ease-of-parameterization properties.
+The remainder of this paper is organized as follows. Section 2 provides an overview of the strengths
+and weaknesses of existing families of flexible distributions, desiderata, engineering methods for developing new flexible distributions, and how these methods
+have been applied previously. Section 3 applies a
+novel combination of these methods to develop the
+unbounded metalog distribution and shows how its
+flexibility compares with corresponding distributions
+from previous distribution families, including those
+of Pearson (1895, 1901, 1916), Johnson (1949), and
+Tadikamalla and Johnson (1982). Section 4 shows how
+the flexibility of unbounded the metalog along with
+its linear quantile parameterization can be propagated
+into the domain of semibounded and bounded distributions. The flexibility of these semibounded and
+bounded metalogs is analyzed and compared with
+corresponding Pearson and Johnson distributions,
+among others. Section 5 further illustrates the flexibility of the metalog distributions by showing how
+well they approximate a wide range of existing distributions. Section 6 presents applications. Applications
+in fish biology and hydrology show how metalogs
+may aid data and distribution research by imposing
+fewer shape constraints than other commonly used
+distributions. Applications in decision analysis show
+how the metalog system can be specified with three
+assessed quantiles, how it facilities Monte Carlo simulation, and how applying it aided an actual decision that would have been made wrongly based on
+commonly used discrete methods. At the end of Section 6, we provide guidelines for distribution selection
+within the metalog system, using the previous applications as examples. Section 7 offers conclusions and
+suggested directions for future research.
+
+2.
+
+Literature Review and Motivation
+
+2.1. Types of Probability Distributions
+For context, we divide probability distributions into
+three types—Type I, Type II, and Type III. Type I
+distributions can be derived from an underlying
+probability model, from which they gain much of their
+appeal and legitimacy. For example, the normal distribution was originally derived as a limiting case of the
+previously known binomial distribution (De Moivre
+1756) and is also the limiting shape for various central limit theorems. Similarly, the exponential distribution can be derived as the probability distribution of
+waiting times between events governed by a Poisson
+process. The shape of a Type I distribution is determined largely or entirely by its underlying probability model. For example, the normal distribution has
+one location parameter, , and one scale parameter, ,
+but no shape parameters. The exponential distribution
+has a single scale parameter, , but no shape parameters. Such shape restrictions make Type I distributions
+an excellent choice for practical use whenever the situation fits the probability model, and especially so
+when empirical data that would otherwise characterize the distribution are sparse or unreliable.
+Type II probability distributions gain their appeal
+and legitimacy less from an underlying probability
+model and more from their ability to represent specific probabilistic data or processes that are not known
+to correspond to an existing Type I model. Most
+commonly they are “generalizations” of other previously identified distributions, formed by adding one
+or more parameters that enable a good fit to the specific (ad hoc) data under consideration. For example,
+Mead (1965) generalized the logit-normal distribution
+(proposed previously by Johnson 1949) by adding a
+parameter that provides flexibility to fit an empirical distribution of carrot-root diameters. Theodossiou
+(1998) developed a skewed version of a generalized
+student t distribution on the basis that it provided
+a better representation of financial data (e.g., log
+daily returns of market-traded stocks) than previously
+available distributions. Theodossiou’s (1998) distribution is itself a generalization of a previously generalized student t distribution (McDonald and Newey
+1988). By now, Type II distributions published in the
+literature may number in the dozens or hundreds.
+
+246
+
+Johnson et al. (1994) detail many Type I distributions
+and Type II generalizations.
+Type III distributions gain their appeal and legitimacy from being as broadly applicable as possible.
+Unlike Type II distributions designed to match a specific class or classes of empirical data, Type III distributions would ideally match most any set of data.
+This ideal includes, but is not limited to, effectively
+representing data consistent with the numerous Type I
+and Type II distributions. Moreover, with the success
+and resurgence of the Bayesian revolution (McGrayne
+2011) and the evolution of the theory and practice of
+decision analysis (Howard 1968, Howard and Abbas
+2015; Raiffa 1968, Keeney and Raiffa 1993, Spetzler
+et al. 2016, among others), this ideal includes effectively representing Bayesian priors and other state-ofinformation-based (or belief-based) distributions over
+a very wide range of probabilistic data.
+2.2. Type III Families of Distributions
+Since no single, universally applicable distribution
+has yet been found, Type III probability distributions
+have typically been developed as “systems” or “families” of distributions. Within a given family, criteria
+are provided to enable practitioners to pick which
+particular distribution to use and how to estimate its
+parameters from data. The metalog system introduced
+by this paper is such a family of distributions.
+In his book on families of distributions, Ord (1972,
+p. v) lamented that keeping track of the “wideranging and rapidly expanding literature [on systems
+of distributions] is probably a hopeless task.” This is
+even more the case now—more than 40 years later. So,
+for this paper, we shall content ourselves with discussion of a few well-known systems of distributions—
+specifically, the Pearson (1895, 1901, 1916), Johnson
+(1949), and Tadikamalla and Johnson (1982) systems.
+We shall also discuss the general family of QPDs,
+Keelin and Powley (2011), because the unbounded
+metalog is one of these. A more complete discussion
+of Type III systems distributions can be found in Ord
+(1972) and Johnson et al. (1994).
+2.3.
+
+Type III Desiderata: Flexibility, Simplicity,
+Ease/Speed of Use
+Johnson (1949) identified several criteria for judging
+the desirability of any Type III system of distributions,
+
+Keelin: The Metalog Distributions
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+including his own. In this view, Type I considerations
+are less important than practical-use considerations
+such as flexibility, simplicity, and ease of use. Similar
+criteria were adopted and employed subsequently by
+Mead (1965) and Johnson et al. (1994), among others.
+2.3.1. Flexibility. Flexibility is the ability of the
+family to represent a wide range of probabilistic data,
+whatever their source or rationale may be. Since any
+distribution can be easily modified via linear transformation to accommodate changes in location and
+scale, shape flexibility, in contrast to location and
+scale, is key. To maximize shape flexibility in probability distribution design, one must eschew Type I
+considerations that limit flexibility. However, such
+Type I considerations may play useful a role for interpreting special cases of a more general and flexible
+distribution.
+Flexibility also includes the ability to match natural bounds, if any. For example, distances, times, volumes, and other such variables often have a natural lower bound (zero) and no specific upper bound.
+Percentages of a population or frequencies of occurrence typically have both a lower bound (zero) and an
+upper bound (one). Other variables, such as bidirectional error measurements or deviations from a point,
+may be naturally unbounded both high and low.
+2.3.2. Simplicity. Simplicity refers to the simplicity of functional form of the PDF and CDF and/or
+quantile function, ease of algebraic manipulation,
+and ease of interpretation. For example, we consider
+closed-form algebraic expressions to be simpler than
+those that include limits, integrals, statistical functions
+like beta and gamma, look-up tables, or implicitly
+defined functions that require iteration.
+2.3.3. Ease/Speed of Use. Two critical components of ease of use are ease of distribution selection
+and ease of parameter estimation. Absent Type I considerations, the literature provides incomplete guidance for distribution selection. For example, suppose
+that a practitioner has a specific set of empirical data
+that she wishes to represent with a continuous probability distribution. She knows this her data have a
+natural lower bound of zero, no natural upper bound,
+and are right skewed “sort of like a log-normal.”
+There are, however, many distributions that look
+“sort of like a log-normal.” Beyond the log-normal
+
+Keelin: The Metalog Distributions
+
+247
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+itself, these include the gamma, inverse gamma, chisquared, log gamma, log Pearson Type III, log logistic, Burr, Rayleigh, and Weibull, among others. Which
+should she choose?
+Once she has selected a potentially suitable distribution, she cannot know whether she has a good
+fit until she estimates the parameters of that distribution from her data and views the result. While
+many good parameter-estimation methods are available, there is no one method that is generally applicable and easy to use in all cases. In most cases, such
+methods need to be tailored to the particular mathematical form of the distribution under consideration,
+and even then may require a nontrivial multivariable
+nonlinear optimization that can be solved only by iteration within distribution-specific constraints (see, e.g.,
+Theodossiou 1998). For this reason, a large literature
+has evolved to address distribution-specific parameter estimation.2
+2.3.4. Today’s Requirements. Beyond ease of distribution selection and parameter estimation, ease of
+use depends on purpose and context. At the time of
+Johnson’s (1949) paper, before the advent of modern
+computers, ease of use included having readily available distribution tables, as had been published for the
+normal. Today this is much different. An easy-to-use
+family of distributions should be easy to program (or
+already be preprogrammed) within the most widely
+used analytic processing and charting environment.3
+Once programmed, it should be fast to input data, fast
+and easy to estimate parameters, fast to calculate, and
+fast to produce interpretable results.
+Today, the requirements for flexibility, simplicity,
+and especially ease/speed of use are critical and can
+make the difference between use and nonuse in practice. Decades ago, a practitioner might have had days,
+weeks, or months to select an appropriate distribution
+and to develop an accurate fit to empirical or assessed
+data for that distribution. In contrast, in today’s professional practice of decision analysis, once data have
+been assessed, a practitioner might have an hour or
+2
+
+Johnson et al. (1994), Volumes 1 and 2, provide an excellent summary and extensive literature references for parameter estimation
+for a wide range of distributions.
+3
+
+Today this is Excel.
+
+less to devote to developing, programming, and estimating parameters for a dozen continuous uncertainties with widely divergent shape and bounds
+characteristics. Distribution selection and parameter
+estimation must be fast, seamless, and largely without need for manual intervention over a wide range
+of data. Moreover, such a practitioner would need
+to be able to make convenient, rapid adjustments to
+these distributions to incorporate new information
+or other changes in state-of-information-based expert
+data and/or sensitivity analyses. Once formed, the
+resulting distributions need to be convenient for use
+in Monte Carlo simulation and ideally without the
+need for look-up tables or iteration.
+If any of these desiderata are not met, a decision
+analyst might well abandon continuous distributions
+altogether in favor of discrete approximations, despite
+their limitations of artificially cutting off the tails and
+introducing undue lumpiness into the analysis. This
+particularly challenging environment with respect to
+flexibility, simplicity, and ease/speed of use motivated our development of the metalog family.
+2.4.
+
+Engineering Design of
+Probability Distributions
+When designing Type II or Type III probability distributions to best accomplish desiderata as described
+above, one faces a wide range of choices. These are
+summarized in a strategy table (Howard and Abbas
+2015, pp. 775–776; Spetzler et al. 2016, pp. 56–59) in
+Table 1. The first row in each column identifies a
+key decision, and subsequent rows identify specific
+options that are available for that decision. Table 1
+is not meant to cover all possible cases, but rather is
+intended to be illustrative of key choices that have
+been made by previous researchers and to provide
+context for understanding the metalog family. It is
+also intended to provide a point of reference for future
+researchers who wish to develop new probability distributions or systems of distributions.
+As shown in this table, when designing Type II or
+Type III probability distributions, it is common to start
+with a particular form of a particular base distribution, to modify it with a particular method, to develop
+a method to estimate its parameters, and to provide
+guidance for selection of which distribution to use.
+Commonly used base distributions include the normal
+
+Keelin: The Metalog Distributions
+
+248
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Table 1
+
+Strategy Table for Engineering Probability Distributions
+
+Base
+distribution
+
+Form
+modified
+
+Modification
+method
+
+Parameter
+estimation
+
+Distribution
+selection
+
+Normal
+
+Probability density function
+
+Parameter addition
+
+Method of moments
+
+Match moments
+
+Logistic
+
+Cumulative distribution function
+
+Parameter substitution
+
+Maximum likelihood
+
+Match bounds
+
+Student t
+
+Quantile function (inverse CDF)
+
+Transformation
+
+Probability-weighted
+and L moments
+
+…
+
+…
+
+Characteristic function
+
+Series expansion
+
+Quantile parameterization
+
+(Edgeworth 1896, 1907; Pearson 1895, 1901, 1916;
+Johnson 1949), logistic (Tadikamalla and Johnson 1982,
+Balakrishnan 1992), and student t (McDonald and
+Newey 1988, Theodossiou 1998). Commonly modified forms—any of which fully specify a probability
+distribution—include the probability density function
+(Edgeworth 1896, 1907; Pearson 1895, 1901, 1916);
+Tadikamalla and Johnson 1982), cumulative distribution function (Burr 1942), quantile function (Karvanen
+2006, Keelin and Powley 2011), and characteristic
+function (Ord 1972, pp. 26–29). Commonly used
+modification methods include parameter addition
+(Mead 1965, McDonald and Newey 1988, Theodossiou
+1998), parameter substitution (substituting an expression for one or more parameters; Pearson 1895, 1901,
+1916), transformation (Johnson 1949, Tadikamalla and
+Johnson 1982, Hadlock and Bickel 2016), and series
+expansion (Edgeworth 1896, 1907).4 Commonly used
+parameter estimation methods include the method
+of moments (Pearson 1895, 1901, 1916), method of
+maximum likelihood,5 probability-weighted moments
+(Greenwood et al. 1979), L moments (Hosking 1990),
+and quantile parameterization (Keelin and Powley
+2011, Hadlock and Bickel 2016). For distribution selection within a family, the traditional method has been to
+select a distribution capable of matching the moments
+(Pearson 1895, 1901, 1916) of frequency data. But,
+4
+
+Johnson et al. (1994) and Ord (1972) provide perspectives on Gram–
+Charlier, Edgeworth, and other series expansions.
+5
+
+Aldrich (1997) chronicles the development of maximum likelihood by R. A. Fisher during 1912–1921.
+
+given sufficient flexibility to match moments, one can
+also select a distribution based on natural bounds or
+other criteria.
+To provide context for the metalog family, we now
+show how previous researchers developed families of
+Type III distributions by making a coordinated set of
+choices across the columns of Table 1. We also cite
+strengths and limitations of these families.
+The first family of continuous distributions was developed by Karl Pearson (1895, 1901, 1916). In Pearson’s time, more and more people, Pearson among
+them, were recognizing that the normal distribution was not the universal “end-all” of continuous
+probability distributions. Specifically, it had become
+increasingly evident that many probabilistic data sets,
+survival data, for example, exhibited skewness and
+kurtosis characteristics that the normal distribution
+could neither explain nor represent. So Pearson set out
+to develop a system of continuous distributions with
+variable skewness and kurtosis characteristics.
+In terms of Table 1, he selected the normal as his
+base distribution, the differential equation that characterizes the normal density function as the form to
+modify, and parameter substitution as his modification method. Specifically, he substituted a quadratic
+function of the random variable X for the otherwise
+constant variance ( 2 5 in the denominator of this differential equation. This substitution effectively introduced variable skewness and kurtosis parameters into
+his system. Depending on the values of these parameters, Pearson’s generalized-normal-density differential equation has a dozen solutions (Ord 1972).
+
+Keelin: The Metalog Distributions
+
+249
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+These include the normal, beta, uniform, exponential,
+gamma, chi-square, F , student t, and Cauchy distributions, among others.
+As shown in Figure 1,6 Pearson’s system was the
+first to collectively cover the entire accessible7 space
+of combinations of third and fourth central moments.
+Zero-flexibility distributions show up as points in this
+diagram. These include the normal, uniform, logistic,
+Gumbel, and exponential. The flexibility range of triangular distributions is limited to a short line segment
+as shown. In contrast, bounded Pearson distributions
+(the beta) are sufficiently flexible to cover the entire
+accessible area above the Pearson 3 line.8 Unbounded
+Pearson distributions (Pearson 4 and student t) cover
+the area below the Pearson 5 line. Because they are
+symmetrical, t distributions with various degrees of
+freedom (df) show up as points on the vertical axis.
+The area between the Pearson 3 and 5 lines and inclusive of them is the flexibility range for semibounded
+Pearson distributions (gamma, chi-square, F , inverse
+gamma, and inverse chi-square).
+So while there is at least one Pearson distribution available for each point in Figure 1, Pearson’s
+system offers zero flexibility for choosing boundedness at a given point. For example, if a practitioner
+needs a semibounded distribution with a combination of skewness and kurtosis that is either above
+the Pearson 3 line or below the Pearson 5 line, there
+is no Pearson distribution that satisfies this need.
+Moreover, given a particular combination of skewness and kurtosis, the Pearson system has zero flexibility to match higher-order moments. This follows
+from observing that Pearson introduced only two
+additional parameters into the normal distribution.
+6
+
+Figure 1 is the format traditionally used to display the flexibility of families of continuous distributions. See Ord (1972), Johnson
+(1949), Johnson et al. (1994), and Tadikamalla and Johnson (1982),
+among others. The horizontal axis measures skewness in terms of
+the square of the standardized skewness, while the vertical axis is
+standardized kurtosis. This standardization ensures that 1 and 2
+are location and scale independent. See Section 3.4 below for precise definitions.
+
+Finally, Pearson’s skewed unbounded distribution
+(the Pearson 4) is so difficult to use that now, a century later, researchers are still looking for practical
+ways to do so (Nagahara 1999, Cheng 2011).
+The Johnson (1949) and Tadikamalla and Johnson
+(1982) families of distributions have similar limitations. In terms of Table 1, Johnson (1949) selected the
+normal as his base distribution and transformed it
+using log, logit, and hyperbolic-sine transformations
+to produce his “S” family of distributions that, like
+Pearson’s family, covers the entire accessible space
+of Figure 1. However, the only semibounded distribution within that family is the log-normal, which
+is limited to the log-normal line. All S distributions
+above that line are bounded, and all below it are
+unbounded. Tadikamalla and Johnson’s (1982) “L”
+family is similar except that it takes the logistic in
+place of the normal as its base distribution. Semibounded distributions within the L family are limited
+to the log-logistic line, while all L distributions above
+it are bounded and below it are unbounded. Moreover, all distributions within both of these families
+have two or fewer shape parameters, implying that,
+like Pearson’s family, these families have no flexibility
+to match higher-order moments.
+Other noteworthy families of distributions are
+based on series expansion. Best known are the Edgeworth and Gram–Charlier series expansions of the
+normal density function. While in theory these expansions have flexibility to match higher-order moments,
+they tend to be limited to modest areas in the 1 − 2
+plane by difficulty of parameter estimation and other
+practical considerations.4
+In contrast, as presented below, the metalog family
+provides a choice of boundedness for a wide range of
+combinations of skewness and kurtosis, flexibility to
+match higher-order moments, and a straightforward
+method for parameter estimation.
+
+3.
+
+The Unbounded Metalog
+Distribution
+
+7
+
+“Accessible” in this context refers to the area below the “upper
+limit for all distributions” line in Figure 1.
+8
+
+“Pearson 3,” “Pearson 4,” etc., are synonymous with the terms
+“Pearson Type III,” “Pearson Type IV,” etc., as commonly used elsewhere in the literature.
+
+3.1. A Generalized Logistic Distribution
+In terms of Table 1, our development of the metalog family starts with the logistic as a base distribution, introduces modifications to its quantile function,
+
+Keelin: The Metalog Distributions
+
+250
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 1
+
+Flexibility and Bounds Limitations of Pearson Distributions
+1
+uniform
+2
+normal
+
+triangular
+
+3
+
+logistic
+
+4
+∞
+
+15
+t
+
+Up
+per
+l
+
+Gumbel
+
+5
+
+imi
+t
+
+for
+
+all
+
+6
+
+dis
+
+trib
+
+utio
+
+7
+5
+
+8
+
+rm
+no
+
+g-
+
+log
+
+exponential
+
+ic
+
+ist
+
+9
+
+al
+
+g
+-lo
+
+4
+
+10
+
+F
+
+Pe
+a
+
+a
+Pe
+
+11
+
+rs
+on
+
+3
+
+n
+
+o
+rs
+
+(g
+
+5
+
+2 (kurtosis)
+
+ns
+
+lo
+
+df: 6
+
+7
+
+v
+(in
+
+12
+
+am
+m
+
+Pearson bounded
+(beta)
+
+se
+
+er
+
+a,
+c
+
+m
+
+Pearson
+eW_[Tag`VWV
+
+m
+a,
+
+14
+
+hisq
+u
+
+are
+
+ga
+
+13
+
+)
+
+se
+er
+
+inv
+
+15
+
+ch
+i-s
+qu
+
+16
+
+e)
+
+ar
+
+17
+18
+
+Pearson
+unbounded
+(Pearson 4,t )
+
+19
+20
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+1
+
+and uses three of the Table 1 modification methods—
+parameter substitution, transformation, and series
+expansion.
+Among its Type I interpretations, the logistic is the
+limiting distribution of the midrange sample (average
+of largest and smallest random samples) as sample
+size approaches infinity. We chose it as a base distribution, however, not because of its Type I interpretations, but because of its simple closed-form
+expressions for PDF, CDF, and quantile functions;
+smoothness and symmetry; infinite differentiability in
+closed form; tail behavior that is “in between” the
+lighter-tailed beta and normal distributions and the
+heavier-tailed student t distributions; and its wide
+range of fully investigated and well-known properties
+(Balakrishnan 1992).
+
+6
+
+7
+
+8
+
+9
+
+10
+
+(skewness∧2)
+
+In terms of which form to modify, we have chosen the quantile function. Like Burr (1942), we prefer
+to start with a closed-form CDF or quantile function
+because, assuming differentiability, either one can be
+easily differentiated to find the PDF. In contrast, starting with the PDF often leads to a form that cannot be
+conveniently integrated to find the CDF or quantile
+function. We have chosen to modify the quantile function in particular because, in contrast to the CDF, it
+expresses the value x of a random variable as a function of probability y, thereby having the simplicity of
+being scale independent of x and also guaranteeing
+ease of use in Monte Carlo simulation.9 Moreover, the
+9
+
+In Monte Carlo simulation via the inverse transform method, uniformly distributed random samples of y can simply be inserted
+
+Keelin: The Metalog Distributions
+
+251
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 2
+
+(Color online) Skewed Distributions Produced by Systematically Varying the Standard Deviation Parameter of a Logistic Distribution
+0.14
+0.13
+0.12
+0.11
+0.10
+0.09
+0.08
+0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0
+25
+
+30
+
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+x
+
+logistic quantile function in particular is linear in its
+parameters, and thus is already a QPD10 prior to any
+modification. The logistic quantile function is
+ + s ln
+
+y
+1−y
+
+for 0 < y < 11
+
+(1)
+
+where  is the mean, median, and mode, and s is
+√
+proportional to standard deviation  = s/ 3.
+For modification method, we use a combination of
+parameter substitution (following Pearson’s lead) and
+series expansion, where ai ’s are real constants:
+ = a1 + a4 4y − 0055 + a5 4y − 00552 + a7 4y − 00553
++ a9 4y − 00554 + · · · 1
+
+(2)
+
+s = a2 + a3 4y − 0055 + a6 4y − 00552 + a8 4y − 00553
++ a10 4y − 00554 + · · · 0
+
+(3)
+
+into a closed-form quantile function to yield corresponding samples of x. This is trivially simple for closed-form quantile functions
+in contrast to the nonlinear optimization or look-up tables typically
+required otherwise.
+10
+
+Keelin and Powley (2011) provide definitions, moments derivation, linear parameter estimation, and other QPD properties that
+we further build upon in this paper.
+
+Substituting these series expansions for the parameters  and s is easily interpreted. Note that the
+unmodified logistic distribution (1) is smooth, symmetric, unimodal, and unbounded. Imagine how its
+shape might change if the otherwise-constant  and s
+were to change systematically. For example, given a
+systematically increasing standard deviation parameter as one moves from left to right it, is natural to visualize that a right skewed distribution
+would result. Alternatively, if the standard deviation
+parameter decreases when moving from left to right,
+one might visualize that a left skewed distribution
+would result. A range of such distributions is shown
+in Figure 2.
+Similarly, one can envision that increasing  from
+left to right would make a distribution fatter in
+the middle and therefore have lighter tails. And by
+systematically decreasing it as one moves from left
+to right, the distribution would become thinner (or
+spikier) in the middle with correspondingly heavier tails. A range of such distributions is shown in
+Figure 3.
+Regarding (2) and (3), our choice of an unlimited
+number of series-expansion terms for modifying 
+
+Keelin: The Metalog Distributions
+
+252
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 3
+
+(Color online) Symmetric Distributions Produced by Systematically Varying the Mean Parameter of a Logistic Distribution
+0.10
+0.09
+0.08
+0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0
+25
+
+30
+
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+x
+
+and s might be envisioned to provide nearly unlimited shape flexibility, the specifics of which we explore
+in Section 3.5.
+Substituting (2) and (3) into the logistic quantile
+function (1) yields a generalized logistic quantile function, where n is the total number of series terms
+in use:
+Mn 4y5 = a1 + a2 ln
+
+y
+y
++ a3 4y − 0055 ln
+1−y
+1−y
+
++ a4 4y − 0055 + · · · 0
+
+(4)
+
+For Mn 4y5 to be a valid quantile function of a continuous distribution, it must be strictly increasing as a
+function of y; that is, d6Mn 4y57/dy > 0 for all y ∈ 401 15.
+Applying this requirement to (4) leads to a feasibility
+condition on the constants ai :
+
+
+a2
+y − 005
+y
++ a3
++ ln
++ a4 + · · · > 0
+y41 − y5
+y41 − y5
+1−y
+for all y ∈ 401 150
+
+(5)
+
+For example, if ai = 0 for all i ≥ 3, then a2 must be
+positive for this condition to hold. Since (4) reduces
+to (1) in this case, the requirement that a2 be positive
+
+is equivalent to requiring that the standard deviation
+be positive, which must be true for any probability
+distribution. Equation (5) is the generalization of this
+requirement that corresponds to the generalized quantile function (4). Any set of constants a = 4a1 1 0 0 0 1 an 5
+that satisfies (5) we shall henceforth call feasible.
+The order of the terms in (2), (3), and (4) is somewhat arbitrary and could be changed without loss
+of generality. We chose the order such that the first
+term would be the median, the second term would
+be a base shape (the logistic) that subsequent terms
+modify, the third term would primarily modify skewness, the fourth term would primarily modify kurtosis, and subsequent terms would alternate in further
+refining the s and  parameters in (3) and (2), respectively. The third and fourth terms could be reversed
+if one wanted, for example, the third term to modify kurtosis and the fourth term to modify skewness.
+This would be useful in a situation where n = 3 and
+it is known from a priori considerations that a symmetric distribution with variable kurtosis properties
+is appropriate.
+Since (4) is linear in the constants a = 4a1 1 0 0 0 1 an 5,
+so can be the parameter estimation of these constants.
+
+Keelin: The Metalog Distributions
+
+253
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Given a set of m distinct CDF data points 4x1 y5 where
+x = 4x1 1 0 0 0 1 xm 5, y = 4y1 1 0 0 0 1 ym 5, the constants are
+related to the data by a set of linear equations:
+y1
+y1
++ a3 4y1 − 0055 ln
+1 − y1
+1 − y1
++ a4 4y1 − 0055 + · · · 1
+y2
+y2
+x2 = a1 + a2 ln
++ a3 4y2 − 0055 ln
+1 − y2
+1 − y2
++ a4 4y2 − 0055 + · · · 1
+00
+0
+ym
+ym
+xm = a1 + a2 ln
++ a3 4ym − 0055 ln
+1 − ym
+1 − ym
++ a4 4ym − 0055 + · · · 0
+x1 = a1 + a2 ln
+
+Equivalently, x = Ya, where x and a are column vectors, and Y is the m × n matrix
+
+y
+y
+4y1 −0055ln 1
+4y1 −0055 ···
+1 ln 1
+1−y1
+1−y1
+
+
+00
+
+
+Y=
+0
+0
+
+
+ym
+ym
+1 ln
+4ym −0055ln
+4ym −0055 ···
+1−ym
+1−ym
+
+
+If m = n and Y is invertible, then a is uniquely determined by a = Y−1 x. If m ≥ n and Y has rank of
+at least n, then a is can be conveniently estimated
+using the familiar linear least squares equation a =
+6YT Y7−1 YT x, which reduces to a = Y−1 x when m = n.11
+As such, this parameter estimation method can be
+interpreted as the maximum likelihood estimator if a
+Gaussian noise model is assumed. Note that it scales
+directly with n, the number of series terms in use. The
+size of the matrix to be inverted is n × n regardless of
+the number of data points m.
+These observations give rise to the following definitions and formalizations.
+3.2. Metadistributions
+We use the term “metadistribution” to reference the
+class of a probability distributions that generalize a
+base distribution by substituting for one or more of
+its parameters an unlimited number of shape parameters. In doing so, the shape of a metadistribution
+“goes beyond” the shape of the base distribution with
+11
+
+Keelin and Powley (2011) also includes a weighted least squares
+formulation as an option for providing additional shape flexibility.
+
+considerable added flexibility. To be useful, a metadistribution must also be associated with a practical
+method for estimating its parameters.
+The generalized logistic distribution above is one
+specific example of a metadistribution, which we formally define below as the “metalog” distribution. The
+term “metalog” is short for “metalogistic.”
+Whenever the functional form of a base distribution
+is linear in its parameters, as is true for the quantile
+function of the logistic distribution, one can employ
+the same theoretical development method as above to
+create a new metadistribution. For example, a metanormal distribution can be developed by replacing (1)
+with the normal quantile function
+ + ê −1 4y51
+where ê is standard normal CDF, and 0 < y < 1. If one
+then substitutes series expansions like (2) and (3) for 
+and , the “meta-normal” follows from the same subsequent development as in Section 3.1. Similarly, one
+could develop meta-Gumbel and meta-exponential
+distributions—since these too possess quantile functions that are linear in their parameters.
+Such metadistributions defined with respect to
+quantile functions, including the metalog, are generally quantile parameterized distributions as defined
+by Keelin and Powley (2011). The simple Q normal
+distribution used for illustration in that paper is akin
+to the first several terms of the meta-normal.
+Our initial explorations of the meta-normal distribution show that its flexibility properties are similar to those of the metalog, which we discuss below.
+For this paper, we have chosen to develop the metalog rather than the meta-normal because of its simple
+closed-form expression and greater ease of use compared to the meta-normal, which requires non-closedform look-up tables. For many practical applications,
+either would suffice.
+3.3. The Metalog Distribution
+We define the metalog distribution by formalizing the
+generalized logistic distribution of Section 3.1. Note
+that we have subsumed the linear-least-squares solution for a within the following definition to express
+the metalog, consistent with practical needs, as a function of its quantile parameters 4x1 y5.
+
+Keelin: The Metalog Distributions
+
+254
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Definition 1 (Metalog Quantile Function). The
+metalog quantile function with n terms is
+Mn 4y3x1y5 =
+y
+a1 +a2 ln
+for n = 21
+1−y
+y
+y
+a1 +a2 ln
++a3 4y −0055ln
+1−y
+1−y
+y
+y
+a1 +a2 ln
++a3 4y −0055ln
+1−y
+1−y
+
+
+
+Yn−1
+
+
+4y1 −0055n/2−1 ln4y1 /41−y1 55
+00
+
+
+0
+
+4ym −0055n/2−1 ln4ym /41−ym 55
+
+for even n ≥ 6. (8)
+In the special case of m = n, (7) reduces to a = Yn−1 x.
+for n = 31
+Definition 2 (Metalog PDF). Differentiating (6)
+with respect to y and inverting the result yields the
+metalog PDF:12
+
++a4 4y −0055 for n = 41
+mn 4y5 =
+
+Mn−1 +an 4y −00554n−15/2
+
+for odd n ≥ 51
+y
+Mn−1 +an 4y −0055n/2−1 ln
+for even n ≥ 61
+1−y
+
+y41−y5
+a2
+
+(6)
+
+where y is cumulative probability, 0 < y < 1. Given
+x = 4x1 1 0 0 0 1 xm 5 and y = 4y1 1 0 0 0 1 ym 5 of length m >= n
+consisting of the x and y coordinates of CDF data, 0 <
+yi < 1 for each yi , and at least n of the yi ’s are distinct,
+the column vector of scaling constants a = 4a1 1 0 0 0 1 an 5
+is given by
+a = 6YnT Yn 7−1 YnT x1
+
+a2
++a3
+y41−y5
+
+
+
+1
+
+y −005
+y
++ln
+y41−y5
+1−y
+
+for n = 31
+
+1
+
+for n = 41
+a2
+y −005
+y
++a3
++ln
++a4
+y41−y5
+y41−y5
+1−y
+
+−1
+n−1
+1
++an
+4y −00554n−35/2
+for odd n ≥ 51
+mn−1 4y5
+2
+
+
+
+
+4y −0055n/2−1
+n
+1
++an
++
+−1
+mn−1 4y5
+y41−y5
+2
+−1
+y
+·4y −0055n/2−2 ln
+for even n ≥ 60 (9)
+1−y
+
+
+(7)
+
+where YnT is the transpose of Yn , and the m × n
+matrix Yn is
+Yn =
+
+y 
+1 ln 1
+1−y1 
+
+00
+
+
+
+ for n = 21
+0
+
+ym 
+1 ln
+1−ym
+
+
+y
+y
+1 ln 1
+4y1 −0055ln 1
+1−y1
+1−y1 
+
+00
+
+
+ for n = 31
+
+0
+
+ym
+ym 
+1 ln
+4ym −0055ln
+1−ym
+1−ym
+
+
+y1
+y1
+1 ln
+4y1 −0055ln
+y1 −005
+1−y1
+1−y1
+
+
+00
+
+
+
+ for n = 41
+0
+
+
+ym
+ym
+1 ln
+4ym −0055ln
+ym −005
+1−ym
+1−ym
+
+
+4y1 −00554n−15/2
+00
+
+
+Yn−1
+ for odd n ≥ 51
+0
+4ym −00554n−15/2
+
+for n = 21
+
+Note that the PDF mn 4y5 is expressed as a function
+of cumulative probability y. To plot this PDF as is
+customary, with values of random variable X on the
+horizontal axis, use Mn 4y5 on the horizontal axis and
+mn 4y5 on the vertical axis, and vary y ∈ 401 15 to produce the corresponding values on both axes.
+For (6) and (9) to be a valid probability distribution,
+the matrix YnT Yn must be invertible, and the constants a
+must be feasible. Since (6) is a QPD, invertibility is
+guaranteed in all but pathological cases.13
+12
+
+For proof that this method yields the PDF, see Keelin and Powley
+(2011).
+13
+
+“If such a [pathological] case were to occur, a small perturbation
+would solve the problem. In practical applications, we have never
+encountered a case where 0 0 0 [the matrix that needs to be inverted]
+is singular” (Keelin and Powley 2011, p. 212).
+
+Keelin: The Metalog Distributions
+
+255
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Regarding feasibility, note that mn 4y5 is the reciprocal of the feasibility expression on the left-hand side
+of (5). Since this expression is positive if and only if
+its reciprocal is positive, it follows that the feasibility
+condition (5) can be restated stated as
+mn 4y5 > 0
+
+for all y ∈ 401 153
+
+(10)
+
+that is, a is feasible if and only if mn 4y5 is everywhere
+positive, and for any feasible a, mn 4y5 is the probability density function that corresponds to (6).
+Note that we have placed no constraints on the
+data 4x1 y5. As such, there is no guarantee that any
+particular data set will lead to feasibility. Indeed,
+many data sets will not. If in doubt, feasibility must
+be checked according to (5) or (10). In practice, this
+means computing or plotting mn 4y5 and ensuring that
+the result is positive over all y ∈ 401 15. If so, then a
+is feasible and mn 4y5 is a valid probability density
+function. Later in this paper, we provide closed-form
+constraints on the data 4x1 y5 that ensure feasibility
+for the case of n = 3. Any data set 4x1 y5 that yields
+feasible constants a we shall henceforth call feasible.
+Given feasibility, certain special cases of these constants can be readily interpreted. In all cases, a1 is the
+median, as is evident from observing that all subsequent terms are zero when y = 005. Constants ai for
+i ≥ 2 determine shape. When a2 > 0 and ai = 0 for all
+i ≥ 3, (6) is a logistic distribution exactly, with a2 being
+directly proportional to the standard deviation, as is
+obvious by comparison with (1). When ai = 0 for i ≥ 4,
+a3 primarily controls skewness. Increasing a3 from
+zero results in an increasingly right-skewed distribution, while increasingly negative values of a3 result in
+an increasingly left-skewed distribution. When a4 > 0
+and a2 = 0, a3 = 0, and ai = 0 for i ≥ 5, (6) reduces
+to a linear function of y, which means that it is a
+uniform distribution exactly. More generally, when
+a2 > 0, a3 = 0, and ai = 0 for i ≥ 5, a4 determines kurtosis. Increasing a4 from zero reduces kurtosis, resulting in a symmetric distribution that is fatter than a
+logistic in its midrange with correspondingly lighter
+tails (e.g., more like a normal or symmetric beta distribution than a logistic). Reducing a4 from zero into
+increasingly negative values increases kurtosis, producing a distribution that is narrower than a logistic in its midrange with correspondingly heavier tails
+
+(e.g., more like a student t distribution with eight or
+fewer degrees of freedom).
+Generally, the metalog, like the logistic, is unbounded. However, it is bounded in the special case
+that ai = 0 for all i ∈ 821 31 all even numbers ≥ 69. This
+is evident from observing that this is the particular
+set of ai ’s that multiplies the unbounded expression
+ln4y/41 − y55 in (6). If all these ai ’s are zero, then only
+bounded terms remain. Table 2 summarizes the above
+interpretations.
+3.4. Metalog Moments
+We use traditional notation for moments of the n-term
+metalog distribution Mn :
+0k1 n
+k1 n
+n
+1
+2
+
+kth moment;
+kth central moment;
+1/2
+standard deviation = 21 n ;
+square of standardized skewness = 431 n /n3 52
+(horizontal axes of Figures 1, 4, 6, and 7); and
+standardized kurtosis = 41 n /n4 (vertical axes
+of Figures 1, 4, 6, and 7).
+
+Since the metalog is a QPD, then, as shown by Keelin
+and Powley (2011), its kth moment is given simply by
+the integral of the kth power of the quantile function
+0k1n =
+
+Z 1
+y=0
+
+6Mn 4y3 x1 y57k dy0
+
+For n = 5 terms, this integral yields an explicit expression in closed form for the mean
+011 5 = a1 +
+
+a3 a5
++
+2
+12
+
+(mean)1
+
+from which it follows that the kth central moment for
+the 5-term metalog is given by
+
+
+a3 a5 k
+k1 5 =
+M5 4y3 x1 y5 − a1 + +
+dy0
+2
+12
+y=0
+Z 1 
+
+Though tedious to solve by hand, this integral can be
+shown to yield the following central moments of M5
+as closed-form polynomial expressions of the ai ’s:
+21 5 =
+
+
+
+1 2 2
+1 2 2
+a2
+ a2 +
++
+a3 +a2 a4 + 4
+3
+12 36
+12
+aa
+a2
++ 3 5+ 5 1
+12
+180
+
+(variance);
+
+Keelin: The Metalog Distributions
+
+256
+
+Table 2
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Interpreting Metalog Constants
+
+Constants
+
+Interpretations
+
+a1
+
+Location, median
+
+k ∗ 8ai for all i ≥ 29, where k > 0
+ai for all i ≥ 2
+a2 > 0, ai = 0 for all i ≥ 3
+a4 > 0, ai = 0 for all i ∈ 821 31 integers > 49
+a2 > 0, a4 > 0, and ai = 0 for i ∈ 831 integers ≥ 59;
+a2 and a4 need not sum to 1
+
+k is a scale parameter
+Shape
+Mn is a logistic distribution
+Mn is a uniform distribution
+Mn is a mixture of logistic and uniform distributions, where a1 is the mean and median of both.
+Mn is unimodal and symmetric. In Figure 4, Mn plots to the vertical line segment from
+401 1085 to 401 4025.
+Mn is unimodal and symmetric. In Figure 4, Mn plots to the vertical line segment from 401 4025
+to 401 17025.
+
+a2 > 0, a4 < 0, a4 /a2 ≥ −4, and ai = 0 for all
+i ∈ 831 integers ≥ 59
+a2 > 0, −1067 < a3 /a2 < 1067, and ai = 0 for all i ≥ 4
+
+Mn is unimodal and right skewed if a3 > 0, unimodal and left skewed if a3 < 0. In Figure 4,
+Mn plots to the “3-term metalog” line segment from 401 4025 to 440291 80585.
+
+ai = 0 for all i ∈ 821 31 all even numbers ≥ 69
+ai 6= 0 for any i ∈ 821 31 all even numbers ≥ 69
+
+Mn is bounded
+Mn is unbounded
+
+1 2 3 1
+1
+1
+ a3 + a2 a3 a4 +  2 a2 a3 a4 + a3 a24
+24
+2
+6
+8
+1
+1
+1
++a22 a5 + a23 a5 +
+ 2 a23 a5 + a2 a4 a5
+24
+180
+4
+3
+1
+a
+1 2
+a a2 + 5 1 (skewness);
++ a4 a5 +
+60
+120 3 5 3,780
+
+31 5 =  2 a22 a3 +
+
+41 5 =
+
+7 4 4 3 2 2 2 7 4 2 2 a43
+1
+ a2 +  a2 a3 +  a2 a3 + +  2 a43
+15
+2
+30
+80 24
+1
+2
+7 4 a43
++2 2 a32 a4 + a2 a23 a4 +  2 a2 a23 a4
++
+1,200
+2
+3
+1
+1
+1
+1
++2a22 a24 +  2 a22 a24 + a23 a24 +  2 a23 a24 + a2 a34
+6
+8
+40
+3
+4
+a
+1
+1
+1
++ 4 +a22 a3 a5 +  2 a22 a3 a5 + a33 a5 +  2 a33 a5
+80
+2
+24
+40
+2
+3
+1
+5
++ a2 a3 a4 a5 +  2 a2 a3 a4 a5 + a3 a24 a5 + a22 a25
+6
+45
+40
+6
+2 2 2
+1
+11 a3 a5 1
+1
++ a2 a4 a25
++  2 a22 a25 + a23 a25 +
+90
+45
+7,560
+15
++
+
+11a24 a25
+1
+a45
++
+a3 a35 +
+1
+2,520 420
+15,120
+
+(kurtosis).
+
+As k and n increase, the number of polynomial terms
+increases, but within a pattern that continues with
+the kth central moment of the n-term metalog being a
+closed-form kth order polynomial of the ai ’s. For example, the ninth central moment of the 5-term metalog
+91 5 has a closed-form expression that consists of a
+ninth-order polynomial in the ai ’s with 297 terms. The
+fourth central moment of the 10-term metalog 41 10
+has 474 terms. These central moments are available
+
+at http://www.metalogdistributions.com. For all such
+central moments k1 n , the central moments of k1 j
+where j < n can be calculated from k1 n simply by setting ai = 0 for all i > j.
+Given central moments in closed form, corresponding closed-form cumulants can also be calculated.
+Thus, the cumulants of the sum of independent (irrelevant, according to Howard and Abbas 2015) metalogdistributed random variables can be expressed in closed
+form as the sum of the cumulants of these random
+variables.
+3.5. Metalog Shape Flexibility
+The shape flexibility of the metalog expands with the
+number of terms in use. As shown in Figure 4, for
+n = 2, the metalog reduces to a logistic distribution
+and thus to the single point (0, 4.2). For n = 3, metalog shape flexibility expands from a point to a line
+segment as shown. This line segment contains the full
+range of shapes shown in Figure 5.
+For n = 4, the metalog shape flexibility further
+expands to include all of area within “4-term metalog”
+envelope.14 This area encompasses many common
+distributions including normal, uniform, triangular,
+14
+
+Since the metalog is parameterized by data rather than moments,
+we derived the metalog flexibility limits in Figure 4 by varying a =
+4a1 1 0 0 0 1 an 5 over its feasible range and deriving the corresponding
+(1 , 2 ) feasible range from the moments expressions in Section 3.4.
+This process was enhanced by Keelin and Powley’s (2011) proof
+that the set of feasible a = 4a1 1 0 0 0 1 an 5 is convex.
+
+Keelin: The Metalog Distributions
+
+257
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 4
+
+(Color online) Shape Flexibility for Two- to Four-Term Metalog Distributions
+1
+uniform
+2
+normal
+
+triangular
+
+3
+
+logistic
+
+3-term metalog
+4
+Gumbel
+5
+2-term
+metalog
+
+Up
+
+per
+
+6
+
+lim
+it fo
+
+r al
+
+7
+
+l di
+
+gis
+tic
+
+2 (kurtosis)
+
+al
+
+-lo
+
+9
+
+ns
+
+exponential
+
+rm
+
+8
+
+no
+
+log
+
+g-
+
+lo
+
+stri
+but
+io
+
+4-
+
+ter
+
+10
+
+m
+
+me
+ta
+
+Pe
+
+11
+
+log
+
+Pearson bounded
+
+ar
+
+12
+
+so
+n3
+
+ar
+Pe
+n5
+
+so
+
+13
+14
+
+Pearson
+semibounded
+
+15
+16
+17
+
+4-term metalog
+
+18
+Pearson unbounded
+
+19
+20
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+1 (skewness∧2)
+
+logistic, exponential, Gumbel, and student t distributions with four or more degrees of freedom.
+Within the 4-term metalog envelope, the Pearson
+family offers unbounded distributions only below
+the Pearson 5 line. In contrast, the 4-term metalog offers unbounded distributions for a significant portion of the Pearson semibounded area and
+a significant portion (primarily unimodal) of the
+Pearson bounded area. Similarly, the 4-term metalog offers substantial additional unbounded flexibility
+compared to the areas below the log-normal and loglogistic lines, which are the upper limits respectively
+for unbounded Johnson S and L distributions.
+There are certain relatively extreme skewness-kurtosis combinations that unbounded members of these
+other Type III families can represent that the 4-term
+metalog cannot. These include student t distributions
+
+with three or fewer degrees of freedom, and other
+distributions outside of the envelope.
+However, with 5 or more terms, the metalog can
+represent multimodal shapes and fifth- or higherorder moments. In addition, the metalog’s (1 1 2 ) coverage expands further. For example, with 10 terms,
+the metalog can reasonably represent student t distributions with three or two degrees of freedom. The
+metalog cannot effectively represent the Cauchy distribution (student t with one degree of freedom), all
+the moments of which are infinite.
+
+4.
+
+Bounded and Semibounded
+Metalogs
+
+In many cases, one knows from a priori considerations that a distribution of interest is either semibounded or bounded. For example, uncertainties
+
+Keelin: The Metalog Distributions
+
+258
+
+Figure 5
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+(Color online) Range of Shapes for the Three-Term Metalog
+(1, 2)
+0.040
+(4.3,8.6)
+
+(4.3, 8.6)
+
+0.035
+(3.0,7.2)
+
+(3.0, 7.2)
+
+0.030
+
+0.025
+(1.6, 5.8)
+
+(1.6,5.8)
+(0, 4.2)
+
+0.020
+
+0.015
+
+0.010
+
+0.005
+
+0
+0
+
+10
+
+20
+
+30
+
+involving sizes, weights, and distances might naturally have a lower bound of zero and no definite
+upper bound. Uncertainties that involve fractions of
+a population are typically are bounded between zero
+and 100%. For such cases, it is desirable to have flexible, simple, easy-to-use distributions with bounds
+that can be specified a priori.
+We now develop such distributions. In terms of
+Table 1, we use the metalog quantile function (6) as a
+base distribution and modify it using the method of
+transformation. This approach effectively propagates
+metalog shape flexibility forward into the domain
+of semibounded and bounded distributions. It also
+preserves the closed-form simplicity of (6) as well
+as the ease of use associated with linear quantile
+parameterization.
+Specifically, we use log and logit transformations,
+respectively, to produce semibounded and bounded
+members of the metalog family. These well-known
+transformations have been used previously for a
+similar purpose by Johnson (1949) and Tadikamalla
+and Johnson (1982).
+4.1.
+
+Log Metalog (Semibounded Metalog)
+Distribution
+Suppose that z = ln4x − bl 5 is metalog distributed
+according to (6), where bl is a known lower bound
+
+40
+
+50
+
+60
+
+70
+
+80
+
+for x. Setting ln4x − bl 5 equal to (6) and solving for x
+yields the log metalog quantile function with n terms:
+Mnlog 4y3 x1 y1 bl 5 = bl + eMn 4y5
+= bl
+
+for 0 < y < 11
+
+for y = 01
+
+(11)
+
+where x = 4x1 1 0 0 0 1 xm 5, m ≥ n; each xi > bl , y =
+4y1 1 0 0 0 1 ym 5, 0 < yi < 1 for each yi ; at least n of the yi ’s
+are distinct; z = 4ln4x1 − bl 51 0 0 0 1 ln4xm − bl 55 is a column
+vector; Yn is (8); and
+a = 6YnT Yn 7−1 YnT z0
+
+(12)
+
+Differentiating (11) with respect to y and inverting the
+result yields the log metalog PDF:
+−Mn 4y5
+mlog
+n 4y5 = mn 4y5e
+
+=0
+
+for y = 01
+
+for 0 < y < 11
+(13)
+
+where mn 4y5 is (9) and Mn 4y5 is (6). The log metalog
+log feasibility condition is mn 4y5 > 0 for all y ∈ 401 15.
+Since the quantity e−Mn 4y5 is always positive, this condition is equivalent to (10). Some interpretations of
+log metalog constants are provided in Table 3.
+Similarly, for representations that have a known
+upper bound bu and no lower bound, the transform
+
+Keelin: The Metalog Distributions
+
+259
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Table 3
+
+where x = 4x1 1 0 0 0 1 xm 5, each xi < bu , z = 4− ln4bu − x1 51
+0 0 0 1 − ln4bu − xm 551 y = 4y1 1 0 0 0 1 ym 51 0 < yi < 1 for
+each yi 1 and (12) determines a.
+
+Interpreting Log Metalog Constants
+
+Constants
+
+Interpretations
+
+bl
+
+Location, lower bound
+
+a1
+ai , for all i ≥ 2
+
+Scale
+Shape
+
+a2 > 0, ai = 0,
+for all i ≥ 3
+
+Mnlog is a log-logistic distribution, also known in
+economics as the Fisk distribution
+
+a4 > 0, ai = 0,
+for all i ∈ 821 31
+integers > 49
+
+Mnlog is a log-uniform distribution (i.e., ln4x − bl 5
+is uniformly distributed)
+
+4.2. Log Metalog Shape Flexibility
+Like the metalog, log metalog shape flexibility expands with the number of terms in use. However, the
+addition of a lower bound parameter bl increases the
+shape dimensionality by one for each value of n. For
+example, the 2-term metalog is a point in the (1 1 2 5
+plot, and the 3-term metalog is a line segment. In contrast, the 2-term log metalog is a line in the (1 1 2 5
+plot, and the 3-term log metalog is an area. Effectively,
+this means that for any given number of terms n, the
+log metalog is more flexible than the metalog.
+As shown in Figure 6, flexibility of the 2-term log
+metalog is simply that of the log-logistic line. Equivalently, this is the flexibility of the Fisk distribution
+in economics, which has been used in to represent
+
+z = − ln4bu − x5 yields a corresponding negative-log
+4nlog5 quantile function and PDF
+Mnnlog 4y3 x1 y1 bu 5 = bu − e−M n 4y5
+= bu
+
+for 0 < y < 11
+
+for y = 11
+
+Mn 4y5
+mnlog
+n 4y5 = mn 4y5e
+
+=0
+
+for y = 11
+
+(Color online) Shape Flexibility for Two- to Four-Term Semibounded Metalog Distributions
+1
+uniform
+2
+normal
+
+triangular
+
+3
+
+logistic
+3-term semibounded metalog upper limit
+
+4
+Gumbel
+5
+4 -t
+erm
+
+6
+
+Up
+per
+se
+
+rm
+g
+lo
+al
+rm
+
+g
+tic talo
+gis
+e
+dm
+de
+
+un
+
+-lo
+
+log
+
+bo
+mi
+
+o
+-n
+
+se
+
+8
+9
+10
+
+lim
+it fo
+r al
+l di
+stri
+un
+but
+de
+ion
+dm
+s
+eta
+log
+u
+pp
+exponential
+er
+lim
+it
+
+mi
+
+-te
+
+(2
+
+7
+
+bo
+
+Pearson
+bounded
+
+)
+
+2 (kurtosis)
+
+Figure 6
+
+for 0 < y < 11
+
+11
+12
+
+d
+de
+un
+bo limit
+mi
+se wer
+erm g lo
+3-t talo
+me
+
+13
+14
+15
+16
+
+Pearson
+eW_[Tag`VWV
+
+so
+
+n3
+
+ars
+
+Pe
+
+17
+
+Pe
+ar
+
+on
+
+18
+
+5
+
+19
+
+Pearson unbounded
+
+20
+0
+
+1
+
+2
+
+4-term semibounded metalog lower limit
+
+3
+
+4
+
+5
+
+1 (skewness∧2)
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Keelin: The Metalog Distributions
+
+260
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+survival data. The 3-term metalog increases this flexibility to cover the area between the upper and lower
+limits shown. The 4-term log metalog covers the
+expanded limits between the upper and lower 4-term
+lines shown. Unlike the “4-term metalog envelope” in
+Figure 4, these upper and lower limits extend indefinitely down and to the right corresponding to indefinitely larger values for 1 and 2 . From Figure 6,
+it is evident that this 4-term semibounded metalog
+offers far more flexibility than the Pearson (1895, 1901,
+1916) semibounded distributions. In addition, it offers
+far more flexibility than the semibounded Johnson S
+and L distributions (Johnson 1949, Tadikamalla and
+Johnson 1982, respectively), which are limited to the
+log-normal and log-logistic lines, respectively.
+With five or more terms, the log metalog’s (1 1 2 )
+coverage expands further, providing a compelling option for representing a wide range of semibounded
+distributions. In addition, additional terms provide
+additional flexibility to match fifth- and higher-order
+moments.
+4.3.
+
+Logit Metalog (Bounded Metalog)
+Distribution
+The logit metalog distribution is useful for representations that have known lower and upper bounds, bl
+and bu , respectively, where bu > bl . The logit metalog
+distribution is the metalog transform that corresponds
+to z = logit4x5 = ln44x − bl 5/4bu − x55 being metalog distributed. Setting ln44x − bl 5/4bu − x55 equal to (6) and
+solving for x yields the logit metalog quantile function with n terms:
+b + bu eMn 4y5
+Mnlogit 4y3 x1 y1 bl 1 bu 5 = l
+for 0 < y < 11
+1 + eMn 4y5
+= bl for y = 01
+= bu
+
+for y = 11
+
+(14)
+
+where x = 4x1 1 0 0 0 1 xm 51 bl < xi < bu for each xi ; y =
+4y1 1 0 0 0 1 ym 5, 0 < yi < 1 for each yi ; z = 4ln44x1 − bl 5/
+4bu − x1 551 0 0 0 1 ln44xm − bl 5/4bu − xm 555; and (12) determines a. Differentiating (14) with respect to y and
+inverting the result yields the logit metalog PDF:
+4y5 = mn 4y5
+mlogit
+n
+=0
+
+41 + eMn 4y5 52
+4bu − bl 5eMn 4y5
+
+for y = 0
+
+for 0 < y < 11
+
+or y = 11
+
+(15)
+
+where mn 4y5 is (9) and Mn 4y5 is (6). The logit metlogit
+alog feasibility condition is mn 4y5 > 0 for all y ∈
+
+Table 4
+
+Interpreting Logit Metalog Constants
+
+bl and bu
+bu − bl where
+bu > bl
+ai , for all i ≥ 1
+
+Location, lower and upper bound
+Scale
+Shape
+
+a2 > 0, ai = 0,
+for all i ≥ 3
+
+Mnlogit is a logit-logistic distribution (Wang and
+Rennolls 2005), also known as the Tadikamalla
+and Johnson LB distribution (Tadikamalla and
+Johnson 1982, Balakrishnan 1992)
+
+a1 = 0, 0 < a2 < 1,
+ai = 01 for all i ≥ 3
+a1 = 0, a2 = 1, ai = 0,
+for all i ≥ 3
+a1 = 0, a2 > 1, ai = 0,
+for all i ≥ 3
+
+Mnlogit is a unimodal logit-logistic distribution
+Mnlogit is a uniform distribution
+Mnlogit is a U-shaped, symmetric logit-logistic
+distribution
+
+401 15. Since the quantity 41 + eMn 4y5 52 /44bu − bl 5eMn 4y5 5 is
+always positive, this condition is equivalent to (10).
+Some interpretations of logit metalog constants are
+provided in Table 4.
+4.4. Logit Metalog Shape Flexibility
+Like the metalog and log metalog, logit metalog shape
+flexibility expands with the number of terms in use.
+However, the presence of an upper bound parameter
+in addition to a lower bound parameter increases the
+shape dimensionality for any value of n by two relative to the metalog and by one relative to the log metalog. For example, the two-term metalog is a point in
+the (1 , 2 ) plot and the three-term metalog is a line
+segment. In contrast, the two-term logit metalog is a
+area in the (1 , 2 ) plot and the three-term logit metalog is a broader area plus flexibility to match a fifth
+moment. Effectively, this means that for any given
+number of terms n, the logit metalog is more flexible
+than either the metalog or log metalog.
+As shown in Table 4, the two-term logit metalog is also known as the Tadikamalla and Johnson
+LB distribution. As shown in Figure 7, the flexibility of this distribution is the entire accessible area
+down to and including the log-logistic line. The threeterm logit metalog increases this flexibility to cover
+the entire accessible area down to and including the
+“3-term bounded metalog lower limit.” The fourterm logit metalog covers the entire accessible display area shown in Figure 7. Its lower limit includes
+the following points that are below that display area:
+401 215, 40011 295, 40041 405, 411 525, 41081 705, 430051 955,
+44081 1355, and (10.5,330).
+
+Keelin: The Metalog Distributions
+
+261
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 7
+
+(Color online) Shape Flexibility for Two- and Three-Term Bounded Metalog Distributions
+triangular
+
+1
+uniform
+2
+normal
+
+Up
+
+per
+
+3
+
+logistic
+
+lim
+
+it fo
+
+ra
+
+ll d
+
+istr
+
+4
+
+ibu
+
+tion
+
+s
+
+Gumbel
+
+5
+6
+log
+
+2_
+3­t
+erm
+
+ded
+
+no
+
+tic
+
+g-
+
+gis
+
+8
+
+bou
+n
+
+lo
+
+-lo
+
+7
+
+me
+talo
+gu
+
+al
+
+rm
+
+exponential
+
+ppe
+r
+
+lim
+
+it
+
+2-t
+erm
+
+10
+
+log
+
+eta
+low
+
+Pearson
+eW_[Tag`VWV
+
+er
+
+Pe
+
+it
+
+lim
+
+lowe
+
+14
+
+dm
+
+13
+
+de
+
+g
+etalo
+ed m
+ound
+
+12
+
+Pearson
+bounded
+
+un
+
+11
+
+bo
+
+rm b
+3-te
+
+2 (kurtosis)
+
+9
+
+it
+r lim
+
+15
+
+ar
+so
+
+n3
+
+16
+17
+
+ar
+
+Pe
+n
+so
+
+18
+
+5
+
+Pearson
+unbounded
+
+19
+20
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+1 (skewness∧2)
+
+Like the upper and lower limits in Figure 6, the
+upper and lower limits in Figure 7 extend indefinitely
+down and to the right.
+Thus, it is evident that the four-term bounded
+metalog offers far more flexibility than the Pearson
+bounded distributions. In addition, it offers far more
+flexibility than the Johnson S and L bounded distributions, which are limited to the areas above the lognormal and log-logistic lines, respectively.
+With five or more terms, the logit metalog’s (1 1 2 )
+coverage expands further, providing a compelling
+option for representing a wide range of bounded
+distributions. In addition, additional terms provide
+
+additional flexibility to match fifth- and higher-order
+moments.
+
+5.
+
+Metalog vs. Alternative
+Representations of Traditional
+Distributions
+
+When the CDF data 4x1 y5 are from a known source
+distribution, there would ordinarily be no need to
+represent these CDF data with a metalog. However,
+metalog representations of CDF data from previously named source distributions may provide insight
+about the range of effectiveness and limitations of
+
+Keelin: The Metalog Distributions
+
+262
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+(Color online) M5 Representation of an Extreme Value Distribution
+
+Figure 8
+
+Probability density
+0.03
+
+Metalog
+
+Source data
+
+Metalog
+
+Source
+
+0.02
+0.02
+
+y
+
+y
+
+Cumulative probability
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0
+
+0.01
+0.01
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+160
+
+x
+
+0
+0
+
+20.00 40.00 60.00 80.00 100.00 120.00 140.00 160.00
+
+x
+
+Note. Source is the extreme value 4 = 1001  = 201  = −0055.
+
+metalog representations and about metalog performance compared to alternatives. The alternatives we
+consider include a three-branch discrete approximation with 30%, 40%, and 30% probabilities assigned to
+the 10%, 50%, and 90% quantiles. They also include
+a range of QPDs, including the normal, the simple Q
+normal (Keelin and Powley 2011), the logistic, and
+metalog distributions with various numbers of terms.
+The figures and tables below compare these alternatives based on CDF data taken from a wide range of
+source distributions. In each case, we use 105 points
+from the CDF of the source distribution to parameterize the metalog and alternative representations.
+These 105 points correspond to y = 41/11000, 3/11000,
+6/11000, 10/11000, 20/110001 0 0 0 1 980/11000, 990/11000,
+994/11000, 997/11000, 999/11 0005. For each yi , the corresponding xi is the inverse CDF of the source distribution. For source distributions with known upper
+and/or lower bounds, we use the corresponding log
+or logit metalog.
+5.1. Unbounded Source Distributions
+For example, Figure 8 illustrates how M5 approximates a particular extreme value distribution 4 = 100,
+ = 20,  = −0055. Visually, the metalog CDF is virtually indistinct from that of the extreme value source
+distribution, and the PDFs are very similar. To measure the accuracy of this approximation, we use
+the Kolmogorov–Smirnoff (K–S) distance (maximum
+cumulative-probability deviation on the CDFs). For
+convenience, we measure this as the maximum over
+the 105 points defined above. In this case, the K–S
+distance is 0.009, which means that the difference
+
+between the source-distribution and M5 CDFs is
+everywhere less than 1% probability.
+Table 5 shows this K–S distance for a range of
+unbounded source distributions and approximation
+methods. Based on the rankings at the bottom of this
+table, M4 and M5 are better that the other approximation methods, and M5 is best overall.
+5.2. Semibounded Source Distributions
+For a range of semibounded source distributions, we
+similarly compare the log metalog to other approximation methods. Table 6 shows the results. The log
+metalog approximations with three to five terms generally rank better than the other methods. In addition, the log metalog approximations have the same
+bounds as the source distributions, whereas the other
+approximation methods (discrete, normal, simple Q
+normal, and logistic) do not.
+5.3. Bounded Source Distributions
+For a range of bounded source distributions, we similarly compare the logit metalog to other approximation methods. Table 7 shows the results. The logit
+metalog approximations with three to five terms generally rank better than the other methods. In addition,
+the logit metalog approximations have the same high
+and low bounds as the source distributions, whereas
+the other approximation methods do not.
+While most of the source distributions in Table 3
+are unimodal, note that Beta ( = 008,  = 009) and
+Beta ( = 009,  = 009) are bimodal (U shaped) and are
+represented by the logit metalog with a high degree of
+
+Keelin: The Metalog Distributions
+
+263
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Table 5
+
+Accuracy of Various Approximations for Unbounded Source Distributions
+K–S distance
+Approximation method
+QPD
+Discretea
+p: 30–40–30
+q: 10–50–90
+
+Normal ( = 50,  = 15)
+Logistic ( =40, s = 406)
+Student t 4df = 65
+Extreme value ( = 100,  = 20,  = −005)
+Extreme value ( = 100,  = 20,  = −002)
+Extreme value ( = 100,  = 20,  = −00025)
+Maximum
+Average
+
+Source distribution
+
+Rank based on lowest maximum
+Rank based on lowest average
+a
+
+Metalog
+
+Normal
+
+Simple
+Q normal
+
+Logistic
+
+M2
+
+M3
+
+M4
+
+M5
+
+00200
+00200
+00200
+00200
+00200
+00200
+
+00000
+00032
+00043
+00064
+00027
+00102
+
+00000
+00009
+00019
+00020
+00004
+00039
+
+00035
+00000
+00012
+00093
+00056
+00111
+
+00035
+00000
+00012
+00093
+00056
+00111
+
+00035
+00000
+00012
+00070
+00047
+00036
+
+00006
+00000
+00008
+00017
+00008
+00028
+
+00006
+00000
+00008
+00009
+00008
+00006
+
+00200
+00200
+
+00102
+00045
+
+00039
+00015
+
+00111
+00051
+
+00111
+00051
+
+00070
+00033
+
+00028
+00011
+
+00009
+00006
+
+8
+8
+
+5
+5
+
+3
+3
+
+6
+6
+
+6
+6
+
+4
+4
+
+2
+2
+
+1
+1
+
+Approximation is bounded, whereas source distribution is unbounded.
+
+Table 6
+
+Accuracy of Various Approximations for Semibounded Source Distributions
+K–S distance
+Approximation method
+QPD
+Discretea
+p: 30–40–30
+q: 10–50–90
+
+Normalb
+
+Log-normal ( = 0,  = 005)
+Log-normal ( = 0,  = 003)
+Log-normal ( = 0,  = 0015)
+Weibull ( = 3,  = 3)
+Weibull ( = 7,  = 7)
+Gamma ( = 4,  = 2)
+Gamma ( = 2,  = 2)
+Inverse gamma ( = 3,  = 1)
+Inverse gamma ( = 5,  = 005)
+Exponential ( = 005)
+Chi-squared (df = 3)
+Chi-squared (df = 6)
+Inverse chi-squared (df = 3)
+Inverse chi-squared (df = 6)
+F 4df1 = 11 df2 = 15
+F 4df1 = 151 df2 = 305
+
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+
+00130
+00078
+00039
+00023
+00044
+00088
+00124
+00240
+00174
+00174
+00143
+00101
+00388
+00240
+00621
+00106
+
+00068
+00026
+00012
+00009
+00009
+00029
+00056
+
+Maximum
+Average
+
+00200
+00200
+6
+8
+
+Source distribution
+
+Rank based on lowest maximum
+Rank based on lowest average
+
+Simple
+Q normalb
+
+Log metalog
+Logisticb
+
+M2log
+
+M3log
+
+M4log
+
+M5log
+
+00045
+
+00140
+00092
+00060
+00058
+00066
+00106
+00142
+00245
+00179
+00193
+00161
+00119
+00394
+00245
+00623
+00118
+
+00035
+00035
+00035
+00103
+00103
+00062
+00078
+00068
+00059
+00103
+00087
+00068
+00087
+00068
+00020
+00039
+
+00035
+00035
+00035
+00037
+00037
+00038
+00038
+00038
+00038
+00037
+00038
+00038
+00038
+00038
+00020
+00033
+
+00006
+00006
+00006
+00022
+00022
+00011
+00015
+00012
+00010
+00022
+00017
+00012
+00017
+00012
+00001
+00007
+
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00001
+00006
+
+00621
+00170
+
+00149
+00054
+
+00623
+00184
+
+00103
+00066
+
+00038
+00036
+
+00022
+00013
+
+00006
+00006
+
+7
+6
+
+5
+4
+
+8
+7
+
+4
+5
+
+3
+3
+
+2
+2
+
+1
+1
+
+∗
+
+00149
+00130
+00077
+00038
+∗
+∗
+∗
+
+a
+Approximation is bounded, whereas source distribution is semibounded. In addition, the low bound of approximation does not correspond to the low bound
+of source distribution.
+b
+Approximation is unbounded, whereas source distribution is semibounded.
+∗
+The approximation method does not yield a valid probability distribution.
+
+Keelin: The Metalog Distributions
+
+264
+
+Table 7
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Accuracy of Various Approximations for Bounded Source Distributions
+K–S distance
+Approximation method
+QPD
+Discretea
+
+Log metalog
+
+p: 30–40–30
+q: 10–50–90
+
+Normalb
+
+Beta ( = 305,  = 305)
+Beta ( = 9,  = 305)
+Beta ( = 008,  = 009)
+Beta ( = 60,  = 105)
+Beta ( = 102,  = 102)
+Beta ( = 009,  = 009)
+Uniform (A = 1, B = 1)
+Triangular (A = 5, B = 20, C = 25)
+
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+00200
+
+00029
+00054
+00106
+00138
+00076
+00095
+00088
+00077
+
+00005
+00012
+
+Maximum
+Average
+
+00200
+00200
+8
+8
+
+Source distribution
+
+Rank based on lowest maximum
+Rank based on lowest average
+
+Simple
+Q normalb
+
+Logisticb
+
+M2logit
+
+M3logit
+
+M4logit
+
+M5logit
+
+00000
+00016
+
+00066
+00084
+00146
+00157
+00115
+00135
+00127
+00112
+
+00024
+00044
+00013
+00085
+00005
+00003
+00000
+00033
+
+00024
+00031
+00005
+00037
+00005
+00003
+00000
+00019
+
+00004
+00008
+00002
+00017
+00001
+00000
+00000
+00009
+
+00004
+00005
+00001
+00006
+00001
+00000
+00000
+00003
+
+00138
+00083
+
+00069
+00018
+
+00157
+00118
+
+00085
+00026
+
+00037
+00016
+
+00017
+00005
+
+00006
+00002
+
+6
+6
+
+4
+4
+
+7
+7
+
+5
+5
+
+3
+3
+
+2
+2
+
+1
+1
+
+∗
+
+00069
+00004
+∗
+
+a
+
+Bounds of approximation do not correspond to bounds of source distribution.
+Approximation is unbounded, whereas source distribution is bounded.
+∗
+The approximation method does not yield a valid probability distribution.
+b
+
+accuracy (K–S distance ≤ 00001). In addition, note that
+nonsmooth PDFs (uniform and triangular) are well
+represented (K–S distance ≤ 00003).
+5.4. Increased Accuracy with Higher-Order Terms
+Increasing the number of terms beyond 5 further
+Figure 9
+
+increases accuracy. For example, Figure 9 shows how
+the 5-term metalog approximation of the extreme
+value distribution in Figure 8 becomes nearly exact
+when using 10 terms. Similar increased accuracy can
+be observed across the entire range of source distributions considered previously. Specifically, Table 8
+
+(Color online) How 10 Terms Increases Accuracy Compared to 5
+
+Probability density
+
+0.03
+10-term metalog
+
+5-term metalog
+
+20
+
+60
+
+Source
+
+0.02
+
+y
+
+0.02
+
+0.01
+
+0.01
+
+0
+
+0
+
+40
+
+80
+
+x
+Note. Source is the extreme value 4 = 1001  = 201  = −0055.
+
+100
+
+120
+
+140
+
+160
+
+Keelin: The Metalog Distributions
+
+265
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Table 8
+
+How Additional Terms Increase Accuracy
+K–S distance
+Metalog
+
+Unbounded
+Source distributions
+
+M5
+
+M6
+
+M7
+
+M8
+
+M9
+
+M10
+
+Normal ( = 50,  = 15)
+Logistic ( = 40, s = 406)
+Student t (df = 6)
+Extreme value ( = 100,  = 20,  = −005)
+Extreme value ( = 100,  = 20,  = −002)
+Extreme value ( = 100,  = 20,  = −00025)
+
+00006
+00000
+00008
+00009
+00008
+00006
+
+00002
+00000
+00004
+00002
+00003
+00005
+
+00001
+00000
+00002
+00001
+00002
+00005
+
+00001
+00000
+00002
+00001
+00001
+00001
+
+00001
+00000
+00002
+00001
+00001
+00000
+
+00000
+00000
+00001
+00000
+00000
+00000
+
+Maximum
+Average
+
+00009
+00006
+
+00005
+00003
+
+00005
+00002
+
+00002
+00001
+
+00002
+00001
+
+00001
+00000
+
+Rank based on lowest maximum
+Rank based on lowest average
+
+6
+6
+
+4
+5
+
+5
+4
+
+3
+3
+
+2
+2
+
+1
+1
+
+Semibounded
+Source distributions
+
+M
+
+log
+5
+
+log
+6
+
+M
+
+log
+7
+
+M
+
+M8log
+
+M9log
+
+M10
+
+Log-normal ( = 0,  = 005)
+Log-normal ( = 0,  = 003)
+Log-normal ( = 0,  = 0015)
+Weibull ( = 3,  = 3)
+Weibull ( = 7,  = 7)
+Gamma ( = 4,  = 2)
+Gamma ( = 2,  = 2)
+Inverse gamma ( = 3,  = 1)
+Inverse gamma ( = 5,  = 005)
+Exponential ( = 005)
+Chi-squared 4df = 35
+Chi-squared 4df = 65
+Inverse chi-squared 4df = 35
+Inverse chi-squared 4df = 65
+F 4df1 = 11 df2 = 15
+F 4df1 = 151 df2 = 305
+
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00006
+00001
+00006
+
+00002
+00002
+00002
+00004
+00004
+00002
+00003
+00002
+00002
+00004
+00003
+00002
+00003
+00002
+00000
+00002
+
+00001
+00001
+00001
+00003
+00003
+00002
+00002
+00002
+00001
+00003
+00003
+00002
+00003
+00002
+00000
+00001
+
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00001
+00000
+00000
+
+00001
+00001
+00001
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+
+Maximum
+Average
+
+00006
+00006
+
+00004
+00002
+
+00003
+00002
+
+00001
+00001
+
+00001
+00000
+
+00000
+00000
+
+Rank based on lowest maximum
+Rank based on lowest average
+
+6
+6
+
+5
+5
+
+4
+4
+
+3
+3
+
+2
+2
+
+1
+1
+
+Bounded
+Source distributions
+
+logit
+5
+
+M
+
+logit
+6
+
+M
+
+M
+
+logit
+7
+
+M8logit
+
+M9logit
+
+logit
+M10
+
+Beta ( = 305,  = 305)
+Beta ( = 9,  = 305)
+Beta ( = 008,  = 009)
+Beta ( = 60,  = 105)
+Beta ( = 102,  = 102)
+Beta ( = 009,  = 009)
+Uniform (A = 1, B = 1)
+Triangular (A = 5, B = 20, C = 25)
+
+00004
+00005
+00001
+00006
+00001
+00000
+00000
+00003
+
+00001
+00002
+00000
+00003
+00000
+00000
+00000
+00003
+
+00000
+00001
+00000
+00003
+00000
+00000
+00000
+00002
+
+00000
+00000
+00000
+00001
+00000
+00000
+00000
+00002
+
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00001
+
+00000
+00000
+00000
+00000
+00000
+00000
+00000
+00001
+
+Maximum
+Average
+
+00006
+00002
+
+00003
+00001
+
+00003
+00001
+
+00002
+00000
+
+00001
+00000
+
+00001
+00000
+
+6
+6
+
+5
+5
+
+4
+4
+
+3
+3
+
+2
+2
+
+1
+1
+
+Rank based on lowest maximum
+Rank based on lowest average
+
+Log metalog
+log
+
+Logit metalog
+
+Keelin: The Metalog Distributions
+
+266
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+shows how accuracy increases with each additional
+term as the number of terms increases from 5 to 10.
+Based on Tables 5–8, we observe that the metalog distributions are capable of closely approximating
+a wide range of traditional distributions, and typically do so with greater accuracy than other practical
+alternatives.
+
+6.
+
+Applications
+
+We now turn to two applications. The first illustrates how the metalog system can produce insight
+about frequency data that would not be possible
+using traditional distributions, thereby providing evidence that the metalog system offers a new vehicle
+for data and distribution research. The second example, decision analysis, shows an actual decision that
+would have been made wrongly if the decision makers had relied on three-branch discrete approximations (as commonly used in decision analysis) instead
+of metalog-based continuous representations. As part
+of the decision analysis application, we develop simplified expressions in terms of assessed quantiles for
+the metalog system for the special case of n = 3.
+6.1. Application 1: Data and Distribution Research
+Our data and distributions research examples are
+based on real data from the disparate fields of
+fish biology and hydrology. Both show how metalog flexibility can aid data and distribution research
+by generating insight that might not otherwise
+emerge.
+6.1.1. Fish Biology. Metalog distributions can
+mold themselves to the data with fewer unexamined
+shape constraints compared to other distributions. To
+illustrate, we consider the weight distribution of steelhead trout in the Babine River in northern British
+Columbia. A fly fishing lodge on that river has kept
+meticulous records of the weight of every fish landed
+by clients or staff over many years. Specifically, during 2006–2010, 3,474 steelhead trout were caught
+and released. The recorded data for the weights of
+these fish are plotted in Figure 10. This plot also
+shows two alternative distributions that could be
+used to represent that data. One is the log-normal, a
+shape that is representative of multiple other one-totwo-shape-parameter distributions (such as the loglogistic, gamma, log Pearson 3, and F ) that might
+
+typically be used in such a case. The other is a the
+log
+10-term log metalog M10 with bl = 0. Note that both
+CDFs appear to reasonably approximate the CDF
+data. However, the corresponding log metalog PDF
+shows a clear bimodal pattern in the data, which the
+log-normal and other similar distributions lack the
+flexibility to represent.
+The population of steelhead in the river when this
+lodge is open, during the fall of each year, consists
+of fish that are returning upriver to spawn after having lived in salt water. Those fish returning from salt
+water to spawn for the first time are called “1-salt”
+fish. After spawning, these fish typically return to salt
+water, gain additional weight in ocean-rich feeding
+grounds, and then come back up the river some years
+later to spawn for a second time, becoming “2-salt”
+fish. A few very-large steelhead are “3-salt” or “4-salt”
+fish. One might reasonably consider that the modes
+of the log metalog PDF in Figure 10 may be respectively indicative of the 1-salt and 2-salt fish populations. Both the relative population sizes and weight
+differences between 1-salt and 2-salt fish are unsolved
+research questions in fish biology. It is apparent that
+the log metalog representation may shed some light
+on both questions. More broadly, by telling a more
+nuanced story about the data than alternative distributions, the metalog system may open new avenues
+for data and distribution research.
+6.1.2. Hydrology. When a Type I interpretation of
+data is available, it is natural to use a corresponding
+Type I distribution. The advantage of this approach
+is that it constrains the shape to one consistent with
+the Type I model, and relatively few data are needed
+to parameterize that model. A disadvantage is that
+the data may have been generated by a process that
+does not exactly correspond to the assumptions of the
+model, and therefore may have a legitimately different shape than the model predicts. If Type I shape
+constraints go unexamined, erroneous conclusions
+might result. In contrast, the flexibility of the metalog
+system allows “the data to speak for itself” with fewer
+unexamined shape constraints compared to other distribution families. Thus, it can be compared to various
+Type I representations of the same data.
+In hydrology, for example, it is common to compute maximum annual river stream flows and gauge
+heights for each year as the maximum of the 365 daily
+
+Keelin: The Metalog Distributions
+
+267
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 10
+
+(Color online) How the Metalog System Can Aid Data and Distribution Research
+
+#UMULATIVE PROBABILITY
+
+$ATA
+
+,OG METALOG
+
+,OG-NORMAL
+
+
+
+
+
+
+
+
+
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&ISH WEIGHT LBS
+0ROBABILITY DENSITY
+
+,OG METALOG
+
+ SALT
+
+,OG NORMAL
+
+
+
+
+
+y
+
+
+ SALT
+
+
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&ISH WEIGHT LBS
+
+observations for that year. These measures are important for decisions such as bridge design, high-water
+mitigation, and river regulations. Even though there
+is typically autocorrelation among such observations,
+one might nevertheless try an extreme value distribution to represent such data given that this distribution has a simple Type I interpretation as the limiting distribution of a large number of independent
+
+and identically distributed samples. In Figure 11, we
+consider 95 years (1920–2014) of maximum annual
+gauge-height data as reported by the U.S. Geological
+Survey for the Williamson River (below its confluence
+with the Sprague River) near Chiloquin, Oregon.15
+15
+
+This data is available from U.S. Geological Survey website and
+also from http://www.metalogdistributions.com.
+
+Keelin: The Metalog Distributions
+
+268
+
+Figure 11
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+(Color online) How the Metalog System Can Illuminate Unexamined Shape Constraints
+
+Cumulative probability
+1.0
+Data
+
+Log metalog
+
+Extreme value
+
+2
+
+4
+
+0.9
+0.8
+0.7
+
+y
+
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+0
+
+1
+
+3
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+River gauge height (feet)
+Probability density
+
+0.55
+
+Log metalog
+
+Extreme value
+
+0.50
+0.45
+0.40
+0.35
+
+y
+
+0.30
+(1, 2)
+
+0.25
+
+(1.8, 6.7)
+0.20
+0.15
+(2.2, 7.3)
+0.10
+0.05
+0.00
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+River gauge height (feet)
+
+Comparing log metalog (with bl = 0) and extreme
+value representations of the data, we observe that the
+CDFs are similar. In addition, the extreme value PDF
+shows a shape that would commonly be attributed
+to these data, not only by the extreme value distribution, but also by the log-normal, log Pearson 3,
+log-logistic, and other distributions commonly used
+
+to represent such data in hydrology. But by molding itself more closely to the data than possible with
+such other distributions, the log metalog PDF tells a
+somewhat different story: a lower mode and a “flat
+region” of equally likely values above that mode. To a
+knowledgeable expert, this deviation of the data from
+typically assumed shapes might suggest systematic
+
+Keelin: The Metalog Distributions
+
+269
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+interpretations that would otherwise be masked by
+assuming a Type I model that may not appropriately
+apply.
+6.2. Application 2: Decision Analysis
+For decision analysis applications, it is common to use
+three assessed quantiles that correspond, for example,
+to probabilities of 0.1, 0.5, and 0.9. In this section, we
+show how the metalog system simplifies for such special cases. Then we apply it within an actual decision
+analysis.
+6.2.1. SPT Parameterization of the Metalog
+System.
+Definition 3 (Symmetric-Percentile Triplet).16
+Metalog parameters (x1 y) are a symmetric-percentile
+triplet (SPT) when they can be expressed as y = 41
+0051 1 − 5 and x = 4q , q005 , q1− 5 for some  ∈ 401 0055
+and q < q005 < q1− .
+This is often the case in decision analysis when,
+for example, 10–50–90 quantiles 4q001 1 q005 1 q009 5 are encoded from an expert and correspond to the 0.1, 0.5,
+and 0.9 probabilities on the CDF. We begin with the
+SPT-parameterized metalog distribution (SPT metalog) and then extend the results to develop the SPTparameterized log and logit metalogs.
+Proposition 1 (SPT Metalog Constants). Given
+that random variable X is metalog distributed and given
+a feasible SPT x = 4q 1 q005 1 q1− 5, the metalog constants
+a = 4a1 1 a2 1 a3 5 can be expressed directly as
+a1 = q005 1
+ 
+
+1 −  −1
+1
+ln
+4q1− − q 51
+(16)
+a2 =
+2
+
+
+
+
+1 −  −1
+41 − 2r54q1− − q 51
+a3 = 41 − 25 ln
+
+q − q
+where r = 005
+0 (17)
+q1− − q
+Proof. For m = n = 3, (7) reduces to a = Y3−1 x. Given
+that the second element of y is 0.5, the second row
+16
+Hadlock and Bickel (2016) defined SPTs to parameterize Johnson quantile-parameterized distributions (J-QPDs). Our definition
+of SPT is the same, and we use it to simplify parameterization of
+the metalog system for the special case of n = m = 3. See Hadlock
+and Bickel (2016) for a J-QPD alternative to the SPT-parameterized
+metalog system presented in this section.
+
+of Y3 reduces to (1, 0, 0). Inverting Y3 under this condition, postmultiplying by column vector x, and substituting in the definition of r in (17) yields the above
+expressions. 
+The SPT-metalog quantile function and PDF are (6)
+and (9), respectively, for the special case of n = 3. The
+importance of Proposition 1 is that (7), the expression
+for the constants, is greatly simplified. The the metalog constants a can be expressed directly in terms of
+the quantile assessments (q , q005 , q1− 5. Constant a1 is
+simply the median, as is true for all metalog distributions. Constant a2 is proportional to the q1− − q quantile range. For example when  = 001, a2 is 1/42 ln 95 =
+0023 times the 10–90 quantile range. Constant a3 , which
+controls skewness, is also proportional to the q1− − q
+quantile range. We define r to mark the location of
+the median within this q1− − q range. If the median
+is the midpoint of this range, then r = 21 , a3 = 0, and
+the three-term metalog reduces to a symmetric logistic
+distribution. If the median is closer to q , then r < 12 , a3
+is positive, and the distribution is right skewed accordingly. If the median is closer to q1− , then a3 is negative,
+and the distribution is left skewed.
+There is a feasibility limit as to how much skewness and kurtosis can be represented with an SPTparameterized metalog. Since there is a one-to-one
+correspondence between a and x in Proposition 1, this
+limit is just the “three-term metalog” line segment
+shown in Figure 4, and the range of feasible shapes
+for SPT metalogs is as shown in Figure 5. Intuitively,
+the three-term metalog, whether SPT-parameterized
+or more generally, can represent any shape from symmetric to roughly the skewness of the exponential
+distribution.17 Quantitatively, this limit is determined
+in closed form for the SPT metalog by the following
+proposition.
+Proposition 2 (SPT Metalog Feasibility). Any
+given SPT x = 4q 1 q005 1 q1− 5 is a feasible parameterization
+of the metalog distribution if and only if
+q − q
+k < r < 1 − k 1 where r = 005
+q1− − q
+
+
+and k = 12 1 − 1066711 21 −  0
+(18)
+17
+
+Note that in Figure 4 the exponential distribution with (1 , 2 5 =
+44001 9005 is very close to the end of the three-term metalog line segment 44031 8065. So conceptually we can use the exponential distribution as a close proxy for the three-term metalog skewness limit.
+
+Keelin: The Metalog Distributions
+
+270
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+For 10–50–90 quantiles ( = 001), a close approximation to
+this expression is
+1
+≤ r ≤ 65 0
+(19)
+6
+Proof. For n = 3, the feasibility condition (5) reduces to
+
+
+a2
+y
+y − 005
+> 01
++ a3
++ ln
+y41 − y5
+y41 − y5
+1−y
+for all y ∈ 401 150 (20)
+Consider three cases: y ∈ 401 00551 y = 005, and y ∈
+40051 1005. The feasibility condition is satisfied if and
+only if it is satisfied for all three cases. For y = 005,
+the second case, (20) reduces to a2 > 01 which is obviously true by (16) since, by definition, q < q1− and
+0 <  < 0050 Given a2 > 0, then, for the first case, (20)
+can be expressed as
+a3
+< 11
+a2 C4y5
+
+for all y ∈ 401 00551
+
+where C4y5 = −
+
+1
+0
+y − 005 + y41 − y5 ln4y/41 − y55
+
+Since C4y5 > 0 everywhere in this interval, the feasibility condition for this case becomes
+a3
+< k0 1
+a2
+
+where k0 = min C4y5 = 10667110
+y∈401 0055
+
+Similarly, the feasibility condition for the third case is
+a3
+> k1 1
+a2
+
+where k1 = max C4y5 = −1066711 = −k0 0
+y∈40051 1005
+
+Thus, (18) is satisfied if and only if −k0 < a3 /a2 < k0 .
+Substituting (16) and (17) for a2 and a3 in this expression, defining k = 12 61 − 10667114 21 − 57, and simplifying yields (18). Applying (18) for  = 001 yields
+00166578 ≤ r ≤ 00833442, of which (19) is a close
+approximation. 
+The importance of Proposition 2 is that the feasibility of the SPT x = 4q 1 q005 1 q1− 5 can readily be
+checked prior to any further calculations. If (18)
+or (19) is satisfied, then x is feasible, as it will always
+be over the range of shapes shown in Figure 5. If x
+is not feasible, then adding one or more data points
+(n = m ≥ 4) would provide greater flexibility, as shown
+in Figure 4.
+Proposition 3 (SPT Log Metalog). Given that
+ln4x − bl 5 is metalog distributed and given a feasible SPT
+
+x = 4q 1 q50 1 q 5 with known lower bound bl , the log metalog constants a = 4a1 1 a2 1 a3 5 can be expressed directly as
+a1 = ln4005 51
+
+
+1
+1 −  −1 1−
+a2 =
+ln
+ln
+1
+2
+
+
+
+
+1 −  −1 1− 
+ln
+1
+a3 = 41 − 25 ln
+2
+
+005
+where  = q − bl , 005 = q005 − bl , 1− = q1− − bl . Moreover, x is feasible if and only if
+k
+
+1−k
+
+
+bl + 1−k 1−
+< q005 < bl + k 1− 1
+
+where k is as in (18).
+Proof. For the log metalog, ln4x − bl 5 is metalog distributed. In Proposition 1, substitute ln4 5,
+ln4005 5, and ln41− 5, for q , q005 , and q1− , respectively.
+The above expressions for the log metalog constants
+follow from algebraic simplification. In (18), substitute
+ln4 5, ln4q005 − bl 5, and ln41− 5 for q , q005 , and q1− ,
+respectively. The above expression for the log metalog
+feasibility condition follows from solving the resulting equation for q005 . 
+The SPT-log-metalog quantile function and PDF are
+(11) and (13), respectively, for the special case of n = 3.
+The importance of Proposition 3 is that (12) and (5), the
+expressions for constants and feasibility, respectively,
+are greatly simplified. The log metalog constants and
+feasibility condition can be expressed directly in terms
+of the quantile assessments 4q 1 q005 1 q1− 5 and lower
+bound bl . The feasible range of flexibility for the log
+metalog parameterized by an SPT is same as the
+“three-term semibounded metalog” region in Figure 6,
+which also extends beyond the plot indefinitely down
+and to the right. Thus, the shape flexibility of an SPTparameterized log metalog is inclusive of that of the
+SPT-parameterized metalog, but includes significant
+additional area as well.
+Proposition 4 (SPT Logit Metalog). Given that
+ln44x − bl 5/4bu − x55 is metalog distributed and given a
+feasible SPT x = 4q 1 q50 1 q1− 5 with known lower and
+upper bounds bl and bu , the logit metalog constants a =
+4a1 1 a2 1 a3 5 can be expressed directly as
+a1 = ln4005 51
+
+
+1
+1 −  −1 1−
+a2 =
+ln
+ln
+1
+2
+
+
+
+Keelin: The Metalog Distributions
+
+271
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+
+a3 =
+
+1 − 25 ln
+
+q −bl
+1
+bu −q
+
+005 =
+
+
+1 −  −1 1− 
+ln
+1
+2
+
+005
+
+where
+ =
+
+q005 −bl
+1
+bu −q005
+
+1− =
+
+q1− −bl
+0
+bu −q1−
+
+Moreover, x is feasible if and only if
+k
+
+
+bl + bu 1−k 1−
+
+1−k
+
+1 + 
+
+k
+
+
+1−
+
+1−k
+
+< q005 <
+
+bl + bu k 1−
+k
+
+1−k
+
+1 +  1−
+
+1
+
+where k is as in (18).
+Proof. For the logit metalog, z = ln44x − bl 5/
+4bu − x55 is metalog distributed. In Proposition 1, substitute ln4 5, ln450 5, and ln41− 5 for q , q005 , and
+q1− , respectively. The resulting equations are identical
+those in Proposition 3, so the logit metalog constants
+follow from the same algebraic simplification as in
+the proof of Proposition 3. To prove the logit metalog
+feasibility condition, substitute ln4 5, ln44q005 − bl 5/
+4bu − q005 5, and ln41− 5 for q , q005 , and q1− in (18).
+The above logit metalog feasibility condition follows
+from solving the resulting expression for q005 . 
+The SPT-logit-metalog quantile function and PDF
+are (14) and (15), respectively, for the special case of
+n = 3. The importance of Proposition 4 is that (12)
+and (5), the expressions for constants and feasibility,
+respectively, are greatly simplified. The logit metalog
+constants and feasibility condition can be expressed
+directly in terms of the quantile assessments (q , q005 ,
+q1− 5 and lower and upper bounds bl and bu . The
+feasible range of flexibility for the SPT-parameterized
+logit metalog is same as the “three-term bounded
+metalog” region in Figure 7, which also extends
+beyond the plot indefinitely down and to the right.
+Comparing the feasible “three-term” ranges in Figures 4, 6, and 7, it is apparent that the shape flexibility
+of the SPT-parameterized logit metalog is far greater
+than that of the SPT-parameterized metalog and log
+metalog distributions.
+6.2.2. Bidding Decision Example. As one illustration of the value of SPT parameterization of the metalog family of distributions, we offer an example of
+an actual decision analysis in which a wrong decision would have been made if the decision makers
+had relied on a commonly used three-branch discrete
+representation of continuous uncertainties instead of
+a metalog-system continuous representation.
+
+The decision was how much to bid for a portfolio of 259 troubled real estate assets, which a financial institution had offered for sale via public auction.
+These assets were of different geographies, sizes, and
+types, including single family, multifamily, commercial, and land. To varying degrees, the value of each
+asset involved considerable uncertainty and complexity concerning current and future real estate values,
+occupancy and leases, potential tenant negotiations,
+local regulations, and, in some cases, bankruptcy or
+other litigation.
+To help determine how much to bid for the portfolio and how one might monetize its various assets,
+a potential bidder wished to see a probability distribution over the value of the portfolio, which would
+be the sum of the values of the 259 individual assets.
+So he engaged a team of experts to assess the value
+of each asset. Their assignment included visiting each
+property, discussing comparables with local real estate
+agents and other knowledgeable parties, and undertaking independent research concerning any issues
+that would affect that asset’s current or future value.
+As an overall summary of their conclusions, the potential bidder requested a probabilistic range of low,
+median, and high scenarios for each asset. For each
+scenario, the team assessed a projected cash flow over
+time and translated this cash flow into a net present
+value (NPV). The low scenario was defined as the
+NPV such that, from the experts’ perspective, there
+was a 10% chance that the ultimate realized NPV
+would be lower than this amount. The high NPV was
+defined such that there was a 90% chance that the ultimate realized NPV would be lower than this amount
+and a 10% chance that it would exceed it. The median
+scenario was defined such that it was equally likely
+that the actual realized NPV would be higher or lower
+than this amount. The expert’s analyses and assessments resulted in the range of values for each asset as
+shown in Table 9.
+It was apparent from this data that some assets were
+worth far more than others. Some asset distributions
+were narrow, while others were wide. Some asset distributions were symmetric, while others were skewed
+left and still others were skewed right. In addition,
+while some of the asset-level uncertainty was probabilistically independent of (irrelevant to; see Howard
+and Abbas 2015) that of other assets, the team judged
+
+Keelin: The Metalog Distributions
+
+272
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+that there was a degree of positive correlation among
+these assets due to their common dependence on the
+future economy and, in particular, on the future health
+of global and local real estate markets.
+To calculate a probability distribution over the
+value of the portfolio, the team used a modified form
+of Monte Carlo simulation in which they had induced
+what they believed was an appropriate level of positive correlation across assets. For many of the assets,
+the team judged the correlation coefficient with the
+market to be about 80%. For other assets, especially
+those in litigation, the team believed the correlation
+with the market to be negligible. The value of the
+portfolio for each simulation trial was the sum of the
+(appropriately correlated with market) simulated values for each asset for that trial.
+When performing the simulation, the team initially
+performed a discrete simulation, using only the discrete
+values in Table 9 for each asset. They followed a
+commonly used decision analysis approach of assigning probabilities of 30%, 40%, and 30%, respectively,
+to the low, median, and high discrete scenarios for
+each asset (see Bickel et al. 2011) and summing the
+results across assets for each simulation trial. Doing
+this for 1,000 simulation trials resulted in the CDF
+data labeled “discrete simulation data” in Figure 12.
+To gain further insight into this distribution, they
+Figure 12
+
+Table 9
+Asset
+
+Range of Uncertainty in Asset Value ($000s)
+10%
+50%
+90%
+Probability that realized value is less than …
+
+1
+2
+3
+4
+5
+6
+0
+00
+
+$181150
+$101465
+$151781
+$41234
+$21629
+$131945
+0
+00
+
+$211133
+$111362
+$161908
+$41422
+$21979
+$141875
+0
+00
+
+$221625
+$121408
+$181260
+$41610
+$31295
+$161176
+0
+00
+
+259
+Total
+
+$31500
+
+$41000
+$1851 348
+
+$41500
+
+calculated the corresponding metalog distribution M5
+parameterized by these data and plotted the results.
+The results are labeled “discrete simulation metalog”
+in Figures 12 and 13.
+Considering Figure 13, the team felt that the discrete
+simulation tails were too narrow—even though this
+simulation had taken correlation into account. While the
+median portfolio value of about $185,000,000 seemed
+to make sense, the near-zero probability that realized
+portfolio value would be less than $170,000,000 did
+not. They felt, based on their experience, that the low end
+of the distribution should be lower. Similarly, they felt
+that the high end should be higher.
+The team then ran the same simulation using metalog (continuous) representations of the data in Table 9.
+
+(Color online) Cumulative Distribution Functions Over Portfolio Value
+1.0
+0.9
+
+Discrete simulation data
+
+Discrete simulation metalog
+
+Continuous simulation data
+
+Continuous simulation metalog
+
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0
+150,000
+
+160,000
+
+170,000
+
+180,000
+
+190,000
+
+Portfolio value ($ '000s)
+
+200,000
+
+210,000
+
+220,000
+
+Keelin: The Metalog Distributions
+
+273
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 13
+
+(Color online) Probability Density Functions Over Portfolio Value
+
+$ISCRETE SIMULATION METALOG
+#ONTINUOUS SIMULATION METALOG
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0ORTFOLIO VALUE  gS
+
+Figure 14
+
+(Color online) Metalog Distribution for Asset 1
+
+!SSET #$&
+
+
+
+
+
+ 
+
+
+
+
+
+
+!SSET 0$&
+
+
+$ATA
+
+-ETALOG
+
+METALOG
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Using the SPT assessments in Table 9, the team parameterized the three-term metalog accordingly for each
+asset. Figure 14 shows the result of this calculation for
+Asset 1 in Table 9. When reviewing such asset-level
+distributions prior to simulation, they noted that the
+10–50–90 quantiles for each distribution corresponded
+exactly to the 10–50–90 value assessments in Table 9,
+and that these distributions appeared to have appropriate right or left skewness. They further noted that
+the low, median, and high values appeared reasonable.
+Intuitively, they felt these asset-level continuous distributions were a more accurate representation of assetlevel uncertainty than the three discrete scenarios.
+They further observed that none of the 259 assessed
+10–50–90 ranges violated feasibility conditions in
+Proposition 2. Rerunning the (similarly correlated)
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+portfolio simulation based on continuous (metalog represented) asset-level uncertainties yielded the
+“continuous simulation data” shown in Figure 12
+and the corresponding “continuous simulation metalog” in Figures 12 and 13. The continuous simulation
+showed wider tails and a narrower midrange. The
+lower end of the distribution visibly extended below
+$160,000,000, which made sense to the team.
+Similarly, the high end now extending above
+$210,000,000 also made sense. After further reflection
+and analysis, the team concluded that the continuous
+simulation was a more accurate and authentic representation of the uncertainty in portfolio value than
+the discrete simulation. The discrete simulation, they
+reasoned, arbitrarily cut off the tails of the asset-level
+distributions prior to simulation (no values outside
+
+Keelin: The Metalog Distributions
+
+274
+
+the low-high range were considered), so it was not
+surprising that the sum over 259 assets had resulted
+in artificially short tails as well.
+Based on clarity and confidence gained through
+such analysis, the decision makers chose to submit a
+bid for this portfolio of assets and subsequently won
+the auction. Had they relied only on the discrete representation in Figures 12 and 13, they would have
+overbid. The portfolio value ultimately realized several years later was about $180,000,000—just slightly
+less than their prior median.
+To date, professional decision analysts have used
+metalog distributions to represent thousands of uncertainties over dozens of applications across many fields,
+including life science asset valuations, loan asset valuations, real estate asset valuations, environmental
+studies of fish migration and river stream flows, and
+a wide range of portfolios of such items. Like the
+team valuing the portfolio of troubled real estate
+assets in the above example, such teams have generally concluded that treating continuous uncertainties
+as continuous and discrete uncertainties as discrete
+yields more authentic probabilistic results than discretizing all uncertainties from the outset. The metalog system enables practitioners to do this easily and
+conveniently.
+6.3.
+
+Distribution Selection within the
+Metalog System
+Given input data 4x1 y5 that one wishes to represent with a continuous probability distribution, which
+metalog should one select, and how many terms
+should one use for that selection? As with any distribution selection that is not purely Type 1 driven,
+this is ultimately a matter of judgment. We now offer
+several guidelines and tools to help aid this judgment.
+With respect to choosing among unbounded, semibounded, and bounded distributions, the traditional
+basis of choice for the Pearson (1895, 1901, 1916),
+Johnson (1949), and Tadikamalla and Johnson (1982)
+systems is to match third and fourth central moments
+of the data with a corresponding distribution from
+Figure 1. However, given a moments-based selection within the Pearson and Johnson systems, this
+approach has the disadvantage that it offers no choice
+of boundedness. In contrast, as shown in Figures 4–7,
+the metalog family offers a wide range of flexibility for
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+each of its unbounded, semibounded, and bounded
+options. So as a starting point, per Table 1, we suggest selecting the metalog, log metalog, or logit metalog according to whether the distribution of interest is
+naturally unbounded, semibounded, or bounded.
+Additional considerations include closed-form
+moments and flexibility. While all three options are
+highly flexible, the logit metalog is the most flexible
+for any given number of terms. However, moments of
+the metalog are available in closed form, as detailed
+in Section 3.4, whereas moments of the log and logit
+metalogs must be calculated numerically. Thus, if
+maximizing flexibility for a given number of terms is
+critical, one may opt for the logit metalog. If the availability of closed-form moments is critical, one may
+opt for the metalog.
+How many terms to use depends significantly
+on purpose and context. For example, in decision
+analysis applications with three assessed data points
+(m = 3), it is natural to use three terms (n = 3). In
+this case, for any feasible data, the metalog CDF will
+pass through these data points exactly as illustrated in
+Figure 14. More generally, the metalog distributions
+will pass through the data exactly whenever n = m
+and the data is feasible, so it makes sense to start with
+n = m when this result is desired.
+In the case of tens or even thousands of data points
+(e.g., of empirical- or simulation-frequency data), an
+exact fit is generally neither desired nor practical. In
+such cases, one may wish to use (A) relatively few
+terms (e.g., n = 3–6) if a smooth representation is
+desired, (B) a larger number of terms (e.g., n = 7–15)
+if one is engaged in data or distribution research, or
+(C) the n that maximizes some closeness-of-fit criterion such as K–S distance. In the case of (B) or (C), one
+must take care not to overfit18 the data, as is potentially
+possible with any linear least squares application with
+a variable number of terms.
+To aid such considerations, we have found the “metalog panel” to be a useful tool. As shown in Figures 15
+and 16, the metalog panel arrays density functions for
+a range of n for a given set of data parameters (x1 y50
+Figure 15 shows the array of log metalog density
+functions for n = 2 to n = 16 that correspond to fish
+18
+
+Among others, Hawkins (2004) and Draper and Smith (1998)
+provide perspectives on overfitting and rules of thumb for dealing
+with it.
+
+Keelin: The Metalog Distributions
+
+275
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+Figure 15
+
+Figure 16
+
+(Color online) Metalog Panel for Fish Biology Data
+n=2
+
+n=3
+
+n=4
+
+n=5
+
+n=6
+
+n=7
+
+n=8
+
+n=9
+
+n = 10
+
+n = 11
+
+n = 12
+
+n = 13
+
+n = 14
+
+n = 15
+
+n = 16
+
+(Color online) Metalog Panel for Hydrology Data
+n=2
+
+n=3
+
+n=4
+
+n=5
+
+n=6
+
+n=7
+
+n=8
+
+n=9
+
+n = 10
+
+n = 11
+
+n = 12
+
+n = 13
+
+n = 14
+
+n = 15
+
+n = 16
+
+biology data in Figure 10. Figure 16 is a similar representation for the hydrology data in Figure 11. In both
+Figures 15 and 16, it is evident how the log metalog
+increasingly molds itself to the shape of the data and
+eventually stabilizes its shape as n increases. Blank
+cells in these figures correspond to the data being
+infeasible for that choice of n.
+From a Bayesian perspective, the choice of n ultimately corresponds to a declaration of “yes, that’s
+what I mean” by a decision maker or expert; that is,
+
+the resulting distribution authentically represents his
+beliefs.
+
+7.
+
+Conclusions
+
+This paper introduces the metalog distributions, a system of continuous univariate probability distributions
+designed for flexibility, simplicity, and ease/speed of
+use in practice. While the metalog system offers unbounded, semibounded, and bounded distributions
+that broadly achieve these goals and that compare
+
+Keelin: The Metalog Distributions
+
+276
+
+favorably with previous systems, it also suggests several areas for further research.
+First, one can envision various improvements to the
+metalog system. These include, for example, characterizing the full range of metalog-system flexibility,
+including for five or more terms in the 1 –2 plane
+and for the ability to match fifth and higher-order
+moments. In addition, it might be useful to extend
+to four or more terms an expression of the constants
+and feasibility conditions that we developed for up to
+three terms in Section 6.2.1.
+Second, as suggested in Section 3.2, other “meta”
+distributions can be developed by applying the
+methodology of Section 3.1 to other base distributions
+such as the normal, Gumbel, and exponential. While
+this research appears to be straightforward, it has not
+been done yet, and it may well yield new systems of
+quantile-parameterized distributions that have certain
+advantages relative to the metalog.
+Third, and more broadly, there is a need for new
+distribution systems that may result from a different combination of choices or the addition of new
+choices to Table 1. These might include quantileparameterized systems without feasibility conditions,
+with additional flexibility for given levels of feasibility, or with flexibility to represent infinite-moments
+distributions like the Cauchy.
+Future research contributions notwithstanding, we
+believe the metalog system as presented in this paper
+is ready for use in practice19 —for any situation in
+which CDF data is known and a flexible, simple,
+and easy-to-use continuous probability distribution is
+needed to represent that data.
+Acknowledgments
+With great appreciation, the author wishes to acknowledge
+the associate editor and reviewers of this journal for their
+excellent comments and suggestions, Michael MischkeReeds for his encouragement and vetting of the metalog
+distributions in practice, Robin Arnold for helping gather
+the fish biology data and develop the name “metalog,” Brad
+Powley for his thoughtful encouragement and suggestions,
+Ron Howard for stimulating the author’s interest in this
+topic as his thesis advisor 40 years ago, and many friends
+at Strategic Decisions Group for contributing to a collegial
+19
+
+Downloadable Excel workbooks that implement the metalog system, data underlying the examples in this paper, and other aids for use
+in practice are available at http://www.metalogdistributions.com.
+
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+and client-needs-based environment over decades that ultimately helped motivate this work.
+
+References
+Abbas AE (2003) Entropy methods for univariate distributions
+in decision analysis. Williams C, ed. Bayesian Inference and
+Maximum Entropy Methods Sci. Engrg.: 22nd Internat. Workshop
+(American Institute of Physics, Melville, NY), 339–349.
+Aldrich J (1997) RA Fisher and the making of maximum likelihood
+1912–1922. Statist. Sci. 12(3):162–176.
+Balakrishnan N (1992) Handbook of the Logistic Distribution (Marcel
+Dekker, New York).
+Bickel JE, Lake LW, Lehman J (2011) Discretization, simulation,
+and Swanson’s (inaccurate) mean. SPE Econom. Management
+30(3):128–140.
+Burr IW (1942) Cumulative frequency functions. Ann. Math. Statist.
+13(2):215–232.
+Cheng R (2011 December) Using Pearson type IV and other Cinderella distributions in simulation. Proc. Winter Simulation
+Conf., Phoenix, AZ, 457–468.
+De Moivre A (1756) The Doctrine of Chances: Or, A Method of Calculating the Probabilities of Events in Play, Vol. 1 (Chelsea Publishing
+Company, London).
+Draper NR, Smith H (1998) Applied Regression Analysis, 3rd ed.
+(Wiley, New York).
+Edgeworth FY (1896) XI. The asymmetrical probability-curve. London, Edinburgh, Dublin Philosophical Magazine J. Sci. 41(249):
+90–99.
+Edgeworth FY (1907) On the representation of statistical frequency
+by a series. J. Royal Statist. Soc. 70(1):102–106.
+Greenwood JA, Landwehr JM, Matalas NC, Wallis JR (1979) Probability weighted moments: Definition and relation to parameters of several distributions expressable in inverse form. Water
+Resources Res. 15(5):1049–1054.
+Hadlock CC, Bickel JE (2016) Johnson quantile-parameterized distributions. Decision Anal. Forthcoming.
+Hawkins DM (2004) The problem of overfitting. J. Chemical Inform.
+Comput. Sci. 44(1):1–12.
+Hosking JR (1990) L-moments: Analysis and estimation of distributions using linear combinations of order statistics. J. Roy. Statist.
+Soc. Series B (Methodological) 52(1):105–124.
+Howard RA (1968) The foundations of decision analysis. Systems
+Sci. Cybernetics, IEEE Trans. 4(3):211–219.
+Howard RA, Abbas AE (2015) Foundations of Decision Analysis
+(Prentice Hall, Upper Saddle River, NJ).
+Johnson NL (1949) Systems of frequency curves generated by methods of translation. Biometrika 36(1/2):149–176.
+Johnson NL, Kotz S, Balakrishnan N (1994) Continuous Univariate
+Distributions, Vols. 1 and 2 (John Wiley & Sons, New York).
+Karvanen J (2006) Estimation of quantile mixtures via L-moments
+and trimmed L-moments. Comput. Statist. Data Anal. 51(2):
+947–959.
+Keelin TW, Powley BW (2011) Quantile-parameterized distributions. Decision Anal. 8(3):206–219.
+Keeney RL, Raiffa H (1993) Decisions with Multiple Objectives: Preferences and Value Trade-Offs (Cambridge University Press, Cambridge, UK).
+McDonald JB, Newey WK (1988) Partially adaptive estimation of
+regression models via the generalized t distribution. Econometric Theory 4(3):428–457.
+
+Keelin: The Metalog Distributions
+Decision Analysis 13(4), pp. 243–277, © 2016 INFORMS
+
+McGrayne SB (2011) The Theory That Would Not Die: How Bayes’
+Rule Cracked the Enigma Code, Hunted Down Russian Submarines,
+and Emerged Triumphant from Two Centuries of Controversy (Yale
+University Press, New Haven, CT).
+Mead R (1965) A generalised logit-normal distribution. Biometrics
+21(3):721–732.
+Nagahara Y (1999) The PDF and CF of Pearson type IV distributions and the ML estimation of the parameters. Statist. Probab.
+Lett. 43(3):251–264.
+Ord JK (1972) Families of Frequency Distributions, Vol. 30 (Griffin,
+London).
+Pearson K (1895) Contributions to the mathematical theory of evolution. II. Skew variation in homogeneous material. Philos.
+Trans. Roy. Soc. A 186(January):343–414.
+Pearson K (1901) Mathematical contributions to the theory of evolution. X. Supplement to a memoir on skew variation. Philos.
+Trans. Roy. Soc. A 197(January):443–459.
+Pearson K (1916) Mathematical contributions to the theory of evolution. XIX. Second supplement to a memoir on skew variation.
+Philosophical Trans. Royal Soc. London. Series A, Containing Papers
+Math. Physical Character 216(January):429–457.
+Raiffa H (1968) Decision Analysis: Introductory Lectures on Choices
+Under Uncertainty (Addison-Wesley, Reading, MA).
+Spetzler CS, Stael von Holstein CAS (1975) Exceptional paperprobability encoding in decision analysis. Management Sci.
+22(3):340–358.
+
+277
+
+Spetzler C, Winter H, Meyer J (2016) Decision Quality: Value Creation
+from Better Business Decisions (John Wiley & Sons, New York).
+Tadikamalla PR, Johnson NL (1982) Systems of frequency curves
+generated by transformations of logistic variables. Biometrika
+69(2):461–465.
+Theodossiou P (1998) Financial data and the skewed generalized t
+distribution. Management Sci. 44(12-part-1):1650–1661.
+Wang M, Rennolls K (2005) Tree diameter distribution modelling:
+Introducing the logit logistic distribution. Canadian J. Forest Res.
+35(6):1305–1313.
+
+Thomas W. Keelin has combined a career in decisionanalysis practice with innovations to advance the field. As
+managing director of KeelinReeds Partners, LLC and previously of the Strategic Decisions Group, he has led strategy
+consulting engagements for global and innovative clients.
+He has also served as general partner for multiple real estate
+investment funds. Tom is a fellow of the Society of Decision Professionals and a founder of the Decision Education
+Foundation. He holds three degrees from Stanford University: BA in economics and MS and PhD in engineeringeconomic systems.
+
+

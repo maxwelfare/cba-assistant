@@ -1,0 +1,11 @@
+{
+  "key": "dper_2024_central_technical_references",
+  "citation": "Department of Public Expenditure, NDP Delivery and Reform (2024). Infrastructure Guidelines: Central Technical References and Economic Appraisal Parameters, July 2019, Section 6 updated March 2024.",
+  "doi": null,
+  "url": "https://assets.gov.ie/286766/55ac9b40-80db-4399-8294-66ced21add92.pdf",
+  "media_type": "application/pdf",
+  "sha256": "516a12a2d0baac07e5703d38d34fb9ae45306751e15b10fb8825c4688c732e6d",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:28:54+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

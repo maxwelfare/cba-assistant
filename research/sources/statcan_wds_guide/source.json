@@ -1,0 +1,11 @@
+{
+ "key": "statcan_wds_guide",
+ "citation": "Statistics Canada. Web Data Service (WDS): User Guide (web page, fetched 2026-11-09).",
+ "doi": null,
+ "url": "https://www.statcan.gc.ca/en/developers/wds/user-guide",
+ "media_type": "text/html",
+ "sha256": "4c96f009bad48e5b9b26e31c039b594cb29c454fab3ab75fa33dbcee1074ca2b",
+ "licence": "not stated on the page (data under the Statistics Canada Open Licence)",
+ "fetched": "2026-11-09T17:27:35Z",
+ "text_method": "short ElementTree-free regex script: tags stripped, block ends to newlines (store.py, scratch)"
+}

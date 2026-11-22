@@ -1,0 +1,12 @@
+{
+ "key": "learnlm_2024_gemini",
+ "citation": "LearnLM Team (2024). LearnLM: improving Gemini for learning. arXiv:2412.16429.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/2412.16429",
+ "media_type": "application/pdf",
+ "sha256": "377653c6453184b4d30994f7fcb39d10e67d341711985b294096a6f3b535029a",
+ "licence": "CC BY 4.0 (arXiv abstract page)",
+ "fetched": "2026-11-16T03:36:59Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/dl/learnlm.pdf (fetched is the file's modification time)"
+}

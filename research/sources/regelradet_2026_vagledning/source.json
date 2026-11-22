@@ -1,0 +1,11 @@
+{
+ "key": "regelradet_2026_vagledning",
+ "citation": "Regelrådet (Swedish Better Regulation Council). Vägledning: konsekvensutredning, företagskonsekvenser (web page, under förordning 2024:183).",
+ "doi": null,
+ "url": "https://www.regelradet.se/vagledning.1236.html",
+ "media_type": "text/html",
+ "sha256": "673c0312f484b4f32a42dcbbd6822c79690e76b5c2056f5e345cf7baaa4891a6",
+ "licence": "not stated",
+ "fetched": "2026-11-09T17:00:00Z",
+ "text_method": "python3 -I script: <main> element, tags removed with paragraph breaks"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "mhlw_2026_c2h_guideline",
+ "citation": "中央社会保険医療協議会における費用対効果評価の分析ガイドライン 2026年度版 (2026-01-16 中医協総会了承). 国立保健医療科学院 保健医療経済評価研究センター(C2H).",
+ "doi": "none",
+ "url": "https://c2h.niph.go.jp/tools/guideline/guideline_ja_2026.pdf",
+ "media_type": "application/pdf",
+ "sha256": "501e367e1c6eb5b7dc56e6dfb3ab3443a43918db17d955adc9cd81ea0c3617be",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:06Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

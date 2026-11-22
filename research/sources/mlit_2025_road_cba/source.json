@@ -1,0 +1,11 @@
+{
+ "key": "mlit_2025_road_cba",
+ "citation": "国土交通省道路局・都市局 (令和7年8月, corrected). 費用便益分析マニュアル.",
+ "doi": "none",
+ "url": "https://www.mlit.go.jp/road/ir/ir-hyouka/ben-eki_2.pdf",
+ "media_type": "application/pdf",
+ "sha256": "e05221bf5f5715ee4cd21a060521db9ca6aa312a47a6c15584fcb8bd8b725778",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:06Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "icaew_twenty_principles",
+ "citation": "ICAEW (2024). 20 principles for good spreadsheet practice, 2024 edition (ICAEW Excel Community web page carrying the principles in full; the PDF at icaew.com/-/media/corporate/files/technical/technology/excel/twenty-principles-for-good-spreadsheet-practice.ashx is a one-page poster of the headlines).",
+ "doi": null,
+ "url": "https://www.icaew.com/technical/technology/excel-community/20-principles-for-good-spreadsheet-practice-2024-edition",
+ "media_type": "text/html",
+ "sha256": "4929f418577d70ef709e39f6d04ad38acfeef512704de4d1a646375aef1685b5",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:46:16Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.icaew.com/technical/technology/excel-community/20-principles-for-good-spreadsheet-practice-2024-edition"
+}

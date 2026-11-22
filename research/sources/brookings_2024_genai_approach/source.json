@@ -1,0 +1,12 @@
+{
+ "key": "brookings_2024_genai_approach",
+ "citation": "Brookings Institution. Brookings approach to the use of generative AI. brookings.edu, fetched 2026-11-10.",
+ "doi": null,
+ "url": "https://www.brookings.edu/articles/brookings-approach-to-the-use-of-generative-ai/",
+ "media_type": "text/html",
+ "sha256": "e599dc73945bda65cf965cf017ae4cd47f8d4cf5fd447ea4f1dc42794c1e73e6",
+ "licence": "not stated",
+ "fetched": "2026-11-10T23:16:03Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.brookings.edu/articles/brookings-approach-to-the-use-of-generative-ai/"
+}

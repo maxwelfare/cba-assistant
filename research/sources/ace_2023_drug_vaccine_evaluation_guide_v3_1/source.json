@@ -1,0 +1,11 @@
+{
+  "key": "ace_2023_drug_vaccine_evaluation_guide_v3_1",
+  "citation": "Agency for Care Effectiveness (ACE), Ministry of Health Singapore (September 2023). Drug and Vaccine Evaluation Methods and Process Guide, Version 3.1. Singapore: ACE.",
+  "doi": null,
+  "url": "https://isomer-user-content.by.gov.sg/68/894c6e70-687a-4723-bfd8-efcd00e4dd74/Drug%20and%20Vaccine%20Evaluation%20Methods%20and%20Process%20Guide%20Version%203.1%20%28September%202023%29.pdf",
+  "media_type": "application/pdf",
+  "sha256": "c299922b9b28cce0bda4fce1972645fde6ff096803915c22351c83a670ddf1b6",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:37Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

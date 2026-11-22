@@ -1,0 +1,12 @@
+{
+ "key": "keelin_2016_metalog",
+ "citation": "Keelin TW (2016). The metalog distributions. Decision Analysis 13(4):243-277.",
+ "doi": "10.1287/deca.2016.0338",
+ "url": "http://www.metalogdistributions.com/images/The_Metalog_Distributions_-_Keelin_2016.pdf",
+ "media_type": "application/pdf",
+ "sha256": "dd6e7e79129df429b184570d505a16e680adbce3b8c826d9c16a7ee332d46787",
+ "licence": "CC BY 4.0 (OpenAlex marks the article hybrid open access, CC BY); copy from the author's site",
+ "fetched": "2026-11-12T17:28:25Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch http://www.metalogdistributions.com/images/The_Metalog_Distributions_-_Keelin_2016.pdf"
+}

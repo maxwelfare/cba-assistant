@@ -1,0 +1,11 @@
+{
+  "key": "vm_2011_kornyezeti_termeszeti_hatasok",
+  "citation": "A környezeti és természeti hatások vizsgálata: útmutató (Bibók, VM)",
+  "doi": null,
+  "url": "https://hatasvizsgalat.kormany.hu/download/d/38/20000/kornyezeti.pdf",
+  "media_type": "application/pdf",
+  "sha256": "f2e44fd5b59cf94fe89d22e0247f6f0a9f01426d6893c70d1af1842403313e93",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:50Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

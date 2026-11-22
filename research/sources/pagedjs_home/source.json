@@ -1,0 +1,12 @@
+{
+ "key": "pagedjs_home",
+ "citation": "Coko Foundation. Paged.js home page, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://pagedjs.org/",
+ "media_type": "text/html",
+ "sha256": "2b70478400bc22d1f5c00dd1ec0f717fd0d657fc66c75ab2717e5aac11ddbbf5",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:54Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://pagedjs.org/"
+}

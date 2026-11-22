@@ -1,0 +1,12 @@
+{
+ "key": "haagsma_2024_noise_disability_weights",
+ "citation": "Haagsma JA, et al. (2024). Disability weights for environmental noise-related health states: results of a disability weights measurement study in Europe. BMJ Public Health 2(1):e000470.",
+ "doi": null,
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11812797/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "2f32a17d49572577d009004428b79f2a17b73701579e222f913be060e6d14bec",
+ "licence": "CC BY (open access)",
+ "fetched": "2026-11-14T13:09:35Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11812797/fullTextXML"
+}

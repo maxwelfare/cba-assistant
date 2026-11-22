@@ -1,0 +1,11 @@
+{
+  "key": "tervisekassa_2024_tth_eesti_juhend",
+  "citation": "Tervisetehnoloogiate hindamise keskus. Tervisetehnoloogiate hindamise Eesti juhend. Tartu: Tartu Ülikooli peremeditsiini ja rahvatervishoiu instituut; 2024. (supported by Tervisekassa)",
+  "doi": null,
+  "url": "https://tervisekassa.ee/sites/default/files/Ravimid/tth_eesti_juhend.pdf",
+  "media_type": "application/pdf",
+  "sha256": "ca3a1de4a91210f51f9b43d7e5d097b42699f6a6eedf8714141902dedb59e562",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:25:38Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

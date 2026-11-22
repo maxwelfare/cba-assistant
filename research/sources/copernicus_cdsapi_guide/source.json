@@ -1,0 +1,11 @@
+{
+ "key": "copernicus_cdsapi_guide",
+ "citation": "Copernicus Climate Data Store. CDSAPI setup (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://cds.climate.copernicus.eu/how-to-api",
+ "media_type": "text/html",
+ "sha256": "7ea42a69b16f319caf5e45912740b805398571eb149d05c7d6be4302bba66ad5",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "nfm_2017_cba_modszertani_utmutato_top_vekop",
+  "citation": "Módszertani útmutató TOP és VEKOP területi kiválasztási eljárásrendű projektek költség-haszon elemzéséhez (Nemzeti Fejlesztési Minisztérium; file metadata 2016-2017; republished by Kormend municipality)",
+  "doi": null,
+  "url": "https://clld.kormend.hu/clld.kormend.hu/katalogus/82_1_20200516102240.docx",
+  "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "13c3d5862ee524618ac6c212ea6572f77c56d4ee0d64ce5a3045c3d2292d5987",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:50Z",
+  "text_method": "python -I docx2txt.py (paragraph text of word/document.xml via ElementTree, one paragraph per line)"
+}

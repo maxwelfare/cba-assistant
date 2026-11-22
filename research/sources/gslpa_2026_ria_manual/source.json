@@ -1,0 +1,11 @@
+{
+  "key": "gslpa_2026_ria_manual",
+  "citation": "Γενική Γραμματεία Νομικών και Κοινοβουλευτικών Θεμάτων, Προεδρία της Κυβέρνησης (2026). Εγχειρίδιο Ανάλυσης Συνεπειών Ρύθμισης (επικαιροποίηση, Αύγουστος 2026). Αθήνα.",
+  "doi": null,
+  "url": "https://diavgeia.gov.gr/luminapi/api/decisions/90%CE%A1%CE%A746%CE%9C%CE%93%CE%A87-%CE%9C%CE%95%CE%9C/attachments/af92c892-c76a-4572-881a-d0b28944b21b/document (linked from https://gslegal.gov.gr/?p=9131)",
+  "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "cc9b02ae2e4b3a1dedbd7f5921923b0f52b4614865e6e4b17ff2a48ff72e3603",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:42+00:00",
+  "text_method": "python -I docx2txt.py original.docx text.txt (join w:t runs per w:p, one paragraph per line)"
+}

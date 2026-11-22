@@ -1,0 +1,11 @@
+{
+ "key": "uba_2026_methodological_convention_4_en",
+ "citation": "Eser N, Matthey A, Bünger B (2026). Handbook on Environmental Value Factors: Methodological Convention 4.0. Umweltbundesamt, Dessau-Roßlau (English edition).",
+ "doi": null,
+ "url": "https://www.umweltbundesamt.de/system/files/medien/14437/publikationen/2026-10/Methodological_Convention_4_0_Value_factors_final2.pdf",
+ "media_type": "application/pdf",
+ "sha256": "e4c32077b1b407ceafb5d74f488e85e0ddeb1c098f905d8b0b22f50ace876779",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

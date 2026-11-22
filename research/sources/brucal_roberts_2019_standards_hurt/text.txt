@@ -1,0 +1,1940 @@
+Brucal, Arlan & Roberts, Michael (2019) Do energy efficiency standards hurt
+consumers? evidence from household appliance sales. Journal of Environmental
+Economics and Management, 96, 88-107.
+https://doi.org/10.1016/j.jeem.2019.04.005
+
+https://researchonline.lse.ac.uk/id/eprint/100772/
+
+Version: Published Version
+Licence: Creative Commons: Attribution 4.0
+
+LSE Research Online is the repository for research produced by the London School
+of Economics and Political Science. For more information, please refer to our Policies
+page or contact lseresearchonline@lse.ac.uk
+
+Journal of Environmental Economics and Management 96 (2019) 88–107
+
+Contents lists available at ScienceDirect
+
+Journal of Environmental Economics and Management
+journal homepage: www.elsevier.com/locate/jeem
+
+Do energy eﬃciency standards hurt consumers? Evidence from
+household appliance sales
+Arlan Brucal a , Michael J. Roberts b, ∗
+a
+
+Grantham Research Institute for Climate Change and the Environment, London School of Economics and Political Science, Houghton Street, London
+WC2A 2AE, UK
+b
+Department of Economics, University of Hawai’i at Mā noa, 2424 Maile Way, Saunders Hall 542, Honolulu, HI 96822, Hawaii, United States
+
+article info
+
+abstract
+
+Article history:
+Received 6 November 2017
+Revised 22 April 2019
+Accepted 29 April 2019
+Available online 14 May 2019
+
+We build novel welfare-based price indices for major household appliances that leverage
+changes in same-model prices and how consumers substitute between exiting, continuing
+and new models. We then evaluate how minimum energy eﬃciency requirements and changing criteria for Energy Star™ labels affected these indices in the U.S. between 2001 and 2011,
+a period of time when some appliances experienced standard changes while others did not.
+We ﬁnd that prices declined while quality and consumer welfare increased, especially when
+standards become more stringent. We also ﬁnd that much of the price index decline can be
+attributed to standards-induced innovation, or cannibalism, not to inter-manufacturer competition. Our results also add to a growing body of evidence that the Consumer Price Index
+exaggerates inﬂation due to inadequate account of quality and substitution to new goods.
+Published by Elsevier Inc. This is an open access article under the CC BY license (http://
+creativecommons.org/licenses/by/4.0/).
+
+JEL classiﬁcation:
+D12
+H23
+L68
+Q48
+Keywords:
+Energy eﬃciency
+Standards
+Imperfect competition
+Price indices
+
+1. Introduction
+How do energy eﬃciency standards inﬂuence consumer welfare? From a regulatory perspective, consumer welfare implications of standards are important, particularly when these are obscured in engineering-based estimates of costs and beneﬁts.
+Moreover, the volume of regulated goods as well as the number of countries implementing energy eﬃciency standards has
+increased in recent decades, raising the need to better understand beneﬁts and costs, including consumer welfare. Much of the
+existing literature considers how eﬃciency standards affect energy savings and pollution externalities, as well as information
+and behavioral challenges that may interfere with eﬃcient investment in energy saving durable goods purchases (Gillingham et
+al., 2009; Jaffe et al., 2004). Less research estimates the direct consequences of standards themselves, like how costly they are to
+consumers and to what extent standards actually reduce energy consumption.
+In this paper, we use model-speciﬁc data on appliance sales together with methods developed in the trade and priceindex literature (Feenstra, 1994; Broda and Weinstein, 2006, 2010) to evaluate how more stringent energy eﬃciency standards
+affected the price and quality of major appliances. We pay particular attention to relatively frequent changes in the minimum
+
+∗
+
+Corresponding author. National Center for Environmental Economics, Oﬃce of Policy, US Environmental Protection Agency, WJC North Building, 1200
+Pennsylvania Avenue NW, Washington, DC 20460, United States.
+E-mail addresses: A.Z.Brucal@lse.ac.uk (A. Brucal), mjrobert@hawaii.edu (M.J. Roberts).
+
+https://doi.org/10.1016/j.jeem.2019.04.005
+0095-0696/Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+89
+
+energy eﬃciency standard for clothes washers that occur in our data. We also consider changes the Energy Star™ thresholds for
+refrigerators, as well as price indices of room air conditioners (ACs) and clothes dryers, since these appliances did not experience standard changes during the sample period, and thereby serve as controls. Our estimation strategy assesses quality
+by examining how customers substitute between existing, exiting and new products, similar to Broda and Weinstein (2010),
+and then examines how different welfare-based price indices respond to differential timing of policy changes across these
+appliances.
+We ﬁnd no evidence to suggest that more stringent energy eﬃciency standards hurt consumers by increasing price
+or lowering quality. Rather, we ﬁnd evidence that price declines and substitution toward new products accelerates with
+stricter standards. Assuming CES utility and plausible substitution elasticities, the data imply marked improvement in consumer welfare, excluding external pollution-related beneﬁts. Although these results may be surprising to some, a number of theories can explain them. Ronnen (1991) shows how standards can make heterogeneous products more homogeneous, and thereby increase competition, lower prices and improve welfare. Another possibility is that standards facilitate innovation of new products (Jaffe and Palmer, 1997), and improve welfare both through lower prices and increased
+product diversity, akin to Broda and Weinstein (2010). These ideas recognize that market failures besides pollution externalities and imperfect information may act upon energy eﬃciency investments, namely imperfect competition and positive externalities of innovation. To investigate these mechanisms, we show evidence that policy-induced changes in price,
+quality and welfare are associated with entry and exit of models. Speciﬁcally, price declines connect more closely to ownmanufacturer product introductions (cannibalism) than they do to entry and exit of models by competing manufacturers, a ﬁnding that suggests a standard-induced innovation channel rather than a competition channel for price and quality
+improvements.
+A literature on consumers’ apparent underinvestment in energy eﬃcient technologies, which may be a key justiﬁcation of
+energy eﬃciency standards, dates back to early hedonic modelling (Hausman, 1979) and consumer choice studies that relate
+purchase decisions to product prices, energy eﬃciency, and other product attributes (Train, 1985).1 Economists typically explain
+this phenomenon by pointing to market failures, consumer behavioral anomalies and methodological issues.2 Most studies,
+however, do not consider the supply side of the market. Some, however, have investigated the impact of more stringent standards in the context of markets with quality-differentiated goods (see for example, Ronnen, 1991; Crampes and Hollander,
+1995; Valletti, 2000). A number of empirical studies looking at this issue can be found in the automobile market (Goldberg,
+1998; Jacobsen, 2013; Sallee, 2013). For household appliances, some studies provide empirical evidence showing the correlation between imposing energy eﬃciency standards and, like our study, declining prices of durable goods (see for example,
+Greening et al., 1997; Chen et al., 2013; Spurlock, 2013; Spurlock et al., 2013; Van Buskirk et al., 2014; Houde and Spurlock,
+2015). Our study, though qualitatively consistent with some of the later studies referenced above, contributes to the literature
+by: (1) adding additional and, we believe, clearer and more compelling evidence that quality-adjusted prices are unaffected or
+decline as a result of standard changes; (2) developing novel, appliance-speciﬁc, welfare-based price indices that account for
+same-product prices changes, exit of old (or banned) products, and entry of new products; (3) identifying mechanisms through
+which energy eﬃciency standards inﬂuence prices, quality, and consumer welfare; and ﬁnally (4) providing additional evidence that conventional price indices may exaggerate inﬂation due to inadequate account of quality and substitution to new
+goods.
+Evidence of causality from standard changes to price and welfare changes is developed using difference-in-difference
+estimates that exploit asynchronous timing of standard changes for different appliances. The price indices we develop
+offer a simple and relatively transparent way of calculating consumer welfare, and does not require additional data on
+consumer characteristics or characteristics of the products they purchase. The approach employs recent developments in
+price index theory that assumes constant elasticity of substitution (CES) utility together with model-speciﬁc data that
+allow tracking of same-quality products, and accounts for entry and exit based on changes in expenditure shares (Feenstra, 1994; Broda and Weinstein, 2006, 2010; Redding and Weinstein, 2018). It generates results that are similar to those
+of Houde and Spurlock (2015) who used the same dataset but estimated a more explicit individual choice model to
+examine the effect of standards on quality of major appliances sold in the U.S. To the best of our knowledge, we are
+the ﬁrst to explicitly illustrate that most of the changes in product prices in regulated appliances are associated with
+increased entry and exit of models that occur within the same manufacturer, and not due to increased inter-manufacturer
+competition.
+We brieﬂy review the price index literature, and then show how we develop welfare-based index measures using the
+expenditure-weighted averages of same-model price changes, both excluding and including new and exiting models. This technique has many applications. For example, economists have long noted that the Consumer Price Index (CPI) may exaggerate
+inﬂation because the Bureau of Labor Statistics employs methods that cannot fully account for changes in quality (Moulton,
+1996; Hausman, 2003). The controversial issue on mismeasurement in the U.S. CPI has a long history. In 1996, the “Boskin
+Commission Report” estimated that the CPI was overestimated by 1.1 percent per year. The report found that half of the bias
+
+1
+The phenomenon has been called the energy paradox (Jaffe and Stavins, 1994b) or the energy eﬃciency gap (Jaffe and Stavins, 1994a). Gerarden et al. (2015)
+distinguish the two by deﬁning the former as a situation where privately optimal energy eﬃciency investments are not being undertaken while the latter relates
+to social optimality.
+2
+See (Gerarden et al., 2015) for a review on these issues.
+
+90
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+resulted from new products and quality changes that were imperfectly accounted for by standard hedonic methods (Boskin
+et al., 1998). Later, a series of studies emerged providing estimates for the bias that range from insigniﬁcant (Greenlees and
+McClelland, 2011) to two-thirds of price increases (Bils, 2009). More recently Broda and Weinstein (2010), using a database that
+covers 40-percent of all the expenditure on goods in CPI, ﬁnd that inﬂation was between 6 and 9 percentage points lower than
+indicated by the CPI between 1994 and 2003. Analysis by Redding and Weinstein (2018) indicates larger bias. The indices we
+develop provide a simple way to accurately measure price changes by considering only continuing appliance models that were
+sold across multiple periods, thus holding quality constant during the period. This index is then adjusted for entry and exit of
+models based on expenditure shares and assumed or estimated elasticities of substitution. Consistent with Broda and Weinstein
+(2010) and Redding and Weinstein (2018), we ﬁnd that prices for laundry equipment (clothes washers and dryers) for the period
+2002–2011 fell about 3 percentage points more than the CPI for laundry equipment.
+The rest of the paper is organized as follows. Section 2 provides an overview of energy eﬃciency standards covered in this
+study. Section 3 reviews the price index literature, recent developments, and how we adapt this literature for our own analysis
+of energy-consuming durable goods. Section 4 describes the data and section 5 describes methods and estimates of the elasticity
+of substitution. Section 6 presents estimates of impacts from standards using differences and differences-in-differences. Section
+7 presents further evidence on the degree to which price reductions of older continuing models are induced by introductions
+of new products by both same and competing brands and manufacturers. Section 8 discusses a range of implications of the
+empirical results and concludes.
+2. Energy eﬃciency standards
+The appliances we study—clothes washers and dryers, refrigerators and room air conditioners—are among those subject
+to either federal minimum energy (ME) and Energy Star (ES) standards. ME standards began with the passage of the National
+Appliance Energy Conservation Act (NAECA) in 1987. The law established an initial minimum energy eﬃciency standard for a set
+of appliances sold in the U.S. and directed the Department of Energy (DOE) to periodically update them. Subsequent legislation,
+such as the Energy Policy Act of 1992, the Energy Policy Act of 2005, and the Energy Independence and Security Act of 2007,
+included additional products. The DOE reports that approximately 60 categories of appliances and equipment representing
+about 90 percent of household energy use are covered under ME standards.
+To ensure implementation of standards the DOE publishes certiﬁcation, compliance and enforcement regulation. These regulations prescribe test procedures to establish certiﬁed energy eﬃciency ratings and require manufacturers to submit certiﬁcation reports to DOE. An appliance must comply with standards in place on its manufacturing date or the date the appliance was
+imported for sale in the U.S. Thus, appliances manufactured or imported before the effective date of a new ME standard can still
+be sold in the U.S. market.
+Although DOE has authority to impose regulations governing energy eﬃciency for many categories of appliances and equipment used in homes, businesses and other applications, each proposed rule must undergo a roughly three-year process of
+review, including consideration of impacts to consumers and businesses (http://energy.gov/eere/buildings/process-rule). Evaluation of beneﬁts and costs typically involve engineering-based estimates, which consider the cost of speciﬁc energy-saving
+technologies that can be used to satisfy proposed standards as well as the discounted value of energy-related savings. A common complaint from the Oﬃce of Management and Budget is that these explicit costs and beneﬁts do not account for intangible
+beneﬁts and costs connected to the way consumers perceive and value altered product characteristics. More energy eﬃcient
+appliances may have less desirable performance characteristics as compared to the less eﬃcient appliances that they replace.
+By their nature, some such beneﬁts and costs are diﬃcult to ascertain and likely impossible to evaluate before proposed standards have been implemented. In this paper, we therefore develop methods to evaluate the ex-post net beneﬁts of intangible
+consumer-related welfare impacts.
+Aside from DOE’s ME standards, the U.S. government sets thresholds for ES qualiﬁcation. ES is a voluntary program that
+identiﬁes and promotes energy eﬃciency by labelling products that meet higher eﬃciency requirements set forth by the Environmental Protection Agency (EPA). DOE periodically revises the federal minimum energy eﬃciency thresholds based on judgment about available technologies. EPA typically revises the ES threshold when ES comprises 50 percent or higher share of sales.
+Thus, the timing of ES changes may not coincide with changes in the minimum energy eﬃciency standards, although minimum
+standards also factor into decisions to revise ES qualiﬁcation.
+To investigate impacts of standard changes, we leverage differential timing of ME and ES standard changes across major
+appliances. Clothes washers underwent major changes in both ME and ES standards in 2001, 2004, and 2011 (Table 1). The ME
+standard for refrigerators was revised in 2001, and ES thresholds were revised in 2001, 2004 and 2008. No ME or ES standards
+changed for clothes dryers and room air conditioners between 2001 and 2011.
+3. Price, quality and welfare measures
+To examine how appliance prices and qualities change over time, we draw on recent innovations in the price index literature,
+normally used to track changes in the general cost of living, like the consumer price index (CPI). More recently, price indices
+have taken advantage of universal product code (UPC) data to track prices of exact products over time, data that can be used
+to better account for quality changes and changing varieties, which can be inferred by observing substitution from exiting and
+continuing products to new products (Feenstra, 1994; Broda and Weinstein, 2006, 2010). We take a similar approach in this
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+91
+
+Table 1
+U.S. energy eﬃciency standards for residential clothes washers and refrigerators, 2001–2011.
+
+Appliance
+
+Year Effective
+
+Federal Minimum Standard
+
+Energy Star Standard
+
+Clothes Washers
+
+2001
+2004
+2007
+2009
+2011
+2001
+
+–
+MEF ≥ 1.04
+MEF ≥ 1.26
+–
+MEF ≥1.26; WF ≤ 9.5
+30% more eﬃcient than the 1993 standard
+(51% better than the 1990 standard)
+
+MEF ≥ 1.26
+MEF ≥ 1.42
+MEF ≥1.72; WF ≤ 8.0
+MEF ≥ 1.8; WF ≤ 7.5
+MEF ≥ 2.0; WF ≤ 6.0
+10% more eﬃcient than the 2001 standard (56% better than the
+1990 standard)
+15% more eﬃcient than the 2001 standard (58% better than the
+1990 standard)
+20% more eﬃcient than the 2001 standard (61% better than the
+1990 standard)
+
+Refrigerators
+
+2004
+2008
+
+Standards for washers are set based on the Modiﬁed Energy Factor (MEF), the Energy Factor (EF) and the Water Factor (WF). The Department of Energy
+deﬁnes (i) MEF as the ratio of the capacity of the washer to the energy used in one cycle; (ii) EF as the MEF excluding the energy for drying clothes; and
+(iii) WF as the quantity of water used in one cycle per unit capacity of the washer. The table does not include standards adopted and implemented for
+non-residential and compact types of clothes washers and refrigerators.
+Source: Department of Energy
+
+paper, except we focus on appliances for which product entry and exit have been inﬂuenced by changing energy eﬃciency
+standards. By observing how both prices and purchase shares of new versus continuing models change, we infer changes in
+consumer welfare.
+3.1. Price indices
+Development of standard price indices draws on the expenditure function e(p, u0 ), which gives the minimum cost of attaining a ﬁxed level of utility (u0 ) for a given vector or prices p. If prices change from p0 to p1 , an ideal price index is P =
+
+e(p1,u0 )
+, for
+e(p0,u0 )
+
+it gives the proportional change in income needed to maintain the same standard of living. The expenditure function subsumes
+preferences and choices that adjust as relative prices change and new products are introduced. Without making assumptions
+about the shape of the utility function, we can bound the price index by holding quantities ﬁxed instead of utility. Fixing quantities at the initial period (the Laspeyres index) overestimates the change in the cost of living, for it assumes zero substitution;
+ﬁxing quantities in the second period (the Paasche index) underestimates the change. Splitting the difference and weighting
+prices by average quantity of the two periods seems like a sensible compromise, which gives the Marshall-Edgeworth index;
+similarly, the Fisher index is the geometric average of the Laspeyres and Paasche indices (Diewert, 1988).
+A utility function is needed to calculate an index that reﬂects a precise change in welfare. An elegant solution comes from
+assuming constant elasticity of substitution (CES). Regardless of the product share and elasticity parameters, Sato (1976) and
+Vartia (1976) show that CES utility implies an exact price index that equals the weighted geometric mean of individual product
+price ratios3 :
+Pt =
+
+∏
+
+(
+
+pi,t
+
+)wi,t
+(1)
+
+pi,t−1
+
+i
+
+where the weights wi,t are calculated using expenditure shares as follows,
+pi,t xi,t
+si,t ≡ ∑
+i pi,t xi,t
+si,t −si,t−1
+ln si,t −ln si,t−1
+
+wi,t ≡ ∑ (
+i
+
+si,t −si,t−1
+ln si,t −ln si,t−1
+
+(2)
+
+)
+
+.
+
+(3)
+
+CES utility may or may not be a reasonable approximation of preferences, as it assumes the same degree of substitutability
+between all goods. And while CES utility can represent aggregate demand of a heterogeneous constituent population of individuals (Anderson et al., 1992), it is nonetheless restrictive.
+Another key issue concerns the deﬁnitions and measures of individual goods that enter the index. Product quality of individual goods can change over time, new goods can be introduced, and some old goods exit. Traditionally, hedonic methods have
+been used to adjust prices of individual goods for changes in characteristics, and thereby account for quality. With the growth
+of large digitized data sets, quantities and prices of unique individual products can be tracked. When quantities and prices are
+measured by UPC or product-speciﬁc model number (like we do here), quality is arguably ﬁxed, and broader quality changes
+
+3
+
+Also see Feenstra (1994).
+
+92
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+can be discerned by how consumers substitute between continuing goods and new goods. Feenstra (1994) extends the CESbased index to account for new goods, and Broda and Weinstein (2006) and Redding and Weinstein (2018) apply this method
+to product-speciﬁc UPC data, methods that we now adopt in this paper.4
+To simplify notation, we follow Broda and Weinstein and deﬁne common goods as continuing goods, i.e., those appearing in
+both periods t and t − 1. A chained index is developed by deﬁning a new set of common goods for every time difference, such
+that the base year is reset to period t − 1 for each period t. Deﬁne the CES price index for common goods only as Pt∗ . This index
+is calculated like equation (4) except it excludes goods that exit between periods t and t − 1 and goods that enter in period t.
+Feenstra (1994) shows that the CES-based index inclusive of new and exiting goods is
+Pt𝜎 = Pt∗
+
+(
+
+𝜆t
+𝜆t−1
+
+) 1
+
+𝜎 −1
+
+(4)
+
+where 𝜎 is the elasticity of substitution, 𝜆t is the common goods share of total sales in period t, and 𝜆t −1 is the common goods
+share of sales in t − 1.5 Holding the common goods price index constant, if this ratio of shares is less than one, it implies that as
+goods exited, consumers spent more on new goods than they did on exiting goods, implying a welfare improvement. Conversely,
+if the ratio is greater than one, then consumers substituted more toward common goods than new goods, resulting in a welfare
+decline. With entry and exit of goods, the exact price index now depends on 𝜎 , which must be estimated, an issue we address
+below. The larger the elasticity of substitution, the closer P𝜎 will be to P∗ .
+
+3.2. Price indices for appliances
+Using model-speciﬁc prices and quantities, we develop indices akin to those described above. The only difference is that these
+indices are calculated for speciﬁc products (e.g., washing machines) rather than a broad basket of consumer goods. Speciﬁcally,
+we develop four price indices: a Marshall-Edwards index with equal weighting of sequential periods (PME ), a Fisher index that
+equals the geometric average of Laspeyres and Paache (PF ) indices, a CES-based exact index based on common goods only (P∗ ),
+and a full CES-based index inclusive of model entry and exit, which we denote with (P𝜎 ), where 𝜎 is the elasticity of substitution.6
+Note that in all cases we develop chained indices that recalculate the set of common goods and base year every two periods, and
+all indices except the full CES index (P𝜎 ) exclude new and exiting models.
+It is worth noting that the assumption of CES utility for products within a product group may be more realistic than assuming CES across all products. CES assumes all goods are gross substitutes, independence of irrelevant alternatives, and the same
+elasticity of substitution between all products. These assumptions seem more plausible for consumers deciding between a
+Whirlpool, GE or Samsung refrigerator, but less plausible when considering allocation of a budget between appliances, food,
+and recreation activities; or worse, durable goods and energy, which may be complements. We might also expect the elasticity
+of substitution to be larger than an elasticity used for all goods or for broad categories of goods, since different washing machines
+with different features, brands or sizes are surely more substitutable than appliances and coffee (for example).
+Still, the full CES index P with entry and exit requires an elasticity of substitution. One option is to simply assume an elasticity, conservatively estimated as being similar to those estimated for broader classes of goods. A second option is to estimate
+elasticities using the identiﬁcation strategy suggested by Feenstra (1994). We do both. In the next section we describe the data
+used to construct the price indices. In the subsequent section we describe the identiﬁcation strategy for estimating 𝜎 and report
+estimates, which turn out to be considerably larger than 10, which is the benchmark elasticity that we assume.
+One problem with product-speciﬁc indices is that each one comprises a small share of consumption expenditures. Because
+consumers can substitute between these appliances and other products, product-speciﬁc indices underestimate welfare gains.
+In effect, the estimates assume perfectly inelastic demand for the product group, only accounting for substitution between
+individual appliance models, not substitution between appliances and other goods. Thus, conditional on an assumed elasticity
+of demand for the whole product group relative to other goods, one can also approximate the size of additional welfare gains.
+Otherwise, we underestimate the welfare gains in the event that the price index declines, and exaggerate the welfare loss if the
+price index increases.
+4. Data and appliance price indices
+Point-of-sale data for clothes washers, clothes dryers, room air conditioners, and refrigerators were obtained from the
+NPD Group, purchased by Lawrence Berkeley National Laboratory. The data were collected from a set of U.S. retailers (both
+
+4
+In an earlier version of this paper, we developed a price index that was similar in concept, but not tied to an explicit utility function. Instead of inferring
+welfare improvement by the expenditure share of new goods verses exiting goods, we inferred welfare improvement non-parametrically by substitution from
+a constant-quality index of continuing goods and all goods, as reﬂected by average price. The results are very similar.
+5
+Note that 𝜆t −1 is not simply the lag of 𝜆t , since the deﬁnition of common goods changes for each pair of sequential time periods.
+6
+In an earlier version of this paper we developed an index using price changes measured as a percent of average price in two sequential periods, weighted
+by the average quantity sold in the two periods. This index is similar in concept to Marshall-Edwards and Fisher, is nearly indistinguishable from these indices,
+and happens to lie between them. We dropped the index for simplicity and continuity with the previous literature.
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+93
+
+Table 2
+Summary statistics.
+
+Washer
+
+Price ($)
+Sales (units)
+Revenue (’000$)
+No. of models
+Observations
+
+Refrigerator
+
+Room Air Conditioner
+
+Baseline
+(1)
+
+No Masked
+(2)
+
+Baseline
+(1)
+
+No Masked
+(2)
+
+Baseline
+(1)
+
+No Masked
+(2)
+
+650.55
+(355.92)
+744.00
+(1908.47)
+382.40
+(966.37)
+2733
+38,504
+
+700.09
+(348.89)
+872.30
+(2007.55)
+481.45
+(111.02)
+1245
+24,838
+
+1378.75
+(1383.51)
+199.61
+(736.51)
+143.15
+(451.36)
+15,188
+181,513
+
+1464.47
+(1355.75)
+203.68
+(617.18)
+167.16
+(468.18)
+6137
+103,501
+
+332.53
+(240.27)
+590.72
+(3264.15)
+119.11
+(581.32)
+3134
+33,290
+
+337.18
+(215.76)
+757.67
+(3025.81)
+147.71
+(420.69)
+878
+10,477
+
+The table shows monthly average price, sales and revenues generated between 2001 and 2011 for each of the following: (1) Baseline
+treats all model numbers (including masked) as unique models, and (2) No Masked drops the masked models. Standard deviations
+are in parentheses. Observations with prices falling below $100 for washers, dryers, and refrigerators, and $50 for room AC were
+dropped as these observations are outliers and appear to be unrealistic. Prices are in December 2011 U.S.$. Source: The NPD Group.
+
+online and in-store) and are aggregated at the national level.7 On average, the data represents about 32% of the total shipments of clothes washers sold in the United States from 2002 to 2011, while dryers, refrigerators and room air conditioners account for 32%, 35% and 25%, respectively. In terms of revenue the data represents about 37% of the industry
+total for washers and dryers, and 36% for refrigerators and room air conditioners. A list of participating retailers and the
+share of appliances in our sample to total U.S. market and total shipments are provided in Appendix A and Appendix B,
+respectively.
+The data include monthly total revenue and total quantity sold by individual model number from January 2001 to December
+2011. Each model number uniquely characterizes each product, including its speciﬁc color. We therefore believe it is reasonable
+to treat these identiﬁcation numbers in the same way Broda and Weinstein (2006), Broda and Weinstein (2010), and Redding
+and Weinstein (2018) treat UPC codes: as ﬁxed products with unchanging quality over time. We calculate the unit price of each
+model by dividing total revenue by total units sold in each month. This price includes in-store discounts for individual models
+of appliances, but not mail-in rebates. To check how this price variable represents actual sales price, we randomly selected 30
+models of clothes washers. We veriﬁed the manufacturer’s suggested retail price (MSRP) of these models online and ﬁnd that
+our price variable is 20 percent less on average, which seems reasonable given the time since NPD collected the data and the
+inclusion of in-store discounts.
+We drop observations with prices falling below $100 for clothes washers and refrigerators, and $50 for room air conditioners,
+as these observations are outliers and appear unrealistic. Remaining models comprise more than 99 percent of total revenue.
+About 35 percent of the observations for sampled clothes washers have masked model numbers to preserve the anonymity
+of NPD Group’s partner retailers. For example, Kenmore is a brand of appliance that is sold exclusively by Sears, such that
+unmasked models would indicate sales of the particular retailer. Refrigerators and room air conditioners have 40 and 70 percent
+observations with masked model numbers, respectively. NPD assigned these models alternative codes, but it is possible that the
+models may in fact be the same as others in the data set. Because these masked model numbers may not be new when each
+is ﬁrst observed in the data, we compute separate statistics with and without masked models to check the robustness of our
+ﬁndings (reported in Appendix F).8 Summary statistics are reported in Table 2.
+In Figs. 1 and 2, we plot average prices of each appliance and each of the price indices, respectively. While average prices
+are generally ﬂat, all of the price indices, which hold quality constant or account for new products, show falling prices and
+𝜆
+improving welfare (Fig. 2). For all appliances, the proportional change in expenditure share on common goods ( t ) is typ𝜆t−1
+
+ically less than one, indicating an improvement in welfare from introductions of new models, and this falls quite sharply
+with major introductions of new appliances (Fig. 3). As a result, indices that account for entry and exit of models sit below
+the CES common goods index, and the lower the elasticity, the more the indices fall and the greater the implied welfare
+improvement.
+The largest single change in minimum energy eﬃciency standards was for washing machines in 2004. This event coincides with a large change in the expenditure share of common goods, and a decline in the price index. The common goods
+index P∗ declined slightly over this time frame, while the proportional change in expenditure share on common goods was less
+than one. The welfare improvement is modest under the estimated elasticity, however, because it is so large. If the elasticity
+of substitution is smaller, the welfare gain is considerably greater. There is no indication that the change in standards hurt
+consumers.
+
+7
+
+NPD group was unable to provide subnational aggregations.
+A substantial share of masked models may come from Sears-speciﬁc models, a notable retailer whose share of the appliance market declined considerably
+during our sample period and since. The decline of Sears may inﬂuence competition and product variety with a detrimental inﬂuence on consumers. The merger
+between Whirlpool and Maytag may have had similar inﬂuence (Ashenfelter et al., 2013). The robustness of our results to including or excluding masked models
+suggests this is not a signiﬁcant issue in our sample. A compensating differential may be entry and growth of new manufacturers, particularly Samsung and LG.
+8
+
+94
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+Fig. 1. Average price, clothes washers, refrigerators, room ACs and clothes Dryers, 2002, 2011.
+Source: Monthly sales and revenues of clothes washers sold in the U.S. between 2001 and 2011 (The NPD
+Group) and authors’ calculations.
+
+One interesting anomaly is the rise in price indices around 2005. We see this anomaly in all three appliances and it is especially large for air conditioners, which did not have any changes in eﬃciency standards or Energy Star thresholds. It therefore
+seems unlikely that this is a delayed or anticipatory response to a policy change. We speculate that this anomaly may have
+something to do with the housing bubble; it is around the time that housing starts peaked.
+5. Estimating an elasticity of substitution
+To estimate an elasticity of substitution for each appliance group, we employ the method developed by Feenstra (1994),
+which draws on insights by Leamer (1981). Leamer shows that, while supply and demand elasticities cannot be identiﬁed with
+price and quantity data alone (i.e., without instruments), one can put bounds on supply and demand elasticities, which must
+lie on a hyperbola deﬁned by the regression coeﬃcient of quantity on price (and vice versa), and the error variances. With
+many products and a single elasticity summarizing substitution between products, as in CES, and further assuming that all
+appliance models have the same supply elasticity, we can identify both parameters by making assumptions about the correlation
+of supply and demand shocks associated with individual appliances. Speciﬁcally, we must assume that after double differencing
+(subtracting mean price and expenditure shares from individual product shares, and then differencing over time), supply shocks
+(unobserved changes in costs) are not correlated with demand shocks (unobserved changes in preferences). Identiﬁcation also
+requires the error variances of the supply and demand shocks for the different individual products to differ, thereby identifying
+many hyperbolas, the intersection of which identiﬁes the elasticities.
+These assumptions allow us to identify supply and demand elasticities using weighted least squares. These methods were
+extended by Broda and Weinstein (2006), Broda and Weinstein (2010), and Redding and Weinstein (2018). Following Feenstra
+(1994), we spell out the mechanics of estimation; readers are directed to the above references for a formal derivation.
+Deﬁne yi,t and x1i,t as the variance of prices and shares, respectively, given by the following:
+
+(
+
+yi,t = Δ ln pi,t − Δ ln pk,t
+
+(
+
+)2
+
+x1i,t = Δ ln si,t − Δ ln sk,t
+
+)2
+
+(5)
+(6)
+
+where Δpi,t is the change in price of continuing model i from period t − 1 to period t, Δpk,t is the geometric average price
+change of common goods in period t, Δlnsi,t is the change in expenditure share of continuing good i in period t, and Δlnsk,t is
+the geometric average expenditure share of continuing goods.We also deﬁne x2i,t as their covariance given by
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+95
+
+Fig. 2. Price indices, clothes washers, refrigerators, room ACs and clothes dryers, 2002–2011.
+Source: Sales and revenue data from The NPD Group and authors’ calculations.
+
+(
+
+x2i,t = Δ ln si,t − Δ ln sk,t
+
+)(
+)
+Δ ln pi,t − Δ ln pk,t
+
+(7)
+
+Further deﬁne ȳ i , x1i , x2i as the sample means over non-missing time periods for each model i.9 The estimating equation is:
+yi = 𝜃1 x1i + 𝜃2 x2i + ui ,
+
+(8)
+
+which we estimate using weighted least squares, the weights equal to the sum of units sold of model i. Equation (8) is Feenstra
+(1994)’s estimator, which minimizes the distance between the hyperbolas across different models in the sample. According
+to Feenstra (1994), this estimation method is equivalent to 2SLS procedure which begins with the mapping of each model’s
+hyperbola to a single observation deﬁned by its variance of prices (ȳ i ) and shares (x1i ) along with its price and share covariance
+(x2i ), and then followed by ﬁtting a line through these points by regressing ȳ i on x1i and x2i (Soderbery, 2015).
+
+9
+Averaging over time periods helps to resolve a fundamental endogeneity and makes the estimator consistent for large T. The data possess considerably
+more models than time periods per model, so there is likely some degree of bias in our estimates, which is another reason we consider implications of a smaller
+elasticity.
+
+96
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+Fig. 3. Ratio of continuing models between t and t − 1.
+Source: Sales and revenue data from The NPD Group and authors’ calculations.
+
+The estimated elasticities are implied by 𝜃̂1 and 𝜃̂2 (see Proposition 2 in Feenstra (1994)). If we deﬁne 𝜌
+̂ as the estimate of
+̂ as the elasticity of substitution, these are given by
+the common supply elasticity and 𝜎
+if 𝜃̂2 > 0 then
+1∕ 2
+
+⎛
+
+⎞
+
+1
+1
+1
+(
+)⎟
+𝜌̂ = + ⎜ −
+2 ⎜4
+̂
+4 + 𝜃 2 ∕𝜃̂ ⎟
+
+⎝
+
+2
+
+1
+
+(9)
+
+⎠
+
+if 𝜃̂2 < 0 then
+1∕ 2
+
+⎛
+
+⎞
+
+1
+1
+1
+(
+)⎟
+𝜌̂ = − ⎜ −
+2 ⎜4
+4 + 𝜃̂ 2 ∕𝜃̂ ⎟
+
+⎝
+
+2
+
+and in either case:
+
+(
+
+𝜎
+̂=1−
+
+2𝜌
+̂− 1
+1−𝜌
+̂
+
+)
+
+1
+
+(10)
+
+⎠
+
+1
+
+𝜃̂2
+
+(11)
+
+Note that 𝜎 must be greater than 1, and if 𝜃̂1 is negative, the above formulas do not provide valid estimates of 𝜌 and 𝜎 .
+One concern with using this method is that estimation makes use of common goods that appear in each time difference,
+excluding new and exiting goods. If the elasticity of substitution between new models and all other models differs considerably
+from the others (for example, some consumers possess a strong preference for new models), the elasticity of substitution may
+be biased upward.10 This is another reason we consider the implications of a smaller elasticity (i.e., 𝜎 = 10).
+
+10
+When applied to U.S. import data from 1993 to 2007, Soderbery (2015) has shown that median demand and supply estimates derived from Feenstra (1994)’s
+method were overestimated by over 35%, thus reducing consumer gains from product variety by a factor of 6.
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+97
+
+Table 3
+Estimates of substitution elasticities.
+
+Parameter Estimates
+
+Clothes Washers
+
+Clothes Dryers
+
+Refrigerators
+
+Room ACs
+
+𝜃1
+
+0.002
+(0.002)
+0.212∗∗ ∗
+(0.050)
+0.285
+1837
+0.96
+101.7
+
+0.011∗∗
+(0.004)
+0.254∗∗ ∗
+(0.035)
+0.352
+2928
+0.25
+27.7
+
+0.005
+(0.004)
+0.187∗∗
+(0.090)
+0.558
+9187
+0.90
+43.9
+
+0.003
+(0.003)
+0.176∗∗
+(0.049)
+0.315
+2098
+0.93
+65.9
+
+𝜃2
+R-sq.
+Observations
+
+𝜌̂
+𝜎
+̂
+
+This table reports estimates of equation (8) and the implied demand and supply elasticity estimates (equations (9)–(11)). Robust standard errors are in parentheses. ∗ , ∗ ∗ , ∗ ∗ ∗ denote statistical signiﬁcance at 10, 5
+and 1 percent, respectively.
+
+Results of estimating equation (8) and the implied demand and supply elasticity estimates (equations (9)–(11)) are presented in Table 3. The estimated elasticities appear high for all appliances, ranging from about 28 to 102. On the one hand, high
+elasticities make sense, given they account for substitution between very similar products. On the other hand, these estimates
+may be biased too high, for the reasons described above. Recall that as 𝜎 approaches inﬁnity, P𝜎 approaches P∗ . The implication is that the estimated elasiticities give an upper bound on the price level and underestimate implied consumer welfare
+improvement.
+6. Effects of standard changes on prices indices and welfare
+In this section we examine whether the price indices, both adjusted and unadjusted for entry and exit of models, have been
+affected by changes in ME and ES standards. We estimate effects of standard changes using differences (pre/post) and differencein-differences comparisons.
+The differences analysis considers each appliance separately, and we simply report mean price index changes in each window
+before, during and after a policy change. Because policy changes were announced well in advance of implementation, and may
+affect product introduction and pricing well before and after the change (because standards ban the manufacture, not the sale,
+of appliances below the eﬃciency threshold), we deﬁne a policy change window that includes 6 months before and after the
+policy change. For example, for the January 2004 policy change we assign all months from July 2003 up to June 2004 to the
+policy treatment. To the extent feasible, we compare the changes within the policy change period to those in one year prior and
+one year after the policy change period. For example, the 2004 policy change refers to the period July 2003–June 2004, and we
+compare changes during this period with those in July 2002–June 2003 and July 2004–June 2005. Effectively, we compare price
+changes on a year-on-year basis. Using a shorter, say 3-month policy window, might capture price changes that are associated
+with seasonal variations in demand and supply, and results can be stronger. If we make the window much larger, controls begin
+to vanish. Table 4 gives the results.
+The results show accelerated price declines around policy changes relative to previous and succeeding periods. For example, the average monthly drop in P∗ for clothes washers around the 2004 ME and ES policy change was about 1.11 percentage points per period, compared to 0.65 and 0.36 percentage point before and after the policy period, respectively. During
+this change, which was arguably the most substantial policy change in our data, the ratio (𝜆t ∕𝜆t −1 ), which gives the share
+of expenditures on common goods in the current period relative to the previous period, is by far the lowest observed, 0.916.
+A ratio less than one implies substitution to the new models introduced during this period, and a larger welfare improvement than implied by the decline in P∗ . This improvement carries little weight in the index when using the large estimated
+elasticity of substitution. But with an elasticity of 10 or smaller, the price index decline is much greater, over 2.7 percentage
+points during this policy window. Other policy changes also tend to be associated with slightly faster declines in the prices
+indices.
+The estimating equation for the difference-in-differences speciﬁcation uses the fact that ME and ES changes occurred for
+different appliances at different times, such that appliances not experiencing a change serve as controls for those that do. For
+these estimates we pool price indices for all appliances and run the following estimating equation:
+
+Δ ln Pjt, = 𝛽0 + 𝛽1 MEj,t + 𝛽2 ESj,t + 𝛼j + 𝛾t t + 𝜇i,m + 𝜀it ,
+
+(12)
+
+where ΔlnPj , t is the log difference of the price index for product j, where j spans the four appliances considered (washing
+machines, dryers, refrigerators, air conditioners), 𝛼 j and 𝛾 t are ﬁxed effects for each appliance and each time period time period,
+respectively, and the policy variables MEj , t and ESjt are plus/minus six-month indicator variables, speciﬁed for applicable policy
+changes for each appliance j. For some speciﬁcations we consider appliance-by-month-of-year ﬁxed effects (𝜇i,m ) to account for
+seasonality, which is more noticeable in some appliances than others (like room air conditioners).
+The difference-in-differences estimates, like the difference estimates, are less than an ideal natural experiment, both due to
+the anticipated nature of the policy changes and because there may be joint dependency in new appliance introductions. For
+example, if a new energy eﬃciency standard causes introduction of a new washing machine model, then it may be economic for
+the manufacturer to introduce other appliances at the same time. To the extent that there is joint dependency in manufacture or
+
+98
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+Table 4
+Average Change in Price Indices and the ratio of shares of continuing models in two consecutive periods, Washers vs.
+Refrigerators vs. Room AC vs Dryers, 2002–2011.
+
+Period
+
+PME
+
+Pre-2004
+2004 ME & ES Policy
+Post-2004 Policy
+Pre-2007 Policy
+2007 ME & ES Policy
+2008 ES Policy
+2009 ES Policy
+2011 ME & ES Policy
+
+−0.648
+−1.107
+−0.359
+−1.271
+−1.501
+−1.206
+−2.299
+−2.065
+
+PF
+
+P∗
+
+P ̂𝜎
+
+P10
+
+𝜆t
+𝜆t−1
+
+−0.467
+−0.834
+−0.136
+−0.911
+−1.250
+−0.742
+−2.128
+−1.596
+
+−0.477
+−1.026
+−0.140
+−0.920
+−1.271
+−0.747
+−2.133
+−1.613
+
+−0.578
+−2.766
+−0.181
+−1.010
+−1.474
+−0.799
+−2.183
+−1.783
+
+0.991
+0.916
+0.996
+0.991
+0.980
+0.995
+0.994
+0.983
+
+−1.031
+−0.967
+−0.560
+−0.605
+−1.210
+−1.183
+−0.900
+−1.072
+
+−1.055
+−1.015
+−0.587
+−0.619
+−1.410
+−1.214
+−0.928
+−1.071
+
+−1.146
+−1.195
+−0.688
+−0.670
+−2.126
+−1.333
+−1.031
+−1.069
+
+0.990
+0.980
+0.989
+0.994
+0.942
+0.984
+0.988
+1.000
+
+−2.186
+−2.065
+
+−2.295
+−2.064
+
+−2.964
+−2.060
+
+Clothes Washers
+
+Pre-2004
+2004 ME & ES Policy
+Post-2004 Policy
+Pre-2007 Policy
+2007 ME & ES Policy
+2008 ES Policy
+2009 ES Policy
+2011 ME & ES Policy
+Pre-2004
+2004 ME & ES Policy
+Post-2004 Policy
+Pre-2007 Policy
+2007 ME & ES Policy
+2008 ES Policy
+2009 ES Policy
+2011 ME & ES Policy
+Pre-2004
+2004 ME & ES Policy
+Post-2004 Policy
+Pre-2007 Policy
+2007 ME & ES Policy
+2008 ES Policy
+2009 ES Policy
+2011 ME & ES Policy
+
+−0.651
+−1.107
+−0.359
+−1.270
+−1.492
+−1.812
+−2.239
+−2.000
+
+Refrigerators
+−1.216
+−1.218
+−1.242
+−1.242
+−0.778
+−0.782
+−0.962
+−0.960
+−1.475
+−1.462
+−1.317
+−1.311
+−1.168
+−1.156
+−1.510
+−1.483
+Room Airconditioners
+−2.698
+−2.380
+−2.491
+−2.327
+1.799
+1.402
+−1.210
+−1.085
+−1.136
+−1.121
+0.108
+0.019
+−0.346
+−0.410
+−3.111
+−3.056
+Clothes Dryers
+−0.640
+−0.642
+−0.706
+−0.716
+−0.298
+−0.298
+−0.936
+−0.934
+−1.059
+−1.052
+−0.975
+−0.936
+−1.514
+−1.471
+−1.635
+−1.587
+
+1.604
+
+1.473
+
+0.688
+
+−0.733
+−0.941
+−0.011
+−0.222
+−2.808
+
+−0.742
+−0.954
+−0.184
+−0.213
+−2.809
+
+−0.798
+−1.030
+−1.225
+−0.161
+−2.813
+
+0.937
+1.003
+0.874
+0.995
+0.993
+0.950
+1.005
+1.000
+
+−0.455
+−0.431
+−0.228
+−0.579
+
+−0.496
+−0.439
+
+−0.576
+−0.453
+−0.267
+−0.680
+−1.023
+−0.842
+−1.299
+−1.285
+
+0.990
+0.998
+0.910
+0.991
+0.981
+0.989
+0.966
+0.944
+
+0.808
+
+−0.719
+−1.257
+−1.218
+
+0.241
+
+−0.613
+−0.880
+−0.760
+−1.271
+−1.241
+
+The table reports the percent change in each price index during the referenced policy change. Periods in boldface
+font indicate a policy change for the given appliance. Each policy period pertains to a 6-month window before
+and after the date of the policy change. For example, the 2004 policy change refers to the period July 2003–June
+2004. Only refrigerators experienced Energy Star (ES) policy changes within the sample period. PME is the MarshallEdgeworth price index; PF is the Fisher price index; P∗ is the CES-based index for common goods; P ̂𝜎 is the CESbased index with new and exiting models and the estimated elasticity of substitution (101 for clothes washers; 44
+for refrigerators, 66 for room air conditioners, and 28 for clothes dryers); P10 is the CES-based index with a substitution elasticity of 10. The ratio (𝜆t ∕𝜆t −1 ) gives the average share of expenditures on common goods (continuing
+models) in the current period relative to the previous period, where a value less than one implies substitution
+toward new goods and a welfare improvement, all else the same.
+
+sale of different appliances, using these complementary goods as controls should generally underestimate the size of the welfare
+impacts. Because different appliances may be better or worse controls than others, we consider speciﬁcations with different sets
+of appliances.
+While some of the large introductions of new appliances appear to be associated with timing of ME or ES threshold, there
+are a few cases where timing is off by a considerable margin, our identiﬁcation strategy misses, and thus likely underestimates
+induced welfare gains. The clearest example is a large introduction of new refrigerators in January 2007 (see Figs. 2 and 3).
+While this large introduction of refrigerators is beneﬁcial for consumers, only standards for washing machine changed at this
+time; the Energy Star changes for refrigerators happened later. Thus, if this large introduction was caused, in part, by anticipated
+future changes in the ES threshold, our identiﬁcation strategies (both differences and difference-in-differences) do not capture
+it; we implicitly assigning these “treatment” observations to the “control,” thereby underestimating the consumer beneﬁts of
+increasing the ES threshold.
+Difference-in-differences estimates are reported in Table 5. The ﬁrst two columns consider speciﬁcations with only washing
+machines and refrigerators, with the ﬁrst column excluding seasonal controls and the second column including them. The next
+two columns add room air conditioners to the speciﬁcation as a control, again without and with seasonal controls. The last two
+columns add dryers to the speciﬁcation. Different sets of results are reported for the three welfare-based price indices, P∗ , P 𝜎̂ , and
+P.10 All speciﬁcations indicate more rapid price declines during the policy periods, and most indicate an accelerated decline (i.e.,
+welfare improvement) of between roughly 0.3 to 0.6 percentage points per period. Many of the speciﬁcations show statistical
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+99
+
+Table 5
+Results from estimating the average effect of the policy change (difference-in-differences approach).
+
+Models/Variables
+
+(1)
+
+ME and ES
+
+ΔP∗
+−0.005
+
+Adj. R-squared
+Observations
+
+(0.004)
+−0.006∗
+(0.003)
+−0.076∗∗∗
+(0.001)
+0.549
+219
+
+ME and ES
+
+−0.012
+
+ES Only
+Constant
+
+ES Only
+Constant
+Adj. R-squared
+Observations
+ME and ES
+ES Only
+Constant
+Adj. R-squared
+Observations
+ME and ES
+ES Only
+Constant
+Adj. R-squared
+Observations
+Appliance FE
+Year-month FE
+Month x Ref
+Month x AC
+Month X Dryer
+
+𝜆t
+𝜆t−1
+
+0.026
+0.019
+(0.020)
+0.999∗∗ ∗
+(0.001)
+0.270
+221
+ΔP ̂𝜎
+−0.005
+(0.005)
+−0.006∗
+(0.003)
+−0.076∗∗∗
+(0.001)
+0.527
+219
+ΔP10
+−0.008
+(0.009)
+−0.000
+(0.007)
+−0.077∗∗∗
+(0.001)
+0.259
+219
+Yes
+Yes
+No
+No
+No
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.005
+(0.004)
+−0.006∗∗
+(0.003)
+−0.073∗∗ ∗
+(0.003)
+0.640
+219
+
+−0.003
+(0.004)
+−0.005∗
+(0.003)
+−0.004∗∗ ∗
+(0.002)
+0.320
+325
+
+−0.003
+(0.004)
+−0.005∗∗
+(0.002)
+−0.008∗∗ ∗
+(0.001)
+0.418
+325
+
+−0.003
+(0.003)
+−0.005∗∗ ∗
+(0.002)
+−0.066∗∗
+(0.026)
+0.518
+436
+
+−0.003
+(0.003)
+−0.005∗∗ ∗
+(0.002)
+−0.064∗∗ ∗
+(0.024)
+0.510
+436
+
+−0.012
+(0.027)
+0.019
+(0.020)
+0.997∗∗ ∗
+(0.006)
+0.192
+221
+
+−0.017
+(0.023)
+0.015
+(0.016)
+0.990∗∗ ∗
+(0.009)
+0.277
+328
+
+−0.017
+(0.024)
+0.015
+(0.016)
+0.994∗∗ ∗
+(0.010)
+0.357
+325
+
+−0.027
+(0.024)
+0.004
+(0.013)
+0.987∗∗ ∗
+(0.006)
+0.146
+436
+
+−0.027
+(0.024)
+0.004
+(0.013)
+0.987∗∗ ∗
+(0.008)
+0.115
+436
+
+−0.005
+(0.004)
+−0.005∗
+(0.003)
+−0.073∗∗ ∗
+(0.003)
+0.612
+219
+
+−0.003
+(0.004)
+−0.004
+(0.003)
+−0.004∗∗ ∗
+(0.002)
+0.325
+325
+
+−0.003
+(0.004)
+−0.004∗
+(0.002)
+−0.008∗∗ ∗
+(0.001)
+0.417
+325
+
+−0.004
+(0.003)
+−0.006∗∗ ∗
+(0.002)
+−0.066∗∗
+(0.026)
+0.441
+436
+
+−0.004
+(0.003)
+−0.005∗∗ ∗
+(0.002)
+−0.064∗∗ ∗
+(0.024)
+0.432
+436
+
+−0.008
+(0.009)
+−0.000
+(0.006)
+−0.075∗∗ ∗
+(0.004)
+0.236
+219
+Yes
+Yes
+Yes
+No
+No
+
+−0.007
+(0.007)
+−0.000
+(0.005)
+−0.004∗∗
+(0.002)
+0.261
+325
+Yes
+Yes
+Yes
+No
+No
+
+−0.007
+(0.008)
+−0.000
+(0.005)
+−0.008∗∗ ∗
+(0.002)
+0.285
+325
+Yes
+Yes
+Yes
+Yes
+No
+
+−0.010
+(0.008)
+−0.004
+(0.004)
+−0.067∗∗ ∗
+(0.026)
+0.190
+436
+Yes
+Yes
+Yes
+Yes
+No
+
+−0.010
+(0.008)
+−0.004
+(0.004)
+−0.065∗∗ ∗
+(0.024)
+0.165
+436
+Yes
+Yes
+Yes
+Yes
+Yes
+
+The table reports difference-in-difference estimates of the effects of minimum energy eﬃciency (ME) and Energy Star (ES) policy changes on
+each welfare-based price index: P∗ is the CES-based index for common goods; P ̂𝜎 is the CES-based index with new and exiting models and the
+estimated elasticity of substitution (101 for washers, 44 for refrigerators, and 66 for room air conditioners); and P10 is the CES-based index
+with a substitution elasticity of 10. The ratio (𝜆t ∕𝜆t −1 ) gives the average share of expenditures on common goods (continuing models) in the
+current period relative to the previous period, where a value less than one implies substitution toward new goods and a welfare improvement,
+all else the same. Columns labelled (1)–(2) include clothes washers and refrigerators; columns (3)–(4) also include room air conditioners in
+the sample; and columns (5)–(6) also include clothes dryers in the sample. Month x REF, Month x RAC, and Month x Dryer are intersections
+of month and appliance dummies for refrigerators, room ACs, and clothes dryers, respectively, to account for seasonality. Robust standard
+errors are in parentheses. ∗ ∗ ∗ , ∗ ∗ , and ∗ indicate statistical signiﬁcance at the 1, 5 and 10 percent level, respectively. Source: Monthly sales and
+revenues of appliances sold in the U.S. between 2002 and 2011 (The NPD Group); price indices and ratio of the share of continuing models
+between t and t − 1 (authors’ calculation).
+
+signiﬁcance for the ES policies, but most ME policy windows are not statistically signiﬁcant, even though the estimated impacts
+are similar in magnitude. Nevertheless, the results strongly suggest no harm, and probably consumer welfare improvement
+due to price declines and product introductions induced by changes in standards, all excluding beneﬁts from reduced pollution
+externalities.
+7. Competition and innovation
+In this section we take a closer look at the mechanisms that underlie price index declines and how changes in standards
+could affect them. The mechanism appears to be related to new product introductions, which are often induced by changes in
+standards. We pay particular attention to the way new product introductions cause reductions in prices of own-manufacturer
+products versus reductions in prices by competing manufactures. Similar to the ﬁndings from Broda and Weinstein (2006)
+and others, we ﬁnd that new product introductions cause a greater inﬂuence on own-manufacturer prices than competingmanufacturer prices.
+
+100
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+Fig. 4. Average vintage of clothes washers, 2001–2011.
+Source: The NPD Group.
+
+7.1. Product entry and average vintage
+We present evidence above that consumers substitute toward new models during times when energy eﬃciency standards
+change, especially around the 2004 minimum eﬃciency change for washing machines. This standard caused a marked shift
+from top-loading to front-loading washing machines, which use less water and are more energy eﬃcient. Another way to show
+substitution toward newer models is to plot the sales-weighted average vintage of appliances sold, where vintage is measured
+as the number of months since a model was ﬁrst introduced in the market. We plot average vintage of clothes washers sold in
+Fig. 4. The ﬁgure shows sharp declines in average vintage, especially around the 2004 change in minimum eﬃciency. For later
+policy changes, we ﬁnd similar, though smaller, declines that sometimes precede the policy change. In the online appendix we
+show graphs of average vintage for all appliances.
+One explanation for the pattern of price declines observed earlier is that policy-driven entry of new models enhances competition, forcing manufactures to lower prices of older vintages. For any given model of an appliance, regardless of vintage, the
+lower average vintage, the more new and presumably higher-quality models are in the market with which it must compete. By
+forcing exit and entry, standards may signiﬁcantly alter the distribution of vintages and thereby affect innovation, competition
+and price.
+A possible concern with interpreting the data in Fig. 4 is that a decline in average vintage may not be solely due to the
+standard changes. For example, average vintage also declines during early months of 2002, 2006 and 2008, when no policy
+changes occurred. These drops in average vintage may result from a large ﬁrm’s strategy to introduce models in order to glean
+revenue share from competitors. In order to provide evidence that the large drop in average vintage was due to the 2004 policy
+change, we calculated the sales-weighted average energy consumption (kWh) and operating costs of clothes washer during the
+period. Energy consumption of individual models are obtained from the Federal Trade Commission and matched with the NPD
+data. The present value operating cost of model j at time t, denoted as PV OCj t, is calculated using the equation:
+PVOCjt =
+
+Y
+∑
+
+ECj · PEt · (1 + rt )−(y+0.5)
+
+(13)
+
+y=0
+
+where EC denotes annual electricity consumption (in kWh) of product j, PE is the seasonally adjusted national average electricity
+price, r is the discount rate proxied by the 10-year U.S. Treasury bill rate, and y is the number of years the appliance is used up
+to its lifetime Y.
+Fig. 5 summarizes the calculated sales-weighted average energy consumption and operating costs for clothes washers sold
+during the study period. The orange vertical lines represent the simultaneous ME and ES policy changes and the green vertical
+line represents the ES policy change. We observe an especially large improvement in both energy eﬃciency measures around
+the policy change in 2004. This coincides with the large drop in average vintage in Fig. 4, which provides a clear indication that
+energy eﬃciency standard changes had a role in product entry and exit, at least in 2004.
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+101
+
+Fig. 5. Average energy consumption and operating costs of clothes washers, 2001–2011.
+
+7.2. Average vintage and competition
+To examine the link between average vintage (a measure of competitive pressure) on price declines, we estimate the following reduced-form regression model:
+pit = 𝛼i + 𝛽0 vintage−i,t + f (vintageit ) + g(vintageit ) vintage−i,t + monthk + 𝜀it
+
+(14)
+
+where pit denotes the price of model i at time t, vintage−i,t is the average vintage (weighted by current sales) of all models
+excluding i at time t, and f(vintage) and g(vintage) are restricted cubic splines of model-speciﬁc vintage, representing number of
+months since ﬁrst introduction. The second spline is interacted with average vintage to account for the possibility that prices of
+different vintages are more or less affected by average vintage. The spline functions allow price to change smoothly and ﬂexibly
+over the life span of the product. The variable month denotes month dummies to account for possible seasonality in the price
+trend and 𝛼 i denotes the model ﬁxed effect to account for unobserved time-invariant heterogeneity, like size and other model
+speciﬁcations, as well as unobserved quality attributes. 𝜀it is the usual error term.
+We cannot use time period ﬁxed effects because vintage−i,t is highly correlated across observations within a time period,
+given each excluded model is a tiny share of the market. Thus, average vintage is very nearly linearly dependent with time
+period ﬁxed effects. Within models, a linear time trend is also perfectly collinear with model-speciﬁc vintage, so an overall
+trend is not identiﬁed either.
+We use the estimates from equation (14) to predict the price trend of a typical clothes washer holding average vintage constant at different quantiles. Fig. 6 plots this predicted price across the ﬁrst two years of a clothes washer in the market, holding
+average vintage equivalent to about 10 months (20th percentile), 13 months (40th percentile), 14 months (60th percentile), and
+15 months (80th percentile). The difference between the trend line at 10 months and at 15 months is statistically signiﬁcant.
+Fig. 6 shows how average vintage of clothes washers relates to the level and slope of the predicted price trend of a representative
+clothes washer. All else the same, increasing average vintage from 10 to 15 months is associated with a 10 percent price increase
+(see Table 7). Signiﬁcance tests are summarized in Table 6.
+We now examine how ﬁrms adjust prices of their own continuing models when the ﬁrms themselves introduce new models,
+as well as how they adjust prices when competing ﬁrms introduce new models. In other words, we disentangle the inﬂuence
+of average vintage into cannibalization and external competition. To accomplish this, we decompose average vintage into ownﬁrm average vintage and other-ﬁrm average vintage. Denote vintage−i,c,t as the average vintage (weighted by current sales) of
+other products within the same ﬁrm at time t but excluding the current model i, and vintage−c,t as the average vintage (weighted
+by current sales) of models manufactured by other ﬁrms at time t. Like the model above, we consider interactions between ownmodel vintage and average vintage measures.
+pi,c,t = 𝛼i + 𝛽1 vintage−i,c,t + 𝛽2 vintage−c,t + fc (vintagei,t ) +
+
++fc (vintagei,t ) vintage−i,c,t + fc (vintagei,t ) vintage−c,t + monthk + 𝜀it
+
+(15)
+
+102
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+Fig. 6. Life-cycle pricing of clothes washers under different average vintage.
+Source: Authors’ calculation.
+
+Table 6
+Analysis of Variance for (real) price.
+
+Variables
+
+d.f.
+
+F-statistic
+
+p-value
+
+Average Vintage
+Spline Functions
+Interaction Terms
+All Variables
+R-sq. (within)
+
+1
+4
+4
+20
+
+41.77
+40.73
+10.09
+54.57
+
+<0.000
+<0.000
+<0.000
+<0.000
+0.293
+
+The table reports F-tests for the joint signiﬁcance of key explanatory variables and their interactions with the vintage (number
+of months since introduction) of the clothes washer in the market. The model uses restricted cubic splines with 5 knots, which
+results in four factors in the regression equation. Key variables
+include the average vintage (1 degree of freedom [d.f.]) and the
+interactions with the four vintage factors (4 d.f.). We used STATA
+command mkspline2 in estimating the spline functions.
+
+Using the estimates from equation (15) we predict the price trend of a typical clothes washer holding average vintage of
+models within brands constant. Panel (a) in Fig. 7 plots this predicted price across the ﬁrst two years of a clothes washer in the
+market, holding within-brand average vintage equivalent to about 8 months (20th percentile), 11 months (40th percentile), 13
+months (60th percentile) and 17 months (80th percentile). We make this prediction assuming other-brand average vintage is
+equivalent to about 10 months (20th percentile).11 We ﬁnd no statistically signiﬁcant difference between trend lines in different
+months. Panel (b) plots the predicted price trend of a typical clothes washer holding average vintage between brands constant
+at 20th, 40th, 60th and 80th percentile. The difference between the trend line at 10 months and at 15 months is statistically
+signiﬁcant (Fig. 7). Reducing the average vintage from 15 months to 10 months is associated with a 3 percent price decrease, all
+else the same (see Table 7).
+Because the clothes washer market is dominated by large integrated manufacturers with several subsidiary brands, we examine whether the same pattern holds at the manufacturer level. We predict the price trend of a typical washer at different average
+vintage of models within the same manufacturer and between manufacturers. Panel (c) in Fig. 7 shows the predicted price of a
+typical clothes washer, holding average vintage of models within the same manufacturer constant at about 9 months (20th per-
+
+11
+In online appendix (Appendix H) we show plots that hold other-brand average vintage at 13 months (40th percentile), 14 months (60th percentile) and 15
+months (80 percentile).
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+103
+
+Fig. 7. Life cycle pricing of clothes washers.
+Source: Authors’ calculation.
+
+centile), 11 months (40th percentile), 13 months (60th percentile) and 16 months (80 percentile).12 All else the same, reducing
+within-manufacturer average vintage from 16 months to 9 months is associated with a 5 percent faster price decline, a statistically signiﬁcant difference. We make the same prediction for different average vintage between manufacturers. We ﬁnd no
+statistically signiﬁcant difference between price trends at any given average vintage between manufacturers (Panel d).
+To see if cannibalism is unique to appliances that had more stringent energy eﬃciency standards over the sample period, we
+also consider refrigerators, room air conditioners and clothes dryers. No minimum eﬃciency standards were implemented for
+these appliances during the sample period, although refrigerators experienced changes in Energy Star certiﬁcation in 2004 and
+2008. We use the estimation strategy presented in equation (15) for these appliances. Table 7 presents the regression results
+using equation (14) for clothes dryers and Table 8 reports refrigerators and room air conditioners.
+
+12
+
+We repeat this prediction for different other-manufacturer average vintage percentiles in the online appendix (Appendix H).
+
+104
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+Table 7
+Regression results: Dependent variable - unit price, clothes washers and dryers.
+
+Clothes Washers
+(1)
+
+𝛽 1 , average vintage within brand
+𝛽 2 , average vintage between brands
+𝛽 1 , average vintage within manufacturer
+
+Own Vintage Spline
+Month-Fixed Effect
+Model-Fixed Effect
+Adj. R2 (within group)
+Observations
+
+(2)
+
+2.017∗∗ ∗
+(0.379)
+3.145∗∗ ∗
+(0.630)
+
+𝛽 2 , average vintage between manufacturers
+Constant
+
+Clothes Dryers
+
+719.932∗∗ ∗
+(6.322)
+yes
+yes
+yes
+0.298
+38,282
+
+(3)
+
+(4)
+
+2.535∗∗ ∗
+(0.262)
+3.580∗∗ ∗
+(0.501)
+3.905∗∗ ∗
+(0.427)
+0.744
+(0.462)
+722.204∗∗ ∗
+(6.005)
+yes
+yes
+yes
+0.300
+38,477
+
+617.112∗∗ ∗
+(4.950)
+yes
+yes
+yes
+0.317
+64,794
+
+4.657∗∗ ∗
+(0.262)
+1.736∗∗ ∗
+(0.381)
+612.562∗∗ ∗
+(4.823)
+yes
+yes
+yes
+0.326
+64,859
+
+The table reports the results from estimating equation (15) without the interaction effects. Columns (1) estimates the effects
+of within- and between-brands average vintage, and (2) estimates the effects of within- and between-manufacturer average
+vintage on price. Clustered standard errors are in parentheses. We use restricted cubic splines with 5 knots in estimating the
+spline function of vintage. ∗ ∗ ∗ , ∗ ∗ , ∗ indicate signiﬁcance at the 1, 5, and 10 percent, respectively.
+Table 8
+Regression results: Dependent variable - unit price, room air conditioners and refrigerators.
+
+Room AC
+(1)
+
+𝛽 1 , average vintage within brand
+𝛽 2 , average vintage between brands
+𝛽 1 , average vintage within manufacturer
+
+Own Vintage Spline
+Month-Fixed Effect
+Model-Fixed Effect
+Adj. R-Squared (within group)
+Observations
+
+403.189∗∗ ∗
+(3.986)
+yes
+yes
+yes
+0.115
+45,324
+
+(3)
+
+(4)
+
+4.264∗∗ ∗
+(0.411)
+4.429∗∗ ∗
+(0.739)
+
+0.158
+(0.130)
+0.999∗∗ ∗
+(0.202)
+
+𝛽 2 , average vintage between manufacturers
+Constant
+
+Refrigerator
+(2)
+
+0.002
+(0.003)
+1.109∗∗ ∗
+(0.175)
+403.503∗∗ ∗
+(4.021)
+yes
+yes
+yes
+0.115
+45,305
+
+1450.485∗∗ ∗
+(8.646)
+yes
+yes
+yes
+0.101
+181,277
+
+0.137
+(0.084)
+6.829∗∗ ∗
+(0.706)
+1465.583∗∗ ∗
+(8.253)
+yes
+yes
+yes
+0.098
+181,449
+
+The table reports the results from estimating equation (15) without the interaction effects for room ACs and refrigerators.
+Columns (1) and (3) estimate the effects of within- and between-brands average vintage, while (2) and (4) estimate the effects
+of within- and between-manufacturer average vintage on price. Clustered standard errors are in parentheses. We use restricted
+cubic splines with 5 knots in estimating the spline function of vintage. ∗ ∗ ∗ , ∗ ∗ , ∗ indicate signiﬁcance at the 1, 5, and 10 percent
+level, respectively.
+
+Interestingly, we ﬁnd the same pattern for clothes dryer prices as we do for washing machines, with cannibalism at both the
+brand and manufacturer levels (Table 7). We do not observe cannibalism at the manufacturer level for room air conditioners or
+refrigerators (Table 8), although cannibalism tends to drive down unit price at the brand level for refrigerators. It seems plausible
+that pricing for dryers is inﬂuenced by washing machines, since consumers often purchase washers and dryers simultaneously.
+Findings for refrigerator prices may be due to stronger seasonality, as price discounts tend to occur during the ﬁrst and last
+quarter of the year when the refrigerator market generally has more price declines and more new models. The evidence suggests
+an association between standards and increased cannibalism, a pattern that has been observed more generally (Broda and
+Weinstein, 2006).
+8. Discussion and conclusion
+Contrary to some views that more stringent energy eﬃciency standards are costly to consumers, primarily due to higher
+upfront costs associated with more energy eﬃcient appliances, we ﬁnd no evidence indicating that stricter energy eﬃciency
+policies increase prices or reduce consumer welfare in markets of regulated appliances. At best, we see evidence of faster price
+declines while consumers substitute to new appliances as they are introduced, both indicating welfare improvement. Overall,
+consumers gain, although depending on assumptions about substitutability between new and continuing appliances, some gains
+may not be statistically signiﬁcant.
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+105
+
+What might explain this counterintuitive effect of standards on consumer welfare? One theory is that standards make heterogeneous products more homogeneous, and thereby increase competition as proposed by Ronnen (1991). Another possibility
+is that standards facilitate innovation (Jaffe and Palmer, 1997). We ﬁnd little evidence of competition as a mechanism, since
+entry of other-manufacturer products has little inﬂuence on own-manufacturer prices. In contrast, we ﬁnd evidence supporting
+policy-induced innovation, wherein ﬁrms lower prices of older models as they are forced to introduce new models meeting new,
+stricter eﬃciency standards. Firms may reduce prices as a form of intertemporal price discrimination in order to extract rents
+from consumers with different demands for the latest technology (Stokey, 1979). Firms may also lower prices as costs decline
+over time, potentially due to economies of scale or learning-by-doing. If, however, ﬁrms’ pricing were solely due to declining
+production costs then introduction of new products should not inﬂuence the price, all else the same.
+Presumably imperfectly competitive ﬁrms would strategically time product entry, staggering introduction of new products
+so as to maximize potential novelty. Although we do not attempt to model it formally, we expect that, in the absence of policy
+or other interventions, equilibrium product introductions would be spread out over time, akin to spatial models of product
+diversiﬁcation in monopolistic competition. Figs. 4 and 5 show how the distribution of product vintages shifts periodically, with
+average vintage and energy eﬃciency measures dropping sharply right around the time of standard changes. This pattern in
+product vintages implies that standards may force more rapid entry and exit of models, thereby altering the distribution of
+vintages and affecting innovation and competition. For example, the simultaneous change in ME and ES for clothes washers
+may have induced most manufacturers to introduce new models at the same time in January 2004, which makes the effect of
+product introductions on price more signiﬁcant than in other periods. Of course, events besides standard changes could bring
+about synchronized timing of product entry.
+We also ﬁnd evidence to suggest that most and perhaps all the price declines associated with average vintage stem from
+increased entry and exit of models that occur within the same manufacturer. This pattern is uniquely strong for clothes washers
+that had undergone simultaneous and relatively more frequent changes in ME and ES standards in our sample. One interpretation of these observations is policy-induced creative destruction. The imposition of more stringent regulation forces all ﬁrms in
+the clothes washer market to introduce newer models at the expense of the older ones. The clothes washer market is dominated
+by large integrated manufacturers (e.g Whirlpool, General Electric and Electrolux) producing several brands of clothes washers
+and a number of relatively small independent manufacturers (e.g. Samsung and Fisher & Paykel). Firms, forced to introduce new
+products that satisfy new standards, may ﬁnd it more proﬁtable to bundle other innovations that complement energy eﬃciency.
+Due to brand loyalty, and perhaps a general narrowing of product heterogeneity, older vintages from the same manufacturer
+face greater competition, inciting them to lower the price of an existing product (Padmanabhan and Bass, 1993).
+Although policy changes appear to beneﬁt consumers, there are important caveats. First, the welfare analysis is based on a
+representative consumer. In reality, however, different consumers care to varying degrees about various product characteristics,
+an aspect of demand that the modelling assumptions may not fully capture. The CES utility model that underlies our index
+calculations can embody heterogeneous underlying preferences of individual discrete choice models, but the assumptions may
+be restrictive. It is plausible and perhaps likely that some customers lose as old models preferred by some are forced to exit as a
+result of standards, even while most customers gain. Future work may develop a better account of heterogeneous preferences
+and the distribution of beneﬁts across different kinds of customers. For example, Houde and Spurlock (2015), using the same
+data that we have, employed revealed preference approach that allowed them to calculate a price-adjusted quality index and
+welfare implications of standards. Their methods appear to generate similar results to ours.
+A second caveat is that it’s not clear how much of the overall decline in prices and improvement in quality would have
+occurred in the absence of the standard changes. To consider the effects of policy, a control is needed. This makes the establishment of counterfactuals extremely diﬃcult due to the positive correlation of entry and exit of models among major appliances,
+which might be a result of large manufacturers’ attempt to reduce overhead and logistical costs associated with introducing new
+appliances at different time periods. This caveat, however, likely makes our estimates more conservative; beneﬁts to consumers
+could be greater than our estimates imply.
+A third caveat is that we do not observe individuals who purchased used appliances, or otherwise accounted for a nopurchase option. While this is a limitation of the analysis, it is one that also understates the beneﬁts of regulation. These beneﬁts
+would be reﬂected in the overall demand for new appliances, not just substitution between them. This demand would presumably be downward sloping, such that purchases of new appliances and total consumer surplus would increase, ceteris paribus,
+as the price index falls. We implicitly omit this consumer surplus from the associated price decline, which would depend on the
+elasticity of substitution between each appliance and all other goods.
+A fourth caveat is that this study does not consider ﬁrms’ proﬁts. It is quite possible that ﬁrms that manufacture appliances
+experience proﬁt losses from stricter eﬃciency standards, as they re-optimize their menu of products and processes (Whitefoot
+et al., 2013). If, however, the appliance industry is suﬃciently competitive, even if monopolistically so, equilibrium economic
+proﬁts are presumably small relative to consumer beneﬁts, regardless of standards.
+Stepping back from the details of our analysis, it is useful to contemplate what the data might have shown if minimum
+eﬃciency standards were truly costly. Because the minimum standard affected the manufacture of washers but not their sale,
+there is no a priori reason to expect a sharp discontinuity in average vintage at the time of the policy change, a change that we
+nevertheless do observe. If the banned washers were both generally preferred and lower cost than the new washers, we might
+have seen a large build-up and carryover of old inventory into the newly regulated environment, and slow subsequent adoption
+of the new washers. Moreover, banned washers would have become a scarce, non-renewable commodity that should have seen
+increasing prices. Instead, we see the opposite: a fall in prices of continuing models and, despite that price decline, a dramatic
+
+106
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+shift in purchases from old models to new models. These facts are very hard to reconcile with anything but generally improving
+consumer welfare, irrespective of reduced pollution externalities associated with lower energy use.
+More generally, these ﬁndings clarify that the evaluation of energy eﬃciency standards requires consideration of more than
+pollution externalities and the existence, size, and causes of the energy eﬃciency gap. Markets for energy-consuming durable
+goods markets contain additional market failures, like imperfect competition and public-good aspects of innovation, as well
+as consumer behavioral anomalies. While stricter standards may help to improve matters in some cases, it is also generally
+understood that eﬃcient policy requires as many instruments as market failures.
+Finally, and somewhat askew from the main thrust of the paper, we present evidence, akin to Broda and Weinstein (2006),
+Broda and Weinstein (2010), and Redding and Weinstein (2018), that conventional cost of living indices, like the CPI, may not
+adequately account for quality changes and introductions of new products. Our price indices, built on model-speciﬁc data and
+accounts of product entry and exit, show more rapid declines than related components in the CPI (Figure G.5). The difference
+results mainly from building indices from same-product price changes and partly from our account of substitution to new
+products.
+Acknowledgements
+The authors acknowledge support from the Lawrence Berkeley National Laboratory (LBNL), the Grantham Foundation and
+the Economic and Social Research Council (ESRC) through the Centre for Climate Change Economics and Policy. This research
+was also funded in part by a grant/cooperative agreement from the National Oceanic and Atmospheric Administration, Project
+R/SB-15PD, which is sponsored by the University of Hawaii Sea Grant College Program, SOEST, under Institutional Grant No.
+NA14OAR4170071 from NOAA Oﬃce of Sea Grant, Department of Commerce, UNIHI-SEAGRANT-JC-15-29. The authors thank
+Larry Dale, Antoine Dechezlepretre, Damien Dussaux, Roger Fouquet, Daire McCoy, Sebastien Houde, Misato Sato, Anna Spurlock, two anonymous reviewers, Co-Editor Joshua Linn, and conference and seminar participants to EWC-IGS Conference, AERE
+Summer Conference, WEAI Annual Meeting, Joint AAEA-WAEA Meeting, EAERE Conference, GRI-Ofgem Workshop, Kingston
+University, and CMCC for useful comments and suggestions on earlier versions of this manuscript. Views expressed herein are
+those of the authors and do not necessarily reﬂect the views of US EPA, LBNL, ESRC, NOAA or any subagencies.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.jeem.2019.04.005.
+References
+Anderson, S.P., De Palma, A., Thisse, J.-F., 1992. Discrete Choice Theory of Product Differentiation. MIT press.
+Ashenfelter, O.C., Hosken, D.S., Weinberg, M.C., 2013. The price effects of a large merger of manufacturers: a case study of Maytag-Whirlpool. Am. Econ. J. Econ.
+Policy 5 (1), 239–261.
+Bils, M., 2009. Do higher prices for new goods reﬂect quality growth or inﬂation? Q. J. Econ. 124 (2), 637–675.
+Boskin, M.J., Dulberger, E.R., Gordon, R.J., Griliches, Z., Jorgenson, D.W., 1998. Consumer prices, the consumer price index, and the cost of living. J. Econ. Perspect.
+12 (1), 3–26.
+Broda, C., Weinstein, D.E., 2006. Globalization and the gains from variety. Q. J. Econ. 121 (2), 541–585.
+Broda, C., Weinstein, D.E., 2010. Product creation and destruction: evidence and price implications. Am. Econ. Rev. 100 (3), 691–723.
+Chen, X., Dale, L., Roberts, M., 2013. Can Standards Increase Consumer Welfare? Evidence from a 2007 Change in Clothes Washer Energy Eﬃciency Requirements.
+Technical Report Number LBNL-6024E. Lawrence Berkeley National Laboratory.
+Crampes, C., Hollander, A., 1995. Duopoly and quality standards. Eur. Econ. Rev. 39 (1), 71–82.
+Diewert, W.E., 1988. The Early History of Price Index Research.
+Feenstra, R.C., 1994. New Product Varieties and the Measurement of International Prices. The American Economic Review, pp. 157–177.
+Gerarden, T., Newell, R.G., Stavins, R.N., 2015. Deconstructing the energy-eﬃciency gap: conceptual frameworks and evidence. Am. Econ. Rev. 105 (5), 183–186.
+Gillingham, K., Newell, R.G., Palmer, K.L., 2009. Energy eﬃciency economics and policy. Ann. Rev. Resour. Econ. 1 (1), 597–620.
+Goldberg, P.K., 1998. The effects of the corporate average fuel eﬃciency standards in the US. J. Ind. Econ. 46 (1), 1–33.
+Greening, L.A., Sanstad, A.H., McMahon, J.E., 1997. Effects of appliance standards on product price and attributes: an hedonic pricing model. J. Regul. Econ. 11
+(2), 181–194.
+Greenlees, J.S., McClelland, R., 2011. Does quality adjustment matter for technologically stable products? An application to the CPI for food. Am. Econ. Rev. 101
+(3), 200–205.
+Hausman, J., 2003. Sources of bias and solutions to bias in the consumer price index. J. Econ. Perspect. 23–44.
+Hausman, J.A., 1979. Individual discount rates and the purchase and utilization of energy-using durables. Bell J. Econ. 10 (1), 33–54.
+Houde, S., Spurlock, C.A., 2015. Do Energy Eﬃciency Standards Improve Quality? Evidence from a Revealed Preference Approach. Lawrence Berkeley National
+Laboratory. Working Paper Series No. 182701.
+Jacobsen, M.R., 2013. Evaluating US fuel economy standards in a model with producer and household heterogeneity. Am. Econ. J. Econ. Policy 5 (2), 148–187.
+Jaffe, A.B., Newell, R.G., Stavins, R.N., 2004. Economics of energy eﬃciency. Encycl. Energy 2, 79–90.
+Jaffe, A.B., Palmer, K., 1997. Environmental regulation and innovation: a panel data study. Rev. Econ. Stat. 79 (4), 610–619.
+Jaffe, A.B., Stavins, R.N., 1994a. The energy-eﬃciency gap: what does it mean? Energy Policy 22 (10), 804–810.
+Jaffe, A.B., Stavins, R.N., 1994b. The energy paradox and the diffusion of conservation technology. Resour. Energy Econ. 16 (2), 91–122.
+Leamer, E.E., 1981. Is it a demand curve, or is it a supply curve? partial identiﬁcation through inequality constraints. Rev. Econ. Stat. 319–327.
+Moulton, B.R., 1996. Bias in the consumer price index: what is the evidence? J. Econ. Perspect. 10 (4), 159–177.
+Padmanabhan, V., Bass, F.M., 1993. Optimal pricing of successive generations of product advances. Int. J. Res. Mark. 10 (2), 185–207.
+Redding, S.J., Weinstein, D.E., 2018. Measuring Aggregate Price Indexes with Demand Shocks: Theory and Evidence for CES Preferences. NBER Working Paper
+No. 22749. National Bureau of Economic Research.
+Ronnen, U., 1991. Minimum quality standards, ﬁxed costs, and competition. Rand J. Econ. 22 (4), 490–504.
+Sallee, J.M., 2013. Rational Inattention and Energy Eﬃciency. Working Paper 19545. National Bureau of Economic Research.
+
+A. Brucal and M.J. Roberts / Journal of Environmental Economics and Management 96 (2019) 88–107
+
+107
+
+Sato, K., 1976. The ideal log-change index number. Rev. Econ. Stat. 223–228.
+Soderbery, A., 2015. Estimating import supply and demand elasticities: analysis and implications. J. Int. Econ. 96 (1), 1–17.
+Spurlock, C.A., 2013. Appliance Eﬃciency Standards and Price Discrimination. Technical report. Lawrence Berkeley National Laboratory, Berkeley, CA, p. 94720.
+Spurlock, C.A., Yang, H.-C., Dale, L., 2013. Energy Eﬃciency and Minimum Standards: a Market Analysis of Recent Cchange in Appliance Energy Eﬃciency Standrds
+in the United States. LBNL Paper LNBL-6353E. Lawrence Berkeley National Laboratory.
+Stokey, N.L., 1979. Intertemporal price discrimination. Q. J. Econ. 93 (3), 355–371.
+Train, K., 1985. Discount rates in consumers’ energy-related decisions: a review of the literature. Energy 10 (12), 1243–1253.
+Valletti, T.M., 2000. Minimum quality standards under cournot competition. J. Regul. Econ. 18 (3), 235–245.
+Van Buskirk, R., Kantner, C., Gerke, B., Chu, S., 2014. A retrospective investigation of energy eﬃciency standards: policies may have accelerated long term declines
+in appliance costs. Environ. Res. Lett. 9 (11), 114010.
+Vartia, Y.O., 1976. Ideal log-change index numbers. Scand. J. Stat. 121–126.
+Whitefoot, K., Fowlie, M., Skerlos, S., 2013. Compliance by Design: Industry Response to Energy Eﬃciency Standards. (Unpublished working paper). .
+
+

@@ -1,0 +1,11 @@
+{
+  "key": "health_2016_pbac_guidelines_v5",
+  "citation": "Australian Government Department of Health (September 2016). Guidelines for preparing a submission to the Pharmaceutical Benefits Advisory Committee (Version 5.0).",
+  "doi": null,
+  "url": "https://pbac.pbs.gov.au/content/information/files/pbac-guidelines-version-5.pdf",
+  "media_type": "application/pdf",
+  "sha256": "b8e06a5ec804136f2108780c7310b1982dd3824edf3a51778e275a0d6fb03d18",
+  "licence": "(c) 2016 Commonwealth of Australia; personal and internal non-commercial use of unaltered copies, other rights reserved",
+  "fetched_utc": "2026-11-09T16:23:35Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

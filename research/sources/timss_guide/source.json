@@ -1,0 +1,11 @@
+{
+  "key": "timss_guide",
+  "citation": "TIMSS 2023 User Guide for the International Database (IEA, TIMSS and PIRLS International Study Center)",
+  "doi": "",
+  "url": "https://timss2023.org/wp-content/uploads/data/T23_UG-International-Database.pdf",
+  "media_type": "application/pdf",
+  "sha256": "176aefc113da58816609ea27608e43051014f0a60024b7e347628304a357d6e4",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:32:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

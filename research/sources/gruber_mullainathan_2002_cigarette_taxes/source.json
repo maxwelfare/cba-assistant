@@ -1,0 +1,12 @@
+{
+ "key": "gruber_mullainathan_2002_cigarette_taxes",
+ "citation": "Gruber J, Mullainathan S (2002). Do cigarette taxes make smokers happier? NBER Working Paper 8872. Published 2005, Advances in Economic Analysis & Policy 5(1), article 4.",
+ "doi": "10.3386/w8872",
+ "url": "https://nber.org/system/files/working_papers/w8872/w8872.pdf",
+ "media_type": "application/pdf",
+ "sha256": "5bd74e4e91131825eeac7d99efadf364c096a70ea8e0dfe2e179a01ca25b0a14",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:11:32Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://nber.org/system/files/working_papers/w8872/w8872.pdf"
+}

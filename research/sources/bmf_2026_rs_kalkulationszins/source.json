@@ -1,0 +1,12 @@
+{
+ "key": "bmf_2026_rs_kalkulationszins",
+ "citation": "Bundesministerium der Finanzen (8 June 2026). Rundschreiben: 1. Personal- und Sachkosten in der Bundesverwaltung für Wirtschaftlichkeitsuntersuchungen und Kostenberechnungen; 2. Kalkulationszinssätze für Wirtschaftlichkeitsuntersuchungen (PKS 2025, barrierefreie Fassung).",
+ "doi": null,
+ "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Oeffentliche_Finanzen/Bundeshaushalt/personalkosten-sachkosten-2025-barrierefrei.pdf?__blob=publicationFile&v=2",
+ "media_type": "application/pdf",
+ "sha256": "a36e09fecbe276071088a2543690af9caacd3452d9e0351bce4438e92d3b52b6",
+ "licence": "not stated",
+ "fetched": "2026-11-21T22:10:12Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Oeffentliche_Finanzen/Bundeshaushalt/personalkosten-sachkosten-2025-barrierefrei.pdf?__blob=publicationFile&v=2"
+}

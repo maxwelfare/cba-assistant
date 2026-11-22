@@ -1,0 +1,11 @@
+{
+ "key": "bundesregierung_2020_ggo",
+ "citation": "Bundesregierung (Stand 30. Juli 2020). Gemeinsame Geschäftsordnung der Bundesministerien (GGO).",
+ "doi": null,
+ "url": "https://plattform.egesetzgebung.bund.de/egesetzgebung-platform-backend/arbeitshilfen/download/34",
+ "media_type": "application/pdf",
+ "sha256": "b0f439a68c1caa7735479d3f773cd17e368ce9b8fd181f661fe0036b5eaef363",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,11 @@
+{
+ "key": "turner_2009_bias",
+ "citation": "Turner RM, Spiegelhalter DJ, Smith GCS, Thompson SG (2009). Bias modelling in evidence synthesis. Journal of the Royal Statistical Society Series A 172(1):21-47.",
+ "doi": "10.1111/j.1467-985X.2008.00547.x",
+ "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2667303/",
+ "media_type": "text/html",
+ "sha256": "75b88442c3dc3631d97696d3780f7ea043be53af2179bd403165c65465690363",
+ "licence": "Creative Commons Attribution 2.5, non-commercial (the PMC page's notice)",
+ "fetched": "2026-11-08",
+ "text_method": "scripts and styles removed, tags stripped from original.html; the page's mathematics is lost in the text"
+}

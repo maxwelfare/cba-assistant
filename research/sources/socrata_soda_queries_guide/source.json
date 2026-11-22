@@ -1,0 +1,11 @@
+{
+ "key": "socrata_soda_queries_guide",
+ "citation": "Tyler Technologies, Socrata. Queries using SODA3 (developer documentation).",
+ "doi": "",
+ "url": "https://dev.socrata.com/docs/queries/",
+ "media_type": "text/html",
+ "sha256": "b45d474299429b7ade3d0d03a5a963fe6f395f6bdbf42f5fd4f6e8abd7acacef",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T17:33:40Z",
+ "text_method": "python -I: strip script/style/nav tags, keep paragraph breaks"
+}

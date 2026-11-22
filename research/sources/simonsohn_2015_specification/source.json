@@ -1,0 +1,12 @@
+{
+ "key": "simonsohn_2015_specification",
+ "citation": "Simonsohn U, Simmons JP, Nelson LD (2015). Specification curve: descriptive and inferential statistics on all reasonable specifications. Working paper, University of Pennsylvania (ScholarlyCommons, Marketing Papers 378; SSRN 2694998). Published as: Specification curve analysis. Nature Human Behaviour 4:1208-1214 (2020), doi:10.1038/s41562-020-0912-z.",
+ "doi": null,
+ "url": "https://repository.upenn.edu/bitstreams/01d721e1-e96c-4095-82f0-fc326271f8b5/download",
+ "media_type": "application/pdf",
+ "sha256": "c1ac14371f868a3581a483212d40b82a0fd8e8283d98bb1cdc3c09664e597f56",
+ "licence": "institutional repository copy (Penn ScholarlyCommons)",
+ "fetched": "2026-11-12T15:52:17Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://repository.upenn.edu/bitstreams/01d721e1-e96c-4095-82f0-fc326271f8b5/download"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "scienceplots_readme",
+ "citation": "Garrett J D. SciencePlots README (GitHub), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/master/README.md",
+ "media_type": "text/markdown",
+ "sha256": "915a3942c4b999f12cf4b708fa3b29a07e1d1717397b3425c1c7a7888ecccc22",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:20:00Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://raw.githubusercontent.com/garrettj403/SciencePlots/master/README.md"
+}

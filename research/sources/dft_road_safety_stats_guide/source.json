@@ -1,0 +1,11 @@
+{
+ "key": "dft_road_safety_stats_guide",
+ "citation": "Department for Transport (UK). Road safety statistics: guidance. GOV.UK.",
+ "doi": "",
+ "url": "https://www.gov.uk/guidance/road-accident-and-safety-statistics-guidance",
+ "media_type": "text/html",
+ "sha256": "cdd3008bbe379b1f18619de414d2a7a7c35b1f4ccbb63a2f05362aa986c96bad",
+ "licence": "not stated on the page",
+ "fetched_utc": "2026-11-09T17:33:40Z",
+ "text_method": "python -I: strip script/style/nav tags, keep paragraph breaks"
+}

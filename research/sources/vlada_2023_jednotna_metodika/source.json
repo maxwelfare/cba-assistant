@@ -1,0 +1,11 @@
+{
+  "key": "vlada_2023_jednotna_metodika",
+  "citation": "Jednotná metodika na posudzovanie vybraných vplyvov (informatívne konsolidované znenie účinné od 1. októbra 2023), Vláda SR; hosted by Ministerstvo hospodárstva SR",
+  "doi": null,
+  "url": "https://www.mhsr.sk/uploads/files/u6GlFM7w.pdf",
+  "media_type": "application/pdf",
+  "sha256": "44b7182677d7a2e6737f2b5b00895fded82b84f8c51df646cec5ac0b3bdbe5f2",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:35:20+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

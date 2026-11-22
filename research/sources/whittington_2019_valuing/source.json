@@ -1,0 +1,12 @@
+{
+ "key": "whittington_2019_valuing",
+ "citation": "Whittington D, Cook J (2019). Valuing changes in time use in low- and middle-income countries. Journal of Benefit-Cost Analysis 10(S1).",
+ "doi": "10.1017/bca.2018.21",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7473062/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "c35a637fd5521af1e1925d78a7da8957a4673a20b8e0b2c67b7f1c6e2c608b3b",
+ "licence": "CC BY (Europe PMC)",
+ "fetched": "2026-11-17T11:51:33Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7473062/fullTextXML"
+}

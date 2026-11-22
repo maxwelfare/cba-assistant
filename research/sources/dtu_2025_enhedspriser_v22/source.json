@@ -1,0 +1,11 @@
+{
+  "key": "dtu_2025_enhedspriser_v22",
+  "citation": "DTU Management/Transportministeriet (2025): Opdatering af de Transportøkonomiske Enhedspriser til version 2.2, november 2025 (2-page note; the price tables themselves not stored)",
+  "doi": null,
+  "url": "https://www.man.dtu.dk/-/media/institutter/management/scientific-advice/teresa/samfundsoekonomiske-notater/notat-opdatering-af-te-til-2-2.pdf",
+  "media_type": "application/pdf",
+  "sha256": "4fe935137f8aa82d85cf3e73eb2b65715730be53b35daad71380a1a8ceafd086",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:24:49Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

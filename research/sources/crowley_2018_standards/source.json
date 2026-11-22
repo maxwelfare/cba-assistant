@@ -1,0 +1,12 @@
+{
+ "key": "crowley_2018_standards",
+ "citation": "Crowley DM, Dodge KA, Barnett WS, Corso P, Duffy S, Graham P, Greenberg M, Haskins R, Hill L, Jones DE, Karoly LA, Kuklinski MR, Plotnick R (2018). Standards of evidence for conducting and reporting economic evaluations in prevention science. Prevention Science 19(3):366-390.",
+ "doi": "10.1007/s11121-017-0858-1",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5869868/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "ed0158663ae870045ae924293b68c62a73e5c00c23226dc10a0ecd8b91cde505",
+ "licence": "CC BY 4.0",
+ "fetched": "2026-11-21T07:29:30Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "copied from tmp/scratchpad/crowley2018/original.xml (fetched is the file's modification time)"
+}

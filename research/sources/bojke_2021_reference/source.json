@@ -1,0 +1,11 @@
+{
+  "key": "bojke_2021_reference",
+  "citation": "Bojke L, Soares MO, Claxton K, Colson A, Fox A, Jackson C, Jankovic D, Morton A, Sharples LD, Taylor A (2021). Reference case methods for expert elicitation in health care decision making. Medical Decision Making.",
+  "doi": "10.1177/0272989X211028236",
+  "url": "https://eprints.whiterose.ac.uk/175104/9/0272989x211028236.pdf",
+  "media_type": "application/pdf",
+  "sha256": "dd80e637393666f37ea8ffe8f17d95c3c6cd50b688169fd902e5e6a1c3bbeba2",
+  "licence": "the PDF's notice names SAGE's reuse guidelines; no open licence read",
+  "fetched_utc": "2026-11-09T17:51:14Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

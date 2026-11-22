@@ -1,0 +1,12 @@
+{
+ "key": "great_tables_home",
+ "citation": "Posit PBC. Great Tables documentation (home), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://posit-dev.github.io/great-tables/",
+ "media_type": "text/html",
+ "sha256": "92c94e28e0b813d4f1d0ae307cee4262f97cfe01e16ec82a4bc510de6b858745",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:58Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://posit-dev.github.io/great-tables/"
+}

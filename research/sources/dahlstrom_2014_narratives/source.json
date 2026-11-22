@@ -1,0 +1,12 @@
+{
+ "key": "dahlstrom_2014_narratives",
+ "citation": "Dahlstrom MF (2014). Using narratives and storytelling to communicate science with nonexpert audiences. PNAS 111(Supplement 4):13614-13620.",
+ "doi": "10.1073/pnas.1320645111",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25225368&resultType=core&format=json",
+ "media_type": "text/plain",
+ "sha256": "95a24bf7c78b12cce864f7f32e205ced2a7254d422df37c6608833e0e7a35cab",
+ "licence": "abstract only, as given by Europe PMC; full text walled (Europe PMC XML 500, PDF 403)",
+ "fetched": "2026-11-12T13:13:07Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/d/ab/dahl.txt (fetched is the file's modification time)"
+}

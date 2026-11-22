@@ -1,0 +1,12 @@
+{
+ "key": "wallis_2014_two_piece",
+ "citation": "Wallis KF (2014). The two-piece normal, binormal, or double Gaussian distribution: its origin and rediscoveries. Statistical Science 29(1):106-112.",
+ "doi": "10.1214/13-STS417",
+ "url": "https://arxiv.org/pdf/1405.4995",
+ "media_type": "application/pdf",
+ "sha256": "d443da4a9bbdd174e78da701e6cf544760599eba5c90018f7a2cc726ecbc97d1",
+ "licence": "arXiv.org perpetual, non-exclusive licence to distribute (arXiv:1405.4995)",
+ "fetched": "2026-11-12T17:27:54Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/1405.4995"
+}

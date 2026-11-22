@@ -1,0 +1,12 @@
+{
+ "key": "cofemer_2014_guia_evaluar_impacto_regulacion",
+ "citation": "Comisión Federal de Mejora Regulatoria (COFEMER). Guía para evaluar el impacto de la regulación. Versión final, February 2014.",
+ "doi": "none",
+ "url": "https://www.gob.mx/cms/uploads/attachment/file/502288/Gui_a_para_Evaluar_el_Impacto_de_la_Regulacio_n.pdf",
+ "media_type": "application/pdf",
+ "sha256": "882931f3ccafeffbb2367bce955c4f41c63482ae5e62c5bb7940bd984df81fb9",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:31:23.415322Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "language": "es"
+}

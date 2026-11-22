@@ -1,0 +1,11 @@
+{
+ "key": "lawlor_2016_triangulation",
+ "citation": "Lawlor DA, Tilling K, Davey Smith G (2016). Triangulation in aetiological epidemiology. International Journal of Epidemiology 45(6):1866-1886.",
+ "doi": "10.1093/ije/dyw314",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5841843/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "53cc5a3426cf13572a1e85cc7af4a6a7616055a37013a8e01eb67bb89235ab5d",
+ "licence": "CC BY 4.0 (the article's licence element)",
+ "fetched": "2026-11-08",
+ "text_method": "tags stripped from original.xml, reference list removed"
+}

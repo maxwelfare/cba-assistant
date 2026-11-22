@@ -1,0 +1,12 @@
+{
+ "key": "ishigami_1990_importance",
+ "citation": "Ishigami T, Homma T (1990). An importance quantification technique in uncertainty analysis for computer models. Proceedings of the First International Symposium on Uncertainty Modeling and Analysis (ISUMA '90), IEEE, 398-403.",
+ "doi": "10.1109/ISUMA.1990.151285",
+ "url": "https://api.openalex.org/works/doi:10.1109/ISUMA.1990.151285",
+ "media_type": "text/plain",
+ "sha256": "91654ea7eeb47a4d472adf304eb8a00c987a9a816c9284af45bfe87c84f82fd6",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:33Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/ishigami_1990_importance.txt (fetched is the file's modification time)"
+}

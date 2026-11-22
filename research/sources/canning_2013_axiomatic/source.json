@@ -1,0 +1,12 @@
+{
+ "key": "canning_2013_axiomatic",
+ "citation": "Canning (2013). Axiomatic foundations for cost-effectiveness analysis. Health Economics 22:1405-1416.",
+ "doi": "10.1002/hec.2889",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/hec.2889",
+ "media_type": "text/plain",
+ "sha256": "f5d0c42cf1d94da73c009a7c9e6b6e32a95fc4c53f96eccf8ed820ba3b7b89b6",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:40Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/canning_2013_axiomatic.txt (fetched is the file's modification time)"
+}

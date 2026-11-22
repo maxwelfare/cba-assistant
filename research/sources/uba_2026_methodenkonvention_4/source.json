@@ -1,0 +1,11 @@
+{
+ "key": "uba_2026_methodenkonvention_4",
+ "citation": "Eser N, Matthey A, Bünger B (Februar 2026). Handbuch Umweltkosten: Methodenkonvention 4.0. Umweltbundesamt, Dessau-Roßlau.",
+ "doi": null,
+ "url": "https://www.umweltbundesamt.de/system/files/medien/14437/publikationen/2026-10/MK_4_0_Kostens%C3%A4tze_final2.pdf",
+ "media_type": "application/pdf",
+ "sha256": "24d69ef2e88f4c63b7379b54844bff25c0d058dbda079dd5068d71778781beab",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "aea_aer_style_guide",
+  "citation": "AEA. American Economic Review: Style Guide.",
+  "doi": null,
+  "url": "https://www.aeaweb.org/journals/aer/style-guide",
+  "media_type": "text/html",
+  "sha256": "10bd2d9fcf7bd4f9f14e8ce23b3fbebd0d64a82e739025a9238ac8559242daf2",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:01:56Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 6118
+}

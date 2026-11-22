@@ -1,0 +1,12 @@
+{
+ "key": "stimson_2026_ai_publications",
+ "citation": "Stimson Center. AI Policy for Publications, January 2026. stimson.org, fetched 2026-11-10.",
+ "doi": null,
+ "url": "https://www.stimson.org/wp-content/uploads/2026/08/Final-AI-Policy-for-Publications-January-2026_new.pdf",
+ "media_type": "application/pdf",
+ "sha256": "a9726dc022d43f5b27557b35b87e12b19b42e1c58f54a2bb91600f489f2db6f9",
+ "licence": "not stated",
+ "fetched": "2026-11-10T23:16:04Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.stimson.org/wp-content/uploads/2026/08/Final-AI-Policy-for-Publications-January-2026_new.pdf"
+}

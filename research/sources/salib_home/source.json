@@ -1,0 +1,12 @@
+{
+ "key": "salib_home",
+ "citation": "Herman J, Usher W et al. SALib documentation, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://salib.readthedocs.io/en/latest/",
+ "media_type": "text/html",
+ "sha256": "3ebae521b6a7c5a3cb51ed0492ede66725d98acebe09d67b07dc99d9b0b81a28",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:57Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://salib.readthedocs.io/en/latest/"
+}

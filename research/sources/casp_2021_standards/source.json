@@ -1,0 +1,12 @@
+{
+ "key": "casp_2021_standards",
+ "citation": "Cost Analysis Standards Project (2021). Standards for the Economic Evaluation of Educational and Social Programs. American Institutes for Research, May 2021.",
+ "doi": null,
+ "url": "https://www.air.org/sites/default/files/Standards-for-the-Economic-Evaluation-of-Educational-and-Social-Programs-CASP-May-2021.pdf",
+ "media_type": "application/pdf",
+ "sha256": "115d87244b274a0018d20049f03b6915f7739412da77c48bbf998b2d2f6b2fab",
+ "licence": "not stated",
+ "fetched": "2026-11-21T07:31:13Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/casp2021/original.pdf (fetched is the file's modification time)"
+}

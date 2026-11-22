@@ -1,0 +1,11 @@
+{
+ "key": "gneiting_2013_combining",
+ "citation": "Gneiting T, Ranjan R (2013). Combining predictive distributions. Electronic Journal of Statistics 7:1747-1782.",
+ "doi": "10.1214/13-EJS823",
+ "url": "https://arxiv.org/pdf/1106.1638v1",
+ "media_type": "application/pdf",
+ "sha256": "0729ae01b02a39f5cdc1f65879d7869b11ba5b53436363e1d93e2ece50e24f3d",
+ "licence": "arXiv preprint v1 (8 June 2011), which may differ from the published version; licence as arXiv lists it",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext original.pdf text.txt"
+}

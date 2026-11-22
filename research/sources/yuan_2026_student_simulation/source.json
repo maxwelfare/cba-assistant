@@ -1,0 +1,12 @@
+{
+  "key": "yuan_2026_student_simulation",
+  "citation": "Yuan Z, Xiao Y, Li M, Xuan W, Tong R, Diab M, Mitchell T (2026). Towards Valid Student Simulation with Large Language Models. arXiv:2601.05473.",
+  "doi": "10.48550/arXiv.2601.05473",
+  "url": "https://arxiv.org/pdf/2601.05473",
+  "media_type": "application/pdf",
+  "sha256": "1b400fe647fb9ae178429eebf5909e6ff5697f0944c569eac54abf857dac2a76",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:39:33Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 72528
+}

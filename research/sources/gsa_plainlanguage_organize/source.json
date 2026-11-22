@@ -1,0 +1,12 @@
+{
+ "key": "gsa_plainlanguage_organize",
+ "citation": "GSA plainlanguage.gov archived guideline page: Organize (Federal Plain Language Guidelines, 2011).",
+ "doi": null,
+ "url": "https://raw.githubusercontent.com/GSA/plainlanguage.gov/main/_pages/guidelines/organize/index.md",
+ "media_type": "text/markdown",
+ "sha256": "80f22cf65641291a092c1e997cb6a02ed834856d50630862c8a883222f6e5ad9",
+ "licence": "US government work",
+ "fetched": "2026-11-17T12:04:00Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "python tools/host_cooldown.py fetch https://raw.githubusercontent.com/GSA/plainlanguage.gov/main/_pages/guidelines/organize/index.md"
+}

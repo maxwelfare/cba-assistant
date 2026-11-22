@@ -1,0 +1,6 @@
+Not licensed by Max Welfare Inc.
+
+Files marked LicenseRef-third-party are copies of, or extracts from, works owned by others, kept so that the
+project's quotations, figures and inputs can be checked against them. Max Welfare Inc. grants no licence to them.
+Each remains under its owner's terms, recorded where known in the `licence` field of the sources.toml entry for it.
+They are left out of any public release unless their owners' terms allow redistribution.

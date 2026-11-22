@@ -1,0 +1,39 @@
+# Australia (Commonwealth), values in force on 2026-10-29. Each quote was read in the document's own text on 2026-10-29
+# or 2026-10-30 (the Office of Impact Analysis page as raw HTML; its value of statistical life note as PDF text).
+jurisdiction = "Australia (Commonwealth)"
+edition = "2026-10-29"
+
+[discount_rate]
+central = 0.07
+sensitivity = [0.03, 0.10]
+unit = "real rate per year"
+document = "Office of Impact Analysis, Cost Benefit Analysis guidance"
+url = "https://oia.pmc.gov.au/resources/cost-benefit-analysis"
+quote = "OIA requires the calculation of net present values at an annual real discount rate of 7 per cent."
+quote_sensitivity = "the net present values should also be calculated with real discount rates of 3 per cent and 10 per cent."
+note = "Footnote 5 of the same page: OIA also accepts a central rate of 8 per cent with sensitivity at 3 and 10 per cent (Harrison 2010)."
+licence = "not stated on the page (its footer links a copyright notice, not read)"
+
+[value_of_statistical_life]
+value = 5870000
+unit = "AUD 2025 per statistical life"
+document = "Office of Impact Analysis, Value of statistical life guidance note, January 2026"
+url = "https://oia.pmc.gov.au/sites/default/files/2026-01/value-statistical-life-guidance-note.pdf"
+quote = "Using ABS Wage Price Index data to express these estimates in 2025 dollars gives a VSL of $5.87 million, and a VLY of $253,000 based on a private time preference discount rate of 3 per cent."
+indexation = "ABS Wage Price Index (Cat. No. 6345.0), as the note states for its own update; it gives no rule for later years."
+licence = "not stated in the note"
+
+[value_of_statistical_life_year]
+value = 253000
+unit = "AUD 2025 per life-year"
+document = "Office of Impact Analysis, Value of statistical life guidance note, January 2026"
+url = "https://oia.pmc.gov.au/sites/default/files/2026-01/value-statistical-life-guidance-note.pdf"
+quote = "the value of statistical life year is $253,000 in 2025 dollars"
+licence = "not stated in the note"
+
+[consumer_price_index]
+series = "A130393720C"
+label = "Index Numbers; All groups CPI; Australia (monthly, from April 2024)"
+document = "Australian Bureau of Statistics, Consumer Price Index, Australia, Table 1 (640101.xlsx), September 2026 release"
+url = "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release"
+note = "The series is named here; its values are collected when a case first needs a conversion."

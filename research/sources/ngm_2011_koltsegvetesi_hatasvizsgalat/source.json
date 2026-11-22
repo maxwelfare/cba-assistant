@@ -1,0 +1,11 @@
+{
+  "key": "ngm_2011_koltsegvetesi_hatasvizsgalat",
+  "citation": "Költségvetési hatásvizsgálat: útmutató (Erdélyi, Hafiek, Tésy, NGM)",
+  "doi": null,
+  "url": "https://hatasvizsgalat.kormany.hu/download/c/38/20000/koltseg.pdf",
+  "media_type": "application/pdf",
+  "sha256": "00280bb3d77f1b06dbd5a5bdf998837da38df7cece15d548322e4f51fc6b9fc3",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:27:50Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

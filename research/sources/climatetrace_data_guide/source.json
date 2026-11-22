@@ -1,0 +1,11 @@
+{
+ "key": "climatetrace_data_guide",
+ "citation": "Climate TRACE. Data Downloads page (latest release 5.12.0, 29 Oct 2026; fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://climatetrace.org/data",
+ "media_type": "text/html",
+ "sha256": "cc23ab88e0a12e645f7d49ee228a4b32e02ac40b9645783f54f3009e0e4b0fa3",
+ "licence": "data licensed Creative Commons 4.0 per the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

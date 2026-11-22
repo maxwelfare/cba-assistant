@@ -1,0 +1,12 @@
+{
+ "key": "lomborg_2023_halftime",
+ "citation": "Lomborg B (2023). Save 4.2 million lives and generate $1.1 trillion in economic benefits for only $41 billion: introduction to the special issue on the most efficient policies for the sustainable development goals. Journal of Benefit-Cost Analysis 14(S1):1-15 (Copenhagen Consensus, Halftime for the SDGs).",
+ "doi": "10.1017/bca.2023.32",
+ "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/26AC5E41A3D76031B85178E84D070CD8/S2194588823000325a.pdf/div-class-title-save-4-2-million-lives-and-generate-1-1-trillion-in-economic-benefits-for-only-41-billion-introduction-to-the-special-issue-on-the-most-efficient-policies-for-the-sustainable-development-goals-div.pdf",
+ "media_type": "application/pdf",
+ "sha256": "f028c8934b33be929d1a8a3b969b37251ad53dbb53fb4d38fd97acdb147de65c",
+ "licence": "open access (Cambridge, CC BY)",
+ "fetched": "2026-11-12T15:53:26Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.cambridge.org/core/services/aop-cambridge-core/content/view/26AC5E41A3D76031B85178E84D070CD8/S2194588823000325a.pdf/div-class-title-save-4-2-million-lives-and-generate-1-1-trillion-in-economic-benefits-for-only-41-billion-introduction-to-the-special-issue-on-the-most-efficient-policies-for-the-sustainable-development-goals-div.pdf"
+}

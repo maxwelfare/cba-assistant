@@ -1,0 +1,11 @@
+{
+  "key": "pmo_2015_ria_guide",
+  "citation": "משרד ראש הממשלה, אגף ממשל וחברה. מדריך ממשלתי: הערכת השפעות רגולציה (מדריך RIA), טיוטה לעבודה, אפריל 2015",
+  "doi": null,
+  "url": "https://www.gov.il/BlobFolder/generalpage/ria_guide/he/file_RIAGUIDE_opt-8.pdf",
+  "media_type": "application/pdf",
+  "sha256": "ec83af45a9afc087002d5cb5fdd81e98161185888ddb75b81339f5587831f989",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:29:42+00:00",
+  "text_method": "pdftotext original.pdf (plain, no -layout), then Unicode bidi control marks U+202A-202E, U+200E, U+200F removed with a python -I script; Hebrew is in logical order, but some digit strings come out reversed (e.g. 2016 as 6102)"
+}

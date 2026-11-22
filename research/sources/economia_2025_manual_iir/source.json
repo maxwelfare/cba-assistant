@@ -1,0 +1,11 @@
+{
+ "key": "economia_2025_manual_iir",
+ "citation": "Ministerio de Economia, Fomento y Turismo, Division de Competencia y Mercados Regulados (2025). Manual de uso de plataforma, Informes de Impacto Regulatorio.",
+ "doi": null,
+ "url": "https://dcmr.economia.cl/wp-content/uploads/2025/07/manual-plataforma-iir.pdf",
+ "media_type": "application/pdf",
+ "sha256": "2da63987b2de97317e049c085aa5e84e931f805f6ab5cc73d7ff3fc437869c6b",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:25:05Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

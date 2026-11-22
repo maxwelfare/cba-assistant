@@ -1,0 +1,12 @@
+{
+ "key": "gentzkow_2014_code",
+ "citation": "Gentzkow M, Shapiro JM (2014). Code and Data for the Social Sciences: A Practitioner's Guide. University of Chicago.",
+ "doi": null,
+ "url": "https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf",
+ "media_type": "application/pdf",
+ "sha256": "3b695c671e1b9785248c3113b116e6354186bf637badd66da939dd3596e91722",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:55:17Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf"
+}

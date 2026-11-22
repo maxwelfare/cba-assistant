@@ -1,0 +1,12 @@
+{
+ "key": "typst_docs_text",
+ "citation": "Typst GmbH. Typst documentation: Text (reference), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://typst.app/docs/reference/text/text/",
+ "media_type": "text/html",
+ "sha256": "48378db23b4164f21e01bf41381f214164637710a91ce595ab4ff3f83a3f5d93",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:11Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://typst.app/docs/reference/text/text/"
+}

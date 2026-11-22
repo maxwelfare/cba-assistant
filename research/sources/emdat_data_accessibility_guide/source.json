@@ -1,0 +1,11 @@
+{
+  "key": "emdat_data_accessibility_guide",
+  "citation": "Data Accessibility: How to Access the Data and Legal Conditions for Using EM-DAT. EM-DAT Documentation, CRED/UCLouvain.",
+  "doi": "",
+  "url": "https://doc.emdat.be/docs/data-accessibility/",
+  "media_type": "text/html",
+  "sha256": "d1aabc974b00304899bc64cb346e9d595d987bfca46f98a84348b1c2ebeffa4b",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:36:41Z",
+  "text_method": "python -I: strip script/style/tags, keep paragraph breaks"
+}

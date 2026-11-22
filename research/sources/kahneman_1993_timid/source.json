@@ -1,0 +1,12 @@
+{
+ "key": "kahneman_1993_timid",
+ "citation": "Kahneman D, Lovallo D (1993). Timid choices and bold forecasts: a cognitive perspective on risk taking. Management Science 39(1):17-31.",
+ "doi": "10.1287/mnsc.39.1.17",
+ "url": "https://api.openalex.org/works/doi:10.1287/mnsc.39.1.17",
+ "media_type": "text/plain",
+ "sha256": "75e9fc02476d20a1753d208577697306c8bfc0a48ef06c94552307fae49a648f",
+ "licence": "abstract only; publisher copyright",
+ "fetched": "2026-11-17T12:00:23Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/scratchpad/fetch/abs/kahneman_1993_timid.txt (fetched is the file's modification time)"
+}

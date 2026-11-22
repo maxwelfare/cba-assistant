@@ -1,0 +1,11 @@
+{
+  "key": "vk_2025_vadlinijas_ex_post_pecparbaude",
+  "citation": "Valsts kanceleja (2025). Vadlinijas tiesibu aktu ietekmes pecparbaudes (ex-post) novertejuma veiksanai. Riga.",
+  "doi": null,
+  "url": "https://www.mk.gov.lv/lv/media/25598/download",
+  "media_type": "application/pdf",
+  "sha256": "cb9f929840dbe406b1dbbc6174627620847fb5ccc81607a1a513b33ff591d49a",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:31:16+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

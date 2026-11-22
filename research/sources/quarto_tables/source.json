@@ -1,0 +1,12 @@
+{
+ "key": "quarto_tables",
+ "citation": "Posit PBC. Quarto documentation: Tables, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://quarto.org/docs/authoring/tables.html",
+ "media_type": "text/html",
+ "sha256": "7d657b7d1fb2f3e01241ca11f0d3a365e81d597f73cd47cd18d650bcdda084f8",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:47Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://quarto.org/docs/authoring/tables.html"
+}

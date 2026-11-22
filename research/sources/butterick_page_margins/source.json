@@ -1,0 +1,11 @@
+{
+ "key": "butterick_page_margins",
+ "citation": "Butterick M. Page margins. Butterick's Practical Typography (read 2026-11-10).",
+ "doi": null,
+ "url": "https://practicaltypography.com/page-margins.html",
+ "media_type": "text/html",
+ "sha256": "b409117de0b1fc71d305b7d874d1991ecbcc2f30742823ee5ff02a6a246e719f",
+ "licence": "not stated; free online",
+ "fetched_utc": "2026-11-10T12:51:36.057315Z",
+ "text_method": "pdftotext (plain) for PDFs; for HTML a regex tag-strip with soft hyphens removed; extract kept in text.txt"
+}

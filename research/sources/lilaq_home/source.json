@@ -1,0 +1,12 @@
+{
+ "key": "lilaq_home",
+ "citation": "Lilaq project. Lilaq: scientific data visualization in Typst (home), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://lilaq.org/",
+ "media_type": "text/html",
+ "sha256": "f397b34c994728cf0daebac15b39d680c6bcc82aa2e6c57a5bc5817ac6696a51",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:59Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://lilaq.org/"
+}

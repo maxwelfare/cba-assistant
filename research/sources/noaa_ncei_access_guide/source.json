@@ -1,0 +1,11 @@
+{
+ "key": "noaa_ncei_access_guide",
+ "citation": "NOAA NCEI. Access Data Service API User Documentation (page as fetched 2026-11-09).",
+ "doi": "",
+ "url": "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation",
+ "media_type": "text/html",
+ "sha256": "699dc3539ff3d6523963690d7b154ce707d1cd741724df045e617313467c6cdb",
+ "licence": "U.S. government work; licence not stated on the page",
+ "fetched_utc": "2026-11-09",
+ "text_method": "own regex script: script/style/nav/footer/header removed, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I)"
+}

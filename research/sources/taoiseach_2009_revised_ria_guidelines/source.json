@@ -1,0 +1,11 @@
+{
+  "key": "taoiseach_2009_revised_ria_guidelines",
+  "citation": "Department of the Taoiseach (2009). Revised RIA Guidelines: How to conduct a Regulatory Impact Analysis. Dublin, June 2009.",
+  "doi": null,
+  "url": "https://www.gov.br/casacivil/pt-br/assuntos/governanca/regulacao/documentos/guias-de-air/ireland-revised_ria_guidelines_june_2009.pdf",
+  "media_type": "application/pdf",
+  "sha256": "88b2deebbd12f2d13c1aefc633c549632b1d02341f255c4be58b76a39084c9dd",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:28:54+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

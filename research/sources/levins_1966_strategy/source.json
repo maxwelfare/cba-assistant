@@ -1,0 +1,11 @@
+{
+ "key": "levins_1966_strategy",
+ "citation": "Levins R (1966). The strategy of model building in population biology. American Scientist 54(4):421-431.",
+ "doi": null,
+ "url": "https://www.zoology.ubc.ca/let/pdfs/Levins1966.pdf",
+ "media_type": "application/pdf",
+ "sha256": "99fefbcb5f0d1487cfe12541814753d403b6b6f47942b27108ffc257ee2a0a4b",
+ "licence": "not stated (a JSTOR-scanned copy of the journal pages, copyright Sigma Xi, as hosted on a University of British Columbia zoology course page: its legal standing is the host's)",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

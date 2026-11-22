@@ -1,0 +1,12 @@
+{
+ "key": "morgenstern_2018_retrospective",
+ "citation": "Morgenstern RD (2018). Retrospective analysis of U.S. federal environmental regulation. Journal of Benefit-Cost Analysis 9(2).",
+ "doi": "10.1017/bca.2017.17",
+ "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/891E36D3DBCEB79C969278488E5E1897/S2194588817000173a.pdf/div-class-title-retrospective-analysis-of-u-s-federal-environmental-regulation-div.pdf",
+ "media_type": "application/pdf",
+ "sha256": "9029806be2464c5ae1bf28f4e1782045462a5282633a314c5de7b96acc866112",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:54:30Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.cambridge.org/core/services/aop-cambridge-core/content/view/891E36D3DBCEB79C969278488E5E1897/S2194588817000173a.pdf/div-class-title-retrospective-analysis-of-u-s-federal-environmental-regulation-div.pdf"
+}

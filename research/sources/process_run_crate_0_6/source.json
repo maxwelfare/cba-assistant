@@ -1,0 +1,12 @@
+{
+ "key": "process_run_crate_0_6",
+ "citation": "Workflow Run RO-Crate working group. Process Run Crate profile, version 0.6.",
+ "doi": null,
+ "url": "https://w3id.org/ro/wfrun/process/0.6",
+ "media_type": "text/html",
+ "sha256": "adafab8e146492abe3654a8eb3a2c2c4abb0a07e6383dd64e809f0bbf7f08e4c",
+ "licence": "CC BY 4.0 (to confirm on page)",
+ "fetched": "2026-11-17T11:56:17Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://w3id.org/ro/wfrun/process/0.6"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "typst_docs_figure",
+ "citation": "Typst GmbH. Typst documentation: Figure (reference, model), fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://typst.app/docs/reference/model/figure/",
+ "media_type": "text/html",
+ "sha256": "ee3324a5f287821bff8674b5e418689b0f3a367a608392b916dc894b46b5c8f7",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:08Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://typst.app/docs/reference/model/figure/"
+}

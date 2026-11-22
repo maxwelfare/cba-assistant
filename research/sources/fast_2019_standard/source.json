@@ -1,0 +1,11 @@
+{
+  "key": "fast_2019_standard",
+  "citation": "FAST Standard Organisation (2019). The FAST Standard, version 02c, July 2019. www.fast-standard.org. Third-party mirror of the official PDF.",
+  "url": "https://www.stl-training.co.uk/download/forum/40296_FAST-Standard-02c-July-2019.pdf",
+  "media_type": "application/pdf",
+  "sha256": "cb178b9e0b599ebae5cb070eeb021fb013f56756c5a8d7055ac49d29020a82ed",
+  "licence": "CC BY 4.0 (the file's own notice)",
+  "fetched_utc": "2026-11-10T12:53:41Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 91792
+}

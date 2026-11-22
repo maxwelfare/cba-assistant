@@ -1,0 +1,12 @@
+{
+ "key": "quarto_pdf_basics",
+ "citation": "Posit PBC. Quarto documentation: PDF basics, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://quarto.org/docs/output-formats/pdf-basics.html",
+ "media_type": "text/html",
+ "sha256": "140d702c30f7d3fae1ebbb743d0f175844e10b8cac440c44c92d3d437439af35",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:50Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://quarto.org/docs/output-formats/pdf-basics.html"
+}

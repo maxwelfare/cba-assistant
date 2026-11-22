@@ -1,0 +1,11 @@
+{
+ "key": "karnofsky_2014_sequence",
+ "citation": "Karnofsky H (2014). Sequence thinking vs. cluster thinking. GiveWell blog, 10 June 2014 (updated 25 July 2016; also on the Open Philanthropy site).",
+ "doi": null,
+ "url": "https://blog.givewell.org/2014/06/10/sequence-thinking-vs-cluster-thinking/",
+ "media_type": "text/html",
+ "sha256": "783fe95343d06ac10545e49d2dd913dd65dfa258c94b93dd4e922c2e3af2f61d",
+ "licence": "not stated",
+ "fetched": "2026-11-10T13:26:27Z",
+ "text_method": "html2txt.py (stdlib html.parser: the text of the <article> element, one paragraph per block tag, scripts and navigation dropped), run with python -I"
+}

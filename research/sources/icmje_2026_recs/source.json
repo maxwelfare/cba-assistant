@@ -1,0 +1,12 @@
+{
+  "key": "icmje_2026_recs",
+  "citation": "ICMJE (January 2026 update). Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals.",
+  "doi": null,
+  "url": "https://www.icmje.org/icmje-recommendations.pdf",
+  "media_type": "application/pdf",
+  "sha256": "a391991a912e8de08851b7254b5fcf88b3515d580cf76299ad59f85fb8087d90",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:00:32Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 120859
+}

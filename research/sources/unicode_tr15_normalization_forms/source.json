@@ -1,0 +1,11 @@
+{
+  "key": "unicode_tr15_normalization_forms",
+  "citation": "Unicode Standard Annex #15: Unicode Normalization Forms (current revision as fetched).",
+  "doi": null,
+  "url": "https://unicode.org/reports/tr15/",
+  "media_type": "text/html",
+  "sha256": "efcf19da85342bd87fb93b590975ca422597243f2e19c6cb46e941d0d2d48d73",
+  "licence": "not stated in the text",
+  "fetched_utc": "2026-11-09T16:07Z",
+  "text_method": "python3 -I html-to-text script (tags dropped, paragraph breaks kept, script/style/nav removed)"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "idinsight_2019_beneficiary",
+ "citation": "IDinsight (2019). Beneficiary Preferences Survey, final report.",
+ "doi": null,
+ "url": "https://www.idinsight.org/wp-content/uploads/2021/04/IDinsight_BeneficiaryPreferencesFinalReport.pdf",
+ "media_type": "application/pdf",
+ "sha256": "3ff479d07f1e9e2a98f8a46246774bbe071a44c437818720a1868f65961f3222",
+ "licence": "none stated",
+ "fetched": "2026-11-17T11:59:29Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.idinsight.org/wp-content/uploads/2021/04/IDinsight_BeneficiaryPreferencesFinalReport.pdf"
+}

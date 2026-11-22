@@ -1,0 +1,12 @@
+{
+ "key": "cso_2026_cpi_annual_cpa01",
+ "citation": "Central Statistics Office, Ireland. PxStat table CPA01, Consumer Price Index (Consumer Prices Annual Series), CSV, updated 2026-01-15; read 2026-11-21.",
+ "doi": null,
+ "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/CPA01/CSV/1.0/en",
+ "media_type": "text/plain",
+ "sha256": "7e685308d346542ce8b7bfdb6264dab2cd09e0c7e0048c52219785de5bc558da",
+ "licence": "not stated in the stored file (copyright Central Statistics Office, Ireland, by the table's metadata)",
+ "fetched": "2026-11-21T07:18:02Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/ie/CPA01.csv (fetched is the file's modification time)"
+}

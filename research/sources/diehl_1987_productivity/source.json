@@ -1,0 +1,11 @@
+{
+ "key": "diehl_1987_productivity",
+ "citation": "Diehl M, Stroebe W (1987). Productivity loss in brainstorming groups: toward the solution of a riddle. Journal of Personality and Social Psychology 53(3):497-509.",
+ "doi": "10.1037/0022-3514.53.3.497",
+ "url": "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/wintersemester2011-12/seminarthemenfelderdersozialpsychologie/08_diehl_stoebe_productivityloss-brainstorming_jpsp1987.pdf",
+ "media_type": "application/pdf",
+ "sha256": "e968c090d7035d1b0159224fa85b5b71b7dcd9f52c6c2532a0323101465f92c6",
+ "licence": "a university seminar's copy of the published article; licence not stated (APA copyright)",
+ "fetched": "2026-11-08",
+ "text_method": "pdftotext original.pdf text.txt"
+}

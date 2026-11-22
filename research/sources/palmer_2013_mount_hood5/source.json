@@ -1,0 +1,13 @@
+{
+  "key": "palmer_2013_mount_hood5",
+  "citation": "Palmer AJ, Mount Hood 5 Modeling Group et al. (2013). Computer modeling of diabetes and its complications: a report on the Fifth Mount Hood challenge meeting. Value in Health 16(4):670-685.",
+  "doi": "10.1016/j.jval.2013.01.002",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.jval.2013.01.002&format=json&resultType=core",
+  "media_type": "application/json",
+  "sha256": "46d442daba79449ca4de9cb698afa1e9821c457498f7ba9417d8004d1417bdee",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:43:57Z",
+  "text_method": "python script: title, authorString, journal, year, pages and abstractText of resultList.result[0] joined into text.txt (abstract only)",
+  "text_chars": 2471,
+  "note": "Abstract only: Europe PMC record. Full text not free: OpenAlex lists a UTAS figshare copy (doi 10.25959/22903280) but it is embargoed (metadata only); publisher page not fetched."
+}

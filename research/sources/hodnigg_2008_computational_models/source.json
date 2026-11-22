@@ -1,0 +1,12 @@
+{
+ "key": "hodnigg_2008_computational_models",
+ "citation": "Hodnigg K, Clermont M, Mittermeir RT (2008). Computational Models of Spreadsheet-Development: Basis for Educational Approaches. EuSpRIG proceedings. arXiv:0801.4274.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/0801.4274",
+ "media_type": "application/pdf",
+ "sha256": "4271a841518c3bf5a765756c20f779f806b7e5969a6285fe0351d765fd287e21",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:47:59Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/0801.4274"
+}

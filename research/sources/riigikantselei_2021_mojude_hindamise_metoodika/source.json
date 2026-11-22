@@ -1,0 +1,11 @@
+{
+  "key": "riigikantselei_2021_mojude_hindamise_metoodika",
+  "citation": "Justiitsministeerium ja Riigikantselei. Mõjude hindamise metoodika. 2021 (file dated 08.04.2021).",
+  "doi": null,
+  "url": "https://www.riigikantselei.ee/sites/default/files/documents/2021-04/Mojude%20hindamise%20metoodika%2008%2004%202021.pdf",
+  "media_type": "application/pdf",
+  "sha256": "abb298467e468b620d3d2dd138c0b88aac43728e13f916abab71d75414ec2585",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:25:38Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

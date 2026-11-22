@@ -1,0 +1,12 @@
+{
+ "key": "houde_spurlock_2015_standards_quality",
+ "citation": "Houde S, Spurlock CA (2015). Do energy efficiency standards improve quality? Evidence from a revealed preference approach. Lawrence Berkeley National Laboratory, LBNL-182701.",
+ "doi": "10.2172/1235446",
+ "url": "https://www.osti.gov/servlets/purl/1235446",
+ "media_type": "application/pdf",
+ "sha256": "c3c50728470b1465c96e06f25bca5e15db20adad3a2bb79ce5e95c3870d0e242",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:13:37Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.osti.gov/servlets/purl/1235446"
+}

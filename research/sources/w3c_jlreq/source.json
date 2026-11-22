@@ -1,0 +1,12 @@
+{
+ "key": "w3c_jlreq",
+ "citation": "W3C Group Note. Requirements for Japanese Text Layout (JLREQ).",
+ "doi": null,
+ "url": "https://www.w3.org/TR/jlreq/",
+ "media_type": "text/html",
+ "sha256": "cfb1def5bf1594d59080a26d8d03c2670bb3116490ab57ef6e131b166a7c832f",
+ "licence": "W3C Software and Document License",
+ "fetched": "2026-11-21T07:10:47Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "copied from tmp/jlreq.html (fetched is the file's modification time)"
+}

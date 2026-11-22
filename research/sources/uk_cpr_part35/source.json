@@ -1,0 +1,12 @@
+{
+ "key": "uk_cpr_part35",
+ "citation": "Civil Procedure Rules, Part 35: Experts and Assessors. Ministry of Justice, England and Wales.",
+ "doi": null,
+ "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part35",
+ "media_type": "text/html",
+ "sha256": "e926198d088ca2c2b24db2b322f1cc27fb21ea696a01a86a1e7aac1eb3db3e0e",
+ "licence": "not stated",
+ "fetched": "2026-11-14T09:57:47Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"UTF-8\"",
+ "how": "python tools/host_cooldown.py fetch https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part35"
+}

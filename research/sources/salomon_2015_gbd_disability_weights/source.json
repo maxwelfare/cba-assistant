@@ -1,0 +1,12 @@
+{
+ "key": "salomon_2015_gbd_disability_weights",
+ "citation": "Salomon JA, Haagsma JA, Davis A, et al. (2015). Disability weights for the Global Burden of Disease 2013 study. Lancet Global Health 3(11):e712-e723.",
+ "doi": "10.1016/S2214-109X(15)00069-8",
+ "url": "https://files.givewell.org/files/DWDA%202009/Interventions/Fistula_Surgery/Salomon_et_al_2015.pdf",
+ "media_type": "application/pdf",
+ "sha256": "b0c3974f63905c156273350bc585c4c5bd3183322617c54479c186fa847eaa6b",
+ "licence": "CC BY-NC-ND (open access)",
+ "fetched": "2026-11-14T13:08:06Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://files.givewell.org/files/DWDA%202009/Interventions/Fistula_Surgery/Salomon_et_al_2015.pdf"
+}

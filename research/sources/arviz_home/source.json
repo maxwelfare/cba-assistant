@@ -1,0 +1,12 @@
+{
+ "key": "arviz_home",
+ "citation": "ArviZ developers. ArviZ documentation, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://python.arviz.org/en/stable/",
+ "media_type": "text/html",
+ "sha256": "9b9222f1e2c71cd21b0502d85ec893a2721738ba2ba55df517dc8cd024f6ef48",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:57Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://python.arviz.org/en/stable/"
+}

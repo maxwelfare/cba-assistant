@@ -1,0 +1,11 @@
+{
+  "key": "oia_2026_regulatory_burden_measurement",
+  "citation": "Office of Impact Analysis, PM&C (July 2026). Regulatory Burden Measurement Framework (guidance note).",
+  "doi": null,
+  "url": "https://oia.pmc.gov.au/sites/default/files/2026-06/regulatory-burden-measurement-framework.pdf",
+  "media_type": "application/pdf",
+  "sha256": "646848f921eff3a80f6366f1eb03dec61254a3a6f0190877f19e51f640c74ac8",
+  "licence": "not stated in the extracted text",
+  "fetched_utc": "2026-11-09T16:23:35Z",
+  "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

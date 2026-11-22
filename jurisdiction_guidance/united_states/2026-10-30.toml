@@ -1,0 +1,122 @@
+# United States (federal), values in force on 2026-10-30: the 2026-10-29 edition with money declared by currency and
+# price_year (its three values of statistical life and life-year, their units without the currency), its
+# [consumer_price_index] left out, and a [price_index], BEA's GDP implicit price deflator A191RD by calendar year
+# . The 2026-10-29 edition's values were read in each
+# document's own text on 2026-10-29 or 2026-10-30. Not collected: the Department of Transportation's current value of
+# a statistical life (its site refused every fetch).
+jurisdiction = "United States (federal)"
+edition = "2026-10-30"
+
+[discount_rate]
+rates = [0.03, 0.07]
+unit = "real rate per year"
+document = "OMB Circular A-4 (17 September 2003), reinstated by OMB Memorandum M-25-15 (12 February 2025), which revoked the 2023 revision"
+url = "https://obamawhitehouse.archives.gov/omb/circulars_a004_a-4/"
+quote = "For regulatory analysis, you should provide estimates of net benefits using both 3 percent and 7 percent."
+reinstatement_url = "https://www.whitehouse.gov/wp-content/uploads/2025/03/M-25-15-Recission-and-Reinstatement-of-Circular-A-4.pdf"
+reinstatement_quote = "I revoke Office of Management and Budget Circular A-4 of November 9, 2023 (Regulatory Analysis), and all accompanying appendices, guidelines, and documents. I reinstate Office of Management and Budget Circular A-4 of September 17, 2003"
+licence = "US government work (17 U.S.C. 105); no licence stated in the documents"
+
+# Added on 2026-11-17, a value collected later for this edition (README): A-94's excess burden, in force on 2026-10-30.
+[excess_burden]
+value = 0.25
+unit = "excess burden per dollar of public expenditure"
+document = "OMB Circular A-94 (29 October 1992), section 11.a, reinstated by OMB Memorandum M-25-23 (8 April 2025)"
+url = "https://obamawhitehouse.archives.gov/omb/circulars_a094/"
+quote = "The presentation of results for public investments that are not justified on cost-saving grounds should include a supplementary analysis with a 25 percent excess burden. Thus, in such analyses, costs in the form of public expenditures should be multiplied by a factor of 1.25 and net present value recomputed."
+reinstatement_url = "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-23-Rescission-and-Reinstatement-of-Circular-No.-A-94.pdf"
+reinstatement_quote = "I reinstate Circular No. A-94 of October 29, 1992 (Guidelines and Discount Rates for Benefit-Cost Analysis of Federal Programs) and accompanying appendices A and B."
+date_read = "2026-11-17, in the stored texts research/sources/omb_1992_circulara94 and omb_2025_m2523"
+licence = "US government work (17 U.S.C. 105)"
+
+[value_of_statistical_life]
+value = 14100000
+low = 6600000
+high = 21500000
+unit = "per statistical life, for risk changes in 2026"
+currency = "USD"
+price_year = 2025
+document = "HHS ASPE, Standard Values for Regulatory Analysis, 2026 (10 March 2026), Table 1"
+url = "https://aspe.hhs.gov/sites/default/files/documents/2d83af5823915d81871334ee08ad03d9/Standard-RIA-Values-2026.pdf"
+quote = "For mortality risk changes occurring in 2026, we adopt $6.6 million, $14.1 million, and $21.5 million for the low, central, and high estimates of VSL, respectively."
+growth = "real growth of 1.117% a year with income elasticity 1.0, as the same document states"
+licence = "US government work (17 U.S.C. 105); no licence stated in the document"
+
+[value_of_statistical_life_year]
+value_at_3_percent = 611000
+value_at_7_percent = 1030000
+unit = "per life-year, for 2026"
+currency = "USD"
+price_year = 2025
+document = "HHS ASPE, Standard Values for Regulatory Analysis, 2026, Table 3"
+url = "https://aspe.hhs.gov/sites/default/files/documents/2d83af5823915d81871334ee08ad03d9/Standard-RIA-Values-2026.pdf"
+quote = "we adopt $611,000 as the central estimate of VSLY for analyses using a 3% discount rate, and $1,030,000 for analyses using a 7% discount rate."
+licence = "US government work (17 U.S.C. 105); no licence stated in the document"
+
+[value_of_statistical_life_epa]
+value = 7400000
+unit = "per statistical life, updated to the year of the analysis"
+currency = "USD"
+price_year = 2006
+document = "US EPA, Mortality Risk Valuation"
+url = "https://www.epa.gov/environmental-economics/mortality-risk-valuation"
+quote = "EPA recommends that the central estimate of $7.4 million ($2006), updated to the year of the analysis, be used"
+note = "Whether EPA has since replaced this figure was not established."
+licence = "US government work (17 U.S.C. 105)"
+
+[price_index]
+currency = "USD"
+series = "GDP implicit price deflator, annual, calendar year"
+series_id = "A191RD"
+unit = "index, 2017 = 100"
+publisher = "U.S. Bureau of Economic Analysis"
+document = "NIPA Table 1.1.9, Implicit Price Deflators for Gross Domestic Product, line 1 (Gross domestic product)"
+url = "https://apps.bea.gov/national/Release/TXT/NipaDataA.txt"
+date_read = "2026-10-30T16:48Z"
+quote = "A191RD,\"Gross domestic product\",\"Chained Dollar IPDs\",\"Level\",0,T10109:1,NONE"
+quote_url = "https://apps.bea.gov/national/Release/TXT/SeriesRegister.txt"
+quote_note = "line of BEA's series register naming series A191RD, Table 1.1.9 line 1; the data file itself holds only code, period, value"
+licence = "US government work (17 U.S.C. 105); no licence stated by the source"
+guidance_document = "OMB Circular A-4 (17 September 2003), section G, Accounting Statement, reinstated by OMB Memorandum M-25-15 (12 February 2025)"
+guidance_url = "https://obamawhitehouse.archives.gov/omb/circulars_a004_a-4/"
+guidance_quote = "You should convert dollars expressed in different years to 2001 dollars using the GDP deflator."
+research_file = "research/price_indices/2026-10-30/united_states.toml"
+research_table = "gdp_deflator.values"
+
+[price_index.calendar_year]
+"1990" = 59.305
+"1991" = 61.31
+"1992" = 62.707
+"1993" = 64.194
+"1994" = 65.564
+"1995" = 66.939
+"1996" = 68.164
+"1997" = 69.34
+"1998" = 70.119
+"1999" = 71.111
+"2000" = 72.722
+"2001" = 74.36
+"2002" = 75.515
+"2003" = 77.006
+"2004" = 79.077
+"2005" = 81.556
+"2006" = 84.071
+"2007" = 86.349
+"2008" = 88.013
+"2009" = 88.556
+"2010" = 89.632
+"2011" = 91.481
+"2012" = 93.185
+"2013" = 94.771
+"2014" = 96.421
+"2015" = 97.316
+"2016" = 98.241
+"2017" = 100.0
+"2018" = 102.291
+"2019" = 103.979
+"2020" = 105.377
+"2021" = 110.159
+"2022" = 118.026
+"2023" = 122.451
+"2024" = 125.587
+"2025" = 128.893

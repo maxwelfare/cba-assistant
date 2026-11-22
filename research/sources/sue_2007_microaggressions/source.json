@@ -1,0 +1,12 @@
+{
+ "key": "sue_2007_microaggressions",
+ "citation": "Sue DW, Capodilupo CM, Torino GC, Bucceri JM, Holder AMB, Nadal KL, Esquilin M (2007). Racial microaggressions in everyday life: implications for clinical practice. American Psychologist 62(4):271-286.",
+ "doi": "10.1037/0003-066X.62.4.271",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17516773%20AND%20SRC:MED&resultType=core&format=xml",
+ "media_type": "application/xml",
+ "sha256": "1235b03e712fe3970d8e52e52d62c70e0bf1e396d439d75fb36feb885410e59c",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:12:18Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17516773%20AND%20SRC:MED&resultType=core&format=xml"
+}

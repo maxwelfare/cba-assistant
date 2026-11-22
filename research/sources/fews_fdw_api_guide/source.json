@@ -1,0 +1,11 @@
+{
+  "key": "fews_fdw_api_guide",
+  "citation": "Famine Early Warning Systems Network. FEWS NET API, Data Warehouse Knowledge Base, as fetched 2026-11-09.",
+  "doi": "",
+  "url": "https://help.fews.net/fdw/fews-net-api",
+  "media_type": "text/html",
+  "sha256": "7ee04c61e1ef9e34350f8d558572cf13c29fc3835c859c583a2396fdd8e2fbc2",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T17:33:15Z",
+  "text_method": "regex script: removed script/style/noscript, paragraph breaks at block-end tags, tags stripped, entities unescaped (python -I, scratchpad data_sources/totext.py)"
+}

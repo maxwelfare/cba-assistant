@@ -1,0 +1,12 @@
+{
+ "key": "weasyprint_features",
+ "citation": "CourtBouillon. WeasyPrint documentation: API reference and supported features, fetched 2026-11-13.",
+ "doi": null,
+ "url": "https://doc.courtbouillon.org/weasyprint/stable/api_reference.html",
+ "media_type": "text/html",
+ "sha256": "978677de1565f4ea7e27d16129e3f59c577f67ce2b9798582f735dd6911e7796",
+ "licence": "not stated",
+ "fetched": "2026-11-13T11:19:53Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://doc.courtbouillon.org/weasyprint/stable/api_reference.html"
+}

@@ -1,0 +1,12 @@
+{
+ "key": "cpva_2022_gaires_biudzeto_poveikis",
+ "citation": "Centrinė projektų valdymo agentūra (2022). Viešųjų investicijų poveikio nacionaliniam biudžetui vertinimo gairės, versija 1.1.",
+ "doi": null,
+ "url": "https://cpva.lt/wp-content/uploads/2024/04/gaires_v1.1.pdf",
+ "media_type": "application/pdf",
+ "sha256": "d0f01c5eb3fa1f44f3be8b6558ae55c28225f4c3611618f70be4e20261f1567e",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:30:05Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "note": "Lithuanian text; diacritics checked readable."
+}

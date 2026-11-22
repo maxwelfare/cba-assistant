@@ -1,0 +1,11 @@
+{
+  "key": "zhao_2025_multilingual_cot_evaluation",
+  "citation": "Zhao R, Liu Y, Schutze H, Hedderich MA (2025). A Comprehensive Evaluation of Multilingual Chain-of-Thought Reasoning: Performance, Consistency, and Faithfulness Across Languages. arXiv:2510.09555v1 (10 Oct 2025).",
+  "doi": null,
+  "url": "https://arxiv.org/pdf/2510.09555",
+  "media_type": "application/pdf",
+  "sha256": "eff4728dc7a595138638b7a8f110f31918fbd0e19ccb23d0027a1569a1d53b6c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:07Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

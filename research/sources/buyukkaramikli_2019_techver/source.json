@@ -1,0 +1,12 @@
+{
+ "key": "buyukkaramikli_2019_techver",
+ "citation": "Buyukkaramikli NC et al (2019). TECH-VER. PharmacoEconomics.",
+ "doi": "10.1007/s40273-019-00844-y",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6860463/fullTextXML",
+ "media_type": "application/xml",
+ "sha256": "df24c063053782c2948f4df5401a6f7707569c5752edbd353ac7a2bb55553744",
+ "licence": "CC BY-NC",
+ "fetched": "2026-11-17T11:52:33Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6860463/fullTextXML"
+}

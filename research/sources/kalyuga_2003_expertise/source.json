@@ -1,0 +1,12 @@
+{
+ "key": "kalyuga_2003_expertise",
+ "citation": "Kalyuga S, Ayres P, Chandler P, Sweller J (2003). The expertise reversal effect. Educational Psychologist 38(1):23-31.",
+ "doi": "10.1207/S15326985EP3801_4",
+ "url": "https://api.openalex.org/works/doi:10.1207/s15326985ep3801_4",
+ "media_type": "text/plain",
+ "sha256": "a7d314c11e68b9bab419efbccbe24607edf8293ab1dfbe50cc02f4570607f7b9",
+ "licence": "abstract only, as given by OpenAlex; the UNSW repository copy (CC BY-NC-ND) holds no file",
+ "fetched": "2026-11-12T13:13:07Z",
+ "text_method": "tools/source_store.py: the original decoded as UTF-8, white space tidied",
+ "how": "copied from tmp/d/ab/kalyuga.txt (fetched is the file's modification time)"
+}

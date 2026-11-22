@@ -1,0 +1,11 @@
+{
+  "key": "kcbr_2025_beleidskompas_mkba_eis",
+  "citation": "Kenniscentrum voor beleid en regelgeving (KCBR). Beleidskompas, verplichte kwaliteitseis: Algemene leidraad maatschappelijke kosten-baten-analyse (MKBA) (web page).",
+  "doi": "none",
+  "url": "https://www.kcbr.nl/ontwikkelen-beleid-en-regelgeving/beleidskompas/verplichte-kwaliteitseisen/algemene-leidraad-maatschappelijke-kosten-baten-analyse-mkba",
+  "media_type": "text/html",
+  "sha256": "b155a92de6c563e6a01f3f8b80dfc5d4523572999f62a47ad68723f15cb5d83c",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:33:31Z",
+  "text_method": "python html.parser script (scratchpad x_html2txt.py): text content with paragraph breaks"
+}

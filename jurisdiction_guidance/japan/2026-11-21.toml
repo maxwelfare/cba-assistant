@@ -1,0 +1,96 @@
+# Japan, values in force on 2026-11-21, read on 2026-11-21 in the stored texts of the Ministry of Land, Infrastructure,
+# Transport and Tourism's (MLIT) common technical guideline for cost-benefit analysis of public works (公共事業評価の費用便益分析
+# に関する技術指針（共通編）, September 2025; research/sources/mlit_2025_cba_shishin/text.txt) and its road cost-benefit
+# manual (費用便益分析マニュアル, August 2025; research/sources/mlit_2025_road_cba/text.txt). First edition. Each `source` names
+# the research/refs.toml key whose stored text holds the quote; each quote is the passage as stored, a line break as a space.
+# The guidelines govern MLIT's public works; the Ministry of Internal Affairs' guideline for regulatory impact analysis
+# (soumu_2024_ria_ja) sets no discount rate or index, so these are the government's stated values a regulatory analysis
+# would borrow, not values it is bound to.
+# [value_of_statistical_life] is the guideline's 601 million yen per death, the willingness-to-pay value of life it
+# adopts from the Cabinet Office's traffic-loss study (cao_2023_trafficloss_ch3). Neither document states its price year,
+# so the entry carries its currency and no price_year: a case that uses it refuses on the missing price_year until one is
+# collected with its source. (The study's main survey ran from 19 January 2023; that is not a stated price year.)
+# The [price_index] is the GDP deflator (expenditure approach), calendar years, 2020 = 100, from the Cabinet Office ESRI's
+# quarterly GDP release of 2026-11-16, the index the road manual names, copied by script from
+# research/sources/esri_2026_gdp_deflator_cy_qe263/text.txt. The guidelines' base point is the fiscal year of the
+# appraisal (April to March); this index is by calendar year.
+jurisdiction = "Japan"
+edition = "2026-11-21"
+
+[discount_rate]
+rates = [0.04, 0.02, 0.01]
+unit = "real rate per year"
+note = "4% is the social discount rate applied to all projects 'for the time being' (当面); 2% and 1% are the reference values for comparison the guideline sets from the real yields of government bonds over 1993-2022 and 2003-2022, applied from fiscal 2023. The rate was set in 2004 from past real yields of government bonds."
+document = "MLIT (September 2025). 公共事業評価の費用便益分析に関する技術指針（共通編）, chapter 2, section 3, item 1 (社会的割引率)"
+url = "https://www.mlit.go.jp/tec/hyouka/public/250918_shishin/shishin/shishin250918.pdf"
+quote = "○社会的割引率は、全事業において当面４％を適用する。"
+quote_reference = "参考比較のための値は平成 15 年（2003 年）～令和４年（2022 年）の期間の国 債の実質利回りを踏まえた 1%、及び、平成５年（1993 年）～令和４年（2022 年）の期間の国債の実質利回りを踏まえた 2%を標準とし、令和５年度（2023 年度）以降に適用する。"
+licence = "not stated in the stored text (Government of Japan publication)"
+source = "mlit_2025_cba_shishin"
+
+[value_of_statistical_life]
+value = 601000000
+unit = "per statistical life"
+currency = "JPY"
+note = "The guideline's non-monetary loss (精神的損害) per death, set from the willingness-to-pay value of life (WTP for a risk reduction divided by the reduction) of the Cabinet Office's 2023 traffic-loss study, 'for the time being'. MLIT adds lost earnings (逸失利益) and medical costs (医療費) to it as separate parts of the human loss (人的損失額). The guideline says the value is judged suitable for MLIT public works and may not carry over unchanged to other fields. No price year is stated in either document, so price_year is left out and a case that uses this entry refuses."
+document = "MLIT (September 2025). 公共事業評価の費用便益分析に関する技術指針（共通編）, chapter 2, (2) 人的損失額"
+url = "https://www.mlit.go.jp/tec/hyouka/public/250918_shishin/shishin/shishin250918.pdf"
+quote = "○「精神的損害」は、「支払意思額による生命の価値」をもとに設定することを基本 とし、これまでの国内の研究実績・成果の蓄積状況、海外での設定状況を踏まえ、 当面、601 百万円／人（死亡）を適用するが、今後、必要に応じて見直しを行う。"
+quote_method = "死亡リスク削減への支払意思額を死亡リスク削減分で除し、601 百万円/人と算定。"
+quote_scope = "○ここで設定された値は、現時点で、国土交通省所管の公共事業の評価において適用 することが妥当と判断されたものであり、他の分野にそのまま適用できるものとは 限らないことに留意する必要がある。"
+licence = "not stated in the stored text (Government of Japan publication)"
+source = "mlit_2025_cba_shishin"
+
+[price_index]
+currency = "JPY"
+series = "GDP deflator (expenditure approach), calendar year"
+series_note = "ESRI quarterly GDP estimates, July-September 2026 first preliminary release (2026-11-16), file def-cy2631.csv, column 国内総生産(支出側) / GDP (Expenditure Approach), 2020 = 100"
+unit = "index, 2020 = 100"
+publisher = "Economic and Social Research Institute (ESRI), Cabinet Office, Government of Japan"
+document = "四半期別GDP速報 2026年7-9月期 1次速報値, 暦年デフレーター (Deflators, Calendar Year)"
+url = "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe263/tables/def-cy2631.csv"
+quote_url = "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe263/gdemenuja.html"
+date_read = "2026-11-21"
+quote = "Deflators, Calendar Year"
+licence = "not stated in the stored file"
+source = "esri_2026_gdp_deflator_cy_qe263"
+guidance_document = "MLIT Road Bureau and City Bureau (August 2025). 費用便益分析マニュアル, chapter 1, (4) 費用及び便益算出の前提"
+guidance_url = "https://www.mlit.go.jp/road/ir/ir-hyouka/ben-eki_2.pdf"
+guidance_quote = "デフレータには、GDP デフレータ（内閣府経 済社会総合研究所により公表）を適用することとする"
+guidance_quote_base_year = "・このとき、費用、便益算定の原単位等は、物価変動分を除去するため、現在価値化 の基準年度の実質価格に変換する。"
+guidance_source = "mlit_2025_road_cba"
+guidance_base_year_source = "mlit_2025_cba_shishin"
+
+[price_index.calendar_year]
+"1994" = 112.4
+"1995" = 111.6
+"1996" = 111.5
+"1997" = 111.6
+"1998" = 111.4
+"1999" = 109.9
+"2000" = 108.6
+"2001" = 107.5
+"2002" = 106.0
+"2003" = 104.1
+"2004" = 102.8
+"2005" = 101.5
+"2006" = 100.5
+"2007" = 99.5
+"2008" = 98.6
+"2009" = 98.2
+"2010" = 96.3
+"2011" = 94.8
+"2012" = 94.1
+"2013" = 93.9
+"2014" = 95.5
+"2015" = 97.5
+"2016" = 98.1
+"2017" = 98.1
+"2018" = 98.0
+"2019" = 98.7
+"2020" = 100.0
+"2021" = 99.9
+"2022" = 100.6
+"2023" = 105.1
+"2024" = 108.5
+"2025" = 112.2

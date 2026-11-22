@@ -1,0 +1,12 @@
+{
+ "key": "mfr_2025_cabinet_ia_requirements_guide",
+ "citation": "Ministry for Regulation, Guide to Cabinet's Impact Analysis Requirements (September 2025 edition; explains CO (24) 7)",
+ "doi": null,
+ "url": "https://www.regulation.govt.nz/assets/Uploads/guide-cabinet-ia-requirements.pdf",
+ "media_type": "application/pdf",
+ "sha256": "74b3a39ed34a81a208ab72317e97f498ef4c0d425e1d9fe02d0f226dc0a69c7d",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:52:44+00:00",
+ "text_method": "pdftotext original.pdf text.txt",
+ "notes": ""
+}

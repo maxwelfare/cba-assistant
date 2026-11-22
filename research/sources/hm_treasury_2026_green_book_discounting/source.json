@@ -1,0 +1,11 @@
+{
+ "key": "hm_treasury_2026_green_book_discounting",
+ "citation": "HM Treasury (2026). Green Book supplementary guidance: discounting, October 2026.",
+ "doi": null,
+ "url": "https://assets.publishing.service.gov.uk/media/6ae0b34016428df537606216/Green_Book_supplementary_guidance_-_discounting.pdf",
+ "media_type": "application/pdf",
+ "sha256": "14909fc0c9e9d893145f027556bb5b5253645b10b58c2dbf485a5c76470149e7",
+ "licence": "Open Government Licence v3.0 (text line 18)",
+ "fetched_utc": "2026-11-09T16:37Z",
+ "text_method": "pdftotext original.pdf text.txt (plain, no -layout)"
+}

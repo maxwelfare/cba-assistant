@@ -1,0 +1,11 @@
+{
+ "key": "francestrategie_2023_guide_evaluation_socioeconomique",
+ "citation": "France Stratégie, Comité d'experts des méthodes d'évaluation socioéconomique des investissements publics (pres. R. Guesnerie) (septembre 2023). Guide de l'évaluation socioéconomique des investissements publics, édition 2023.",
+ "doi": null,
+ "url": "https://strategie.gouv.fr/files/2025-01/fs-2023-guide-evaluation-investissements-publics-septembre.pdf",
+ "media_type": "application/pdf",
+ "sha256": "59400dc5683496cd7ee2c12dc22f46bead1d51ed02ce97ea9f8cd32ed4f3e2e3",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:27:32Z",
+ "text_method": "pdftotext original.pdf text.txt (poppler, plain mode)"
+}

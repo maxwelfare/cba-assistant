@@ -1,0 +1,11 @@
+{
+ "key": "bmf_2011_arbeitsanleitung_wu",
+ "citation": "Bundesministerium der Finanzen (RdSchr. v. 12. Januar 2011, II A 3 - H 1012-10/08/10004). Arbeitsanleitung Einführung in Wirtschaftlichkeitsuntersuchungen. Copy as Anlage zu den VV zu Art. 7 BayHO (Bavarian state publication of the federal circular).",
+ "doi": null,
+ "url": "https://www.gesetze-bayern.de/Content/Pdf/VVBayHO-NN118?all=False",
+ "media_type": "application/pdf",
+ "sha256": "d600c9fb8084b638fe950c3c2c24803b01da69a045a41747f152fae5b6bc0be9",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:11:33Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

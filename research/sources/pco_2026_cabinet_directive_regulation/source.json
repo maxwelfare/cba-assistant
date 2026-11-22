@@ -1,0 +1,11 @@
+{
+  "key": "pco_2026_cabinet_directive_regulation",
+  "citation": "Government of Canada (page dated 2026-10-21). Cabinet Directive on Regulation (English).",
+  "doi": null,
+  "url": "https://www.canada.ca/en/government/system/laws/developing-improving-federal-regulations/requirements-developing-managing-reviewing-regulations/cabinet-directive-regulation.html",
+  "media_type": "text/html",
+  "sha256": "25351f46c66b017ee321db2f6344d0a5a03ffd45f669a3a90bb15dcb691ca227",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "python3 -I html2txt script (main element, tags stripped, paragraph breaks)"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "nature_ai_policy",
+  "citation": "Nature Portfolio. Editorial policies: Artificial Intelligence (AI).",
+  "doi": null,
+  "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+  "media_type": "text/html",
+  "sha256": "957a920384808aabaad85a5f313ac6f68b3f37f9017c96204583b5670d06f69e",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:00:50Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 8637
+}

@@ -1,0 +1,11 @@
+{
+  "key": "iets_2014_evaluaciones_economicas",
+  "citation": "Instituto de Evaluación Tecnológica en Salud. Manual para la elaboración de evaluaciones económicas en salud. Bogotá D.C.: IETS; 2014.",
+  "doi": null,
+  "url": "https://www.iets.org.co/Archivos/64/Manual_evaluacion_economica.pdf",
+  "media_type": "application/pdf",
+  "sha256": "fdd76326ab74118f0d797984b402a8a9c1d8dcf5062fd10fc84d3a122b5a9a50",
+  "licence": "not stated as open; copyright notice reserves all rights to IETS (copying prohibited without written consent)",
+  "fetched_utc": "2026-11-09T16:20:48Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

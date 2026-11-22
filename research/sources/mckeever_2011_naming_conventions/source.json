@@ -1,0 +1,12 @@
+{
+ "key": "mckeever_2011_naming_conventions",
+ "citation": "McKeever R, McDaid K (2011). Effect of Range Naming Conventions on Reliability and Development Time for Simple Spreadsheet Formulas. EuSpRIG proceedings. arXiv:1111.6872.",
+ "doi": null,
+ "url": "https://arxiv.org/pdf/1111.6872",
+ "media_type": "application/pdf",
+ "sha256": "cb6457aba69ecf466d990c9465ee8d8c0158abbc769d31e070ae079993915610",
+ "licence": "not stated",
+ "fetched": "2026-11-16T18:44:39Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/1111.6872"
+}

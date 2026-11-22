@@ -1,0 +1,13 @@
+{
+ "key": "dfo_2026_verdien_statistisk_liv",
+ "citation": "DFØ, Verdien av et statistisk liv (web page)",
+ "doi": null,
+ "url": "https://www.dfo.no/fagomrader/utrede-statlige-tiltak/samfunnsokonomiske-analyser/verdien-av-et-statistisk-liv",
+ "media_type": "text/html",
+ "sha256": "e58184fc3b0ddad91019da2f96b23cdd2d865ac73297e93daaa77c937dfc28bf",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34:24Z",
+ "text_method": "tag-stripping script (re, html.unescape) on original.html",
+ "text_chars": 4386,
+ "language": "nb (Norwegian bokmål)"
+}

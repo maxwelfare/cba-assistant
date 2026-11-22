@@ -1,0 +1,13 @@
+{
+ "key": "fin_2016_utredningsinstruksen",
+ "citation": "Instruks om utredning av statlige tiltak (utredningsinstruksen), fastsatt ved kgl.res. 19. februar 2016, sist endret 18 okt 2024 nr. 2492 (Lovdata)",
+ "doi": null,
+ "url": "https://lovdata.no/dokument/INS/forskrift/2016-02-19-184",
+ "media_type": "text/html",
+ "sha256": "52e54b0d229e3d97b0bbceeb56c4b3e21ef49900e9caaa81ea0ca8b87dd644ad",
+ "licence": "not stated",
+ "fetched_utc": "2026-11-09T16:34:24Z",
+ "text_method": "tag-stripping script (re, html.unescape) on original.html; paragraph breaks kept",
+ "text_chars": 18584,
+ "language": "nb (Norwegian bokmål)"
+}

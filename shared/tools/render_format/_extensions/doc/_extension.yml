@@ -1,0 +1,314 @@
+title: Doc
+author: shared
+version: 1.0.0
+quarto-required: ">=1.11.9"
+# The shared base format for tools/render.py (R67, notes/r67_shared_renderer.md 1.4), ported from the cost-benefit
+# project's house format at its commit edd0548: the table width rule, links, the contents list, number alignment and
+# equation fitting. A project's own format (boxes, covers, colours) goes over it by --format-dir.
+contributes:
+  formats:
+    typst:
+      papersize: us-letter
+      # The body face: TeX Gyre Pagella (GUST's Palatino, Debian's fonts-texgyre; the cost-benefit format's face),
+      # wide enough that tools/render.py's default margin gives a line of 75 to 90 characters at 11 pt (its
+      # docstring, item 3), where Typst's default Libertinus Serif gives over 90 at 1.25 in.
+      mainfont: TeX Gyre Pagella
+      page-numbering: "1"
+      keep-typ: true
+      filters:
+        - autowidth.lua
+        - numbers.lua
+        - links.lua
+        - contents.lua
+        - cells.lua
+      include-in-header:
+        - text: |
+            #show heading.where(level: 1): set text(size: 1.7em)
+            #show heading.where(level: 1): set heading(bookmarked: false) // the title is no bookmark
+            #show heading: set par(justify: false)
+            #show link: set text(fill: rgb("#1F5FAD"))
+            // A display equation wider than the text block, less room for its number on each side, is broken into
+            // one line per part at its top-level spaces of a quad or more, and set in smaller type, down to 80%,
+            // until its widest line fits; its number stays at full size. One that does not fit even so stops the
+            // build, naming its label.
+            #let doc-lines(body) = {
+              let kids = if body.func() == [].func() { body.children } else { (body,) }
+              let inner = kids.filter(k => k.func() == math.equation)
+              if inner.len() == 1 and kids.all(k => k.func() == math.equation or k == [ ]) {
+                return doc-lines(inner.first().body) }
+              let lines = ((),)
+              for k in kids {
+                if k.func() == h and type(k.amount) == length and k.amount.em >= 1 { lines.push(()) }
+                else { lines.last().push(k) }
+              }
+              lines.filter(l => l.len() > 0).map(l => l.join())
+            }
+            #show math.equation.where(block: true): it => layout(region => {
+              let wide(body) = measure(math.equation(block: false, math.display(body))).width
+              let number = if it.numbering == none { none } else { counter(math.equation).display(it.numbering) }
+              let side = if number == none { 0pt } else { measure(number).width + 1em.to-absolute() }
+              let room = region.width - 2 * side
+              if wide(it.body) <= room { return it }
+              let lines = doc-lines(it.body)
+              let scale = calc.min(1, room / calc.max(..lines.map(wide)))
+              if scale < 0.8 {
+                let name = if it.has("label") { str(it.label) } else { "an unlabelled display equation" }
+                panic("equation " + name + " is wider than the text block even broken at its quad spaces and set at 80% size; break it by hand")
+              }
+              block(width: 100%, grid(columns: (side, 1fr, side), align: (left, center + horizon, right + horizon),
+                [], { set text(size: scale * 1em)
+                      stack(spacing: 0.8em, ..lines.map(l => math.equation(block: false, math.display(l)))) },
+                number))
+            })
+            #show table: set align(start)
+            #show table.cell: set par(justify: false)
+            // Tables: the width rule of LaTeX's tabulary (Carlisle), with a least width for each column set by its
+            // longest word, as tabulary's \tymin sets one for all columns. tools/render.py gives the document's
+            // numbers by doc-tables at the body's start: `share`, the share of the body's size a
+            // table is set at (9/11, LaTeX's \footnotesize in its 11 pt class, or the document's `table-size`), the
+            // readable `floor`, the trim-safe edge `trim`, and the page's `left` and `right` margins. A column's
+            // natural width is that of its widest body cell and of its header's longest word, so a header wider than
+            // its column's entries wraps onto more lines rather than widen the column. A table whose columns fit the
+            // line at their natural widths keeps them; in one that does not, the line is shared among the columns in
+            // proportion to the total width of their entries, none narrower than its longest word or wider than its
+            // natural width, so no word is broken. A table whose longest words do not fit the line is placed by one
+            // order, each step tried before the next: (1) it runs into the side margins, centred on the line where
+            // both margins allow, never nearer the page's edge than `trim`; (2) its type shrinks, with 4 pt side
+            // insets, to the largest size at which it fits so, never below `floor` (nor below the document's own
+            // size, where that is smaller); (3) it gets a landscape page of its own, where the same order runs again;
+            // (4) past that, the build stops, naming the table. A table run into the margins lies between two
+            // <doc-wide> metadata, whose pages and heights the PDF carries out as the attachment doc-wide.json, which
+            // tools/render.py reads and removes, so that its overflow check lets that table's words reach the
+            // trim-safe edge and no other's. A table in a float is named by the float's label (less the "-float"
+            // that tools/render.py's crossrefs() adds) or its caption's words; any other by its first cell's words.
+            // A word is what a line may not break inside: the text between spaces, cut after a hyphen, slash or dash
+            // that follows a letter or digit; a code span is cut only at its spaces. A table given column widths of
+            // its own is left as it is. The scan places each cell as Typst does, in the first free column of its
+            // row, past the columns a cell above still covers with its rowspan.
+            // The plain words of a piece of content, for naming a table.
+            #let doc-plain(c) = {
+              if c == none { return "" }
+              if type(c) == str { return c }
+              if c.has("text") { return c.text }
+              if c.has("children") { return c.children.map(doc-plain).join() }
+              if c.has("body") { return doc-plain(c.body) }
+              if c.has("child") { return doc-plain(c.child) }
+              if c == [ ] { return " " }
+              ""
+            }
+            #let doc-parts(c) = {
+              if c == none { return () }
+              if type(c) == str {
+                let out = ()
+                for m in c.matches(regex("\s+|\S*?[\p{L}\p{N}][\-/\u{2013}\u{2014}]+|\S+")) {
+                  out += if m.text.trim() == "" { (none,) }
+                    else if m.text.ends-with(regex("[\-/\u{2013}\u{2014}]")) { (m.text, none) } else { (m.text,) }
+                }
+                return out
+              }
+              let f = c.func()
+              if f == text { return doc-parts(c.text) }
+              if c == [ ] or f == linebreak or f == parbreak { return (none,) }
+              if f == raw { return c.text.split(" ").map(s => (raw(s), none)).flatten() }
+              if f == [].func() { return c.children.map(doc-parts).flatten() }
+              if f == strong or f == emph { return doc-parts(c.body).map(p => if p == none { none } else { f(p) }) }
+              if f != math.equation and c.has("body") { return doc-parts(c.body) }
+              if c.has("child") { return doc-parts(c.child) }
+              (c,)
+            }
+            #let doc-longest(c, size) = {
+              let widest = 0pt
+              let word = ()
+              for p in doc-parts(c) + (none,) {
+                if p != none { word.push(p) } else if word.len() > 0 {
+                  widest = calc.max(widest, measure(text(size: size, word.join())).width)
+                  word = ()
+                }
+              }
+              widest
+            }
+            // The table's cells, each with whether it is a header cell.
+            #let doc-cells(it) = {
+              let out = ()
+              for c in it.children {
+                if c.func() in (table.header, table.footer) {
+                  for k in c.children.filter(k => k.func() == table.cell) { out.push((k, c.func() == table.header)) }
+                } else if c.func() == table.cell { out.push((c, false)) }
+              }
+              out
+            }
+            // Each column's natural, least and total widths at a type size and side inset.
+            #let doc-measure(cells, n, size, inset) = {
+              let natural = (2 * inset,) * n
+              let least = (2 * inset,) * n
+              let total = (0pt,) * n
+              let busy = (0,) * n // in each column, the rows below the current one a cell above still covers
+              let col = 0
+              for (c, head) in cells {
+                while busy.at(col) > 0 {
+                  busy.at(col) -= 1
+                  col = calc.rem(col + 1, n)
+                }
+                let span = if c.has("colspan") { c.colspan } else { 1 }
+                let rows = if c.has("rowspan") { c.rowspan } else { 1 }
+                for i in range(col, calc.min(col + span, n)) { busy.at(i) = rows - 1 }
+                if span == 1 {
+                  let longest = doc-longest(c.body, size)
+                  let wide = if head { longest } else { measure(text(size: size, c.body)).width }
+                  natural.at(col) = calc.max(natural.at(col), wide + 2 * inset)
+                  least.at(col) = calc.max(least.at(col), longest + 2 * inset)
+                  total.at(col) += wide
+                }
+                col = calc.rem(col + span, n)
+              }
+              (natural: natural, least: least, total: total)
+            }
+            // The columns' widths in `room`: the natural widths where they fit, else tabulary's share of it.
+            #let doc-widths(m, room) = {
+              let n = m.natural.len()
+              if m.natural.sum() <= room { return m.natural }
+              // The widths for a share `s` of a column's total per unit, each held between its least and natural
+              // widths; their sum grows with `s`, which is found by bisection so that it fills the line.
+              let widths(s) = range(n).map(i => calc.min(m.natural.at(i), calc.max(m.least.at(i), s * m.total.at(i))))
+              let ratios = range(n).filter(i => m.total.at(i) > 0pt).map(i => m.natural.at(i) / m.total.at(i))
+              let (low, high) = (0, if ratios.len() > 0 { calc.max(..ratios) } else { 0 })
+              for _ in range(40) {
+                let middle = (low + high) / 2
+                if widths(middle).sum() > room { high = middle } else { low = middle }
+              }
+              widths(low)
+            }
+            // A row's inset above and below its cells at `size`: Typst's 5 pt, or, where the document gives a
+            // `table-stretch` (cfg.stretch), LaTeX's \arraystretch: a row of n lines is n - 1 of their baseline
+            // pitches deep plus `stretch` of one, the insets making up what the lines' own height (Typst's, from the
+            // first line's cap height to the last one's baseline) lacks.
+            #let doc-rows(size, cfg) = if cfg.stretch == none { 5pt } else {
+              let one = measure(text(size: size)[x]).height
+              (cfg.stretch * (measure(text(size: size)[x \ x]).height - one) - one) / 2
+            }
+            // The table set at `size` with its columns' widths in `room`, run into the margins past `block` where
+            // it is wider, between its two <doc-wide> marks.
+            #let doc-set(it, m, size, inset, room, block, cfg) = {
+              let width = doc-widths(m, room)
+              let fields = it.fields()
+              let children = fields.remove("children")
+              let _ = fields.remove("columns")
+              let _ = fields.remove("inset", default: none)
+              let set-table = {
+                set text(size: size)
+                table(..fields, columns: width, inset: (x: inset, y: doc-rows(size, cfg)), ..children)
+              }
+              let over = width.sum() - block
+              if over <= 0pt { return set-table }
+              let shift = calc.min(cfg.ext-left, calc.max(over / 2, over - cfg.ext-right))
+              [#metadata("start")<doc-wide>]
+              pad(left: -shift, right: -(over - shift), set-table)
+              [#metadata("end")<doc-wide>]
+            }
+            #let doc-name(name, it) = if name != none { name } else {
+              let first = doc-cells(it)
+              "headed \"" + if first.len() > 0 { doc-plain(first.first().first().body).trim() } else { "" } + "\""
+            }
+            #let doc-fit-in(name, it, cfg) = layout(region => {
+              let n = it.columns.len()
+              let cells = doc-cells(it)
+              let block = region.width
+              let wide = block + cfg.ext-left + cfg.ext-right
+              let first = cfg.share * text.size
+              let m = doc-measure(cells, n, first, 5pt)
+              if m.least.sum() <= block { return doc-set(it, m, first, 5pt, block, block, cfg) }
+              if m.least.sum() <= wide { return doc-set(it, m, first, 5pt, wide, block, cfg) }
+              let lowest = calc.min(first, cfg.floor)
+              let low = doc-measure(cells, n, lowest, 4pt)
+              if lowest < first and low.least.sum() <= wide {
+                // the largest size whose longest words fit, by bisection between the floor and the first size
+                let (small, large) = (lowest, first)
+                for _ in range(12) {
+                  let middle = (small + large) / 2
+                  if doc-measure(cells, n, middle, 4pt).least.sum() <= wide { small = middle } else { large = middle }
+                }
+                return doc-set(it, doc-measure(cells, n, small, 4pt), small, 4pt, wide, block, cfg)
+              }
+              let need = if lowest < first { low } else { m }
+              panic("table " + doc-name(name, it) + " is too wide for the page even at "
+                + repr(calc.round(lowest.pt(), digits: 1)) + " pt, run into the margins to the trim-safe edge"
+                + if cfg.landscape { " on a landscape page" } else { "" } + ": its longest words need "
+                + repr(calc.round(need.least.sum().pt(), digits: 1)) + " pt against "
+                + repr(calc.round(wide.pt(), digits: 1)) + " pt; split or transpose it")
+            })
+            // Whether a table at the body's top level needs a landscape page: its longest words at its least size
+            // pass the trim-safe edges of a portrait page.
+            #let doc-landscape(it, cfg) = {
+              let first = cfg.share * text.size
+              let lowest = calc.min(first, cfg.floor)
+              let m = doc-measure(doc-cells(it), it.columns.len(), lowest, if lowest < first { 4pt } else { 5pt })
+              m.least.sum() > page.width - cfg.left - cfg.right + cfg.ext-left + cfg.ext-right
+            }
+            // Each table is set as is until the state doc-cfg holds the document's numbers (tools/render.py sets it
+            // by doc-tables at the body's start), so that no table is refused on a first layout pass that has not
+            // read them.
+            #let doc-cfg = state("doc-cfg", none)
+            #let doc-tables(share: none, floor: none, trim: none, left: none, right: none, stretch: none) = doc-cfg.update((
+              share: share, floor: floor, left: left, right: right, landscape: false, stretch: stretch,
+              ext-left: calc.max(0pt, left - trim), ext-right: calc.max(0pt, right - trim)))
+            // A table placed by the order above. `landscape` auto decides, for a table at the body's top level,
+            // whether it gets a landscape page; a float decides for its table and passes true or false.
+            #let doc-fit(name, it, landscape: auto) = {
+              if it.columns.any(c => c != auto) { return it }
+              context {
+                let cfg = doc-cfg.get()
+                if cfg == none { it } else {
+                  let flip = if landscape == auto { doc-landscape(it, cfg) } else { landscape }
+                  let fitted = doc-fit-in(name, it, cfg + (landscape: flip))
+                  if flip and landscape == auto { page(flipped: true, fitted) } else { fitted }
+                }
+              }
+            }
+            // The first table in a piece of content.
+            #let doc-find(c) = {
+              if type(c) != content { return none }
+              if c.func() == table { return c }
+              if c.has("children") {
+                for k in c.children {
+                  let t = doc-find(k)
+                  if t != none { return t }
+                }
+              }
+              if c.has("body") { return doc-find(c.body) }
+              if c.has("child") { return doc-find(c.child) }
+              none
+            }
+            #show table: it => doc-fit(none, it)
+            #show figure.where(kind: "quarto-float-tbl"): it => {
+              let label = if it.has("label") { str(it.label).replace(regex("-float$"), "") + " " } else { "" }
+              let caption = if it.caption == none { "" } else { "\"" + doc-plain(it.caption.body).trim() + "\"" }
+              let t = doc-find(it.body)
+              context {
+                let cfg = doc-cfg.get()
+                let flip = cfg != none and t != none and t.columns.all(c => c == auto) and doc-landscape(t, cfg)
+                let shown = { show table: x => doc-fit(label + caption, x, landscape: flip); it }
+                if flip { page(flipped: true, shown) } else { shown }
+              }
+            }
+            // A page drawn whole from another PDF that tools/render.py rendered and checked (a document's page set as
+            // a page's background) carries doc-placed in its body, a <doc-wide> mark of its own, so that the overflow
+            // check leaves that page out rather than hold the other document's words to this one's text block.
+            #let doc-placed = [#metadata("placed")<doc-wide>]
+            // The positions of the <doc-wide> marks, as the attachment doc-wide.json, after the document's last page.
+            #show: body => {
+              body
+              context {
+                let marks = query(<doc-wide>)
+                if marks.len() > 0 {
+                  let rows = marks.map(m => { let p = m.location().position(); (m.value, p.page, p.y.pt()) })
+                  pdf.attach("doc-wide.json", bytes(json.encode(rows)), description: "tools/render.py's table marks")
+                }
+              }
+            }
+            // A code span in running text may break after a slash, a full stop or an underscore, so a long file name
+            // does not run into the margin; the break is a space of 0.01 pt, since a zero-width space would be a
+            // character in the text a reader copies and Typst drops a space of 0 pt.
+            #show raw.where(block: false): it => { show regex("[/._]"): c => c + h(0.01pt); it }
+            // A labelled figure's or table's number is in its caption, written by tools/render.py (crossrefs()).
+            #show figure.where(kind: "quarto-float-fig"): set figure(placement: auto, numbering: none)
+            #show figure.where(kind: "quarto-float-tbl"): set figure(placement: auto, numbering: none)

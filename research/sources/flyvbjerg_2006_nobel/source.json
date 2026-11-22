@@ -1,0 +1,12 @@
+{
+ "key": "flyvbjerg_2006_nobel",
+ "citation": "Flyvbjerg B (2006). From Nobel Prize to project management: getting risks right. Project Management Journal 37(3):5-15 (arXiv:1302.3642).",
+ "doi": "10.1177/875697280603700302",
+ "url": "https://arxiv.org/pdf/1302.3642",
+ "media_type": "application/pdf",
+ "sha256": "2c893d23d76c319142e7ed7a71a62f6ba367817e0a71fa8e289927178333025d",
+ "licence": "arXiv, none stated",
+ "fetched": "2026-11-17T11:52:54Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://arxiv.org/pdf/1302.3642"
+}

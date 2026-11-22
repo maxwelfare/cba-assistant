@@ -1,0 +1,11 @@
+{
+ "key": "bka_2024_wfa_webanwendung_anleitungen",
+ "citation": "Bundeskanzleramt (2024). WFA-Webanwendung Schritt-für-Schritt-Anleitungen & FAQ, Version 2.10.1. Wien.",
+ "doi": null,
+ "url": "https://oeffentlicherdienst.gv.at/wp-content/uploads/2024/11/WFA_Webanwendung_Anleitungen_V2.10.1.pdf",
+ "media_type": "application/pdf",
+ "sha256": "afd4cab5778dae98d79cb7a01828247371a48f2c1e3289ad95247342587015ad",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:22:13Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

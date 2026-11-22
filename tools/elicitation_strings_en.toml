@@ -1,0 +1,35 @@
+# Every sentence an expert reads on a form made by tools/elicitation_form.py, in English. A question file names a
+# file of this shape in its `strings_file`; for another language, copy this file and translate each value. Every
+# key is required and no other is allowed. Each string may use only the placeholders it has here.
+
+expert_code_title = "Your expert code"
+expert_code_help = "The code in the link you were sent. It stands for you in the answers instead of your name."
+consent_named_title = "May we name you as one of the experts consulted?"
+consent_named_help = "Your name would appear in the analysis's list of experts, never beside your answers. A blank is read as No."
+consent_publish_anonymous_title = "May we publish your answers without your name?"
+consent_publish_anonymous_help = "Your answers and reasons would be published under your code, never your name. A blank is read as No."
+yes = "Yes"
+no = "No"
+
+channel = "What this number does in the analysis:"
+literature = "From the literature:"
+source = "(source: {key})"
+
+range = "Unit: {unit}. A number from {lo} to {hi}."
+invalid = "Enter a number from {lo} to {hi} ({unit})."
+lowest_title = "Lowest plausible value"
+lowest_help = "The lowest value you think the truth could realistically be."
+highest_title = "Highest plausible value"
+highest_help = "The highest value you think the truth could realistically be."
+best_title = "Best estimate"
+best_help = "Your best estimate is {best}."
+best_median = "the median of your judgement: the value you think the truth as likely to fall above as below"
+best_mean = "the mean of your judgement: the average of the values you think possible, each weighted by how likely you think it"
+confidence_title = "Confidence that the truth lies between your lowest and highest"
+confidence_help = "Per cent, a number from {lo} to {hi}: how sure you are that the true value lies between your lowest and highest plausible values."
+confidence_invalid = "Enter a number from {lo} to {hi}."
+reasons_title = "Your reasons"
+reasons_help = "Optional. What your numbers rest on. In round 2 the other experts see your reasons, without your name."
+
+fixture_title = "FIXTURE, not for experts:"
+fixture_note = "FIXTURE: this form is a build test. Its wording is the test's, not the case author's; do not send it to experts."

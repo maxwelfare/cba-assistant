@@ -1,0 +1,12 @@
+{
+  "key": "ye_2025_replicationbench",
+  "citation": "Ye C, Yuan S, Cooray S, Dillmann S, Roque ILV, Baron D, Frank P, Martin-Alvarez S, Koblischke N, Qu FJ, Yang D, Wechsler R, Ciucă I (2025). ReplicationBench: Can AI Agents Replicate Astrophysics Research Papers? arXiv:2510.24591v2 (23 Nov 2025).",
+  "doi": "10.48550/arXiv.2510.24591",
+  "url": "https://arxiv.org/pdf/2510.24591",
+  "media_type": "application/pdf",
+  "sha256": "c9315f973b5d4b0f6934b72cb2916aeb3d268eb85a9f6ce1ad8d07d7ef2ace88",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T20:39:29Z",
+  "text_method": "pdftotext original.pdf text.txt",
+  "text_chars": 103443
+}

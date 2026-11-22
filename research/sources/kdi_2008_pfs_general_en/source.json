@@ -1,0 +1,11 @@
+{
+ "key": "kdi_2008_pfs_general_en",
+ "citation": "Public and Private Infrastructure Investment Management Center (PIMAC), Korea Development Institute (2008-12). General Guidelines for Preliminary Feasibility Studies (fifth edition). SUPERSEDED: the official English version found is the 2008 edition; the current Korean rules are mpb_2026_pfs_overall and mpb_2026_pfs_operating.",
+ "doi": null,
+ "url": "https://www.kdi.re.kr/kdidata/departments/pimac/general_guidelines_for_pfs.pdf",
+ "media_type": "application/pdf",
+ "sha256": "99662e4089836d77d29c69fe07aad24a3d2fc250c74ceb9cae3d86ad4feeea8a",
+ "licence": "not stated",
+ "fetched": "2026-11-09T16:20:00Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

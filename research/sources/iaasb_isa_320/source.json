@@ -1,0 +1,11 @@
+{
+ "key": "iaasb_isa_320",
+ "citation": "IAASB (2009). International Standard on Auditing 320: Materiality in Planning and Performing an Audit (effective for periods beginning on or after 15 December 2009; IFAC-hosted 2012 handbook copy). International Auditing and Assurance Standards Board.",
+ "doi": "",
+ "url": "https://www.ifac.org/_flysystem/azure-private/publications/files/A019%202012%20IAASB%20Handbook%20ISA%20320.pdf",
+ "media_type": "application/pdf",
+ "sha256": "0b2260f8e96b843018df9e600d617195ce6fd7dcb453dd7a1e3eff666af5cf79",
+ "licence": "not stated (IFAC free download; IFAC copyright)",
+ "fetched": "2026-11-08T01:12:17Z",
+ "text_method": "pdftotext original.pdf text.txt"
+}

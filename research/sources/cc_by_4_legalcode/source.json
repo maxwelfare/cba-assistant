@@ -1,0 +1,12 @@
+{
+  "key": "cc_by_4_legalcode",
+  "citation": "Creative Commons. Attribution 4.0 International (CC BY 4.0) legal code.",
+  "doi": null,
+  "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+  "media_type": "text/html",
+  "sha256": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-10T01:09:10Z",
+  "text_method": "python script: dropped script/style/nav/footer/header tags, block ends to newlines, tags stripped, entities unescaped",
+  "text_chars": 17667
+}

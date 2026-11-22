@@ -1,0 +1,11 @@
+{
+  "key": "kprm_2015_wytyczne_ocena_wplywu",
+  "citation": "Wytyczne do przeprowadzania oceny wpływu oraz konsultacji publicznych w ramach rządowego procesu legislacyjnego (Ministerstwo Gospodarki with Kancelaria Prezesa Rady Ministrów; adopted by Council of Ministers 5 May 2015)",
+  "doi": null,
+  "url": "https://rcl.gov.pl/wp-content/uploads/2020/11/WytyczneOW.pdf",
+  "media_type": "application/pdf",
+  "sha256": "bb7e8d711021b50f6f2e39ff7ab624fcb568a6b3f8cbc6f20d89c56be33df18b",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:48Z",
+  "text_method": "pdftotext original.pdf text.txt"
+}

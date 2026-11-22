@@ -1,0 +1,12 @@
+{
+ "key": "schunemann_2024_cochrane_ch14",
+ "citation": "Schünemann HJ, Higgins JPT, Vist GE, Glasziou P, Akl EA, Skoetz N, Guyatt GH (2024). Chapter 14: Completing 'Summary of findings' tables and grading the certainty of the evidence. In: Higgins JPT, Thomas J, et al. (eds), Cochrane Handbook for Systematic Reviews of Interventions, version 6.5. Cochrane.",
+ "doi": null,
+ "url": "https://training.cochrane.org/handbook/current/chapter-14",
+ "media_type": "text/html",
+ "sha256": "edf1ac7062c3622da258ed99c54669dec0f0b2a77768fbad22a9e445a95f09a7",
+ "licence": "not stated",
+ "fetched": "2026-11-12T15:54:21Z",
+ "text_method": "tools/source_store.py html_text: script, style and noscript dropped, block ends as line breaks, decoded as utf-8, the codec for UTF-8, the Encoding Standard's encoding for the declared label \"utf-8\"",
+ "how": "python tools/host_cooldown.py fetch https://training.cochrane.org/handbook/current/chapter-14"
+}

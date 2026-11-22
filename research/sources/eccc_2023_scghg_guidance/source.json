@@ -1,0 +1,11 @@
+{
+  "key": "eccc_2023_scghg_guidance",
+  "citation": "Environment and Climate Change Canada (effective 12 December 2022). Social Cost of Greenhouse Gas Estimates - Interim Updated Guidance for the Government of Canada.",
+  "doi": null,
+  "url": "https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/social-cost-ghg.html",
+  "media_type": "text/html",
+  "sha256": "dd6e7615949abc7eed51554d8354ccf6e6ccfe1db3c6d2780ca30ab34859b83f",
+  "licence": "not stated (Government of Canada publication)",
+  "fetched_utc": "2026-11-09T16:22Z",
+  "text_method": "python3 -I html2txt script (main element, tags stripped, paragraph breaks)"
+}

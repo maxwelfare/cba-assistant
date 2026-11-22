@@ -1,0 +1,12 @@
+{
+ "key": "epa_2001_rags3a",
+ "citation": "US Environmental Protection Agency (2001). Risk Assessment Guidance for Superfund, Volume III Part A: Process for Conducting Probabilistic Risk Assessment. EPA 540-R-02-002, December 2001.",
+ "doi": null,
+ "url": "https://19january2021snapshot.epa.gov/sites/static/files/2015-09/documents/rags3adt_complete.pdf",
+ "media_type": "application/pdf",
+ "sha256": "af20a0f5f1596e1f179679107c41b1fc573dd80b53efdc3396d8d53675a12809",
+ "licence": "US federal government work, public domain",
+ "fetched": "2026-11-12T17:40:18Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://19january2021snapshot.epa.gov/sites/static/files/2015-09/documents/rags3adt_complete.pdf"
+}

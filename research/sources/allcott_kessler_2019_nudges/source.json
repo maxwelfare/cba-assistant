@@ -1,0 +1,12 @@
+{
+ "key": "allcott_kessler_2019_nudges",
+ "citation": "Allcott H, Kessler JB (2019). The Welfare Effects of Nudges: A Case Study of Energy Use Social Comparisons. AEJ: Applied Economics 11(1):236-276 (NBER working paper 21671 stored).",
+ "doi": "10.1257/app.20170328",
+ "url": "https://www.nber.org/system/files/working_papers/w21671/revisions/w21671.rev0.pdf",
+ "media_type": "application/pdf",
+ "sha256": "2549ef032a7adc788ad1448047690b0dabc927cb94b77219c0047ce3a1c890c0",
+ "licence": "NBER working paper, copyright the authors; free download",
+ "fetched": "2026-11-14T13:41:38Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://www.nber.org/system/files/working_papers/w21671/revisions/w21671.rev0.pdf"
+}

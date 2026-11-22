@@ -1,0 +1,12 @@
+{
+ "key": "zawadzki_2020_pro_environmental_wellbeing",
+ "citation": "Zawadzki SJ, Steg L, Bouman T (2020). Meta-analytic evidence for a robust and positive association between individuals' pro-environmental behaviors and their subjective wellbeing. Environmental Research Letters 15(12):123007.",
+ "doi": "10.1088/1748-9326/abc4ae",
+ "url": "https://iopscience.iop.org/article/10.1088/1748-9326/abc4ae/pdf",
+ "media_type": "application/pdf",
+ "sha256": "ade6b4d0437ca5e9d499b6d63e93fdadf89cf277209d4fae2eb150d2b22b9e94",
+ "licence": "CC BY",
+ "fetched": "2026-11-14T13:13:45Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "python tools/host_cooldown.py fetch https://iopscience.iop.org/article/10.1088/1748-9326/abc4ae/pdf"
+}

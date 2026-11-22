@@ -1,0 +1,36 @@
+# United Kingdom, values in force on 2026-10-29 (the Green Book's discount rates changed on 28 October 2026). Read in
+# each document's own text on 2026-10-29 or 2026-10-30.
+jurisdiction = "United Kingdom"
+edition = "2026-10-29"
+
+[discount_rate]
+schedule = [[1, 30, 0.03], [31, 75, 0.025], [76, 125, 0.0225]]
+unit = "real rate per year, by year of the appraisal: [first year, last year, rate]"
+document = "HM Treasury, The Green Book (2026), updated 28 October 2026"
+url = "https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026"
+quote = "It is set at 3.00% in real terms for years 1 to 30 of an appraisal. It is 2.50% for years 31 to 75, and then 2.25% for year 76 onwards."
+licence = "Open Government Licence v3.0"
+
+[health_effects]
+uprating = 0.02
+unit = "real growth per year applied to the value of future health effects, in place of a health discount rate"
+document = "HM Treasury, Green Book Discount Rate Review 2026: HM Treasury response, October 2026, Box 1.A"
+url = "https://assets.publishing.service.gov.uk/media/6ae0b3a97cf9b2248904678e/Green_Book_Discount_Rate_Review_2026_-_HM_Treasury_response.pdf"
+quote = "The Green Book no longer recommends the use of the health discount rate of 1.50%. Instead, the value of future real health effects should be uprated by 2% per annum over time."
+licence = "Open Government Licence v3.0"
+
+[value_of_a_qaly]
+value = 70000
+unit = "GBP 2020-21 per QALY"
+document = "HM Treasury, The Green Book (2026)"
+url = "https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026"
+quote = "The current monetary willingness-to-pay (WTP) value for a QALY is £70,000 in 2020-21 prices."
+licence = "Open Government Licence v3.0"
+
+[value_of_preventing_a_fatality]
+value = 2652796
+unit = "GBP 2023 prices and values per fatal casualty"
+document = "Department for Transport, TAG data book v2.03 (May 2026), Table A4.1.1, row Fatal, total"
+url = "https://assets.publishing.service.gov.uk/media/6a576e102f6185941a9a6569/tag-data-book-v2-03.xlsm"
+quote = "Table A 4.1.1: Average value of prevention per casualty by severity and element of cost; £ (2023 prices and 2023 values); row Fatal, total 2652796.19"
+licence = "not read on its publication page"

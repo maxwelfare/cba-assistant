@@ -1,0 +1,11 @@
+{
+  "key": "pharmac_2015_pfpa_v2_2",
+  "citation": "PHARMAC (2015). Prescription for Pharmacoeconomic Analysis: Methods for cost-utility analysis, version 2.2. Wellington.",
+  "doi": null,
+  "url": "https://www.pharmac.govt.nz/assets/pfpa-2-2.pdf",
+  "media_type": "application/pdf",
+  "sha256": "468bd4d7ea0f5de6eff15b891c9086c4650d1fba4732459897c7ceaa2f65ff18",
+  "licence": "not stated",
+  "fetched_utc": "2026-11-09T16:32:13+00:00",
+  "text_method": "pdftotext original.pdf text.txt"
+}

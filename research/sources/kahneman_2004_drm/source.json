@@ -1,0 +1,12 @@
+{
+ "key": "kahneman_2004_drm",
+ "citation": "Kahneman D, Krueger AB, Schkade DA, Schwarz N, Stone AA (2004). A survey method for characterizing daily life experience: the day reconstruction method. Science 306(5702):1776-1780.",
+ "doi": "10.1126/science.1103572",
+ "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15576620%20AND%20SRC:MED&resultType=core&format=xml",
+ "media_type": "application/xml",
+ "sha256": "bcd61a42ef383f37dd5d0d8fa754afe5eaae2a86e2e43140e90a61d5813ceb46",
+ "licence": "not stated",
+ "fetched": "2026-11-14T13:12:15Z",
+ "text_method": "tools/source_store.py xml_text: the text content, block elements as line breaks, named entities not declared in the file resolved from Python's html.entities.html5 (the DTD is not read)",
+ "how": "python tools/host_cooldown.py fetch https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15576620%20AND%20SRC:MED&resultType=core&format=xml"
+}

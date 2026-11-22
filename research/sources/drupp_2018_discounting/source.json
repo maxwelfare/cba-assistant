@@ -1,0 +1,12 @@
+{
+ "key": "drupp_2018_discounting",
+ "citation": "Drupp MA, Freeman MC, Groom B, Nesje F (2018). Discounting Disentangled. American Economic Journal: Economic Policy 10(4):109-134. Accepted manuscript.",
+ "doi": "10.1257/pol.20160240",
+ "url": "https://eprints.whiterose.ac.uk/125845/1/Actual_resubmission_DiscountingDisentangled_AEJP_2017_R2.pdf",
+ "media_type": "application/pdf",
+ "sha256": "12167e05b2042114b45a802230cba09b2a3954254ed05be4475f290d9623778b",
+ "licence": "all rights reserved unless indicated otherwise (White Rose eprints record)",
+ "fetched": "2026-11-10T21:30:56Z",
+ "text_method": "pdftotext original.pdf text.txt",
+ "how": "copied from tmp/scratchpad/drupp/original.pdf (fetched is the file's modification time)"
+}
